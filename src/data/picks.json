@@ -42,8 +42,8 @@
   "garaku": "pegasis",
   "moiwa": "both",
   "daruma": "both",
-  "asahiyama": "pegasis",
-  "mega-donki-sapporo": "aoki"
+  "mega-donki-sapporo": "aoki",
+  "nara-park": "both"
  },
  "road-trip": {
   "isetan": "pegasis",
@@ -112,6 +112,7 @@
   "shibuya-sky": "aoki",
   "maidreamin-shibuya": "pegasis",
   "wagyu-musashi": "aoki",
+  "todaiji": "both",
   "yamayaki-view": "both",
   "fushimi-inari": "aoki",
   "kinkakuji": "aoki",

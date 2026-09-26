@@ -7,12 +7,15 @@ def wants(f):
         if s.startswith('WANT'): return set(re.findall(r'\[([a-z0-9-]+)\] ·',s))
     return set()
 A=wants('aoki-choices.txt'); P=wants('pega-choices.txt')
+# Places whose ref names a different idea than the one in the choice files
+ALIAS={'nara-park-todaiji':'rw3-nara-yamayaki-2027'}
 out={}
 for f in sorted(glob.glob(os.path.join(ROOT,'src/data/plans/*.json'))):
     plan=json.load(open(f)); res={}
     for pl in plan['places']:
         keys={k for k in (pl.get('ref'),pl['id']) if k}
         keys|={'plan-'+k for k in keys}|{k.replace('plan-','') for k in keys}
+        keys|={ALIAS[k] for k in keys if k in ALIAS}
         a,p=bool(keys&A),bool(keys&P)
         if a or p: res[pl['id']]='both' if a and p else 'aoki' if a else 'pegasis'
     out[plan['id']]=res
