@@ -19,7 +19,7 @@ export default function PlaceDetail({ place, day, onClose }: Props) {
       <button className="detail-close" onClick={onClose} aria-label="Close details">
         <Icon name="close" size={18} />
       </button>
-      <Gallery photos={photosFor(place.id, place.photo, place.credit)} alt={place.en} />
+      <Gallery photos={photosFor(place.galleryKey ?? place.id, place.photo, place.credit)} alt={place.en} />
       <div className="detail-body">
         <p className="detail-kind">
           {KIND_LABEL[place.kind]}
@@ -29,12 +29,23 @@ export default function PlaceDetail({ place, day, onClose }: Props) {
         <h2 className="detail-ja" lang="ja">{place.ja}</h2>
         {place.romaji && <p className="detail-romaji">{place.romaji}</p>}
         <p className="detail-en">{place.en}</p>
-        {place.anime && <p className="detail-anime">{place.anime}</p>}
         {stop?.note && (
           <div className="detail-plan">
             <h3>Your plan</h3>
             <p>{stop.note}</p>
           </div>
+        )}
+
+        {place.experience && (
+          <section className="todo-there">
+            <p className="hook">{place.experience.hook}</p>
+            <ol>
+              {place.experience.moments.map((m, i) => (
+                <li key={i}>{m}</li>
+              ))}
+            </ol>
+            {place.experience.tip && <p className="insider">Tip: {place.experience.tip}</p>}
+          </section>
         )}
 
         {place.info && place.info.length > 0 && (
@@ -48,31 +59,36 @@ export default function PlaceDetail({ place, day, onClose }: Props) {
           </dl>
         )}
 
-        <p className="detail-blurb">{place.blurb}</p>
+        {!place.experience && <p className="detail-blurb">{place.blurb}</p>}
 
-        {place.tips && place.tips.length > 0 && (
-          <section className="detail-tips">
-            <h3>Tips</h3>
-            <ul>
-              {place.tips.map((t, i) => (
-                <li key={i}>{t}</li>
+        <details className="fold">
+          <summary>
+            More details <Icon name="down" />
+          </summary>
+          <div className="more-details">
+            {place.experience && <p>{place.blurb}</p>}
+            {place.anime && <p>{place.anime}</p>}
+            {place.tips && place.tips.length > 0 && (
+              <ul className="notes">
+                {place.tips.map((t, i) => (
+                  <li key={i}>{t}</li>
+                ))}
+              </ul>
+            )}
+            <div className="detail-links">
+              <a href={gmaps} target="_blank" rel="noreferrer" className="btn btn-ghost">
+                <Icon name="pin" />
+                Google Maps
+              </a>
+              {place.links?.map((l) => (
+                <a key={l.url} href={l.url} target="_blank" rel="noreferrer" className="btn btn-ghost">
+                  {l.label}
+                  <Icon name="external" size={14} />
+                </a>
               ))}
-            </ul>
-          </section>
-        )}
-
-        <div className="detail-links">
-          <a href={gmaps} target="_blank" rel="noreferrer" className="btn">
-            <Icon name="pin" />
-            Open in Google Maps
-          </a>
-          {place.links?.map((l) => (
-            <a key={l.url} href={l.url} target="_blank" rel="noreferrer" className="btn btn-ghost">
-              {l.label}
-              <Icon name="external" size={14} />
-            </a>
-          ))}
-        </div>
+            </div>
+          </div>
+        </details>
       </div>
     </article>
   )

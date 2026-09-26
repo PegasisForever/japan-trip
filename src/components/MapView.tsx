@@ -4,10 +4,9 @@ import type { LngLatLike } from 'maplibre-gl'
 import type { Feature } from 'geojson'
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 import 'maplibre-gl/dist/maplibre-gl.css'
-import type { Choice, Day, Idea, Leg, Place } from '../data/types'
-import { MODE_COLOR, KIND_LABEL, CATEGORY, VERDICT } from '../data/style'
+import type { Day, Leg, Place } from '../data/types'
+import { MODE_COLOR, KIND_LABEL } from '../data/style'
 import { photoUrl } from '../data/photos'
-import { iconHtml } from './icons'
 
 interface Props {
   days: Day[]
@@ -19,9 +18,6 @@ interface Props {
   onHover: (id: string | null) => void
   onSelect: (id: string) => void
   onPickDay: (n: number) => void
-  /** Ideas mode: show these ideas instead of the plan */
-  ideas: Idea[] | null
-  choices: Record<string, Choice>
 }
 
 type Coord = [number, number]
@@ -55,18 +51,12 @@ function legLine(leg: Leg, key: string, places: Record<string, Place>, routes: P
   return routes[key] ?? [pa, pb]
 }
 
-function buildRoutes(
-  days: Day[],
-  day: Day | null,
-  places: Record<string, Place>,
-  routes: Props['routes'],
-  ideas: Idea[] | null = null,
-  hot: string | null = null,
-) {
+function buildRoutes(days: Day[], day: Day | null, places: Record<string, Place>, routes: Props['routes']) {
   const features: Feature[] = []
   for (const d of days) {
     d.legs.forEach((leg, i) => {
-      const active = !ideas && (!day || d.n === day.n)
+      if (!places[leg.from] || !places[leg.to]) return
+      const active = !day || d.n === day.n
       features.push({
         type: 'Feature',
         properties: { mode: leg.mode, active: active ? 1 : 0, color: MODE_COLOR[leg.mode] },
@@ -74,19 +64,11 @@ function buildRoutes(
       })
     })
   }
-  for (const idea of ideas ?? []) {
-    if (!idea.route || idea.route.length < 2) continue
-    features.push({
-      type: 'Feature',
-      properties: { idea: 1, hot: idea.id === hot ? 1 : 0, color: CATEGORY[idea.category]?.color ?? '#fff' },
-      geometry: { type: 'LineString', coordinates: idea.route },
-    })
-  }
   return { type: 'FeatureCollection' as const, features }
 }
 
 export default function MapView(props: Props) {
-  const { days, places, routes, day, hovered, selected, onHover, onSelect, onPickDay, ideas, choices } = props
+  const { days, places, routes, day, hovered, selected, onHover, onSelect, onPickDay } = props
   const box = useRef<HTMLDivElement>(null)
   const map = useRef<maplibregl.Map | null>(null)
   const markers = useRef<Map<string, { m: maplibregl.Marker; el: HTMLElement }>>(new Map())
@@ -181,19 +163,6 @@ export default function MapView(props: Props) {
         layout: { 'line-cap': 'round' },
         paint: { 'line-color': ['get', 'color'], 'line-width': 3, 'line-dasharray': [1, 2] },
       })
-      m.addLayer({
-        id: 'ideas-line',
-        type: 'line',
-        source: 'routes',
-        filter: ['==', ['get', 'idea'], 1],
-        layout: { 'line-join': 'round', 'line-cap': 'round' },
-        paint: {
-          'line-color': ['get', 'color'],
-          'line-width': ['case', ['==', ['get', 'hot'], 1], 5, 2],
-          'line-opacity': ['case', ['==', ['get', 'hot'], 1], 1, 0.45],
-          'line-dasharray': [2, 1.5],
-        },
-      })
       ready.current = true
       pending.current?.()
       pending.current = null
@@ -211,54 +180,11 @@ export default function MapView(props: Props) {
     const m = map.current
     if (!m) return
     const apply = () => {
-      ;(m.getSource('routes') as maplibregl.GeoJSONSource).setData(buildRoutes(days, day, places, routes, ideas))
+      ;(m.getSource('routes') as maplibregl.GeoJSONSource).setData(buildRoutes(days, day, places, routes))
 
       markers.current.forEach(({ m: mk }) => mk.remove())
       markers.current.clear()
 
-      if (ideas) {
-        const bounds = new maplibregl.LngLatBounds()
-        for (const idea of ideas) {
-          const el = document.createElement('button')
-          el.className = 'pin pin-idea'
-          el.style.setProperty('--cc', CATEGORY[idea.category]?.color ?? '#fff')
-          el.setAttribute('aria-label', idea.title)
-          const img = idea.photo ? `<img src="${photoUrl(idea.photo, 160)}" alt="" loading="lazy">` : ''
-          el.innerHTML = `
-            <span class="pin-ring">${img}</span>
-            <span class="pin-num">${iconHtml('check')}</span>
-            <span class="pin-tip">
-              ${idea.photo ? `<img src="${photoUrl(idea.photo, 480)}" alt="">` : ''}
-              <span class="pin-tip-body">
-                <span class="pin-tip-kind">${CATEGORY[idea.category]?.label ?? ''}</span>
-                <span class="pin-tip-ja" lang="ja">${idea.titleJa}</span>
-                <span class="pin-tip-en">${idea.title}</span>
-              </span>
-            </span>`
-          el.addEventListener('mouseenter', () => {
-            el.classList.toggle('tip-below', el.getBoundingClientRect().top < 330)
-            cb.current.onHover(idea.id)
-          })
-          el.addEventListener('mouseleave', () => cb.current.onHover(null))
-          el.addEventListener('click', (e) => {
-            e.stopPropagation()
-            cb.current.onSelect(idea.id)
-          })
-          const mk = new maplibregl.Marker({ element: el, anchor: 'center' }).setLngLat([idea.lon, idea.lat]).addTo(m)
-          markers.current.set(idea.id, { m: mk, el })
-          bounds.extend([idea.lon, idea.lat])
-        }
-        const panel = document.querySelector('.ideas')?.getBoundingClientRect()
-        if (!bounds.isEmpty())
-          m.fitBounds(bounds, {
-            padding: { top: 100, bottom: 110, left: (panel?.right ?? 460) + 40, right: 60 },
-            maxZoom: 9,
-            pitch: 0,
-            bearing: 0,
-            duration: 1200,
-          })
-        return
-      }
 
       const pins: { id: string; label: string; place: Place; dayN?: number; time?: string }[] = []
       if (day) {
@@ -340,7 +266,7 @@ export default function MapView(props: Props) {
     }
     if (ready.current) apply()
     else pending.current = apply
-  }, [day, days, places, routes, ideas])
+  }, [day, days, places, routes])
 
   // Hover and selection highlight on markers
   useEffect(() => {
@@ -349,33 +275,12 @@ export default function MapView(props: Props) {
       if (id === hovered) el.classList.toggle('tip-below', el.getBoundingClientRect().top < 330)
       el.classList.toggle('is-selected', id === selected)
     })
-    if (ideas) {
-      markers.current.forEach(({ el }, id) => {
-        for (const v of Object.keys(VERDICT)) el.classList.toggle(`v-${v}`, choices[id]?.verdict === v)
-      })
-      const m = map.current
-      if (m && ready.current)
-        (m.getSource('routes') as maplibregl.GeoJSONSource).setData(
-          buildRoutes(days, day, places, routes, ideas, hovered ?? selected),
-        )
-    }
-  }, [hovered, selected, day, ideas, choices, days, places, routes])
+  }, [hovered, selected, day])
 
   // Fly to a selected place
   useEffect(() => {
     const m = map.current
     if (!m || !selected || !ready.current) return
-    const idea = ideas?.find((i) => i.id === selected)
-    if (idea) {
-      const panel = document.querySelector('.ideas')?.getBoundingClientRect()
-      const pad = { top: 100, bottom: 120, left: (panel?.right ?? 460) + 40, right: 480 }
-      if (idea.route && idea.route.length > 1) {
-        const b = new maplibregl.LngLatBounds()
-        for (const c of idea.route) b.extend(c)
-        m.fitBounds(b, { padding: pad, maxZoom: 10, pitch: 0, duration: 1200 })
-      } else m.easeTo({ center: [idea.lon, idea.lat], zoom: 11, pitch: 30, padding: pad, duration: 1200 })
-      return
-    }
     const p = places[selected]
     if (!p) return
     const narrow = window.innerWidth < 760
@@ -386,7 +291,7 @@ export default function MapView(props: Props) {
       padding: narrow ? { top: 80, bottom: 380, left: 0, right: 0 } : { top: 80, bottom: 220, left: 440, right: 460 },
       duration: 1400,
     })
-  }, [selected, places, ideas])
+  }, [selected, places])
 
   return <div ref={box} className="map" />
 }

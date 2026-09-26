@@ -9,11 +9,9 @@ interface Props {
   places: Record<string, Place>
   onPick: (n: number | null) => void
   onSelect: (id: string) => void
-  ideaCount: number
-  onIdeas: () => void
 }
 
-export default function DayBoard({ day, days, places, onPick, onSelect, ideaCount, onIdeas }: Props) {
+export default function DayBoard({ day, days, places, onPick, onSelect }: Props) {
   const [more, setMore] = useState(false)
   const [open, setOpen] = useState(false)
   const prev = days.find((d) => d.n === day.n - 1)
@@ -115,14 +113,6 @@ export default function DayBoard({ day, days, places, onPick, onSelect, ideaCoun
           </ul>
         </section>
 
-        {ideaCount > 0 && (
-          <button className="day-ideas" onClick={onIdeas}>
-            <span>
-              <b>{ideaCount} more ideas</b> fit this day
-            </span>
-            <Icon name="right" />
-          </button>
-        )}
 
         <button className="more" onClick={() => setMore((m) => !m)} aria-expanded={more}>
           {more ? 'Hide day notes' : `Day notes${day.notes?.length ? ` and ${day.notes.length} tips` : ''}`}

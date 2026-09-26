@@ -1,0 +1,115 @@
+{
+ "part": "days 6–10 (Suzuka by car, Kansai, Itami → New Chitose, Hokkaido car, Rusutsu)",
+ "checked": 51,
+ "issues": [
+  {
+   "day": 6,
+   "item": "Suzuka Circuit Challenger time",
+   "status": "risky",
+   "problem": "In January 2026 the EV kart ran only in one short midday window (about 11:40–13:20, e.g. Sun Jan 25 11:55–13:05, 80–140 karts a day), so 'about 11:30' will probably not be a bookable time.",
+   "evidence": "https://www.suzukacircuit.jp/park/attraction/challenger/ ; official schedule calendar https://calendar.google.com/calendar/ical/circuit.kart@gmail.com/public/basic.ics",
+   "fix": "On Dec 1 book the slot that the January 2027 schedule shows (probably about 12:00–13:00) and put lunch before or after it; keep the 10:45 arrival."
+  },
+  {
+   "day": 6,
+   "item": "Drive Namba → Suzuka (Meihan National Route 25)",
+   "status": "risky",
+   "problem": "The note says 'no mountain roads', but the Meihan road climbs to about 500 m between Tenri and Iga and often has snow and ice in late January.",
+   "evidence": "https://www.google.com/maps/dir/34.6704,135.50846/34.8446735,136.5379076/ (1 h 46, 131 km via 名阪国道/国道25号)",
+   "fix": "Keep the studless tyres; check road information (JARTIC / NEXCO) in the morning; remove 'no mountain roads' from the notes."
+  },
+  {
+   "day": 6,
+   "item": "Dormy Inn PREMIUM Namba price",
+   "status": "unknown",
+   "problem": "The price for Jan 23–26, 2027 could not be shown (Google Hotels only gives near dates); the hotel has only 12 twin + 7 compact twin rooms.",
+   "evidence": "https://dormy-hotels.com/dormyinn/hotels/premium_nanba/floor",
+   "fix": "Book the twin room early (refundable) and check the real price on the official site when booking opens."
+  },
+  {
+   "day": 7,
+   "item": "Bus Kinkakuji → Kyoto Concert Hall",
+   "status": "wrong",
+   "problem": "City Bus 204 does not go to Kitayama; it goes Kinkakuji-michi → Kitaoji Bus Terminal and loops east.",
+   "evidence": "https://ja.wikipedia.org/wiki/京都市営バス (route table: 204 北大路BT - 金閣寺道 - 西ノ京円町 - … ; 205 … 北大路BT - 金閣寺道 …)",
+   "fix": "Bus 204 or 205 Kinkakuji-michi → Kitaoji Bus Terminal (about 15 min), then Karasuma Line Kitaoji → Kitayama (1 stop) and walk 5 min; about 30 min in total."
+  },
+  {
+   "day": 9,
+   "item": "Hotel 3M price and room",
+   "status": "risky",
+   "problem": "The official site for Jan 27–30 shows only a smoking twin, ¥12,000 pp on Jan 27–28 and ¥10,500 on Jan 29, so about ¥69,000 for two, not ¥49,500.",
+   "evidence": "https://reserve.489ban.net/client/hotel3m/0/plan/search?date=2027-01-27+00%3A00%3A00&numberOfNights=3&roomCount=1&adult=2",
+   "fix": "Raise the cost to about ¥69,000; accept the smoking twin, book single + extra bed, or choose another Kutchan hotel (e.g. Smart Hotel Kutchan, similar price)."
+  },
+  {
+   "day": 9,
+   "item": "CTS car pickup → Hirafu before dark",
+   "status": "risky",
+   "problem": "The drive is about 116 km (1 h 36 without snow); with ski-season queues at the Toyota counter, departure can slip to about 14:00 and arrival near the 16:45 sunset.",
+   "evidence": "https://rent.toyota.co.jp/shop/detail.aspx?rCode=61201&eCode=002&udFlg=2 , https://router.project-osrm.org",
+   "fix": "Use Toyota self check-in; if you leave CTS after 13:45 take the expressway via Otaru (the plan's backup) or pick up the Rhythm gear next morning."
+  },
+  {
+   "day": 10,
+   "item": "Rusutsu drift: intro course time",
+   "status": "wrong",
+   "problem": "The 30-min Introduction Course (¥31,000) runs only at 15:00; at 10:00 there is only the 75-min Driving Course (¥61,000) or the ride-alongs.",
+   "evidence": "https://rusutsu.com/winter-activities/snow-driving/ , https://rusutsu.com/en/winter-activities/snow-driving/",
+   "fix": "Book the 10:00 Driving Course (¥61,000; back seat ¥20,000), or move the intro to 15:00 with skiing/lesson in the morning; update the bookFirst entry that says 10:00."
+  },
+  {
+   "day": 10,
+   "item": "Rusutsu drift: prices for Aoki and the pro ride",
+   "status": "wrong",
+   "problem": "The Subaru pro ride is ¥17,000 per person (not for two), and Aoki in the back seat costs ¥10,000 (intro) or ¥20,000 (Driving Course); the cost section counts only ¥8,500 each.",
+   "evidence": "https://rusutsu.com/winter-activities/snow-driving/",
+   "fix": "Budget ¥34,000 for two pro rides plus the back-seat fee, or drop one; payment is in advance and a 10% cancellation fee starts at booking."
+  },
+  {
+   "day": 10,
+   "item": "Rusutsu afternoon lift ticket",
+   "status": "wrong",
+   "problem": "There is no afternoon ticket for 2026–27; the cheapest is the 5-hour ticket at ¥14,500 (¥11,600 online), not about ¥7,000.",
+   "evidence": "https://rusutsu.com/en/winter-lift-tickets/",
+   "fix": "Pegasis: budget ¥11,600 (online 5-hour ticket); Aoki as level-1 beginner needs no lift ticket for the first lesson hours."
+  },
+  {
+   "day": 10,
+   "item": "Rusutsu group lesson time",
+   "status": "wrong",
+   "problem": "The afternoon group lesson is 13:30–15:30 (¥8,000), not 13:00–15:00; English groups are not stated; bookings open early October.",
+   "evidence": "https://rusutsu.com/ski-lessons/",
+   "fix": "Change to 13:30–15:30, leave Rusutsu about 15:45 (Kutchan about 16:30, near sunset); ask by email for an English group."
+  },
+  {
+   "day": 10,
+   "item": "Kutchan coin laundry",
+   "status": "unknown",
+   "problem": "A coin laundry at Kita 4-jo Higashi 1 could not be confirmed (map sites blocked).",
+   "evidence": "none reachable",
+   "fix": "Ask Hotel 3M when booking whether it has a washer, or check Google Maps by hand."
+  }
+ ],
+ "ok": [
+  "Suzuka park open Sun Jan 24, 2027 10:00–17:00, entry ¥2,200; Mon Jan 25 10:00–16:30 ¥2,000; closed Jan 12–21 and Jan 26–29 – https://www.suzukacircuit.jp/park/fee/",
+  "Circuit Challenger: East Course, ¥2,000 per kart (2 seats), web sale only, next month's schedule published on the 1st at 0:00 (so Dec 1) – https://www.suzukacircuit.jp/park/attraction/challenger/",
+  "Toyota Rent a Car Namba Terminal: Motomachi 1-4-8, 8:00–20:00 every day, one-way return from other prefectures OK, 3 min from OCAT – https://rent.toyota.co.jp/shop/detail.aspx?rCode=65301&eCode=002",
+  "Dormy Inn PREMIUM Namba: Shimanouchi 2-14-23, twin rooms exist, laundry corner (detergent automatic, dryer ¥100/20 min), partner parking Ikeda No. 6 – https://dormy-hotels.com/dormyinn/hotels/premium_nanba/floor",
+  "Drive Namba → Suzuka 1 h 46 via Meihan (plan 1 h 55) – Google Maps",
+  "Kinkakuji 9:00–17:00, adults ¥500 – https://www.shokoku-ji.jp/kinkakuji/access/",
+  "Bus 205 serves Kinkakuji-michi from the Kawaramachi side – https://ja.wikipedia.org/wiki/京都市営バス",
+  "Kobe beef at 16:00 works: Mouriya Honten open 11:00–22:00 without a break – https://www.mouriya.co.jp/head",
+  "Kobe Luminarie 2027 is Jan 29 – Feb 7 (after the Kobe day) – https://kobe-luminarie.jp/",
+  "Liberty Walk JDM PARK Sennan: official site 11:00–21:00 open 365 days; Instagram 11:00–19:00, closed Thursday; Tuesday is open on both – https://libertywalk.co.jp/jdm-park-lb-drive-in/ , https://www.instagram.com/jdmparkosaka/",
+  "All JR Hanwa Line rapid trains stop at Izumi-Sunagawa (main Sennan station) – https://ja.wikipedia.org/wiki/和泉砂川駅",
+  "Super Potato Otaroad weekdays 11:00–20:00 – https://www.superpotato.com/shop/otaroad",
+  "Maidreamin Osaka Nipponbashi Otaroad: Tue 11:30–23:00, entry ¥880/h + order – https://maidreamin.com/shop/index.html?id=17 , https://maidreamin.com/first/charge.html",
+  "OCAT limousine bus 08:50 → Itami 09:15, ¥730 – https://www.jorudan.co.jp/norikae/",
+  "JAL Itami 10:50 → New Chitose 12:35 Wed Jan 27 2027, ¥13,030; backups 11:45 and 12:45 same price – Google Flights",
+  "Toyota New Chitose Poplar: counter in arrivals, free 9-min shuttle, 8:00–20:00 (Nov–Mar), one-way return OK, self check-in – https://rent.toyota.co.jp/shop/detail.aspx?rCode=61201&eCode=002&udFlg=2",
+  "Rhythm Hirafu 2026–27: skis+boots 3 days ¥22,200, jacket/pants ¥7,800, helmet ¥5,600, 10% off online 48 h ahead, pick-up from 13:00 the day before, no goggles/gloves – https://rhythmjapan.com/winter-rentals-services",
+  "Yamamoto Shokudo 11:00–14:00, 17:00–19:30: 17:30 dinner works (Google listing)",
+  "Rusutsu snow drift runs mid-Dec 2026 – late Feb 2027, slots 8:30/10:00/13:00/15:00, licence needed, breath test, book by 17:00 the day before – https://rusutsu.com/winter-activities/snow-driving/"
+ ]
+}

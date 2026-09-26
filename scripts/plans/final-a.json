@@ -1,0 +1,4428 @@
+{
+  "id": "best-of-both",
+  "name": "Best of Both",
+  "tagline": "The balanced main plan, always together: one short Hakone–Fuji car trip from Kawasaki to Mishima, one Osaka hotel for 5 nights, and 5 nights in Hokkaido, with only 5 hotels.",
+  "summary": "3 nights in Shinjuku with a full anime day and a Girls Band Cry day in Kawasaki, where Pegasis picks up a car for Daikoku, the Turnpike and Fuji. One Fuji-view villa night, then the car goes back at Mishima and a direct Kodama takes you to one Osaka hotel for Nara, Suzuka, Kyoto, Kobe and Liberty Walk. A JAL flight to Hokkaido: 3 nights in Kutchan for skiing (Pegasis teaches Aoki) and the Rusutsu drift course, 2 nights in Sapporo with the Asahiyama penguins. You do everything together, every meal has a named place, and every train and bus has its departure time. Pegasis brings his own winter clothes; ski wear is rented at Hirafu.",
+  "who": {
+    "pegasis": "In: 24 of 25 WANTs. Daikoku (you drive, no guide) + Tatsumi, Turnpike, Taikanzan, Otome Pass, Gotemba outlets (plain shopping, 45 min), TMG view, Isetan depachika, airport bus instead of N'EX, Omoide/Golden Gai, Radio Kaikan, Maidreamin, Ikebukuro goods route, Nakano, SHELTER with a live show, Nara hill fire, Suzuka EV kart and the Tokaido car road (as Hakone–Fuji by car + Suzuka + Nagoya), Niseko Grand Hirafu, Rusutsu drift (30-min self-drive course at 15:00), Asahiyama penguins, GARAKU, Moiwa, Daruma. Out: Onuma (2 h south of Niseko, a whole extra day). Your maybes in: Chureito, Lake Kawaguchi, Shibuya Sky, Kobe beef, Osu, the Kawasaki GBC walk. Because you travel together, you now also join some short stops you marked not interested: Suga stairs (15 min), Nissan Crossing (20 min), Enoshima (1 h), Fuji Motorsports Museum (1 h), Toyota museum (1 h 20), Fushimi Inari and Kinkakuji (a calm morning, not at dawn). Nijo Market is out (no split on the last day).",
+    "aoki": "In: about 43 of 49 WANTs. Omoide/Golden Gai, Suga stairs, Tokyo Station dome and Hachiko (GBC Tokyo), Nissan Crossing, TMG, Radio Kaikan, ZEST, Nakano and used goods, Ikebukuro, Shimokita and a SHELTER live show, Shibuya Sky before 15:00 + Nintendo/Pokémon, the Kawasaki GBC stamp walk, Daikoku + Tatsumi, Enoshima + Slam Dunk crossing, Hakone as Tokyo-3, Fuji Motorsports Museum, Lake Kawaguchi, Hanz villa, Yuru Camp Motosu, Nara fire, Suzuka, Toyota museum, Fushimi Inari + Kinkakuji (not at dawn, so Pegasis can join), Sabbat places (Kyoto, Osaka, Kobe), Namba food, Den Den Town, Liberty Walk, Donki coupon, two Niseko ski days on the beginner area (Pegasis teaches you, no paid lesson), Rusutsu drift (back seat), Moiwa, Daruma. You also join Pegasis's Taikanzan and Gotemba outlets (short stops you marked not interested). Out: Yokohama Chinatown and Cup Noodles (no time on the Kawasaki day; Kobe's Nankinmachi instead), GBC Yako stamps, Fujiten ski (Niseko instead), the paid maid-café tour (two maid cafés instead), Cape Kamui (path closed in winter), Aokana/Goto (off route), Toyota Kaikan (closed Sundays). Uji is skipped because you marked it not interested."
+  },
+  "cost": {
+    "transport": "≈ ¥126,000 per person (Tokyo car 2 days: Toyota ≈ ¥19,000 + studless ¥4,400 + one-way ¥8,800 + tolls, fuel, parking ≈ ¥16,000, split; Kodama Mishima → Shin-Osaka ¥12,300; Kansai, Suzuka and Nagoya trains ≈ ¥20,000 + Suzuka taxis ≈ ¥2,000; JAL ¥16,330; Hokkaido 4WD 3 days + fuel ≈ ¥60,000 split (not checked); Asahikawa JR ¥10,880 + zoo buses ¥1,340; airport buses and trains (TYO-NRT ¥1,500, Itami bus ¥730); suitcase courier ≈ ¥3,000)",
+    "hotels": "≈ ¥148,000 per person (Super Hotel 3 nights ¥25,700; Hanz with breakfast ≈ ¥15,000, dinner extra; Dormy Inn PREMIUM Namba 5 nights ≈ ¥50,000 not checked; STAY RESORT NISEKO 3 nights ¥81,360 per room = ≈ ¥40,700 (Rakuten, Sep 26, 2026); Route Inn 2 nights ≈ ¥16,500)",
+    "activities": "≈ ¥115,000 Pegasis / ¥95,000 Aoki (ski rental 2 days ≈ ¥38,600 each with the 10% early code; lift tickets peak season 1 day ¥11,800 × 2 each; no ski lesson; Rusutsu: Pegasis Introduction Course ¥31,000, Aoki back seat ¥10,000; Shibuya Sky, SHELTER, maid cafés, Suzuka, Fuji Motorsports Museum ¥1,800, Toyota museum ¥1,000, Kinkakuji ¥500, Port Tower ¥1,200, Moiwa, zoo — the museums and temples now for both)",
+    "total": "≈ ¥389,000 Pegasis / ¥369,000 Aoki, plus meals about ¥4,000–6,000 a day (≈ ¥75,000; every meal is in the day plans), excl. international flights. Pegasis also buys a suitcase for the way home (≈ ¥5,000–15,000) and pays a return bag fee if the fare has none. If Aoki takes a pro ride-along instead of the back seat: +¥7,000."
+  },
+  "flights": [
+    "Pegasis: WestJet Toronto 09:35 Mon Jan 18 → Calgary → Narita 16:30 Tue Jan 19; home Air Canada New Chitose 19:35 Tue Feb 2 → Vancouver → Toronto 19:57 (one multi-city ticket about CA$1,247; the AC leg alone was CA$721 on Google Flights, Sep 26, 2026). He brings his own winter clothes and buys a suitcase in Tokyo for the way home: pick a fare that includes 1 checked bag on the way home, or add it (estimate CA$75–100 if not included).",
+    "Aoki: Air China Shanghai Pudong 09:40 → Narita 13:40 Tue Jan 19 (about CA$376; Google Flights showed 'price unavailable' on Sep 26, 2026: if it cannot be booked, take China Southern 09:15 → 13:15, CA$354, or Juneyao 08:25 → 12:00; the day plan still works); home Spring Airlines New Chitose 13:50 → Shanghai Pudong 17:00 Tue Feb 2 (CA$750 on Google Flights, Sep 26, 2026; Korean Air via Seoul from CA$612). Day 15 = visa day 15.",
+    "Osaka → Hokkaido: JAL (J-Air) Itami 10:50 → New Chitose 12:35, Thu Jan 28, ¥16,330 with a 20 kg bag (Google Flights, Sep 26, 2026). Cheaper: JAL 07:35 → 09:25, ¥13,030."
+  ],
+  "bookFirst": [
+    {
+      "what": "Toyota Rent a Car, both cars: Kawasaki Shinkawabashi → Mishima Shinkansen-guchi, Jan 21 17:45 – Jan 23 10:05, compact, STUDLESS TYRES + ETC; and New Chitose Poplar → Sapporo-ekimae, 4WD (studless standard), Jan 28 13:50 – Jan 31",
+      "why": "book now (by Sep 30, 2026): Toyota takes bookings 6 months ahead, and Kanagawa has only a few studless-tyre cars. Phone Kawasaki Shinkawabashi (044-211-0100) to get the studless car confirmed in writing; if they have none, ask another Toyota Rent-Lease Yokohama shop near Kawasaki Station."
+    },
+    {
+      "what": "STAY RESORT NISEKO (Kutchan), twin, non-smoking, Jan 28–31 (3 nights, room only)",
+      "why": "book now (by Sep 30, 2026): only 9 rooms were left on Rakuten on Sep 26 (¥81,360 for 2 people). Hotel Three M has only smoking twins left."
+    },
+    {
+      "what": "Dormy Inn PREMIUM Namba, twin, Jan 23–28 (5 nights)",
+      "why": "book now (by early October 2026) on the official site: the hotel has only 12 twins + 7 compact twins, and Sat Jan 23 is the Nara festival night. Write the real price into the plan."
+    },
+    {
+      "what": "Hanz Outdoor Resort villa, Fri Jan 22, half board",
+      "why": "book by Oct 5, 2026, because only 2 villas were left on Sep 25 and it is refundable. When you book, tell them you arrive about 17:10 (some sites say last check-in 17:00)."
+    },
+    {
+      "what": "Flights: Aoki's return over Chinese New Year and Pegasis's multi-city ticket (with 1 bag home)",
+      "why": "book by Oct 15, 2026, because Feb 2 fares to Shanghai are already high and rise further."
+    },
+    {
+      "what": "Grand Hirafu .Base ski rental, full 2-day set for both, Jan 29–30",
+      "why": "book by Oct 31, 2026 with code TGHRental109 (10% off, shown on the Grand Hirafu rentals page): saves ≈ ¥4,300 each. No ski lesson: Pegasis teaches Aoki."
+    },
+    {
+      "what": "Rusutsu snow drift, Sat Jan 30, 15:00 Introduction Course (Pegasis drives 30 min, ¥31,000; Aoki in the back seat ¥10,000)",
+      "why": "email activity@rusutsu.co.jp now (by Oct 15, 2026) to ask if a 1-year licence + IDP is accepted; book only after the answer, by mid-November. A 10% cancel fee applies from the moment you book, and 15:00 is the only slot for this course."
+    },
+    {
+      "what": "Suzuka entry + Circuit Challenger EV kart (Asoview) for Sun Jan 24, at about 12:30",
+      "why": "buy on Dec 1, 2026 at 00:00 JST, when the January times come out: the kart runs only about 12:00–13:15."
+    },
+    {
+      "what": "Pegasis: International Driving Permit (1949 Geneva type) from CAA",
+      "why": "get it by Dec 15, 2026, because both car rentals and the drift course need it."
+    },
+    {
+      "what": "SHELTER live ticket for Wed Jan 20, and Shibuya Sky web ticket for Thu Jan 21 morning",
+      "why": "SHELTER: buy when the January list comes out (December 2026). Shibuya Sky: sales open 2 weeks ahead, on Jan 7, 2027 at 00:00 JST."
+    },
+    {
+      "what": "Steakland Kobe lunch, Tue Jan 26 12:00, 2 people",
+      "why": "book about 2 weeks before by phone (078-332-2900) or EPARK; the official site warns about a fake copy site."
+    }
+  ],
+  "places": [
+    {
+      "id": "narita",
+      "ref": "narita",
+      "en": "Narita Airport",
+      "ja": "成田国際空港",
+      "romaji": "Narita Kokusai Kūkō",
+      "lat": 35.7654,
+      "lon": 140.386,
+      "kind": "airport",
+      "blurb": "Both of you land in Terminal 1 on Tue Jan 19. Aoki lands first and waits; you take the airport bus together.",
+      "info": [
+        {
+          "label": "Aoki lands",
+          "value": "13:40, Air China from Shanghai Pudong (Terminal 1)"
+        },
+        {
+          "label": "Pegasis lands",
+          "value": "16:30, WestJet via Calgary (Terminal 1)"
+        },
+        {
+          "label": "Meet",
+          "value": "Terminal 1 arrivals lobby"
+        },
+        {
+          "label": "Pegasis",
+          "value": "At immigration ask for a paper landing stamp (not the face-scan gate): the car shop must see it"
+        }
+      ],
+      "tips": [
+        "Register in Visit Japan Web before the flight for the immigration QR code.",
+        "Pegasis: ask for a paper entry stamp at the gate. Rental companies may want to see it."
+      ]
+    },
+    {
+      "id": "hotel-super-shinjuku",
+      "ref": "stay-super-hotel-shinjuku",
+      "en": "Super Hotel Shinjuku Kabukicho",
+      "ja": "スーパーホテル新宿歌舞伎町",
+      "romaji": "Sūpā Hoteru Shinjuku Kabukichō",
+      "lat": 35.69696,
+      "lon": 139.70224,
+      "kind": "hotel",
+      "blurb": "Your Tokyo base for 3 nights: a small economy twin with a free breakfast buffet and a carbonated-spring public bath. Omoide Yokocho, Golden Gai and Isetan are all within 10 minutes on foot.",
+      "info": [
+        {
+          "label": "Nights",
+          "value": "Jan 19, 20, 21"
+        },
+        {
+          "label": "Price",
+          "value": "Twin with breakfast about ¥16,000–17,800 a night (Jalan, seen Sep 25, 2026)"
+        },
+        {
+          "label": "Laundry",
+          "value": "Coin laundry in the hotel (renewed 2025, per the hotel Instagram)"
+        },
+        {
+          "label": "Parking",
+          "value": "None: use a coin car park nearby on Jan 21 (about ¥2,000–3,000 overnight)"
+        }
+      ],
+      "tips": [
+        "The front desk sends suitcases by Yamato TA-Q-BIN (宅急便): used on Jan 21.",
+        "Big carbonated bath in the hotel: optional, nobody has to use it."
+      ]
+    },
+    {
+      "id": "suga",
+      "ref": "suga",
+      "en": "Suga Shrine stairs",
+      "ja": "須賀神社（男坂）",
+      "romaji": "Suga Jinja, Otokozaka",
+      "lat": 35.68508,
+      "lon": 139.72336,
+      "kind": "anime",
+      "blurb": "The red-railed stairs from the last scene of Your Name. Early morning is quiet.",
+      "info": [
+        {
+          "label": "Station",
+          "value": "四谷三丁目 (Yotsuya-sanchome), 7 min walk"
+        },
+        {
+          "label": "Best time",
+          "value": "Before 09:00"
+        }
+      ],
+      "tips": [
+        "Stay on one side of the stairs: people live here."
+      ]
+    },
+    {
+      "id": "tokyo-st-dome",
+      "ref": "gbc-tokyo-scenes",
+      "en": "Tokyo Station Marunouchi South dome",
+      "ja": "東京駅 丸の内南口ドーム",
+      "romaji": "Tōkyō Eki Marunouchi Minamiguchi Dōmu",
+      "lat": 35.68145,
+      "lon": 139.76426,
+      "kind": "anime",
+      "blurb": "The brick dome where Nina arrives in Tokyo in Girls Band Cry episode 1. The airport bus stops next to the station.",
+      "info": [
+        {
+          "label": "Open",
+          "value": "Always (station hall)"
+        },
+        {
+          "label": "Cost",
+          "value": "Free"
+        }
+      ],
+      "tips": [
+        "Look up: the dome ceiling is the shot from the anime."
+      ]
+    },
+    {
+      "id": "nissan-crossing",
+      "ref": "nissan-crossing-ginza",
+      "en": "Nissan Crossing, Ginza",
+      "ja": "NISSAN CROSSING（ニッサン クロッシング）",
+      "romaji": "Nissan Kurossingu",
+      "lat": 35.67085,
+      "lon": 139.76497,
+      "kind": "car",
+      "blurb": "Nissan's free showroom on the main Ginza crossing, with new and special cars and a café. A 30-minute stop.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "10:00–20:00, closed on some days"
+        },
+        {
+          "label": "Cost",
+          "value": "Free"
+        },
+        {
+          "label": "From Tokyo Station",
+          "value": "12 min walk"
+        }
+      ],
+      "tips": [
+        "Check the site for the cars on show in January 2027."
+      ]
+    },
+    {
+      "id": "isetan",
+      "ref": "deal-isetan-depachika-half-price",
+      "en": "Isetan Shinjuku food hall",
+      "ja": "伊勢丹 新宿店",
+      "romaji": "Isetan Shinjuku-ten",
+      "lat": 35.69164,
+      "lon": 139.7046,
+      "kind": "food",
+      "blurb": "The basement food hall of Isetan. From about 19:00 sushi, bento and deli food get 20–50% stickers before the 20:00 close.",
+      "info": [
+        {
+          "label": "Best time",
+          "value": "19:15–19:50"
+        },
+        {
+          "label": "Closes",
+          "value": "20:00"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥1,000–1,500 per person"
+        }
+      ],
+      "tips": [
+        "Brand counters do not always cut prices; look at the bento and sushi counters."
+      ]
+    },
+    {
+      "id": "omoide",
+      "ref": "omoide",
+      "en": "Omoide Yokocho",
+      "ja": "思い出横丁",
+      "romaji": "Omoide Yokochō",
+      "lat": 35.69307,
+      "lon": 139.6995,
+      "kind": "food",
+      "blurb": "A narrow alley of tiny yakitori bars beside the Shinjuku tracks. Each bar has 6 to 12 seats.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "About 17:00–24:00"
+        },
+        {
+          "label": "Cost",
+          "value": "¥2,500–4,000 per person"
+        }
+      ],
+      "tips": [
+        "Golden Gai (新宿ゴールデン街) is 8 min east: one drink there before Don Quijote.",
+        "Banpaiya standing bar: drinks from about ¥290."
+      ]
+    },
+    {
+      "id": "donki-kabukicho",
+      "ref": "deal-donki-coupon-stack",
+      "en": "Don Quijote Shinjuku Kabukicho (24 h)",
+      "ja": "ドン・キホーテ 新宿歌舞伎町店",
+      "romaji": "Donki Shinjuku Kabukichō",
+      "lat": 35.69375,
+      "lon": 139.7017,
+      "kind": "sight",
+      "blurb": "Open all night, 3 min from the hotel. Pegasis buys the suitcase for the way home here; Aoki can use the tourist coupon.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "24 hours"
+        },
+        {
+          "label": "Suitcase",
+          "value": "Carry-on to 70–90 L hard cases ≈ ¥5,000–15,000"
+        },
+        {
+          "label": "Tax-free",
+          "value": "From ¥5,000 before tax, passport; tourist coupon on the Donki app"
+        },
+        {
+          "label": "Small items",
+          "value": "Heat packs カイロ 10 pcs ≈ ¥400–700 · shoe spikes 靴用滑り止め ≈ ¥1,000–2,000 · plug adapter ≈ ¥500"
+        }
+      ],
+      "tips": [
+        "Plugs: Japan is 100 V, type A (two flat pins). Canadian 2-pin plugs fit; 3-pin plugs and Chinese type I plugs need an adapter.",
+        "Buy a 60–70 L suitcase with 4 wheels: it must hold everything Pegasis buys until Feb 2."
+      ]
+    },
+    {
+      "id": "tmg",
+      "ref": "deal-tmg-free-observatory",
+      "en": "Tokyo Metropolitan Government observatory",
+      "ja": "東京都庁 展望室",
+      "romaji": "Tōkyō Tochō Tenbōshitsu",
+      "lat": 35.6903,
+      "lon": 139.69155,
+      "kind": "sight",
+      "blurb": "A free observation deck 202 m up in the city hall tower. On a clear winter morning you see Mt Fuji.",
+      "info": [
+        {
+          "label": "South deck",
+          "value": "9:30–21:30, closed 1st and 3rd Tue"
+        },
+        {
+          "label": "Entry",
+          "value": "Free"
+        }
+      ],
+      "tips": [
+        "Go in the morning: Fuji is clearest before noon in winter."
+      ]
+    },
+    {
+      "id": "radio-kaikan",
+      "ref": "radio-kaikan",
+      "en": "Akihabara Radio Kaikan",
+      "ja": "秋葉原ラジオ会館",
+      "romaji": "Akihabara Rajio Kaikan",
+      "lat": 35.69788,
+      "lon": 139.77195,
+      "kind": "anime",
+      "blurb": "10 floors of figures, trading cards, model kits and anime goods, opposite Akihabara station.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "10:00–20:00"
+        },
+        {
+          "label": "Station",
+          "value": "秋葉原駅 電気街口"
+        }
+      ],
+      "tips": [
+        "Akihabara ZEST (Oshi no Ko, 秋葉原ZEST) is 3 min north: look from outside.",
+        "Do not follow street touts for maid cafés."
+      ]
+    },
+    {
+      "id": "maidreamin-akiba",
+      "ref": "maidreamin-akihabara",
+      "en": "Maidreamin Akihabara main shop",
+      "ja": "めいどりーみん 秋葉原本店",
+      "romaji": "Meidorīmin Akihabara Honten",
+      "lat": 35.70198,
+      "lon": 139.77134,
+      "kind": "food",
+      "blurb": "The big maid café chain, with a small stage show. First-timers get a 'passport'. No table charge.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Mon–Fri 11:30–23:00"
+        },
+        {
+          "label": "Cost",
+          "value": "¥880 per hour + food; about ¥2,000–2,500 with lunch"
+        }
+      ],
+      "tips": [
+        "Book on the official site.",
+        "Walk past street touts: go only to real shops."
+      ]
+    },
+    {
+      "id": "ikebukuro",
+      "ref": "xhs-ikebukuro-goods-route",
+      "en": "Ikebukuro anime goods route (Animate main store, Surugaya, K-BOOKS)",
+      "ja": "アニメイト池袋本店・駿河屋・K-BOOKS",
+      "romaji": "Animeito Ikebukuro Honten",
+      "lat": 35.73156,
+      "lon": 139.71651,
+      "kind": "anime",
+      "blurb": "Chinese fans now call Ikebukuro the best place for anime goods: the 9-floor Animate main store, then Surugaya and Lashinbang for used goods and the row of K-BOOKS shops.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Most shops about 10:00/11:00–21:00"
+        },
+        {
+          "label": "Tax-free",
+          "value": "Animate from ¥5,000 before tax (bring passport)"
+        }
+      ],
+      "tips": [
+        "Route: Animate → Stellaworth (2F, across the road) → Surugaya 1F + Lashinbang 3F → K-BOOKS buildings toward Sunshine City.",
+        "Eat lunch in the Sunshine 60-dori side streets."
+      ]
+    },
+    {
+      "id": "nakano",
+      "ref": "nakano",
+      "en": "Nakano Broadway",
+      "ja": "中野ブロードウェイ",
+      "romaji": "Nakano Burōdowei",
+      "lat": 35.70919,
+      "lon": 139.66574,
+      "kind": "anime",
+      "blurb": "A 1960s shopping building. Floors 2 to 4 are full of used figures, manga and toys, with many Mandarake shops.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "About 12:00–20:00 (small shops vary)"
+        },
+        {
+          "label": "Station",
+          "value": "中野駅 北口"
+        }
+      ],
+      "tips": [
+        "Go after 13:00: many small shops open late."
+      ]
+    },
+    {
+      "id": "shimokita",
+      "ref": "bocchi-shimokita-more",
+      "en": "Shimokitazawa Bocchi walk",
+      "ja": "下北沢（ぼっち・ざ・ろっく！聖地）",
+      "romaji": "Shimokitazawa",
+      "lat": 35.66157,
+      "lon": 139.66759,
+      "kind": "anime",
+      "blurb": "Bocchi the Rock's home area: the station, Honda Theater, Donguri Hiroba park (ep 4) and the Senrogai empty lot (ep 5), plus used-clothes and record shops.",
+      "info": [
+        {
+          "label": "Station",
+          "value": "下北沢駅 (Odakyu, Keio Inokashira)"
+        },
+        {
+          "label": "Honda Theater",
+          "value": "本多劇場, 35.66171, 139.66847"
+        },
+        {
+          "label": "Donguri Hiroba",
+          "value": "どんぐりひろば公園, 35.66425, 139.66875"
+        }
+      ],
+      "tips": [
+        "You arrive after dark: the shopping streets are lit and busy until about 20:00.",
+        "Do not photograph private houses."
+      ]
+    },
+    {
+      "id": "shelter",
+      "ref": "xhs-shelter-live-night",
+      "en": "Shimokitazawa SHELTER (live show)",
+      "ja": "下北沢SHELTER",
+      "romaji": "Shimokitazawa Sherutā",
+      "lat": 35.66155,
+      "lon": 139.66956,
+      "kind": "anime",
+      "blurb": "The real live house behind STARRY in Bocchi the Rock. You go inside for an evening show, like Kessoku Band's first live.",
+      "info": [
+        {
+          "label": "Weekday shows",
+          "value": "OPEN 18:15–19:00, START 18:45–19:30 (recent shows, loft-prj.co.jp/schedule/shelter)"
+        },
+        {
+          "label": "Ticket",
+          "value": "About ¥2,000–3,000 + drink ¥600"
+        },
+        {
+          "label": "Tel",
+          "value": "03-3466-7430"
+        }
+      ],
+      "tips": [
+        "The Jan 20, 2027 line-up appears about December 2026: buy the ticket then (pick up at 7-Eleven or FamilyMart).",
+        "Standing only. Enter by the number on your ticket.",
+        "When you buy the ticket, note the OPEN time and end the Shimokitazawa walk 15 min before it."
+      ]
+    },
+    {
+      "id": "shibuya-sky",
+      "ref": "deal-shibuya-sky-before-15",
+      "en": "Shibuya Sky",
+      "ja": "SHIBUYA SKY（渋谷スカイ）",
+      "romaji": "Shibuya Sukai",
+      "lat": 35.65847,
+      "lon": 139.70214,
+      "kind": "sight",
+      "blurb": "An open-air roof deck 230 m above the Shibuya Scramble. A morning slot is the cheap web price and has the clearest Fuji view.",
+      "info": [
+        {
+          "label": "Web ticket",
+          "value": "About ¥2,700 for an entry before 15:00"
+        },
+        {
+          "label": "Sale",
+          "value": "Web tickets open about 2 weeks ahead (about Jan 7)"
+        },
+        {
+          "label": "Nearby",
+          "value": "Shibuya PARCO 6F: Nintendo TOKYO and Pokémon Center, 8 min walk"
+        }
+      ],
+      "tips": [
+        "The roof closes in strong wind or rain. Check in the morning.",
+        "After: Hachiko statue and Spain-zaka (Girls Band Cry ep 3) are 5 min on foot."
+      ]
+    },
+    {
+      "id": "gbc-lazona",
+      "ref": "gbc-lazona",
+      "en": "Lazona Kawasaki Plaza, Rufa Square",
+      "ja": "ラゾーナ川崎プラザ ルーファ広場",
+      "romaji": "Razōna Kawasaki Rūfa Hiroba",
+      "lat": 35.53229,
+      "lon": 139.69587,
+      "kind": "anime",
+      "blurb": "Girls Band Cry: the open square where the band plays on the street. Start the GBC stamp tour here.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "10:00–21:00"
+        },
+        {
+          "label": "Stamp book",
+          "value": "About ¥500, stamps free"
+        }
+      ],
+      "tips": [
+        "Island Mura Guitars closed on Sep 23, 2026: check the new stamp list in January 2027."
+      ]
+    },
+    {
+      "id": "gbc-miharashi",
+      "ref": "gbc-miharashi",
+      "en": "Tamagawa Miharashi Park",
+      "ja": "多摩川見晴らし公園",
+      "romaji": "Tamagawa Miharashi Kōen",
+      "lat": 35.53784,
+      "lon": 139.6995,
+      "kind": "anime",
+      "blurb": "Girls Band Cry: the riverside park by the Tama River where Nina and Momoka talk. Wide sky, trains crossing the bridge.",
+      "info": [
+        {
+          "label": "From station",
+          "value": "Kawasaki West Exit, 1 km (15 min walk)"
+        },
+        {
+          "label": "Stamp tour",
+          "value": "Yes"
+        }
+      ],
+      "tips": [
+        "Windy and cold by the river: bring gloves."
+      ]
+    },
+    {
+      "id": "gbc-marufuku",
+      "ref": "gbc-marufuku",
+      "en": "Marufuku Coffee, Kawasaki Azalea",
+      "ja": "丸福珈琲店 川崎アゼリア店",
+      "romaji": "Marufuku Kōhīten Kawasaki Azeria",
+      "lat": 35.53036,
+      "lon": 139.69856,
+      "kind": "anime",
+      "blurb": "Girls Band Cry café scene, under the East Exit plaza (another scene spot). Hotcakes and strong coffee to warm up.",
+      "info": [
+        {
+          "label": "Floor",
+          "value": "Kawasaki Azalea B1F"
+        },
+        {
+          "label": "Try",
+          "value": "Hotcake and coffee, about ¥1,500"
+        },
+        {
+          "label": "Above it",
+          "value": "Kawasaki Station East Exit plaza (Girls Band Cry stamp)"
+        }
+      ],
+      "tips": [
+        "The East Exit plaza (川崎駅東口 駅前広場) stamp is right above you."
+      ]
+    },
+    {
+      "id": "toyota-shinkawabashi",
+      "ref": null,
+      "en": "Toyota Rent a Car Kawasaki Shinkawabashi",
+      "ja": "トヨタレンタカー 川崎新川橋店",
+      "romaji": "Toyota Rentakā Kawasaki Shinkawabashi-ten",
+      "lat": 35.5264,
+      "lon": 139.70274,
+      "kind": "car",
+      "blurb": "The car pickup: a real Toyota shop on Shinkawa-dori, 5–8 min on foot from Kawasaki Station east side, that allows one-way returns outside the prefecture. The shop inside MUZA Kawasaki (west exit) does NOT allow one-way returns.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "08:00–20:00 (Toyota shop search, Sep 26, 2026)"
+        },
+        {
+          "label": "Address",
+          "value": "1-1-3 Kaizuka, Kawasaki-ku (on Route 15 side, near Kawasaki Police Station)"
+        },
+        {
+          "label": "Rent",
+          "value": "Thu Jan 21 17:45 → Sat Jan 23 10:05 at Mishima"
+        },
+        {
+          "label": "Price (C1 compact, e.g. Yaris/Passo)",
+          "value": "24 h ¥10,340 + next 24 h ¥8,690 = ≈ ¥19,000 · studless tyres ¥2,200 per 24 h · one-way to Mishima ¥8,800 (Toyota one-way calculator) · damage waiver extra"
+        },
+        {
+          "label": "Licence",
+          "value": "Toyota: valid licence + 1949 Geneva IDP + passport with landing stamp; no minimum years stated. Aoki: licence accepted in Japan"
+        }
+      ],
+      "tips": [
+        "Book NOW on rent.toyota.co.jp (bookings open 6 months ahead) and tick studless tyres (スタッドレスタイヤ, ¥2,200 per 24 h, few cars) and ETC; get the studless car confirmed in writing.",
+        "Both drivers show licence + passport; extra driver is free.",
+        "Phone 044-211-0100."
+      ]
+    },
+    {
+      "id": "daikoku",
+      "ref": "daikoku",
+      "en": "Daikoku Parking Area",
+      "ja": "大黒PA",
+      "romaji": "Daikoku Pākingu Eria",
+      "lat": 35.4618,
+      "lon": 139.6803,
+      "kind": "car",
+      "blurb": "The famous JDM car meet in a loop of expressway ramps. Pegasis drives in himself, no guide.",
+      "info": [
+        {
+          "label": "When",
+          "value": "Thu Jan 21, about 18:45–20:15"
+        },
+        {
+          "label": "Access",
+          "value": "By car only (Shuto Wangan / Bayshore route)"
+        },
+        {
+          "label": "Closure risk",
+          "value": "Police now close it on some weekdays too (about 3 nights a week in April 2026); Fri–Sat highest"
+        }
+      ],
+      "tips": [
+        "At 18:00 check X and the Shutoko closure site; if the PA is closed, drive straight to Tatsumi PA (35–40 min from Daikoku).",
+        "Food court and konbini inside: dinner here."
+      ]
+    },
+    {
+      "id": "tatsumi",
+      "ref": "tokyo-bay-pa-night",
+      "en": "Tatsumi No.1 Parking Area",
+      "ja": "辰巳第一PA（上り）",
+      "romaji": "Tatsumi Daiichi PA",
+      "lat": 35.6434,
+      "lon": 139.81006,
+      "kind": "car",
+      "blurb": "A small parking area with the Tokyo skyline behind the parked cars. A short second car-meet stop on the way back.",
+      "info": [
+        {
+          "label": "Access",
+          "value": "Shuto Route 9, inbound only"
+        }
+      ],
+      "tips": [
+        "Optional: Umihotaru island in the bay adds about 1 h and a ¥3,140 toll."
+      ]
+    },
+    {
+      "id": "enoshima",
+      "ref": "enoshima-kamakura-bocchi-slamdunk",
+      "en": "Enoshima Shrine and Katase-Enoshima (Bocchi ep 9)",
+      "ja": "江島神社・片瀬江ノ島駅",
+      "romaji": "Enoshima Jinja",
+      "lat": 35.30034,
+      "lon": 139.47984,
+      "kind": "anime",
+      "blurb": "Bocchi the Rock episode 9: the band's trip to Enoshima. Red torii, stone steps, tako-senbei at Asahi Honten, and the dragon-palace Katase-Enoshima station across the bridge.",
+      "info": [
+        {
+          "label": "Parking",
+          "value": "Coin car park near Enoden Enoshima / Katase-Enoshima stations (about ¥1,000–1,500): not on the island, which is 15–20 min on foot from the Enoden"
+        },
+        {
+          "label": "Tako-senbei",
+          "value": "Asahi Honten, from 9:00, about ¥500"
+        }
+      ],
+      "tips": [
+        "Park near Enoden Enoshima Station, look at the island from the Benten bridge, then take the Enoden 2 stops to the Slam Dunk crossing and back. Skip the shrine climb: the island walk alone takes 1 h 30.",
+        "Pegasis marked Enoshima not interested: it is kept to about 1 hour.",
+        "Clear winter mornings show Mt Fuji across Sagami Bay."
+      ]
+    },
+    {
+      "id": "taikanzan",
+      "ref": "taikanzan",
+      "en": "Hakone Turnpike top, Taikanzan Viewpoint",
+      "ja": "大観山（アネスト岩田ターンパイク箱根）",
+      "romaji": "Taikanzan",
+      "lat": 35.18311,
+      "lon": 139.04616,
+      "kind": "car",
+      "blurb": "The Hakone Turnpike (14 km of smooth curves from Odawara) ends here at 1,011 m, with Mt Fuji over Lake Ashi.",
+      "info": [
+        {
+          "label": "Turnpike toll",
+          "value": "About ¥900"
+        },
+        {
+          "label": "Open",
+          "value": "05:30–22:30"
+        },
+        {
+          "label": "Temp.",
+          "value": "About −3 to 5 °C"
+        }
+      ],
+      "tips": [
+        "Ice is most common before 10:00: you drive it at about noon.",
+        "Eat lunch at the Sky Lounge at the top."
+      ]
+    },
+    {
+      "id": "otome",
+      "ref": "otome",
+      "en": "Otome Pass",
+      "ja": "乙女峠",
+      "romaji": "Otome Tōge",
+      "lat": 35.28102,
+      "lon": 138.98897,
+      "kind": "car",
+      "blurb": "The Route 138 pass between Sengokuhara and Gotemba, with a big Fuji view from the Fujimi-chaya side.",
+      "info": [
+        {
+          "label": "Road",
+          "value": "Route 138 (Otome tunnel)"
+        },
+        {
+          "label": "Winter",
+          "value": "Can be icy: studless tyres"
+        }
+      ],
+      "tips": [
+        "Stop only in the marked lay-by, not on the road."
+      ]
+    },
+    {
+      "id": "fuji-motorsports",
+      "ref": "fuji-motorsports-museum",
+      "en": "Fuji Motorsports Museum",
+      "ja": "富士モータースポーツミュージアム",
+      "romaji": "Fuji Mōtāsupōtsu Myūjiamu",
+      "lat": 35.3678,
+      "lon": 138.91832,
+      "kind": "car",
+      "blurb": "A museum at the gate of Fuji Speedway with about 100 years of race cars from Toyota, Nissan, Honda and others.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "9:00–17:00 (official site)"
+        },
+        {
+          "label": "Ticket",
+          "value": "¥1,800 weekday (¥1,600 online)"
+        }
+      ],
+      "tips": [
+        "20 min by car to the Gotemba outlets."
+      ]
+    },
+    {
+      "id": "gotemba",
+      "ref": "gotemba-outlets",
+      "en": "Gotemba Premium Outlets",
+      "ja": "御殿場プレミアム・アウトレット",
+      "romaji": "Gotenba Puremiamu Autoretto",
+      "lat": 35.30779,
+      "lon": 138.96508,
+      "kind": "sight",
+      "blurb": "A large outlet mall with Mt Fuji behind the shops. A plain shopping stop for Pegasis.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "10:00–19:00 (Dec–Feb) (gotemba.jp)"
+        },
+        {
+          "label": "Entry",
+          "value": "Free, free parking"
+        }
+      ],
+      "tips": [
+        "Fuji view from the Hill Side bridge.",
+        "45 minutes only: you must be over Kagosaka Pass before dark."
+      ]
+    },
+    {
+      "id": "lake-kawaguchi",
+      "ref": "lake-kawaguchi",
+      "en": "Lake Kawaguchi north shore (Oishi Park)",
+      "ja": "河口湖 大石公園",
+      "romaji": "Kawaguchiko, Ōishi Kōen",
+      "lat": 35.52289,
+      "lon": 138.73896,
+      "kind": "fuji",
+      "blurb": "Mt Fuji straight across the lake. At sunset the snow on Fuji turns pink.",
+      "info": [
+        {
+          "label": "Parking",
+          "value": "Free"
+        },
+        {
+          "label": "Sunset",
+          "value": "About 16:55"
+        }
+      ],
+      "tips": [
+        "Very cold after sunset; wear the ski jacket."
+      ]
+    },
+    {
+      "id": "hanz",
+      "ref": "exp3-kawaguchiko-hanz",
+      "en": "Hanz Outdoor Resort Kawaguchiko (Fuji-view villa)",
+      "ja": "HANZ OUTDOOR RESORT 河口湖",
+      "romaji": "Hanzu Autodoa Rizōto Kawaguchiko",
+      "lat": 35.48575,
+      "lon": 138.73507,
+      "kind": "hotel",
+      "blurb": "The one special night: a Fuji-view villa south of Lake Kawaguchi. No restaurant: the dinner is a BBQ course grilled on your villa terrace (or a no-grill dining course), and breakfast is a skillet set cooked at the villa.",
+      "info": [
+        {
+          "label": "Night",
+          "value": "Fri Jan 22"
+        },
+        {
+          "label": "Address",
+          "value": "3283-1 Katsuyama, Fujikawaguchiko (official site; turn left at the Katsuyama crossing on Route 139)"
+        },
+        {
+          "label": "Tel",
+          "value": "0555-72-8282"
+        },
+        {
+          "label": "Price",
+          "value": "About CA$275 for 2 with breakfast; half board about +CA$126 (Expedia, Sep 25, 2026)"
+        },
+        {
+          "label": "Check-in",
+          "value": "14:00; last check-in 17:00 on some sites, 19:00 on others: phone to say you arrive about 17:10"
+        }
+      ],
+      "tips": [
+        "Book half board: there is little food nearby in the evening.",
+        "Choose the no-grill seasonal dining course if you do not want to grill in the cold."
+      ]
+    },
+    {
+      "id": "chureito",
+      "ref": "chureito",
+      "en": "Chureito Pagoda (Arakurayama Sengen Park)",
+      "ja": "新倉山浅間公園 忠霊塔",
+      "romaji": "Arakurayama Sengen Kōen Chūreitō",
+      "lat": 35.50129,
+      "lon": 138.80136,
+      "kind": "fuji",
+      "blurb": "The five-storey red pagoda with Mt Fuji behind it. At sunrise Fuji turns pink; 398 steps up to the viewing deck.",
+      "info": [
+        {
+          "label": "Sunrise (Jan 23)",
+          "value": "About 06:47"
+        },
+        {
+          "label": "Entry",
+          "value": "Free"
+        },
+        {
+          "label": "Parking",
+          "value": "Small free car park at the foot of the steps"
+        }
+      ],
+      "tips": [
+        "Climb in the dark with a phone light; the steps can be icy: shoe spikes.",
+        "There is a gentle slope path next to the steps."
+      ]
+    },
+    {
+      "id": "koan",
+      "ref": "yurucamp-motosu",
+      "en": "Koan Campsite, Lake Motosu (Yuru Camp)",
+      "ja": "浩庵キャンプ場（本栖湖）",
+      "romaji": "Kōan Kyanpujō",
+      "lat": 35.47273,
+      "lon": 138.57501,
+      "kind": "anime",
+      "blurb": "Yuru Camp episode 1: Rin's solo camp, where Nadeshiko sees Fuji. Also the Fuji view on the ¥1,000 note.",
+      "info": [
+        {
+          "label": "From Oishi Park",
+          "value": "About 30 min by car, Route 139"
+        },
+        {
+          "label": "Price",
+          "value": "Free to look; the campsite lists ¥600 per car (not clear for short visits): keep ¥600–1,000 cash"
+        }
+      ],
+      "tips": [
+        "Hold a ¥1,000 note up to the view.",
+        "Roads can be icy in the morning: drive slowly."
+      ]
+    },
+    {
+      "id": "toyota-mishima",
+      "ref": null,
+      "en": "Toyota Rent a Car Mishima Shinkansen-guchi / Mishima Station",
+      "ja": "トヨタレンタカー 三島新幹線口店",
+      "romaji": "Toyota Rentakā Mishima Shinkansen-guchi-ten",
+      "lat": 35.12801,
+      "lon": 138.91055,
+      "kind": "car",
+      "blurb": "Drop the car here, 2 minutes from the Shinkansen (north) gate of Mishima Station, then take the Shinkansen west.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "08:00–20:00 (Toyota shop search, Sep 26, 2026)"
+        },
+        {
+          "label": "Address",
+          "value": "1-10-25 Bunkyo-cho, Mishima"
+        },
+        {
+          "label": "One-way",
+          "value": "Accepted from other prefectures; Kawasaki Shinkawabashi → here ¥8,800"
+        },
+        {
+          "label": "Train",
+          "value": "Kodama 813 10:24 → Shizuoka, Hikari 707 → Nagoya, Nozomi 359 → Shin-Osaka 12:54 (Oct 2026 timetable)"
+        }
+      ],
+      "tips": [
+        "Fill the tank near the station first (満タン返し).",
+        "Buy an ekiben for the train."
+      ]
+    },
+    {
+      "id": "dormy-namba",
+      "ref": null,
+      "en": "Dormy Inn PREMIUM Namba",
+      "ja": "天然温泉 夕霧の湯 ドーミーインPREMIUMなんば",
+      "romaji": "Dōmī In Puremiamu Nanba",
+      "lat": 34.67095,
+      "lon": 135.50645,
+      "kind": "hotel",
+      "blurb": "Your one west base for 5 nights: Nara, Suzuka, Kyoto, Kobe and Liberty Walk are all day trips. Hot-spring bath and free late-night ramen.",
+      "info": [
+        {
+          "label": "Nights",
+          "value": "Jan 23–27 (5)"
+        },
+        {
+          "label": "Price",
+          "value": "Not checked (Google Hotels ignored the dates); about ¥18,000–25,000 a night for a twin (estimate). Only 12 twins + 7 compact twins: book now on the official site"
+        },
+        {
+          "label": "Free",
+          "value": "Yonaki soba ramen 21:30–23:00, ice cream after bath (official site)"
+        },
+        {
+          "label": "Laundry",
+          "value": "Washers with automatic detergent; dryer ¥100 / 20 min (official site)"
+        },
+        {
+          "label": "Access",
+          "value": "5 min from Nippombashi Station exit 6 / Nagahoribashi exit 7"
+        }
+      ],
+      "tips": [
+        "Suitcases sent from Tokyo on Jan 21 wait here: write the check-in date (1/23) and your name on the Yamato slip.",
+        "The hot-spring bath is optional."
+      ]
+    },
+    {
+      "id": "todaiji",
+      "ref": "rw3-nara-yamayaki-2027",
+      "en": "Todaiji and Nara Park deer",
+      "ja": "東大寺",
+      "romaji": "Tōdaiji",
+      "lat": 34.68824,
+      "lon": 135.83976,
+      "kind": "sight",
+      "blurb": "The giant bronze Buddha in one of the largest wooden buildings in the world, with the Nara deer all around.",
+      "info": [
+        {
+          "label": "Ticket",
+          "value": "¥800"
+        },
+        {
+          "label": "Deer crackers",
+          "value": "¥200"
+        }
+      ],
+      "tips": [
+        "Go in before 16:00.",
+        "Deer bite paper: keep maps and tickets in a pocket."
+      ]
+    },
+    {
+      "id": "tobihino",
+      "ref": "rw3-nara-yamayaki-2027",
+      "en": "Tobihino field, Nara Park (viewing spot)",
+      "ja": "飛火野",
+      "romaji": "Tobihino",
+      "lat": 34.68074,
+      "lon": 135.84083,
+      "kind": "sight",
+      "blurb": "A wide open field in Nara Park with a clear view of Wakakusa hill: fireworks at 18:15, the whole hill set on fire at 18:30.",
+      "info": [
+        {
+          "label": "Date",
+          "value": "Sat Jan 23, 2027"
+        },
+        {
+          "label": "Fireworks",
+          "value": "18:15"
+        },
+        {
+          "label": "Hill fire",
+          "value": "18:30"
+        }
+      ],
+      "tips": [
+        "Cancelled in bad weather, with no second date.",
+        "Trains back are crowded: walk to Kintetsu-Nara by 19:15."
+      ]
+    },
+    {
+      "id": "suzuka",
+      "ref": "rw5-suzuka-circuit-challenger",
+      "en": "Suzuka Circuit",
+      "ja": "鈴鹿サーキット",
+      "romaji": "Suzuka Sākitto",
+      "lat": 34.84361,
+      "lon": 136.53423,
+      "kind": "car",
+      "blurb": "The Japanese F1 track. In the park you drive an EV kart on the real East Course; no licence needed.",
+      "info": [
+        {
+          "label": "Jan 24 hours",
+          "value": "10:00–17:00 (official park calendar, checked Sep 26, 2026; open Jan 22–25 only)"
+        },
+        {
+          "label": "Entry",
+          "value": "¥2,200 (web ¥500 less)"
+        },
+        {
+          "label": "EV kart",
+          "value": "About ¥2,000 per kart, up to 3 people (Asoview, online only). Runs only about 12:00–13:15 in late January (Jan 24, 2026: 12:10–13:20); 2027 times come out on Dec 1, 2026"
+        },
+        {
+          "label": "Access",
+          "value": "Kintetsu Shiroko Station + Mie Kotsu bus, 20 min"
+        }
+      ],
+      "tips": [
+        "The park is closed Jan 26–29; Jan 24 is one of 4 open days.",
+        "Buy the kart slot on Asoview on Dec 1, 2026, for about 12:30."
+      ]
+    },
+    {
+      "id": "toyota-museum",
+      "ref": "rw5-nagoya-toyota-day",
+      "en": "Toyota Commemorative Museum of Industry and Technology",
+      "ja": "トヨタ産業技術記念館",
+      "romaji": "Toyota Sangyō Gijutsu Kinenkan",
+      "lat": 35.18251,
+      "lon": 136.87652,
+      "kind": "car",
+      "blurb": "Toyota's first red-brick loom factory: looms, then cars built step by step with robot demos.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "9:30–17:00 (last entry 16:30), closed Mondays"
+        },
+        {
+          "label": "Ticket",
+          "value": "¥1,000"
+        }
+      ],
+      "tips": [
+        "Open on Sunday; Toyota Kaikan in Toyota City is closed on Sundays."
+      ]
+    },
+    {
+      "id": "osu",
+      "ref": "rw1-nagoya-food-osu-castle",
+      "en": "Osu shopping streets",
+      "ja": "大須商店街",
+      "romaji": "Ōsu Shōtengai",
+      "lat": 35.15824,
+      "lon": 136.9046,
+      "kind": "food",
+      "blurb": "Covered shopping streets with old games, used electronics, anime shops and street food, around Osu Kannon temple.",
+      "info": [
+        {
+          "label": "From Nagoya Station",
+          "value": "Subway, 10 min"
+        },
+        {
+          "label": "Street food",
+          "value": "¥300–800 a bite"
+        },
+        {
+          "label": "Dinner",
+          "value": "Yabaton main shop is 10 min on foot"
+        }
+      ],
+      "tips": [
+        "Try tebasaki wings or a Taiwan ramen."
+      ]
+    },
+    {
+      "id": "fushimi-inari",
+      "ref": "rw3-inari-dawn-kinkakuji-snow",
+      "en": "Fushimi Inari Taisha",
+      "ja": "伏見稲荷大社",
+      "romaji": "Fushimi Inari Taisha",
+      "lat": 34.96752,
+      "lon": 135.77971,
+      "kind": "sight",
+      "blurb": "Thousands of red torii gates up the hill. At 7:00 the tunnels are almost empty.",
+      "info": [
+        {
+          "label": "Open",
+          "value": "24 h, free"
+        },
+        {
+          "label": "From Namba",
+          "value": "Keihan line from Yodoyabashi, about 45 min"
+        }
+      ],
+      "tips": [
+        "Walk to the Yotsutsuji viewpoint (about 40 min up) and back."
+      ]
+    },
+    {
+      "id": "kinkakuji",
+      "ref": "rw3-inari-dawn-kinkakuji-snow",
+      "en": "Kinkaku-ji",
+      "ja": "金閣寺",
+      "romaji": "Kinkakuji",
+      "lat": 35.03953,
+      "lon": 135.72954,
+      "kind": "sight",
+      "blurb": "The gold pavilion. If snow fell in the night, it has a white roof: only 1–3 mornings a winter.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "9:00–17:00"
+        },
+        {
+          "label": "Ticket",
+          "value": "¥500"
+        }
+      ],
+      "tips": [
+        "Be at the gate at 9:00, before the tour buses."
+      ]
+    },
+    {
+      "id": "kyoto-concert-hall",
+      "ref": "sabbat-kansai-end-plan",
+      "en": "Kyoto Concert Hall",
+      "ja": "京都コンサートホール",
+      "romaji": "Kyōto Konsāto Hōru",
+      "lat": 35.04999,
+      "lon": 135.76668,
+      "kind": "anime",
+      "blurb": "The building used as the school in Sabbat of the Witch. Outside photos only.",
+      "info": [
+        {
+          "label": "Station",
+          "value": "北山 (Kitayama), 5 min"
+        },
+        {
+          "label": "Cost",
+          "value": "Free (outside)"
+        }
+      ],
+      "tips": [
+        "Match the game CG from the front plaza."
+      ]
+    },
+    {
+      "id": "sanjo-meitengai",
+      "ref": "sabbat-kansai-end-plan",
+      "en": "Sanjo Meitengai arcade",
+      "ja": "三条名店街",
+      "romaji": "Sanjō Meitengai",
+      "lat": 35.00879,
+      "lon": 135.76877,
+      "kind": "anime",
+      "blurb": "The covered shopping arcade where the heroine takes on the giant ramen challenge in Sabbat of the Witch.",
+      "info": [
+        {
+          "label": "Station",
+          "value": "京都市役所前 / 三条"
+        },
+        {
+          "label": "Lunch",
+          "value": "Ramen ¥900–1,300"
+        }
+      ],
+      "tips": [
+        "Eat ramen here for the scene."
+      ]
+    },
+    {
+      "id": "kyoto-st",
+      "ref": "sabbat-kansai-end-plan",
+      "en": "Kyoto Station",
+      "ja": "京都駅",
+      "romaji": "Kyōto Eki",
+      "lat": 34.98657,
+      "lon": 135.75858,
+      "kind": "station",
+      "blurb": "The big station hall is the meeting place in Sabbat of the Witch. Optional snack at Kyoto Ramen Koji on the 10th floor.",
+      "info": [
+        {
+          "label": "Sabbat",
+          "value": "The big meeting-place hall of the game"
+        },
+        {
+          "label": "Ramen Koji",
+          "value": "10F, about ¥1,000 a bowl"
+        },
+        {
+          "label": "Grand Stairway",
+          "value": "LED light shows after dark"
+        }
+      ],
+      "tips": []
+    },
+    {
+      "id": "kitano-starbucks",
+      "ref": "sabbat-kansai-end-plan",
+      "en": "Starbucks Kobe Kitano Ijinkan",
+      "ja": "スターバックスコーヒー 神戸北野異人館店",
+      "romaji": "Sutābakkusu Kōhī Kōbe Kitano Ijinkan-ten",
+      "lat": 34.69985,
+      "lon": 135.19028,
+      "kind": "anime",
+      "blurb": "A Starbucks inside a 1907 Western-style house: café Schwarze Katze in Sabbat of the Witch.",
+      "info": [
+        {
+          "label": "From Sannomiya",
+          "value": "15 min walk uphill"
+        },
+        {
+          "label": "Cost",
+          "value": "Drinks ¥500–700"
+        }
+      ],
+      "tips": [
+        "The inside was renovated, so it differs from the game CG."
+      ]
+    },
+    {
+      "id": "steakland-kobe",
+      "ref": "rw3-kobe-beef-nada-kitano",
+      "en": "Steakland Kobe",
+      "ja": "ステーキランド神戸館",
+      "romaji": "Sutēkirando Kōbe-kan",
+      "lat": 34.69291,
+      "lon": 135.1919,
+      "kind": "food",
+      "blurb": "A well-known low-cost teppanyaki steak house near Sannomiya: Kobe beef cooked in front of you.",
+      "info": [
+        {
+          "label": "Lunch",
+          "value": "Kobe beef lunch sets are much cheaper than dinner (about ¥3,000–6,000, check)"
+        },
+        {
+          "label": "From Kitano",
+          "value": "15 min walk down to Sannomiya"
+        }
+      ],
+      "tips": [
+        "Aoki can order a normal steak or chicken set."
+      ]
+    },
+    {
+      "id": "nankinmachi",
+      "ref": "rw3-kobe-beef-nada-kitano",
+      "en": "Nankinmachi, Kobe Chinatown",
+      "ja": "南京町",
+      "romaji": "Nankinmachi",
+      "lat": 34.68811,
+      "lon": 135.18838,
+      "kind": "food",
+      "blurb": "Kobe's small Chinatown: pork buns, dumplings and street food in two short streets. It stands in for the Yokohama Chinatown that did not fit in Tokyo.",
+      "info": [
+        {
+          "label": "From Sannomiya",
+          "value": "JR 1 stop to Motomachi, 3 min walk"
+        },
+        {
+          "label": "Cost",
+          "value": "Street food ¥300–800 a piece"
+        },
+        {
+          "label": "Best",
+          "value": "Roushouki (老祥記) pork buns, queue moves fast"
+        }
+      ],
+      "tips": [
+        "Some stalls close on Mondays; Tuesday is fine."
+      ]
+    },
+    {
+      "id": "kobe-port-tower",
+      "ref": "rw3-kobe-night-maya-luminarie",
+      "en": "Kobe Port Tower",
+      "ja": "神戸ポートタワー",
+      "romaji": "Kōbe Pōto Tawā",
+      "lat": 34.68263,
+      "lon": 135.18672,
+      "kind": "sight",
+      "blurb": "The red tower on the harbour, reopened in 2024 with an open-air roof deck. Sunset and the Kobe night view.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "9:00–23:00 (last entry 22:30)"
+        },
+        {
+          "label": "Ticket",
+          "value": "¥1,200 with the roof deck (observation only ¥1,000), timed web ticket"
+        }
+      ],
+      "tips": [
+        "Chosen over Mt Maya: the Maya ropeway stops at 17:30 on winter weekdays and had long January inspection closures in past years."
+      ]
+    },
+    {
+      "id": "grand-front",
+      "ref": "sabbat-kansai-end-plan",
+      "en": "Grand Front Osaka",
+      "ja": "グランフロント大阪",
+      "romaji": "Gurando Furonto Ōsaka",
+      "lat": 34.70396,
+      "lon": 135.49474,
+      "kind": "anime",
+      "blurb": "The date mall in Sabbat of the Witch, next to Osaka Station. Pokémon Center Osaka and Nintendo OSAKA are 5 min away in Daimaru Umeda, 13F.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Shops about 11:00–21:00"
+        },
+        {
+          "label": "Sabbat",
+          "value": "The date-scene mall"
+        },
+        {
+          "label": "Nearby",
+          "value": "Pokémon Center Osaka and Nintendo OSAKA: Daimaru Umeda 13F, 10:00–20:00 (osaka-info.jp)"
+        }
+      ],
+      "tips": [
+        "Go to Pokémon Center first (closes 20:00), then Grand Front (shops to 21:00)."
+      ]
+    },
+    {
+      "id": "kuromon",
+      "ref": "rw4-namba-food-crawl",
+      "en": "Kuromon Market",
+      "ja": "黒門市場",
+      "romaji": "Kuromon Ichiba",
+      "lat": 34.66533,
+      "lon": 135.50698,
+      "kind": "food",
+      "blurb": "A covered market street: grilled scallops, wagyu skewers, fruit and cooked seafood.",
+      "info": [
+        {
+          "label": "Best time",
+          "value": "Before 16:00"
+        },
+        {
+          "label": "From hotel",
+          "value": "5 min walk"
+        }
+      ],
+      "tips": [
+        "Aoki: choose grilled and cooked stalls, not raw."
+      ]
+    },
+    {
+      "id": "otaroad",
+      "ref": "rw4-den-den-town-otaroad",
+      "en": "Den Den Town and Otaroad",
+      "ja": "日本橋でんでんタウン・オタロード",
+      "romaji": "Nipponbashi Den Den Taun, Otarōdo",
+      "lat": 34.66189,
+      "lon": 135.50507,
+      "kind": "anime",
+      "blurb": "Osaka's Akihabara: electronics on Sakaisuji and the side street Otaroad full of figure, game and doujin shops.",
+      "info": [
+        {
+          "label": "Shops",
+          "value": "Most open about 11:00"
+        },
+        {
+          "label": "Super Potato",
+          "value": "11:00–20:00 weekdays"
+        }
+      ],
+      "tips": [
+        "Animate and Melonbooks are 2 min apart."
+      ]
+    },
+    {
+      "id": "maidreamin-nipponbashi",
+      "ref": "rw4-nipponbashi-maid-cafes",
+      "en": "Maidreamin Osaka Nipponbashi",
+      "ja": "めいどりーみん 大阪日本橋オタロード店",
+      "romaji": "Meidorīmin Ōsaka Nipponbashi",
+      "lat": 34.66011,
+      "lon": 135.50478,
+      "kind": "food",
+      "blurb": "The Osaka shop of the same maid café chain, on Otaroad. A break between shops.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Weekdays 11:30–23:00"
+        },
+        {
+          "label": "Cost",
+          "value": "¥880 per hour + 1 order"
+        }
+      ],
+      "tips": [
+        "For a quieter one, CCOちゃ opens 15:00 on weekdays."
+      ]
+    },
+    {
+      "id": "lb-drive-in",
+      "ref": "rw4-liberty-walk-jdm-park-sennan",
+      "en": "JDM PARK / LB DRIVE-IN (Liberty Walk)",
+      "ja": "JDM PARK / LB DRIVE-IN",
+      "romaji": "Jē Dī Emu Pāku / Eru Bī Doraibu In",
+      "lat": 34.3475,
+      "lon": 135.2724,
+      "kind": "car",
+      "blurb": "Liberty Walk's wide-body cars, goods shop and a Sanuki udon shop, opened in 2025.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Official site 11:00–21:00 daily; Instagram 11:00–19:00, closed Thu"
+        },
+        {
+          "label": "Udon",
+          "value": "Wed 11:00–15:00"
+        },
+        {
+          "label": "Station",
+          "value": "JR 和泉砂川 (Izumi-Sunagawa), 1.7 km"
+        }
+      ],
+      "tips": [
+        "Wednesday is open on both sources; do not go on Thursday.",
+        "Taxis at Izumi-Sunagawa are not certain: ask the shop to call one, or walk the 1.7 km (about 22 min)."
+      ]
+    },
+    {
+      "id": "ebisubashi",
+      "ref": "rw4-namba-food-crawl",
+      "en": "Dotonbori, Ebisubashi bridge",
+      "ja": "戎橋",
+      "romaji": "Ebisubashi",
+      "lat": 34.66907,
+      "lon": 135.5013,
+      "kind": "food",
+      "blurb": "The Glico sign and the canal lights. Takoyaki and okonomiyaki all along Dotonbori.",
+      "info": [
+        {
+          "label": "Cost",
+          "value": "¥500–1,000 a dish"
+        }
+      ],
+      "tips": [
+        "Busy until late; keep bags in front."
+      ]
+    },
+    {
+      "id": "itami",
+      "ref": "rw4-fly-itm-cts-full-service",
+      "en": "Osaka Itami Airport",
+      "ja": "大阪国際空港（伊丹）",
+      "romaji": "Ōsaka Kokusai Kūkō (Itami)",
+      "lat": 34.78556,
+      "lon": 135.43806,
+      "kind": "airport",
+      "blurb": "The city airport for domestic flights. Small and fast; JAL includes a 20 kg bag.",
+      "info": [
+        {
+          "label": "Flight",
+          "value": "JAL (J-Air) 10:50 → New Chitose 12:35, Thu Jan 28, ¥16,330 incl. 20 kg bag (Google Flights, Sep 26, 2026)"
+        },
+        {
+          "label": "Bus",
+          "value": "Osaka Airport Limousine from Namba-ekimae (N1) 08:40 / 09:00 → Itami North Terminal (JAL) 09:10 / 09:30, ¥730; from OCAT (JR Namba) 08:50 / 09:10"
+        }
+      ],
+      "tips": [
+        "Bag drop closes 20 min before departure."
+      ]
+    },
+    {
+      "id": "cts",
+      "ref": null,
+      "en": "New Chitose Airport",
+      "ja": "新千歳空港",
+      "romaji": "Shin-Chitose Kūkō",
+      "lat": 42.78781,
+      "lon": 141.68087,
+      "kind": "airport",
+      "blurb": "Hokkaido's main airport. Rental car counters send a free shuttle to their lots.",
+      "info": [
+        {
+          "label": "To Sapporo",
+          "value": "JR Rapid Airport, 37 min"
+        },
+        {
+          "label": "Rental cars",
+          "value": "Counters in arrivals, free shuttle to the shops"
+        },
+        {
+          "label": "Tax-free",
+          "value": "From Nov 2026 tax-free is a refund at departure: keep receipts and goods for the customs check"
+        }
+      ],
+      "tips": [
+        "Snow delays are common: keep phone numbers of the hotel and the car shop."
+      ]
+    },
+    {
+      "id": "toyota-cts",
+      "ref": null,
+      "en": "Toyota Rent a Car New Chitose Airport Poplar",
+      "ja": "トヨタレンタカー 新千歳空港ポプラ店",
+      "romaji": "Toyota Rentakā Shin-Chitose Kūkō Popura-ten",
+      "lat": 42.80021,
+      "lon": 141.70418,
+      "kind": "car",
+      "blurb": "Check in at the rental counter in the arrivals hall, then a free 9-min shuttle to the shop. Studless tyres are standard in Hokkaido.",
+      "info": [
+        {
+          "label": "Hours (Nov–Mar)",
+          "value": "08:00–20:00 (Toyota shop search, Sep 26, 2026)"
+        },
+        {
+          "label": "Rent",
+          "value": "Thu Jan 28 13:40 → Sun Jan 31 about 12:45, one way to Sapporo-ekimae"
+        },
+        {
+          "label": "Car",
+          "value": "Ask for 4WD (e.g. Corolla Cross / Yaris Cross 4WD)"
+        },
+        {
+          "label": "One-way",
+          "value": "Allowed inside Hokkaido; fee not checked (small, check when you book)"
+        }
+      ],
+      "tips": [
+        "Book now (6 months ahead): late-January 4WD cars sell out.",
+        "Give your flight number when you book: the shuttle needs it.",
+        "Skis fit inside a small SUV; the ski gear is rented at Hirafu anyway."
+      ]
+    },
+    {
+      "id": "stay-resort-niseko",
+      "ref": null,
+      "en": "STAY RESORT NISEKO (Kutchan)",
+      "ja": "ステイリゾートニセコ",
+      "romaji": "Sutei Rizōto Niseko",
+      "lat": 42.90199,
+      "lon": 140.74902,
+      "kind": "hotel",
+      "blurb": "A small self check-in hotel in Kutchan town, 5 min on foot from JR Kutchan Station. Every room has a mini kitchen; 15 min by car to Grand Hirafu, 50 min to Rusutsu.",
+      "info": [
+        {
+          "label": "Nights",
+          "value": "Jan 28, 29, 30"
+        },
+        {
+          "label": "Room",
+          "value": "Twin (bunk bed) with bath and toilet, mini kitchen, non-smoking (the whole hotel is non-smoking)"
+        },
+        {
+          "label": "Price",
+          "value": "¥81,360 per room for 3 nights, room only = ≈ ¥40,700 per person (Rakuten, Sep 26, 2026; 9 rooms left)"
+        },
+        {
+          "label": "Address",
+          "value": "Kita 1-jo Nishi 2-20-5, Kutchan (pin: nearest block point)"
+        },
+        {
+          "label": "Check-in / out",
+          "value": "15:00 (self check-in machine, last 29:00) / 10:00"
+        },
+        {
+          "label": "Laundry",
+          "value": "Coin laundry (paid)"
+        },
+        {
+          "label": "Parking",
+          "value": "Free car park 200 m away (map at the front)"
+        }
+      ],
+      "tips": [
+        "Replaces Hotel Three M: on Sep 26, 2026 it had only smoking twins left for these nights.",
+        "No staff at night: phone numbers are at the check-in machine.",
+        "The twin has a bunk bed; the sister hotel STAY LIVING NISEKO (Kita 2-jo Nishi 1) has the same rooms and price."
+      ]
+    },
+    {
+      "id": "seicomart",
+      "ref": "deal-seicomart-hot-chef",
+      "en": "Seicomart Kutchan (Hot Chef)",
+      "ja": "セイコーマート 倶知安",
+      "romaji": "Seikomāto Kutchan",
+      "lat": 42.901628,
+      "lon": 140.754347,
+      "kind": "food",
+      "blurb": "Hokkaido's own konbini, with a Hot Chef counter that cooks katsudon and fried chicken in the shop.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "05:00–24:00"
+        },
+        {
+          "label": "Katsudon",
+          "value": "About ¥670"
+        }
+      ],
+      "tips": [
+        "Buy the next breakfast here too: the hotel has no breakfast, but the room has a mini kitchen."
+      ]
+    },
+    {
+      "id": "hirafu-base",
+      "ref": null,
+      "en": "Grand Hirafu .Base (rental shop and ski school desk)",
+      "ja": "グラン・ヒラフ .Base（レンタル・スクール）",
+      "romaji": "Guran Hirafu Dotto Bēsu",
+      "lat": 42.86197,
+      "lon": 140.69839,
+      "kind": "ski",
+      "blurb": "The official rental shop at the foot of the slopes. Rent everything here, including the ski jacket and pants, and leave it in the daily storage overnight.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "08:00 until lifts close (Nov 28 – May 5)"
+        },
+        {
+          "label": "Skis + boots + poles",
+          "value": "Standard ¥8,500 for 1 day, ¥15,300 for 2 days"
+        },
+        {
+          "label": "Ski wear",
+          "value": "Jacket + pants set ¥9,000 / 2 days ¥16,200; set with new goggles, gloves and beanie about ¥15,000 / ¥22,200"
+        },
+        {
+          "label": "Helmet",
+          "value": "¥3,000 / 2 days ¥5,400"
+        },
+        {
+          "label": "Full set, 2 days",
+          "value": "Skis, boots, poles, wear with goggles/gloves/beanie, helmet: ¥42,900 per person, ≈ ¥38,600 with the 10% early code (official price tool, Sep 26, 2026)"
+        }
+      ],
+      "tips": [
+        "Reserve online before Oct 31, 2026 with code TGHRental109 (10% off, shown on en.grand-hirafu.jp/snow/rentals).",
+        "Daily storage: leave the gear at the shop between the two ski days."
+      ]
+    },
+    {
+      "id": "niseko",
+      "ref": "niseko",
+      "en": "Niseko Grand Hirafu",
+      "ja": "ニセコ東急 グラン・ヒラフ",
+      "romaji": "Niseko Tōkyū Guran Hirafu",
+      "lat": 42.85835,
+      "lon": 140.70201,
+      "kind": "ski",
+      "blurb": "The biggest Niseko slope, with light powder and Mt Yotei across the valley. Pegasis teaches Aoki on the beginner area on both days.",
+      "info": [
+        {
+          "label": "Lift ticket 2026–27 (Peak season, Dec 24 – Feb 28)",
+          "value": "Hirafu & Hanazono 1 day ¥11,800 online (¥12,500 at the counter); afternoon 4 h ¥8,400 online (¥8,900) (official ticket page; online sales not open yet)"
+        },
+        {
+          "label": "Beginner area",
+          "value": "Ace Family area (Ace Family lift, own ticket counter at its base)"
+        },
+        {
+          "label": "Lesson",
+          "value": "None: Pegasis teaches Aoki (a paid group lesson is in Japanese only)"
+        }
+      ],
+      "tips": [
+        "Pegasis: stay on marked runs; the gates to the backcountry need avalanche gear.",
+        "Start Aoki on the flat part at the bottom of the Ace Family area: walking with skis, snowplough, stopping; ride the lift only after that."
+      ]
+    },
+    {
+      "id": "rusutsu-drift",
+      "ref": "rusutsu-snow-drift",
+      "en": "Rusutsu snow drift course",
+      "ja": "ルスツリゾート 雪上ドリフト",
+      "romaji": "Rusutsu Rizōto Setsujō Dorifuto",
+      "lat": 42.7475,
+      "lon": 140.89639,
+      "kind": "car",
+      "blurb": "A closed snow course at Rusutsu with Subaru, GT-R and GR Yaris cars. You drive yourself with an instructor next to you.",
+      "info": [
+        {
+          "label": "Introduction Course (self-drive 30 min)",
+          "value": "15:00 only; driver ¥31,000, back seat ¥10,000 (up to 2)"
+        },
+        {
+          "label": "Ride-along (pro drives, 4 min)",
+          "value": "Subaru B4 ¥17,000 per person for 1–2 people; slots 8:30, 10:00, 13:00, 15:00"
+        },
+        {
+          "label": "Driving Course (75 min)",
+          "value": "¥61,000; 8:30, 10:00, 13:00"
+        },
+        {
+          "label": "Booking",
+          "value": "Prepaid, by 17:00 the day before; cancel fee 10% from booking, 50% the day before, 100% after 17:00 the day before"
+        },
+        {
+          "label": "Reception",
+          "value": "Rusutsu Resort activity desk (open 08:00–16:00), shuttle to the River Wood car park"
+        }
+      ],
+      "tips": [
+        "Email activity@rusutsu.co.jp before booking: the site asks only for a driver's licence and does not say if a 1-year licence + IDP is accepted.",
+        "Bring passport, licence and IDP; alcohol check before driving."
+      ]
+    },
+    {
+      "id": "garaku",
+      "ref": "garaku",
+      "en": "Soup Curry GARAKU",
+      "ja": "スープカレー GARAKU",
+      "romaji": "Sūpu Karē Garaku",
+      "lat": 43.0584,
+      "lon": 141.359,
+      "kind": "food",
+      "blurb": "Sapporo's famous soup curry: a thin spicy soup with big chicken and grilled vegetables.",
+      "info": [
+        {
+          "label": "Address",
+          "value": "Minami 3-jo Higashi 2-chome 6-1, B1F (near Nijo Market)"
+        },
+        {
+          "label": "Hours",
+          "value": "Every day 11:30–15:30 (L.O. 15:00) / 17:00–21:00; irregular closed days (s-garaku.com)"
+        },
+        {
+          "label": "Cost",
+          "value": "¥1,200–2,000"
+        }
+      ],
+      "tips": [
+        "Be in the queue by 11:20 on Sunday.",
+        "You arrive by car: use a coin car park near Nijo Market (no parking at the shop)."
+      ]
+    },
+    {
+      "id": "toyota-sapporo",
+      "ref": null,
+      "en": "Toyota Rent a Car Sapporo-ekimae",
+      "ja": "トヨタレンタカー 札幌駅前店",
+      "romaji": "Toyota Rentakā Sapporo-ekimae-ten",
+      "lat": 43.06815,
+      "lon": 141.35737,
+      "kind": "car",
+      "blurb": "Return the Hokkaido car here, 6 min on foot from JR Sapporo Station (east side, across Soseigawa-dori).",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "08:00–20:00"
+        },
+        {
+          "label": "Address",
+          "value": "Kita 5-jo Higashi 1-chome 2-4, Chuo-ku"
+        }
+      ],
+      "tips": [
+        "Fill the tank before you return the car."
+      ]
+    },
+    {
+      "id": "route-inn-sapporo",
+      "ref": "stay-sapporo-route-inn-chuo",
+      "en": "Hotel Route-Inn Sapporo Chuo",
+      "ja": "ホテルルートイン札幌中央",
+      "romaji": "Hoteru Rūto In Sapporo Chūō",
+      "lat": 43.05437,
+      "lon": 141.35124,
+      "kind": "hotel",
+      "blurb": "A good-value business hotel with a public bath and free breakfast buffet, 5 min from Susukino and Daruma.",
+      "info": [
+        {
+          "label": "Nights",
+          "value": "Jan 31, Feb 1"
+        },
+        {
+          "label": "Price",
+          "value": "Twin with breakfast ¥16,500 (Rakuten early-bird, Jan 31)"
+        },
+        {
+          "label": "Laundry",
+          "value": "Coin laundry in the hotel (Route Inn standard)"
+        }
+      ],
+      "tips": [
+        "Book the early-bird plan by about Jan 4."
+      ]
+    },
+    {
+      "id": "moiwa",
+      "ref": "moiwa",
+      "en": "Mt Moiwa night view",
+      "ja": "もいわ山",
+      "romaji": "Moiwayama",
+      "lat": 43.03161,
+      "lon": 141.3331,
+      "kind": "sight",
+      "blurb": "A ropeway and mini cable car to a viewpoint above the whole of Sapporo. Go up before sunset and stay for the lights.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "About 11:00–22:00"
+        },
+        {
+          "label": "Fare",
+          "value": "¥2,100 return"
+        },
+        {
+          "label": "Sunset",
+          "value": "About 16:40"
+        }
+      ],
+      "tips": [
+        "Free shuttle bus from the streetcar stop ロープウェイ入口."
+      ]
+    },
+    {
+      "id": "daruma",
+      "ref": "daruma",
+      "en": "Jingisukan Daruma main shop",
+      "ja": "成吉思汗だるま 本店",
+      "romaji": "Jingisukan Daruma Honten",
+      "lat": 43.05384,
+      "lon": 141.35246,
+      "kind": "food",
+      "blurb": "The most famous Jingisukan (grilled lamb) shop in Sapporo, since 1954: a small counter with dome pans.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "17:00–05:00, every day except Dec 31–Jan 2"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥3,000"
+        },
+        {
+          "label": "Seats",
+          "value": "14 at the counter"
+        }
+      ],
+      "tips": [
+        "Cash is safest.",
+        "Your clothes will smell of lamb: wear the old jacket."
+      ]
+    },
+    {
+      "id": "sapporo-st",
+      "ref": null,
+      "en": "Sapporo Station",
+      "ja": "札幌駅",
+      "romaji": "Sapporo Eki",
+      "lat": 43.06861,
+      "lon": 141.35078,
+      "kind": "station",
+      "blurb": "The JR hub. Limited expresses to Asahikawa and the Rapid Airport train to New Chitose leave from here.",
+      "info": [
+        {
+          "label": "To Asahikawa",
+          "value": "Limited Express Lilac/Kamui, 1 h 25"
+        },
+        {
+          "label": "To CTS",
+          "value": "Rapid Airport, 37 min"
+        }
+      ],
+      "tips": [
+        "Coin lockers for big suitcases are in the station."
+      ]
+    },
+    {
+      "id": "hachiya",
+      "ref": "deal-asahikawa-hachiya-ramen",
+      "en": "Ramen Hachiya",
+      "ja": "ラーメンの蜂屋 五条創業店",
+      "romaji": "Rāmen no Hachiya",
+      "lat": 43.770077,
+      "lon": 142.360868,
+      "kind": "food",
+      "blurb": "Asahikawa shoyu ramen since 1947, with a pork-and-fish soup and burnt lard on top. 10 minutes on foot from the station.",
+      "info": [
+        {
+          "label": "Bowl",
+          "value": "From ¥930"
+        },
+        {
+          "label": "Hours",
+          "value": "10:30–19:50, closed Thursday"
+        }
+      ],
+      "tips": [
+        "Ask for less burnt lard (少なめ) if you like."
+      ]
+    },
+    {
+      "id": "asahiyama",
+      "ref": "asahiyama",
+      "en": "Asahiyama Zoo penguin walk",
+      "ja": "旭山動物園",
+      "romaji": "Asahiyama Dōbutsuen",
+      "lat": 43.76864,
+      "lon": 142.47927,
+      "kind": "sight",
+      "blurb": "King penguins walk a 500 m loop through the snow between the visitors. Also polar bears and seals.",
+      "info": [
+        {
+          "label": "Penguin walk",
+          "value": "11:00 and 14:30"
+        },
+        {
+          "label": "Winter hours",
+          "value": "10:30–15:30"
+        },
+        {
+          "label": "Entry",
+          "value": "¥1,000"
+        },
+        {
+          "label": "Bus",
+          "value": "Asahikawa Denki Kido bus 41/47 from Asahikawa Station, about 40 min, ¥670 each way (from Sep 1, 2026); winter timetable not out yet"
+        }
+      ],
+      "tips": [
+        "Stand on the route by 10:45 for the 11:00 walk."
+      ]
+    },
+    {
+      "id": "sho-rin",
+      "ref": "xhs-sapporo-shorin-soup-curry",
+      "en": "Soup Curry SHO-RIN",
+      "ja": "SHO-RIN すすきの本店",
+      "romaji": "Sūpu Karē Shō-Rin",
+      "lat": 43.05489,
+      "lon": 141.35414,
+      "kind": "food",
+      "blurb": "A top-rated Susukino soup curry, 1 min from Susukino Station.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Mon–Sat 11:00–15:00 / 17:00–03:00; irregular closed days"
+        },
+        {
+          "label": "Cost",
+          "value": "Chicken and vegetable curry ¥1,800"
+        },
+        {
+          "label": "Address",
+          "value": "Minami 5-jo Nishi 3-10, Grand Keiwa Bldg 1F"
+        },
+        {
+          "label": "Tel",
+          "value": "011-522-2622"
+        }
+      ],
+      "tips": [
+        "Monday is open."
+      ]
+    },
+    {
+      "id": "mega-donki-sapporo",
+      "ref": "deal-donki-coupon-stack",
+      "en": "MEGA Don Quijote Sapporo Tanukikoji (24 h)",
+      "ja": "MEGAドン・キホーテ 札幌狸小路本店",
+      "romaji": "Mega Donki Sapporo Tanukikōji",
+      "lat": 43.05699,
+      "lon": 141.3525,
+      "kind": "sight",
+      "blurb": "Last big shop before the flights: snacks, cosmetics and gifts, tax-free. Pegasis fills the suitcase here.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "24 hours"
+        },
+        {
+          "label": "Tax-free",
+          "value": "From ¥5,000 before tax, passport; refund at the airport from Nov 2026"
+        },
+        {
+          "label": "Also",
+          "value": "Luggage scale and a second small bag if the suitcase is full"
+        }
+      ],
+      "tips": [
+        "Weigh the suitcase: most checked bags must be 23 kg or less."
+      ]
+    },
+    {
+      "id": "bic-sapporo",
+      "ref": "deal-bic-matsukiyo-coupons",
+      "en": "Bic Camera Sapporo",
+      "ja": "ビックカメラ 札幌店",
+      "romaji": "Bikku Kamera Sapporo-ten",
+      "lat": 43.06642,
+      "lon": 141.35294,
+      "kind": "sight",
+      "blurb": "Last tax-free shopping next to Sapporo Station: electronics, cosmetics and snacks.",
+      "info": [
+        {
+          "label": "Tax-free",
+          "value": "From ¥5,000 before tax, show passport"
+        }
+      ],
+      "tips": [
+        "Show the tourist coupon on your phone before you pay."
+      ]
+    },
+    {
+      "id": "kineya-narita-t1",
+      "ref": null,
+      "en": "Kineya Mugimaru udon, Narita Terminal 1",
+      "ja": "自家製麺 杵屋麦丸 成田国際空港第1ターミナル店",
+      "romaji": "Kineya Mugimaru",
+      "lat": 35.7638771,
+      "lon": 140.3835342,
+      "kind": "food",
+      "blurb": "Self-service udon made in the shop, with tempura and rice balls. In the Terminal 1 Central Building, 5F, before security.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "07:30–20:30 L.O., every day (Narita Airport site)"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥800–1,200 (kake udon ¥450–540 + tempura ¥160–270 a piece)"
+        }
+      ],
+      "tips": [
+        "Aoki eats here while he waits for Pegasis. Both flights use Terminal 1.",
+        "Other choice on T1 4F: Tonkatsu Saboten."
+      ]
+    },
+    {
+      "id": "kappetei-omoide",
+      "ref": null,
+      "en": "Kappe-tei, Omoide Yokocho",
+      "ja": "炭火串焼 かっぺ亭 新宿思い出横丁本店",
+      "romaji": "Kappe-tei",
+      "lat": 35.6933179,
+      "lon": 139.6995829,
+      "kind": "food",
+      "blurb": "A charcoal yakitori bar in Omoide Yokocho with 42 seats, so two people get in easily. Cheap skewers and drinks.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Mon–Fri 16:00–23:00, Sat/Sun 12:00–23:00, no closed day (Tabelog, Sep 2026; Omoide Yokocho site)"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥2,500–3,500 per person; beer ¥275"
+        },
+        {
+          "label": "Address",
+          "value": "Nishi-Shinjuku 1-2-1, tel 03-3345-0188"
+        }
+      ],
+      "tips": [
+        "Cash is safest (the Omoide site says cash only)."
+      ]
+    },
+    {
+      "id": "mintei-shimokita",
+      "ref": null,
+      "en": "Mintei, Shimokitazawa",
+      "ja": "珉亭",
+      "romaji": "Mintei",
+      "lat": 35.662498,
+      "lon": 139.669451,
+      "kind": "food",
+      "blurb": "An old Chinese diner famous for pink fried rice and \"ra-chan\" (ramen + fried rice). 2 minutes from SHELTER.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "11:30–20:00, closed Monday (Tabelog, Oct 2025 post)"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥1,000–2,000, cash only"
+        },
+        {
+          "label": "Address",
+          "value": "Kitazawa 2-8-8, Setagaya"
+        }
+      ],
+      "tips": [
+        "Everything is cooked: good for Aoki.",
+        "60 seats: dinner takes 30–45 min."
+      ]
+    },
+    {
+      "id": "uobei-shibuya",
+      "ref": "deal-uobei-shibuya",
+      "en": "Uobei Shibuya Dogenzaka",
+      "ja": "魚べい 渋谷道玄坂店",
+      "romaji": "Uobei Shibuya Dōgenzaka",
+      "lat": 35.6594349,
+      "lon": 139.6979207,
+      "kind": "food",
+      "blurb": "Touch-screen sushi: plates come on an express lane. There are cooked plates too (fried chicken, egg, noodles).",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Mon–Fri 11:00–23:00 (L.O. 22:30), Sat/Sun 10:30–23:00 (official site)"
+        },
+        {
+          "label": "Cost",
+          "value": "Plates from ¥150; about ¥1,500–2,000 per person"
+        },
+        {
+          "label": "Address",
+          "value": "Dogenzaka 2-29-11, Dai-6 Central Bldg 1F"
+        }
+      ],
+      "tips": [
+        "Aoki can order only cooked plates."
+      ]
+    },
+    {
+      "id": "taikanzan-sky-lounge",
+      "ref": null,
+      "en": "Anest Iwata Sky Lounge, Taikanzan",
+      "ja": "アネスト岩田スカイラウンジ（大観山）",
+      "romaji": "Anesuto Iwata Sukai Raunji",
+      "lat": 35.1843551,
+      "lon": 139.0488578,
+      "kind": "food",
+      "blurb": "The food court and tea lounge at the top of the Hakone Turnpike, with Fuji over Lake Ashi. Ramen, soba and curry.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Food court about 09:00–16:30; 2F tea lounge weekdays 10:00–15:30"
+        },
+        {
+          "label": "Cost",
+          "value": "Shio ramen ¥800, tororo soba ¥850: about ¥900–1,300"
+        }
+      ],
+      "tips": [
+        "No winter closing was found, but the 2027 menu is not confirmed."
+      ]
+    },
+    {
+      "id": "tochuken-mishima",
+      "ref": null,
+      "en": "Tochuken ekiben stand, Mishima Shinkansen platform",
+      "ja": "桃中軒 三島駅 新幹線ホーム売店",
+      "romaji": "Tōchūken",
+      "lat": 35.1259746,
+      "lon": 138.9112964,
+      "kind": "food",
+      "blurb": "The local ekiben maker since 1891, with a stand on the Shinkansen platform. The Ashitaka beef sukiyaki bento is cooked, not raw.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Platform stand (near car 8) 09:00–19:00 (tochuken.co.jp)"
+        },
+        {
+          "label": "Bento",
+          "value": "Fugaku Ashitaka gyūsuki bento ¥1,500; tai-meshi ¥980"
+        }
+      ],
+      "tips": [
+        "Buy it on the platform, eat it on the Kodama (3 h, no change)."
+      ]
+    },
+    {
+      "id": "sukiya-kintetsu-nara",
+      "ref": null,
+      "en": "Sukiya, Kintetsu-Nara Station",
+      "ja": "すき家 近鉄奈良駅前店",
+      "romaji": "Sukiya",
+      "lat": 34.6845414,
+      "lon": 135.8277477,
+      "kind": "food",
+      "blurb": "A fast beef-bowl chain shop next to Kintetsu-Nara Station. Quick and warm before the cold wait at the fire.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "04:00–03:00 every day"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥500–1,000"
+        },
+        {
+          "label": "Address",
+          "value": "Nakasuji-cho 6-1, Nara"
+        }
+      ],
+      "tips": [
+        "Kamameshi Shizuka is not possible: last order 16:00 on Saturday.",
+        "Festival food stalls may also be open on the field."
+      ]
+    },
+    {
+      "id": "suzuka-advenchina",
+      "ref": null,
+      "en": "AdvenChina ramen, Suzuka Circuit Park",
+      "ja": "アドベンチャイナ（鈴鹿サーキットパーク）",
+      "romaji": "Adobenchaina",
+      "lat": 34.8460691,
+      "lon": 136.5412198,
+      "kind": "food",
+      "blurb": "The ramen shop in the park, in Adventure Village. Adventure Grill (burgers) and AdvenCurry are next to it.",
+      "info": [
+        {
+          "label": "Menu",
+          "value": "Spicy miso ramen ¥1,250; tanmen ¥1,300; curry ¥1,500; burger ¥1,270 (official foods page)"
+        }
+      ],
+      "tips": [
+        "Which park restaurants open on Jan 22–25 is not published: check the foods page in January."
+      ]
+    },
+    {
+      "id": "yabaton-honten",
+      "ref": null,
+      "en": "Yabaton Yabacho main shop",
+      "ja": "矢場とん 矢場町本店",
+      "romaji": "Yabaton Yabachō Honten",
+      "lat": 35.1616781,
+      "lon": 136.9062361,
+      "kind": "food",
+      "blurb": "The main shop of the Nagoya miso-katsu chain, next to Osu. The famous dish is the waraji (sandal-size) katsu.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "11:00–21:00 (L.O. 20:30), no closed day"
+        },
+        {
+          "label": "Cost",
+          "value": "Waraji tonkatsu set ¥2,000; about ¥1,500–2,500"
+        },
+        {
+          "label": "Access",
+          "value": "10 min on foot from Osu; Meijo Line Yabacho 5 min"
+        }
+      ],
+      "tips": [
+        "Expect a queue on Sunday evening; bookings up to 4 people."
+      ]
+    },
+    {
+      "id": "matsuya-nipponbashi",
+      "ref": null,
+      "en": "Matsuya Nipponbashi (breakfast)",
+      "ja": "松屋 日本橋店",
+      "romaji": "Matsuya Nipponbashi-ten",
+      "lat": 34.66784,
+      "lon": 135.50593,
+      "kind": "food",
+      "blurb": "A 24-hour gyudon chain shop, 3 min from the hotel. Hot Japanese breakfast sets for about ¥500.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "24 hours"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥450–700 for a breakfast set"
+        },
+        {
+          "label": "Address",
+          "value": "Nipponbashi 1-3-2, Chuo-ku"
+        }
+      ],
+      "tips": [
+        "Order at the ticket machine by the door.",
+        "The hotel buffet costs ¥2,500 per person: here it is one fifth."
+      ]
+    },
+    {
+      "id": "katsukura-sanjo",
+      "ref": null,
+      "en": "Katsukura Tonkatsu, Sanjo main shop",
+      "ja": "名代とんかつ かつくら 三条本店",
+      "romaji": "Katsukura Sanjō Honten",
+      "lat": 35.00887,
+      "lon": 135.76771,
+      "kind": "food",
+      "blurb": "A well-known Kyoto tonkatsu shop on Sanjo-dori at the Sanjo Meitengai arcade. Free refills of rice, cabbage and miso soup.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "11:00–21:00 (L.O. 20:30), open every day (katsukura.jp)"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥1,500–2,500"
+        }
+      ],
+      "tips": [
+        "No bookings: expect a short queue at 12:40."
+      ]
+    },
+    {
+      "id": "hitomebore-uranamba",
+      "ref": null,
+      "en": "Taishu Sakaba Hitomebore, Ura-Namba",
+      "ja": "大衆酒場 ひとめぼれ 裏難波店",
+      "romaji": "Hitomebore",
+      "lat": 34.66561,
+      "lon": 135.50425,
+      "kind": "food",
+      "blurb": "A cheap, busy izakaya in the Ura-Namba lanes, 8 min from the hotel. Skewers, fried food and cheap drinks.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Mon–Fri 17:00–24:00; irregular closed days"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥2,000–3,000"
+        },
+        {
+          "label": "Address",
+          "value": "Sennichimae 2-7-12, Chuo-ku"
+        }
+      ],
+      "tips": [
+        "Backup in the same lanes: 路地裏酒場 とんぼ (Mon–Fri 15:00–24:00)."
+      ]
+    },
+    {
+      "id": "matsuba-umeda",
+      "ref": null,
+      "en": "Kushikatsu Matsuba main shop, Umeda",
+      "ja": "串かつ 松葉 総本店",
+      "romaji": "Kushikatsu Matsuba",
+      "lat": 34.70363,
+      "lon": 135.49783,
+      "kind": "food",
+      "blurb": "A classic standing kushikatsu bar under the JR tracks in Umeda. Fried skewers from about ¥120 each.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Mon–Sat 11:00–22:00 (meisei-matsuba.com)"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥1,500–2,500"
+        },
+        {
+          "label": "Address",
+          "value": "Shin-Umeda Shokudogai 1F"
+        }
+      ],
+      "tips": [
+        "Cash only.",
+        "No double-dipping in the shared sauce."
+      ]
+    },
+    {
+      "id": "mizuno-dotonbori",
+      "ref": null,
+      "en": "Okonomiyaki Mizuno, Dotonbori",
+      "ja": "美津の",
+      "romaji": "Mizuno",
+      "lat": 34.66835,
+      "lon": 135.50322,
+      "kind": "food",
+      "blurb": "An okonomiyaki shop on Dotonbori since 1945, cooked in front of you on the griddle.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "11:00–22:00 (L.O. 21:00), every day"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥1,500–3,000"
+        },
+        {
+          "label": "Address",
+          "value": "Dotonbori 1-4-15"
+        }
+      ],
+      "tips": [
+        "Write your name on the list, then see the Glico sign while you wait."
+      ]
+    },
+    {
+      "id": "shirakaba-sanso-cts",
+      "ref": "xhs-new-chitose-food-picks",
+      "en": "Shirakaba Sanso ramen, Hokkaido Ramen Dojo (New Chitose)",
+      "ja": "麺処 白樺山荘 新千歳空港店",
+      "romaji": "Shirakaba Sansō",
+      "lat": 42.78781,
+      "lon": 141.68087,
+      "kind": "food",
+      "blurb": "Sapporo miso ramen in the Ramen Dojo, domestic terminal 3F, before security. Fast: 30 minutes is enough.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "9:00–21:00 (L.O. 20:30)"
+        },
+        {
+          "label": "Cost",
+          "value": "Miso ramen ¥1,250"
+        }
+      ],
+      "tips": [
+        "Pin is the terminal point."
+      ]
+    },
+    {
+      "id": "matsuo-cts",
+      "ref": null,
+      "en": "Matsuo Jingisukan, New Chitose Airport",
+      "ja": "松尾ジンギスカン 新千歳空港店",
+      "romaji": "Matsuo Jingisukan",
+      "lat": 42.78781,
+      "lon": 141.68087,
+      "kind": "food",
+      "blurb": "Hokkaido grilled lamb in the domestic terminal 3F, before security; 5–10 min on foot from the international terminal.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "10:00–21:00 (L.O. 20:30) (matsuo1956.jp)"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥2,000–3,000 (not checked)"
+        }
+      ],
+      "tips": [
+        "Pin is the terminal point."
+      ]
+    },
+    {
+      "id": "nakama-ramen-kutchan",
+      "ref": null,
+      "en": "Ramen Nakama, Kutchan",
+      "ja": "ラーメン店 なかま",
+      "romaji": "Rāmen-ten Nakama",
+      "lat": 42.90162,
+      "lon": 140.75094,
+      "kind": "food",
+      "blurb": "A local ramen shop 2 min from the hotel, open late.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Mon, Thu, Fri, Sat 11:00–14:00 / 17:00–24:00; Sun 11:00–24:00; closed Tue, Wed (Tabelog)"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥1,000–2,000"
+        },
+        {
+          "label": "Address",
+          "value": "Kita 2-jo Nishi 2-22, Kutchan"
+        }
+      ],
+      "tips": [
+        "Closes early if the soup runs out."
+      ]
+    },
+    {
+      "id": "boyoso-hirafu",
+      "ref": null,
+      "en": "Lodge Boyoso (Hirafu slopes)",
+      "ja": "望羊荘",
+      "romaji": "Bōyōsō",
+      "lat": 42.86803,
+      "lon": 140.69337,
+      "kind": "food",
+      "blurb": "An old family lodge on the lower Hirafu slopes with cheap katsu curry and ramen, much cheaper than the resort restaurants.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Winter only; lunch from about 10:00 (Retty)"
+        },
+        {
+          "label": "Cost",
+          "value": "Katsu curry about ¥1,500 (2024 report)"
+        }
+      ],
+      "tips": [
+        "2026–27 hours not confirmed."
+      ]
+    },
+    {
+      "id": "powderhood-hirafu",
+      "ref": null,
+      "en": "POWDERHOOD Restaurant & Taproom, Hirafu",
+      "ja": "POWDERHOOD RESTAURANT & TAPROOM（ALPEN NODE）",
+      "romaji": "Paudāhuddo",
+      "lat": 42.86116,
+      "lon": 140.69914,
+      "kind": "food",
+      "blurb": "Burgers and hot food in ALPEN NODE at the Ace Gondola base plaza, 5 min from .Base.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Winter daytime from about 10:30 (two sources disagree on the closing time)"
+        },
+        {
+          "label": "Cost",
+          "value": "Burger ¥1,300, cheeseburger ¥1,450"
+        }
+      ],
+      "tips": [
+        "Backup: the food court in the Hirafu Welcome Center."
+      ]
+    },
+    {
+      "id": "nikuson-kutchan",
+      "ref": null,
+      "en": "Izakaya Gyoza no Nikuson, Kutchan",
+      "ja": "居酒屋 餃子の肉村",
+      "romaji": "Gyōza no Nikuson",
+      "lat": 42.90387,
+      "lon": 140.75152,
+      "kind": "food",
+      "blurb": "A small local gyoza izakaya, 5 min from the hotel. House gyoza at local prices.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "18:00–23:00 (L.O. 22:30) (Hotpepper)"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥1,000–3,000"
+        },
+        {
+          "label": "Tel",
+          "value": "090-7370-7739"
+        }
+      ],
+      "tips": [
+        "Opens at 18:00."
+      ]
+    }
+  ],
+  "days": [
+    {
+      "n": 1,
+      "date": "2027-01-19",
+      "weekday": "火",
+      "region": "tokyo",
+      "short": "Arrive",
+      "cover": "omoide",
+      "title": "Land in Tokyo, airport bus to Tokyo Station, first night in Shinjuku",
+      "titleJa": "成田 → 東京駅 → 新宿（伊勢丹・思い出横丁）",
+      "romaji": "Narita → Tōkyō-eki → Shinjuku",
+      "summary": "Aoki lands first and waits at Narita Terminal 1; Pegasis lands at 16:30 and you travel together from there. The airport bus drops you at Tokyo Station for the Girls Band Cry dome, then you eat yakitori in Omoide Yokocho and buy the suitcase for the way home at Don Quijote.",
+      "temp": "2 – 10 °C",
+      "alerts": [
+        "Pegasis: at immigration ask for a paper landing stamp, not the face-scan gate (the car shop checks it on Jan 21).",
+        "TMG observatory is closed today (3rd Tuesday): it is on day 2."
+      ],
+      "stops": [
+        {
+          "place": "kineya-narita-t1",
+          "time": "14:30",
+          "note": "Aoki: late lunch (udon) while he waits. Breakfast and Pegasis's lunch are the meals on the planes."
+        },
+        {
+          "place": "narita",
+          "time": "17:05",
+          "note": "Meet in the Terminal 1 arrivals lobby (Pegasis lands 16:30)."
+        },
+        {
+          "place": "tokyo-st-dome",
+          "time": "18:45",
+          "note": "Girls Band Cry ep 1: Nina arrives under this dome, 10 min (Aoki's pick)."
+        },
+        {
+          "place": "isetan",
+          "time": "19:25",
+          "note": "Half-price stickers on sushi and bento before the 20:00 close (Pegasis's pick): snacks for the room."
+        },
+        {
+          "place": "kappetei-omoide",
+          "time": "19:55",
+          "note": "Dinner: yakitori and a beer, 1 h (Aoki's pick)."
+        },
+        {
+          "place": "donki-kabukicho",
+          "time": "21:15",
+          "note": "Pegasis: the suitcase for the way home (empty for now), heat packs, shoe spikes. Aoki: tourist coupon. One drink in Golden Gai after, if you still have energy."
+        }
+      ],
+      "legs": [
+        {
+          "from": "narita",
+          "to": "kineya-narita-t1",
+          "mode": "walk",
+          "label": "Walk from T1 arrivals to the Central Building 5F",
+          "duration": "5 min"
+        },
+        {
+          "from": "kineya-narita-t1",
+          "to": "narita",
+          "mode": "walk",
+          "label": "Walk down to the T1 arrivals lobby",
+          "duration": "5 min"
+        },
+        {
+          "from": "narita",
+          "to": "tokyo-st-dome",
+          "mode": "bus",
+          "label": "AIRPORT BUS TYO-NRT, Narita T1 stop 7, 17:20 → Tokyo Station (Nihonbashi exit) 18:38, ¥1,500 (buses about every 20 min); walk through the station to the Marunouchi South dome",
+          "duration": "1 h 25"
+        },
+        {
+          "from": "tokyo-st-dome",
+          "to": "isetan",
+          "mode": "train",
+          "label": "Tokyo Metro Marunouchi Line, Tokyo 19:02 → Shinjuku-sanchome 19:19 (¥209)",
+          "duration": "20 min"
+        },
+        {
+          "from": "isetan",
+          "to": "kappetei-omoide",
+          "mode": "walk",
+          "label": "Walk west under the JR tracks",
+          "duration": "12 min"
+        },
+        {
+          "from": "kappetei-omoide",
+          "to": "donki-kabukicho",
+          "mode": "walk",
+          "label": "Walk north-east into Kabukicho (Golden Gai is on the way)",
+          "duration": "10 min"
+        },
+        {
+          "from": "donki-kabukicho",
+          "to": "hotel-super-shinjuku",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "4 min"
+        }
+      ],
+      "sleep": "hotel-super-shinjuku",
+      "sleepNote": "Night 1 of 3. Economy twin with breakfast.",
+      "notes": [
+        "One plan for both: Aoki waits at Narita (about 3 h) instead of going ahead alone; the station dome and Omoide are his wants, Isetan and the airport bus are Pegasis's.",
+        "Pegasis brings his own thick winter clothes: nothing to buy for the cold.",
+        "Phone data: set up a Japan data eSIM before you fly (about CA$15–25 for 10–20 GB), or buy a tourist SIM at Narita.",
+        "Buy a Welcome Suica at the airport (or use a phone Suica) for all trains and buses.",
+        "If Pegasis is out late, take the next TYO-NRT bus (about every 20 min) and skip Isetan.",
+        "Aoki: if Air China cannot be booked, China Southern 09:15 → 13:15 or Juneyao 08:25 → 12:00 keeps the same afternoon."
+      ],
+      "cost": "≈ ¥8,000 per person (bus ¥1,500, lunch, dinner, Isetan snacks) + Pegasis's suitcase ≈ ¥5,000–15,000"
+    },
+    {
+      "n": 2,
+      "date": "2027-01-20",
+      "weekday": "水",
+      "region": "tokyo",
+      "short": "Anime day",
+      "cover": "nakano",
+      "title": "Anime day: Your Name stairs, Akihabara, Ikebukuro, Nakano, a live show in Shimokitazawa",
+      "titleJa": "須賀神社 → 都庁 → 秋葉原 → 池袋 → 中野 → 下北沢SHELTER",
+      "romaji": "Suga Jinja → Tochō → Akihabara → Ikebukuro → Nakano → Shimokitazawa",
+      "summary": "An early look at the Your Name stairs and the free City Hall view, then a full anime-goods day with a maid café lunch. You end at a real live show in Shimokitazawa after a cheap Chinese diner dinner.",
+      "temp": "2 – 10 °C",
+      "alerts": [
+        "Buy the SHELTER ticket online when the January list is out (loft-prj.co.jp, in December); note the OPEN time.",
+        "Book the Maidreamin table on the official site."
+      ],
+      "stops": [
+        {
+          "place": "hotel-super-shinjuku",
+          "time": "07:45",
+          "note": "Breakfast: free hotel buffet (07:00–09:00)."
+        },
+        {
+          "place": "suga",
+          "time": "08:50",
+          "note": "Your Name stairs, 15 min, quiet in the morning (Aoki's pick)."
+        },
+        {
+          "place": "tmg",
+          "time": "09:35",
+          "note": "Free 45th-floor view; Mt Fuji on a clear morning (both of you wanted it)."
+        },
+        {
+          "place": "radio-kaikan",
+          "time": "11:05",
+          "note": "10 floors of figures and cards; ZEST (Oshi no Ko) 3 min north."
+        },
+        {
+          "place": "maidreamin-akiba",
+          "time": "12:15",
+          "note": "Lunch with the stage show, 1 h (Pegasis's pick)."
+        },
+        {
+          "place": "ikebukuro",
+          "time": "13:55",
+          "note": "Animate main store, Surugaya, K-BOOKS, Lashinbang (used goods)."
+        },
+        {
+          "place": "nakano",
+          "time": "15:45",
+          "note": "Mandarake and used goods, 1 h 10."
+        },
+        {
+          "place": "shimokita",
+          "time": "17:20",
+          "note": "Bocchi places in the dark streets, 15 min."
+        },
+        {
+          "place": "mintei-shimokita",
+          "time": "17:35",
+          "note": "Dinner: pink fried rice or ramen + fried rice set, 40 min."
+        },
+        {
+          "place": "shelter",
+          "time": "18:30",
+          "note": "Real live show, standing. Recent shows: OPEN 18:15–19:00, START 18:45–19:30."
+        }
+      ],
+      "legs": [
+        {
+          "from": "hotel-super-shinjuku",
+          "to": "suga",
+          "mode": "train",
+          "label": "Walk to Shinjuku-sanchome (10 min); Tokyo Metro Marunouchi Line, Shinjuku-sanchome 08:36 → Yotsuya-sanchome 08:39; walk 8 min",
+          "duration": "25 min"
+        },
+        {
+          "from": "suga",
+          "to": "tmg",
+          "mode": "train",
+          "label": "Walk to Yotsuya-sanchome (8 min); Marunouchi Line, Yotsuya-sanchome 09:16 → Nishi-Shinjuku 09:23; walk 10 min",
+          "duration": "30 min"
+        },
+        {
+          "from": "tmg",
+          "to": "radio-kaikan",
+          "mode": "train",
+          "label": "Toei Oedo Line, Tochomae 10:30 → Ueno-okachimachi 10:49; JR Yamanote Line, Okachimachi 10:57 → Akihabara 10:59",
+          "duration": "35 min"
+        },
+        {
+          "from": "radio-kaikan",
+          "to": "maidreamin-akiba",
+          "mode": "walk",
+          "label": "Walk along Chuo-dori",
+          "duration": "5 min"
+        },
+        {
+          "from": "maidreamin-akiba",
+          "to": "ikebukuro",
+          "mode": "train",
+          "label": "JR Yamanote Line, Akihabara 13:28 → Ikebukuro 13:48 (east exit)",
+          "duration": "25 min"
+        },
+        {
+          "from": "ikebukuro",
+          "to": "nakano",
+          "mode": "train",
+          "label": "JR Saikyo Line, Ikebukuro 15:26 → Shinjuku 15:32; JR Chuo Line Special Rapid, Shinjuku 15:36 → Nakano 15:40 (north exit)",
+          "duration": "20 min"
+        },
+        {
+          "from": "nakano",
+          "to": "shimokita",
+          "mode": "train",
+          "label": "JR Chuo Line Rapid, Nakano 17:01 → Shinjuku 17:05; Odakyu Line Rapid Express, Shinjuku 17:10 → Shimokitazawa 17:18",
+          "duration": "20 min"
+        },
+        {
+          "from": "shimokita",
+          "to": "mintei-shimokita",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "3 min"
+        },
+        {
+          "from": "mintei-shimokita",
+          "to": "shelter",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "3 min"
+        },
+        {
+          "from": "shelter",
+          "to": "hotel-super-shinjuku",
+          "mode": "train",
+          "label": "Odakyu Line Rapid Express, Shimokitazawa 21:30 → Shinjuku 21:38 (every 10 min); walk 12 min",
+          "duration": "25 min"
+        }
+      ],
+      "sleep": "hotel-super-shinjuku",
+      "sleepNote": "Night 2 of 3.",
+      "notes": [
+        "Nakano small shops open at about 12:00 and close early: go before 17:30.",
+        "Tax-free: Animate from ¥5,000 before tax; keep the passport with you.",
+        "Pegasis puts the goods in the new suitcase tonight: tomorrow morning it goes to Osaka."
+      ],
+      "cost": "≈ ¥11,000 per person (trains, maid café lunch, SHELTER ticket + drink, dinner ¥1,500); goods extra"
+    },
+    {
+      "n": 3,
+      "date": "2027-01-21",
+      "weekday": "木",
+      "region": "tokyo",
+      "short": "Kawasaki + Daikoku",
+      "cover": "daikoku",
+      "title": "Shibuya Sky, Nissan Crossing, Girls Band Cry in Kawasaki, then Daikoku by your own car",
+      "titleJa": "渋谷スカイ → 銀座 → 川崎 → 大黒PA → 辰巳PA",
+      "romaji": "Shibuya Sukai → Ginza → Kawasaki → Daikoku PA → Tatsumi PA",
+      "summary": "Shibuya Sky in the morning and a touch-screen sushi lunch, then Nissan Crossing on the way to Kawasaki for the Girls Band Cry walk. Pegasis picks up the car at 17:45 and drives you to Daikoku and Tatsumi at night.",
+      "temp": "2 – 10 °C",
+      "alerts": [
+        "09:30: hand both suitcases to the hotel front for Yamato TA-Q-BIN to Dormy Inn PREMIUM Namba (arrives Fri 22).",
+        "Pegasis: licence + IDP + passport with the landing stamp for the car at 17:45 (studless tyres confirmed in writing when you booked).",
+        "Daikoku: police now close it on some weekdays too. At 18:00 check X and the Shutoko closure site; if closed, drive straight to Tatsumi PA."
+      ],
+      "stops": [
+        {
+          "place": "hotel-super-shinjuku",
+          "time": "08:00",
+          "note": "Breakfast: free hotel buffet. 09:30: hand both suitcases to the front for Yamato to Osaka."
+        },
+        {
+          "place": "shibuya-sky",
+          "time": "10:20",
+          "note": "Web ticket entry about 10:20; Hachiko (GBC ep 3) after."
+        },
+        {
+          "place": "uobei-shibuya",
+          "time": "11:45",
+          "note": "Lunch: touch-screen sushi (cooked plates for Aoki), 40 min. Then PARCO: Nintendo and Pokémon, 12:30–13:00."
+        },
+        {
+          "place": "nissan-crossing",
+          "time": "13:30",
+          "note": "Free Nissan showroom, 20 min (Aoki's pick)."
+        },
+        {
+          "place": "gbc-lazona",
+          "time": "14:20",
+          "note": "Buy the GBC stamp book; Rufa Square stage."
+        },
+        {
+          "place": "gbc-miharashi",
+          "time": "15:05",
+          "note": "The river steps from ep 2, in afternoon sun."
+        },
+        {
+          "place": "gbc-marufuku",
+          "time": "16:00",
+          "note": "Hotcake and coffee (afternoon snack); East Exit plaza stamp above."
+        },
+        {
+          "place": "toyota-shinkawabashi",
+          "time": "17:45",
+          "note": "Pick up the car (studless tyres, ETC). Walk past CLUB CITTA' on the way."
+        },
+        {
+          "place": "daikoku",
+          "time": "18:45",
+          "note": "JDM meet; Pegasis drives in (his pick). Dinner: ramen or curry at the PA food court."
+        },
+        {
+          "place": "tatsumi",
+          "time": "20:30",
+          "note": "Smaller car meet, Tokyo skyline, 15 min."
+        }
+      ],
+      "legs": [
+        {
+          "from": "hotel-super-shinjuku",
+          "to": "shibuya-sky",
+          "mode": "train",
+          "label": "Walk to JR Shinjuku (12 min); JR Shonan-Shinjuku Line Rapid, Shinjuku 10:00 → Shibuya 10:05; walk to Shibuya Scramble Square",
+          "duration": "25 min"
+        },
+        {
+          "from": "shibuya-sky",
+          "to": "uobei-shibuya",
+          "mode": "walk",
+          "label": "Walk past Hachiko to Dogenzaka",
+          "duration": "8 min"
+        },
+        {
+          "from": "uobei-shibuya",
+          "to": "nissan-crossing",
+          "mode": "train",
+          "label": "Walk via PARCO to Shibuya Station; Tokyo Metro Ginza Line, Shibuya 13:10 → Ginza 13:26 (exit A4)",
+          "duration": "25 min"
+        },
+        {
+          "from": "nissan-crossing",
+          "to": "gbc-lazona",
+          "mode": "train",
+          "label": "Walk to JR Shimbashi (10 min); JR Tokaido Line, Shimbashi 14:00 → Kawasaki 14:14; walk to Lazona (west exit)",
+          "duration": "30 min"
+        },
+        {
+          "from": "gbc-lazona",
+          "to": "gbc-miharashi",
+          "mode": "walk",
+          "label": "Walk west to the Tama River",
+          "duration": "15 min"
+        },
+        {
+          "from": "gbc-miharashi",
+          "to": "gbc-marufuku",
+          "mode": "walk",
+          "label": "Walk back through the station to the East Exit, Azalea B1F",
+          "duration": "20 min"
+        },
+        {
+          "from": "gbc-marufuku",
+          "to": "toyota-shinkawabashi",
+          "mode": "walk",
+          "label": "Walk south-east past CLUB CITTA' (La Cittadella) to Shinkawa-dori",
+          "duration": "15 min"
+        },
+        {
+          "from": "toyota-shinkawabashi",
+          "to": "daikoku",
+          "mode": "drive",
+          "label": "Drive, Shuto K1 Yokohane Line → Bayshore Route (Wangan-sen) to Daikoku PA",
+          "duration": "30 min"
+        },
+        {
+          "from": "daikoku",
+          "to": "tatsumi",
+          "mode": "drive",
+          "label": "Drive, Bayshore Route north → Route 9 (inbound) to Tatsumi 1st PA",
+          "duration": "35–40 min"
+        },
+        {
+          "from": "tatsumi",
+          "to": "hotel-super-shinjuku",
+          "mode": "drive",
+          "label": "Drive, C1 → Route 4 to Shinjuku; coin car park near the hotel",
+          "duration": "30 min"
+        }
+      ],
+      "sleep": "hotel-super-shinjuku",
+      "sleepNote": "Night 3 of 3. Park in a coin car park near the hotel (about ¥2,000–3,000 overnight). Laundry night 1: hotel coin laundry.",
+      "notes": [
+        "Pegasis drives Daikoku himself, as he wanted: no guided tour.",
+        "Yamato Tokyo → Osaka is next-day; about ¥2,500–3,500 per suitcase. Keep one small bag each for the Fuji night.",
+        "Toyota rent: ≈ ¥19,000 for 2 days + studless ¥4,400 + one-way ¥8,800 + waiver; tolls tonight about ¥3,000 (ETC).",
+        "Umihotaru is left out: the Aqualine loop would end after midnight."
+      ],
+      "cost": "≈ ¥14,000 per person (Shibuya Sky ¥2,700, trains, courier, lunch, dinner, tolls and parking split); car on day 4"
+    },
+    {
+      "n": 4,
+      "date": "2027-01-22",
+      "weekday": "金",
+      "region": "fuji",
+      "short": "Coast → Fuji",
+      "cover": "taikanzan",
+      "title": "Enoshima, Hakone Turnpike, Otome Pass, car museum and outlets, Fuji at sunset",
+      "titleJa": "江の島 → 大観山 → 乙女峠 → 富士モータースポーツミュージアム → 御殿場 → 河口湖",
+      "romaji": "Enoshima → Taikanzan → Otome-tōge → Oyama → Gotenba → Kawaguchiko",
+      "summary": "A coast-to-Fuji drive together: Enoshima for Aoki, the Turnpike and the passes for Pegasis, then the race-car museum and the outlets one after the other. Sunset on Fuji at Lake Kawaguchi and a BBQ dinner at the villa.",
+      "temp": "−4 – 8 °C",
+      "alerts": [
+        "Leave Shinjuku at 07:20 (Friday morning traffic).",
+        "Studless tyres: Turnpike, Otome and Kagosaka Pass can be icy.",
+        "Phone Hanz (0555-72-8282) when you book: some sites say last check-in 17:00; you arrive about 17:10."
+      ],
+      "stops": [
+        {
+          "place": "hotel-super-shinjuku",
+          "time": "07:00",
+          "note": "Breakfast: hotel buffet at opening, 15 min."
+        },
+        {
+          "place": "enoshima",
+          "time": "09:00",
+          "note": "Aoki's pick, 1 h: park near Enoden Enoshima Station, see the island from the bridge, then Enoden 2 stops to the Slam Dunk crossing and back."
+        },
+        {
+          "place": "taikanzan",
+          "time": "11:20",
+          "note": "Up the Turnpike (Pegasis drives, his pick): Fuji behind Lake Ashi (Evangelion's Tokyo-3, Aoki's pick)."
+        },
+        {
+          "place": "taikanzan-sky-lounge",
+          "time": "11:35",
+          "note": "Lunch: ramen or soba with the view, 40 min."
+        },
+        {
+          "place": "otome",
+          "time": "12:50",
+          "note": "Fuji view from the pass rest stop, 15 min."
+        },
+        {
+          "place": "fuji-motorsports",
+          "time": "13:25",
+          "note": "Race-car museum, 1 h (Aoki's pick)."
+        },
+        {
+          "place": "gotemba",
+          "time": "14:45",
+          "note": "Outlets with Fuji behind, 45 min (Pegasis's pick)."
+        },
+        {
+          "place": "lake-kawaguchi",
+          "time": "16:25",
+          "note": "Sunset on Fuji across the lake (about 17:00), 25 min (Aoki's pick)."
+        },
+        {
+          "place": "hanz",
+          "time": "17:10",
+          "note": "Check in."
+        },
+        {
+          "place": "hanz",
+          "time": "18:30",
+          "note": "Dinner: BBQ course on the villa terrace (or the no-grill dining course)."
+        }
+      ],
+      "legs": [
+        {
+          "from": "hotel-super-shinjuku",
+          "to": "enoshima",
+          "mode": "drive",
+          "label": "Drive, Shuto Route 3 → Tomei → Route 467 to a coin car park near Enoden Enoshima Station",
+          "duration": "1 h 30–1 h 45"
+        },
+        {
+          "from": "enoshima",
+          "to": "taikanzan",
+          "mode": "drive",
+          "label": "Drive, Route 134 west → Seisho Bypass → Hakone Turnpike (toll) to Taikanzan",
+          "duration": "1 h 20"
+        },
+        {
+          "from": "taikanzan",
+          "to": "taikanzan-sky-lounge",
+          "mode": "walk",
+          "label": "Walk across the car park",
+          "duration": "2 min"
+        },
+        {
+          "from": "taikanzan-sky-lounge",
+          "to": "otome",
+          "mode": "drive",
+          "label": "Drive down to Lake Ashi (Moto-Hakone), Route 1 → Sengokuhara → Route 138",
+          "duration": "40 min"
+        },
+        {
+          "from": "otome",
+          "to": "fuji-motorsports",
+          "mode": "drive",
+          "label": "Drive, Route 138 → Gotemba → Oyama",
+          "duration": "25 min"
+        },
+        {
+          "from": "fuji-motorsports",
+          "to": "gotemba",
+          "mode": "drive",
+          "label": "Drive back to the outlets (Route 401)",
+          "duration": "20 min"
+        },
+        {
+          "from": "gotemba",
+          "to": "lake-kawaguchi",
+          "mode": "drive",
+          "label": "Drive, Route 138 over Kagosaka Pass → Higashi-Fuji-goko Road → Lake Kawaguchi north shore (leave by 15:30)",
+          "duration": "50 min–1 h"
+        },
+        {
+          "from": "lake-kawaguchi",
+          "to": "hanz",
+          "mode": "drive",
+          "label": "Drive, lake shore → Route 139 to Katsuyama",
+          "duration": "20 min"
+        }
+      ],
+      "sleep": "hanz",
+      "sleepNote": "The special night: Fuji-view villa, half board. Ask for a breakfast box: you leave at 06:10.",
+      "notes": [
+        "Aoki can drive the flat coast part; Pegasis drives the Turnpike and the passes.",
+        "One plan for both: Enoshima, the museum and Lake Kawaguchi are Aoki's wants; the Turnpike, Taikanzan, Otome and the outlets are Pegasis's. Each one is short, so you do all of them together.",
+        "If Otome Pass needs chains, go down to Gotemba by Route 1 and the Tomei instead."
+      ],
+      "cost": "≈ ¥17,000 per person (car half, tolls, fuel, parking, lunch, museum ¥1,800 each); Hanz dinner is in the half-board price"
+    },
+    {
+      "n": 5,
+      "date": "2027-01-23",
+      "weekday": "土",
+      "region": "kansai",
+      "short": "Fuji → Nara fire",
+      "cover": "chureito",
+      "title": "Chureito and the Yuru Camp lake, Kodama west, Nara hill fire",
+      "titleJa": "忠霊塔 → 本栖湖 → 三島 → なんば → 奈良・若草山焼き",
+      "romaji": "Chūreitō → Motosuko → Mishima → Namba → Nara",
+      "summary": "Breakfast at the villa, then Fuji and the pagoda at Chureito and the Yuru Camp view at Lake Motosu. A direct Kodama takes you to Osaka, and in the evening you watch the Wakakusa hill fire in Nara.",
+      "temp": "−6 – 9 °C",
+      "alerts": [
+        "Car back at Mishima by 10:40 with a full tank.",
+        "Chureito's 398 steps can be icy (spikes).",
+        "Wakakusa Yamayaki: fireworks 18:15, fire 18:30 (cancelled only in bad weather)."
+      ],
+      "stops": [
+        {
+          "place": "hanz",
+          "time": "06:45",
+          "note": "Breakfast: the skillet set, cooked at the villa."
+        },
+        {
+          "place": "chureito",
+          "time": "07:45",
+          "note": "Fuji and the pagoda in morning light, 40 min."
+        },
+        {
+          "place": "koan",
+          "time": "09:00",
+          "note": "Yuru Camp ep 1 view of Fuji (the ¥1,000 note), 15 min (Aoki's pick)."
+        },
+        {
+          "place": "toyota-mishima",
+          "time": "10:35",
+          "note": "Return the car."
+        },
+        {
+          "place": "tochuken-mishima",
+          "time": "10:45",
+          "note": "Lunch: buy the Ashitaka beef sukiyaki bento on the platform; eat it on the train about 12:00."
+        },
+        {
+          "place": "dormy-namba",
+          "time": "14:25",
+          "note": "Leave bags at the front, 5 min; your suitcases are here."
+        },
+        {
+          "place": "todaiji",
+          "time": "15:30",
+          "note": "Great Buddha (hall closes 17:00) and the deer."
+        },
+        {
+          "place": "sukiya-kintetsu-nara",
+          "time": "16:50",
+          "note": "Early dinner: a quick hot beef bowl before the cold wait."
+        },
+        {
+          "place": "tobihino",
+          "time": "17:45",
+          "note": "Stand in the field: fireworks 18:15, hill fire 18:30."
+        }
+      ],
+      "legs": [
+        {
+          "from": "hanz",
+          "to": "chureito",
+          "mode": "drive",
+          "label": "Drive, Route 139 east to Shimoyoshida (leave 07:30)",
+          "duration": "15 min"
+        },
+        {
+          "from": "chureito",
+          "to": "koan",
+          "mode": "drive",
+          "label": "Drive, Route 139 west past Aokigahara to Lake Motosu",
+          "duration": "35 min"
+        },
+        {
+          "from": "koan",
+          "to": "toyota-mishima",
+          "mode": "drive",
+          "label": "Drive, Route 139 → Fujinomiya → Nishi-Fuji Road → Shin-Tomei (Shin-Fuji IC → Nagaizumi-Numazu IC) → Mishima; fill the tank near the station",
+          "duration": "1 h 25"
+        },
+        {
+          "from": "toyota-mishima",
+          "to": "tochuken-mishima",
+          "mode": "walk",
+          "label": "Walk into Mishima Station, up to the Shinkansen platform",
+          "duration": "8 min"
+        },
+        {
+          "from": "tochuken-mishima",
+          "to": "dormy-namba",
+          "mode": "shinkansen",
+          "label": "Tokaido Shinkansen Kodama 815, Mishima 10:54 → Shin-Osaka 13:51 (direct, reserved seats); Osaka Metro Midosuji Line, Shin-Osaka 13:57 → Namba 14:13; walk 10 min",
+          "duration": "3 h 30"
+        },
+        {
+          "from": "dormy-namba",
+          "to": "todaiji",
+          "mode": "train",
+          "label": "Walk to Kintetsu-Nippombashi (5 min); Kintetsu Nara Line rapid express, Kintetsu-Nippombashi 14:36 → Kintetsu-Nara 15:10; walk 20 min",
+          "duration": "55 min"
+        },
+        {
+          "from": "todaiji",
+          "to": "sukiya-kintetsu-nara",
+          "mode": "walk",
+          "label": "Walk back west along Noborioji-dori",
+          "duration": "20 min"
+        },
+        {
+          "from": "sukiya-kintetsu-nara",
+          "to": "tobihino",
+          "mode": "walk",
+          "label": "Walk through Nara Park past Kasuga Taisha",
+          "duration": "25 min"
+        },
+        {
+          "from": "tobihino",
+          "to": "dormy-namba",
+          "mode": "train",
+          "label": "Walk to Kintetsu-Nara (25 min, crowds); Kintetsu Nara Line rapid express, Kintetsu-Nara 19:52 → Kintetsu-Nippombashi 20:26 (the 19:17 if you leave early); walk 5 min",
+          "duration": "1 h 15"
+        }
+      ],
+      "sleep": "dormy-namba",
+      "sleepNote": "Night 1 of 5 in one hotel.",
+      "notes": [
+        "No sunrise start: you eat the villa breakfast (it is in the price) and drive in full daylight. Chureito at 07:45 still has clear morning Fuji.",
+        "Train times are from the current timetable (Jorudan, checked Sep 26, 2026); check again in December.",
+        "If you miss the 10:54 Kodama, the next Kodama 817 leaves about 1 h later; Nara still works (Todaiji closes 17:00).",
+        "Koan campsite lists ¥600 per car; keep ¥600–1,000 cash."
+      ],
+      "cost": "≈ ¥22,000 per person (Shinkansen ¥12,300, car drop fee and fuel split, Todaiji ¥800, bento, dinner)"
+    },
+    {
+      "n": 6,
+      "date": "2027-01-24",
+      "weekday": "日",
+      "region": "chubu",
+      "short": "Suzuka",
+      "cover": "suzuka",
+      "title": "Suzuka F1 track kart, Toyota museum, Osu and miso katsu in Nagoya",
+      "titleJa": "鈴鹿サーキット → 名古屋（トヨタ産業技術記念館・大須・矢場とん）",
+      "romaji": "Suzuka Sākitto → Nagoya",
+      "summary": "The Urban Liner to Suzuka for the park and the EV kart on the East Course. In Nagoya you see the Toyota museum and then Osu, and eat miso katsu at the Yabaton main shop before the Nozomi back.",
+      "temp": "1 – 9 °C",
+      "alerts": [
+        "Buy Suzuka entry and the EV kart slot on Asoview on Dec 1, 2026 (kart runs only about 12:00–13:15).",
+        "Toyota museum last entry 16:30."
+      ],
+      "stops": [
+        {
+          "place": "matsuya-nipponbashi",
+          "time": "07:45",
+          "note": "Breakfast: gyudon or a breakfast set, 20 min."
+        },
+        {
+          "place": "suzuka",
+          "time": "10:30",
+          "note": "Walk the park, pit side and grandstand."
+        },
+        {
+          "place": "suzuka-advenchina",
+          "time": "11:30",
+          "note": "Lunch: miso ramen or curry in the park, 40 min."
+        },
+        {
+          "place": "suzuka",
+          "time": "12:20",
+          "note": "EV kart on the East Course at about 12:30 (Pegasis's pick); leave 13:30."
+        },
+        {
+          "place": "toyota-museum",
+          "time": "14:55",
+          "note": "Looms to cars, robot demos, 1 h 20 (Aoki's pick)."
+        },
+        {
+          "place": "osu",
+          "time": "16:50",
+          "note": "Old games, electronics and street snacks, 1 h (Pegasis's maybe)."
+        },
+        {
+          "place": "yabaton-honten",
+          "time": "18:00",
+          "note": "Dinner: miso katsu at the main shop, 45 min."
+        }
+      ],
+      "legs": [
+        {
+          "from": "dormy-namba",
+          "to": "matsuya-nipponbashi",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "3 min"
+        },
+        {
+          "from": "matsuya-nipponbashi",
+          "to": "suzuka",
+          "mode": "train",
+          "label": "Walk to Osaka-Namba (Kintetsu, 10 min); Kintetsu Limited Express Urban Liner, Osaka-Namba 08:30 → Shiroko 10:08; taxi from Shiroko Station east exit to the circuit (about 10 min, ≈ ¥2,000 per car)",
+          "duration": "2 h 15"
+        },
+        {
+          "from": "suzuka",
+          "to": "suzuka-advenchina",
+          "mode": "walk",
+          "label": "Walk to Adventure Village",
+          "duration": "5 min"
+        },
+        {
+          "from": "suzuka-advenchina",
+          "to": "suzuka",
+          "mode": "walk",
+          "label": "Walk to the kart area",
+          "duration": "5 min"
+        },
+        {
+          "from": "suzuka",
+          "to": "toyota-museum",
+          "mode": "train",
+          "label": "Taxi to Shiroko Station (ask the park information desk to call one, 13:30); Kintetsu Limited Express Ise-Shima Liner, Shiroko 13:56 → Kintetsu-Nagoya 14:37; Meitetsu Nagoya Line, Meitetsu-Nagoya 14:48 → Sako 14:50; walk 3 min",
+          "duration": "1 h 25"
+        },
+        {
+          "from": "toyota-museum",
+          "to": "osu",
+          "mode": "train",
+          "label": "Meitetsu Nagoya Line, Sako 16:25 → Meitetsu-Nagoya 16:27; Higashiyama Line, Nagoya 16:33 → Fushimi; Tsurumai Line, Fushimi 16:44 → Osu Kannon 16:45",
+          "duration": "25 min"
+        },
+        {
+          "from": "osu",
+          "to": "yabaton-honten",
+          "mode": "walk",
+          "label": "Walk east along the Osu arcades to Yabacho",
+          "duration": "10 min"
+        },
+        {
+          "from": "yabaton-honten",
+          "to": "dormy-namba",
+          "mode": "shinkansen",
+          "label": "Meijo Line, Yabacho 18:50 → Sakae; Higashiyama Line, Sakae 18:55 → Nagoya 18:59; Tokaido Shinkansen Nozomi 55, Nagoya 19:10 → Shin-Osaka 20:00; Midosuji Line, Shin-Osaka 20:06 → Namba 20:21; walk 10 min",
+          "duration": "1 h 45"
+        }
+      ],
+      "sleep": "dormy-namba",
+      "sleepNote": "Night 2 of 5.",
+      "notes": [
+        "Suzuka on Jan 24: 10:00–17:00, entry ¥2,200 (official calendar, checked Sep 26, 2026).",
+        "A Mie Kotsu bus also runs Shiroko → circuit, but its timetable could not be read online: the taxi is sure.",
+        "One plan for both: the museum (Aoki) and Osu (Pegasis) are one after the other, not at the same time.",
+        "Kart times for January 2027 are published on Dec 1, 2026: confirm then that a slot near 12:30 exists."
+      ],
+      "cost": "≈ ¥24,000 per person (Kintetsu about ¥3,700, taxis about ¥2,000, Nozomi ¥6,700, Suzuka ¥2,200 + kart share, museum ¥1,000, meals)"
+    },
+    {
+      "n": 7,
+      "date": "2027-01-25",
+      "weekday": "月",
+      "region": "kansai",
+      "short": "Kyoto",
+      "cover": "kyoto-concert-hall",
+      "title": "Kyoto together: Fushimi Inari, Kinkakuji and Sabbat of the Witch places",
+      "titleJa": "伏見稲荷 → 金閣寺 → 京都コンサートホール → 三条名店街 → 京都駅",
+      "romaji": "Fushimi Inari → Kinkakuji → Kyōto → Namba",
+      "summary": "A calm Kyoto morning at Fushimi Inari and Kinkakuji (not at dawn), then the Sabbat school building, a tonkatsu lunch in the Sabbat arcade and the Kyoto Station stairs. Back at the hotel by 16:00 to rest, then izakaya dinner in Ura-Namba.",
+      "temp": "1 – 8 °C",
+      "alerts": [
+        "Leave the hotel at 07:20.",
+        "Laundry night 2 at the hotel."
+      ],
+      "stops": [
+        {
+          "place": "matsuya-nipponbashi",
+          "time": "07:00",
+          "note": "Breakfast, 15 min."
+        },
+        {
+          "place": "fushimi-inari",
+          "time": "08:45",
+          "note": "Torii tunnels, 1 h: go up to the first viewpoint and back."
+        },
+        {
+          "place": "kinkakuji",
+          "time": "10:35",
+          "note": "Gold pavilion, 40 min; snow on the roof if lucky."
+        },
+        {
+          "place": "kyoto-concert-hall",
+          "time": "11:50",
+          "note": "Sabbat's school building (outside only), 20 min."
+        },
+        {
+          "place": "katsukura-sanjo",
+          "time": "12:40",
+          "note": "Lunch: tonkatsu set, free rice and cabbage refills."
+        },
+        {
+          "place": "sanjo-meitengai",
+          "time": "13:30",
+          "note": "The Sabbat arcade, 15 min."
+        },
+        {
+          "place": "kyoto-st",
+          "time": "14:05",
+          "note": "The Sabbat meeting hall and the Grand Stairway."
+        },
+        {
+          "place": "dormy-namba",
+          "time": "16:00",
+          "note": "Rest and laundry."
+        },
+        {
+          "place": "hitomebore-uranamba",
+          "time": "18:30",
+          "note": "Dinner: skewers and cheap drinks."
+        }
+      ],
+      "legs": [
+        {
+          "from": "dormy-namba",
+          "to": "matsuya-nipponbashi",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "3 min"
+        },
+        {
+          "from": "matsuya-nipponbashi",
+          "to": "fushimi-inari",
+          "mode": "train",
+          "label": "Walk to Nagahoribashi (8 min); Osaka Metro Sakaisuji Line, Nagahoribashi 07:38 → Kitahama 07:41; Keihan Limited Express, Kitahama 07:49 → Tambabashi 08:34; Keihan local, Tambabashi 08:36 → Fushimi-Inari 08:43",
+          "duration": "1 h 10"
+        },
+        {
+          "from": "fushimi-inari",
+          "to": "kinkakuji",
+          "mode": "bus",
+          "label": "Walk to JR Inari; JR Nara Line, Inari 09:55 → Kyoto 10:00; JR Sagano Line, Kyoto 10:08 → Emmachi 10:15; Kyoto City Bus 205, Nishinokyo-Emmachi 10:22 → Kinkakuji-michi 10:31; walk 5 min",
+          "duration": "45 min"
+        },
+        {
+          "from": "kinkakuji",
+          "to": "kyoto-concert-hall",
+          "mode": "bus",
+          "label": "Kyoto City Bus 25, Kinkakuji-michi 11:20 → Kitaoji Bus Terminal 11:32; Karasuma Line, Kitaoji 11:41 → Kitayama 11:43; walk 3 min",
+          "duration": "30 min"
+        },
+        {
+          "from": "kyoto-concert-hall",
+          "to": "katsukura-sanjo",
+          "mode": "train",
+          "label": "Karasuma Line, Kitayama 12:19 → Karasuma-Oike 12:28; walk east along Sanjo-dori 8 min",
+          "duration": "20 min"
+        },
+        {
+          "from": "katsukura-sanjo",
+          "to": "sanjo-meitengai",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "2 min"
+        },
+        {
+          "from": "sanjo-meitengai",
+          "to": "kyoto-st",
+          "mode": "train",
+          "label": "Walk to Karasuma-Oike (8 min); Karasuma Line, Karasuma-Oike 13:51 → Kyoto 13:56",
+          "duration": "15 min"
+        },
+        {
+          "from": "kyoto-st",
+          "to": "dormy-namba",
+          "mode": "train",
+          "label": "JR Kyoto Line Special Rapid, Kyoto 15:00 → Osaka 15:28; Midosuji Line, Umeda 15:36 → Namba 15:45; walk 10 min",
+          "duration": "1 h"
+        },
+        {
+          "from": "dormy-namba",
+          "to": "hitomebore-uranamba",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "8 min"
+        },
+        {
+          "from": "hitomebore-uranamba",
+          "to": "dormy-namba",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "8 min"
+        }
+      ],
+      "sleep": "dormy-namba",
+      "sleepNote": "Night 3 of 5. Laundry night 2 (hotel coin laundry).",
+      "notes": [
+        "One plan for both: the temples are Aoki's want (Pegasis said not interested), so they are short and not at dawn; the Sabbat places are a maybe for both.",
+        "Uji is left out: Aoki marked Uji not interested.",
+        "Kinkakuji has snow on the roof only 1–3 mornings a winter."
+      ],
+      "cost": "≈ ¥9,000 per person (trains and buses about ¥2,700, Kinkakuji ¥500, meals)"
+    },
+    {
+      "n": 8,
+      "date": "2027-01-26",
+      "weekday": "火",
+      "region": "kansai",
+      "short": "Kobe",
+      "cover": "kitano-starbucks",
+      "title": "Kobe: Sabbat café, Kobe beef lunch, Chinatown, harbour, then Umeda",
+      "titleJa": "北野 → 三宮 → 南京町 → 神戸ポートタワー → 梅田（大丸・グランフロント）",
+      "romaji": "Kitano → Sannomiya → Nankinmachi → Kōbe Pōto Tawā → Umeda",
+      "summary": "A slow Kobe day: the Sabbat café in Kitano, a Kobe beef lunch, Chinatown snacks and sunset from Port Tower. In the evening Pokémon Center and Nintendo in Umeda, the Sabbat date mall, and standing kushikatsu.",
+      "temp": "2 – 9 °C",
+      "alerts": [
+        "Book a timed Port Tower ticket for about 16:30 (¥1,200 with the roof deck)."
+      ],
+      "stops": [
+        {
+          "place": "dormy-namba",
+          "time": "08:30",
+          "note": "Breakfast: the hotel buffet once (¥2,500, crab chirashi), a slow morning."
+        },
+        {
+          "place": "kitano-starbucks",
+          "time": "11:05",
+          "note": "Café Schwarze Katze from Sabbat, 40 min."
+        },
+        {
+          "place": "steakland-kobe",
+          "time": "12:00",
+          "note": "Lunch: Kobe beef lunch set (¥6,880) or a cheaper normal steak lunch."
+        },
+        {
+          "place": "nankinmachi",
+          "time": "13:30",
+          "note": "Pork buns and street snacks; then Meriken Park and the harbour."
+        },
+        {
+          "place": "kobe-port-tower",
+          "time": "16:30",
+          "note": "Roof deck for sunset (17:20) and the night harbour."
+        },
+        {
+          "place": "grand-front",
+          "time": "18:35",
+          "note": "Pokémon Center and Nintendo OSAKA first (Daimaru Umeda 13F, close 20:00), then the Sabbat date mall."
+        },
+        {
+          "place": "matsuba-umeda",
+          "time": "19:45",
+          "note": "Dinner: standing kushikatsu, 45 min."
+        }
+      ],
+      "legs": [
+        {
+          "from": "dormy-namba",
+          "to": "kitano-starbucks",
+          "mode": "train",
+          "label": "Walk to Kintetsu-Nippombashi (5 min); rapid express (Kintetsu → Hanshin, no change), Kintetsu-Nippombashi 09:50 → Kobe-Sannomiya 10:42; walk uphill 20 min",
+          "duration": "1 h 15"
+        },
+        {
+          "from": "kitano-starbucks",
+          "to": "steakland-kobe",
+          "mode": "walk",
+          "label": "Walk down Kitano-zaka to Sannomiya",
+          "duration": "15 min"
+        },
+        {
+          "from": "steakland-kobe",
+          "to": "nankinmachi",
+          "mode": "walk",
+          "label": "Walk west along the Sannomiya arcade",
+          "duration": "20 min"
+        },
+        {
+          "from": "nankinmachi",
+          "to": "kobe-port-tower",
+          "mode": "walk",
+          "label": "Walk south to Meriken Park",
+          "duration": "10 min"
+        },
+        {
+          "from": "kobe-port-tower",
+          "to": "grand-front",
+          "mode": "train",
+          "label": "Walk to JR Motomachi (12 min); JR Kobe Line Special Rapid, Motomachi 17:51 → Osaka 18:22; walk 5 min",
+          "duration": "50 min"
+        },
+        {
+          "from": "grand-front",
+          "to": "matsuba-umeda",
+          "mode": "walk",
+          "label": "Walk under the JR tracks to Shin-Umeda Shokudogai",
+          "duration": "8 min"
+        },
+        {
+          "from": "matsuba-umeda",
+          "to": "dormy-namba",
+          "mode": "train",
+          "label": "Midosuji Line, Umeda 20:40 → Namba 20:48; walk 10 min",
+          "duration": "25 min"
+        }
+      ],
+      "sleep": "dormy-namba",
+      "sleepNote": "Night 4 of 5.",
+      "notes": [
+        "Kobe beef is Pegasis's maybe; lunch keeps it at about ¥7,000.",
+        "Mt Maya is left out: its ropeway stops early on winter weekdays."
+      ],
+      "cost": "≈ ¥17,000 per person (trains about ¥1,800, hotel breakfast ¥2,500, Kobe beef lunch, snacks, tower ¥1,200, dinner)"
+    },
+    {
+      "n": 9,
+      "date": "2027-01-27",
+      "weekday": "水",
+      "region": "kansai",
+      "short": "Osaka",
+      "cover": "lb-drive-in",
+      "title": "Kuromon breakfast, Den Den Town, Liberty Walk, okonomiyaki in Dotonbori",
+      "titleJa": "黒門市場 → 日本橋オタロード → LB DRIVE-IN（泉南）→ 道頓堀",
+      "romaji": "Kuromon → Nipponbashi → Sennan → Dōtonbori",
+      "summary": "Kuromon Market as breakfast, anime shops on Otaroad and a maid café lunch. In the afternoon the Liberty Walk JDM park in Sennan, and okonomiyaki on Dotonbori at night.",
+      "temp": "2 – 9 °C",
+      "alerts": [
+        "Liberty Walk: Wednesday is open on both the site and Instagram; phone on Jan 26 to confirm.",
+        "Pack tonight: bus to Itami at 09:00 from Namba-ekimae."
+      ],
+      "stops": [
+        {
+          "place": "kuromon",
+          "time": "09:30",
+          "note": "Breakfast by grazing: grilled scallops, wagyu skewers, fruit."
+        },
+        {
+          "place": "otaroad",
+          "time": "11:00",
+          "note": "Figures, retro games, Animate, Melonbooks."
+        },
+        {
+          "place": "maidreamin-nipponbashi",
+          "time": "12:30",
+          "note": "Lunch in the maid café, 55 min."
+        },
+        {
+          "place": "lb-drive-in",
+          "time": "14:55",
+          "note": "LB wide-body cars and goods, 1 h 30."
+        },
+        {
+          "place": "ebisubashi",
+          "time": "18:05",
+          "note": "Glico sign and the canal at night."
+        },
+        {
+          "place": "mizuno-dotonbori",
+          "time": "18:30",
+          "note": "Dinner: okonomiyaki cooked in front of you."
+        }
+      ],
+      "legs": [
+        {
+          "from": "dormy-namba",
+          "to": "kuromon",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "5 min"
+        },
+        {
+          "from": "kuromon",
+          "to": "otaroad",
+          "mode": "walk",
+          "label": "Walk south on Sakaisuji",
+          "duration": "10 min"
+        },
+        {
+          "from": "otaroad",
+          "to": "maidreamin-nipponbashi",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "2 min"
+        },
+        {
+          "from": "maidreamin-nipponbashi",
+          "to": "lb-drive-in",
+          "mode": "train",
+          "label": "Walk to Ebisucho (3 min); Sakaisuji Line, Ebisucho 13:45 → Dobutsuen-mae 13:46; JR Hanwa Line Kishuji Rapid, Shin-Imamiya 13:52 → Hineno, local train on to Izumi-Sunagawa 14:43; taxi 5 min",
+          "duration": "1 h 10"
+        },
+        {
+          "from": "lb-drive-in",
+          "to": "ebisubashi",
+          "mode": "train",
+          "label": "Taxi (ask the shop to call one) or walk 22 min to Izumi-Sunagawa; JR Hanwa Line Kishuji Rapid, Izumi-Sunagawa 16:51 → Shin-Imamiya 17:43; JR Yamatoji Line, Shin-Imamiya 17:46 → JR Namba 17:50; walk 12 min",
+          "duration": "1 h 30"
+        },
+        {
+          "from": "ebisubashi",
+          "to": "mizuno-dotonbori",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "3 min"
+        },
+        {
+          "from": "mizuno-dotonbori",
+          "to": "dormy-namba",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "10 min"
+        }
+      ],
+      "sleep": "dormy-namba",
+      "sleepNote": "Night 5 of 5.",
+      "notes": [
+        "Kuromon, Den Den Town and Liberty Walk are Aoki's wants; the maid café lunch is Pegasis's.",
+        "Shinsekai and Spa World (Pegasis \"maybe\") are left out: Aoki marked them not interested, and bathing is not planned.",
+        "JAL includes a 20 kg checked bag each: Pegasis's suitcase flies free tomorrow.",
+        "A taxi back from LB DRIVE-IN is not confirmed: ask when you phone on Jan 26, or walk the 22 min to the station."
+      ],
+      "cost": "≈ ¥10,000 per person (JR + taxi about ¥2,500, market food, maid café, dinner)"
+    },
+    {
+      "n": 10,
+      "date": "2027-01-28",
+      "weekday": "木",
+      "region": "hokkaido",
+      "short": "Fly north",
+      "cover": "cts",
+      "title": "Fly Itami → New Chitose, ramen, drive to Kutchan in daylight",
+      "titleJa": "伊丹空港 → 新千歳空港 → 倶知安",
+      "romaji": "Itami → Shin-Chitose → Kutchan",
+      "summary": "An airport bus and a JAL flight north, a quick miso ramen at the airport, then the 4WD car to Kutchan before sunset. Ramen dinner 2 minutes from the hotel.",
+      "temp": "−9 – −2 °C",
+      "alerts": [
+        "Bus to Itami: Namba-ekimae 09:00 → Itami North Terminal 09:30, ¥730.",
+        "Leave the car shop by 14:15 for the Lake Shikotsu road; later, or if it snows, take Route 5 via Otaru."
+      ],
+      "stops": [
+        {
+          "place": "matsuya-nipponbashi",
+          "time": "08:00",
+          "note": "Breakfast, 20 min."
+        },
+        {
+          "place": "itami",
+          "time": "09:30",
+          "note": "JAL 10:50 → New Chitose 12:35 (North Terminal)."
+        },
+        {
+          "place": "cts",
+          "time": "12:35",
+          "note": "Land; take the bags."
+        },
+        {
+          "place": "shirakaba-sanso-cts",
+          "time": "13:00",
+          "note": "Lunch: Sapporo miso ramen in the Ramen Dojo, 30 min."
+        },
+        {
+          "place": "toyota-cts",
+          "time": "13:50",
+          "note": "Pick up the 4WD car (book it for 13:50)."
+        },
+        {
+          "place": "stay-resort-niseko",
+          "time": "16:20",
+          "note": "Check in (self check-in machine) before sunset."
+        },
+        {
+          "place": "nakama-ramen-kutchan",
+          "time": "18:00",
+          "note": "Dinner: local ramen, 2 min from the hotel."
+        },
+        {
+          "place": "seicomart",
+          "time": "18:50",
+          "note": "Buy tomorrow's breakfast."
+        }
+      ],
+      "legs": [
+        {
+          "from": "dormy-namba",
+          "to": "matsuya-nipponbashi",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "3 min"
+        },
+        {
+          "from": "matsuya-nipponbashi",
+          "to": "itami",
+          "mode": "bus",
+          "label": "Walk to the Namba-ekimae bus stop (10 min); Osaka Airport Limousine bus, Namba-ekimae 09:00 → Itami North Terminal 09:30 (¥730)",
+          "duration": "50 min"
+        },
+        {
+          "from": "itami",
+          "to": "cts",
+          "mode": "flight",
+          "label": "JAL (J-Air), Itami 10:50 → New Chitose 12:35",
+          "duration": "1 h 45"
+        },
+        {
+          "from": "cts",
+          "to": "shirakaba-sanso-cts",
+          "mode": "walk",
+          "label": "Walk up to the domestic terminal 3F",
+          "duration": "5 min"
+        },
+        {
+          "from": "shirakaba-sanso-cts",
+          "to": "toyota-cts",
+          "mode": "bus",
+          "label": "Toyota Rent a Car free shuttle bus from the arrivals counter, about 13:40",
+          "duration": "10 min"
+        },
+        {
+          "from": "toyota-cts",
+          "to": "stay-resort-niseko",
+          "mode": "drive",
+          "label": "Drive, Route 36 → Route 276 via Lake Shikotsu, Kimobetsu, Kyogoku → Kutchan",
+          "duration": "2 h 15–2 h 30 in snow"
+        },
+        {
+          "from": "stay-resort-niseko",
+          "to": "nakama-ramen-kutchan",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "2 min"
+        },
+        {
+          "from": "nakama-ramen-kutchan",
+          "to": "seicomart",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "6 min"
+        },
+        {
+          "from": "seicomart",
+          "to": "stay-resort-niseko",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "6 min"
+        }
+      ],
+      "sleep": "stay-resort-niseko",
+      "sleepNote": "Night 1 of 3 in Kutchan (STAY RESORT NISEKO, non-smoking twin, room only).",
+      "notes": [
+        "Aoki drives the mountain part; Pegasis takes the flat part after Kyogoku.",
+        "Yamamoto Shokudo is closed on Thursday evenings (open only 11:00–14:00): Ramen Nakama instead.",
+        "If you leave the car shop after 14:15 or it snows hard, drive via Sapporo and Otaru (Route 5), about 2 h 45."
+      ],
+      "cost": "≈ ¥28,000 per person (JAL ¥16,330, bus ¥730, car day 1 and fuel split, meals)"
+    },
+    {
+      "n": 11,
+      "date": "2027-01-29",
+      "weekday": "金",
+      "region": "hokkaido",
+      "short": "Ski Hirafu",
+      "cover": "niseko",
+      "title": "Grand Hirafu: rent everything, Pegasis teaches Aoki to ski",
+      "titleJa": "ニセコ東急 グラン・ヒラフ（レンタル・初心者エリア）",
+      "romaji": "Niseko Tōkyū Guran Hirafu",
+      "summary": "Rent all the gear at .Base and ski together all day on the Ace Family beginner area: Pegasis teaches Aoki. Lunch in an old lodge on the slope, back in Kutchan before dark.",
+      "temp": "−10 – −4 °C",
+      "alerts": [
+        "Rental reserved online (with the 10% code); buy lift tickets online when sales open.",
+        "Rusutsu drift (tomorrow 15:00) booked in advance after the licence email."
+      ],
+      "stops": [
+        {
+          "place": "stay-resort-niseko",
+          "time": "07:30",
+          "note": "Breakfast in the room (Seicomart food from last night)."
+        },
+        {
+          "place": "hirafu-base",
+          "time": "08:30",
+          "note": "Pick up the reserved rental: skis, boots, poles, jacket + pants, goggles, gloves, helmet. Buy lift tickets."
+        },
+        {
+          "place": "niseko",
+          "time": "09:30",
+          "note": "Pegasis teaches Aoki on the Ace Family area: walking on skis, snowplough, stopping, then the Ace Family lift."
+        },
+        {
+          "place": "boyoso-hirafu",
+          "time": "12:15",
+          "note": "Lunch: katsu curry or ramen in the old lodge, 50 min."
+        },
+        {
+          "place": "niseko",
+          "time": "13:15",
+          "note": "Afternoon runs together on the Ace Family area; gear in .Base storage by 15:45."
+        },
+        {
+          "place": "stay-resort-niseko",
+          "time": "16:30",
+          "note": "Back in daylight. Laundry night 3 (hotel coin laundry)."
+        },
+        {
+          "place": "seicomart",
+          "time": "18:30",
+          "note": "Dinner: Hot Chef katsudon and fried chicken, eaten at the hotel; buy tomorrow's breakfast."
+        }
+      ],
+      "legs": [
+        {
+          "from": "stay-resort-niseko",
+          "to": "hirafu-base",
+          "mode": "drive",
+          "label": "Drive, Route 343 up to the Hirafu base car park",
+          "duration": "15 min"
+        },
+        {
+          "from": "hirafu-base",
+          "to": "niseko",
+          "mode": "walk",
+          "label": "Walk to the lifts",
+          "duration": "3 min"
+        },
+        {
+          "from": "niseko",
+          "to": "boyoso-hirafu",
+          "mode": "walk",
+          "label": "Ski or walk down to the lodge",
+          "duration": "5 min"
+        },
+        {
+          "from": "boyoso-hirafu",
+          "to": "niseko",
+          "mode": "walk",
+          "label": "Walk back to the lift",
+          "duration": "5 min"
+        },
+        {
+          "from": "niseko",
+          "to": "stay-resort-niseko",
+          "mode": "drive",
+          "label": "Leave the gear in .Base storage, drive back to Kutchan",
+          "duration": "15 min"
+        },
+        {
+          "from": "stay-resort-niseko",
+          "to": "seicomart",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "8 min"
+        },
+        {
+          "from": "seicomart",
+          "to": "stay-resort-niseko",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "8 min"
+        }
+      ],
+      "sleep": "stay-resort-niseko",
+      "sleepNote": "Night 2 of 3. Laundry night 3 (hotel coin laundry).",
+      "notes": [
+        "Lift ticket (peak season): Hirafu & Hanazono 1 day ¥11,800 online each (¥12,500 at the counter).",
+        "Rental per person for both days: ¥42,900 with everything, ≈ ¥38,600 with the early code; about ¥36,900 before the code if you bring your own gloves and hat.",
+        "No paid lesson: Pegasis teaches Aoki. If Aoki wants a pro later, an English private lesson costs from ¥40,000 for 2 h."
+      ],
+      "cost": "≈ ¥35,000 per person (lift ¥11,800, half of the 2-day rental ≈ ¥19,300, lunch, dinner, fuel)"
+    },
+    {
+      "n": 12,
+      "date": "2027-01-30",
+      "weekday": "土",
+      "region": "hokkaido",
+      "short": "Ski + drift",
+      "cover": "rusutsu-drift",
+      "title": "Morning ski at Hirafu, Rusutsu snow drift course at 15:00",
+      "titleJa": "グラン・ヒラフ → ルスツ 雪上ドリフト",
+      "romaji": "Guran Hirafu → Rusutsu",
+      "summary": "A morning on skis together, gear back at noon and a burger lunch. At 15:00 Pegasis drives the Rusutsu snow drift course with Aoki in the back seat, and you are back in Kutchan before dark.",
+      "temp": "−10 – −3 °C",
+      "alerts": [
+        "Breath test before the drift course: no alcohol the night before.",
+        "Pegasis: licence + IDP + passport. Leave Rusutsu by 15:45: sunset is about 16:40."
+      ],
+      "stops": [
+        {
+          "place": "stay-resort-niseko",
+          "time": "07:30",
+          "note": "Breakfast in the room (Seicomart food)."
+        },
+        {
+          "place": "hirafu-base",
+          "time": "08:30",
+          "note": "Take the gear out of storage; buy lift tickets."
+        },
+        {
+          "place": "niseko",
+          "time": "08:45",
+          "note": "Ski together until 12:00 on the Ace Family area."
+        },
+        {
+          "place": "hirafu-base",
+          "time": "12:10",
+          "note": "Return all the rental gear."
+        },
+        {
+          "place": "powderhood-hirafu",
+          "time": "12:30",
+          "note": "Lunch: burgers at the gondola base, 45 min."
+        },
+        {
+          "place": "rusutsu-drift",
+          "time": "14:25",
+          "note": "Check in at the Rusutsu Resort activity desk (open to 16:00). 15:00 Introduction Course: Pegasis drives 30 min with the instructor; Aoki in the back seat."
+        },
+        {
+          "place": "stay-resort-niseko",
+          "time": "16:30",
+          "note": "Last night in Kutchan."
+        },
+        {
+          "place": "nikuson-kutchan",
+          "time": "18:00",
+          "note": "Dinner: gyoza izakaya, 5 min on foot. Buy tomorrow's breakfast at Seicomart on the way back."
+        }
+      ],
+      "legs": [
+        {
+          "from": "stay-resort-niseko",
+          "to": "hirafu-base",
+          "mode": "drive",
+          "label": "Drive, Route 343 up to the Hirafu base car park",
+          "duration": "15 min"
+        },
+        {
+          "from": "hirafu-base",
+          "to": "niseko",
+          "mode": "walk",
+          "label": "Walk to the lifts",
+          "duration": "3 min"
+        },
+        {
+          "from": "niseko",
+          "to": "hirafu-base",
+          "mode": "walk",
+          "label": "Walk down to .Base",
+          "duration": "3 min"
+        },
+        {
+          "from": "hirafu-base",
+          "to": "powderhood-hirafu",
+          "mode": "walk",
+          "label": "Walk to ALPEN NODE at the gondola base",
+          "duration": "5 min"
+        },
+        {
+          "from": "powderhood-hirafu",
+          "to": "rusutsu-drift",
+          "mode": "drive",
+          "label": "Drive, Hirafu → Kutchan → Route 276 via Kyogoku and Kimobetsu → Route 230 to Rusutsu (41 km); leave by 13:30",
+          "duration": "50 min"
+        },
+        {
+          "from": "rusutsu-drift",
+          "to": "stay-resort-niseko",
+          "mode": "drive",
+          "label": "Drive back the same road in daylight: Route 230 → Route 276 → Kutchan (33 km)",
+          "duration": "45 min"
+        },
+        {
+          "from": "stay-resort-niseko",
+          "to": "nikuson-kutchan",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "5 min"
+        },
+        {
+          "from": "nikuson-kutchan",
+          "to": "stay-resort-niseko",
+          "mode": "walk",
+          "label": "Walk (Seicomart on the way)",
+          "duration": "8 min"
+        }
+      ],
+      "sleep": "stay-resort-niseko",
+      "sleepNote": "Night 3 of 3.",
+      "notes": [
+        "The 30-min self-drive (Introduction Course) runs only at 15:00. The 10:00 slot has only the 4-min ride-along or the 75-min Driving Course (¥61,000).",
+        "Aoki option: a 4-min ride-along with the pro in the same 15:00 slot costs ¥17,000 per person instead of the ¥10,000 back seat.",
+        "Leave Hirafu at 13:30 at the latest; Saturday ski traffic."
+      ],
+      "cost": "≈ ¥67,000 Pegasis (Introduction Course ¥31,000, lift ¥11,800, half of the rental ≈ ¥19,300, fuel, meals), ≈ ¥46,000 Aoki (back seat ¥10,000, lift, rental, fuel, meals)"
+    },
+    {
+      "n": 13,
+      "date": "2027-01-31",
+      "weekday": "日",
+      "region": "hokkaido",
+      "short": "To Sapporo",
+      "cover": "moiwa",
+      "title": "Nakayama Pass to Sapporo, soup curry, Mt Moiwa and Jingisukan",
+      "titleJa": "中山峠 → 札幌（GARAKU・もいわ山・だるま）",
+      "romaji": "Nakayama-tōge → Sapporo",
+      "summary": "A calm check-out and a daylight drive over Nakayama Pass to Sapporo for soup curry. Return the car, rest, then the night view from Mt Moiwa and lamb barbecue at Daruma.",
+      "temp": "−7 – −1 °C",
+      "alerts": [
+        "Leave Kutchan by 09:00: Nakayama Pass in daylight.",
+        "GARAKU opens 11:30: be in the queue by 11:20."
+      ],
+      "stops": [
+        {
+          "place": "stay-resort-niseko",
+          "time": "07:45",
+          "note": "Breakfast in the room; check out."
+        },
+        {
+          "place": "garaku",
+          "time": "11:20",
+          "note": "Lunch: soup curry (Minami 3-jo Higashi 2, B1F, near Nijo Market); queue by 11:20 (Pegasis's pick)."
+        },
+        {
+          "place": "toyota-sapporo",
+          "time": "12:45",
+          "note": "Return the car."
+        },
+        {
+          "place": "route-inn-sapporo",
+          "time": "13:25",
+          "note": "Leave bags, rest."
+        },
+        {
+          "place": "moiwa",
+          "time": "16:10",
+          "note": "Up before sunset (about 16:45), night view (both of you wanted it)."
+        },
+        {
+          "place": "daruma",
+          "time": "18:15",
+          "note": "Dinner: Jingisukan at the counter (both of you wanted it)."
+        }
+      ],
+      "legs": [
+        {
+          "from": "stay-resort-niseko",
+          "to": "garaku",
+          "mode": "drive",
+          "label": "Drive, Route 5 → Route 276 → Kimobetsu → Route 230 over Nakayama Pass → Sapporo; coin car park near Nijo Market (leave by 09:00)",
+          "duration": "2 h 10"
+        },
+        {
+          "from": "garaku",
+          "to": "toyota-sapporo",
+          "mode": "drive",
+          "label": "Drive, Sapporo city streets",
+          "duration": "10 min"
+        },
+        {
+          "from": "toyota-sapporo",
+          "to": "route-inn-sapporo",
+          "mode": "train",
+          "label": "Walk to Sapporo Station (5 min); Namboku Line, Sapporo 13:14 → Susukino 13:17; walk 5 min",
+          "duration": "20 min"
+        },
+        {
+          "from": "route-inn-sapporo",
+          "to": "moiwa",
+          "mode": "train",
+          "label": "Sapporo Streetcar Loop (outer), Susukino 15:32 → Ropeway-iriguchi 15:59; free shuttle bus to the ropeway (about every 15 min)",
+          "duration": "40 min"
+        },
+        {
+          "from": "moiwa",
+          "to": "daruma",
+          "mode": "train",
+          "label": "Free shuttle bus down; Sapporo Streetcar Loop (inner), Ropeway-iriguchi 17:35 → Susukino 18:02; walk 5 min",
+          "duration": "50 min"
+        },
+        {
+          "from": "daruma",
+          "to": "route-inn-sapporo",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "5 min"
+        }
+      ],
+      "sleep": "route-inn-sapporo",
+      "sleepNote": "Night 1 of 2, breakfast buffet.",
+      "notes": [
+        "If Nakayama Pass is closed, drive Route 5 via Otaru (about 2 h 30)."
+      ],
+      "cost": "≈ ¥16,000 per person (car days 2–4, fuel and one-way fee split, soup curry, Moiwa ¥2,100, Daruma)"
+    },
+    {
+      "n": 14,
+      "date": "2027-02-01",
+      "weekday": "月",
+      "region": "hokkaido",
+      "short": "Penguins",
+      "cover": "asahiyama",
+      "title": "Asahikawa ramen and the penguin walk, last shopping",
+      "titleJa": "旭川（蜂屋・旭山動物園）→ すすきの",
+      "romaji": "Asahikawa → Asahiyama Dōbutsuen → Susukino",
+      "summary": "A mid-morning train to Asahikawa for shoyu ramen, then the 14:30 penguin walk in the snow. Back in Sapporo: soup curry number two, the last tax-free shopping and the last laundry.",
+      "temp": "−14 – −5 °C (Asahikawa)",
+      "alerts": [
+        "Reserve Lilac 11 (Sapporo 10:00) and Lilac 34 (Asahikawa 17:00) back.",
+        "Very cold: heat packs and 2 pairs of socks.",
+        "Laundry night 4: clean clothes for the flights."
+      ],
+      "stops": [
+        {
+          "place": "route-inn-sapporo",
+          "time": "08:15",
+          "note": "Breakfast: free hotel buffet (06:30–09:30)."
+        },
+        {
+          "place": "sapporo-st",
+          "time": "09:52",
+          "note": "Limited Express Lilac 11 to Asahikawa."
+        },
+        {
+          "place": "hachiya",
+          "time": "11:40",
+          "note": "Lunch: Asahikawa shoyu ramen."
+        },
+        {
+          "place": "asahiyama",
+          "time": "13:50",
+          "note": "Polar bears, then the penguin walk at 14:30; zoo closes 15:30 (Pegasis's pick)."
+        },
+        {
+          "place": "sho-rin",
+          "time": "18:50",
+          "note": "Dinner: soup curry number two, to compare."
+        },
+        {
+          "place": "mega-donki-sapporo",
+          "time": "20:00",
+          "note": "Last tax-free shopping; Pegasis fills and weighs the suitcase."
+        }
+      ],
+      "legs": [
+        {
+          "from": "route-inn-sapporo",
+          "to": "sapporo-st",
+          "mode": "train",
+          "label": "Walk to Susukino (3 min); Namboku Line, Susukino 09:41 → Sapporo 09:45; walk to JR 7 min",
+          "duration": "15 min"
+        },
+        {
+          "from": "sapporo-st",
+          "to": "hachiya",
+          "mode": "train",
+          "label": "JR Limited Express Lilac 11, Sapporo 10:00 → Asahikawa 11:25 (reserved seat); walk north 10 min",
+          "duration": "1 h 40"
+        },
+        {
+          "from": "hachiya",
+          "to": "asahiyama",
+          "mode": "bus",
+          "label": "Walk to Asahikawa Station bus stop 6 (10 min); Asahikawa Denki Kido bus 47, Asahikawa Station 13:10 → Asahiyama Zoo 13:49 (¥670)",
+          "duration": "50 min"
+        },
+        {
+          "from": "asahiyama",
+          "to": "sho-rin",
+          "mode": "train",
+          "label": "Asahikawa Denki Kido bus 41, Asahiyama Zoo 15:40 → Asahikawa Station 16:32; JR Limited Express Lilac 34, Asahikawa 17:00 → Sapporo 18:25; Namboku Line, Sapporo about 18:35 → Susukino; walk 2 min",
+          "duration": "3 h 10"
+        },
+        {
+          "from": "sho-rin",
+          "to": "mega-donki-sapporo",
+          "mode": "walk",
+          "label": "Walk north to Tanukikoji",
+          "duration": "8 min"
+        },
+        {
+          "from": "mega-donki-sapporo",
+          "to": "route-inn-sapporo",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "10 min"
+        }
+      ],
+      "sleep": "route-inn-sapporo",
+      "sleepNote": "Night 2 of 2. Laundry night 4 (hotel coin laundry). Last night together.",
+      "notes": [
+        "The 14:30 walk lets you sleep in; the 11:00 walk would need an 08:00 train.",
+        "Penguin walks stop if there is too little snow; they usually run in late January.",
+        "Bus times are from the current timetable (Jorudan, Sep 26, 2026): the winter zoo timetable comes out in November; check it then.",
+        "Tax-free: from Nov 2026 you pay tax in the shop and get it back at the airport customs desk: keep goods and receipts together.",
+        "SHO-RIN is open on Monday (Tabelog, official site); irregular closed days: backup Soup Curry Suage+ (Minami 4-jo Nishi 5)."
+      ],
+      "cost": "≈ ¥17,000 per person (JR return ¥10,880, buses ¥1,340, zoo ¥1,000, meals); shopping extra"
+    },
+    {
+      "n": 15,
+      "date": "2027-02-02",
+      "weekday": "火",
+      "region": "hokkaido",
+      "short": "Fly home",
+      "cover": "cts",
+      "title": "Last shopping, together to New Chitose, fly home",
+      "titleJa": "札幌 → 新千歳空港",
+      "romaji": "Sapporo → Shin-Chitose Kūkō",
+      "summary": "Last tax-free shopping at Bic Camera, then you both take the train to the airport and eat ramen together before Aoki's flight. Pegasis stays at the airport (chocolate factory, shops) and flies at 19:35.",
+      "temp": "−7 – −1 °C",
+      "alerts": [
+        "Check out at 09:30 with all bags; day 15 of 15 on Aoki's visa.",
+        "Tax-free refund check at customs before bag drop.",
+        "Pegasis: pay the checked-bag fee online before the airport if the fare has no bag."
+      ],
+      "stops": [
+        {
+          "place": "route-inn-sapporo",
+          "time": "08:00",
+          "note": "Breakfast: hotel buffet; check out 09:30."
+        },
+        {
+          "place": "bic-sapporo",
+          "time": "10:00",
+          "note": "Last tax-free shopping with the tourist coupon; bags in coin lockers at JR Sapporo."
+        },
+        {
+          "place": "cts",
+          "time": "11:40",
+          "note": "Aoki checks in for Spring Airlines 13:50 → Shanghai Pudong 17:00 (international terminal)."
+        },
+        {
+          "place": "shirakaba-sanso-cts",
+          "time": "12:00",
+          "note": "Lunch together: miso ramen, 35 min; Aoki goes through security by 12:45."
+        },
+        {
+          "place": "cts",
+          "time": "12:45",
+          "note": "Say goodbye. Pegasis: Royce' Chocolate World, Doraemon Sky Park and the shops (connecting building)."
+        },
+        {
+          "place": "matsuo-cts",
+          "time": "17:00",
+          "note": "Pegasis: dinner, grilled lamb, 40 min."
+        },
+        {
+          "place": "cts",
+          "time": "17:45",
+          "note": "Pegasis checks in the suitcase; Air Canada 19:35 → Vancouver → Toronto."
+        }
+      ],
+      "legs": [
+        {
+          "from": "route-inn-sapporo",
+          "to": "bic-sapporo",
+          "mode": "train",
+          "label": "Namboku Line, Susukino 09:41 → Sapporo 09:45, with all bags",
+          "duration": "15 min"
+        },
+        {
+          "from": "bic-sapporo",
+          "to": "cts",
+          "mode": "train",
+          "label": "JR Rapid Airport 64, Sapporo 11:00 → New Chitose Airport 11:37",
+          "duration": "40 min"
+        },
+        {
+          "from": "cts",
+          "to": "shirakaba-sanso-cts",
+          "mode": "walk",
+          "label": "Walk to the domestic terminal 3F",
+          "duration": "8 min"
+        },
+        {
+          "from": "shirakaba-sanso-cts",
+          "to": "cts",
+          "mode": "walk",
+          "label": "Walk back to the international terminal",
+          "duration": "8 min"
+        },
+        {
+          "from": "cts",
+          "to": "matsuo-cts",
+          "mode": "walk",
+          "label": "Walk to the domestic terminal 3F",
+          "duration": "8 min"
+        },
+        {
+          "from": "matsuo-cts",
+          "to": "cts",
+          "mode": "walk",
+          "label": "Walk back to the international terminal",
+          "duration": "8 min"
+        }
+      ],
+      "sleepNote": "No hotel: flights home.",
+      "notes": [
+        "You travel together to the end: the two flights leave 6 hours apart, so Pegasis waits at the airport instead of going back to Sapporo.",
+        "Air Canada showed 19:35 → Toronto 19:57 for Feb 2 on Google Flights (Sep 26, 2026).",
+        "Chinese New Year is Feb 6: Aoki's Feb 2 fare is high; book early."
+      ],
+      "cost": "≈ ¥6,000 per person (subway, JR ¥1,230, lunch; Pegasis dinner); Pegasis's bag fee if needed"
+    }
+  ]
+}

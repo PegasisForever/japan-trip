@@ -1,0 +1,320 @@
+[
+{
+"id": "stay-resort-niseko",
+"en": "STAY RESORT NISEKO (Kutchan)",
+"ja": "ステイリゾートニセコ",
+"kind": "hotel"
+},
+{
+"id": "kineya-narita-t1",
+"en": "Kineya Mugimaru udon, Narita Terminal 1",
+"ja": "自家製麺 杵屋麦丸 成田国際空港第1ターミナル店",
+"kind": "food"
+},
+{
+"id": "kappetei-omoide",
+"en": "Kappe-tei, Omoide Yokocho",
+"ja": "炭火串焼 かっぺ亭 新宿思い出横丁本店",
+"kind": "food"
+},
+{
+"id": "mintei-shimokita",
+"en": "Mintei, Shimokitazawa",
+"ja": "珉亭",
+"kind": "food"
+},
+{
+"id": "uobei-shibuya",
+"en": "Uobei Shibuya Dogenzaka",
+"ja": "魚べい 渋谷道玄坂店",
+"kind": "food"
+},
+{
+"id": "taikanzan-sky-lounge",
+"en": "Anest Iwata Sky Lounge, Taikanzan",
+"ja": "アネスト岩田スカイラウンジ（大観山）",
+"kind": "food"
+},
+{
+"id": "tochuken-mishima",
+"en": "Tochuken ekiben stand, Mishima Shinkansen platform",
+"ja": "桃中軒 三島駅 新幹線ホーム売店",
+"kind": "food"
+},
+{
+"id": "sukiya-kintetsu-nara",
+"en": "Sukiya, Kintetsu-Nara Station",
+"ja": "すき家 近鉄奈良駅前店",
+"kind": "food"
+},
+{
+"id": "suzuka-advenchina",
+"en": "AdvenChina ramen, Suzuka Circuit Park",
+"ja": "アドベンチャイナ（鈴鹿サーキットパーク）",
+"kind": "food"
+},
+{
+"id": "yabaton-honten",
+"en": "Yabaton Yabacho main shop",
+"ja": "矢場とん 矢場町本店",
+"kind": "food"
+},
+{
+"id": "matsuya-nipponbashi",
+"en": "Matsuya Nipponbashi (breakfast)",
+"ja": "松屋 日本橋店",
+"kind": "food"
+},
+{
+"id": "katsukura-sanjo",
+"en": "Katsukura Tonkatsu, Sanjo main shop",
+"ja": "名代とんかつ かつくら 三条本店",
+"kind": "food"
+},
+{
+"id": "hitomebore-uranamba",
+"en": "Taishu Sakaba Hitomebore, Ura-Namba",
+"ja": "大衆酒場 ひとめぼれ 裏難波店",
+"kind": "food"
+},
+{
+"id": "matsuba-umeda",
+"en": "Kushikatsu Matsuba main shop, Umeda",
+"ja": "串かつ 松葉 総本店",
+"kind": "food"
+},
+{
+"id": "mizuno-dotonbori",
+"en": "Okonomiyaki Mizuno, Dotonbori",
+"ja": "美津の",
+"kind": "food"
+},
+{
+"id": "matsuo-cts",
+"en": "Matsuo Jingisukan, New Chitose Airport",
+"ja": "松尾ジンギスカン 新千歳空港店",
+"kind": "food"
+},
+{
+"id": "nakama-ramen-kutchan",
+"en": "Ramen Nakama, Kutchan",
+"ja": "ラーメン店 なかま",
+"kind": "food"
+},
+{
+"id": "boyoso-hirafu",
+"en": "Lodge Boyoso (Hirafu slopes)",
+"ja": "望羊荘",
+"kind": "food"
+},
+{
+"id": "powderhood-hirafu",
+"en": "POWDERHOOD Restaurant & Taproom, Hirafu",
+"ja": "POWDERHOOD RESTAURANT & TAPROOM（ALPEN NODE）",
+"kind": "food"
+},
+{
+"id": "nikuson-kutchan",
+"en": "Izakaya Gyoza no Nikuson, Kutchan",
+"ja": "居酒屋 餃子の肉村",
+"kind": "food"
+},
+{
+"id": "rhythm-hirafu",
+"en": "Rhythm Hirafu (ski rental)",
+"ja": "Rhythm ヒラフ店",
+"kind": "ski"
+},
+{
+"id": "yamamoto-shokudo",
+"en": "Yamamoto Shokudo, Kutchan",
+"ja": "山本食堂",
+"kind": "food"
+},
+{
+"id": "samurai-shimokita",
+"en": "Rojiura Curry SAMURAI. Shimokitazawa",
+"ja": "Rojiura Curry SAMURAI. 下北沢店",
+"kind": "food"
+},
+{
+"id": "fukuwarai-yako",
+"en": "Men-ya Fukuwarai (ramen), Yako",
+"ja": "麺や ふくわらい",
+"kind": "food"
+},
+{
+"id": "hotenkaku",
+"en": "Hotenkaku Shinkan, Yokohama Chinatown",
+"ja": "鵬天閣 新館",
+"kind": "food"
+},
+{
+"id": "lawson-kawaguchiko",
+"en": "LAWSON Fujikawaguchiko Town Hall",
+"ja": "ローソン 富士河口湖町役場前",
+"kind": "food"
+},
+{
+"id": "hamakitaken-neopasa",
+"en": "Hamakita-ken, NEOPASA Hamamatsu (westbound)",
+"ja": "浜松餃子とラーメン 浜北軒（NEOPASA浜松 下り）",
+"kind": "food"
+},
+{
+"id": "chibo-dotonbori",
+"en": "Chibo Dotonbori (okonomiyaki)",
+"ja": "千房 道頓堀ビル店",
+"kind": "food"
+},
+{
+"id": "suzuka-ze",
+"en": "SUZUKA-ZE, Center House (paddock)",
+"ja": "SUZUKA-ZE（センターハウス）",
+"kind": "food"
+},
+{
+"id": "kukuru-dotonbori",
+"en": "Takoya Dotonbori Kukuru (main shop)",
+"ja": "たこ家道頓堀くくる 本店",
+"kind": "food"
+},
+{
+"id": "ramen-yokozuna-sanjo",
+"en": "Ramen Yokozuna Sanjo Kawaramachi",
+"ja": "ラーメン横綱 三条河原町店",
+"kind": "food"
+},
+{
+"id": "551-itami",
+"en": "551 Horai, Osaka Airport South Terminal",
+"ja": "551蓬莱 大阪空港南ターミナル店",
+"kind": "food"
+},
+{
+"id": "horn-rusutsu",
+"en": "Horn cafeteria, Rusutsu Highland Lodge",
+"ja": "ホルン（ルスツ ハイランドロッジ）",
+"kind": "food"
+},
+{
+"id": "ramen-nakama-kutchan",
+"en": "Ramen Nakama, Kutchan",
+"ja": "ラーメン店 なかま",
+"kind": "food"
+},
+{
+"id": "nook-annupuri",
+"en": "Restaurant Nook Annupuri, Center House",
+"ja": "レストラン ヌックアンヌプリ",
+"kind": "food"
+},
+{
+"id": "manzoku-shokudo",
+"en": "Manzoku Shokudo, Kutchan",
+"ja": "満足食堂",
+"kind": "food"
+},
+{
+"id": "naruto-otaru",
+"en": "Wakadori Jidai Naruto (main shop), Otaru",
+"ja": "若鶏時代なると 本店",
+"kind": "food"
+},
+{
+"id": "tomita-mendan-narita",
+"en": "Matsudo Tomita Mendan, Narita Terminal 1",
+"ja": "松戸富田麺旦",
+"kind": "food"
+},
+{
+"id": "matsuya-nrt-t3",
+"en": "Matsuya, Narita Airport Terminal 3",
+"ja": "松屋 成田空港第3ターミナル店",
+"kind": "food"
+},
+{
+"id": "mutekiya",
+"en": "Mutekiya ramen, Ikebukuro",
+"ja": "麺創房 無敵家",
+"kind": "food"
+},
+{
+"id": "nasu-oyaji",
+"en": "Nasu Oyaji curry, Shimokitazawa",
+"ja": "下北沢カレー食堂 茄子おやじ",
+"kind": "food"
+},
+{
+"id": "gotemba-food-bazaar",
+"en": "Food Bazaar, Gotemba Premium Outlets",
+"ja": "御殿場プレミアム・アウトレット フードバザール",
+"kind": "food"
+},
+{
+"id": "keitokuchin",
+"en": "Keitokuchin, Yokohama Chinatown",
+"ja": "景徳鎮",
+"kind": "food"
+},
+{
+"id": "ganko-nara",
+"en": "Ganko tonkatsu, Nara",
+"ja": "とんかつ がんこ 奈良店",
+"kind": "food"
+},
+{
+"id": "dormy-hatago",
+"en": "Dormy Inn breakfast restaurant HATAGO",
+"ja": "ドーミーインPREMIUMなんばANNEX 朝食会場「HATAGO」",
+"kind": "food"
+},
+{
+"id": "yakimeshi-men",
+"en": "Yakimeshi to Men Kyoto (ramen and fried rice)",
+"ja": "焼飯と麺 京都",
+"kind": "food"
+},
+{
+"id": "putti-town-kitchen",
+"en": "Putti Town Kitchen, Suzuka Circuit park",
+"ja": "プッチタウンキッチン（鈴鹿サーキット）",
+"kind": "food"
+},
+{
+"id": "sanochiritei",
+"en": "Sanochiritei, Izumisano",
+"ja": "さのちり亭",
+"kind": "food"
+},
+{
+"id": "wa-sakura-kix",
+"en": "Cafe & Bar Wa SAKURA, KIX Terminal 1",
+"ja": "Cafe＆Bar 和SAKURA 関西国際空港第1ターミナルビル2F店",
+"kind": "food"
+},
+{
+"id": "daniel-street",
+"en": "Daniel Street Salad & Deli, Rusutsu Resort Hotel",
+"ja": "ダニエルストリート サラダ＆デリ（ルスツリゾートホテル）",
+"kind": "food"
+},
+{
+"id": "powderhood",
+"en": "Powderhood Restaurant & Taproom, Hirafu",
+"ja": "パウダーフッド レストラン＆タップルーム",
+"kind": "food"
+},
+{
+"id": "yoshiyama-tanukikoji",
+"en": "Ramen Yoshiyama Shotengai, Tanukikoji",
+"ja": "らーめん吉山商店街",
+"kind": "food"
+},
+{
+"id": "kantaro-cts",
+"en": "Kantaro conveyor-belt sushi, New Chitose Airport",
+"ja": "グルメ回転寿司 函太郎 新千歳空港店",
+"kind": "food"
+}
+]

@@ -1,0 +1,162 @@
+[
+{
+"id": "uniqlo-shinjuku",
+"en": "UNIQLO Shinjuku Honten (winter layers)",
+"kind": "sight"
+},
+{
+"id": "toyota-shinkawabashi",
+"en": "Toyota Rent a Car Kawasaki Shinkawabashi",
+"kind": "car"
+},
+{
+"id": "toyota-mishima",
+"en": "Toyota Rent a Car Mishima Shinkansen-guchi / Mishima Station",
+"kind": "car"
+},
+{
+"id": "dormy-namba",
+"en": "Dormy Inn PREMIUM Namba",
+"kind": "hotel"
+},
+{
+"id": "yabaton-nagoya",
+"en": "Yabaton, Nagoya Station",
+"kind": "food"
+},
+{
+"id": "steakland-kobe",
+"en": "Steakland Kobe",
+"kind": "food"
+},
+{
+"id": "nankinmachi",
+"en": "Nankinmachi, Kobe Chinatown",
+"kind": "food"
+},
+{
+"id": "toyota-cts",
+"en": "Toyota Rent a Car New Chitose Airport Poplar",
+"kind": "car"
+},
+{
+"id": "stay-resort-niseko",
+"en": "STAY RESORT NISEKO (Kutchan)",
+"kind": "hotel"
+},
+{
+"id": "yamamoto",
+"en": "Yamamoto Shokudo",
+"kind": "food"
+},
+{
+"id": "hirafu-base",
+"en": "Grand Hirafu .Base (rental shop and ski school desk)",
+"kind": "ski"
+},
+{
+"id": "toyota-sapporo",
+"en": "Toyota Rent a Car Sapporo-ekimae",
+"kind": "car"
+},
+{
+"id": "sapporo-st",
+"en": "Sapporo Station",
+"kind": "station"
+},
+{
+"id": "donki-kabukicho",
+"en": "Don Quijote Shinjuku Kabukicho",
+"kind": "sight"
+},
+{
+"id": "toyota-kawasaki",
+"en": "Toyota Rent a Car Kawasaki-ekimae Nishiguchi (in MUZA Kawasaki)",
+"kind": "car"
+},
+{
+"id": "toyota-namba",
+"en": "Toyota Rent a Car Namba Terminal",
+"kind": "car"
+},
+{
+"id": "sannomiya",
+"en": "Sannomiya (Kobe beef dinner)",
+"kind": "food"
+},
+{
+"id": "ocat",
+"en": "OCAT bus terminal (Minatomachi)",
+"kind": "station"
+},
+{
+"id": "itami",
+"en": "Osaka Itami Airport",
+"kind": "airport"
+},
+{
+"id": "rhythm-hirafu",
+"en": "Rhythm Hirafu (ski rental)",
+"kind": "ski"
+},
+{
+"id": "yamamoto-shokudo",
+"en": "Yamamoto Shokudo, Kutchan",
+"kind": "food"
+},
+{
+"id": "premier-nakajima",
+"en": "Premier Hotel Nakajima Koen Sapporo",
+"kind": "hotel"
+},
+{
+"id": "haneda",
+"en": "Haneda Airport Terminal 1",
+"kind": "airport"
+},
+{
+"id": "busta",
+"en": "Busta Shinjuku (bus terminal)",
+"kind": "station"
+},
+{
+"id": "toyota-shinjuku",
+"en": "Toyota Rent a Car Shinjuku-sanchome",
+"kind": "car"
+},
+{
+"id": "shinagawa",
+"en": "Shinagawa Station",
+"kind": "station"
+},
+{
+"id": "hotel-namba",
+"en": "Dormy Inn PREMIUM Namba ANNEX",
+"kind": "hotel"
+},
+{
+"id": "nankai-namba",
+"en": "Nankai Namba Station",
+"kind": "station"
+},
+{
+"id": "kix",
+"en": "Kansai International Airport",
+"kind": "airport"
+},
+{
+"id": "hotel-niseko",
+"en": "Niseko Northern Resort An'nupuri",
+"kind": "hotel"
+},
+{
+"id": "asahikawa-st",
+"en": "Asahikawa Station",
+"kind": "station"
+},
+{
+"id": "tanukikoji",
+"en": "Tanukikoji anime shops (Mandarake Sapporo)",
+"kind": "anime"
+}
+]

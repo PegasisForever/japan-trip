@@ -35,6 +35,10 @@ export interface Place {
   links?: { label: string; url: string }[]
   photo?: string
   credit?: Credit
+  /** What to do there: hook line, steps, tip (from the research) */
+  experience?: { hook: string; moments: string[]; tip?: string }
+  /** Key of the extra photo gallery (defaults to id) */
+  galleryKey?: string
 }
 
 export interface Stop {
@@ -56,7 +60,7 @@ export interface Leg {
   via?: [number, number][]
 }
 
-export type Region = 'tokyo' | 'fuji' | 'tohoku' | 'hokkaido'
+export type Region = 'tokyo' | 'fuji' | 'chubu' | 'kansai' | 'tohoku' | 'hokkaido'
 
 export interface Day {
   n: number
@@ -122,4 +126,19 @@ export type Verdict = 'yes' | 'maybe' | 'no'
 export interface Choice {
   verdict?: Verdict
   note?: string
+}
+
+/** One complete trip option */
+export interface Plan {
+  id: string
+  name: string
+  tagline: string
+  summary: string
+  who: { pegasis: string; aoki: string }
+  cost: { transport: string; hotels: string; activities: string; total: string }
+  flights: string[]
+  bookFirst?: { what: string; why: string }[]
+  /** Where each place comes from, to reuse its photos */
+  places: (Place & { ref?: string | null })[]
+  days: Day[]
 }

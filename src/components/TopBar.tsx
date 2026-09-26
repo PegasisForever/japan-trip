@@ -3,21 +3,21 @@ import type { Day } from '../data/types'
 import { REGION } from '../data/style'
 
 interface Props {
+  plans: { id: string; name: string }[]
+  planId: string
+  onPlan: (id: string) => void
   days: Day[]
   current: number | null
   onPick: (n: number | null) => void
-  ideasOpen: boolean
-  onIdeas: () => void
-  ideasLeft: number
 }
 
-export default function TopBar({ days, current, onPick, ideasOpen, onIdeas, ideasLeft }: Props) {
+export default function TopBar({ plans, planId, onPlan, days, current, onPick }: Props) {
   const rail = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const el = rail.current?.querySelector<HTMLElement>('[aria-selected="true"]')
     el?.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' })
-  }, [current])
+  }, [current, planId])
 
   return (
     <header className="topbar">
@@ -25,15 +25,23 @@ export default function TopBar({ days, current, onPick, ideasOpen, onIdeas, idea
         <span className="brand-ja" lang="ja">雪道</span>
         <span className="brand-en">
           <b>Yukimichi</b>
-          <small>Tokyo to Sapporo, Jan 2027</small>
+          <small>Tokyo to Osaka to Hokkaido, Jan 2027</small>
         </span>
       </button>
-      <button className="ideas-btn" aria-pressed={ideasOpen} onClick={onIdeas}>
-        <span>Ideas</span>
-        <span className="ideas-btn-n" aria-label={ideasLeft > 0 ? `${ideasLeft} to decide` : 'All decided'}>
-          {ideasLeft > 0 ? ideasLeft : 'Done'}
-        </span>
-      </button>
+      <div className="plan-switch" role="tablist" aria-label="Trip plans">
+        {plans.map((p, i) => (
+          <button
+            key={p.id}
+            role="tab"
+            aria-selected={p.id === planId}
+            className="plan-tab"
+            onClick={() => onPlan(p.id)}
+          >
+            <span className="plan-tab-n">Plan {String.fromCharCode(65 + i)}</span>
+            <span className="plan-tab-name">{p.name}</span>
+          </button>
+        ))}
+      </div>
       <div className="tabs" role="tablist" ref={rail}>
         <button
           role="tab"
