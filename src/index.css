@@ -294,47 +294,7 @@ p {
   color: var(--ink-2);
 }
 
-/* ---------- Plan switch: Plan A / B / C ---------- */
-.plan-switch {
-  flex: none;
-  display: flex;
-  gap: 2px;
-  padding: 4px;
-  border-radius: var(--r-panel);
-  background: var(--paper);
-  box-shadow: var(--shadow);
-}
-.plan-tab {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1px;
-  padding: 6px 12px 7px;
-  border: 0;
-  border-radius: var(--r-ctrl);
-  background: transparent;
-  color: var(--ink-2);
-  line-height: 1.2;
-  text-align: left;
-  transition: background-color 0.15s, color 0.15s;
-}
-.plan-tab:hover {
-  background: var(--paper-2);
-}
-.plan-tab[aria-selected='true'] {
-  background: var(--ink);
-  color: var(--white);
-}
-.plan-tab-n {
-  font-size: 11.5px;
-  font-weight: 600;
-  opacity: 0.75;
-}
-.plan-tab-name {
-  font-size: 14px;
-  font-weight: 700;
-  white-space: nowrap;
-}
+/* ---------- Where you sleep (whole trip) ---------- */
 .bases h3 {
   margin-bottom: 6px;
   font-size: 14px;
@@ -1729,18 +1689,6 @@ button.ekimei-nav:hover {
   }
   .brand-en b {
     font-size: 16px;
-  }
-  /* The plan switch sits at the right of the brand; the subtitle would run under it */
-  .brand-en small {
-    display: none;
-  }
-  .plan-switch {
-    position: absolute;
-    top: calc(12px + env(safe-area-inset-top, 0px));
-    right: 12px;
-  }
-  .plan-tab-name {
-    display: none;
   }
   .board {
     top: calc(142px + env(safe-area-inset-top, 0px));

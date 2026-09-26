@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import MapView from './components/MapView'
 import TopBar from './components/TopBar'
 import DayBoard from './components/DayBoard'
@@ -6,64 +6,36 @@ import TripBoard from './components/TripBoard'
 import Strip from './components/Strip'
 import PlaceDetail from './components/PlaceDetail'
 import MapKey from './components/MapKey'
-import { plans } from './data/plans'
+import { plan } from './data/plan'
 
-const PLAN_KEY = 'yukimichi-plan'
+const { days, places } = plan
 
-/** "#drive/day-4" → plan "drive", day 4; "#drive" → whole trip of plan "drive" */
-function readHash(): { planId: string | null; day: number | null } {
-  const m = /^#([\w-]+)(?:\/day-(\d+))?$/.exec(window.location.hash)
-  if (!m || !plans.some((p) => p.id === m[1])) return { planId: null, day: null }
-  return { planId: m[1], day: m[2] ? Number(m[2]) : null }
-}
-
-function firstPlan() {
-  const fromHash = readHash().planId
-  if (fromHash) return fromHash
-  try {
-    const saved = localStorage.getItem(PLAN_KEY)
-    if (saved && plans.some((p) => p.id === saved)) return saved
-  } catch {
-    /* storage blocked */
-  }
-  return plans[0]?.id ?? ''
+/** "#day-4" → day 4; no hash → the whole trip */
+function readHash(): number | null {
+  const m = /^#day-(\d+)$/.exec(window.location.hash)
+  return m ? Number(m[1]) : null
 }
 
 export default function App() {
-  const [planId, setPlanId] = useState<string>(firstPlan)
-  const [dayN, setDayN] = useState<number | null>(() => readHash().day)
+  const [dayN, setDayN] = useState<number | null>(readHash)
   const [hovered, setHovered] = useState<string | null>(null)
   const [selected, setSelected] = useState<string | null>(null)
 
-  const planIndex = Math.max(0, plans.findIndex((p) => p.id === planId))
-  const plan = plans[planIndex]
-  const days = useMemo(() => plan?.days ?? [], [plan])
-  const day = useMemo(() => days.find((d) => d.n === dayN) ?? null, [days, dayN])
-  // A link to a day that does not exist (#plan/day-99) shows the whole trip, with its tab selected
+  const day = days.find((d) => d.n === dayN) ?? null
+  // A link to a day that does not exist (#day-99) shows the whole trip, with its tab selected
   const curN = day?.n ?? null
 
-  const go = useCallback((id: string, n: number | null) => {
-    setPlanId(id)
+  const pickDay = useCallback((n: number | null) => {
     setDayN(n)
     setSelected(null)
     setHovered(null)
-    history.replaceState(null, '', n ? `#${id}/day-${n}` : `#${id}`)
-    try {
-      localStorage.setItem(PLAN_KEY, id)
-    } catch {
-      /* storage blocked */
-    }
+    history.replaceState(null, '', n ? `#day-${n}` : window.location.pathname)
   }, [])
-  const pickDay = useCallback((n: number | null) => go(planId, n), [go, planId])
 
   useEffect(() => {
     const onHash = () => {
-      const h = readHash()
-      if (h.planId) {
-        setPlanId(h.planId)
-        setDayN(h.day)
-        setSelected(null)
-      }
+      setDayN(readHash())
+      setSelected(null)
     }
     window.addEventListener('hashchange', onHash)
     return () => window.removeEventListener('hashchange', onHash)
@@ -80,16 +52,11 @@ export default function App() {
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [curN, days.length, pickDay])
-
-  if (!plan) return <p className="empty">No plans yet.</p>
-  const places = plan.places
+  }, [curN, pickDay])
 
   return (
     <div className="app">
       <MapView
-        key={`map-${plan.id}`}
-        planId={plan.id}
         days={days}
         places={places}
         routes={plan.routes}
@@ -100,22 +67,14 @@ export default function App() {
         onSelect={setSelected}
         onPickDay={pickDay}
       />
-      <TopBar
-        plans={plans}
-        planId={plan.id}
-        onPlan={(id) => go(id, curN)}
-        days={days}
-        current={curN}
-        onPick={pickDay}
-      />
+      <TopBar days={days} current={curN} onPick={pickDay} />
       {day ? (
-        <DayBoard key={`${plan.id}-${day.n}`} day={day} days={days} places={places} onPick={pickDay} onSelect={setSelected} />
+        <DayBoard key={day.n} day={day} days={days} places={places} onPick={pickDay} onSelect={setSelected} />
       ) : (
-        <TripBoard key={`trip-${plan.id}`} plan={plan} letter={String.fromCharCode(65 + planIndex)} />
+        <TripBoard plan={plan} />
       )}
       <MapKey day={day} days={days} />
       <Strip
-        planId={plan.id}
         day={day}
         days={days}
         places={places}
@@ -126,7 +85,7 @@ export default function App() {
         onPickDay={pickDay}
       />
       {selected && places[selected] && (
-        <PlaceDetail key={selected} planId={plan.id} place={places[selected]} day={day} onClose={() => setSelected(null)} />
+        <PlaceDetail key={selected} place={places[selected]} day={day} onClose={() => setSelected(null)} />
       )}
     </div>
   )

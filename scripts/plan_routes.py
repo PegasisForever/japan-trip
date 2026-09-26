@@ -1,4 +1,4 @@
-"""Builds src/data/routes/<plan>.json for every plan in src/data/plans/:
+"""Builds src/data/planRoutes.json for src/data/plan.json:
 roads (OSRM) for drive/bus/walk, OpenStreetMap tracks for train and Shinkansen. Flights and ropeways stay straight/curved."""
 import json, glob, os, sys, hashlib, time, urllib.request
 from anyrail import route as rail_route
@@ -19,10 +19,8 @@ def osrm(pts,profile):
     except Exception: return None
     return d['routes'][0]['geometry']['coordinates'] if d.get('code')=='Ok' else None
 
-only=sys.argv[1:]
-for path in sorted(glob.glob(f'{HERE}/../src/data/plans/*.json')):
-    name=os.path.basename(path)[:-5]
-    if only and name not in only: continue
+for path in [f'{HERE}/../src/data/plan.json']:
+    name='plan'
     plan=json.load(open(path)); P={p['id']:p for p in plan['places']}
     out={}; miss=0
     for d in plan['days']:
@@ -49,5 +47,5 @@ for path in sorted(glob.glob(f'{HERE}/../src/data/plans/*.json')):
                 if line: print('  road line for',name,d['n'],m,leg['from'],'->',leg['to'])
             if line: out[f"{d['n']}-{i}"]=[[round(x,5),round(y,5)] for x,y in line]
             else: miss+=1; print('  no line',name,d['n'],m,leg['from'],'->',leg['to'])
-    json.dump(out,open(f'{HERE}/../src/data/routes/{name}.json','w'),separators=(',',':'))
+    json.dump(out,open(f'{HERE}/../src/data/planRoutes.json','w'),separators=(',',':'))
     print(name,len(out),'lines,',miss,'straight')

@@ -13,7 +13,6 @@ import { pickOf } from '../data/picks'
 import { photoUrl } from '../data/photos'
 
 interface Props {
-  planId: string
   days: Day[]
   places: Record<string, Place>
   routes: Record<string, [number, number][]>
@@ -73,7 +72,7 @@ function buildRoutes(days: Day[], day: Day | null, places: Record<string, Place>
 }
 
 export default function MapView(props: Props) {
-  const { planId, days, places, routes, day, hovered, selected, onHover, onSelect, onPickDay } = props
+  const { days, places, routes, day, hovered, selected, onHover, onSelect, onPickDay } = props
   const box = useRef<HTMLDivElement>(null)
   const map = useRef<maplibregl.Map | null>(null)
   const markers = useRef<Map<string, { m: maplibregl.Marker; el: HTMLElement }>>(new Map())
@@ -245,7 +244,7 @@ export default function MapView(props: Props) {
               <span class="pin-tip-kind">${day ? (p.time ? p.time + ' · ' : '') + (p.what ?? KIND_LABEL[p.place.kind]) : p.what}</span>
               <span class="pin-tip-ja" lang="ja">${p.place.ja}</span>
               <span class="pin-tip-en">${p.place.en}</span>
-              ${day ? pickHtml(pickOf(planId, p.id)) : ''}
+              ${day ? pickHtml(pickOf(p.id)) : ''}
               ${day ? '' : `<span class="pin-tip-hint">Open day ${p.dayN}</span>`}
             </span>
           </span>`
@@ -299,7 +298,7 @@ export default function MapView(props: Props) {
     }
     if (ready.current) apply()
     else pending.current = apply
-  }, [day, days, places, routes, planId])
+  }, [day, days, places, routes])
 
   // Hover and selection highlight on markers
   useEffect(() => {

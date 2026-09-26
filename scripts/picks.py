@@ -1,4 +1,4 @@
-"""Writes src/data/picks.json: for each plan and place, whose WANT it was ('aoki', 'pegasis' or 'both')."""
+"""Writes src/data/picks.json: for each place, whose WANT it was ('aoki', 'pegasis' or 'both')."""
 import json, re, glob, os
 HERE=os.path.dirname(os.path.abspath(__file__)); ROOT=os.path.join(HERE,'..')
 def wants(f):
@@ -9,15 +9,12 @@ def wants(f):
 A=wants('aoki-choices.txt'); P=wants('pega-choices.txt')
 # Places whose ref names a different idea than the one in the choice files
 ALIAS={'nara-park-todaiji':'rw3-nara-yamayaki-2027'}
-out={}
-for f in sorted(glob.glob(os.path.join(ROOT,'src/data/plans/*.json'))):
-    plan=json.load(open(f)); res={}
-    for pl in plan['places']:
-        keys={k for k in (pl.get('ref'),pl['id']) if k}
-        keys|={'plan-'+k for k in keys}|{k.replace('plan-','') for k in keys}
-        keys|={ALIAS[k] for k in keys if k in ALIAS}
-        a,p=bool(keys&A),bool(keys&P)
-        if a or p: res[pl['id']]='both' if a and p else 'aoki' if a else 'pegasis'
-    out[plan['id']]=res
+plan=json.load(open(os.path.join(ROOT,'src/data/plan.json'))); out={}
+for pl in plan['places']:
+    keys={k for k in (pl.get('ref'),pl['id']) if k}
+    keys|={'plan-'+k for k in keys}|{k.replace('plan-','') for k in keys}
+    keys|={ALIAS[k] for k in keys if k in ALIAS}
+    a,p=bool(keys&A),bool(keys&P)
+    if a or p: out[pl['id']]='both' if a and p else 'aoki' if a else 'pegasis'
 json.dump(out,open(os.path.join(ROOT,'src/data/picks.json'),'w'),indent=1)
-print({k:len(v) for k,v in out.items()})
+print(len(out),'places with a pick')

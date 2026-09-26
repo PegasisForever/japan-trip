@@ -1,12 +1,11 @@
 import { useState } from 'react'
 import type { Day, Place } from '../data/types'
 import { REGION } from '../data/style'
-import type { LoadedPlan } from '../data/plans'
+import type { LoadedPlan } from '../data/plan'
 import Icon from './Icon'
 
 interface Props {
   plan: LoadedPlan
-  letter: string
 }
 
 /** Consecutive nights at the same hotel, e.g. "Shinjuku 4 nights" */
@@ -40,8 +39,8 @@ function loadDone(key: string): number[] {
   }
 }
 
-export default function TripBoard({ plan, letter }: Props) {
-  const key = `yukimichi-booked-${plan.id}`
+export default function TripBoard({ plan }: Props) {
+  const key = 'yukimichi-booked'
   const [done, setDone] = useState<number[]>(() => loadDone(key))
   const [open, setOpen] = useState(false)
   const stays = bases(plan.days, plan.places)
@@ -63,7 +62,7 @@ export default function TripBoard({ plan, letter }: Props) {
     <aside className={`board board-trip${open ? ' is-open' : ''}`}>
       <div className="ekimei">
         <div className="ekimei-meta">
-          <span>Plan {letter}</span>
+          <span>Whole trip</span>
           <span>
             {plan.days.length} days, Jan 19 to Feb 2, 2027
           </span>
@@ -148,7 +147,7 @@ export default function TripBoard({ plan, letter }: Props) {
               {plan.bookFirst.map((b, i) => (
                 <li key={i} className={done.includes(i) ? 'is-done' : ''}>
                   <label>
-                    <input id={`book-${plan.id}-${i}`} type="checkbox" checked={done.includes(i)} onChange={() => toggle(i)} />
+                    <input id={`book-${i}`} type="checkbox" checked={done.includes(i)} onChange={() => toggle(i)} />
                     <span>
                       <b>{b.what}</b>
                       <small>{b.why}</small>

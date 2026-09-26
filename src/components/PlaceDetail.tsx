@@ -8,13 +8,12 @@ import { photosFor } from '../data/gallery'
 import { mealOf } from '../data/timeline'
 
 interface Props {
-  planId: string
   place: Place
   day: Day | null
   onClose: () => void
 }
 
-export default function PlaceDetail({ planId, place, day, onClose }: Props) {
+export default function PlaceDetail({ place, day, onClose }: Props) {
   const stop = day?.stops.find((s) => s.place === place.id)
   const meal = stop ? mealOf(stop) : null
   const photos = photosFor(place.galleryKey ?? place.id, place.photo, place.credit)
@@ -37,7 +36,7 @@ export default function PlaceDetail({ planId, place, day, onClose }: Props) {
           )}
           {stop?.time && <span> · {stop.time}</span>}
           {stop?.who && <span> · {stop.who} only</span>}
-          <PickTag pick={pickOf(planId, place.id)} />
+          <PickTag pick={pickOf(place.id)} />
         </p>
         <h2 className="detail-ja" lang="ja">{place.ja}</h2>
         {place.romaji && place.romaji.toLowerCase() !== place.en.toLowerCase() && (

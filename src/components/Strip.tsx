@@ -9,7 +9,6 @@ import PickTag from './PickTag'
 import { pickOf } from '../data/picks'
 
 interface Props {
-  planId: string
   day: Day | null
   days: Day[]
   places: Record<string, Place>
@@ -64,7 +63,7 @@ function LegTip({ leg, rect }: { leg: Leg; rect: DOMRect }) {
   )
 }
 
-export default function Strip({ planId, day, days, places, hovered, selected, onHover, onSelect, onPickDay }: Props) {
+export default function Strip({ day, days, places, hovered, selected, onHover, onSelect, onPickDay }: Props) {
   const rail = useRef<HTMLDivElement>(null)
   // The travel steps shown next to a travel block; it belongs to one day only
   const [tip, setTip] = useState<{ leg: Leg; rect: DOMRect; n: number } | null>(null)
@@ -250,7 +249,7 @@ export default function Strip({ planId, day, days, places, hovered, selected, on
                 </span>
                 {st.who && <span className="card-who">{st.who} only</span>}
                 <span className="card-body">
-                  <PickTag pick={pickOf(planId, st.place)} />
+                  <PickTag pick={pickOf(st.place)} />
                   {meal ? (
                     <span className="card-kind card-meal">
                       <Icon name="meal" size={14} />
