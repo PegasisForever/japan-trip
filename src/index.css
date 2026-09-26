@@ -1178,7 +1178,7 @@ button.ekimei-nav:hover {
   z-index: 6;
   top: calc(84px + env(safe-area-inset-top, 0px));
   right: 16px;
-  bottom: 212px;
+  max-height: calc(100% - 84px - 212px - env(safe-area-inset-top, 0px));
   width: 420px;
   display: flex;
   flex-direction: column;
@@ -1747,7 +1747,8 @@ button.ekimei-nav:hover {
   color: #7d8a97;
 }
 .mode-ideas .detail {
-  bottom: 124px;
+  bottom: auto;
+  max-height: calc(100% - 84px - 124px - env(safe-area-inset-top, 0px));
   width: 440px;
 }
 

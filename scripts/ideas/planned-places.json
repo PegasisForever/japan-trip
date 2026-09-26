@@ -1,0 +1,1404 @@
+[
+ {
+  "id": "plan-omoide",
+  "en": "Omoide Yokocho",
+  "ja": "思い出横丁",
+  "kind": "food",
+  "anime": null,
+  "days": [
+   1
+  ],
+  "blurb": "A narrow alley of tiny yakitori bars beside the Shinjuku tracks, from the late 1940s. Each bar has 6 to 12 seats. A good first dinner after a long flight.",
+  "planNote": [
+   "First dinner: yakitori and a beer."
+  ],
+  "tips": [
+   "Many bars have a seat charge (お通し, otōshi) of ¥300–500. This is normal.",
+   "If a bar is full, walk on. There are about 80 bars."
+  ],
+  "info": [
+   {
+    "label": "Hours",
+    "value": "About 17:00–24:00"
+   },
+   {
+    "label": "Cost",
+    "value": "¥2,500–4,000 per person"
+   }
+  ]
+ },
+ {
+  "id": "plan-daikoku",
+  "en": "Daikoku Parking Area",
+  "ja": "大黒PA",
+  "kind": "car",
+  "anime": null,
+  "days": [
+   3
+  ],
+  "blurb": "A highway rest area inside a giant loop of expressway ramps in Yokohama. It is the most famous JDM car meet in the world. Tuned GT-Rs, Supras, RX-7s and bōsōzoku-style cars park here at night.",
+  "planNote": [
+   "Guided JDM tour. Pickup in central Tokyo at about 17:30."
+  ],
+  "tips": [
+   "Police often close the entrance on Friday and Saturday nights once the lot fills. Thursday is the best night, so this plan uses it.",
+   "You cannot walk or take a train here. Take a guided JDM tour: you drive the car and a guide car leads. Samurai Car Japan and JDM Tour both run 3–4 hour Daikoku tours from central Tokyo.",
+   "Be polite: no revving, no burnouts, ask before photos of people. Stay in the parking bays.",
+   "Winter nights have fewer cars than summer, but the regulars still come."
+  ],
+  "info": [
+   {
+    "label": "When",
+    "value": "Thu Jan 21, 18:30–21:00"
+   },
+   {
+    "label": "Access",
+    "value": "By car only (Shuto Expressway)"
+   },
+   {
+    "label": "Guided tour",
+    "value": "¥45,000–55,000 per car"
+   },
+   {
+    "label": "Closure risk",
+    "value": "Low on Thu, high Fri–Sat"
+   }
+  ]
+ },
+ {
+  "id": "plan-turnpike",
+  "en": "Hakone Turnpike",
+  "ja": "アネスト岩田ターンパイク箱根",
+  "kind": "car",
+  "anime": null,
+  "days": [
+   4
+  ],
+  "blurb": "A 14 km private toll road that climbs from Odawara to 1,000 m. Car magazines and TV shows film here because of its long, smooth curves. It was called the Mazda Turnpike before.",
+  "planNote": [
+   "Check @turn819 for ice before you enter."
+  ],
+  "tips": [
+   "In January the operator often sets 滑り止め必要規制: only cars with winter tyres or chains may enter. Check @turn819 on X the same morning.",
+   "Ice is most common before 10:00. Plan to drive it late morning.",
+   "Obey the speed limit. Police use this road for speed checks."
+  ],
+  "info": [
+   {
+    "label": "Toll",
+    "value": "¥900"
+   },
+   {
+    "label": "Open",
+    "value": "05:30–22:30"
+   },
+   {
+    "label": "Length",
+    "value": "14 km, 18 min"
+   },
+   {
+    "label": "Winter rule",
+    "value": "Winter tyres often required"
+   }
+  ]
+ },
+ {
+  "id": "plan-taikanzan",
+  "en": "Taikanzan Viewpoint",
+  "ja": "大観山",
+  "kind": "fuji",
+  "anime": null,
+  "days": [
+   4
+  ],
+  "blurb": "The top of the Turnpike, at 1,011 m. On a clear winter day you see Mt Fuji behind Lake Ashi. The rest area has a café and a car park full of sports cars on weekends.",
+  "planNote": [
+   "First Fuji view over Lake Ashi."
+  ],
+  "tips": [
+   "Winter air is the clearest of the year. Your best chance for a sharp Fuji photo is before noon."
+  ],
+  "info": [
+   {
+    "label": "Altitude",
+    "value": "1,011 m"
+   },
+   {
+    "label": "Temp. (Jan)",
+    "value": "About −3 to 5 °C"
+   }
+  ]
+ },
+ {
+  "id": "plan-fun2drive",
+  "en": "Fun2Drive guided JDM drive",
+  "ja": "Fun2Drive 箱根",
+  "kind": "car",
+  "anime": null,
+  "days": [
+   4
+  ],
+  "blurb": "This is your sports-car day. Fun2Drive is a small company in Sengokuhara, Hakone. You drive a real JDM car (GT-R, Supra, RX-7, Silvia and others) on the Hakone mountain roads. A guide car leads, so you get the fun roads without getting lost.",
+  "planNote": [
+   "2-hour guided drive in a JDM car. Pegasis drives."
+  ],
+  "tips": [
+   "Most Tokyo JDM rental shops need 3+ years of licence. Fun2Drive states no minimum years, so this is the way Pegasis can drive a JDM car. Get this confirmed in writing when you book.",
+   "Ask for a manual car. Tell them Pegasis has 1 year on a manual licence.",
+   "Fuel and tolls are extra. Book 1–2 months ahead."
+  ],
+  "info": [
+   {
+    "label": "Tour",
+    "value": "2 h or 4.5 h"
+   },
+   {
+    "label": "Price",
+    "value": "¥35,000–65,000 per car"
+   },
+   {
+    "label": "Licence",
+    "value": "Any licence valid in Japan, 18+"
+   },
+   {
+    "label": "Tyres",
+    "value": "Fitted for road conditions"
+   }
+  ]
+ },
+ {
+  "id": "plan-otome",
+  "en": "Otome Pass",
+  "ja": "乙女峠",
+  "kind": "fuji",
+  "anime": null,
+  "days": [
+   4
+  ],
+  "blurb": "The pass from Hakone down to Gotemba. There is a famous view of Mt Fuji from the Otome Pass rest stop. This route avoids the Kagosaka Pass on Route 138, where chains are often required in snow.",
+  "planNote": [
+   "Fuji view from the pass."
+  ],
+  "tips": [
+   "Drive down slowly in low gear. The road can be icy in the shade."
+  ],
+  "info": []
+ },
+ {
+  "id": "plan-oshino",
+  "en": "Oshino Hakkai",
+  "ja": "忍野八海",
+  "kind": "fuji",
+  "anime": null,
+  "days": [
+   4
+  ],
+  "blurb": "Eight clear spring ponds fed by snow melt from Mt Fuji that filters through lava for about 20 years. The village has thatched-roof houses and stalls selling grilled mochi and soba.",
+  "planNote": [
+   "Clear spring ponds, grilled mochi."
+  ],
+  "tips": [
+   "Go before 10:00 to miss the tour buses."
+  ],
+  "info": [
+   {
+    "label": "Entry",
+    "value": "Free"
+   },
+   {
+    "label": "Parking",
+    "value": "¥300–500"
+   }
+  ]
+ },
+ {
+  "id": "plan-chureito",
+  "en": "Chureito Pagoda",
+  "ja": "新倉山浅間公園 忠霊塔",
+  "kind": "fuji",
+  "anime": null,
+  "days": [
+   5
+  ],
+  "blurb": "The five-storey red pagoda with Mt Fuji behind it. This is the most famous photo of Japan. Climb 398 steps up the hill to the viewing deck.",
+  "planNote": [
+   "Sunrise 06:47. Climb the 398 steps in the dark with a phone light."
+  ],
+  "tips": [
+   "Be on the deck by 06:30. Winter mornings are the clearest time of the whole year for Fuji.",
+   "The steps can be icy. Wear shoes with grip.",
+   "There is also a gentle slope path beside the steps."
+  ],
+  "info": [
+   {
+    "label": "Sunrise (Jan 23)",
+    "value": "06:47"
+   },
+   {
+    "label": "Climb",
+    "value": "398 steps, 15 min"
+   },
+   {
+    "label": "Entry",
+    "value": "Free"
+   },
+   {
+    "label": "Parking",
+    "value": "Free, small lot"
+   }
+  ]
+ },
+ {
+  "id": "plan-lake-kawaguchi",
+  "en": "Lake Kawaguchi north shore",
+  "ja": "河口湖 大石公園",
+  "kind": "fuji",
+  "anime": null,
+  "days": [
+   4
+  ],
+  "blurb": "The quiet north shore of Lake Kawaguchi. From Oishi Park you see Mt Fuji straight across the lake, often with its reflection on calm winter mornings.",
+  "planNote": [
+   "Sunset 16:55 across the lake."
+  ],
+  "tips": [
+   "Stop here on the evening of Jan 22 for sunset, about 16:55."
+  ],
+  "info": []
+ },
+ {
+  "id": "plan-zao-onsen",
+  "en": "Zao Onsen",
+  "ja": "蔵王温泉",
+  "kind": "onsen",
+  "anime": null,
+  "days": [
+   7
+  ],
+  "blurb": "A hot-spring village at 900 m with a ski resort above it. The water is strongly sulfuric and milky, with a smell of eggs. It has been a spa town for about 1,900 years.",
+  "planNote": [
+   "Bus back to Yamagata."
+  ],
+  "tips": [
+   "Take off silver jewellery before the bath. The sulfur turns it black."
+  ],
+  "info": [
+   {
+    "label": "Bus terminal",
+    "value": "蔵王温泉バスターミナル"
+   },
+   {
+    "label": "Public bath",
+    "value": "共同浴場 ¥200–300"
+   },
+   {
+    "label": "Big outdoor bath",
+    "value": "大露天風呂 (closed in winter)"
+   }
+  ]
+ },
+ {
+  "id": "plan-zao-ski",
+  "en": "Zao Onsen Ski Resort",
+  "ja": "蔵王温泉スキー場",
+  "kind": "ski",
+  "anime": null,
+  "days": [
+   6,
+   7
+  ],
+  "blurb": "One of the largest ski areas in Japan: 12 courses, 40+ lifts and ropeways, and runs up to 10 km long. Pegasis can ski the long Juhyo course from the top. Aoki learns on the gentle Uenodai slope next to the village.",
+  "planNote": [
+   "Pegasis: ski the upper runs. Aoki: 2-hour private lesson on Uenodai.",
+   "Half-day lift pass. Last run at 12:30."
+  ],
+  "tips": [
+   "Book an English private lesson for Aoki before the trip: Zao Freizeit or Zao International Ski School.",
+   "Large boot sizes (over 28 cm) are rare. Bring your own boots if you have them.",
+   "Lifts close at about 17:00."
+  ],
+  "info": [
+   {
+    "label": "1-day pass",
+    "value": "About ¥7,500"
+   },
+   {
+    "label": "Beginner area",
+    "value": "上の台ゲレンデ Uenodai"
+   },
+   {
+    "label": "Aoki lesson",
+    "value": "Private, English, ¥10,000–22,000"
+   },
+   {
+    "label": "Rental gear",
+    "value": "Jupia (ジュピア), about ¥5,000"
+   }
+  ]
+ },
+ {
+  "id": "plan-zao-juhyo",
+  "en": "Zao snow monsters",
+  "ja": "蔵王の樹氷",
+  "kind": "ski",
+  "anime": null,
+  "days": [
+   6,
+   7
+  ],
+  "blurb": "Fir trees covered in thick rime ice and snow by the winter wind from Siberia. They look like giant white monsters. This happens in only a few places in the world. On some nights they are lit in color.",
+  "planNote": [
+   "Ropeway to the lit snow monsters (light-up nights only).",
+   "Pegasis: the Juhyo course from the top (10 km)."
+  ],
+  "tips": [
+   "Light-up nights in 2026 were mostly Friday to Sunday. Sunday Jan 24, 2027 is likely a light-up night, but the dates are not published yet. Check in December.",
+   "Last ropeway up on light-up nights: about 19:50.",
+   "It is very cold at the top. Wear ski clothes, gloves and a face cover."
+  ],
+  "info": [
+   {
+    "label": "Ropeway",
+    "value": "蔵王ロープウェイ, ¥4,400 return"
+   },
+   {
+    "label": "Top station",
+    "value": "地蔵山頂駅, 1,661 m"
+   },
+   {
+    "label": "Light-up",
+    "value": "17:00–21:00, selected nights"
+   },
+   {
+    "label": "Temp. at top",
+    "value": "About −10 to −15 °C"
+   }
+  ]
+ },
+ {
+  "id": "plan-ryokan-zao",
+  "en": "Meito Resort Lucent Takamiya",
+  "ja": "名湯リゾート ルーセントタカミヤ",
+  "kind": "onsen",
+  "anime": null,
+  "days": [
+   6
+  ],
+  "blurb": "Your one onsen ryokan night. It is next to the Zao Ropeway base station. Dinner and breakfast are included, and the sulfur baths are open almost all night. The Takamiya group also lets you use its baths at other inns in the village for free.",
+  "planNote": [
+   "Leave bags. Check-in is at 15:00.",
+   "Onsen, then kaiseki dinner at 18:00."
+  ],
+  "tips": [
+   "Book early. January weekends fill fast in Zao.",
+   "Dinner time is fixed, usually 18:00 or 18:30. If you go to the light-up, ask for the late sitting or go after dinner.",
+   "Tattoos: many ryokan do not allow them in shared baths. Ask for a private bath (貸切風呂) if needed."
+  ],
+  "info": [
+   {
+    "label": "Night",
+    "value": "Jan 24"
+   },
+   {
+    "label": "Plan",
+    "value": "1 night, 2 meals (1泊2食)"
+   },
+   {
+    "label": "Price",
+    "value": "About ¥20,000–30,000 pp"
+   },
+   {
+    "label": "Wear",
+    "value": "Yukata provided"
+   }
+  ]
+ },
+ {
+  "id": "plan-sendai-st",
+  "en": "Sendai Station, Gyutan Street",
+  "ja": "仙台駅 牛たん通り",
+  "kind": "food",
+  "anime": null,
+  "days": [
+   7,
+   8
+  ],
+  "blurb": "Sendai is famous for grilled beef tongue (牛たん, gyūtan): thick slices grilled over charcoal, with barley rice and oxtail soup. Six gyutan shops are in one row on the 3rd floor of the station.",
+  "planNote": [
+   "Gyutan dinner on Gyutan Street.",
+   "Hayabusa north. Buy a gyutan ekiben."
+  ],
+  "tips": [
+   "Order the 定食 (teishoku) set. Ask for 厚切り (atsugiri, thick cut)."
+  ],
+  "info": [
+   {
+    "label": "Hours",
+    "value": "10:00–22:30"
+   },
+   {
+    "label": "Set meal",
+    "value": "¥2,000–3,500"
+   },
+   {
+    "label": "Top shops",
+    "value": "利久, 伊達の牛たん, 喜助"
+   }
+  ]
+ },
+ {
+  "id": "plan-matsushima",
+  "en": "Matsushima Bay",
+  "ja": "松島",
+  "kind": "sight",
+  "anime": null,
+  "days": [
+   8
+  ],
+  "blurb": "One of the Three Views of Japan (日本三景): a bay with about 260 small islands covered in pine trees. Walk across the red Fukuura bridge and see Godaido temple on its small island. Try the grilled oysters in winter.",
+  "planNote": [
+   "Optional: islands, Godaido temple, grilled oysters."
+  ],
+  "tips": [
+   "This is optional. Skip it if you want a slow morning after skiing."
+  ],
+  "info": [
+   {
+    "label": "From Sendai",
+    "value": "JR Senseki Line, 40 min, ¥420"
+   },
+   {
+    "label": "Station",
+    "value": "松島海岸駅"
+   },
+   {
+    "label": "Oysters",
+    "value": "In season Oct–Mar"
+   }
+  ]
+ },
+ {
+  "id": "plan-kanemori",
+  "en": "Kanemori Red Brick Warehouses",
+  "ja": "金森赤レンガ倉庫",
+  "kind": "sight",
+  "anime": null,
+  "days": [
+   8
+  ],
+  "blurb": "Harbour warehouses from 1887, now shops, a beer hall and cafés. In January the harbour is lit with a Christmas-style tree and lights, and the snow on the bricks looks great at dusk.",
+  "planNote": [
+   "Red brick warehouses lit up, dinner in the bay area."
+  ],
+  "tips": [],
+  "info": [
+   {
+    "label": "Shops",
+    "value": "09:30–19:00"
+   },
+   {
+    "label": "Beer hall",
+    "value": "11:30–21:30"
+   }
+  ]
+ },
+ {
+  "id": "plan-mt-hakodate",
+  "en": "Mount Hakodate night view",
+  "ja": "函館山",
+  "kind": "sight",
+  "anime": null,
+  "days": [
+   8
+  ],
+  "blurb": "One of the three great night views of Japan. From the top at 334 m you see the city lights on a narrow neck of land between two dark bays.",
+  "planNote": [
+   "Sunset 16:36, then the city lights come on."
+  ],
+  "tips": [
+   "Go up at about 16:15 to see sunset and then the lights come on.",
+   "The road up is closed to cars in winter. Take the ropeway.",
+   "The top is very windy. Wear everything you have."
+  ],
+  "info": [
+   {
+    "label": "Ropeway",
+    "value": "函館山ロープウェイ, ¥1,800 return"
+   },
+   {
+    "label": "Hours (winter)",
+    "value": "10:00–21:00"
+   },
+   {
+    "label": "Sunset (Jan 26)",
+    "value": "16:36"
+   }
+  ]
+ },
+ {
+  "id": "plan-asaichi",
+  "en": "Hakodate Morning Market",
+  "ja": "函館朝市",
+  "kind": "food",
+  "anime": null,
+  "days": [
+   9
+  ],
+  "blurb": "About 250 stalls selling crab, sea urchin (uni), salmon roe (ikura) and squid. At the squid-fishing pool (活いか釣堀) you catch a live squid and they slice it for you on the spot.",
+  "planNote": [
+   "Squid fishing, small seafood bowl."
+  ],
+  "tips": [
+   "If you had the hotel breakfast, just try the squid fishing and a small bowl."
+  ],
+  "info": [
+   {
+    "label": "Hours",
+    "value": "06:00–14:00 (Jan–Apr)"
+   },
+   {
+    "label": "Seafood bowl",
+    "value": "¥2,000–4,000"
+   }
+  ]
+ },
+ {
+  "id": "plan-goryokaku",
+  "en": "Goryokaku Fort",
+  "ja": "五稜郭",
+  "kind": "sight",
+  "anime": null,
+  "days": [
+   9
+  ],
+  "blurb": "A star-shaped fort from 1864, the last battlefield of the samurai civil war. Go up Goryokaku Tower to see the full star shape covered in snow.",
+  "planNote": [
+   "Tower view of the star fort."
+  ],
+  "tips": [],
+  "info": [
+   {
+    "label": "Tower",
+    "value": "09:00–18:00, ¥1,200"
+   },
+   {
+    "label": "Park",
+    "value": "Free"
+   }
+  ]
+ },
+ {
+  "id": "plan-onuma",
+  "en": "Onuma Quasi-National Park",
+  "ja": "大沼公園",
+  "kind": "sight",
+  "anime": null,
+  "days": [
+   9
+  ],
+  "blurb": "A frozen lake with small islands and the volcano Komagatake behind it. In winter you can try ice fishing for smelt (wakasagi) in a tent on the ice, and they fry your catch as tempura.",
+  "planNote": [
+   "Frozen lake, Komagatake volcano. Ice fishing if open."
+  ],
+  "tips": [
+   "Ice fishing depends on the ice. Ask at the park office."
+  ],
+  "info": [
+   {
+    "label": "Ice fishing",
+    "value": "09:00–16:00, ¥1,300"
+   },
+   {
+    "label": "Snowmobile",
+    "value": "Available"
+   }
+  ]
+ },
+ {
+  "id": "plan-niseko",
+  "en": "Niseko Grand Hirafu",
+  "ja": "ニセコ東急 グラン・ヒラフ",
+  "kind": "ski",
+  "anime": null,
+  "days": [
+   9,
+   10
+  ],
+  "blurb": "World-famous for light, dry powder snow (\"Japow\"), with Mt Yotei, the \"Fuji of Hokkaido\", across the valley. Late January is the peak of the powder season.",
+  "planNote": [
+   "Look at the snow depth. Tomorrow is powder day.",
+   "First lifts. Powder is best in the first 2 hours.",
+   "Meet for lunch in Hirafu village.",
+   "Optional night skiing until 20:30."
+  ],
+  "tips": [
+   "Pegasis: buy the Niseko United all-mountain pass and ski the Hanazono tree runs.",
+   "Aoki: book a half-day group lesson in English. Niseko has the most English-speaking instructors in Japan.",
+   "Ski rental and restaurants in Hirafu are expensive. Eat dinner in Kutchan town."
+  ],
+  "info": [
+   {
+    "label": "1-day pass",
+    "value": "About ¥11,000–12,000"
+   },
+   {
+    "label": "Beginner area",
+    "value": "Ace Family lift"
+   },
+   {
+    "label": "Night skiing",
+    "value": "Until 20:30"
+   },
+   {
+    "label": "Snowfall",
+    "value": "About 1 m per week in Jan"
+   }
+  ]
+ },
+ {
+  "id": "plan-otaru-canal",
+  "en": "Otaru Canal",
+  "ja": "小樽運河",
+  "kind": "sight",
+  "anime": null,
+  "days": [
+   11
+  ],
+  "blurb": "A canal lined with stone warehouses and gas lamps. With snow on everything it looks like an old postcard. It was the setting of the film Love Letter (1995), very popular in China.",
+  "planNote": [
+   "Canal walk."
+  ],
+  "tips": [],
+  "info": [
+   {
+    "label": "Lamps on",
+    "value": "From about 16:30"
+   }
+  ]
+ },
+ {
+  "id": "plan-sakaimachi",
+  "en": "Sakaimachi Street",
+  "ja": "堺町通り",
+  "kind": "sight",
+  "anime": null,
+  "days": [
+   11
+  ],
+  "blurb": "A street of old merchant houses now full of glass shops (Kitaichi Glass), music boxes, and dessert shops like LeTAO. The music box museum at the end has a steam clock.",
+  "planNote": [
+   "Glass shops, music boxes, LeTAO cheesecake."
+  ],
+  "tips": [
+   "Try LeTAO’s Double Fromage cheesecake at the main shop."
+  ],
+  "info": []
+ },
+ {
+  "id": "plan-otaru-sushi",
+  "en": "Otaru Sushi Street",
+  "ja": "寿司屋通り",
+  "kind": "food",
+  "anime": null,
+  "days": [
+   11
+  ],
+  "blurb": "A street with about 20 sushi shops. Otaru is a fishing port, and winter fish is at its best.",
+  "planNote": [
+   "Sushi lunch."
+  ],
+  "tips": [
+   "Lunch sets are much cheaper than dinner."
+  ],
+  "info": [
+   {
+    "label": "Lunch set",
+    "value": "¥3,000–6,000"
+   }
+  ]
+ },
+ {
+  "id": "plan-ramen-mura",
+  "en": "Asahikawa Ramen Village",
+  "ja": "あさひかわラーメン村",
+  "kind": "food",
+  "anime": null,
+  "days": [
+   11
+  ],
+  "blurb": "Eight famous Asahikawa ramen shops under one roof. Asahikawa style is a soy-sauce soup made with pork and seafood, with a thin layer of lard on top to keep it hot in the cold.",
+  "planNote": [
+   "Asahikawa shoyu ramen."
+  ],
+  "tips": [
+   "Order mini bowls (ミニ) so you can try two shops."
+  ],
+  "info": [
+   {
+    "label": "Hours",
+    "value": "11:00–20:00"
+   },
+   {
+    "label": "Bowl",
+    "value": "¥900–1,300"
+   }
+  ]
+ },
+ {
+  "id": "plan-asahiyama",
+  "en": "Asahiyama Zoo penguin walk",
+  "ja": "旭山動物園",
+  "kind": "sight",
+  "anime": null,
+  "days": [
+   12
+  ],
+  "blurb": "In winter, a group of king penguins walks a 500 m loop through the snow between the visitors. The zoo is also famous for its tunnel under the penguin pool and its polar bears.",
+  "planNote": [
+   "Get a front spot on the route by 10:40.",
+   "Penguin walk."
+  ],
+  "tips": [
+   "Stand on the route at 10:40 to get a place in the front."
+  ],
+  "info": [
+   {
+    "label": "Penguin walk",
+    "value": "11:00 and 14:30"
+   },
+   {
+    "label": "Winter hours",
+    "value": "10:30–15:30"
+   },
+   {
+    "label": "Entry",
+    "value": "¥1,000"
+   }
+  ]
+ },
+ {
+  "id": "plan-blue-pond",
+  "en": "Shirogane Blue Pond, winter light-up",
+  "ja": "白金青い池",
+  "kind": "sight",
+  "anime": null,
+  "days": [
+   12
+  ],
+  "blurb": "A pond whose water is blue because of minerals from the volcano above. In winter it is frozen and covered in snow, and dead trees stand in it. At night it is lit with changing colors.",
+  "planNote": [
+   "Light-up starts."
+  ],
+  "tips": [
+   "Dress for −15 °C. The path from the car park is about 5 minutes on packed snow."
+  ],
+  "info": [
+   {
+    "label": "Light-up",
+    "value": "17:00–21:00"
+   },
+   {
+    "label": "Season",
+    "value": "Oct 22, 2026 – Apr 21, 2027"
+   },
+   {
+    "label": "Parking",
+    "value": "¥1,000"
+   }
+  ]
+ },
+ {
+  "id": "plan-shirahige",
+  "en": "Shirahige Falls",
+  "ja": "白ひげの滝",
+  "kind": "sight",
+  "anime": null,
+  "days": [
+   12
+  ],
+  "blurb": "Water pours out of the rock face into a bright blue river, framed by snow and ice. See it from the bridge in Shirogane Onsen. It is lit at night.",
+  "planNote": [
+   "Blue river from the bridge, at dusk."
+  ],
+  "tips": [],
+  "info": [
+   {
+    "label": "Lit",
+    "value": "Sunset to 21:00"
+   }
+  ]
+ },
+ {
+  "id": "plan-shibuya-sky",
+  "en": "Shibuya Sky",
+  "ja": "SHIBUYA SKY（渋谷スカイ）",
+  "kind": "sight",
+  "anime": null,
+  "days": [
+   5
+  ],
+  "blurb": "An open-air roof deck 230 m above the Shibuya Scramble crossing. On a clear winter evening you see Mt Fuji at sunset, then the whole of Tokyo lights up.",
+  "planNote": [
+   "Sunset slot. Fuji on the horizon, if clear."
+  ],
+  "tips": [
+   "Sunset time slots sell out. Book online 2–4 weeks ahead.",
+   "After: walk down to the Scramble crossing and the Shibuya Hachiko statue."
+  ],
+  "info": [
+   {
+    "label": "Ticket",
+    "value": "¥2,500–3,000, timed"
+   },
+   {
+    "label": "Sunset (Jan 23)",
+    "value": "16:55"
+   }
+  ]
+ },
+ {
+  "id": "plan-beer-museum",
+  "en": "Sapporo Beer Museum",
+  "ja": "サッポロビール博物館",
+  "kind": "sight",
+  "anime": null,
+  "days": [
+   13
+  ],
+  "blurb": "A red-brick brewery building from 1890. The beer garden next door serves all-you-can-eat Jingisukan (grilled lamb) with beer.",
+  "planNote": [
+   "Premium tour with tasting."
+  ],
+  "tips": [
+   "Feb 1 is a Monday and it is closed. That is why you go on Sunday, Jan 31."
+  ],
+  "info": [
+   {
+    "label": "Hours",
+    "value": "11:00–18:00"
+   },
+   {
+    "label": "Closed",
+    "value": "Mondays"
+   },
+   {
+    "label": "Premium tour",
+    "value": "¥2,000, with tasting"
+   }
+  ]
+ },
+ {
+  "id": "plan-daruma",
+  "en": "Jingisukan Daruma",
+  "ja": "成吉思汗だるま 本店",
+  "kind": "food",
+  "anime": null,
+  "days": [
+   13
+  ],
+  "blurb": "The most famous Jingisukan restaurant in Sapporo, since 1954. You grill lamb and onions on a dome-shaped iron pan at a small counter. Chinese and Japanese guides both rank it number one.",
+  "planNote": [
+   "Jingisukan. Expect a queue."
+  ],
+  "tips": [
+   "There is almost always a queue. After 22:00 it is shorter."
+  ],
+  "info": [
+   {
+    "label": "Hours",
+    "value": "17:00–05:00"
+   },
+   {
+    "label": "Cost",
+    "value": "About ¥3,000 per person"
+   }
+  ]
+ },
+ {
+  "id": "plan-nijo",
+  "en": "Nijo Market",
+  "ja": "二条市場",
+  "kind": "food",
+  "anime": null,
+  "days": [
+   14
+  ],
+  "blurb": "A central market for crab, uni and salmon roe rice bowls. Good for a seafood breakfast.",
+  "planNote": [
+   "Uni, crab and ikura rice bowl."
+  ],
+  "tips": [],
+  "info": [
+   {
+    "label": "Hours",
+    "value": "About 07:00–18:00"
+   }
+  ]
+ },
+ {
+  "id": "plan-garaku",
+  "en": "Soup Curry GARAKU",
+  "ja": "スープカレー GARAKU",
+  "kind": "food",
+  "anime": null,
+  "days": [
+   14
+  ],
+  "blurb": "Soup curry is a Sapporo invention: a thin, spicy curry soup with big pieces of chicken and grilled vegetables. GARAKU is one of the most popular shops.",
+  "planNote": [
+   "Soup curry."
+  ],
+  "tips": [
+   "Take a number from the machine at the door, then walk around until your turn."
+  ],
+  "info": [
+   {
+    "label": "Cost",
+    "value": "¥1,500–2,000"
+   },
+   {
+    "label": "Tip",
+    "value": "Choose spice level 1–40"
+   }
+  ]
+ },
+ {
+  "id": "plan-odori",
+  "en": "Odori Park and Sapporo TV Tower",
+  "ja": "大通公園・さっぽろテレビ塔",
+  "kind": "sight",
+  "anime": null,
+  "days": [
+   14
+  ],
+  "blurb": "The long park in the city centre. In early February the Snow Festival builds giant snow sculptures here. You leave 3 days too early, but you may see the sculptures being built.",
+  "planNote": [
+   "TV Tower deck, snow sculptures being built."
+  ],
+  "tips": [],
+  "info": [
+   {
+    "label": "TV Tower deck",
+    "value": "09:00–22:00, ¥1,000"
+   }
+  ]
+ },
+ {
+  "id": "plan-moiwa",
+  "en": "Mt Moiwa night view",
+  "ja": "もいわ山",
+  "kind": "sight",
+  "anime": null,
+  "days": [
+   13
+  ],
+  "blurb": "A ropeway to a viewpoint with the whole of Sapporo lit up below. It is on Japan’s \"new three great night views\" list.",
+  "planNote": [
+   "Sunset 16:45 and the city lights."
+  ],
+  "tips": [],
+  "info": [
+   {
+    "label": "Hours",
+    "value": "11:00–22:00"
+   },
+   {
+    "label": "Fare",
+    "value": "¥2,100 return"
+   }
+  ]
+ },
+ {
+  "id": "plan-naritasan",
+  "en": "Naritasan Shinshoji Temple",
+  "ja": "成田山新勝寺",
+  "kind": "sight",
+  "anime": null,
+  "days": [
+   15
+  ],
+  "blurb": "A large temple founded in 940, with a three-storey pagoda and a big park. The street up to it, Omotesando, is famous for grilled eel (unagi) shops.",
+  "planNote": [
+   "Temple, pagoda, eel lunch on Omotesando."
+  ],
+  "tips": [
+   "Use a coin locker at Narita Station for your bag."
+  ],
+  "info": [
+   {
+    "label": "From airport",
+    "value": "JR or Keisei, 10 min"
+   },
+   {
+    "label": "Eel lunch",
+    "value": "川豊 Kawatoyo, ¥3,500–5,000"
+   }
+  ]
+ },
+ {
+  "id": "plan-gbc-miharashi",
+  "en": "Tamagawa Miharashi Park",
+  "ja": "多摩川見晴らし公園",
+  "kind": "anime",
+  "anime": "Girls Band Cry ガールズバンドクライ · Ep 2, 8, 9",
+  "days": [
+   3
+  ],
+  "blurb": "The wide concrete steps on the bank of the Tama River. In episode 2, Momoka plays guitar here at night and talks with Nina. It is also on the key art. Across the river you see Tokyo.",
+  "planNote": [
+   "Riverside steps from Ep 2."
+  ],
+  "tips": [
+   "It is windy and cold by the river in January. Come back at sunset (16:50) if you want the night-scene light."
+  ],
+  "info": [
+   {
+    "label": "From station",
+    "value": "Kawasaki West Exit, 1 km"
+   },
+   {
+    "label": "Stamp tour",
+    "value": "Yes"
+   }
+  ]
+ },
+ {
+  "id": "plan-gbc-minamikawara",
+  "en": "Minamikawara Park and Miyakocho Footbridge",
+  "ja": "南河原公園・都町歩道橋",
+  "kind": "anime",
+  "anime": "Girls Band Cry ガールズバンドクライ · Ep 1, 8, 9 · Opening",
+  "days": [
+   3
+  ],
+  "blurb": "The neighbourhood near Nina’s apartment. The footbridge over the main road is in the opening animation, and the small park appears in many scenes. Japanese guides call it a must-see.",
+  "planNote": [
+   "Park and footbridge from the opening."
+  ],
+  "tips": [
+   "This is a residential area. Keep your voice down and do not block the bridge stairs.",
+   "Rent a HELLO CYCLING bike at Lazona to save about 1.5 hours of walking."
+  ],
+  "info": [
+   {
+    "label": "From station",
+    "value": "Kawasaki West Exit, 1.2 km"
+   },
+   {
+    "label": "Stamp tour",
+    "value": "Yes (2 stamps)"
+   },
+   {
+    "label": "Time needed",
+    "value": "20–30 min"
+   }
+  ]
+ },
+ {
+  "id": "plan-gbc-muza",
+  "en": "MUZA Kawasaki Symphony Hall",
+  "ja": "ミューザ川崎シンフォニーホール",
+  "kind": "anime",
+  "anime": "Girls Band Cry ガールズバンドクライ · Ep 1, 13 · \"爆ぜて咲く\" MV",
+  "days": [
+   3
+  ],
+  "blurb": "On the 2F walkway Nina trips and Momoka’s guitar falls in episode 1. The public upright piano on 1F is in the music video. Animate Kawasaki (anime goods) is on 2F.",
+  "planNote": [
+   "The walkway where the guitar falls. Animate on 2F."
+  ],
+  "tips": [],
+  "info": [
+   {
+    "label": "Piano",
+    "value": "Free to play, 10:00–20:00"
+   },
+   {
+    "label": "Animate",
+    "value": "2F"
+   },
+   {
+    "label": "Stamp tour",
+    "value": "Yes"
+   }
+  ]
+ },
+ {
+  "id": "plan-gbc-lazona",
+  "en": "Lazona Kawasaki Plaza, Rufa Square",
+  "ja": "ラゾーナ川崎プラザ ルーファ広場",
+  "kind": "anime",
+  "anime": "Girls Band Cry ガールズバンドクライ · Ep 3, 5",
+  "days": [
+   3
+  ],
+  "blurb": "The open-air stage inside the big shopping mall west of the station. Nina, Momoka and Subaru play \"声なき魚\" here in episode 3. You get the anime angle from the 4F and 5F walkways. HMV on 4F sells collaboration goods.",
+  "planNote": [
+   "Lunch, then the Ep 3 stage from the 4F walkway."
+  ],
+  "tips": [
+   "Signs say no photos of the stage area during events. Obey the signs.",
+   "Good place for lunch."
+  ],
+  "info": [
+   {
+    "label": "Hours",
+    "value": "10:00–21:00"
+   },
+   {
+    "label": "Lunch",
+    "value": "Food court and restaurants"
+   }
+  ]
+ },
+ {
+  "id": "plan-gbc-east-plaza",
+  "en": "Kawasaki Station East Exit Plaza",
+  "ja": "川崎駅東口 駅前広場",
+  "kind": "anime",
+  "anime": "Girls Band Cry ガールズバンドクライ · Ep 1, 9, 10, 13",
+  "days": [
+   3
+  ],
+  "blurb": "The most important Girls Band Cry spot. In episode 1 Nina hears Momoka playing on the street here, and the reunion and final scenes come back to this plaza. Street musicians still play here in the evening.",
+  "planNote": [
+   "Where Nina first hears Momoka. Buy the stamp book here."
+  ],
+  "tips": [
+   "Buy the official stamp tour book (¥500). There are 25 stamp points around Kawasaki, and the stamps have no end date.",
+   "The road in front became pedestrian-only in Feb 2026, so a few crossings from the anime look different now.",
+   "Take photos in daylight. At night it is crowded."
+  ],
+  "info": [
+   {
+    "label": "Station",
+    "value": "川崎駅 東口"
+   },
+   {
+    "label": "Stamp book",
+    "value": "¥500, stamps free"
+   }
+  ]
+ },
+ {
+  "id": "plan-gbc-marufuku",
+  "en": "Marufuku Coffee, Kawasaki Azalea",
+  "ja": "丸福珈琲店 川崎アゼリア店",
+  "kind": "anime",
+  "anime": "Girls Band Cry ガールズバンドクライ · Ep 1, 6, 9, 12",
+  "days": [
+   3
+  ],
+  "blurb": "The retro coffee shop where the band meets. It is on B1F of the Azalea underground mall, below the East Exit plaza. It has stamp number 1 of the stamp tour, and the official GBC stamp gallery is also in Azalea.",
+  "planNote": [
+   "Coffee and hotcake at the band’s table."
+  ],
+  "tips": [
+   "In episode 1 they sit at the window. In episodes 6 and 12 they use the 4-person table on the left.",
+   "Ask staff before you take photos inside."
+  ],
+  "info": [
+   {
+    "label": "Floor",
+    "value": "Kawasaki Azalea B1F"
+   },
+   {
+    "label": "Try",
+    "value": "Hotcake and coffee"
+   }
+  ]
+ },
+ {
+  "id": "plan-gbc-citta",
+  "en": "CLUB CITTA' and La Cittadella",
+  "ja": "クラブチッタ（ラ チッタデッラ）",
+  "kind": "anime",
+  "anime": "Girls Band Cry ガールズバンドクライ · Ep 3, 13 (final live)",
+  "days": [
+   3
+  ],
+  "blurb": "The live house where the band plays its final show in episode 13, inside an Italian-style shopping street. The real band TOGENASHI TOGEARI has played here. Tower Records and Village Vanguard nearby sell GBC goods.",
+  "planNote": [
+   "The final-live venue."
+  ],
+  "tips": [
+   "Check clubcitta.co.jp: if a show is on Jan 21, you could go in."
+  ],
+  "info": [
+   {
+    "label": "Inside",
+    "value": "Ticket holders only"
+   },
+   {
+    "label": "Lit up",
+    "value": "After dark"
+   }
+  ]
+ },
+ {
+  "id": "plan-suga",
+  "en": "Suga Shrine stairs",
+  "ja": "須賀神社（男坂）",
+  "kind": "anime",
+  "anime": "Your Name. 君の名は。 · Final scene",
+  "days": [
+   2
+  ],
+  "blurb": "The red-railed stairs where Taki and Mitsuha pass each other and turn around at the end of the film. It is the image on the poster, and one of the most photographed anime spots in Tokyo.",
+  "planNote": [
+   "Your Name stairs, before the crowds."
+  ],
+  "tips": [
+   "People live here. Do not sit on or block the stairs, and give way to residents.",
+   "Go early. By 10:00 there can be a line of people taking the same photo."
+  ],
+  "info": [
+   {
+    "label": "Station",
+    "value": "四谷三丁目駅, 7 min walk"
+   },
+   {
+    "label": "Best time",
+    "value": "Before 09:00"
+   }
+  ]
+ },
+ {
+  "id": "plan-shimokita",
+  "en": "Shimokitazawa",
+  "ja": "下北沢",
+  "kind": "anime",
+  "anime": "Bocchi the Rock! ぼっち・ざ・ろっく！",
+  "days": [
+   2
+  ],
+  "blurb": "The home of Kessoku Band. A neighbourhood of small live houses, used-clothing shops and record stores. The Senrogai open space (Ep 5) is on the old railway line above the station.",
+  "planNote": [
+   "Walk the streets, used-clothing and record shops."
+  ],
+  "tips": [
+   "Look for Bocchi collaboration posters in the station and shops."
+  ],
+  "info": [
+   {
+    "label": "Station",
+    "value": "下北沢駅 (Odakyu, Keio)"
+   },
+   {
+    "label": "Shops open",
+    "value": "11:00–12:00"
+   }
+  ]
+ },
+ {
+  "id": "plan-shelter",
+  "en": "Shimokitazawa SHELTER",
+  "ja": "下北沢SHELTER",
+  "kind": "anime",
+  "anime": "Bocchi the Rock! · Model for STARRY",
+  "days": [
+   2
+  ],
+  "blurb": "The basement live house that is the model for STARRY, where Bocchi’s band plays and works. Fans photograph the stairs going down from the street.",
+  "planNote": [
+   "The STARRY live house stairs."
+  ],
+  "tips": [
+   "Only open on show nights. Take photos quietly from the street."
+  ],
+  "info": []
+ },
+ {
+  "id": "plan-nakano",
+  "en": "Nakano Broadway",
+  "ja": "中野ブロードウェイ",
+  "kind": "anime",
+  "anime": "Otaku shopping",
+  "days": [
+   2
+  ],
+  "blurb": "A 1960s shopping building. Floors 2 to 4 are full of shops for used figures, manga, trading cards and old toys, including many Mandarake shops. Less crowded and often cheaper than Akihabara.",
+  "planNote": [
+   "Lunch near the station, then 3 floors of Mandarake."
+  ],
+  "tips": [
+   "Many shops do not allow photos. Look for the sign."
+  ],
+  "info": [
+   {
+    "label": "Station",
+    "value": "中野駅 North Exit"
+   },
+   {
+    "label": "Hours",
+    "value": "About 12:00–20:00"
+   }
+  ]
+ },
+ {
+  "id": "plan-zest",
+  "en": "Akihabara ZEST",
+  "ja": "秋葉原ZEST",
+  "kind": "anime",
+  "anime": "Oshi no Ko 【推しの子】 · Ep 1",
+  "days": [
+   2
+  ],
+  "blurb": "A small live venue in Akihabara. It is the model for \"BEAST\", where Ai performs and baby Aqua and Ruby dance with glow sticks in episode 1. The front of the building matches the anime.",
+  "planNote": [
+   "Oshi no Ko live venue."
+  ],
+  "tips": [
+   "It is a working venue. Photograph the outside only, and not when a queue is forming."
+  ],
+  "info": []
+ },
+ {
+  "id": "plan-radio-kaikan",
+  "en": "Akihabara Radio Kaikan",
+  "ja": "秋葉原ラジオ会館",
+  "kind": "anime",
+  "anime": "Steins;Gate and many more",
+  "days": [
+   2
+  ],
+  "blurb": "The most famous building in Akihabara: 10 floors of figures, trading cards, model kits and anime goods, opposite the station. In Steins;Gate a satellite crashes into its roof.",
+  "planNote": [
+   "Figures and cards. Walk the Electric Town main street."
+  ],
+  "tips": [],
+  "info": [
+   {
+    "label": "Station",
+    "value": "秋葉原駅 電気街口"
+   },
+   {
+    "label": "Hours",
+    "value": "10:00–20:00"
+   }
+  ]
+ },
+ {
+  "id": "plan-kinshi",
+  "en": "Kinshi Park",
+  "ja": "錦糸公園",
+  "kind": "anime",
+  "anime": "Lycoris Recoil リコリス・リコイル · Ep 1",
+  "days": [
+   2
+  ],
+  "blurb": "The park in Sumida where Chisato and Takina talk in episode 1. There is a Lycoris Recoil manhole cover in front of the Olinas mall next to it, and Tokyo Skytree stands just behind.",
+  "planNote": [
+   "Lycoris Recoil park, lit Skytree behind."
+  ],
+  "tips": [
+   "End the day here: the Skytree is lit after 17:00."
+  ],
+  "info": [
+   {
+    "label": "Station",
+    "value": "錦糸町駅 North Exit"
+   }
+  ]
+ }
+]

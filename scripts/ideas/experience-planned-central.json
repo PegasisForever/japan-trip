@@ -1,0 +1,162 @@
+{
+  "plan-turnpike": {
+    "hook": "Fourteen km of smooth, wide curves climbing from the sea to 1,000 m.",
+    "moments": [
+      "Pay the toll at the Odawara gate and start the long climb into the mountains.",
+      "Drive the flowing curves through cedar forest, with Sagami Bay opening up behind you.",
+      "Feel the air get colder and see snow on the roadside as you climb.",
+      "Park at the top at Taikanzan and look at the sports cars in the car park."
+    ],
+    "tip": "Check @turn819 on X the same morning for ice and tyre rules. Drive it late morning, after the ice melts."
+  },
+  "plan-taikanzan": {
+    "hook": "Mt Fuji rises white behind Lake Ashi, right from the car park.",
+    "moments": [
+      "Step out of the car into air a few degrees below zero.",
+      "Stand at the rail and see Mt Fuji above Lake Ashi and the Hakone mountains.",
+      "Walk the car park and look at the sports cars that stop here on weekends.",
+      "Warm up with a hot drink in the rest area café."
+    ],
+    "tip": "Come before noon. The winter air is clearest in the morning, and clouds often cover Fuji after lunch."
+  },
+  "plan-fun2drive": {
+    "hook": "You drive a real JDM car on Hakone mountain roads, a guide car in front.",
+    "moments": [
+      "Pick your car in Sengokuhara: GT-R, Supra, RX-7 or Silvia.",
+      "Adjust the seat, feel the manual gear stick, and follow the guide car out.",
+      "Drive the Hakone mountain curves while the engine sound fills the cabin.",
+      "Stop with the guide and take photos of your car with the snowy mountains behind it."
+    ],
+    "tip": "Book 1 to 2 months ahead, ask for a manual car, and get the no-minimum-licence-years rule confirmed in writing."
+  },
+  "plan-otome": {
+    "hook": "Mt Fuji fills the view as you drive down from Hakone to Gotemba.",
+    "moments": [
+      "Pull in at the Otome Pass rest stop at the top of the pass.",
+      "Look out at Mt Fuji, big and white above the Gotemba plain.",
+      "Drive down slowly in low gear through the shaded, icy curves."
+    ],
+    "tip": "Use low gear and do not brake hard. Shaded corners on the way down stay icy all day."
+  },
+  "plan-oshino": {
+    "hook": "Water so clear you see five metres to the bottom of the pond.",
+    "moments": [
+      "Walk the village lanes past thatched-roof houses with Mt Fuji above them.",
+      "Stand at Wakuike, the deepest pond, and look into the blue water and small cave.",
+      "See the water steam a little in the cold air. The springs stay about 11 to 14 °C.",
+      "Eat grilled mochi and a hot bowl of soba from the stalls."
+    ],
+    "tip": "Go before 10:00, before the tour buses. The paid Hannoki museum pond is not one of the real eight springs."
+  },
+  "plan-chureito": {
+    "hook": "The red pagoda, Mt Fuji and the sunrise: the most famous photo of Japan.",
+    "moments": [
+      "Climb the 398 stone steps in the dark with a phone light, breath steaming.",
+      "Find a spot on the viewing deck by 06:30, in the freezing morning air.",
+      "Watch the first sun turn the top of Mt Fuji pink behind the five-storey pagoda.",
+      "See the town of Fujiyoshida wake up below the hill."
+    ],
+    "tip": "Be on the deck by 06:30 for sunrise at 06:47. Wear shoes with grip; the steps can be icy."
+  },
+  "plan-lake-kawaguchi": {
+    "hook": "Mt Fuji straight across the lake, turning orange at sunset.",
+    "moments": [
+      "Park at Oishi Park on the quiet north shore of Lake Kawaguchi.",
+      "Walk to the water's edge and see Mt Fuji across the lake.",
+      "Watch the snow cap turn orange and then pink as the sun goes down.",
+      "Look for Fuji's reflection on the water if the wind is calm."
+    ],
+    "tip": "Arrive by 16:30 for sunset at about 16:55. The reflection is best when the lake has no wind."
+  },
+  "plan-zao-onsen": {
+    "hook": "Milky, very acidic sulfur water in a snowy mountain village.",
+    "moments": [
+      "Walk the steep village streets in the snow and smell the sulfur in the air.",
+      "Soak in a small old public bath like Kawarayu, Kamiyu or Shimoyu for a few hundred yen.",
+      "Feel the strong acid water (about pH 1.6) sting a little on the skin.",
+      "Eat Genghis Khan grilled lamb or Yamagata tama-konnyaku to warm up."
+    ],
+    "tip": "Take off silver jewellery before the bath. Soak for short times; the acid water is strong."
+  },
+  "plan-zao-ski": {
+    "hook": "Ski 10 km from the snow monsters at the top down to the village.",
+    "moments": [
+      "Ride the ropeway up and see the frozen trees all around you.",
+      "Ski the long Juhyo course between snow monsters, about 10 km to the bottom.",
+      "Learn on the gentle, wide Uenodai slope right next to the village.",
+      "Stop for a hot lunch in a slope-side restaurant with snow on the windows."
+    ],
+    "tip": "Book an English private lesson for the beginner before the trip. Bring your own boots if over 28 cm."
+  },
+  "plan-zao-juhyo": {
+    "hook": "Frozen trees shaped like giant white monsters, lit in colour at night.",
+    "moments": [
+      "Ride the Zao Ropeway up through the dark forest to Jizo Sancho station at 1,661 m.",
+      "Step out into −10 °C and hear the snow crunch under your boots.",
+      "Walk among the snow monsters, lit in blue, green and purple.",
+      "Find the stone Jizo statue at the top, almost buried in snow.",
+      "Ride back down and go straight into a hot sulfur bath."
+    ],
+    "tip": "Light-up dates for 2027 come out in December. Last ropeway up is about 19:50. Cover your face; the wind is very cold."
+  },
+  "plan-ryokan-zao": {
+    "hook": "Sulfur baths, kaiseki dinner and a yukata, next to the ropeway.",
+    "moments": [
+      "Leave your bags, change into the yukata and go straight to the milky sulfur bath.",
+      "Eat a many-course kaiseki dinner in your yukata.",
+      "Walk to the other Takamiya inns in the village and try their baths for free.",
+      "Soak again late at night while snow falls outside."
+    ],
+    "tip": "If you go to the snow monster light-up, ask for the late dinner time. Ask for a private bath if you have tattoos."
+  },
+  "plan-sendai-st": {
+    "hook": "Thick charcoal-grilled beef tongue, six shops in one row inside the station.",
+    "moments": [
+      "Walk the 3rd floor Gyutan Street and pick a shop: Rikyu, Date no Gyutan or Kisuke.",
+      "Order the teishoku set, thick cut, with barley rice and oxtail soup.",
+      "Bite into the chewy, smoky tongue with a little green chili miso.",
+      "Buy a gyutan ekiben for the Hayabusa north. Pull the string and the box heats itself."
+    ],
+    "tip": "Ask for 厚切り (atsugiri, thick cut). Go before 18:00 or after 20:00 to skip the longest lines."
+  },
+  "plan-matsushima": {
+    "hook": "About 260 small pine islands, and hot grilled oysters by the sea.",
+    "moments": [
+      "Ride the Senseki Line 40 minutes from Sendai to Matsushima-Kaigan.",
+      "Cross the short bridges to Godaido, the small temple hall on its own rock.",
+      "Walk the long red Fukuura bridge to the island and look back at the bay.",
+      "Eat grilled oysters, hot and salty, in winter oyster season."
+    ],
+    "tip": "Optional stop. Take the 50-minute island boat only if you have time; the bridges give good views for free."
+  },
+  "plan-kanemori": {
+    "hook": "Red brick harbour warehouses from 1887, snow on the roofs at dusk.",
+    "moments": [
+      "Walk along the small canal between the red brick warehouses as the lights come on.",
+      "Look in the shops of BAY Hakodate and Kanemori Yobutsukan.",
+      "Eat dinner and drink local beer in the Hakodate Beer Hall.",
+      "Walk the snowy harbour front with the bay dark beside you."
+    ],
+    "tip": "Come at dusk, right after the lights come on, for the best photos of the snowy bricks."
+  },
+  "plan-mt-hakodate": {
+    "hook": "City lights on a narrow strip of land between two black bays.",
+    "moments": [
+      "Ride the big ropeway gondola up 334 m in a few minutes.",
+      "Stand on the top deck and watch the sun go down over the sea.",
+      "See the city lights come on, making the famous shape between the two bays.",
+      "Warm your hands in the indoor observation room after the cold wind."
+    ],
+    "tip": "Go up about 16:15 for sunset at 16:36. The road is closed to cars in winter, so take the ropeway."
+  },
+  "plan-asaichi": {
+    "hook": "Catch a live squid yourself and eat it seconds later, still moving.",
+    "moments": [
+      "Walk the morning market stalls past piles of crab, uni and ikura.",
+      "Catch a live squid with a rod at the Ekini Market squid pool.",
+      "Watch staff slice it on the spot. Eat it with soy and ginger while the legs still move.",
+      "Eat a small seafood bowl with ikura and uni in Donburi Yokocho."
+    ],
+    "tip": "Come early morning when stalls are busy. If you ate breakfast, try the squid fishing and share one small bowl."
+  }
+}

@@ -1,10 +1,12 @@
 import type { Idea, IdeaCategory, Kind, Place } from './types'
 import raw from './ideas.json'
 import credits from './ideaPhotos.json'
+import plannedExp from './plannedExperience.json'
 import { days, places } from './index'
 import { buildTimeline, fmtLength } from './timeline'
 
 const photoMeta = credits as Record<string, { author: string; license: string; url: string }>
+const expOf = plannedExp as Record<string, Idea['experience']>
 
 /** Suggestions from the research helpers, with a photo where one was found */
 const researched: Idea[] = (raw as Idea[]).map((i) => {
@@ -58,6 +60,7 @@ const planned: Idea[] = Object.values(places)
       anime: p.anime,
       sources: (p.links ?? []).map((l) => l.url),
       tips: p.tips,
+      experience: expOf[`plan-${p.id}`],
       area: 'plan',
       photo: p.photo,
       credit: p.credit,

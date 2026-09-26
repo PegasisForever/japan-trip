@@ -2,7 +2,7 @@
 import json, glob, os
 REQ=['id','kind','category','title','titleJa','summary','why','days','duration','cost','winter','lat','lon']
 fixes=json.load(open('ideas/fixes.json')) if os.path.exists('ideas/fixes.json') else {}
-# "What you will do there" texts, one file per area
+# "What you will do there" texts, one file per area (planned places go to their own file)
 exp={}
 for f in glob.glob('ideas/experience-*.json'):
     try: exp.update(json.load(open(f)))
@@ -28,3 +28,10 @@ for f in sorted(glob.glob('ideas/*.json')):
 json.dump(out,open('../src/data/ideas.json','w'),ensure_ascii=False,indent=1)
 from collections import Counter
 print(len(out),'ideas', Counter(o['area'] for o in out), 'with experience:', sum('experience' in o for o in out))
+
+planned={}
+for f in glob.glob('ideas/experience-planned-*.json'):
+    try: planned.update(json.load(open(f)))
+    except Exception as e: print('BAD JSON',f,e)
+json.dump(planned,open('../src/data/plannedExperience.json','w'),ensure_ascii=False,indent=1)
+print('planned places with experience:',len(planned))

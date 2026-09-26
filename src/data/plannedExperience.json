@@ -1,0 +1,522 @@
+{
+ "plan-goryokaku": {
+  "hook": "A perfect five-point star of snow, seen from 90 m above.",
+  "moments": [
+   "Ride the fast lift up Goryokaku Tower to the deck at about 90 m.",
+   "Look straight down at the white star shape and the frozen moat around it.",
+   "Stand on the glass floor panel and look at the ground far below your feet.",
+   "Walk into the fort and see the Hakodate Magistrate's Office, a wooden building rebuilt in 2010.",
+   "Find the statue of Hijikata Toshizo, the Shinsengumi leader who died in this war in 1869."
+  ],
+  "tip": "Go up near sunset. In winter the 'Hoshi no Yume' lights outline the star after dark, so you see it by day and night."
+ },
+ "plan-onuma": {
+  "hook": "Catch small fish through a hole in a frozen lake, then eat them fried.",
+  "moments": [
+   "Walk onto the frozen lake with volcano Komagatake standing white behind the small islands.",
+   "Sit in a fishing tent over a hole in the ice and pull up tiny wakasagi smelt.",
+   "Eat your catch as hot, crispy tempura right after fishing.",
+   "Ride a snowmobile across the snowy lake if you want speed.",
+   "Buy a box of Onuma dango at Numanoya, made since 1905: soy and red bean, or soy and sesame."
+  ],
+  "tip": "The dango box is shaped like the two lakes, with the dango as the islands. Eat it the same day; it goes hard."
+ },
+ "plan-niseko": {
+  "hook": "Deep, dry powder snow with Mt Yotei standing in front of every run.",
+  "moments": [
+   "Take the first lift and ski fresh powder while the snow is still soft and untouched.",
+   "Stop on the slope and look across the valley at Mt Yotei, a perfect white cone.",
+   "Ski the Hanazono tree runs through birch forest (good skier) on the all-mountain pass.",
+   "Practice turns on the gentle slopes by the Ace Family lift in an English group lesson (beginner).",
+   "Ski under the lights at night, with snow falling through the lamp beams."
+  ],
+  "tip": "Powder is best in the first two hours. Eat dinner in Kutchan town; it costs much less than Hirafu village."
+ },
+ "plan-otaru-canal": {
+  "hook": "Stone warehouses, gas lamps and snow: an old harbor town at dusk.",
+  "moments": [
+   "Stand on Asakusa Bridge for the classic view down the canal with the warehouses on the left.",
+   "Walk the stone path by the water as the gas lamps turn on one by one.",
+   "Watch the snow on the warehouse roofs turn blue, then orange in the lamp light.",
+   "Warm up with a local beer inside Otaru Soko No.1, a brewery in an old canal warehouse."
+  ],
+  "tip": "Arrive at about 16:00, before the lamps come on at about 16:30. You get the blue sky and the lights in one visit."
+ },
+ "plan-sakaimachi": {
+  "hook": "A snowy street of glass lamps, music boxes and a whistling steam clock.",
+  "moments": [
+   "Walk into Kitaichi Hall, a dark old warehouse lit only by 167 oil lamps.",
+   "Look through the Kitaichi Glass shops for hand-made glass cups and small lamps.",
+   "Eat LeTAO's Double Fromage cheesecake, soft and cold, at the main shop.",
+   "Stand at the steam clock outside the Music Box Museum and hear it whistle a tune every 15 minutes.",
+   "Listen inside the music box museum, where thousands of small boxes play at once."
+  ],
+  "tip": "Be at the steam clock on the hour; it also lets out a big cloud of steam then. Walk slowly, the street is icy."
+ },
+ "plan-otaru-sushi": {
+  "hook": "Winter fish from the port, cut in front of you at the counter.",
+  "moments": [
+   "Walk up Sushi-ya Dori and choose from about 20 small sushi shops.",
+   "Sit at the counter and watch the chef slice fish from the Otaru port.",
+   "Eat a lunch set of nigiri with sea urchin, salmon roe and local white fish.",
+   "Finish with a hot bowl of miso soup while snow falls outside."
+  ],
+  "tip": "Go at lunch; the same sets cost much less than at dinner. Ask the chef for 'jizakana', the local fish of the day."
+ },
+ "plan-ramen-mura": {
+  "hook": "Eight Asahikawa ramen shops in one building, hot bowls in deep cold.",
+  "moments": [
+   "Walk the row of eight shops and pick the two that look best to you.",
+   "Order a mini bowl of shoyu ramen with pork and seafood soup.",
+   "See the thin layer of lard on top that keeps the soup hot to the last sip.",
+   "Taste the firm, wavy Asahikawa noodles, then walk to the next shop for bowl two."
+  ],
+  "tip": "Order the mini size (ミニ) at each shop. Some shops close early now, so arrive before 19:00."
+ },
+ "plan-asahiyama": {
+  "hook": "King penguins walk past you through the snow, close enough to touch.",
+  "moments": [
+   "Stand in the front row by 10:40 and wait for the penguins to come out.",
+   "Watch the king penguins walk in a line through the snow, only one step from you.",
+   "Walk through the glass tunnel under the penguin pool and watch them fly through the water.",
+   "Put your head up into the small glass dome in the polar bear area and see a bear look at you.",
+   "Watch seals swim up and down the tall glass tube in the seal house."
+  ],
+  "tip": "Stand on the route by 10:40. The walk is at 11:00 and 14:30; it can stop if the weather is bad."
+ },
+ "plan-blue-pond": {
+  "hook": "A frozen pond with dead trees, lit in changing colors at night.",
+  "moments": [
+   "Walk about five minutes on packed snow from the car park, in the dark and quiet.",
+   "See the snow-covered pond and the tall dead larch trees standing in it.",
+   "Watch the lights change the trees and snow from blue to purple to green.",
+   "Feel the cold at about -15°C, and hear only the crunch of snow under your boots."
+  ],
+  "tip": "Wear boots with grip and your warmest layers. Stand at the end of the path for a clear view of the tree line."
+ },
+ "plan-shirahige": {
+  "hook": "Water pours out of a cliff into a river that is bright blue.",
+  "moments": [
+   "Walk onto Shirogane Bridge, called the Blue River Bridge, in Shirogane Onsen.",
+   "Look down at the 30 m falls pouring out of the rock face, not from a river above.",
+   "See the blue water between white snow and ice on the rocks.",
+   "Stay as the lights come on and the blue river glows at dusk."
+  ],
+  "tip": "Come at dusk, before the Blue Pond. You see the blue color in the last daylight, then the night lights."
+ },
+ "plan-beer-museum": {
+  "hook": "Drink a beer made to an 1877 recipe in a red-brick building from 1890.",
+  "moments": [
+   "Walk up to the red-brick building with the red star on top, the old Kaitakushi symbol.",
+   "Follow the Premium Tour guide through the history of Japan's oldest beer brand.",
+   "Taste two beers in the Premium Lounge: Black Label and the reproduced 'Sapporo Seibakushu'.",
+   "Walk next door to the Beer Garden and grill all-you-can-eat Jingisukan lamb with beer."
+  ],
+  "tip": "Book the Premium Tour online. It is for people 20 and over only and takes about 70 minutes. Closed on Mondays."
+ },
+ "plan-daruma": {
+  "hook": "Sapporo's lamb grill since 1954: smoke, fat and a tiny counter.",
+  "moments": [
+   "Wait in the queue outside in the snow, then squeeze onto a stool at the counter.",
+   "Watch the staff put a piece of fat on top of the hot dome-shaped iron pan.",
+   "Grill lamb on the dome while onions and leeks cook in the juices at the edge.",
+   "Dip the lamb in the sweet soy sauce and eat it with rice and kimchi.",
+   "Ask for hot tea in your leftover sauce at the end and drink it like soup."
+  ],
+  "tip": "The queue is shorter after 22:00. Wear clothes you do not mind; they will smell of lamb smoke."
+ },
+ "plan-nijo": {
+  "hook": "A seafood breakfast bowl heavy with crab, sea urchin and salmon roe.",
+  "moments": [
+   "Walk the market street past boiled hairy crabs and king crab legs on ice.",
+   "Sit in a small shop and order a rice bowl with uni, crab and ikura.",
+   "Pop the orange salmon roe on your tongue and taste the sweet uni.",
+   "Try grilled scallops or crab from a stall on the street."
+  ],
+  "tip": "Go early, before 09:00. Shops are quieter and the seafood is fresh. Check the price of each bowl before you order."
+ },
+ "plan-garaku": {
+  "hook": "Sapporo's own curry: a thin spicy soup full of big pieces of meat.",
+  "moments": [
+   "Take a number from the machine at the door and walk around until your turn.",
+   "Choose your spice level and your soup, based on Japanese dashi stock.",
+   "Eat the soft chicken leg or the grilled pork kakuni with big grilled vegetables.",
+   "Dip spoonfuls of rice into the hot soup and feel the spice warm you up."
+  ],
+  "tip": "Start with a low spice level. The number system lets you shop nearby instead of standing in the cold."
+ },
+ "plan-odori": {
+  "hook": "Watch giant snow sculptures being built for the Snow Festival.",
+  "moments": [
+   "Go up Sapporo TV Tower to the deck at about 90 m, above the east end of Odori Park.",
+   "Look down along the long white park toward the mountains in the west.",
+   "Walk the park blocks and watch trucks, cranes and teams shape huge blocks of snow.",
+   "See wooden frames and scaffolding around sculptures the size of buildings."
+  ],
+  "tip": "Go up the TV Tower first for the full view, then walk the park west. Do not enter the fenced work areas."
+ },
+ "plan-moiwa": {
+  "hook": "All of Sapporo lit below you from a 531 m mountain top.",
+  "moments": [
+   "Ride the ropeway up the snowy mountain, then the small cable car to the summit.",
+   "Watch the sunset at about 16:45 as the sky turns orange over the city.",
+   "Stay as the city lights come on and fill the whole plain below.",
+   "Ring the bell at the top of the deck, a favorite spot for couples.",
+   "Warm up with a drink in The Jewels restaurant, next to the big windows."
+  ],
+  "tip": "Arrive by 16:15 to see sunset and the night view. Buy the priority ticket in the evening to skip the queue."
+ },
+ "plan-turnpike": {
+  "hook": "Fourteen km of smooth, wide curves climbing from the sea to 1,000 m.",
+  "moments": [
+   "Pay the toll at the Odawara gate and start the long climb into the mountains.",
+   "Drive the flowing curves through cedar forest, with Sagami Bay opening up behind you.",
+   "Feel the air get colder and see snow on the roadside as you climb.",
+   "Park at the top at Taikanzan and look at the sports cars in the car park."
+  ],
+  "tip": "Check @turn819 on X the same morning for ice and tyre rules. Drive it late morning, after the ice melts."
+ },
+ "plan-taikanzan": {
+  "hook": "Mt Fuji rises white behind Lake Ashi, right from the car park.",
+  "moments": [
+   "Step out of the car into air a few degrees below zero.",
+   "Stand at the rail and see Mt Fuji above Lake Ashi and the Hakone mountains.",
+   "Walk the car park and look at the sports cars that stop here on weekends.",
+   "Warm up with a hot drink in the rest area café."
+  ],
+  "tip": "Come before noon. The winter air is clearest in the morning, and clouds often cover Fuji after lunch."
+ },
+ "plan-fun2drive": {
+  "hook": "You drive a real JDM car on Hakone mountain roads, a guide car in front.",
+  "moments": [
+   "Pick your car in Sengokuhara: GT-R, Supra, RX-7 or Silvia.",
+   "Adjust the seat, feel the manual gear stick, and follow the guide car out.",
+   "Drive the Hakone mountain curves while the engine sound fills the cabin.",
+   "Stop with the guide and take photos of your car with the snowy mountains behind it."
+  ],
+  "tip": "Book 1 to 2 months ahead, ask for a manual car, and get the no-minimum-licence-years rule confirmed in writing."
+ },
+ "plan-otome": {
+  "hook": "Mt Fuji fills the view as you drive down from Hakone to Gotemba.",
+  "moments": [
+   "Pull in at the Otome Pass rest stop at the top of the pass.",
+   "Look out at Mt Fuji, big and white above the Gotemba plain.",
+   "Drive down slowly in low gear through the shaded, icy curves."
+  ],
+  "tip": "Use low gear and do not brake hard. Shaded corners on the way down stay icy all day."
+ },
+ "plan-oshino": {
+  "hook": "Water so clear you see five metres to the bottom of the pond.",
+  "moments": [
+   "Walk the village lanes past thatched-roof houses with Mt Fuji above them.",
+   "Stand at Wakuike, the deepest pond, and look into the blue water and small cave.",
+   "See the water steam a little in the cold air. The springs stay about 11 to 14 °C.",
+   "Eat grilled mochi and a hot bowl of soba from the stalls."
+  ],
+  "tip": "Go before 10:00, before the tour buses. The paid Hannoki museum pond is not one of the real eight springs."
+ },
+ "plan-chureito": {
+  "hook": "The red pagoda, Mt Fuji and the sunrise: the most famous photo of Japan.",
+  "moments": [
+   "Climb the 398 stone steps in the dark with a phone light, breath steaming.",
+   "Find a spot on the viewing deck by 06:30, in the freezing morning air.",
+   "Watch the first sun turn the top of Mt Fuji pink behind the five-storey pagoda.",
+   "See the town of Fujiyoshida wake up below the hill."
+  ],
+  "tip": "Be on the deck by 06:30 for sunrise at 06:47. Wear shoes with grip; the steps can be icy."
+ },
+ "plan-lake-kawaguchi": {
+  "hook": "Mt Fuji straight across the lake, turning orange at sunset.",
+  "moments": [
+   "Park at Oishi Park on the quiet north shore of Lake Kawaguchi.",
+   "Walk to the water's edge and see Mt Fuji across the lake.",
+   "Watch the snow cap turn orange and then pink as the sun goes down.",
+   "Look for Fuji's reflection on the water if the wind is calm."
+  ],
+  "tip": "Arrive by 16:30 for sunset at about 16:55. The reflection is best when the lake has no wind."
+ },
+ "plan-zao-onsen": {
+  "hook": "Milky, very acidic sulfur water in a snowy mountain village.",
+  "moments": [
+   "Walk the steep village streets in the snow and smell the sulfur in the air.",
+   "Soak in a small old public bath like Kawarayu, Kamiyu or Shimoyu for a few hundred yen.",
+   "Feel the strong acid water (about pH 1.6) sting a little on the skin.",
+   "Eat Genghis Khan grilled lamb or Yamagata tama-konnyaku to warm up."
+  ],
+  "tip": "Take off silver jewellery before the bath. Soak for short times; the acid water is strong."
+ },
+ "plan-zao-ski": {
+  "hook": "Ski 10 km from the snow monsters at the top down to the village.",
+  "moments": [
+   "Ride the ropeway up and see the frozen trees all around you.",
+   "Ski the long Juhyo course between snow monsters, about 10 km to the bottom.",
+   "Learn on the gentle, wide Uenodai slope right next to the village.",
+   "Stop for a hot lunch in a slope-side restaurant with snow on the windows."
+  ],
+  "tip": "Book an English private lesson for the beginner before the trip. Bring your own boots if over 28 cm."
+ },
+ "plan-zao-juhyo": {
+  "hook": "Frozen trees shaped like giant white monsters, lit in colour at night.",
+  "moments": [
+   "Ride the Zao Ropeway up through the dark forest to Jizo Sancho station at 1,661 m.",
+   "Step out into −10 °C and hear the snow crunch under your boots.",
+   "Walk among the snow monsters, lit in blue, green and purple.",
+   "Find the stone Jizo statue at the top, almost buried in snow.",
+   "Ride back down and go straight into a hot sulfur bath."
+  ],
+  "tip": "Light-up dates for 2027 come out in December. Last ropeway up is about 19:50. Cover your face; the wind is very cold."
+ },
+ "plan-ryokan-zao": {
+  "hook": "Sulfur baths, kaiseki dinner and a yukata, next to the ropeway.",
+  "moments": [
+   "Leave your bags, change into the yukata and go straight to the milky sulfur bath.",
+   "Eat a many-course kaiseki dinner in your yukata.",
+   "Walk to the other Takamiya inns in the village and try their baths for free.",
+   "Soak again late at night while snow falls outside."
+  ],
+  "tip": "If you go to the snow monster light-up, ask for the late dinner time. Ask for a private bath if you have tattoos."
+ },
+ "plan-sendai-st": {
+  "hook": "Thick charcoal-grilled beef tongue, six shops in one row inside the station.",
+  "moments": [
+   "Walk the 3rd floor Gyutan Street and pick a shop: Rikyu, Date no Gyutan or Kisuke.",
+   "Order the teishoku set, thick cut, with barley rice and oxtail soup.",
+   "Bite into the chewy, smoky tongue with a little green chili miso.",
+   "Buy a gyutan ekiben for the Hayabusa north. Pull the string and the box heats itself."
+  ],
+  "tip": "Ask for 厚切り (atsugiri, thick cut). Go before 18:00 or after 20:00 to skip the longest lines."
+ },
+ "plan-matsushima": {
+  "hook": "About 260 small pine islands, and hot grilled oysters by the sea.",
+  "moments": [
+   "Ride the Senseki Line 40 minutes from Sendai to Matsushima-Kaigan.",
+   "Cross the short bridges to Godaido, the small temple hall on its own rock.",
+   "Walk the long red Fukuura bridge to the island and look back at the bay.",
+   "Eat grilled oysters, hot and salty, in winter oyster season."
+  ],
+  "tip": "Optional stop. Take the 50-minute island boat only if you have time; the bridges give good views for free."
+ },
+ "plan-kanemori": {
+  "hook": "Red brick harbour warehouses from 1887, snow on the roofs at dusk.",
+  "moments": [
+   "Walk along the small canal between the red brick warehouses as the lights come on.",
+   "Look in the shops of BAY Hakodate and Kanemori Yobutsukan.",
+   "Eat dinner and drink local beer in the Hakodate Beer Hall.",
+   "Walk the snowy harbour front with the bay dark beside you."
+  ],
+  "tip": "Come at dusk, right after the lights come on, for the best photos of the snowy bricks."
+ },
+ "plan-mt-hakodate": {
+  "hook": "City lights on a narrow strip of land between two black bays.",
+  "moments": [
+   "Ride the big ropeway gondola up 334 m in a few minutes.",
+   "Stand on the top deck and watch the sun go down over the sea.",
+   "See the city lights come on, making the famous shape between the two bays.",
+   "Warm your hands in the indoor observation room after the cold wind."
+  ],
+  "tip": "Go up about 16:15 for sunset at 16:36. The road is closed to cars in winter, so take the ropeway."
+ },
+ "plan-asaichi": {
+  "hook": "Catch a live squid yourself and eat it seconds later, still moving.",
+  "moments": [
+   "Walk the morning market stalls past piles of crab, uni and ikura.",
+   "Catch a live squid with a rod at the Ekini Market squid pool.",
+   "Watch staff slice it on the spot. Eat it with soy and ginger while the legs still move.",
+   "Eat a small seafood bowl with ikura and uni in Donburi Yokocho."
+  ],
+  "tip": "Come early morning when stalls are busy. If you ate breakfast, try the squid fishing and share one small bowl."
+ },
+ "plan-omoide": {
+  "hook": "Charcoal smoke and six-seat yakitori bars under the Shinjuku train tracks.",
+  "moments": [
+   "Walk into the narrow alley from Shinjuku West Exit, under red lanterns and grill smoke.",
+   "Squeeze onto a stool at a counter, your coat still on, knees touching the next person.",
+   "Order negima and tsukune skewers and watch the cook turn them over the charcoal.",
+   "Drink a cold beer or a highball while trains rumble past on the tracks next to you.",
+   "Move to a second bar for one more round of skewers."
+  ],
+  "tip": "Look at the menu and seat charge on the door before you go in. Bars with English menus hang them outside."
+ },
+ "plan-daikoku": {
+  "hook": "The world's most famous JDM car meet, inside a giant spiral of highway ramps.",
+  "moments": [
+   "Drive the Shuto Expressway at night behind the guide car, the city lights passing on both sides.",
+   "Spiral down the big loop ramp into the lot and see rows of tuned cars under orange lights.",
+   "Walk past GT-Rs, Supras, RX-7s and wild bosozoku builds, and talk to owners with your phone translator.",
+   "Warm your hands with a hot can of coffee from the vending machines.",
+   "Drive back across the lit Yokohama Bay Bridge or Rainbow Bridge."
+  ],
+  "tip": "Ask the owner before you photograph a car with its owner in it. Most owners are happy to open the hood if you ask."
+ },
+ "plan-shibuya-sky": {
+  "hook": "An open roof 230 m above the Scramble, with Mt Fuji at sunset.",
+  "moments": [
+   "Ride the dark, light-show elevator up to the 45th floor.",
+   "Step onto the open roof and feel the cold wind at the glass edge.",
+   "Look west for Mt Fuji as the sun sets behind it, about 16:55.",
+   "Lean over the corner glass and watch the Scramble crossing fill and empty far below.",
+   "Stay until dark and watch Tokyo Tower and Skytree light up."
+  ],
+  "tip": "Bags, hats and loose items must go in lockers before the roof. Wear a warm jacket with zip pockets."
+ },
+ "plan-naritasan": {
+  "hook": "A 1,000-year-old temple with fire rituals, 10 minutes from Narita Airport.",
+  "moments": [
+   "Walk up Omotesando's winding street past old wooden shops and the smell of grilled eel.",
+   "Watch the cooks at Kawatoyo cut live eels by the front window, then eat a hot unaju.",
+   "Climb the stone steps to the Great Main Hall and sit in for a goma fire ritual with big drums.",
+   "Look up at the red and green three-storey pagoda, carved with dragons.",
+   "Walk the quiet Naritasan Park behind the temple, past ponds and a waterfall."
+  ],
+  "tip": "Goma rituals run about every hour in the Main Hall. Anyone can sit in for free; be there 10 minutes early."
+ },
+ "plan-gbc-miharashi": {
+  "hook": "The river steps where Nina sings for Momoka in Girls Band Cry episode 2.",
+  "moments": [
+   "Walk 1 km from Kawasaki West Exit to the wide concrete steps above the Tama River.",
+   "Sit on the central stairs, where Nina sings for Momoka before Momoka moves away in ep 2.",
+   "Sit bottom right of the central stairs, Nina's guitar practice spot in ep 8.",
+   "Move to bottom left, where Tomo sees Nina practise hard in ep 9, drinking-yogurt bottle next to her.",
+   "Look across the water to Tokyo while the sun sets."
+  ],
+  "tip": "Bring a small bottle of drinking yogurt for the ep 9 photo. Stamp the stamp book here."
+ },
+ "plan-gbc-minamikawara": {
+  "hook": "The footbridge from the opening, where Momoka runs after Nina in episode 1.",
+  "moments": [
+   "Walk into the quiet streets near Nina's apartment, past small shops and houses.",
+   "Find the Nakayoshi-maru play structure in Minamikawara Park, where Momoka gives Nina her phone in ep 1.",
+   "Climb Miyakocho Footbridge, where Momoka catches up with Nina and her lost phone in ep 1.",
+   "Stand on the east side of the bridge, face toward Shitte, and match the opening shot.",
+   "Stamp the two stamp tour points."
+  ],
+  "tip": "Go in the morning when traffic is light. Step aside for residents on the bridge stairs."
+ },
+ "plan-gbc-muza": {
+  "hook": "Nina's episode 1 run, a free public piano, and anime goods upstairs.",
+  "moments": [
+   "Walk the 2F deck from the station to the north escalator, Nina's route searching for Momoka in ep 1.",
+   "Play the upright piano on 1F, the piano Tomo plays in a TOGENASHI TOGEARI music video.",
+   "Look at the grand piano on 2F. It is for display only.",
+   "Shop for Girls Band Cry goods at Animate Kawasaki, then get your stamp."
+  ],
+  "tip": "The piano is free from 10:00 to 20:00. Play one short song and let the next person have a turn."
+ },
+ "plan-gbc-lazona": {
+  "hook": "The mall stage where the band plays 声なき魚 in episode 3.",
+  "moments": [
+   "Walk into Rufa Square, the round open-air plaza of Lazona, west of Kawasaki Station.",
+   "Stand at the Grand Stage, where Nina, Momoka and Subaru play 声なき魚 in ep 3.",
+   "Look down on the stage from the 4F and 5F walkways, the anime's angle.",
+   "Buy Girls Band Cry goods at HMV on 4F.",
+   "Eat a warm lunch in the mall before the long walk to the river."
+  ],
+  "tip": "The stage area is no-photo. Keep the scene in your memory, and take photos at the other spots."
+ },
+ "plan-gbc-east-plaza": {
+  "hook": "Where Nina first hears Momoka play, and where the story ends.",
+  "moments": [
+   "Stand in the open plaza of the East Exit, where Momoka plays a street live in ep 1.",
+   "Find Nina's view: the plaza with the station roof and the elevated deck behind.",
+   "Find the meeting place where Nina meets Hina again in ep 13.",
+   "Buy the official stamp book for ¥500 and start the stamp tour.",
+   "Come back at night to hear real street musicians."
+  ],
+  "tip": "Take the anime-angle photos in the morning. In the evening the plaza is full of people and musicians."
+ },
+ "plan-gbc-marufuku": {
+  "hook": "Coffee and a thick hotcake at the table where the band plans everything.",
+  "moments": [
+   "Go down to B1F of Azalea and find the stamp beside the shop door.",
+   "Ask for the second window table from the back, where Nina sits in ep 1.",
+   "Or take the 4-person table on the left, where Rupa has her plan in ep 6.",
+   "Eat a thick, hot hotcake with butter and syrup and drink a dark Marufuku coffee.",
+   "Walk to the Girls Band Cry stamp gallery in Azalea after."
+  ],
+  "tip": "Go at opening or mid-afternoon to get the anime tables. Ask staff before you take photos inside."
+ },
+ "plan-gbc-citta": {
+  "hook": "The live house of the band's last show in episode 13.",
+  "moments": [
+   "Walk into La Cittadella, a small Italian-style street of plazas and colored walls.",
+   "Stand at the CLUB CITTA' front entrance, the final-live venue of ep 13.",
+   "Walk the alleys the band walks on its venue visit in ep 5.",
+   "Come back after dark when the street is lit.",
+   "Look for Girls Band Cry goods at Tower Records and Village Vanguard nearby."
+  ],
+  "tip": "Check clubcitta.co.jp before you go. On show nights there is a queue at the door, so take photos early."
+ },
+ "plan-suga": {
+  "hook": "The red-railed stairs of the Your Name poster and final scene.",
+  "moments": [
+   "Walk 7 minutes from Yotsuya-Sanchome through quiet back streets.",
+   "Stand at the bottom of the stairs and look up: the red railing and shrine gate match the final scene.",
+   "Take the photo where Taki and Mitsuha pass each other, then turn around.",
+   "Climb to Suga Shrine and look at the Your Name ema drawings left by fans."
+  ],
+  "tip": "Go before 09:00. Winter morning light is soft and there is no line for the same photo."
+ },
+ "plan-shimokita": {
+  "hook": "Walk Kessoku Band's home streets of live houses and used-clothing shops.",
+  "moments": [
+   "Step out of Shimokitazawa Station, seen in ep 4 on the day of the band photo shoot.",
+   "Browse Village Vanguard, the goods store Bocchi passes in ep 1.",
+   "Dig through used jackets and vinyl records in the small shops on the narrow streets.",
+   "Walk the Senrogai open space above the old train line, where Bocchi sits sad in ep 5.",
+   "Eat a hot curry, Shimokitazawa's famous food, to warm up."
+  ],
+  "tip": "Shops open at 11:00 to 12:00. See the anime spots first while the streets are empty."
+ },
+ "plan-shelter": {
+  "hook": "The real stairs down to STARRY, Bocchi's live house.",
+  "moments": [
+   "Find SHELTER's narrow door and sign on the street.",
+   "Look down the stairs into the basement, as Bocchi does with Nijika in ep 1.",
+   "Take one quiet photo of the stairs from the street.",
+   "Check the show list on the door. If a band plays that night, you can buy a ticket."
+  ],
+  "tip": "Come on a weekday before 14:00. SHELTER asks fans not to take photos on weekend or show evenings."
+ },
+ "plan-nakano": {
+  "hook": "Four floors of used figures and manga, quieter and cheaper than Akihabara.",
+  "moments": [
+   "Walk the covered Sun Mall arcade from Nakano Station into the old 1960s building.",
+   "Go up to floors 2 to 4 and walk through Mandarake's many small shops.",
+   "Look at glass cases of old figures, vintage toys and rare cards.",
+   "Search the used-manga shelves for an anime artbook you like.",
+   "Eat the tall 8-layer soft-serve at Daily Chico on B1F."
+  ],
+  "tip": "Most shops open about 12:00. Check each glass case price tag: many rare items cost less than in Akihabara."
+ },
+ "plan-zest": {
+  "hook": "The live house from Oshi no Ko episode 1, where Ai performs.",
+  "moments": [
+   "Walk the Akihabara back streets to the small venue.",
+   "Stand across the street and look at the front: it matches BEAST, Ai's live venue in ep 1.",
+   "Picture baby Aqua and Ruby in the crowd, waving glow sticks for Ai.",
+   "Walk on to atre Akihabara, another ep 1 location next to the station."
+  ],
+  "tip": "Photograph only the outside, from across the street. Do not take photos when fans queue for a show."
+ },
+ "plan-radio-kaikan": {
+  "hook": "Ten floors of figures and cards in the building from Steins;Gate episode 1.",
+  "moments": [
+   "Stand across the street at the Electric Town Exit and look up at the building.",
+   "Remember Steins;Gate ep 1: Okabe goes to a time-machine talk here, and a satellite crashes on the roof.",
+   "Take the elevator to the top floor, then walk down floor by floor.",
+   "Look at glass cases of figures, model kits and trading cards on every floor.",
+   "Walk the Electric Town main street past arcades and neon signs."
+  ],
+  "tip": "The building in the anime was replaced by a new one in 2014. Start at the top floor to avoid walking back up."
+ },
+ "plan-kinshi": {
+  "hook": "The park where Chisato and Takina talk in Lycoris Recoil episode 1.",
+  "moments": [
+   "Find the benches in the middle of Kinshi Park, where Chisato and Takina talk about their cafe job in ep 1.",
+   "Stand with the play equipment on both sides and the tall buildings behind, like the anime frame.",
+   "Look up at Tokyo Skytree, lit up after 17:00, above the park.",
+   "Find the Chisato and Takina manhole cover near Olinas mall, 3 minutes from the station."
+  ],
+  "tip": "The manhole was set in March 2025. Photograph it from above in daylight; at night the shadows hide the art."
+ }
+}

@@ -93,7 +93,7 @@ export const days: Day[] = [
     stops: [
       { place: 'gbc-miharashi', time: '09:30', note: 'Riverside steps from Ep 2.' },
       { place: 'gbc-minamikawara', time: '10:30', note: 'Park and footbridge from the opening.' },
-      { place: 'gbc-muza', time: '11:45', note: 'The walkway where the guitar falls. Animate on 2F.' },
+      { place: 'gbc-muza', time: '11:45', note: 'Nina\u2019s ep 1 route on the 2F deck. Public piano, Animate on 2F.' },
       { place: 'gbc-lazona', time: '12:15', note: 'Lunch, then the Ep 3 stage from the 4F walkway.' },
       { place: 'gbc-east-plaza', time: '14:00', note: 'Where Nina first hears Momoka. Buy the stamp book here.' },
       { place: 'gbc-marufuku', time: '14:30', note: 'Coffee and hotcake at the band’s table.' },

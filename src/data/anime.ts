@@ -18,7 +18,7 @@ export const animePlaces: Place[] = [
     kind: 'anime',
     anime: `${GBC} · Ep 2, 8, 9`,
     blurb:
-      'The wide concrete steps on the bank of the Tama River. In episode 2, Momoka plays guitar here at night and talks with Nina. It is also on the key art. Across the river you see Tokyo.',
+      'The wide concrete steps on the bank of the Tama River. In episode 2, Nina sings for Momoka here before Momoka moves away. Nina practises here in episodes 8 and 9. It is also on the key art. Across the river you see Tokyo.',
     info: [
       { label: 'From station', value: 'Kawasaki West Exit, 1 km' },
       { label: 'Stamp tour', value: 'Yes' },
@@ -54,9 +54,9 @@ export const animePlaces: Place[] = [
     lat: 35.53096,
     lon: 139.69541,
     kind: 'anime',
-    anime: `${GBC} · Ep 1, 13 · "爆ぜて咲く" MV`,
+    anime: `${GBC} · Ep 1 · TOGENASHI TOGEARI MV`,
     blurb:
-      'On the 2F walkway Nina trips and Momoka’s guitar falls in episode 1. The public upright piano on 1F is in the music video. Animate Kawasaki (anime goods) is on 2F.',
+      'In episode 1, Nina runs along the 2F deck to the north escalator, looking for Momoka. Tomo plays the public upright piano on 1F in a TOGENASHI TOGEARI music video. Animate Kawasaki (anime goods) is on 2F.',
     info: [
       { label: 'Piano', value: 'Free to play, 10:00–20:00' },
       { label: 'Animate', value: '2F' },

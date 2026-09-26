@@ -815,7 +815,7 @@ const P: Place[] = [
     info: [
       { label: 'Hours', value: '11:00–18:00' },
       { label: 'Closed', value: 'Mondays' },
-      { label: 'Premium tour', value: '¥2,000, with tasting' },
+      { label: 'Premium tour', value: '¥3,000, 70 min, with tasting' },
     ],
     tips: ['Feb 1 is a Monday and it is closed. That is why you go on Sunday, Jan 31.'],
   },
