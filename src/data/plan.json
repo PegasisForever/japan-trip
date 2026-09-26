@@ -2798,10 +2798,10 @@
       "region": "fuji",
       "short": "Coast → Fuji",
       "cover": "taikanzan",
-      "title": "Enoshima, Hakone Turnpike, Otome Pass, car museum and outlets, Fuji at sunset",
-      "titleJa": "江の島 → 大観山 → 乙女峠 → 富士モータースポーツミュージアム → 御殿場 → 河口湖",
-      "romaji": "Enoshima → Taikanzan → Otome-tōge → Oyama → Gotenba → Kawaguchiko",
-      "summary": "A coast-to-Fuji drive together: Enoshima for Aoki, the Turnpike and the passes for Pegasis, then the race-car museum and the outlets one after the other. Sunset on Fuji at Lake Kawaguchi and a BBQ dinner at the villa.",
+      "title": "Enoshima, Hakone Turnpike, Otome Pass, outlets and car museum, Fuji at sunset",
+      "titleJa": "江の島 → 大観山 → 乙女峠 → 御殿場 → 富士モータースポーツミュージアム → 河口湖",
+      "romaji": "Enoshima → Taikanzan → Otome-tōge → Gotenba → Oyama → Kawaguchiko",
+      "summary": "A coast-to-Fuji drive together: Enoshima for Aoki, the Turnpike and the passes for Pegasis, then the outlets and the race-car museum on the way north. Sunset on Fuji at Lake Kawaguchi and a BBQ dinner at the villa.",
       "temp": "−4 – 8 °C",
       "alerts": [
         "Leave Shinjuku at 07:20 (Friday morning traffic).",
@@ -2835,14 +2835,14 @@
           "note": "Fuji view from the pass rest stop, 15 min."
         },
         {
-          "place": "fuji-motorsports",
-          "time": "13:25",
-          "note": "Race-car museum, 1 h (Aoki's pick)."
+          "place": "gotemba",
+          "time": "13:10",
+          "note": "Outlets with Fuji behind, 50 min (Pegasis's pick)."
         },
         {
-          "place": "gotemba",
-          "time": "14:45",
-          "note": "Outlets with Fuji behind, 45 min (Pegasis's pick)."
+          "place": "fuji-motorsports",
+          "time": "14:25",
+          "note": "Race-car museum, 1 h 15 (Aoki's pick)."
         },
         {
           "place": "lake-kawaguchi",
@@ -2891,24 +2891,24 @@
         },
         {
           "from": "otome",
-          "to": "fuji-motorsports",
-          "mode": "drive",
-          "label": "Drive, Route 138 → Gotemba → Oyama",
-          "duration": "25 min"
-        },
-        {
-          "from": "fuji-motorsports",
           "to": "gotemba",
           "mode": "drive",
-          "label": "Drive back to the outlets (Route 401)",
-          "duration": "20 min"
+          "label": "Drive down Route 138 to the outlets",
+          "duration": "15 min"
         },
         {
           "from": "gotemba",
+          "to": "fuji-motorsports",
+          "mode": "drive",
+          "label": "Drive, Route 401 → Oyama to Fuji Speedway",
+          "duration": "20 min"
+        },
+        {
+          "from": "fuji-motorsports",
           "to": "lake-kawaguchi",
           "mode": "drive",
-          "label": "Drive, Route 138 over Kagosaka Pass → Higashi-Fuji-goko Road → Lake Kawaguchi north shore (leave by 15:30)",
-          "duration": "50 min–1 h"
+          "label": "Drive, Route 138 over Kagosaka Pass → Higashi-Fuji-goko Road → Lake Kawaguchi north shore (leave by 15:40)",
+          "duration": "45 min"
         },
         {
           "from": "lake-kawaguchi",
