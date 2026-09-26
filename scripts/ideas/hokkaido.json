@@ -1,0 +1,350 @@
+[
+  {
+    "id": "hok-east-drift-ice-road-trip",
+    "kind": "plan",
+    "category": "nature",
+    "title": "East Hokkaido drift ice road trip",
+    "titleJa": "道東ドライブ（網走・知床・摩周・阿寒・鶴居）",
+    "summary": "Fly New Chitose to Memanbetsu, rent a 4WD car and drive Abashiri (icebreaker Aurora) → Utoro/Shiretoko → Lake Mashu and Lake Kussharo swans → Lake Akan Ainu Kotan → Tsurui red-crowned cranes, then fly out of Kushiro. It replaces baseline days 11–14 (Otaru, Asahikawa, Biei, Furano, Sapporo).",
+    "why": "Aoki can drive, you get the wildest winter scenery in Japan (sea ice, cranes, frozen lakes, onsen towns), and Kushiro has direct flights to Haneda for Pegasis on Feb 1.",
+    "days": [],
+    "duration": "4 days",
+    "cost": "about ¥60,000–80,000 pp (domestic flights ¥10,000–20,000 each way, 4WD rental ~¥12,000/day shared, Aurora ¥7,000, onsen hotels ¥10,000–18,000)",
+    "winter": "check",
+    "winterNote": "Day plan: D11 Jan29 Niseko→New Chitose (~2 h) fly to Memanbetsu, Abashiri. D12 Jan30 Aurora icebreaker 9:00/11:00, drive Abashiri→Utoro (~75 km, ~1 h 20 min). D13 Jan31 Utoro→Shari→Lake Mashu 1st observatory→Sunayu swans on Lake Kussharo→Akan onsen (~200 km, ~3.5–4 h driving). D14 Feb1 Akan→Tsurumidai cranes (~1 h)→Kushiro airport (~30 min), fly. Drift ice: Abashiri first sighting 2026 was Jan 22, shore contact Feb 1 (3 days earlier than normal); in late Jan ice may still be offshore or absent. Shiretoko Pass (Utoro↔Rausu) is closed all winter. Guided drift ice walks (e.g. SHINRA) start Feb 1. Akan ice festival 2026 ran Feb 1–Mar 1, so fireworks may not have started by Jan 31. Safety: rentals in Hokkaido come with studless tyres, ask for 4WD; drive only in daylight (sunset ~16:15), roads can be ice-covered and whiteouts happen on open farmland (e.g. near Shari/Koshimizu); check road info before each day and keep 30–50% extra time. Aoki should be the main driver.",
+    "lat": 44.02194,
+    "lon": 144.27427,
+    "route": [[144.16417, 43.88056], [144.27427, 44.02194], [144.99069, 44.06903], [144.50742, 43.557], [144.36088, 43.62433], [144.08998, 43.43368], [144.31974, 43.17817], [144.19306, 43.04083]],
+    "places": [
+      {"en": "Aurora icebreaker (Michi-no-Eki Ryuhyo Kaido Abashiri)", "ja": "網走流氷観光砕氷船おーろら（道の駅 流氷街道網走）", "lat": 44.02194, "lon": 144.27427},
+      {"en": "Michi-no-Eki Utoro Shiretoko", "ja": "道の駅 うとろ・シリエトク", "lat": 44.06903, "lon": 144.99069},
+      {"en": "Lake Mashu 1st Observatory", "ja": "摩周湖第一展望台", "lat": 43.557, "lon": 144.50742},
+      {"en": "Akan Ainu Kotan", "ja": "阿寒湖アイヌコタン", "lat": 43.43368, "lon": 144.08998},
+      {"en": "Tsurumidai crane feeding site", "ja": "鶴見台", "lat": 43.17817, "lon": 144.31974}
+    ],
+    "photoQuery": "Abashiri drift ice icebreaker Aurora",
+    "sources": [
+      "https://www.ms-aurora.com/abashiri/prices/",
+      "https://weathernews.jp/news/202602/020156/",
+      "https://www.shinra.or.jp/ryuhyo_walk.html",
+      "https://www.visit-hokkaido.jp/event/detail_11028.html",
+      "https://zoebitalk.com/japan/hokkaido/eastern-hokkaido/",
+      "https://lovetogo.tw/201612-hokkaido/snowdrive/index.php"
+    ]
+  },
+  {
+    "id": "hok-asahikawa-sounkyo-abashiri",
+    "kind": "plan",
+    "category": "snow",
+    "title": "Asahikawa to Abashiri via Sounkyo",
+    "titleJa": "旭川→層雲峡→網走 ドライブ",
+    "summary": "Keep the baseline up to the Asahiyama Zoo, then drive east: night at Sounkyo Onsen for the Ice Waterfall Festival, next day over Sekihoku Pass to Abashiri for the Aurora icebreaker, then fly home side from Memanbetsu. It replaces Biei/Furano/Sapporo (days 12 afternoon–14).",
+    "why": "A shorter, lower-risk taste of the east: ice festival, onsen, and a chance of sea ice, with only two driving days.",
+    "days": [12, 13, 14],
+    "duration": "3 days",
+    "cost": "about ¥45,000–60,000 pp (car ~¥12,000/day shared, Sounkyo ryokan ¥12,000–20,000, festival ¥1,000, Aurora ¥7,000, flight Memanbetsu→Haneda ¥15,000–30,000)",
+    "winter": "check",
+    "winterNote": "Sounkyo Ice Waterfall Festival 2027: Jan 23–Mar 7 (weekday 17:00–21:30, weekend from 11:00). Asahikawa→Sounkyo about 70 km (~1 h 15 min); Sounkyo→Abashiri about 160 km (~2 h 45 min) over Sekihoku Pass, which is a mountain pass with snow and ice, drive in daylight only. Drift ice in Abashiri is not sure in late Jan (2026: first sighting Jan 22). Aurora runs Jan 20–Mar 31 (2027 plan). Memanbetsu airport is ~25 min from Abashiri.",
+    "lat": 43.72788,
+    "lon": 142.9513,
+    "route": [[142.35806, 43.76361], [142.9513, 43.72788], [144.27427, 44.02194], [144.16417, 43.88056]],
+    "places": [
+      {"en": "Sounkyo Onsen", "ja": "層雲峡温泉", "lat": 43.72788, "lon": 142.9513},
+      {"en": "Aurora icebreaker pier", "ja": "道の駅 流氷街道網走", "lat": 44.02194, "lon": 144.27427},
+      {"en": "Memanbetsu Airport", "ja": "女満別空港", "lat": 43.88056, "lon": 144.16417}
+    ],
+    "photoQuery": "Sounkyo Ice Waterfall Festival",
+    "sources": [
+      "https://sounkyo.net/hyoubaku/",
+      "https://www.ms-aurora.com/abashiri/",
+      "https://www.town.hokkaido-kamikawa.lg.jp/section/sangyoukeizai/i8u8uo0000000734.html"
+    ]
+  },
+  {
+    "id": "hok-shift-for-snow-festival",
+    "kind": "swap",
+    "category": "culture",
+    "title": "Shift trip for Sapporo Snow Festival",
+    "titleJa": "さっぽろ雪まつり",
+    "summary": "Move the whole 15-day trip 9 days later (Thu Jan 28 – Thu Feb 11, 2027) so the Hokkaido week (days 8–14 = Feb 4–10) falls inside the Sapporo Snow Festival (Feb 4–11). The Asahikawa Winter Festival (Feb 6–11) then also lines up with days 11–12.",
+    "why": "Giant snow sculptures at Odori, ice sculptures in Susukino, and snow slides at Tsudome, plus a better chance of drift ice in February.",
+    "days": [13, 14],
+    "duration": "whole-trip date shift",
+    "cost": "no entry fee; Sapporo hotels in festival week cost much more and sell out early (plan ¥15,000–30,000 per room per night, book now)",
+    "winter": "ok",
+    "winterNote": "2027 Snow Festival: Feb 4 (Thu)–Feb 11 (Thu, holiday), Odori, Tsudome and Susukino sites. Aoki's 15-day visa limit: Jan 28–Feb 11 inclusive is exactly 15 days, so do not add a day. Flights are not booked yet, so this is still possible. Tokyo/Zao parts shift too (Zao snow monsters are still good in early Feb).",
+    "lat": 43.05972,
+    "lon": 141.34639,
+    "route": [[141.34639, 43.05972], [141.35433, 43.05463], [141.37519, 43.11576]],
+    "places": [
+      {"en": "Odori Park site", "ja": "大通会場", "lat": 43.05972, "lon": 141.34639},
+      {"en": "Tsudome site", "ja": "つどーむ会場", "lat": 43.11576, "lon": 141.37519},
+      {"en": "Asahikawa Winter Festival (Tokiwa Park area)", "ja": "旭川冬まつり（常磐公園周辺）", "lat": 43.775, "lon": 142.35722}
+    ],
+    "photoQuery": "Sapporo Snow Festival Odori Park",
+    "sources": [
+      "https://www.snowfes.com/news/948.html",
+      "https://asahikawa-winterfes.jp/5034/",
+      "https://www.orion-tour.co.jp/air/fair/hokkaido/winter-festival/asahikawa-winterfes/"
+    ]
+  },
+  {
+    "id": "hok-shikotsu-ice-festival",
+    "kind": "addon",
+    "category": "snow",
+    "title": "Lake Shikotsu Ice Festival",
+    "titleJa": "千歳・支笏湖氷濤まつり",
+    "summary": "Walk-through ice sculptures and ice caves made from blue lake water, lit in many colours after dark. It is 40 min by car from New Chitose Airport, so it fits the last Sapporo day.",
+    "why": "It opens on Jan 30, 2027, just in time for your last Hokkaido days, and it is easy to reach on the way to the airport.",
+    "days": [13, 14],
+    "duration": "2 h",
+    "cost": "¥1,000 weekdays, ¥3,000 weekends/holidays",
+    "winter": "ok",
+    "winterNote": "2027: Jan 30 (Sat)–Feb 23 (Tue), 10:00–20:00, light-up 16:30–20:00. Jan 30–31 are weekend (¥3,000); Feb 1 is Monday (¥1,000). Bus from JR Chitose Station about 60 min.",
+    "lat": 42.77274,
+    "lon": 141.40407,
+    "photoQuery": "Shikotsu Lake Ice Festival",
+    "sources": [
+      "https://www.visit-hokkaido.jp/event/detail_11029.html",
+      "https://www.1000sai-chitose.or.jp/event/detail_1130.html"
+    ]
+  },
+  {
+    "id": "hok-tomamu-ice-village",
+    "kind": "addon",
+    "category": "snow",
+    "title": "Tomamu Ice Village and ski",
+    "titleJa": "星野リゾート トマム アイスヴィレッジ",
+    "summary": "A small town of ice domes at Hoshino Resorts Tomamu with an ice bar, ice skating, ice slide and ice restaurant, open in the evening. By day, ski Tomamu and ride to the Frost Tree Terrace (霧氷テラス) at 1,088 m.",
+    "why": "Fits between Furano and Sapporo, gives Pegasis good ski runs and Aoki easy runs, and the ice bar is a fun evening.",
+    "days": [13],
+    "duration": "half day or overnight",
+    "cost": "Ice Village ¥600 (free for resort guests); ice bar from ¥1,500; lift pass extra",
+    "winter": "ok",
+    "winterNote": "Ice Village 2026-27: Dec 20, 2026–Mar 10, 2027 (planned), 17:00–22:00. Frost Tree Terrace and ski: Dec 1, 2026–Apr 5, 2027. The summer Unkai (sea of clouds) Terrace is NOT open in winter. Furano→Tomamu ~1 h, Tomamu→Sapporo ~2 h by expressway.",
+    "lat": 43.06754,
+    "lon": 142.61906,
+    "photoQuery": "Tomamu Ice Village",
+    "sources": [
+      "https://www.snowtomamu.jp/winter/icevillage/",
+      "https://www.snowtomamu.jp/winter/"
+    ]
+  },
+  {
+    "id": "hok-sounkyo-ice-waterfall",
+    "kind": "addon",
+    "category": "onsen",
+    "title": "Sounkyo Ice Waterfall Festival",
+    "titleJa": "層雲峡温泉氷瀑まつり",
+    "summary": "Ice towers, tunnels and an ice shrine built by the river in the Sounkyo gorge, lit up at night. Stay in a Sounkyo onsen hotel or do an evening trip from Asahikawa.",
+    "why": "Ice festival plus onsen in one stop, only ~1 h 15 min from Asahikawa where you already stay.",
+    "days": [11, 12],
+    "duration": "evening or overnight",
+    "cost": "¥1,000 entry; onsen hotel ¥12,000–20,000 with dinner",
+    "winter": "ok",
+    "winterNote": "52nd festival 2027: Jan 23 (Sat)–Mar 7 (Sun). Weekdays 17:00–21:30, weekends/holidays 11:00–21:30.",
+    "lat": 43.72788,
+    "lon": 142.9513,
+    "photoQuery": "Sounkyo Hyobaku festival",
+    "sources": [
+      "https://sounkyo.net/hyoubaku/",
+      "https://www.town.hokkaido-kamikawa.lg.jp/section/sangyoukeizai/i8u8uo0000000734.html"
+    ]
+  },
+  {
+    "id": "hok-garinko-mombetsu",
+    "kind": "addon",
+    "category": "nature",
+    "title": "Garinko icebreaker at Mombetsu",
+    "titleJa": "流氷砕氷船ガリンコ号III IMERU",
+    "summary": "A 1-hour cruise on an icebreaker with big drills at the bow that cut through drift ice off Mombetsu. From Asahikawa it is about 2 h 30 min by car on the Asahikawa-Mombetsu expressway, or fly Haneda–Mombetsu.",
+    "why": "The drift-ice boat closest to your baseline route (Asahikawa), for a unique winter sight.",
+    "days": [12],
+    "duration": "1 day from Asahikawa",
+    "cost": "about ¥4,000 (2026 adult fare)",
+    "winter": "check",
+    "winterNote": "2026 season ran Jan 13–Mar 28. 2027 bookings open Oct 9, 2026. Ice near Mombetsu usually comes in late Jan–Feb; before that the cruise sails on open sea. Cruises can be cancelled for bad weather.",
+    "lat": 44.3343,
+    "lon": 143.37486,
+    "photoQuery": "Garinko icebreaker Mombetsu drift ice",
+    "sources": [
+      "https://o-tower.co.jp/information.html",
+      "https://tic.mombetsu.net/tourist-facilities/garinko/",
+      "https://www.visit-hokkaido.jp/spot/detail_10015.html"
+    ]
+  },
+  {
+    "id": "hok-toya-noboribetsu",
+    "kind": "swap",
+    "category": "onsen",
+    "title": "Lake Toya and Noboribetsu Hells",
+    "titleJa": "洞爺湖温泉・登別地獄谷",
+    "summary": "Instead of Onuma→Niseko, drive Hakodate→Lake Toya (lakeside onsen, view of Showa-Shinzan) and on to Noboribetsu, walking the steaming Jigokudani 'Hell Valley' and soaking in a big onsen hotel. Continue to Rusutsu for ski the next day.",
+    "why": "Japan's most famous onsen town plus a volcano lake, a good change if you want more onsen and less ski.",
+    "days": [9, 10],
+    "duration": "1–2 days",
+    "cost": "Jigokudani free (parking fee); onsen hotel ¥12,000–25,000 with dinner",
+    "winter": "ok",
+    "winterNote": "Hakodate→Toya about 2 h 30 min, Toya→Noboribetsu about 1 h by car. Jigokudani paths can be icy, wear shoe spikes. Toya Onsen normally has short nightly fireworks in winter too; 2027 schedule not checked.",
+    "lat": 42.49746,
+    "lon": 141.14693,
+    "route": [[140.72889, 41.76861], [140.81778, 42.56417], [141.14693, 42.49746], [140.89552, 42.75099]],
+    "places": [
+      {"en": "Toya-ko Onsen", "ja": "洞爺湖温泉", "lat": 42.56417, "lon": 140.81778},
+      {"en": "Noboribetsu Jigokudani", "ja": "登別地獄谷", "lat": 42.49746, "lon": 141.14693},
+      {"en": "Rusutsu Resort", "ja": "ルスツリゾート", "lat": 42.75099, "lon": 140.89552}
+    ],
+    "photoQuery": "Noboribetsu Jigokudani winter",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/登別温泉",
+      "https://ja.wikipedia.org/wiki/洞爺湖温泉"
+    ]
+  },
+  {
+    "id": "hok-other-ski-areas",
+    "kind": "addon",
+    "category": "snow",
+    "title": "Rusutsu, Kiroro, Teine, Furano ski",
+    "titleJa": "ルスツ・キロロ・サッポロテイネ・富良野スキー場",
+    "summary": "Other ski areas on the baseline route: Rusutsu (big, fewer crowds than Niseko), Kiroro (very deep snow, between Otaru and Niseko), Sapporo Teine (40 min from Sapporo, 1972 Olympic runs) and Furano (on day 13). Each has good beginner slopes and ski school for Aoki.",
+    "why": "More ski time for Pegasis without changing the route; Teine lets you ski on the last Sapporo day.",
+    "days": [10, 11, 13, 14],
+    "duration": "half day – 1 day",
+    "cost": "1-day lift pass about ¥7,000–¥13,000 (2025-26 prices, Rusutsu/Kiroro higher); rental ¥5,000–7,000",
+    "winter": "ok",
+    "winterNote": "Late January is peak powder season in Hokkaido. Lift prices for 2026-27 not yet checked.",
+    "lat": 43.06308,
+    "lon": 141.00787,
+    "places": [
+      {"en": "Rusutsu Resort", "ja": "ルスツリゾート", "lat": 42.75099, "lon": 140.89552},
+      {"en": "Kiroro Resort", "ja": "キロロリゾート", "lat": 43.06308, "lon": 141.00787},
+      {"en": "Sapporo Teine", "ja": "サッポロテイネ", "lat": 43.09806, "lon": 141.21028},
+      {"en": "Furano Ski Area", "ja": "富良野スキー場", "lat": 43.33278, "lon": 142.33222}
+    ],
+    "photoQuery": "Kiroro ski resort Hokkaido",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/サッポロテイネ",
+      "https://ja.wikipedia.org/wiki/ルスツリゾート",
+      "https://ja.wikipedia.org/wiki/富良野スキー場"
+    ]
+  },
+  {
+    "id": "hok-otaru-tenguyama-yoichi",
+    "kind": "addon",
+    "category": "food",
+    "title": "Nikka Yoichi and Tenguyama",
+    "titleJa": "ニッカウヰスキー余市蒸溜所・小樽天狗山",
+    "summary": "On the Otaru day, visit the Nikka Yoichi whisky distillery (free guided tour with tasting, about 1 h) and ride the Tenguyama ropeway for a view over Otaru and the sea; Tenguyama also has a small ski area.",
+    "why": "Whisky and a snowy harbour view on a day that is mostly driving; Yoichi is only ~30 min west of Otaru.",
+    "days": [11],
+    "duration": "half day",
+    "cost": "distillery tour free; Tenguyama ropeway about ¥1,600–2,000 round trip (not checked for 2027)",
+    "winter": "ok",
+    "winterNote": "Nikka tour: online booking only, opens about 1 month before, no same-day entry; closed Dec 23–Jan 7 (so late Jan is open). The driver cannot taste. Tenguyama ropeway runs in winter; check for wind stops.",
+    "lat": 43.18627,
+    "lon": 140.78984,
+    "places": [
+      {"en": "Nikka Yoichi Distillery", "ja": "ニッカウヰスキー余市蒸溜所", "lat": 43.18627, "lon": 140.78984},
+      {"en": "Tenguyama Ropeway base", "ja": "天狗山ロープウェイ山麓駅", "lat": 43.1779, "lon": 140.97517}
+    ],
+    "photoQuery": "Nikka Yoichi Distillery snow",
+    "sources": [
+      "https://distillery.nikka.com/yoichi/reservation",
+      "https://whisky-journal.jp/2026/03/09/yoichi-distillery-tour-guide/"
+    ]
+  },
+  {
+    "id": "hok-sapporo-city-day",
+    "kind": "addon",
+    "category": "city",
+    "title": "Sapporo ramen, beer and shrine",
+    "titleJa": "元祖さっぽろラーメン横丁・サッポロビール博物館・北海道神宮",
+    "summary": "Morning at snowy Hokkaido Shrine in Maruyama Park, afternoon at the Sapporo Beer Museum (tasting, Genghis Khan lamb BBQ at the Beer Garden next door), evening miso ramen in the Ganso Ramen Yokocho alley in Susukino.",
+    "why": "An easy, low-cost last day in the city with the three classic Sapporo tastes before Pegasis flies.",
+    "days": [14],
+    "duration": "1 day",
+    "cost": "about ¥5,000–8,000 pp for food and drink; shrine free",
+    "winter": "ok",
+    "winterNote": "All open in winter. Beer Museum tasting is paid; check hours before (not verified for 2027).",
+    "lat": 43.05463,
+    "lon": 141.35433,
+    "places": [
+      {"en": "Hokkaido Jingu", "ja": "北海道神宮", "lat": 43.05433, "lon": 141.3075},
+      {"en": "Sapporo Beer Museum", "ja": "サッポロビール博物館", "lat": 43.0715, "lon": 141.3689},
+      {"en": "Ganso Sapporo Ramen Yokocho", "ja": "元祖さっぽろラーメン横丁", "lat": 43.05463, "lon": 141.35433}
+    ],
+    "photoQuery": "Sapporo Beer Museum",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/北海道神宮",
+      "https://www.visit-hokkaido.jp/"
+    ]
+  },
+  {
+    "id": "hok-jozankei-onsen",
+    "kind": "addon",
+    "category": "onsen",
+    "title": "Jozankei Onsen night",
+    "titleJa": "定山渓温泉",
+    "summary": "Sapporo's own onsen town in a snowy river valley, about 1 h from the city by bus or car. Stay one night between Furano and the flight instead of a business hotel.",
+    "why": "A proper onsen night close to Sapporo and New Chitose, good last night for both of you.",
+    "days": [13],
+    "duration": "overnight",
+    "cost": "onsen hotel about ¥12,000–25,000 pp with dinner",
+    "winter": "check",
+    "winterNote": "The snow candle event Yukitouro ran Jan 27–Feb 3, 2026 at Jozankei Shrine and was called the FINAL edition in this form; organisers say a new 'yukitouro' will come later. 2027 dates and form are unknown.",
+    "lat": 42.96444,
+    "lon": 141.16139,
+    "photoQuery": "Jozankei Onsen winter",
+    "sources": [
+      "https://www.tsurugagroup.com/news/2351/",
+      "https://www.sapporo.travel/en/event/event-list/yukitouro/"
+    ]
+  },
+  {
+    "id": "hok-akan-ainu-cranes",
+    "kind": "addon",
+    "category": "culture",
+    "title": "Lake Akan Ainu Kotan and cranes",
+    "titleJa": "阿寒湖アイヌコタン・鶴見台",
+    "summary": "At Lake Akan, see the Ainu village street and an Ainu dance or the 'Lost Kamuy' show, and walk on the frozen lake (snowmobile, banana boat, fireworks during the ice festival). Next morning drive to Tsurui to watch wild red-crowned cranes at a feeding site.",
+    "why": "Ainu culture and famous cranes are things you cannot see anywhere else in Japan.",
+    "days": [12, 13, 14],
+    "duration": "1–2 days (part of an east Hokkaido plan)",
+    "cost": "Ainu theatre about ¥2,000–4,000 (not verified); festival free; crane viewing free or small donation",
+    "winter": "check",
+    "winterNote": "Akan ice festival 'ICE・愛す・阿寒 冬華美' 2026: Feb 1–Mar 1 (fireworks 20:00; ice surface activities in that period); 2027 dates not yet out. Cranes gather at winter feeding sites in Tsurui from about Nov to Mar (feeding times not verified). Akan→Tsurumidai about 1 h.",
+    "lat": 43.43368,
+    "lon": 144.08998,
+    "places": [
+      {"en": "Akan Ainu Kotan", "ja": "阿寒湖アイヌコタン", "lat": 43.43368, "lon": 144.08998},
+      {"en": "Tsurumidai", "ja": "鶴見台", "lat": 43.17817, "lon": 144.31974},
+      {"en": "Tsurui Ito Tancho Sanctuary", "ja": "鶴居・伊藤タンチョウサンクチュアリ", "lat": 43.22827, "lon": 144.33253}
+    ],
+    "photoQuery": "Red-crowned crane Tsurui winter",
+    "sources": [
+      "https://www.visit-hokkaido.jp/event/detail_11028.html",
+      "http://ja.kushiro-lakeakan.com/news/22194/",
+      "https://ja.wikipedia.org/wiki/鶴居村"
+    ]
+  },
+  {
+    "id": "hok-kamui-misaki",
+    "kind": "addon",
+    "category": "scenery",
+    "title": "Cape Kamui on Shakotan",
+    "titleJa": "神威岬",
+    "summary": "A narrow cape on the Shakotan Peninsula with a 770 m ridge path to the tip and very blue sea. From Otaru it is about 2 h by car along the coast.",
+    "why": "A dramatic coastal drive for Aoki, but mostly a summer place.",
+    "days": [11],
+    "duration": "half day",
+    "cost": "free",
+    "winter": "no",
+    "winterNote": "The path to the tip is closed in strong wind, which is common in winter; buses run only Apr–Nov. Winter access to the path not confirmed. Low value in late Jan; not recommended.",
+    "lat": 43.33357,
+    "lon": 140.34669,
+    "photoQuery": "Cape Kamui Shakotan",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/神威岬"
+    ]
+  }
+]

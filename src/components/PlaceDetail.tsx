@@ -1,6 +1,7 @@
 import type { Day, Place } from '../data/types'
 import { KIND_LABEL } from '../data/style'
 import { photoUrl } from '../data/photos'
+import Icon from './Icon'
 
 interface Props {
   place: Place
@@ -14,8 +15,8 @@ export default function PlaceDetail({ place, day, onClose }: Props) {
 
   return (
     <article className="detail" aria-label={place.en}>
-      <button className="detail-close" onClick={onClose} aria-label="Close">
-        ×
+      <button className="detail-close" onClick={onClose} aria-label="Close details">
+        <Icon name="close" size={18} />
       </button>
       {place.photo && (
         <figure className="detail-photo">
@@ -37,7 +38,12 @@ export default function PlaceDetail({ place, day, onClose }: Props) {
         {place.romaji && <p className="detail-romaji">{place.romaji}</p>}
         <p className="detail-en">{place.en}</p>
         {place.anime && <p className="detail-anime">{place.anime}</p>}
-        {stop?.note && <p className="detail-plan"><b>Your plan:</b> {stop.note}</p>}
+        {stop?.note && (
+          <div className="detail-plan">
+            <h3>Your plan</h3>
+            <p>{stop.note}</p>
+          </div>
+        )}
 
         {place.info && place.info.length > 0 && (
           <dl className="detail-info">
@@ -65,11 +71,13 @@ export default function PlaceDetail({ place, day, onClose }: Props) {
 
         <div className="detail-links">
           <a href={gmaps} target="_blank" rel="noreferrer" className="btn">
+            <Icon name="pin" />
             Open in Google Maps
           </a>
           {place.links?.map((l) => (
             <a key={l.url} href={l.url} target="_blank" rel="noreferrer" className="btn btn-ghost">
               {l.label}
+              <Icon name="external" size={14} />
             </a>
           ))}
         </div>

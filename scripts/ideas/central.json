@@ -1,0 +1,309 @@
+[
+  {
+    "id": "shirakawa-go-lightup-hokuriku-fly",
+    "kind": "plan",
+    "category": "culture",
+    "title": "Shirakawa-go light-up, then fly north",
+    "titleJa": "白川郷ライトアップ・飛騨高山・金沢",
+    "summary": "Replace Tohoku with Takayama old town, the Shirakawa-go winter light-up on Sun Jan 24, 2027, and Kanazawa. On day 8 fly from Komatsu (ANA 11:25 or 14:10) or Toyama (ANA 12:45) to New Chitose, then drive to Niseko on day 9.",
+    "why": "Snow-covered thatched farmhouses lit at night are one of the most famous winter views in Japan, and the Jan 24 date falls exactly on baseline day 6.",
+    "days": [6, 7, 8],
+    "duration": "3 days",
+    "cost": "Light-up bus from Takayama 13,000–16,000 (incl. entry); Tokyo→Takayama ~15,000; flight Komatsu→Sapporo ~20,000–35,000",
+    "winter": "check",
+    "winterNote": "2027 light-up days: Jan 11, 17, 24, 31, 17:30–19:30. Full advance reservation, no tickets on the day. Nouhi bus tours from Takayama go on sale online Oct 13–Nov 2, 2026 (staggered); inn-with-deck-ticket lottery Oct 1–31, 2026. No regular bus back to Takayama after the event, so book a tour that returns. Hakodate (baseline day 8–9) is skipped.",
+    "lat": 36.25833, "lon": 136.90556,
+    "route": [[139.70056, 35.68944], [137.2519, 36.1406], [136.90556, 36.25833], [136.64775, 36.57828], [136.4075, 36.39389], [141.69222, 42.775]],
+    "places": [
+      {"en": "Takayama Station", "ja": "高山駅", "lat": 36.1406, "lon": 137.2519},
+      {"en": "Shirakawa-go (Ogimachi)", "ja": "白川郷", "lat": 36.25833, "lon": 136.90556},
+      {"en": "Kenrokuen Garden", "ja": "兼六園", "lat": 36.56214, "lon": 136.6625},
+      {"en": "Omicho Market", "ja": "近江町市場", "lat": 36.57111, "lon": 136.65639},
+      {"en": "Komatsu Airport", "ja": "小松空港", "lat": 36.39389, "lon": 136.4075}
+    ],
+    "photoQuery": "Shirakawa-go winter light-up",
+    "sources": [
+      "https://shirakawa-go.gr.jp/events/441/",
+      "https://www.nouhibus.co.jp/shirakawa_lightup_2027/",
+      "https://www.komatsuairport.jp/flight/sapporo.html",
+      "https://www.toyama-airport.jp/flight/sapporo"
+    ]
+  },
+  {
+    "id": "nagano-snow-monkeys-shiga-kogen",
+    "kind": "swap",
+    "category": "snow",
+    "title": "Snow monkeys and Shiga Kogen ski",
+    "titleJa": "地獄谷野猿公苑・志賀高原・渋温泉",
+    "summary": "Take the Hokuriku Shinkansen to Nagano, walk 35–40 min through snow to see wild monkeys in a hot spring, and stay in Shibu or Yudanaka onsen town. Ski Shiga Kogen (or Nozawa Onsen) the next day, then go back via Omiya and take the Hayabusa to Shin-Hakodate on day 8.",
+    "why": "It replaces Zao with a ski-plus-onsen stop that also has the famous snow monkeys, and Shiga Kogen has easy runs for Aoki and big terrain for Pegasis.",
+    "days": [6, 7, 8],
+    "duration": "3 days",
+    "cost": "Snow monkey park 800; Nagano→park bus 1,400; lift ticket ~7,000–8,000 (Nozawa 2025–26: 7,500); onsen inn 15,000–25,000",
+    "winter": "ok",
+    "winterNote": "Monkey park winter hours 9:00–16:00, arrive 30 min before close; may close for weather. Winter access (Dec 1–Mar 31) changes, check the official site. Monkeys bathe mainly in the coldest months, so late Jan is good. Day 8 Nagano→Omiya→Shin-Hakodate is a long rail day (~6 h).",
+    "lat": 36.73281, "lon": 138.46269,
+    "route": [[139.70056, 35.68944], [138.18871, 36.64308], [138.46269, 36.73281], [138.43306, 36.73444], [138.50778, 36.70556], [140.72640, 41.77374]],
+    "places": [
+      {"en": "Jigokudani Monkey Park", "ja": "地獄谷野猿公苑", "lat": 36.73281, "lon": 138.46269},
+      {"en": "Shibu Onsen", "ja": "渋温泉", "lat": 36.73444, "lon": 138.43306},
+      {"en": "Shiga Kogen", "ja": "志賀高原", "lat": 36.70556, "lon": 138.50778},
+      {"en": "Nozawa Onsen Ski Resort", "ja": "野沢温泉スキー場", "lat": 36.90833, "lon": 138.48194}
+    ],
+    "photoQuery": "Jigokudani Monkey Park snow",
+    "sources": [
+      "https://jigokudani-yaenkoen.co.jp/guide/",
+      "https://www.go-nagano.net/zh-hans/trip-idea/id7062",
+      "https://www.japan-travel.cn/sports/snow/top-recommendations/shiga-kogen/",
+      "https://nozawaski.com/winter/lift_price/"
+    ]
+  },
+  {
+    "id": "japan-alps-matsumoto-hakuba-kanazawa",
+    "kind": "plan",
+    "category": "snow",
+    "title": "Japan Alps: Matsumoto, Hakuba, Kanazawa",
+    "titleJa": "松本城・白馬・金沢",
+    "summary": "Limited express Azusa from Shinjuku to Matsumoto Castle in snow, then bus to Hakuba for a full ski day at Happo-one. Continue via Nagano to Kanazawa on the Hokuriku Shinkansen and fly Komatsu→Sapporo.",
+    "why": "Hakuba is a world-class ski area for Pegasis, Matsumoto is one of Japan's original castles, and it removes the long Tohoku rail days.",
+    "days": [6, 7, 8],
+    "duration": "3–4 days",
+    "cost": "Matsumoto Castle 1,300 (1,200 e-ticket); Hakuba lift ~8,000–10,000 (not verified for 2026–27); Komatsu→Sapporo flight ~20,000–35,000",
+    "winter": "ok",
+    "winterNote": "Castle open 8:30–17:00 every day except Dec 29–31. Past winters had a castle projection-mapping show in the evenings (2025–26: Dec 13–Feb 15); 2027 dates not yet announced. Happo-one 2026–27 prices not found yet.",
+    "lat": 36.2391, "lon": 137.96912,
+    "route": [[139.70056, 35.68944], [137.96912, 36.2391], [137.83681, 36.70253], [138.18871, 36.64308], [136.64775, 36.57828], [136.4075, 36.39389]],
+    "places": [
+      {"en": "Matsumoto Castle", "ja": "松本城", "lat": 36.2391, "lon": 137.96912},
+      {"en": "Hakuba Happo-one", "ja": "白馬八方尾根スキー場", "lat": 36.70253, "lon": 137.83681},
+      {"en": "Kanazawa Station", "ja": "金沢駅", "lat": 36.57828, "lon": 136.64775},
+      {"en": "Higashi Chaya district", "ja": "ひがし茶屋街", "lat": 36.57245, "lon": 136.66716}
+    ],
+    "photoQuery": "Matsumoto Castle snow",
+    "sources": [
+      "https://www.matsumoto-castle.jp/info",
+      "https://www.city.matsumoto.nagano.jp/soshiki/135/4118.html",
+      "https://www.andtrip.jp/article/005523.html",
+      "https://www.happo-one.jp/"
+    ]
+  },
+  {
+    "id": "gala-yuzawa-ski-daytrip",
+    "kind": "swap",
+    "category": "snow",
+    "title": "Gala Yuzawa Shinkansen ski day",
+    "titleJa": "GALA湯沢スキー場",
+    "summary": "Take the Joetsu Shinkansen from Tokyo straight to Gala Yuzawa station, which opens directly into the ski resort gondola. Ski all day with rental gear, soak in the onsen at the base, and be back in Tokyo in the evening.",
+    "why": "It is the easiest real ski day from Tokyo (about 75–90 min), with beginner slopes for Aoki, and it can replace the long trip to Zao.",
+    "days": [6, 7],
+    "duration": "1 day",
+    "cost": "Lift 1-day 7,300 (2025–26); Shinkansen ~7,000 each way; JR 'SKISKI' packs can be cheaper",
+    "winter": "ok",
+    "winterNote": "2025–26 season ran Dec 20–May 6; 2026–27 dates not yet published. Gala Yuzawa station runs only in ski season. Weekends are crowded; Jan 24–25 is Sun–Mon.",
+    "lat": 36.95139, "lon": 138.77861,
+    "route": [[139.76694, 35.68083], [138.80990, 36.93610], [138.79953, 36.95089], [138.77861, 36.95139]],
+    "places": [
+      {"en": "Gala Yuzawa Station", "ja": "ガーラ湯沢駅", "lat": 36.95089, "lon": 138.79953},
+      {"en": "Echigo-Yuzawa Station", "ja": "越後湯沢駅", "lat": 36.9361, "lon": 138.8099}
+    ],
+    "photoQuery": "Gala Yuzawa ski resort",
+    "sources": [
+      "https://event.jreast.co.jp/pages/gala-yuzawa",
+      "https://tabiris.com/archives/yuzawa-liftfee2026/",
+      "https://www.jre-travel.com/seasonal/ski/gala/"
+    ]
+  },
+  {
+    "id": "fujiten-beginner-ski",
+    "kind": "addon",
+    "category": "snow",
+    "title": "Fujiten ski with Fuji view",
+    "titleJa": "ふじてんスノーリゾート",
+    "summary": "Small ski resort on the north side of Mt Fuji, about 20 min by car from Lake Kawaguchi. Aoki can take a beginner lesson while Pegasis skis, with Mt Fuji right above the slopes.",
+    "why": "It adds skiing to the Fuji days and gives Aoki an easy first day before the bigger resorts in Hokkaido.",
+    "days": [4, 5],
+    "duration": "half day",
+    "cost": "Lift 1-day 5,500 weekday / 6,500 weekend (2025–26); rental extra",
+    "winter": "ok",
+    "winterNote": "2025–26 season: Dec 13–Apr 1, lifts 9:00–16:30, night ski on weekends/holidays until 21:00. Jan 23 (day 5) is a Saturday, so night ski is possible. Snow is mostly machine-made.",
+    "lat": 35.44186, "lon": 138.68806,
+    "photoQuery": "Fujiten Snow Resort Mount Fuji",
+    "sources": [
+      "https://www.fujiten.net/charges/",
+      "https://www.yamanashi-kankou.jp/narusawa/event/fujiten-op.html"
+    ]
+  },
+  {
+    "id": "yamanaka-diamond-fuji",
+    "kind": "addon",
+    "category": "scenery",
+    "title": "Diamond Fuji sunset at Yamanaka",
+    "titleJa": "山中湖 ダイヤモンド富士",
+    "summary": "At Lake Yamanaka the sun sets exactly on the top of Mt Fuji from mid Oct to late Feb, and the place moves around the lake each day. In late Jan it is seen from the north shore (Oike beach, Nagaike) at about 15:55–16:15.",
+    "why": "A short, free photo stop that fits the Fuji day after the Hakone drive, and it is one of the best-known winter Fuji views.",
+    "days": [4, 5],
+    "duration": "1–2 h",
+    "cost": "free",
+    "winter": "check",
+    "winterNote": "Official list: Oike beach until ~Jan 30 (~16:03), Yanagashiri until ~Jan 27 (~15:55), Nagaike lakeside until ~Feb 5 (~16:13). Needs clear sky; check the exact spot for Jan 22/23 on the Yamanakako site.",
+    "lat": 35.4167, "lon": 138.875,
+    "photoQuery": "Diamond Fuji Lake Yamanaka",
+    "sources": [
+      "https://lake-yamanakako.com/feature/diamondfuji",
+      "https://www.yamanashi-kankou.jp/nature/winter.html",
+      "https://yamanakako.info/photo_diamond.php"
+    ]
+  },
+  {
+    "id": "motosu-lake-ice-cave",
+    "kind": "addon",
+    "category": "nature",
+    "title": "Lake Motosu and lava ice caves",
+    "titleJa": "本栖湖・鳴沢氷穴・富岳風穴",
+    "summary": "Walk into Narusawa Ice Cave and Fugaku Wind Cave, lava tubes in the Aokigahara forest where ice stays all year. Then drive to Lake Motosu, the view of Mt Fuji printed on the 1,000-yen note.",
+    "why": "Aoki can drive the quiet lake roads west of Kawaguchiko, and it is a different Fuji view from Chureito with few people.",
+    "days": [4, 5],
+    "duration": "half day",
+    "cost": "Each cave ~350–500 (check); free lake",
+    "winter": "check",
+    "winterNote": "Cave temperature 0–3°C all year. Winter opening hours were not confirmed; check the official site. Lake roads can be icy early in the morning.",
+    "lat": 35.47479, "lon": 138.66652,
+    "places": [
+      {"en": "Narusawa Ice Cave", "ja": "鳴沢氷穴", "lat": 35.47479, "lon": 138.66652},
+      {"en": "Lake Motosu", "ja": "本栖湖", "lat": 35.46389, "lon": 138.58556}
+    ],
+    "photoQuery": "Lake Motosu Mount Fuji winter",
+    "sources": [
+      "https://www.mtfuji-cave.com/contents/guide_tour/course1.php",
+      "https://www.fujiyama-navi.jp/entries/BfDfu"
+    ]
+  },
+  {
+    "id": "fuji-q-skate",
+    "kind": "addon",
+    "category": "city",
+    "title": "Fuji-Q rides and ice skating",
+    "titleJa": "富士急ハイランド",
+    "summary": "Theme park at the foot of Mt Fuji with extreme roller coasters and a 400 m outdoor skating rink (SEIKO-OVAL) in winter. Ride coasters with Mt Fuji in view, then skate with rental skates.",
+    "why": "It is next to Kawaguchiko station, so it fits the Fuji days with no extra travel.",
+    "days": [4, 5],
+    "duration": "half day",
+    "cost": "Rink or free-pass tickets: check official site (not verified)",
+    "winter": "ok",
+    "winterNote": "Outdoor rink open early Dec to late Feb. Some coasters stop in strong wind or snow.",
+    "lat": 35.48764, "lon": 138.77917,
+    "photoQuery": "Fuji-Q Highland Mount Fuji",
+    "sources": [
+      "https://www.fujiq.jp/attraction/skate_seiko_oval.html",
+      "https://www.walkerplus.com/article/1011984/"
+    ]
+  },
+  {
+    "id": "hakone-owakudani-openair",
+    "kind": "addon",
+    "category": "scenery",
+    "title": "Owakudani and Open-Air Museum",
+    "titleJa": "大涌谷・箱根彫刻の森美術館",
+    "summary": "Ride the Hakone Ropeway over the steaming volcanic valley of Owakudani and eat the black eggs cooked in the hot springs. Stop at the Hakone Open-Air Museum, a large sculpture park with a foot bath.",
+    "why": "It fits between the Hakone Turnpike drive and Kawaguchiko, with Mt Fuji views from the ropeway on clear winter days.",
+    "days": [4],
+    "duration": "half day",
+    "cost": "Ropeway ~1,500–2,500 one way; museum ~2,000 (check)",
+    "winter": "ok",
+    "winterNote": "Ropeway Dec–Jan 9:00–16:15; it stops in wind of 30 m/s or more and has yearly maintenance closures, so check the operation page.",
+    "lat": 35.24186, "lon": 139.02081,
+    "places": [
+      {"en": "Owakudani", "ja": "大涌谷", "lat": 35.24186, "lon": 139.02081},
+      {"en": "Hakone Open-Air Museum", "ja": "箱根彫刻の森美術館", "lat": 35.24472, "lon": 139.05139},
+      {"en": "Lake Ashi", "ja": "芦ノ湖", "lat": 35.20972, "lon": 139.00444}
+    ],
+    "photoQuery": "Owakudani Hakone ropeway Mount Fuji",
+    "sources": [
+      "https://www.hakonenavi.jp/hakone-ropeway/",
+      "https://www.kanagawa-kankou.or.jp/spot/624"
+    ]
+  },
+  {
+    "id": "gotemba-outlets",
+    "kind": "addon",
+    "category": "city",
+    "title": "Gotemba outlets with Fuji view",
+    "titleJa": "御殿場プレミアム・アウトレット",
+    "summary": "Large outlet mall on the east side of Mt Fuji, on the road from Hakone to Kawaguchiko. Shop for ski wear and brand goods with Fuji in the background.",
+    "why": "It is directly on the day 4 driving route and is a cheap place to buy winter gear before the ski days.",
+    "days": [4],
+    "duration": "2 h",
+    "cost": "free entry",
+    "winter": "ok",
+    "winterNote": "Open all winter; the Fuji view is best on clear mornings.",
+    "lat": 35.30833, "lon": 138.96389,
+    "photoQuery": "Gotemba Premium Outlets Mount Fuji",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/御殿場プレミアム・アウトレット"
+    ]
+  },
+  {
+    "id": "atami-plum-izu-drive",
+    "kind": "addon",
+    "category": "cars",
+    "title": "Atami plum garden and Izu drive",
+    "titleJa": "熱海梅園・伊豆スカイライン",
+    "summary": "Aoki drives from Hakone down to Atami, a seaside onsen town, and sees early plum blossoms at Atami Baien. The Izu Skyline toll road along the mountain ridge is an extra option with sea and Fuji views.",
+    "why": "A car-focused day with onsen and early flowers, close to the Hakone Turnpike.",
+    "days": [4],
+    "duration": "half day",
+    "cost": "Plum festival entry ~300 (check); car rental and tolls extra",
+    "winter": "check",
+    "winterNote": "2026 plum festival ran Jan 10–Mar 8; 2027 dates not yet published, likely similar. Kawazu cherry festival 2027 is Feb 6–Mar 7, so it is AFTER this trip. Ridge roads can be icy in the morning.",
+    "lat": 35.09725, "lon": 139.0605,
+    "places": [
+      {"en": "Atami Baien plum garden", "ja": "熱海梅園", "lat": 35.09725, "lon": 139.0605},
+      {"en": "Atami Station", "ja": "熱海駅", "lat": 35.10361, "lon": 139.07744}
+    ],
+    "photoQuery": "Atami Baien plum",
+    "sources": [
+      "https://www.ataminews.gr.jp/event/355",
+      "https://news.yahoo.co.jp/articles/69799bd381cb2e59a95b800dac5efaf5f884b79f"
+    ]
+  },
+  {
+    "id": "kusatsu-onsen",
+    "kind": "swap",
+    "category": "onsen",
+    "title": "Kusatsu Onsen night in snow",
+    "titleJa": "草津温泉",
+    "summary": "Direct highway bus from Tokyo (Yaesu 7:10, arrives 11:35) to Kusatsu, one of Japan's top onsen towns. See the steaming Yubatake hot-water field lit at night, watch the yumomi water-cooling show, and ski at Kusatsu Onsen ski area.",
+    "why": "Strong onsen town with snow and light skiing, and a simpler, closer alternative to Zao.",
+    "days": [6, 7],
+    "duration": "1–2 days",
+    "cost": "Bus ~3,500–4,500 each way (check); yumomi show 700; ryokan 15,000–25,000",
+    "winter": "ok",
+    "winterNote": "Yumomi show 6 times a day at Netsu-no-yu. Paths around Yubatake freeze, wear good shoes. From Kusatsu, going north to Hokkaido means back through Tokyo/Omiya.",
+    "lat": 36.62281, "lon": 138.59664,
+    "photoQuery": "Kusatsu Onsen Yubatake snow",
+    "sources": [
+      "https://www.tokyobus.or.jp/aroundtokyo/kusatsu/",
+      "https://www.bushikaku.net/article/74570/"
+    ]
+  },
+  {
+    "id": "gokayama-window-lights",
+    "kind": "addon",
+    "category": "culture",
+    "title": "Gokayama Ainokura quiet window lights",
+    "titleJa": "五箇山 相倉合掌造り集落",
+    "summary": "Smaller, quieter thatched-roof village than Shirakawa-go, in deep snow. On Wed Jan 27, 2027 there is a 'window light' evening (17:00–20:00) where you see the village at night with house lights only.",
+    "why": "A calm backup if Shirakawa-go light-up tickets are sold out, and it fits a Hokuriku route.",
+    "days": [7, 8],
+    "duration": "half day",
+    "cost": "free village entry; parking fee",
+    "winter": "check",
+    "winterNote": "Main 2027 winter light-up is Feb 20–21 (after the trip). Window-light days: Jan 13 and Jan 27, 2027. Jan 27 only fits if the Hokuriku plan is shifted by 1 day.",
+    "lat": 36.42556, "lon": 136.93572,
+    "photoQuery": "Ainokura Gokayama winter",
+    "sources": [
+      "https://gokayama-info.jp/archives/8999",
+      "https://www.tabi-nanto.jp/archives/2281"
+    ]
+  }
+]

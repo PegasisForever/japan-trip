@@ -2,6 +2,7 @@ import { useState } from 'react'
 import type { Day } from '../data/types'
 import { REGION } from '../data/style'
 import { trip } from '../data'
+import Icon from './Icon'
 
 interface Props {
   days: Day[]
@@ -39,11 +40,15 @@ export default function TripBoard({ days }: Props) {
     <aside className="board board-trip">
       <div className="ekimei">
         <div className="ekimei-meta">
-          <span>15 days · 2 travellers</span>
-          <span>Jan 19 – Feb 2, 2027</span>
+          <span>{days.length} days, 2 travellers</span>
+          <span>Jan 19 to Feb 2, 2027</span>
         </div>
-        <h1 className="ekimei-ja" lang="ja">東京 → 札幌</h1>
-        <p className="ekimei-romaji">Tōkyō → Sapporo</p>
+        <h1 className="ekimei-ja ekimei-route" aria-label="東京 to 札幌">
+          <span lang="ja">東京</span>
+          <Icon name="arrow" size={26} />
+          <span lang="ja">札幌</span>
+        </h1>
+        <p className="ekimei-romaji">Tōkyō to Sapporo</p>
         <div className="region-bar" aria-label="Days per region">
           {regions.map((r) => (
             <span key={r.key} style={{ flex: r.count, background: r.color }} title={`${r.en}: ${r.count} days`} />
@@ -53,7 +58,7 @@ export default function TripBoard({ days }: Props) {
           {regions.map((r) => (
             <span key={r.key}>
               <i style={{ background: r.color }} />
-              {r.en} {r.count}d
+              {r.en} <small>{r.count} days</small>
             </span>
           ))}
         </div>
@@ -71,7 +76,7 @@ export default function TripBoard({ days }: Props) {
 
         <section className="alerts alerts-todo">
           <h3>
-            Book these <span>{done.length} / {trip.bookFirst.length} done</span>
+            Book before you go <span>{done.length} of {trip.bookFirst.length} done</span>
           </h3>
           <ul className="todo">
             {trip.bookFirst.map((b, i) => (
@@ -89,7 +94,9 @@ export default function TripBoard({ days }: Props) {
         </section>
 
         <details className="fold">
-          <summary>Who travels when</summary>
+          <summary>
+            Who travels when <Icon name="down" />
+          </summary>
           <ul className="people">
             {trip.people.map((p) => (
               <li key={p.name}>
@@ -102,7 +109,7 @@ export default function TripBoard({ days }: Props) {
 
         <details className="fold">
           <summary>
-            Budget per person <b>{trip.budget[trip.budget.length - 1].value}</b>
+            Budget per person <b>{trip.budget[trip.budget.length - 1].value}</b> <Icon name="down" />
           </summary>
           <table className="budget">
             <tbody>
@@ -118,7 +125,9 @@ export default function TripBoard({ days }: Props) {
         </details>
 
         <details className="fold">
-          <summary>Driving rules</summary>
+          <summary>
+            Driving rules <Icon name="down" />
+          </summary>
           <ul className="notes">
             {trip.driving.map((n, i) => (
               <li key={i}>{n}</li>

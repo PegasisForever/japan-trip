@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { Day, Place } from '../data/types'
 import { REGION } from '../data/style'
+import Icon from './Icon'
 
 interface Props {
   day: Day
@@ -8,9 +9,11 @@ interface Props {
   places: Record<string, Place>
   onPick: (n: number | null) => void
   onSelect: (id: string) => void
+  ideaCount: number
+  onIdeas: () => void
 }
 
-export default function DayBoard({ day, days, places, onPick, onSelect }: Props) {
+export default function DayBoard({ day, days, places, onPick, onSelect, ideaCount, onIdeas }: Props) {
   const [more, setMore] = useState(false)
   const [open, setOpen] = useState(false)
   const prev = days.find((d) => d.n === day.n - 1)
@@ -26,30 +29,45 @@ export default function DayBoard({ day, days, places, onPick, onSelect }: Props)
       {/* Header drawn like a JR station name board (駅名標) */}
       <div className="ekimei">
         <div className="ekimei-meta">
-          <span>Day {day.n} / {days.length}</span>
-          <span>{dateEn} · <span lang="ja">{day.weekday}曜日</span></span>
+          <span>Day {day.n} of {days.length}</span>
+          <span>{dateEn} <span lang="ja">{day.weekday}曜日</span></span>
         </div>
         <h1 className="ekimei-ja" lang="ja">{day.titleJa}</h1>
         <p className="ekimei-romaji">{day.romaji}</p>
         <div className="ekimei-band">
-          <button className="ekimei-nav" onClick={() => onPick(prev ? prev.n : null)}>
-            <span aria-hidden>◀</span>
+          <button
+            className="ekimei-nav"
+            onClick={() => onPick(prev ? prev.n : null)}
+            aria-label={prev ? `Previous day: ${prev.title}` : 'Whole trip'}
+          >
+            <Icon name="left" />
             <span lang="ja">{prev ? prev.titleJa : '全行程'}</span>
           </button>
           <span className="ekimei-region" lang="ja">{region.ja}</span>
-          <button className="ekimei-nav ekimei-next" disabled={!next} onClick={() => next && onPick(next.n)}>
-            <span lang="ja">{next ? next.titleJa : ''}</span>
-            <span aria-hidden>▶</span>
-          </button>
+          {next ? (
+            <button className="ekimei-nav ekimei-next" onClick={() => onPick(next.n)} aria-label={`Next day: ${next.title}`}>
+              <span lang="ja">{next.titleJa}</span>
+              <Icon name="right" />
+            </button>
+          ) : (
+            <span className="ekimei-nav ekimei-next ekimei-end">Last day</span>
+          )}
         </div>
       </div>
 
       {/* Phone only: one line with the key facts; tap to open the rest */}
       <button className="glance-mini" onClick={() => setOpen((o) => !o)} aria-expanded={open}>
-        <span><small>Start</small> {start ?? '—'}</span>
-        <span><small>Temp</small> {day.temp}</span>
-        <span className="glance-mini-alert">! {day.alerts.length}</span>
-        <span className="glance-mini-open">{open ? 'Close' : 'Open'}</span>
+        <span><Icon name="clock" /> {start ?? 'n/a'}</span>
+        <span><Icon name="temp" /> {day.temp}</span>
+        {day.alerts.length > 0 && (
+          <span className="glance-mini-alert">
+            <Icon name="alert" /> {day.alerts.length}
+          </span>
+        )}
+        <span className="glance-mini-open">
+          {open ? 'Hide' : 'Details'}
+          <Icon name={open ? 'up' : 'down'} />
+        </span>
       </button>
 
       <div className="board-body">
@@ -58,7 +76,7 @@ export default function DayBoard({ day, days, places, onPick, onSelect }: Props)
         <dl className="glance">
           <div>
             <dt>Start</dt>
-            <dd>{start ?? '—'}</dd>
+            <dd>{start ?? 'n/a'}</dd>
           </div>
           <div>
             <dt>Weather</dt>
@@ -85,8 +103,11 @@ export default function DayBoard({ day, days, places, onPick, onSelect }: Props)
           </p>
         )}
 
-        <section className="alerts" aria-label="Do not forget">
-          <h3>Don’t forget</h3>
+        <section className="alerts">
+          <h3>
+            <Icon name="alert" />
+            Don’t forget
+          </h3>
           <ul>
             {day.alerts.map((a, i) => (
               <li key={i}>{a}</li>
@@ -94,8 +115,18 @@ export default function DayBoard({ day, days, places, onPick, onSelect }: Props)
           </ul>
         </section>
 
+        {ideaCount > 0 && (
+          <button className="day-ideas" onClick={onIdeas}>
+            <span>
+              <b>{ideaCount} more ideas</b> fit this day
+            </span>
+            <Icon name="right" />
+          </button>
+        )}
+
         <button className="more" onClick={() => setMore((m) => !m)} aria-expanded={more}>
-          {more ? 'Less' : `More about this day${day.notes?.length ? ` · ${day.notes.length} tips` : ''}`}
+          {more ? 'Hide day notes' : `Day notes${day.notes?.length ? ` and ${day.notes.length} tips` : ''}`}
+          <Icon name={more ? 'up' : 'down'} />
         </button>
 
         {more && (
@@ -111,7 +142,7 @@ export default function DayBoard({ day, days, places, onPick, onSelect }: Props)
             {day.sleepNote && <p className="fine">Sleep: {day.sleepNote}</p>}
             {day.cost && (
               <p className="board-cost">
-                <span>Day cost, per person</span>
+                <span>Cost for the day, per person</span>
                 <b>{day.cost}</b>
               </p>
             )}

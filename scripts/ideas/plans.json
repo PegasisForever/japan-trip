@@ -1,0 +1,232 @@
+[
+  {
+    "id": "plan-kansai-kyoto-snow",
+    "kind": "plan",
+    "category": "culture",
+    "title": "Kansai temples, food and Uji",
+    "titleJa": "京都・大阪・奈良・宇治",
+    "summary": "D6 Shinkansen to Kyoto, Fushimi Inari at dusk · D7 Kinkakuji + Arashiyama (early morning for snow) · D8 Uji: Hibike! Euphonium spots + Byodoin + matcha · D9 Nara deer + Todaiji · D10 Osaka Dotonbori food · D11 Kobe beef + Arima Onsen · D12 fly KIX→New Chitose · D13 Otaru + Sapporo · D14 Sapporo, fly out. Or stop at D11 and fly home from Kansai (KIX).",
+    "why": "Gives temples, food and one anime pilgrimage (Euphonium) with no long drives, and still ends in snowy Hokkaido if they want.",
+    "days": [6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "duration": "6–9 days",
+    "cost": "transport approx. ¥35,000–55,000 pp (Tokyo→Kyoto Shinkansen ~¥14,200, local trains ~¥10,000, KIX→Chitose LCC ~¥8,000–20,000). Flight change: open-jaw, arrive Narita, leave from KIX (or CTS if the Hokkaido tail is kept). Loses Zao/Niseko skiing.",
+    "winter": "check",
+    "winterNote": "Kyoto city gets settled snow only on a few days per winter (need 3–5 cm after a cold wave; go at opening time). Plan for cold, clear weather; snow is a bonus.",
+    "lat": 35.03937, "lon": 135.72924,
+    "route": [[135.75883, 34.98526], [135.72924, 35.03937], [135.80770, 34.88923], [135.83981, 34.68904], [135.50132, 34.66868], [135.24800, 34.79700], [135.23278, 34.43417], [141.35000, 43.05970]],
+    "places": [
+      {"en": "Kinkaku-ji", "ja": "金閣寺", "lat": 35.03937, "lon": 135.72924},
+      {"en": "Uji Bridge / Byodo-in (Euphonium)", "ja": "宇治橋・平等院", "lat": 34.88923, "lon": 135.80770},
+      {"en": "Todai-ji, Nara", "ja": "東大寺", "lat": 34.68904, "lon": 135.83981},
+      {"en": "Dotonbori, Osaka", "ja": "道頓堀", "lat": 34.66868, "lon": 135.50132}
+    ],
+    "anime": "Hibike! Euphonium (Uji Bridge, Daikichiyama lookout, Uji Shrine)",
+    "photoQuery": "Kinkaku-ji snow",
+    "sources": [
+      "https://marktrip.tw/kyoto-kinkakuji-winter-scenery/",
+      "https://m.sohu.com/a/849133391_121124405/",
+      "https://libert.co.jp/pilgrimage-guild/eupho-pilgrimage/",
+      "https://magazine.tabist.co.jp/area/kansai/15107/"
+    ]
+  },
+  {
+    "id": "plan-alps-hokuriku",
+    "kind": "plan",
+    "category": "scenery",
+    "title": "Japan Alps and Shirakawa-go loop",
+    "titleJa": "北陸・飛騨・信州 周遊",
+    "summary": "D6 (Sun Jan 24) Shinkansen to Kanazawa, evening Shirakawa-go light-up (reservation) · D7 Takayama old town + Hida-Furukawa (Your Name) · D8 Takayama (Hyouka) → Matsumoto Castle · D9–10 Hakuba ski · D11 snow monkeys at Jigokudani + Shibu Onsen night · D12 Nagano → Tokyo · D13–14 Tokyo free days, fly from Tokyo.",
+    "why": "Mixes two anime settings, a famous snow village, real Alps skiing for Pegasis and easy slopes for Aoki, and onsen monkeys.",
+    "days": [6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "duration": "7–9 days",
+    "cost": "transport approx. ¥45,000–60,000 pp (Tokyo→Kanazawa ~¥14,400, Nohi buses Kanazawa–Shirakawa-go–Takayama ~¥6,000, Takayama→Matsumoto bus ~¥3,900, Nagano→Tokyo ~¥8,300, local buses). Light-up bus tours cost extra. Flight change: in and out of Tokyo; no Hokkaido.",
+    "winter": "check",
+    "winterNote": "2027 Shirakawa-go light-up: Jan 11, 17, 24, 31, 17:30–19:30, reservation only (parking from Sep 10 and Dec 1, lodging lottery Oct 1–31 2026, bus tours from Oct 13 2026). Jan 24 = baseline day 6. Jigokudani car road is closed in winter; walk 35 min from Kambayashi.",
+    "lat": 36.25762, "lon": 136.90616,
+    "route": [[139.76710, 35.68120], [136.64797, 36.57808], [136.90616, 36.25762], [137.25966, 36.14114], [137.96886, 36.23848], [137.83200, 36.69800], [138.46232, 36.73262], [138.18873, 36.64300]],
+    "places": [
+      {"en": "Shirakawa-go (Ogimachi)", "ja": "白川郷 荻町", "lat": 36.25762, "lon": 136.90616},
+      {"en": "Takayama old town (Hyouka)", "ja": "高山 古い町並", "lat": 36.14114, "lon": 137.25966},
+      {"en": "Hida-Furukawa Station (Your Name)", "ja": "飛騨古川駅", "lat": 36.23831, "lon": 137.18644},
+      {"en": "Jigokudani Monkey Park", "ja": "地獄谷野猿公苑", "lat": 36.73262, "lon": 138.46232},
+      {"en": "Matsumoto Castle", "ja": "松本城", "lat": 36.23848, "lon": 137.96886}
+    ],
+    "anime": "Hyouka (Takayama town), Your Name (Hida-Furukawa station and library)",
+    "photoQuery": "Shirakawa-go winter light up",
+    "sources": [
+      "https://shirakawa-go.gr.jp/events/441/",
+      "https://www.nouhibus.co.jp/shirakawa_lightup_2027/",
+      "https://jigokudani-yaenkoen.co.jp/access/",
+      "https://en.wikipedia.org/wiki/Hida-Furukawa_Station"
+    ]
+  },
+  {
+    "id": "plan-kyushu-goto-onsen",
+    "kind": "plan",
+    "category": "onsen",
+    "title": "Kyushu: Goto islands and onsen drive",
+    "titleJa": "九州：五島列島・阿蘇・別府",
+    "summary": "D6 fly Haneda→Fukuoka, Hakata yatai stalls · D7 fly to Goto Fukue, rent car, Aokana spots (samurai street, Takahama Beach, Osezaki Lighthouse) · D8 Goto, fly back · D9 car to Kumamoto Castle · D10 Aso crater area + Milk Road → Kurokawa Onsen · D11 Yamanami Highway → Yufuin · D12 Beppu hells + sand bath · D13 back to Fukuoka · D14 fly home from Fukuoka.",
+    "why": "Warmer roads let Aoki drive a lot, it has a rare anime island, and some of Japan's best onsen towns.",
+    "days": [6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "duration": "8–9 days",
+    "cost": "transport approx. ¥60,000–85,000 pp (Haneda→Fukuoka ~¥12,000–30,000, Fukuoka⇄Fukue ~¥11,000 each way on ANA/ORC, rental car 6 days + fuel + tolls split by 2 ~¥30,000). Flight change: return from Fukuoka (FUK) — direct to Shanghai; Pegasis connects via Tokyo or Seoul. No skiing, no Hokkaido.",
+    "winter": "check",
+    "winterNote": "Kyushu is mild (5–10 °C) but Aso and the Yamanami Highway can freeze or close after snow; ask the rental shop for snow tyres. Goto flights can cancel in strong winter wind.",
+    "lat": 32.69600, "lon": 128.84200,
+    "route": [[130.42060, 33.58980], [128.84200, 32.69600], [128.60300, 32.61200], [130.70580, 32.80620], [131.08500, 32.88440], [131.36940, 33.26570], [131.50060, 33.27940], [130.42060, 33.58980]],
+    "places": [
+      {"en": "Fukue samurai street (Aokana stamp)", "ja": "武家屋敷通り", "lat": 32.69700, "lon": 128.84500},
+      {"en": "Osezaki Lighthouse", "ja": "大瀬埼灯台", "lat": 32.61200, "lon": 128.60300},
+      {"en": "Kumamoto Castle", "ja": "熊本城", "lat": 32.80620, "lon": 130.70580},
+      {"en": "Yufuin", "ja": "由布院", "lat": 33.26570, "lon": 131.36940},
+      {"en": "Beppu", "ja": "別府", "lat": 33.27940, "lon": 131.50060}
+    ],
+    "anime": "Aokana: Four Rhythm Across the Blue (Fukue Island, Goto)",
+    "photoQuery": "Osezaki Lighthouse Goto",
+    "sources": [
+      "https://5893.jp/notes/special/2024goto_for_rhythm/",
+      "https://www.goto-search.com/aokana-goto-sacred-place-pilgrimage/",
+      "https://www.ana.co.jp/ja-jp/flights-from-fukuoka-to-goto-fukue"
+    ]
+  },
+  {
+    "id": "plan-hokkaido-deep-east",
+    "kind": "plan",
+    "category": "nature",
+    "title": "Hokkaido deep: drift ice and powder",
+    "titleJa": "北海道周遊：流氷とパウダースノー",
+    "summary": "D6 fly Haneda→Memanbetsu, Abashiri · D7 icebreaker Aurora, drive to Shiretoko Utoro · D8 drift-ice walk at Utoro · D9 Lake Mashu, Kawayu Onsen, swans at Lake Kussharo · D10 red-crowned cranes at Tsurui/Kushiro → Tomamu · D11 Tomamu ski + Ice Village · D12 Furano ski · D13 Asahikawa zoo + Biei Blue Pond · D14 Sapporo, fly out (Tohoku skipped).",
+    "why": "Pure snow country: drift ice, cranes, Hokkaido powder for Pegasis and wide easy runs for Aoki, with long snowy drives for Aoki.",
+    "days": [6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "duration": "9 days",
+    "cost": "transport approx. ¥60,000–90,000 pp (Haneda→Memanbetsu ~¥15,000–30,000, rental car 8 days + one-way drop fee + fuel split by 2 ~¥45,000–55,000, Aurora ship ¥7,000). Flight change: none for home flights (still ends Sapporo); Zao, Sendai, Hakodate and Niseko drop out.",
+    "winter": "check",
+    "winterNote": "Aurora icebreaker runs Jan 20–Mar 31 2027, but drift ice usually reaches Abashiri only around late January and is best in February; if no ice, the cruise still runs. Eastern Hokkaido roads are icy; long drives in the dark are risky.",
+    "lat": 44.07000, "lon": 145.00000,
+    "route": [[144.16420, 43.88070], [144.27400, 44.01670], [145.00000, 44.07000], [144.54000, 43.57000], [142.62000, 43.07000], [142.37000, 43.33000], [142.35820, 43.76310], [141.35000, 43.05970]],
+    "places": [
+      {"en": "Aurora icebreaker, Abashiri", "ja": "流氷観光砕氷船おーろら", "lat": 44.01670, "lon": 144.27400},
+      {"en": "Utoro, Shiretoko", "ja": "ウトロ", "lat": 44.07000, "lon": 145.00000},
+      {"en": "Lake Mashu", "ja": "摩周湖", "lat": 43.57000, "lon": 144.54000},
+      {"en": "Hoshino Resorts Tomamu", "ja": "星野リゾート トマム", "lat": 43.07000, "lon": 142.62000}
+    ],
+    "photoQuery": "Abashiri drift ice icebreaker Aurora",
+    "sources": [
+      "https://www.ms-aurora.com/abashiri/prices/",
+      "https://www.visit-hokkaido.jp/spot/detail_10045.html",
+      "https://easthokkaido.com/en/sightseeing-access/icebreaker-ship-aurora/"
+    ]
+  },
+  {
+    "id": "plan-tokyo-base-daytrips",
+    "kind": "plan",
+    "category": "city",
+    "title": "Tokyo base with day trips",
+    "titleJa": "東京拠点の日帰り旅",
+    "summary": "D6 Shinkansen to GALA Yuzawa ski (station is at the ski base) · D7 Nikko Toshogu + Kegon Falls · D8 bus to Kusatsu Onsen, stay in a ryokan · D9 Kusatsu ski → Tokyo · D10 Kamakura + Enoshima (Slam Dunk crossing) · D11 Hakone onsen + ropeway · D12 GALA ski again or Kawagoe · D13 Tokyo shopping · D14 Tokyo, fly out. One hotel for most nights.",
+    "why": "Least packing and moving, still gives ski days, onsen and Fuji views, and keeps Tokyo nights for anime and car meets.",
+    "days": [6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "duration": "9 days",
+    "cost": "transport approx. ¥40,000–55,000 pp (GALA Yuzawa Shinkansen round trip ~¥14,000 x1–2, Nikko ~¥6,000, Kusatsu bus ~¥5,000 each way, Hakone Free Pass ~¥6,100, Kamakura ~¥2,000). Flight change: round trip to Tokyo only (simplest, cheapest flights).",
+    "winter": "ok",
+    "winterNote": "GALA Yuzawa usually opens mid-December to early May. Nikko roads above Kegon can be icy; trains and buses run.",
+    "lat": 36.95100, "lon": 138.80900,
+    "route": [[139.70030, 35.69000], [138.80900, 36.95100], [139.59900, 36.75800], [138.59600, 36.62300], [139.53580, 35.31690], [139.10400, 35.23300], [139.70030, 35.69000]],
+    "places": [
+      {"en": "GALA Yuzawa", "ja": "GALA湯沢", "lat": 36.95100, "lon": 138.80900},
+      {"en": "Nikko Toshogu", "ja": "日光東照宮", "lat": 36.75800, "lon": 139.59900},
+      {"en": "Kusatsu Yubatake", "ja": "草津温泉 湯畑", "lat": 36.62300, "lon": 138.59600},
+      {"en": "Kamakura Great Buddha", "ja": "鎌倉大仏", "lat": 35.31690, "lon": 139.53580}
+    ],
+    "photoQuery": "Kusatsu Onsen Yubatake snow",
+    "sources": [
+      "https://gala.co.jp/",
+      "https://www.kusatsu-onsen.ne.jp/",
+      "https://www.nikko-kankou.org/"
+    ]
+  },
+  {
+    "id": "plan-car-road-trip",
+    "kind": "plan",
+    "category": "cars",
+    "title": "JDM road trip: Izu to Gunma",
+    "titleJa": "伊豆・富士・信州・群馬 ドライブ旅",
+    "summary": "D6 rent car in Tokyo, Izu Skyline + Shuzenji Onsen · D7 Fuji Motorsports Museum at Fuji Speedway → Kawaguchiko · D8 Yamanashi → Tateshina, ice-driving class at Lake Megami (booked event) · D9 Karuizawa → Ikaho, drive Haruna (Initial D Akina) in daylight · D10 Akagi view + Kusatsu Onsen · D11 back to Tokyo, return car · D12 guided JDM tour / Daikoku PA night · D13–14 Tokyo, fly out.",
+    "why": "Most driving of all options for Aoki, real ice practice, Initial D roads and car museums, with onsen every night on the road.",
+    "days": [6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "duration": "6 days by car + 3 Tokyo days",
+    "cost": "approx. ¥55,000–80,000 pp (4WD rental with studless tyres 6 days ~¥60,000–90,000, tolls ~¥20,000, fuel ~¥15,000, split by 2) + ice-driving event ~¥47,000 per car (2026 price, own car often required — check if rental cars are allowed). Flight change: in and out of Tokyo; no Hokkaido.",
+    "winter": "check",
+    "winterNote": "Lake Megami ice sessions ran Jan 19–20 and Feb 6–7 in 2026; 2027 dates not yet found. Haruna and Akagi roads freeze in winter: studless tyres needed, go only in daylight and dry weather. Pegasis cannot drive rentals (1-year licence).",
+    "lat": 36.47700, "lon": 138.87800,
+    "route": [[139.70030, 35.69000], [138.94000, 34.97000], [138.92600, 35.37200], [138.76000, 35.50000], [138.32300, 36.08000], [138.87800, 36.47700], [138.59600, 36.62300], [139.70030, 35.69000]],
+    "places": [
+      {"en": "Fuji Speedway", "ja": "富士スピードウェイ", "lat": 35.37200, "lon": 138.92600},
+      {"en": "Lake Megami", "ja": "女神湖", "lat": 36.08000, "lon": 138.32300},
+      {"en": "Lake Haruna (Akina)", "ja": "榛名湖", "lat": 36.47700, "lon": 138.87800},
+      {"en": "Ikaho Onsen", "ja": "伊香保温泉", "lat": 36.49700, "lon": 138.91700}
+    ],
+    "anime": "Initial D (Mt Haruna = Akina, Mt Akagi)",
+    "photoQuery": "Lake Haruna winter Mount Haruna",
+    "sources": [
+      "https://sugurukawana.net/zenkai/20431/",
+      "https://car.watch.impress.co.jp/docs/news/2082607.html",
+      "https://gunma-kanko.jp/features/380",
+      "https://drive.mynsworld.com/initial-d-pilgrimage/"
+    ]
+  },
+  {
+    "id": "plan-shift-snow-festival",
+    "kind": "plan",
+    "category": "snow",
+    "title": "Shift dates for Sapporo Snow Festival",
+    "titleJa": "さっぽろ雪まつりに合わせて日程変更",
+    "summary": "Keep the baseline route but move it to Thu Jan 28 – Thu Feb 11 (15 days). D1–5 Tokyo/Fuji Jan 28–Feb 1 · D6–7 Zao + Sendai Feb 2–3 · D8 Hakodate Feb 4 · D9–10 Niseko Feb 5–6 · D11 Otaru Snow Light Path Feb 7 · D12–13 Asahikawa + Biei Feb 8–9 · D14 Sapporo Snow Festival Feb 10 · D15 fly home Feb 11.",
+    "why": "Adds Japan's biggest winter festival and Otaru's candle festival, and drift ice and snow monsters are better in February.",
+    "days": [],
+    "duration": "15 days (whole trip)",
+    "cost": "same transport as baseline; Sapporo/Otaru hotels during the festival are often 2–3x normal price, book early. Flight change: new dates only (in Narita, out New Chitose). Aoki's 15-day visa: Jan 28 – Feb 11 is exactly 15 days.",
+    "winter": "ok",
+    "winterNote": "2027 Sapporo Snow Festival: Feb 4–11 (Odori, Susukino, Tsudome). Otaru Snow Light Path: Feb 6–13, 2027. Asahikawa Winter Festival 2027 confirmed for early Feb, exact dates not yet out. Chinese New Year is Feb 6, 2027: Shanghai flights and Japan crowds will peak.",
+    "lat": 43.05970, "lon": 141.35000,
+    "route": [[139.70030, 35.69000], [138.76000, 35.50000], [140.40000, 38.16000], [140.72900, 41.77300], [140.70000, 42.86000], [141.00270, 43.19870], [142.35820, 43.76310], [141.35000, 43.05970]],
+    "places": [
+      {"en": "Odori Park (main venue)", "ja": "大通公園", "lat": 43.05970, "lon": 141.35000},
+      {"en": "Otaru Canal (Snow Light Path)", "ja": "小樽運河", "lat": 43.19870, "lon": 141.00270}
+    ],
+    "photoQuery": "Sapporo Snow Festival Odori Park",
+    "sources": [
+      "https://www.snowfes.com/news/948.html",
+      "https://otaru.gr.jp/event/yukiakari2027",
+      "https://www.asahikawa-winterfes.jp/"
+    ]
+  },
+  {
+    "id": "plan-okinawa-warm-break",
+    "kind": "plan",
+    "category": "nature",
+    "title": "Hokkaido snow to Okinawa sun",
+    "titleJa": "北海道から沖縄へ",
+    "summary": "Baseline to D11 (Otaru/Sapporo), then: D12 fly New Chitose→Naha, Kokusai-dori · D13 rental car north: Kouri Bridge, Churaumi Aquarium, early cherry blossoms at Yaedake · D14 Naha, Shurijo area + beach walk; fly home from Naha. Or skip Hokkaido and do Tokyo → Okinawa for D11–14.",
+    "why": "A warm 17–20 °C ending after two weeks of snow, with an easy coast drive for Aoki and Japan's earliest sakura.",
+    "days": [12, 13, 14],
+    "duration": "3–4 days",
+    "cost": "transport approx. ¥25,000–45,000 pp (New Chitose→Naha direct ~¥15,000–35,000, rental car 2 days split by 2 ~¥8,000, Churaumi ¥2,180). Flight change: return from Naha (OKA) — direct to Shanghai; Pegasis connects via Tokyo. Loses Asahiyama zoo, Biei and Furano.",
+    "winter": "ok",
+    "winterNote": "Motobu Yaedake Sakura Festival started mid/late January in 2026 (extended to Feb 8); 2027 dates not yet announced. January also has humpback whale tours from Naha. Sea is too cold for most people to swim.",
+    "lat": 26.69440, "lon": 127.87790,
+    "route": [[141.35000, 43.05970], [127.64580, 26.19580], [128.02000, 26.69000], [127.87790, 26.69440], [127.93000, 26.64200], [127.68600, 26.21500]],
+    "places": [
+      {"en": "Okinawa Churaumi Aquarium", "ja": "沖縄美ら海水族館", "lat": 26.69440, "lon": 127.87790},
+      {"en": "Yaedake Sakura Forest", "ja": "八重岳桜の森公園", "lat": 26.64200, "lon": 127.93000},
+      {"en": "Kokusai-dori, Naha", "ja": "国際通り", "lat": 26.21500, "lon": 127.68600}
+    ],
+    "photoQuery": "Okinawa Churaumi Aquarium",
+    "sources": [
+      "https://www.motobu-ka.com/event_info/event_info-post-3075/",
+      "https://www.town.motobu.okinawa.jp/doc/2025120300012/",
+      "https://churaumi.okinawa/"
+    ]
+  }
+]

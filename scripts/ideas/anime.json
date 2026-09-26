@@ -1,0 +1,536 @@
+[
+  {
+    "id": "sabbat-kansai-end-plan",
+    "kind": "plan",
+    "category": "anime",
+    "title": "Sabbat of the Witch Kansai ending",
+    "titleJa": "サノバウィッチ 聖地巡礼（京都・大阪・神戸）",
+    "summary": "Sabbat of the Witch (Yuzusoft, an Osaka company) uses real places in Kyoto, Osaka and Kobe, not the Tokyo area. Fly Sapporo/Asahikawa to Osaka on day 13, see Kyoto (station, the school model at Kyoto Concert Hall, Sanjo shopping street), Osaka Grand Front and the Kobe Kitano Starbucks cafe, then fly home from Kansai.",
+    "why": "It is the only way to see the Sabbat places; Kansai also has Uji (Euphonium) and Toyosato (K-On) close by, and Kansai Airport has many flights to Shanghai.",
+    "days": [13, 14, 15],
+    "duration": "3 days (replaces Furano→Sapporo, Sapporo day, and changes end city to Osaka)",
+    "cost": "Flight Hokkaido→Osaka approx 12,000–25,000 JPY; local trains approx 3,000 JPY; hotels as normal",
+    "winter": "ok",
+    "winterNote": "All city spots, no snow problems. Kyoto Concert Hall is a working concert hall: outside photos only. Kobe Starbucks was renovated, so the inside differs from the game CG. Pegasis's Narita flight would change to a Kansai departure.",
+    "lat": 35.04999, "lon": 135.76668,
+    "route": [[141.69222, 42.77528], [135.43806, 34.78556], [135.49474, 34.70396], [135.75858, 34.98657], [135.76668, 35.04999], [135.80664, 34.89324], [135.19028, 34.69985], [135.23278, 34.43417]],
+    "places": [
+      {"en": "Kyoto Concert Hall (school model)", "ja": "京都コンサートホール", "lat": 35.04999, "lon": 135.76668},
+      {"en": "Kyoto Station (meeting place)", "ja": "京都駅", "lat": 34.98657, "lon": 135.75858},
+      {"en": "Sanjo shopping street (ramen scene)", "ja": "三条名店街", "lat": 35.00879, "lon": 135.76877},
+      {"en": "Grand Front Osaka (date mall)", "ja": "グランフロント大阪", "lat": 34.70396, "lon": 135.49474},
+      {"en": "Starbucks Kobe Kitano Ijinkan (cafe Schwarze Katze)", "ja": "スターバックスコーヒー 神戸北野異人館店", "lat": 34.69985, "lon": 135.19028}
+    ],
+    "anime": "Sabbat of the Witch (サノバウィッチ): school, station meetings, ramen shop, date mall, cafe Schwarze Katze. Also Inuzuka Bridge (犬塚橋) and Takaragaike-dori in north Kyoto.",
+    "photoQuery": "Kyoto Concert Hall",
+    "sources": [
+      "https://rinnow.hatenablog.com/entry/sothewitch",
+      "https://yukiaiyoke.livedoor.blog/archives/11032685.html",
+      "http://nakanoshimatae.jp/seichi/yuzusoft/08-sothewitch/all.htm",
+      "https://zhuanlan.zhihu.com/p/351425069"
+    ]
+  },
+  {
+    "id": "aokana-goto-plan",
+    "kind": "plan",
+    "category": "anime",
+    "title": "Aokana pilgrimage, Goto Islands",
+    "titleJa": "蒼の彼方のフォーリズム 聖地巡礼（五島列島）",
+    "summary": "Verified: the Four Islands of Aokana are modelled on the Goto Islands, Nagasaki (Fukue, Hisaka, Wakamatsu, Nakadori, Naru). Fly Hokkaido→Fukuoka, then a 40-min flight to Goto Fukue; rent a car for Takahama Beach (Flying Circus practice), Osezaki Lighthouse (date scene), Fukue samurai street (Misaki's house) and the Fukue arcade, then fly home from Fukuoka.",
+    "why": "The main anime wish that no other part of the trip covers; the island coast is also very beautiful and quiet in winter.",
+    "days": [13, 14, 15],
+    "duration": "3 days (2 nights Fukuoka/Goto); 4 days to add Naru Island and Hisaka Island by ferry",
+    "cost": "New Chitose→Fukuoka approx 15,000–30,000 JPY; Fukuoka↔Goto Fukue (ANA/ORC) approx 15,000–25,000 JPY each way; rental car approx 6,000 JPY/day (all approx, not checked)",
+    "winter": "check",
+    "winterNote": "No snow, but strong winter wind can cancel jetfoils and small planes; keep a spare half day. No direct Tokyo flight: go via Fukuoka (40 min, ANA/ORC) or Nagasaki (30 min), or jetfoil Nagasaki→Fukue 1 h 25–45 min. In 2026 an Aokana 10th-anniversary event (art show + digital stamp rally at 5 Goto spots) ran Jan 8–Mar 22; 2027 events not yet known. Osezaki Lighthouse needs about 20 min walk from the car park.",
+    "lat": 32.70803, "lon": 128.66161,
+    "route": [[141.69222, 42.77528], [130.45167, 33.58583], [128.83298, 32.66639], [128.85228, 32.69676], [128.66161, 32.70803], [128.59998, 32.61273], [130.45167, 33.58583]],
+    "places": [
+      {"en": "Takahama Beach (Flying Circus practice)", "ja": "高浜海水浴場", "lat": 32.70803, "lon": 128.66161},
+      {"en": "Osezaki Lighthouse (date scene)", "ja": "大瀬埼灯台", "lat": 32.61273, "lon": 128.59998},
+      {"en": "Fukue town: samurai street and arcade", "ja": "福江武家屋敷通り・福江商店街アーケード", "lat": 32.69676, "lon": 128.85228},
+      {"en": "Uotsugasaki Park", "ja": "魚津ヶ崎公園", "lat": 32.75225, "lon": 128.73927},
+      {"en": "Mt Onidake", "ja": "鬼岳", "lat": 32.65658, "lon": 128.84893}
+    ],
+    "anime": "Aokana: Four Rhythm Across the Blue (蒼の彼方のフォーリズム): Flying Circus practice beach, Misaki's house, lighthouse date. Other islands: Miyanohama Beach (Naru), Hamawaki Church (Hisaka), Naraō port (Kamigoto).",
+    "photoQuery": "Takahama Beach Fukue Island Goto",
+    "sources": [
+      "https://goto.nagasaki-tabinet.com/feature/aokana",
+      "https://goto.nagasaki-tabinet.com/access",
+      "https://5893.jp/notes/special/2024goto_for_rhythm/",
+      "https://www.goto-search.com/aokana-goto-sacred-place-pilgrimage/",
+      "https://astral-tanbou.com/entry/2016/03/24/222925"
+    ]
+  },
+  {
+    "id": "west-japan-anime-plan",
+    "kind": "plan",
+    "category": "anime",
+    "title": "Sabbat plus Aokana west ending",
+    "titleJa": "関西・五島 聖地巡礼ルート",
+    "summary": "One route that does both big wishes: shorten Hokkaido, fly Sapporo→Osaka, one day Kyoto/Uji, one day Osaka/Kobe, Shinkansen Shin-Kobe→Hakata (about 2 h 15), fly to Goto Fukue, then home from Fukuoka. This drops Asahikawa, Biei and Furano.",
+    "why": "Covers Sabbat of the Witch and Aokana inside Aoki's 15-day limit.",
+    "days": [11, 12, 13, 14, 15],
+    "duration": "5 days",
+    "cost": "Flight Sapporo→Osaka approx 12,000–25,000 JPY; Shinkansen Shin-Kobe→Hakata approx 15,000 JPY; Fukuoka↔Goto approx 15,000–25,000 JPY each way (approx)",
+    "winter": "check",
+    "winterNote": "Goto flights/jetfoils can stop in strong wind; put Goto before the last day, not on it. Loses the Asahiyama zoo and Blue Pond days.",
+    "lat": 34.98657, "lon": 135.75858,
+    "route": [[141.35, 43.06], [135.43806, 34.78556], [135.75858, 34.98657], [135.80664, 34.89324], [135.19028, 34.69985], [130.4207, 33.5897], [128.83298, 32.66639], [130.45167, 33.58583]],
+    "anime": "Sabbat of the Witch (Kyoto/Osaka/Kobe), Hibike! Euphonium (Uji), Aokana (Goto)",
+    "photoQuery": "Uji Bridge Kyoto",
+    "sources": [
+      "https://rinnow.hatenablog.com/entry/sothewitch",
+      "https://goto.nagasaki-tabinet.com/access",
+      "https://goto.nagasaki-tabinet.com/feature/aokana"
+    ]
+  },
+  {
+    "id": "kaguya-sama-minato",
+    "kind": "addon",
+    "category": "anime",
+    "title": "Kaguya-sama walk, Mita to Takeshiba",
+    "titleJa": "かぐや様は告らせたい 聖地巡礼（三田・田町・新橋・竹芝）",
+    "summary": "Kaguya-sama is set in Minato ward, Tokyo: the school walk is Mita-dori by Keio University, the shared-umbrella scene is Mita Kokusai Building, and the fireworks-night meeting point is Takeshiba Pier. Walk Tamachi → Mita → Shimbashi SL Plaza → Takeshiba (2–3 h), ideally at dusk for the bay view.",
+    "why": "Easy Tokyo add-on on the JR Yamanote line, no extra travel day.",
+    "days": [2, 5],
+    "duration": "2–3 h",
+    "cost": "approx 500 JPY trains",
+    "winter": "ok",
+    "winterNote": "City streets, open all year. The actual fireworks in the story are in Kisarazu (Chiba) in summer; in winter you only see the pier. Shinomiya house model (Tsunamachi Mitsui Club) is private: outside only.",
+    "lat": 35.65265, "lon": 139.74439,
+    "places": [
+      {"en": "Tamachi Station", "ja": "田町駅", "lat": 35.64567, "lon": 139.74746},
+      {"en": "Mita-dori by Keio University (school walk)", "ja": "三田通り・慶應義塾大学前", "lat": 35.64884, "lon": 139.74277},
+      {"en": "Mita Kokusai Building (umbrella scene, ep 5)", "ja": "三田国際ビル", "lat": 35.65265, "lon": 139.74439},
+      {"en": "Shimbashi Station SL Plaza (ep 5)", "ja": "新橋駅 SL広場", "lat": 35.66602, "lon": 139.76013},
+      {"en": "Takeshiba Pier (fireworks episode 12)", "ja": "竹芝桟橋", "lat": 35.65483, "lon": 139.76417}
+    ],
+    "anime": "Kaguya-sama: Love Is War (かぐや様は告らせたい) S1 ep 3, 5, 12 (fireworks); S2 Royal Host Takanawa and Tamachi",
+    "photoQuery": "Takeshiba Pier Tokyo",
+    "sources": [
+      "https://ajin-movie.com/kaguani/",
+      "https://kimamanidance.hatenablog.com/entry/2021/11/14/180000",
+      "https://furaba-animeseichi.blog.jp/archives/16863817.html",
+      "https://www.animepilgrimage.com/ja/map?data=kaguya-sama-s2"
+    ]
+  },
+  {
+    "id": "gbc-yako-saiwai-stamps",
+    "kind": "addon",
+    "category": "anime",
+    "title": "Girls Band Cry: Yako and stamps",
+    "titleJa": "ガールズバンドクライ 矢向・幸区・スタンプツアー",
+    "summary": "Extra GBC places not in the plan: Yako Station and the Yako-yu bathhouse (Nina's area, ep 1–2), Saiwai green path, and Shinmei Shrine by Kawaracho estate (ep 12 'ROCK no Kamisama', ep 13). Collect the official 'Girls Band Cry Stamp Tour' stamps (stamp book sold at stamp spots) and, if time, FRO CAFE at Musashi-Kosugi.",
+    "why": "Deepens the Kawasaki day with the quiet local spots fans love, and you can take a real sento bath where Nina did.",
+    "days": [3],
+    "duration": "half day",
+    "cost": "Sento approx 550 JPY; stamp book approx 1,000–2,000 JPY (not checked); trains approx 500 JPY",
+    "winter": "ok",
+    "winterNote": "Yako-yu opens 15:00–22:00, irregular closing days. FRO CAFE 11:30–21:00, closed Mondays. Stamp tour has grown to 25+ spots (e.g. Kawasaki Aquarium and Kawasaki Daishi from Feb 27, 2026); check the list in Jan 2027. Some spots changed: Island Mura Guitars (Lazona) closed Sep 23, 2026. Frontale (Todoroki) has winter break in late Jan, no match.",
+    "lat": 35.54627, "lon": 139.68243,
+    "places": [
+      {"en": "Yako Station (Yako-yu nearby)", "ja": "矢向駅・矢向湯", "lat": 35.53864, "lon": 139.68052},
+      {"en": "Shinmei Shrine (ep 12–13)", "ja": "神明神社", "lat": 35.54627, "lon": 139.68243},
+      {"en": "Saiwai green path (ep 1)", "ja": "さいわい緑道", "lat": 35.53692, "lon": 139.68713},
+      {"en": "Kawaracho estate (children's park, ep 9)", "ja": "河原町団地・神明町児童公園", "lat": 35.54052, "lon": 139.69666},
+      {"en": "Musashi-Kosugi (FRO CAFE stamp)", "ja": "武蔵小杉 FRO CAFE", "lat": 35.57723, "lon": 139.66026}
+    ],
+    "anime": "Girls Band Cry (ガールズバンドクライ) ep 1, 2, 9, 12, 13",
+    "photoQuery": "Kawasaki Saiwai ward",
+    "sources": [
+      "https://negitap.hateblo.jp/entry/2024/05/02/002403",
+      "https://negitap.hateblo.jp/entry/2024/07/19/213626",
+      "https://anime-pilgrimage.com/girls_band_cry/"
+    ]
+  },
+  {
+    "id": "gbc-tokyo-scenes",
+    "kind": "addon",
+    "category": "anime",
+    "title": "Girls Band Cry Tokyo scenes",
+    "titleJa": "ガールズバンドクライ 東京編（東京駅・渋谷・武道館）",
+    "summary": "GBC also uses Tokyo: the Tokyo Station Marunouchi South dome (ep 1, Nina arrives), Shibuya Hachiko and Spain-zaka (ep 3), Cafe Renoir by Shibuya Hands (ep 4) and the Nippon Budokan (ep 6). Easy to fit between other Tokyo stops.",
+    "why": "Fans of the show can add these with almost no extra travel time.",
+    "days": [2, 5],
+    "duration": "2–3 h",
+    "cost": "approx 500 JPY trains",
+    "winter": "ok",
+    "winterNote": "Public places, open all year. Budokan is outside only unless there is a concert.",
+    "lat": 35.68145, "lon": 139.76426,
+    "places": [
+      {"en": "Tokyo Station Marunouchi dome (ep 1)", "ja": "東京駅 丸の内南口ドーム", "lat": 35.68145, "lon": 139.76426},
+      {"en": "Hachiko statue, Shibuya (ep 3)", "ja": "忠犬ハチ公像", "lat": 35.65905, "lon": 139.70057},
+      {"en": "Nippon Budokan (ep 6)", "ja": "日本武道館", "lat": 35.6933, "lon": 139.7497}
+    ],
+    "anime": "Girls Band Cry ep 1, 3, 4, 6 (also Oimachi and Shinagawa stations, Shakujii Park)",
+    "photoQuery": "Tokyo Station Marunouchi dome",
+    "sources": [
+      "https://anime-pilgrimage.com/girls_band_cry/",
+      "https://note.com/tamayura_jpn/n/nbd56eadeaa34"
+    ]
+  },
+  {
+    "id": "bocchi-shimokita-more",
+    "kind": "addon",
+    "category": "anime",
+    "title": "More Bocchi spots in Shimokitazawa",
+    "titleJa": "ぼっち・ざ・ろっく！ 下北沢 聖地（本多劇場・どんぐりひろば公園ほか）",
+    "summary": "Beyond the station and SHELTER: Honda Theater ('Honmaru Gekijo' in the show), Donguri Hiroba park with spring-ride toys (ep 4), the Senrogai empty lot with the big pipe (ep 5), the 'Geki' small theater wall (ep 1) and the 'artist photo' ivy wall at Times Shimokitazawa 8. About half of the 50+ Bocchi spots are here.",
+    "why": "Turns a quick stop into a full Bocchi walk in the same area on day 2.",
+    "days": [2],
+    "duration": "2–3 h",
+    "cost": "free",
+    "winter": "ok",
+    "winterNote": "The Times parking ivy wall is in a road-widening zone and may be gone; winter ivy has no leaves. Photos of SHELTER only on weekdays, small groups. Do not photograph private houses.",
+    "lat": 35.66425, "lon": 139.66875,
+    "places": [
+      {"en": "Honda Theater", "ja": "本多劇場", "lat": 35.66171, "lon": 139.66847},
+      {"en": "Donguri Hiroba park (ep 4)", "ja": "どんぐりひろば公園", "lat": 35.66425, "lon": 139.66875},
+      {"en": "Shimokita Senrogai empty lot (ep 5)", "ja": "下北線路街 空き地", "lat": 35.66293, "lon": 139.66932}
+    ],
+    "anime": "Bocchi the Rock! (ぼっち・ざ・ろっく！) ep 1, 4, 5, 8",
+    "photoQuery": "Shimokitazawa Honda Theater",
+    "sources": [
+      "https://libert.co.jp/pilgrimage-guild/bocchitherock-pilgrimage/",
+      "https://anime-pilgrimage.com/bocchi-the-rock/",
+      "https://www.animepilgrimage.com/ja/map?data=bocchi-the-rock"
+    ]
+  },
+  {
+    "id": "bocchi-kanazawa-hakkei",
+    "kind": "addon",
+    "category": "anime",
+    "title": "Bocchi's home town, Kanazawa-hakkei",
+    "titleJa": "ぼっち・ざ・ろっく！ 金沢八景（横浜市）",
+    "summary": "Bocchi lives in the Kanazawa-hakkei area of Yokohama. See Kanazawa-hakkei Station and the Seaside Line overpass benches where Hitori and Kikuri play on the street (ep 6), Biwajima Shrine and the Hiragata Bay promenade.",
+    "why": "Quiet, few tourists, and on the same Keikyu line as Kawasaki (about 30 min), so it fits the Kawasaki day.",
+    "days": [3],
+    "duration": "2 h",
+    "cost": "approx 800 JPY trains",
+    "winter": "ok",
+    "winterNote": "Outdoor seaside spots, open all year; short winter daylight, go in the morning.",
+    "lat": 35.33138, "lon": 139.62051,
+    "places": [
+      {"en": "Kanazawa-hakkei Station (ep 6)", "ja": "金沢八景駅", "lat": 35.33138, "lon": 139.62051},
+      {"en": "Biwajima Shrine", "ja": "琵琶島神社", "lat": 35.33206, "lon": 139.62225},
+      {"en": "Hiragata Bay promenade", "ja": "平潟湾プロムナード", "lat": 35.32749, "lon": 139.6288}
+    ],
+    "anime": "Bocchi the Rock! ep 6 (street live with Kikuri), Bocchi's home area",
+    "photoQuery": "Kanazawa-hakkei Station",
+    "sources": [
+      "https://souljem.hateblo.jp/entry/2025/05/19/010341",
+      "https://libert.co.jp/pilgrimage-guild/bocchitherock-pilgrimage/",
+      "https://anime-pilgrimage.com/bocchi-the-rock/"
+    ]
+  },
+  {
+    "id": "enoshima-kamakura-bocchi-slamdunk",
+    "kind": "swap",
+    "category": "anime",
+    "title": "Enoshima and Slam Dunk crossing",
+    "titleJa": "江の島・鎌倉高校前踏切",
+    "summary": "Ride the Enoden to the Kamakura-Koko-mae rail crossing from the Slam Dunk opening, then walk to Enoshima for Bocchi episode 9 (Katase-Enoshima station, Asahi tako-senbei, Enoshima Shrine red torii). Clear winter days often show Mt Fuji across the bay at sunset.",
+    "why": "Two famous anime spots plus sea and Fuji views in one easy day from Tokyo.",
+    "days": [2, 5],
+    "duration": "half day to 1 day",
+    "cost": "approx 2,000 JPY trains",
+    "winter": "ok",
+    "winterNote": "Open all year; winter has clearer air for Fuji. The crossing is very busy and has guards; stay on the sidewalk and do not stand in the road.",
+    "lat": 35.30672, "lon": 139.50071,
+    "route": [[139.50071, 35.30672], [139.48239, 35.30804], [139.47984, 35.30034]],
+    "places": [
+      {"en": "Kamakura-Koko-mae crossing (Slam Dunk OP)", "ja": "鎌倉高校前駅 踏切", "lat": 35.30672, "lon": 139.50071},
+      {"en": "Katase-Enoshima Station (ep 9)", "ja": "片瀬江ノ島駅", "lat": 35.30804, "lon": 139.48239},
+      {"en": "Enoshima Shrine (ep 9)", "ja": "江島神社", "lat": 35.30034, "lon": 139.47984}
+    ],
+    "anime": "Slam Dunk opening; Bocchi the Rock! ep 9 'Enoshima Escar'",
+    "photoQuery": "Kamakurakokomae Station crossing",
+    "sources": [
+      "https://libert.co.jp/pilgrimage-guild/bocchitherock-pilgrimage/",
+      "https://anime-pilgrimage.com/bocchi-the-rock/",
+      "https://en.wikipedia.org/wiki/Kamakurak%C5%8Dk%C5%8D-mae_Station"
+    ]
+  },
+  {
+    "id": "numazu-love-live-sunshine",
+    "kind": "swap",
+    "category": "anime",
+    "title": "Numazu, Love Live! Sunshine!!",
+    "titleJa": "ラブライブ！サンシャイン!! 沼津・内浦",
+    "summary": "On the way back from Fuji, go to Numazu instead of straight to Tokyo: Uchiura bay with Yasudaya Ryokan (Chika's house model), Awashima island and Izu-Mito Sea Paradise, then Numazu town with Aqours manholes and shops. Return by Shinkansen from Mishima.",
+    "why": "One of the biggest pilgrimage towns in Japan (Anime Tourism 88), and the sea with Fuji behind it fits the Fuji days.",
+    "days": [5],
+    "duration": "1 day (replaces the afternoon in Tokyo / Shibuya Sky)",
+    "cost": "approx 5,000–8,000 JPY (bus/train + Shinkansen Mishima→Tokyo)",
+    "winter": "ok",
+    "winterNote": "Mild coast, no snow. Awashima island cafe/boat has its own opening days; check before going.",
+    "lat": 35.02031, "lon": 138.89741,
+    "route": [[138.76, 35.5], [138.85986, 35.10223], [138.8883, 35.03281], [138.89741, 35.02031], [138.91, 35.126]],
+    "places": [
+      {"en": "Numazu Station", "ja": "沼津駅", "lat": 35.10223, "lon": 138.85986},
+      {"en": "Yasudaya Ryokan (Chika's house model)", "ja": "安田屋旅館", "lat": 35.02031, "lon": 138.89741},
+      {"en": "Awashima", "ja": "淡島", "lat": 35.03281, "lon": 138.8883},
+      {"en": "Izu-Mito Sea Paradise", "ja": "伊豆・三津シーパラダイス", "lat": 35.01966, "lon": 138.89618},
+      {"en": "Numazu Port", "ja": "沼津港", "lat": 35.08416, "lon": 138.85698}
+    ],
+    "anime": "Love Live! Sunshine!! (Aqours, Uranohoshi)",
+    "photoQuery": "Uchiura Bay Numazu Awashima",
+    "sources": [
+      "https://animetourism88.com/88navi/",
+      "https://en.wikipedia.org/wiki/Love_Live!_Sunshine!!"
+    ]
+  },
+  {
+    "id": "yurucamp-motosu",
+    "kind": "addon",
+    "category": "anime",
+    "title": "Yuru Camp Motosu lake view",
+    "titleJa": "ゆるキャン△ 浩庵キャンプ場（本栖湖）",
+    "summary": "Koan Campsite on Lake Motosu is where Rin camps in Yuru Camp episode 1 and Nadeshiko sees Fuji; it is also the Fuji view on the 1,000-yen note. About 25 min by car west of Kawaguchiko.",
+    "why": "Yuru Camp is a winter-camping anime, so late January is the exact season of the show, and you already have a car on day 4.",
+    "days": [4, 5],
+    "duration": "1–2 h",
+    "cost": "free (parking small fee may apply)",
+    "winter": "ok",
+    "winterNote": "Very cold at dawn; roads can be icy, winter tyres needed. Best Fuji view in the morning.",
+    "lat": 35.47273, "lon": 138.57501,
+    "places": [
+      {"en": "Koan Campsite", "ja": "浩庵キャンプ場", "lat": 35.47273, "lon": 138.57501},
+      {"en": "Lake Motosu", "ja": "本栖湖", "lat": 35.46431, "lon": 138.58551}
+    ],
+    "anime": "Yuru Camp△ (ゆるキャン△) episode 1",
+    "photoQuery": "Lake Motosu Mount Fuji",
+    "sources": [
+      "https://animetourism88.com/88navi/",
+      "https://ja.wikipedia.org/wiki/%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3"
+    ]
+  },
+  {
+    "id": "hakodate-anime",
+    "kind": "addon",
+    "category": "anime",
+    "title": "Hakodate: Saint Snow and Conan",
+    "titleJa": "函館 聖地巡礼（ラブライブ！サンシャイン!!・名探偵コナン）",
+    "summary": "Hakodate is an Anime Tourism 88 spot for Love Live! Sunshine!! S2 ep 8–9 (Saint Snow's family cafe model Sabo Kikuizumi, Kanemori red brick warehouses, Mt Hakodate night view). The 2024 Conan movie 'The Million-dollar Pentagram' uses Goryokaku, and Golden Kamuy uses the Benten Daiba fort site.",
+    "why": "Already on the route; the snowy night view is also how the Aqours episode looks.",
+    "days": [8, 9],
+    "duration": "3–4 h",
+    "cost": "approx 1,500–3,000 JPY (ropeway, tram, Goryokaku Tower)",
+    "winter": "ok",
+    "winterNote": "Snowy slopes in Motomachi; wear shoes with grip. Mt Hakodate ropeway runs in winter but can stop in strong wind.",
+    "lat": 41.76427, "lon": 140.71091,
+    "places": [
+      {"en": "Sabo Kikuizumi (Saint Snow home model)", "ja": "茶房 菊泉", "lat": 41.76427, "lon": 140.71091},
+      {"en": "Kanemori Red Brick Warehouses", "ja": "金森赤レンガ倉庫", "lat": 41.76618, "lon": 140.71645},
+      {"en": "Mt Hakodate", "ja": "函館山", "lat": 41.75932, "lon": 140.70398},
+      {"en": "Goryokaku / Hakodate Magistrate's Office (Conan)", "ja": "五稜郭跡 箱館奉行所", "lat": 41.79693, "lon": 140.75673},
+      {"en": "Benten Daiba site (Golden Kamuy)", "ja": "弁天台場跡", "lat": 41.77304, "lon": 140.70411}
+    ],
+    "anime": "Love Live! Sunshine!! S2 ep 8–9; Detective Conan movie 2024; Golden Kamuy",
+    "photoQuery": "Kanemori Red Brick Warehouse Hakodate snow",
+    "sources": [
+      "https://animetourism88.com/ja",
+      "https://old.seichimap.jp/spots/?q=%E5%87%BD%E9%A4%A8"
+    ]
+  },
+  {
+    "id": "otaru-golden-kamuy",
+    "kind": "addon",
+    "category": "anime",
+    "title": "Otaru anime and Golden Kamuy",
+    "titleJa": "小樽 聖地巡礼（ゴールデンカムイ・最終兵器彼女）",
+    "summary": "Otaru appears in Golden Kamuy (Taisho Glass main shop), Saikano (Otaru Canal, Asahi lookout, aquarium) and Hidamari Sketch x Honeycomb (canal, former NYK building, music box museum). A short walk while you pass Otaru.",
+    "why": "Small bonus on a day already in Otaru; the snowy canal is a classic winter photo.",
+    "days": [11],
+    "duration": "1–2 h",
+    "cost": "free",
+    "winter": "ok",
+    "winterNote": "Otaru Snow Light Path festival is usually in early/mid February, so likely after your visit; check 2027 dates.",
+    "lat": 43.19653, "lon": 141.00254,
+    "places": [
+      {"en": "Otaru Station", "ja": "小樽駅", "lat": 43.19745, "lon": 140.9941},
+      {"en": "Otaru Taisho Glass (Golden Kamuy)", "ja": "小樽 大正硝子館", "lat": 43.19653, "lon": 141.00254}
+    ],
+    "anime": "Golden Kamuy; Saikano; Hidamari Sketch x Honeycomb",
+    "photoQuery": "Otaru Canal snow",
+    "sources": [
+      "https://old.seichimap.jp/spots/?q=%E5%B0%8F%E6%A8%BD"
+    ]
+  },
+  {
+    "id": "ghibli-museum",
+    "kind": "addon",
+    "category": "anime",
+    "title": "Ghibli Museum, Mitaka",
+    "titleJa": "三鷹の森ジブリ美術館",
+    "summary": "Studio Ghibli's own museum with a short film only shown there. Timed tickets only, sold online; 15 min by train from Shinjuku plus a walk along the Tamagawa aqueduct.",
+    "why": "Must-see for anime fans, and it is close to the Shinjuku hotel.",
+    "days": [2],
+    "duration": "2–3 h",
+    "cost": "1,000 JPY adult",
+    "winter": "check",
+    "winterNote": "Tickets for January go on sale Dec 10, 2026, 10:00 JST (Lawson Ticket, overseas site) and sell out fast. Usually closed Tuesdays (Jan 19, Jan 26, Feb 2) and in some maintenance periods; check the Jan 2027 calendar.",
+    "lat": 35.69624, "lon": 139.57045,
+    "places": [
+      {"en": "Mitaka Station", "ja": "三鷹駅", "lat": 35.70232, "lon": 139.56063}
+    ],
+    "anime": "Studio Ghibli (Totoro, Spirited Away, etc.)",
+    "photoQuery": "Ghibli Museum Mitaka",
+    "sources": [
+      "https://www.ghibli-museum.jp/en/tickets/"
+    ]
+  },
+  {
+    "id": "chichibu-anohana",
+    "kind": "swap",
+    "category": "anime",
+    "title": "Chichibu: Anohana and icicles",
+    "titleJa": "秩父 聖地巡礼（あの花・ここさけ・空の青さを知る人よ）",
+    "summary": "Chichibu is the town of Anohana, Kokosake and Her Blue Sky (all Anime Tourism 88). See the old Chichibu Bridge from the Anohana ending, Chichibu Shrine and the station area, 80 min from Ikebukuro by Seibu Laview.",
+    "why": "The classic tear-jerker pilgrimage, and in winter the Misotsuchi icicles nearby are a big bonus.",
+    "days": [2, 5],
+    "duration": "1 day",
+    "cost": "approx 3,000–4,000 JPY trains",
+    "winter": "ok",
+    "winterNote": "Misotsuchi icicles (三十槌の氷柱) usually show mid-Jan to late Feb with some evening light-ups; check 2027 dates. Cold, but little snow in town.",
+    "lat": 36.01868, "lon": 139.08644,
+    "places": [
+      {"en": "Old Chichibu Bridge (Anohana ending)", "ja": "旧秩父橋", "lat": 36.01868, "lon": 139.08644},
+      {"en": "Chichibu Shrine", "ja": "秩父神社", "lat": 35.99758, "lon": 139.08424},
+      {"en": "Seibu-Chichibu Station", "ja": "西武秩父駅", "lat": 35.98984, "lon": 139.0839}
+    ],
+    "anime": "Anohana (あの日見た花の名前を僕達はまだ知らない。), Kokosake, Her Blue Sky",
+    "photoQuery": "Old Chichibu Bridge",
+    "sources": [
+      "https://animetourism88.com/88navi/",
+      "https://ja.wikipedia.org/wiki/%E3%81%82%E3%81%AE%E6%97%A5%E8%A6%8B%E3%81%9F%E8%8A%B1%E3%81%AE%E5%90%8D%E5%89%8D%E3%82%92%E5%83%95%E9%81%94%E3%81%AF%E3%81%BE%E3%81%A0%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84%E3%80%82"
+    ]
+  },
+  {
+    "id": "washinomiya-lucky-star",
+    "kind": "addon",
+    "category": "anime",
+    "title": "Washinomiya Shrine, Lucky Star",
+    "titleJa": "らき☆すた 鷲宮神社",
+    "summary": "The shrine of the Hiiragi sisters in Lucky Star, the place that started modern anime pilgrimage in Japan. Buy an ita-ema, see the fan boards; about 1 h from Tokyo by Tobu line.",
+    "why": "Historic spot for anime fans, short trip.",
+    "days": [2, 5],
+    "duration": "half day",
+    "cost": "approx 1,500 JPY trains",
+    "winter": "ok",
+    "winterNote": "New Year crowds are over by late January; open all year.",
+    "lat": 36.09998, "lon": 139.65487,
+    "places": [
+      {"en": "Washinomiya Station", "ja": "鷲宮駅", "lat": 36.09692, "lon": 139.65744}
+    ],
+    "anime": "Lucky Star (らき☆すた)",
+    "photoQuery": "Washinomiya Shrine",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E9%B7%B2%E5%AE%AE%E7%A5%9E%E7%A4%BE"
+    ]
+  },
+  {
+    "id": "oarai-garupan",
+    "kind": "swap",
+    "category": "anime",
+    "title": "Oarai, Girls und Panzer",
+    "titleJa": "ガールズ&パンツァー 大洗",
+    "summary": "Oarai town is covered with Girls und Panzer panels and shop tie-ins; see the Kamiiso torii on the rocks at Oarai Isosaki Shrine and the Marine Tower area. About 2 h from Tokyo via Mito.",
+    "why": "One of the friendliest anime towns in Japan (Anime Tourism 88), plus winter monkfish (anko) hot pot.",
+    "days": [2, 5],
+    "duration": "1 day",
+    "cost": "approx 5,000–8,000 JPY trains",
+    "winter": "ok",
+    "winterNote": "Winter is anko season. Windy on the coast. Kamiiso torii sunrise is a famous photo.",
+    "lat": 36.31581, "lon": 140.58775,
+    "places": [
+      {"en": "Oarai Isosaki Shrine / Kamiiso torii", "ja": "大洗磯前神社・神磯の鳥居", "lat": 36.31581, "lon": 140.58775},
+      {"en": "Oarai Station", "ja": "大洗駅", "lat": 36.31521, "lon": 140.56319},
+      {"en": "Oarai Marine Tower area", "ja": "大洗マリンタワー", "lat": 36.30843, "lon": 140.56734}
+    ],
+    "anime": "Girls und Panzer (ガールズ&パンツァー) incl. Das Finale",
+    "photoQuery": "Oarai Isosaki Shrine torii",
+    "sources": [
+      "https://animetourism88.com/88navi/",
+      "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA%26%E3%83%91%E3%83%B3%E3%83%84%E3%82%A1%E3%83%BC"
+    ]
+  },
+  {
+    "id": "hida-yourname-hyouka",
+    "kind": "swap",
+    "category": "anime",
+    "title": "Hida: Your Name and Hyouka",
+    "titleJa": "飛騨古川・高山（君の名は。・氷菓）",
+    "summary": "Hida-Furukawa Station and Keta Wakamiya Shrine are Your Name scenes; Takayama old town and Nakabashi bridge are Hyouka's Kamiyama city. Deep snow in January makes it a winter postcard.",
+    "why": "Two big titles in one snowy old town, a different winter scene from Zao.",
+    "days": [6, 7],
+    "duration": "2 days (replaces Zao)",
+    "cost": "approx 15,000–20,000 JPY trains (Tokyo→Toyama Shinkansen + Takayama line) plus ryokan",
+    "winter": "ok",
+    "winterNote": "Snow and cold; Takayama line can delay in heavy snow. No ski resort for Pegasis unless you add one. Returning north to Hokkaido needs a long day via Tokyo.",
+    "lat": 36.23673, "lon": 137.18961,
+    "route": [[139.76426, 35.68145], [137.21, 36.70], [137.18961, 36.23673], [137.25034, 36.14114]],
+    "places": [
+      {"en": "Hida-Furukawa Station (Your Name)", "ja": "飛騨古川駅", "lat": 36.23673, "lon": 137.18961},
+      {"en": "Keta Wakamiya Shrine (Your Name)", "ja": "気多若宮神社", "lat": 36.23925, "lon": 137.19763},
+      {"en": "Nakabashi bridge, Takayama (Hyouka)", "ja": "中橋", "lat": 36.14001, "lon": 137.2592}
+    ],
+    "anime": "Your Name (君の名は。); Hyouka (氷菓)",
+    "photoQuery": "Hida-Furukawa snow",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E5%90%9B%E3%81%AE%E5%90%8D%E3%81%AF%E3%80%82",
+      "https://ja.wikipedia.org/wiki/%E6%B0%B7%E8%8F%93_(%E3%82%A2%E3%83%8B%E3%83%A1)"
+    ]
+  },
+  {
+    "id": "uji-toyosato-kansai",
+    "kind": "addon",
+    "category": "anime",
+    "title": "Uji Euphonium and Toyosato K-On",
+    "titleJa": "宇治（響け！ユーフォニアム）・豊郷小学校旧校舎群（けいおん！）",
+    "summary": "Only with a Kansai ending: Uji Bridge and Daikichiyama lookout from Hibike! Euphonium (30 min from Kyoto), and the old Toyosato school, the K-On school model with the tea-time club room (1 h from Kyoto).",
+    "why": "Adds two much-loved Kyoto Animation settings to the Sabbat Kansai days.",
+    "days": [14],
+    "duration": "half day each",
+    "cost": "approx 1,000–3,000 JPY trains",
+    "winter": "ok",
+    "winterNote": "Daikichiyama is a short hill hike, can be icy. Toyosato old school is open to visitors on most days; check closed days.",
+    "lat": 34.89324, "lon": 135.80664,
+    "places": [
+      {"en": "Uji Bridge", "ja": "宇治橋", "lat": 34.89324, "lon": 135.80664},
+      {"en": "Daikichiyama lookout", "ja": "大吉山展望台", "lat": 34.89294, "lon": 135.81293},
+      {"en": "Old Toyosato Elementary School", "ja": "豊郷小学校旧校舎群", "lat": 35.20361, "lon": 136.23257}
+    ],
+    "anime": "Hibike! Euphonium (響け！ユーフォニアム); K-On! (けいおん！)",
+    "photoQuery": "Uji Bridge Kyoto",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E9%9F%BF%E3%81%91!%E3%83%A6%E3%83%BC%E3%83%95%E3%82%A9%E3%83%8B%E3%82%A2%E3%83%A0",
+      "https://ja.wikipedia.org/wiki/%E8%B1%8A%E9%83%B7%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%97%A7%E6%A0%A1%E8%88%8E%E7%BE%A4"
+    ]
+  },
+  {
+    "id": "hakone-evangelion",
+    "kind": "addon",
+    "category": "anime",
+    "title": "Hakone as Evangelion Tokyo-3",
+    "titleJa": "箱根（エヴァンゲリオン 第3新東京市）",
+    "summary": "Evangelion's Tokyo-3 is set in Hakone (Sengokuhara and Lake Ashi area). Look for Eva tie-ins around Hakone-Yumoto and Owakudani on the drive day.",
+    "why": "Small anime bonus on a day already in Hakone.",
+    "days": [4],
+    "duration": "1 h",
+    "cost": "free",
+    "winter": "check",
+    "winterNote": "Eva shops and collab items change often; not checked for 2027. Owakudani can close due to volcanic gas.",
+    "lat": 35.2332, "lon": 139.10347,
+    "places": [
+      {"en": "Hakone-Yumoto Station", "ja": "箱根湯本駅", "lat": 35.2332, "lon": 139.10347},
+      {"en": "Owakudani", "ja": "大涌谷", "lat": 35.24741, "lon": 139.02421}
+    ],
+    "anime": "Neon Genesis Evangelion (Tokyo-3)",
+    "photoQuery": "Lake Ashi Hakone",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E7%AC%AC3%E6%96%B0%E6%9D%B1%E4%BA%AC%E5%B8%82"
+    ]
+  }
+]

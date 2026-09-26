@@ -1,0 +1,38 @@
+{
+ "initial-d-haruna-day": {
+  "winterNote": "Road is open in winter, but it is at high altitude with snow and ice risk Dec–Mar. Studless tyres are a must; both can drive a normal rental car; Aoki takes the icy parts. Go only on a clear day. Add Usui pass (Route 18, Megane Bridge) if time allows."
+ },
+ "plan-car-road-trip": {
+  "winterNote": "Lake Megami ice sessions ran Jan 19–20 and Feb 6–7 in 2026; 2027 dates not yet found. Haruna and Akagi roads freeze in winter: studless tyres needed, go only in daylight and dry weather. Pegasis can drive normal rental cars (Times has no minimum years); only JDM sports-car shops need 3+ years."
+ },
+ "tohoku-rental-car": {
+  "winterNote": "Mountain roads in heavy snow and possible whiteouts; drive only in daylight. Hachimantai Aspite Line and the Towada–Hakkoda road beyond Sukayu (N103/N394 sections) close in winter; use open routes only and check road info (JARTIC) the day before. Both can drive a normal rental car; the more snow-experienced driver takes the mountain parts. Towada winter festival (2026: 30 Jan–23 Feb, closed Tue–Thu) starts after these dates."
+ },
+ "rusutsu-snow-drift": {
+  "photoQuery": "rally car snow"
+ },
+ "megamiko-ice-driving": {
+  "photoQuery": "Lake Megami"
+ },
+ "up-garage-sapporo": {
+  "photoQuery": "Up Garage"
+ },
+ "hok-tomamu-ice-village": {
+  "photoQuery": "Tomamu Ice Village"
+ },
+ "hok-sounkyo-ice-waterfall": {
+  "photoQuery": "Sounkyo Hyobaku"
+ },
+ "oirase-frozen-waterfalls": {
+  "photoQuery": "Oirase winter"
+ },
+ "north-tohoku-rail-loop": {
+  "photoQuery": "Tsurunoyu Onsen snow"
+ },
+ "aizu-ouchijuku-swap": {
+  "photoQuery": "Ouchi-juku winter"
+ },
+ "nikko-winter-kegon": {
+  "photoQuery": "Kegon Falls winter"
+ }
+}

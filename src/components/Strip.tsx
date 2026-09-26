@@ -49,11 +49,13 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
             >
               {p.photo && <img src={photoUrl(p.photo, 480)} alt="" loading="lazy" />}
               <span className="card-shade" />
-              <span className="card-num">{d.n}</span>
-              <span className="card-time">{d.temp}</span>
+              <span className="card-top">
+                <span className="card-num">{d.n}</span>
+                <span className="card-time">{d.temp}</span>
+              </span>
               <span className="card-body">
                 <span className="card-when">
-                  {d.date.slice(5).replace('-', '/')} <span lang="ja">{d.weekday}</span> · {d.short}
+                  {Number(d.date.slice(5, 7))}/{Number(d.date.slice(8))} <span lang="ja">{d.weekday}</span> · {d.short}
                 </span>
                 <span className="card-ja" lang="ja">{d.titleJa}</span>
                 <span className="card-en">{d.title}</span>
@@ -134,15 +136,18 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
               >
                 {p.photo && <img src={photoUrl(p.photo, 480)} alt="" loading="lazy" />}
                 <span className="card-shade" />
-                <span className="card-num">{order.get(st.place)}</span>
-                <span className="card-time">
-                  {st.time && /\d/.test(st.time) ? st.time : fmtClock(seg.t0)}
-                  {!seg.open && ` – ${fmtClock(seg.t1)}`}
+                <span className="card-top">
+                  <span className="card-num">{order.get(st.place)}</span>
+                  <span className="card-time">
+                    {st.time && /\d/.test(st.time) ? st.time : fmtClock(seg.t0)}
+                    {!seg.open && `–${fmtClock(seg.t1)}`}
+                  </span>
                 </span>
                 {st.who && <span className="card-who">{st.who} only</span>}
                 <span className="card-body">
-                  <span className="card-len">{seg.open ? 'evening' : fmtLength(seg.t1 - seg.t0)}</span>
-                  <span className="card-kind">{KIND_LABEL[p.kind]}</span>
+                  <span className="card-kind">
+                    {KIND_LABEL[p.kind]} · {seg.open ? 'evening' : fmtLength(seg.t1 - seg.t0)}
+                  </span>
                   <span className="card-ja" lang="ja">{p.ja}</span>
                   <span className="card-en">{p.en}</span>
                 </span>
