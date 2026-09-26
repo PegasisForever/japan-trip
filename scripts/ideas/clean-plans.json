@@ -1,0 +1,35 @@
+{
+ "remove": {
+  "aokana-goto-plan": "Off route: Goto Islands, Kyushu.",
+  "west-japan-anime-plan": "Off route: ends in Goto/Fukuoka, reverses Hokkaido and Kansai.",
+  "tokyo-auto-salon-2027": "Stale: show is Jan 15–17, before the fixed Jan 19 arrival.",
+  "shirakawa-go-lightup-hokuriku-fly": "Skips Osaka, replaces Tohoku; rw6-plan-b-alps-hokuriku does this on route.",
+  "japan-alps-matsumoto-hakuba-kanazawa": "Skips Osaka; rw2-plan-alps-westward and rw2-plan-nozawa-kanazawa-west cover it on route.",
+  "plan-alps-hokuriku": "Loops back to Tokyo; rw2-plan-alps-westward covers Alps on route to Osaka.",
+  "plan-kyushu-goto-onsen": "Off route: Kyushu and Goto.",
+  "plan-hokkaido-deep-east": "9 Hokkaido days from Haneda; hok-east-drift-ice-road-trip gives same east loop.",
+  "plan-tokyo-base-daytrips": "Does not go west to Osaka; Nikko/Gunma/Niigata day trips.",
+  "plan-car-road-trip": "Loops Izu to Gunma and back to Tokyo; rw5-tokaido-anime-cars-plan goes west.",
+  "plan-shift-snow-festival": "Changes fixed dates and uses Tohoku route.",
+  "plan-okinawa-warm-break": "Off route: Okinawa.",
+  "north-tohoku-rail-loop": "Off route: Tohoku.",
+  "tohoku-rental-car": "Off route: Tohoku."
+ },
+ "keep": [
+  "sabbat-kansai-end-plan",
+  "hok-east-drift-ice-road-trip",
+  "hok-asahikawa-sounkyo-abashiri",
+  "plan-kansai-kyoto-snow",
+  "rw1-tokaido-slow-plan",
+  "rw2-plan-alps-westward",
+  "rw2-plan-nozawa-kanazawa-west",
+  "rw5-tokaido-anime-cars-plan",
+  "rw6-plan-a-tokaido",
+  "rw6-plan-b-alps-hokuriku",
+  "rw6-plan-c-long-hokkaido",
+  "rw6-jr-pass-compare-west",
+  "rw6-luggage-west-route",
+  "rw6-open-jaw-cts-exit",
+  "rw6-hokkaido-4-vs-7-days"
+ ]
+}

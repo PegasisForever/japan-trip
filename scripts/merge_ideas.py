@@ -7,10 +7,15 @@ exp={}
 for f in glob.glob('ideas/experience-*.json'):
     try: exp.update(json.load(open(f)))
     except Exception as e: print('BAD JSON',f,e)
+# Clean-up decisions: ideas removed from the list, with the reason (kept for the record in src/data/removed.json)
+removed={}
+for f in glob.glob('ideas/clean-*.json'):
+    try: removed.update(json.load(open(f)).get('remove',{}))
+    except Exception as e: print('BAD JSON',f,e)
 out=[]; seen=set()
 for f in sorted(glob.glob('ideas/*.json')):
     area=os.path.basename(f)[:-5]
-    if area in ('choices','fixes','photo-picks') or area.startswith('experience-'): continue
+    if area in ('choices','fixes','photo-picks','all-ideas') or area.startswith(('experience-','photo-picks-','clean-')): continue
     try: data=json.load(open(f))
     except Exception as e: print('BAD JSON',f,e); continue
     for o in data:
@@ -23,6 +28,7 @@ for f in sorted(glob.glob('ideas/*.json')):
         o['days']=[int(d) for d in o['days'] if str(d).isdigit()]
         if o['kind'] not in ('addon','swap','plan'): o['kind']='addon'
         if o['winter'] not in ('ok','check','no'): o['winter']='check'
+        if o['id'] in removed: continue
         if o['id'] in exp: o['experience']=exp[o['id']]
         out.append(o)
 json.dump(out,open('../src/data/ideas.json','w'),ensure_ascii=False,indent=1)
@@ -35,3 +41,6 @@ for f in glob.glob('ideas/experience-planned-*.json'):
     except Exception as e: print('BAD JSON',f,e)
 json.dump(planned,open('../src/data/plannedExperience.json','w'),ensure_ascii=False,indent=1)
 print('planned places with experience:',len(planned))
+
+json.dump(removed,open('../src/data/removed.json','w'),ensure_ascii=False,indent=1)
+print('removed:',len(removed))

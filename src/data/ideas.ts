@@ -2,6 +2,7 @@ import type { Idea, IdeaCategory, Kind, Place } from './types'
 import raw from './ideas.json'
 import credits from './ideaPhotos.json'
 import plannedExp from './plannedExperience.json'
+import removed from './removed.json'
 import { days, places } from './index'
 import { buildTimeline, fmtLength } from './timeline'
 
@@ -66,6 +67,6 @@ const planned: Idea[] = Object.values(places)
       credit: p.credit,
     } satisfies Idea
   })
-  .filter((i) => i.days.length > 0)
+  .filter((i) => i.days.length > 0 && !(i.id in removed))
 
 export const ideas: Idea[] = [...planned, ...researched]
