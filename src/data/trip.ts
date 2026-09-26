@@ -1,0 +1,988 @@
+import type { Place } from './types.ts'
+import { animePlaces } from './anime.ts'
+
+/* Every Japanese name is written as it appears on signs, maps and station boards in Japan.
+   Coordinates come from OpenStreetMap. Prices are approximate, checked Sep 2026. */
+
+const P: Place[] = [
+  // ---------- Arrival and Tokyo base ----------
+  {
+    id: 'narita',
+    en: 'Narita Airport',
+    ja: '成田国際空港',
+    romaji: 'Narita Kokusai Kūkō',
+    lat: 35.7654,
+    lon: 140.386,
+    kind: 'airport',
+    blurb:
+      'Both of you land here on Jan 19. Aoki arrives first (Air China from Shanghai, 13:40). Pegasis arrives at 16:30 (WestJet via Calgary). Meet at the arrivals hall.',
+    info: [
+      { label: 'Aoki lands', value: '13:40, Air China' },
+      { label: 'Pegasis lands', value: '16:30, WestJet' },
+      { label: 'To Shinjuku', value: "N'EX, 80 min, ¥3,250" },
+      { label: 'IC card', value: 'Welcome Suica at JR counter' },
+    ],
+    tips: [
+      'Aoki: while you wait, buy two Welcome Suica cards and two N’EX tickets at the JR East Travel Service Center (JR東日本 訪日旅行センター) in the basement.',
+      'Register your arrival in Visit Japan Web before the flight. It gives a QR code for immigration and customs.',
+      'Pegasis: at the automated immigration gate, ask for a paper entry stamp. Some rental car companies want to see it.',
+    ],
+  },
+  {
+    id: 'hotel-shinjuku',
+    en: 'Hotel Gracery Shinjuku',
+    ja: 'ホテルグレイスリー新宿',
+    romaji: 'Hoteru Gureisurī Shinjuku',
+    lat: 35.69556,
+    lon: 139.70228,
+    kind: 'hotel',
+    blurb:
+      'The business hotel with the life-size Godzilla head on the 8th-floor terrace. It is in Kabukicho, 5 minutes on foot from Shinjuku Station. You sleep here on nights 1, 2, 3 and 5.',
+    info: [
+      { label: 'Nights', value: 'Jan 19, 20, 21, 23' },
+      { label: 'Room', value: 'Twin, about ¥26,000/night' },
+      { label: 'Station', value: '新宿駅 / 西武新宿駅' },
+      { label: 'Check-in', value: '14:00' },
+    ],
+    tips: [
+      'On Jan 22 you sleep at Kawaguchiko. Leave your big bags at the front desk for that night and travel light.',
+      'Godzilla roars and lights up on the hour, 12:00 to 20:00. You can see it from the terrace or from the street.',
+      'Cheaper option with the same location: APA Hotel Shinjuku Kabukicho Tower (アパホテル〈新宿 歌舞伎町タワー〉).',
+    ],
+    links: [{ label: 'Hotel site', url: 'https://gracery.com/shinjuku/' }],
+  },
+  {
+    id: 'omoide',
+    en: 'Omoide Yokocho',
+    ja: '思い出横丁',
+    romaji: 'Omoide Yokochō',
+    lat: 35.69307,
+    lon: 139.6995,
+    kind: 'food',
+    blurb:
+      'A narrow alley of tiny yakitori bars beside the Shinjuku tracks, from the late 1940s. Each bar has 6 to 12 seats. A good first dinner after a long flight.',
+    info: [
+      { label: 'Hours', value: 'About 17:00–24:00' },
+      { label: 'Cost', value: '¥2,500–4,000 per person' },
+    ],
+    tips: [
+      'Many bars have a seat charge (お通し, otōshi) of ¥300–500. This is normal.',
+      'If a bar is full, walk on. There are about 80 bars.',
+    ],
+  },
+
+  // ---------- Cars ----------
+  {
+    id: 'daikoku',
+    en: 'Daikoku Parking Area',
+    ja: '大黒PA',
+    romaji: 'Daikoku Pākingu Eria',
+    lat: 35.4618,
+    lon: 139.6803,
+    kind: 'car',
+    blurb:
+      'A highway rest area inside a giant loop of expressway ramps in Yokohama. It is the most famous JDM car meet in the world. Tuned GT-Rs, Supras, RX-7s and bōsōzoku-style cars park here at night.',
+    info: [
+      { label: 'When', value: 'Thu Jan 21, 18:30–21:00' },
+      { label: 'Access', value: 'By car only (Shuto Expressway)' },
+      { label: 'Guided tour', value: '¥45,000–55,000 per car' },
+      { label: 'Closure risk', value: 'Low on Thu, high Fri–Sat' },
+    ],
+    tips: [
+      'Police often close the entrance on Friday and Saturday nights once the lot fills. Thursday is the best night, so this plan uses it.',
+      'You cannot walk or take a train here. Take a guided JDM tour: you drive the car and a guide car leads. Samurai Car Japan and JDM Tour both run 3–4 hour Daikoku tours from central Tokyo.',
+      'Be polite: no revving, no burnouts, ask before photos of people. Stay in the parking bays.',
+      'Winter nights have fewer cars than summer, but the regulars still come.',
+    ],
+    links: [
+      { label: 'Samurai Car Japan', url: 'https://samuraicarjapanjdm.jp/jdm-car-rental-japan/' },
+      { label: 'JDM Tour', url: 'https://jdmtour.com/rental_car/' },
+    ],
+  },
+  {
+    id: 'rental-shinjuku',
+    en: 'Rental car pickup, Shinjuku',
+    ja: 'タイムズカー 新宿',
+    romaji: 'Taimuzu Kā Shinjuku',
+    lat: 35.6922,
+    lon: 139.6952,
+    kind: 'car',
+    blurb:
+      'Pick up a normal rental car with winter (studless) tyres for the two Hakone and Fuji days. Times Car Rental has no minimum years of licence, so Pegasis can drive too.',
+    info: [
+      { label: 'Car', value: 'Compact 4WD, automatic' },
+      { label: 'Price', value: 'About ¥20,000 for 36 h' },
+      { label: 'Add', value: 'Studless tyres (スタッドレス)' },
+      { label: 'Also add', value: 'ETC card for tolls' },
+    ],
+    tips: [
+      'Book studless tyres (スタッドレスタイヤ) when you book. In Tokyo they are an option with limited supply.',
+      'Pegasis brings: Canadian licence, CAA International Driving Permit (paper booklet), passport with entry stamp.',
+      'Aoki brings the licence documents that Japan accepts, and the passport.',
+      'Rent an ETC card with the car. Tolls then go on the rental bill and you do not stop at toll gates.',
+    ],
+    links: [{ label: 'Times Car Rental', url: 'https://rental.timescar.jp/en/' }],
+  },
+  {
+    id: 'turnpike',
+    en: 'Hakone Turnpike',
+    ja: 'アネスト岩田ターンパイク箱根',
+    romaji: 'Anesuto Iwata Tānpaiku Hakone',
+    lat: 35.233,
+    lon: 139.1256,
+    kind: 'car',
+    blurb:
+      'A 14 km private toll road that climbs from Odawara to 1,000 m. Car magazines and TV shows film here because of its long, smooth curves. It was called the Mazda Turnpike before.',
+    info: [
+      { label: 'Toll', value: '¥900' },
+      { label: 'Open', value: '05:30–22:30' },
+      { label: 'Length', value: '14 km, 18 min' },
+      { label: 'Winter rule', value: 'Winter tyres often required' },
+    ],
+    tips: [
+      'In January the operator often sets 滑り止め必要規制: only cars with winter tyres or chains may enter. Check @turn819 on X the same morning.',
+      'Ice is most common before 10:00. Plan to drive it late morning.',
+      'Obey the speed limit. Police use this road for speed checks.',
+    ],
+    links: [{ label: 'Road status on X', url: 'https://x.com/turn819' }],
+  },
+  {
+    id: 'taikanzan',
+    en: 'Taikanzan Viewpoint',
+    ja: '大観山',
+    romaji: 'Taikanzan',
+    lat: 35.18311,
+    lon: 139.04616,
+    kind: 'fuji',
+    blurb:
+      'The top of the Turnpike, at 1,011 m. On a clear winter day you see Mt Fuji behind Lake Ashi. The rest area has a café and a car park full of sports cars on weekends.',
+    info: [
+      { label: 'Altitude', value: '1,011 m' },
+      { label: 'Temp. (Jan)', value: 'About −3 to 5 °C' },
+    ],
+    tips: ['Winter air is the clearest of the year. Your best chance for a sharp Fuji photo is before noon.'],
+  },
+  {
+    id: 'fun2drive',
+    en: 'Fun2Drive guided JDM drive',
+    ja: 'Fun2Drive 箱根',
+    romaji: 'Fan Tsū Doraibu Hakone',
+    lat: 35.2555,
+    lon: 139.0035,
+    kind: 'car',
+    blurb:
+      'This is your sports-car day. Fun2Drive is a small company in Sengokuhara, Hakone. You drive a real JDM car (GT-R, Supra, RX-7, Silvia and others) on the Hakone mountain roads. A guide car leads, so you get the fun roads without getting lost.',
+    info: [
+      { label: 'Tour', value: '2 h or 4.5 h' },
+      { label: 'Price', value: '¥35,000–65,000 per car' },
+      { label: 'Licence', value: 'Any licence valid in Japan, 18+' },
+      { label: 'Tyres', value: 'Fitted for road conditions' },
+    ],
+    tips: [
+      'Most Tokyo JDM rental shops need 3+ years of licence. Fun2Drive states no minimum years, so this is the way Pegasis can drive a JDM car. Get this confirmed in writing when you book.',
+      'Ask for a manual car. Tell them Pegasis has 1 year on a manual licence.',
+      'Fuel and tolls are extra. Book 1–2 months ahead.',
+    ],
+    links: [
+      { label: 'Tours', url: 'https://fun2drive-japan.com/car-tours/' },
+      { label: 'FAQ', url: 'https://fun2drive-japan.com/faq/' },
+    ],
+  },
+  {
+    id: 'otome',
+    en: 'Otome Pass',
+    ja: '乙女峠',
+    romaji: 'Otome Tōge',
+    lat: 35.28102,
+    lon: 138.98897,
+    kind: 'fuji',
+    blurb:
+      'The pass from Hakone down to Gotemba. There is a famous view of Mt Fuji from the Otome Pass rest stop. This route avoids the Kagosaka Pass on Route 138, where chains are often required in snow.',
+    tips: ['Drive down slowly in low gear. The road can be icy in the shade.'],
+  },
+  {
+    id: 'oshino',
+    en: 'Oshino Hakkai',
+    ja: '忍野八海',
+    romaji: 'Oshino Hakkai',
+    lat: 35.4602,
+    lon: 138.8327,
+    kind: 'fuji',
+    blurb:
+      'Eight clear spring ponds fed by snow melt from Mt Fuji that filters through lava for about 20 years. The village has thatched-roof houses and stalls selling grilled mochi and soba.',
+    info: [
+      { label: 'Entry', value: 'Free' },
+      { label: 'Parking', value: '¥300–500' },
+    ],
+    tips: ['Go before 10:00 to miss the tour buses.'],
+  },
+  {
+    id: 'chureito',
+    en: 'Chureito Pagoda',
+    ja: '新倉山浅間公園 忠霊塔',
+    romaji: 'Arakurayama Sengen Kōen, Chūreitō',
+    lat: 35.50049,
+    lon: 138.80082,
+    kind: 'fuji',
+    blurb:
+      'The five-storey red pagoda with Mt Fuji behind it. This is the most famous photo of Japan. Climb 398 steps up the hill to the viewing deck.',
+    info: [
+      { label: 'Sunrise (Jan 23)', value: '06:47' },
+      { label: 'Climb', value: '398 steps, 15 min' },
+      { label: 'Entry', value: 'Free' },
+      { label: 'Parking', value: 'Free, small lot' },
+    ],
+    tips: [
+      'Be on the deck by 06:30. Winter mornings are the clearest time of the whole year for Fuji.',
+      'The steps can be icy. Wear shoes with grip.',
+      'There is also a gentle slope path beside the steps.',
+    ],
+  },
+  {
+    id: 'hotel-kawaguchiko',
+    en: 'Hotel Route-Inn Kawaguchiko',
+    ja: 'ホテルルートイン河口湖',
+    romaji: 'Hoteru Rūto In Kawaguchiko',
+    lat: 35.51245,
+    lon: 138.77448,
+    kind: 'hotel',
+    blurb:
+      'A business hotel on the north-east shore of Lake Kawaguchi. Rooms on the lake side look across the water to Mt Fuji. It has a large public bath and free breakfast, and free parking.',
+    info: [
+      { label: 'Night', value: 'Jan 22' },
+      { label: 'Room', value: 'Twin, about ¥16,000–22,000' },
+      { label: 'Parking', value: 'Free' },
+    ],
+    tips: [
+      'Ask for a Fuji-view room (富士山側) when you book. It costs a little more.',
+      'Mid-budget upgrade with private onsen: La Vista Fuji Kawaguchiko (ラビスタ富士河口湖).',
+    ],
+  },
+  {
+    id: 'lake-kawaguchi',
+    en: 'Lake Kawaguchi north shore',
+    ja: '河口湖 大石公園',
+    romaji: 'Kawaguchiko, Ōishi Kōen',
+    lat: 35.52289,
+    lon: 138.73896,
+    kind: 'fuji',
+    blurb:
+      'The quiet north shore of Lake Kawaguchi. From Oishi Park you see Mt Fuji straight across the lake, often with its reflection on calm winter mornings.',
+    tips: ['Stop here on the evening of Jan 22 for sunset, about 16:55.'],
+  },
+
+  // ---------- North by Shinkansen ----------
+  {
+    id: 'tokyo-st',
+    en: 'Tokyo Station',
+    ja: '東京駅',
+    romaji: 'Tōkyō Eki',
+    lat: 35.68123,
+    lon: 139.76712,
+    kind: 'station',
+    blurb:
+      'The Tohoku, Yamagata and Hokkaido Shinkansen start here. Buy an ekiben (station lunch box) at Ekibenya Matsuri (駅弁屋 祭) inside the gates. It sells about 200 kinds from all over Japan.',
+    info: [
+      { label: 'Train', value: 'つばさ Tsubasa to Yamagata' },
+      { label: 'Time', value: '2 h 30 min' },
+      { label: 'Fare', value: '¥11,670, reserved seat' },
+    ],
+    tips: ['Book on the JR East website (Eki-net) and collect tickets at a green machine with your passport.'],
+    links: [{ label: 'JR East Eki-net', url: 'https://www.eki-net.com/en/jreast-train-reservation/' }],
+  },
+  {
+    id: 'yamagata-st',
+    en: 'Yamagata Station',
+    ja: '山形駅',
+    romaji: 'Yamagata Eki',
+    lat: 38.24852,
+    lon: 140.32753,
+    kind: 'station',
+    blurb: 'Change from the Shinkansen to the bus for Zao Onsen here. The bus leaves from the east exit.',
+    info: [
+      { label: 'Bus', value: 'Stop 1, east exit (東口1番のりば)' },
+      { label: 'To Zao', value: '37 min, ¥1,200' },
+      { label: 'Frequency', value: 'About 1 per hour' },
+    ],
+    tips: ['Suica works on the bus.'],
+  },
+  {
+    id: 'zao-onsen',
+    en: 'Zao Onsen',
+    ja: '蔵王温泉',
+    romaji: 'Zaō Onsen',
+    lat: 38.16743,
+    lon: 140.3937,
+    kind: 'onsen',
+    blurb:
+      'A hot-spring village at 900 m with a ski resort above it. The water is strongly sulfuric and milky, with a smell of eggs. It has been a spa town for about 1,900 years.',
+    info: [
+      { label: 'Bus terminal', value: '蔵王温泉バスターミナル' },
+      { label: 'Public bath', value: '共同浴場 ¥200–300' },
+      { label: 'Big outdoor bath', value: '大露天風呂 (closed in winter)' },
+    ],
+    tips: ['Take off silver jewellery before the bath. The sulfur turns it black.'],
+  },
+  {
+    id: 'zao-ski',
+    en: 'Zao Onsen Ski Resort',
+    ja: '蔵王温泉スキー場',
+    romaji: 'Zaō Onsen Sukījō',
+    lat: 38.17086,
+    lon: 140.39799,
+    kind: 'ski',
+    blurb:
+      'One of the largest ski areas in Japan: 12 courses, 40+ lifts and ropeways, and runs up to 10 km long. Pegasis can ski the long Juhyo course from the top. Aoki learns on the gentle Uenodai slope next to the village.',
+    info: [
+      { label: '1-day pass', value: 'About ¥7,500' },
+      { label: 'Beginner area', value: '上の台ゲレンデ Uenodai' },
+      { label: 'Aoki lesson', value: 'Private, English, ¥10,000–22,000' },
+      { label: 'Rental gear', value: 'Jupia (ジュピア), about ¥5,000' },
+    ],
+    tips: [
+      'Book an English private lesson for Aoki before the trip: Zao Freizeit or Zao International Ski School.',
+      'Large boot sizes (over 28 cm) are rare. Bring your own boots if you have them.',
+      'Lifts close at about 17:00.',
+    ],
+    links: [
+      { label: 'Zao Freizeit (lessons)', url: 'https://zao-freizeit.com/english/' },
+      { label: 'Lift prices', url: 'https://www.visityamagata.jp/spot-zao-liftcharge/' },
+    ],
+  },
+  {
+    id: 'zao-juhyo',
+    en: 'Zao snow monsters',
+    ja: '蔵王の樹氷',
+    romaji: 'Zaō no Juhyō',
+    lat: 38.15474,
+    lon: 140.43108,
+    kind: 'ski',
+    blurb:
+      'Fir trees covered in thick rime ice and snow by the winter wind from Siberia. They look like giant white monsters. This happens in only a few places in the world. On some nights they are lit in color.',
+    info: [
+      { label: 'Ropeway', value: '蔵王ロープウェイ, ¥4,400 return' },
+      { label: 'Top station', value: '地蔵山頂駅, 1,661 m' },
+      { label: 'Light-up', value: '17:00–21:00, selected nights' },
+      { label: 'Temp. at top', value: 'About −10 to −15 °C' },
+    ],
+    tips: [
+      'Light-up nights in 2026 were mostly Friday to Sunday. Sunday Jan 24, 2027 is likely a light-up night, but the dates are not published yet. Check in December.',
+      'Last ropeway up on light-up nights: about 19:50.',
+      'It is very cold at the top. Wear ski clothes, gloves and a face cover.',
+    ],
+    links: [{ label: 'Zao Ropeway', url: 'https://zaoropeway.co.jp/winter/' }],
+  },
+  {
+    id: 'ryokan-zao',
+    en: 'Meito Resort Lucent Takamiya',
+    ja: '名湯リゾート ルーセントタカミヤ',
+    romaji: 'Meitō Rizōto Rūsento Takamiya',
+    lat: 38.16493,
+    lon: 140.39416,
+    kind: 'onsen',
+    blurb:
+      'Your one onsen ryokan night. It is next to the Zao Ropeway base station. Dinner and breakfast are included, and the sulfur baths are open almost all night. The Takamiya group also lets you use its baths at other inns in the village for free.',
+    info: [
+      { label: 'Night', value: 'Jan 24' },
+      { label: 'Plan', value: '1 night, 2 meals (1泊2食)' },
+      { label: 'Price', value: 'About ¥20,000–30,000 pp' },
+      { label: 'Wear', value: 'Yukata provided' },
+    ],
+    tips: [
+      'Book early. January weekends fill fast in Zao.',
+      'Dinner time is fixed, usually 18:00 or 18:30. If you go to the light-up, ask for the late sitting or go after dinner.',
+      'Tattoos: many ryokan do not allow them in shared baths. Ask for a private bath (貸切風呂) if needed.',
+    ],
+  },
+  {
+    id: 'sendai-st',
+    en: 'Sendai Station, Gyutan Street',
+    ja: '仙台駅 牛たん通り',
+    romaji: 'Sendai Eki, Gyūtan Dōri',
+    lat: 38.25975,
+    lon: 140.88002,
+    kind: 'food',
+    blurb:
+      'Sendai is famous for grilled beef tongue (牛たん, gyūtan): thick slices grilled over charcoal, with barley rice and oxtail soup. Six gyutan shops are in one row on the 3rd floor of the station.',
+    info: [
+      { label: 'Hours', value: '10:00–22:30' },
+      { label: 'Set meal', value: '¥2,000–3,500' },
+      { label: 'Top shops', value: '利久, 伊達の牛たん, 喜助' },
+    ],
+    tips: ['Order the 定食 (teishoku) set. Ask for 厚切り (atsugiri, thick cut).'],
+  },
+  {
+    id: 'hotel-sendai',
+    en: 'Dormy Inn Sendai Ekimae',
+    ja: '天然温泉 萩の湯 ドーミーイン仙台駅前',
+    romaji: 'Dōmī In Sendai Ekimae',
+    lat: 38.2642,
+    lon: 140.87979,
+    kind: 'hotel',
+    blurb:
+      'Dormy Inn is the business hotel chain that Japanese travellers love: a natural hot-spring bath on the top floor, free ramen at night (夜鳴きそば) and free ice cream. 5 minutes from the station.',
+    info: [
+      { label: 'Night', value: 'Jan 25' },
+      { label: 'Room', value: 'Twin, about ¥14,000–20,000' },
+      { label: 'Free ramen', value: '21:30–23:00' },
+    ],
+  },
+  {
+    id: 'matsushima',
+    en: 'Matsushima Bay',
+    ja: '松島',
+    romaji: 'Matsushima',
+    lat: 38.36873,
+    lon: 141.06397,
+    kind: 'sight',
+    blurb:
+      'One of the Three Views of Japan (日本三景): a bay with about 260 small islands covered in pine trees. Walk across the red Fukuura bridge and see Godaido temple on its small island. Try the grilled oysters in winter.',
+    info: [
+      { label: 'From Sendai', value: 'JR Senseki Line, 40 min, ¥420' },
+      { label: 'Station', value: '松島海岸駅' },
+      { label: 'Oysters', value: 'In season Oct–Mar' },
+    ],
+    tips: ['This is optional. Skip it if you want a slow morning after skiing.'],
+  },
+  {
+    id: 'shin-hakodate',
+    en: 'Shin-Hakodate-Hokuto Station',
+    ja: '新函館北斗駅',
+    romaji: 'Shin-Hakodate-Hokuto Eki',
+    lat: 41.90461,
+    lon: 140.6487,
+    kind: 'station',
+    blurb:
+      'The end of the Hokkaido Shinkansen. The train goes through the Seikan Tunnel (青函トンネル), 54 km long and 240 m below sea level, the second-longest rail tunnel in the world. Change here to the Hakodate Liner.',
+    info: [
+      { label: 'From Sendai', value: 'はやぶさ Hayabusa, 2.5 h' },
+      { label: 'Fare', value: '¥18,500' },
+      { label: 'Hakodate Liner', value: '15–20 min, ¥470' },
+    ],
+    tips: ['Sit on the right side (seats D/E) for the sea view after the tunnel.'],
+  },
+
+  // ---------- Hakodate ----------
+  {
+    id: 'kanemori',
+    en: 'Kanemori Red Brick Warehouses',
+    ja: '金森赤レンガ倉庫',
+    romaji: 'Kanemori Aka-Renga Sōko',
+    lat: 41.76618,
+    lon: 140.71645,
+    kind: 'sight',
+    blurb:
+      'Harbour warehouses from 1887, now shops, a beer hall and cafés. In January the harbour is lit with a Christmas-style tree and lights, and the snow on the bricks looks great at dusk.',
+    info: [
+      { label: 'Shops', value: '09:30–19:00' },
+      { label: 'Beer hall', value: '11:30–21:30' },
+    ],
+  },
+  {
+    id: 'mt-hakodate',
+    en: 'Mount Hakodate night view',
+    ja: '函館山',
+    romaji: 'Hakodateyama',
+    lat: 41.75931,
+    lon: 140.70413,
+    kind: 'sight',
+    blurb:
+      'One of the three great night views of Japan. From the top at 334 m you see the city lights on a narrow neck of land between two dark bays.',
+    info: [
+      { label: 'Ropeway', value: '函館山ロープウェイ, ¥1,800 return' },
+      { label: 'Hours (winter)', value: '10:00–21:00' },
+      { label: 'Sunset (Jan 26)', value: '16:36' },
+    ],
+    tips: [
+      'Go up at about 16:15 to see sunset and then the lights come on.',
+      'The road up is closed to cars in winter. Take the ropeway.',
+      'The top is very windy. Wear everything you have.',
+    ],
+    links: [{ label: 'Ropeway', url: 'https://334.co.jp/' }],
+  },
+  {
+    id: 'hotel-hakodate',
+    en: 'La Vista Hakodate Bay',
+    ja: 'ラビスタ函館ベイ',
+    romaji: 'Rabisuta Hakodate Bei',
+    lat: 41.76764,
+    lon: 140.71903,
+    kind: 'hotel',
+    blurb:
+      'A hotel in the red-brick harbour area with a rooftop hot-spring bath that looks over the port. Its breakfast buffet, where you build your own seafood rice bowl (kaisendon), often wins "best breakfast in Japan" rankings.',
+    info: [
+      { label: 'Night', value: 'Jan 26' },
+      { label: 'Room', value: 'Twin, about ¥20,000–28,000' },
+    ],
+  },
+  {
+    id: 'asaichi',
+    en: 'Hakodate Morning Market',
+    ja: '函館朝市',
+    romaji: 'Hakodate Asaichi',
+    lat: 41.77224,
+    lon: 140.72482,
+    kind: 'food',
+    blurb:
+      'About 250 stalls selling crab, sea urchin (uni), salmon roe (ikura) and squid. At the squid-fishing pool (活いか釣堀) you catch a live squid and they slice it for you on the spot.',
+    info: [
+      { label: 'Hours', value: '06:00–14:00 (Jan–Apr)' },
+      { label: 'Seafood bowl', value: '¥2,000–4,000' },
+    ],
+    tips: ['If you had the hotel breakfast, just try the squid fishing and a small bowl.'],
+  },
+  {
+    id: 'goryokaku',
+    en: 'Goryokaku Fort',
+    ja: '五稜郭',
+    romaji: 'Goryōkaku',
+    lat: 41.7968,
+    lon: 140.75703,
+    kind: 'sight',
+    blurb:
+      'A star-shaped fort from 1864, the last battlefield of the samurai civil war. Go up Goryokaku Tower to see the full star shape covered in snow.',
+    info: [
+      { label: 'Tower', value: '09:00–18:00, ¥1,200' },
+      { label: 'Park', value: 'Free' },
+    ],
+  },
+  {
+    id: 'rental-hakodate',
+    en: 'Rental car pickup, Hakodate Station',
+    ja: 'レンタカー 函館駅前',
+    romaji: 'Rentakā Hakodate Ekimae',
+    lat: 41.7745,
+    lon: 140.7283,
+    kind: 'car',
+    blurb:
+      'Pick up the Hokkaido car here and drop it in Sapporo 5 days later. Get a 4WD with studless tyres. In Hokkaido these are normal for every rental car in winter.',
+    info: [
+      { label: 'Car', value: '4WD SUV or Subaru, automatic' },
+      { label: 'Price', value: 'About ¥60,000–80,000 for 5 days' },
+      { label: 'One-way fee', value: '¥7,700–15,400' },
+      { label: 'Drop', value: 'Sapporo, Jan 31' },
+    ],
+    tips: [
+      'Cheapest one-way fees from Hakodate to Sapporo: World Net (¥7,700), Nippon and Orix (¥11,000).',
+      'Want a Subaru? Ask for a Forester or Levorg 4WD. Subaru AWD is made for these roads.',
+      'Add the Hokkaido Expressway Pass (HEP) for flat-rate tolls if you use the expressway a lot.',
+    ],
+  },
+  {
+    id: 'onuma',
+    en: 'Onuma Quasi-National Park',
+    ja: '大沼公園',
+    romaji: 'Ōnuma Kōen',
+    lat: 41.98085,
+    lon: 140.67008,
+    kind: 'sight',
+    blurb:
+      'A frozen lake with small islands and the volcano Komagatake behind it. In winter you can try ice fishing for smelt (wakasagi) in a tent on the ice, and they fry your catch as tempura.',
+    info: [
+      { label: 'Ice fishing', value: '09:00–16:00, ¥1,300' },
+      { label: 'Snowmobile', value: 'Available' },
+    ],
+    tips: ['Ice fishing depends on the ice. Ask at the park office.'],
+  },
+
+  // ---------- Niseko, Otaru ----------
+  {
+    id: 'niseko',
+    en: 'Niseko Grand Hirafu',
+    ja: 'ニセコ東急 グラン・ヒラフ',
+    romaji: 'Niseko Tōkyū Guran Hirafu',
+    lat: 42.85835,
+    lon: 140.70201,
+    kind: 'ski',
+    blurb:
+      'World-famous for light, dry powder snow ("Japow"), with Mt Yotei, the "Fuji of Hokkaido", across the valley. Late January is the peak of the powder season.',
+    info: [
+      { label: '1-day pass', value: 'About ¥11,000–12,000' },
+      { label: 'Beginner area', value: 'Ace Family lift' },
+      { label: 'Night skiing', value: 'Until 20:30' },
+      { label: 'Snowfall', value: 'About 1 m per week in Jan' },
+    ],
+    tips: [
+      'Pegasis: buy the Niseko United all-mountain pass and ski the Hanazono tree runs.',
+      'Aoki: book a half-day group lesson in English. Niseko has the most English-speaking instructors in Japan.',
+      'Ski rental and restaurants in Hirafu are expensive. Eat dinner in Kutchan town.',
+    ],
+    links: [{ label: 'Lift tickets', url: 'https://en.grand-hirafu.jp/snow/tickets/' }],
+  },
+  {
+    id: 'hotel-kutchan',
+    en: 'Hotel 3M, Kutchan',
+    ja: 'ホテルスリーエム',
+    romaji: 'Hoteru Surī Emu',
+    lat: 42.90239,
+    lon: 140.74667,
+    kind: 'hotel',
+    blurb:
+      'A simple business hotel in Kutchan town, 8 minutes on foot from Kutchan Station and 15 minutes by car from the slopes. Much cheaper than the hotels in Hirafu.',
+    info: [
+      { label: 'Nights', value: 'Jan 27, 28' },
+      { label: 'Price', value: 'About ¥8,500 per person' },
+      { label: 'Phone', value: '0136-23-3900' },
+    ],
+  },
+  {
+    id: 'otaru-canal',
+    en: 'Otaru Canal',
+    ja: '小樽運河',
+    romaji: 'Otaru Unga',
+    lat: 43.20202,
+    lon: 141.0006,
+    kind: 'sight',
+    blurb:
+      'A canal lined with stone warehouses and gas lamps. With snow on everything it looks like an old postcard. It was the setting of the film Love Letter (1995), very popular in China.',
+    info: [{ label: 'Lamps on', value: 'From about 16:30' }],
+  },
+  {
+    id: 'sakaimachi',
+    en: 'Sakaimachi Street',
+    ja: '堺町通り',
+    romaji: 'Sakaimachi Dōri',
+    lat: 43.19154,
+    lon: 141.0073,
+    kind: 'sight',
+    blurb:
+      'A street of old merchant houses now full of glass shops (Kitaichi Glass), music boxes, and dessert shops like LeTAO. The music box museum at the end has a steam clock.',
+    tips: ['Try LeTAO’s Double Fromage cheesecake at the main shop.'],
+  },
+  {
+    id: 'otaru-sushi',
+    en: 'Otaru Sushi Street',
+    ja: '寿司屋通り',
+    romaji: 'Sushiya Dōri',
+    lat: 43.19653,
+    lon: 141.00254,
+    kind: 'food',
+    blurb: 'A street with about 20 sushi shops. Otaru is a fishing port, and winter fish is at its best.',
+    info: [{ label: 'Lunch set', value: '¥3,000–6,000' }],
+    tips: ['Lunch sets are much cheaper than dinner.'],
+  },
+
+  // ---------- Asahikawa, Biei ----------
+  {
+    id: 'hotel-asahikawa',
+    en: 'Dormy Inn Asahikawa',
+    ja: '天然温泉 神威の湯 ドーミーイン旭川',
+    romaji: 'Dōmī In Asahikawa',
+    lat: 43.77097,
+    lon: 142.35991,
+    kind: 'hotel',
+    blurb: 'A Dormy Inn with a hot-spring bath and free late-night ramen, in the city centre near the ramen shops.',
+    info: [
+      { label: 'Night', value: 'Jan 29' },
+      { label: 'Room', value: 'Twin, about ¥12,000–18,000' },
+    ],
+  },
+  {
+    id: 'ramen-mura',
+    en: 'Asahikawa Ramen Village',
+    ja: 'あさひかわラーメン村',
+    romaji: 'Asahikawa Rāmen Mura',
+    lat: 43.78174,
+    lon: 142.4141,
+    kind: 'food',
+    blurb:
+      'Eight famous Asahikawa ramen shops under one roof. Asahikawa style is a soy-sauce soup made with pork and seafood, with a thin layer of lard on top to keep it hot in the cold.',
+    info: [
+      { label: 'Hours', value: '11:00–20:00' },
+      { label: 'Bowl', value: '¥900–1,300' },
+    ],
+    tips: ['Order mini bowls (ミニ) so you can try two shops.'],
+  },
+  {
+    id: 'asahiyama',
+    en: 'Asahiyama Zoo penguin walk',
+    ja: '旭山動物園',
+    romaji: 'Asahiyama Dōbutsuen',
+    lat: 43.76864,
+    lon: 142.47927,
+    kind: 'sight',
+    blurb:
+      'In winter, a group of king penguins walks a 500 m loop through the snow between the visitors. The zoo is also famous for its tunnel under the penguin pool and its polar bears.',
+    info: [
+      { label: 'Penguin walk', value: '11:00 and 14:30' },
+      { label: 'Winter hours', value: '10:30–15:30' },
+      { label: 'Entry', value: '¥1,000' },
+    ],
+    tips: ['Stand on the route at 10:40 to get a place in the front.'],
+  },
+  {
+    id: 'blue-pond',
+    en: 'Shirogane Blue Pond, winter light-up',
+    ja: '白金青い池',
+    romaji: 'Shirogane Aoi Ike',
+    lat: 43.49349,
+    lon: 142.6141,
+    kind: 'sight',
+    blurb:
+      'A pond whose water is blue because of minerals from the volcano above. In winter it is frozen and covered in snow, and dead trees stand in it. At night it is lit with changing colors.',
+    info: [
+      { label: 'Light-up', value: '17:00–21:00' },
+      { label: 'Season', value: 'Oct 22, 2026 – Apr 21, 2027' },
+      { label: 'Parking', value: '¥1,000' },
+    ],
+    tips: ['Dress for −15 °C. The path from the car park is about 5 minutes on packed snow.'],
+  },
+  {
+    id: 'shirahige',
+    en: 'Shirahige Falls',
+    ja: '白ひげの滝',
+    romaji: 'Shirahige no Taki',
+    lat: 43.47458,
+    lon: 142.63919,
+    kind: 'sight',
+    blurb:
+      'Water pours out of the rock face into a bright blue river, framed by snow and ice. See it from the bridge in Shirogane Onsen. It is lit at night.',
+    info: [{ label: 'Lit', value: 'Sunset to 21:00' }],
+  },
+  {
+    id: 'hotel-furano',
+    en: 'Natulux Hotel Furano',
+    ja: 'ナチュラクスホテル',
+    romaji: 'Nachurakusu Hoteru',
+    lat: 43.34757,
+    lon: 142.39021,
+    kind: 'hotel',
+    blurb: 'A modern, simple hotel next to Furano Station with a public bath and sauna.',
+    info: [
+      { label: 'Night', value: 'Jan 30' },
+      { label: 'Room', value: 'Twin, about ¥14,000–20,000' },
+    ],
+  },
+
+  {
+    id: 'shibuya-sky',
+    en: 'Shibuya Sky',
+    ja: 'SHIBUYA SKY（渋谷スカイ）',
+    romaji: 'Shibuya Sukai',
+    lat: 35.65847,
+    lon: 139.70214,
+    kind: 'sight',
+    blurb:
+      'An open-air roof deck 230 m above the Shibuya Scramble crossing. On a clear winter evening you see Mt Fuji at sunset, then the whole of Tokyo lights up.',
+    info: [
+      { label: 'Ticket', value: '¥2,500–3,000, timed' },
+      { label: 'Sunset (Jan 23)', value: '16:55' },
+    ],
+    tips: [
+      'Sunset time slots sell out. Book online 2–4 weeks ahead.',
+      'After: walk down to the Scramble crossing and the Shibuya Hachiko statue.',
+    ],
+    links: [{ label: 'Tickets', url: 'https://www.shibuya-scramble-square.com/sky/' }],
+  },
+  {
+    id: 'rental-sapporo',
+    en: 'Rental car drop, Sapporo Station',
+    ja: 'レンタカー 札幌駅北口',
+    romaji: 'Rentakā Sapporo Eki Kitaguchi',
+    lat: 43.0712,
+    lon: 141.3505,
+    kind: 'car',
+    blurb: 'Return the Hokkaido car here. Fill the tank at a gas station near the station first (満タン返し, return full).',
+    tips: ['Most rental offices near Sapporo Station are on the north side (北口).'],
+  },
+
+  // ---------- Sapporo ----------
+  {
+    id: 'hotel-sapporo',
+    en: 'Dormy Inn Premium Sapporo',
+    ja: 'ドーミーインPREMIUM札幌',
+    romaji: 'Dōmī In Puremiamu Sapporo',
+    lat: 43.05704,
+    lon: 141.3489,
+    kind: 'hotel',
+    blurb:
+      'A Dormy Inn with a hot-spring bath at the Tanukikoji covered shopping street. Susukino and Odori Park are 5 minutes on foot.',
+    info: [
+      { label: 'Nights', value: 'Jan 31 (both), Feb 1 (Aoki)' },
+      { label: 'Room', value: 'Twin, about ¥14,000–22,000' },
+    ],
+  },
+  {
+    id: 'beer-museum',
+    en: 'Sapporo Beer Museum',
+    ja: 'サッポロビール博物館',
+    romaji: 'Sapporo Bīru Hakubutsukan',
+    lat: 43.07141,
+    lon: 141.369,
+    kind: 'sight',
+    blurb:
+      'A red-brick brewery building from 1890. The beer garden next door serves all-you-can-eat Jingisukan (grilled lamb) with beer.',
+    info: [
+      { label: 'Hours', value: '11:00–18:00' },
+      { label: 'Closed', value: 'Mondays' },
+      { label: 'Premium tour', value: '¥2,000, with tasting' },
+    ],
+    tips: ['Feb 1 is a Monday and it is closed. That is why you go on Sunday, Jan 31.'],
+  },
+  {
+    id: 'daruma',
+    en: 'Jingisukan Daruma',
+    ja: '成吉思汗だるま 本店',
+    romaji: 'Jingisukan Daruma Honten',
+    lat: 43.05384,
+    lon: 141.35246,
+    kind: 'food',
+    blurb:
+      'The most famous Jingisukan restaurant in Sapporo, since 1954. You grill lamb and onions on a dome-shaped iron pan at a small counter. Chinese and Japanese guides both rank it number one.',
+    info: [
+      { label: 'Hours', value: '17:00–05:00' },
+      { label: 'Cost', value: 'About ¥3,000 per person' },
+    ],
+    tips: ['There is almost always a queue. After 22:00 it is shorter.'],
+  },
+  {
+    id: 'nijo',
+    en: 'Nijo Market',
+    ja: '二条市場',
+    romaji: 'Nijō Ichiba',
+    lat: 43.05825,
+    lon: 141.35846,
+    kind: 'food',
+    blurb: 'A central market for crab, uni and salmon roe rice bowls. Good for a seafood breakfast.',
+    info: [{ label: 'Hours', value: 'About 07:00–18:00' }],
+  },
+  {
+    id: 'garaku',
+    en: 'Soup Curry GARAKU',
+    ja: 'スープカレー GARAKU',
+    romaji: 'Sūpu Karē Garaku',
+    lat: 43.05805,
+    lon: 141.3551,
+    kind: 'food',
+    blurb:
+      'Soup curry is a Sapporo invention: a thin, spicy curry soup with big pieces of chicken and grilled vegetables. GARAKU is one of the most popular shops.',
+    info: [
+      { label: 'Cost', value: '¥1,500–2,000' },
+      { label: 'Tip', value: 'Choose spice level 1–40' },
+    ],
+    tips: ['Take a number from the machine at the door, then walk around until your turn.'],
+  },
+  {
+    id: 'odori',
+    en: 'Odori Park and Sapporo TV Tower',
+    ja: '大通公園・さっぽろテレビ塔',
+    romaji: 'Ōdōri Kōen, Sapporo Terebi-tō',
+    lat: 43.0599,
+    lon: 141.34751,
+    kind: 'sight',
+    blurb:
+      'The long park in the city centre. In early February the Snow Festival builds giant snow sculptures here. You leave 3 days too early, but you may see the sculptures being built.',
+    info: [{ label: 'TV Tower deck', value: '09:00–22:00, ¥1,000' }],
+  },
+  {
+    id: 'moiwa',
+    en: 'Mt Moiwa night view',
+    ja: 'もいわ山',
+    romaji: 'Moiwayama',
+    lat: 43.03161,
+    lon: 141.3331,
+    kind: 'sight',
+    blurb: 'A ropeway to a viewpoint with the whole of Sapporo lit up below. It is on Japan’s "new three great night views" list.',
+    info: [
+      { label: 'Hours', value: '11:00–22:00' },
+      { label: 'Fare', value: '¥2,100 return' },
+    ],
+  },
+  {
+    id: 'cts',
+    en: 'New Chitose Airport',
+    ja: '新千歳空港',
+    romaji: 'Shin-Chitose Kūkō',
+    lat: 42.78781,
+    lon: 141.68087,
+    kind: 'airport',
+    blurb:
+      'Sapporo’s airport. From Sapporo Station the Rapid Airport train takes 37 minutes. The domestic terminal has a ramen alley (北海道ラーメン道場) and a Royce chocolate factory.',
+    info: [
+      { label: 'Train', value: '快速エアポート, 37 min, ¥1,230' },
+      { label: 'Pegasis', value: 'Feb 1, Jetstar 20:40 → Narita' },
+      { label: 'Aoki', value: 'Feb 2 → Shanghai' },
+    ],
+    tips: [
+      'Snowstorms cancel many flights here every winter. That is why Pegasis flies to Narita the evening before the Toronto flight.',
+      'Buy the last Hokkaido snacks here: Shiroi Koibito, Royce chocolate, LeTAO.',
+    ],
+  },
+  {
+    id: 'hotel-narita',
+    en: 'Toyoko Inn Narita Airport',
+    ja: '東横INN成田空港本館',
+    romaji: 'Tōyoko In Narita Kūkō',
+    lat: 35.78212,
+    lon: 140.38423,
+    kind: 'hotel',
+    blurb: 'A cheap business hotel with a free shuttle bus to all Narita terminals. Pegasis sleeps here on the last night.',
+    info: [
+      { label: 'Night', value: 'Feb 1 (Pegasis)' },
+      { label: 'Single', value: 'About ¥8,000–10,000' },
+      { label: 'Shuttle', value: 'Free, every 20–30 min' },
+    ],
+  },
+  {
+    id: 'naritasan',
+    en: 'Naritasan Shinshoji Temple',
+    ja: '成田山新勝寺',
+    romaji: 'Naritasan Shinshōji',
+    lat: 35.78633,
+    lon: 140.31722,
+    kind: 'sight',
+    blurb:
+      'A large temple founded in 940, with a three-storey pagoda and a big park. The street up to it, Omotesando, is famous for grilled eel (unagi) shops.',
+    info: [
+      { label: 'From airport', value: 'JR or Keisei, 10 min' },
+      { label: 'Eel lunch', value: '川豊 Kawatoyo, ¥3,500–5,000' },
+    ],
+    tips: ['Use a coin locker at Narita Station for your bag.'],
+  },
+]
+
+export const rawPlaces: Place[] = [...P, ...animePlaces]
+export { days } from './days.ts'
+
+export const trip = {
+  people: [
+    { name: 'Pegasis', line: 'Toronto. WestJet via Calgary, Jan 18 → Feb 2. 90-day visa.' },
+    { name: 'Aoki', line: 'Shanghai. Air China Jan 19, home from Sapporo Feb 2. 15-day visa, uses all 15.' },
+  ],
+  facts: [
+    { label: 'days', value: '15' },
+    { label: 'km by car', value: '≈970' },
+    { label: 'km by Shinkansen', value: '≈900' },
+    { label: 'ski days', value: '2' },
+    { label: 'anime spots', value: '14' },
+    { label: 'onsen ryokan', value: '1' },
+  ],
+  bookFirst: [
+    { what: 'Flights', why: 'Pegasis WestJet (CA$1,039), Aoki Air China, Jetstar Sapporo → Narita Feb 1 (CA$57 + bag), Aoki Sapporo → Shanghai Feb 2.' },
+    { what: 'CAA International Driving Permit', why: 'Pegasis. Paper booklet only. Get it in Canada before you leave.' },
+    { what: 'Zao ryokan + Aoki ski lesson', why: 'January weekends in Zao fill up. Book 3 months ahead.' },
+    { what: 'Fun2Drive and the Daikoku JDM tour', why: 'Ask each company in writing: "Is a 1-year licence + IDP OK?"' },
+    { what: 'Rental cars with studless tyres', why: 'Tokyo: Jan 22–23. Hakodate → Sapporo one-way: Jan 27–31, 4WD.' },
+    { what: 'Shibuya Sky sunset slot', why: 'Sat Jan 23. Tickets open about 4 weeks ahead.' },
+    { what: 'Shinkansen seats', why: 'On Eki-net, 1 month ahead: Tokyo → Yamagata Jan 24, Sendai → Shin-Hakodate-Hokuto Jan 26.' },
+  ],
+  budget: [
+    { item: 'Hotels (13 nights) + ryokan', value: '¥135,000' },
+    { item: 'Shinkansen and trains', value: '¥45,000' },
+    { item: 'Rental cars, fuel, tolls (split)', value: '¥75,000' },
+    { item: 'JDM tours (split)', value: '¥45,000' },
+    { item: 'Skiing: lifts, rental, lessons', value: '¥40,000' },
+    { item: 'Food (¥7,000/day)', value: '¥105,000' },
+    { item: 'Sights, ropeways, extras', value: '¥20,000' },
+    { item: 'Total in Japan', value: '≈ ¥465,000' },
+  ],
+  budgetNote:
+    'About CA$4,300 per person at ¥108 = CA$1, plus flights. Aoki pays more for lessons, Pegasis for the JDM drive, so adjust as you like.',
+  driving: [
+    'Japan drives on the left. The driver sits on the right.',
+    'Pegasis: Canadian licence + CAA International Driving Permit + passport. Times Car Rental has no minimum years, so normal rental cars are fine.',
+    'Most JDM sports-car rental shops need 3+ years of licence (Japanese and English sources agree). The RX-8 is not possible with 1 year. Guided JDM tours are the way to drive one.',
+    'Winter tyres (スタッドレス) are required on snowy roads. In Hokkaido every rental car has them. Near Tokyo you must ask for them.',
+    'Zero alcohol limit for drivers. Even one beer is illegal.',
+  ],
+}
