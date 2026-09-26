@@ -42,28 +42,16 @@ export const REGION: Record<Region, { en: string; ja: string; color: string }> =
   hokkaido: { en: 'Hokkaido', ja: '北海道', color: '#27b5d6' },
 }
 
-export const CATEGORY: Record<string, { label: string; color: string }> = {
-  anime: { label: 'Anime', color: '#e8538f' },
-  cars: { label: 'Cars', color: '#ff9a3c' },
-  snow: { label: 'Snow & ski', color: '#6fb7ff' },
-  onsen: { label: 'Onsen', color: '#2fbfb0' },
-  food: { label: 'Food', color: '#e0b43c' },
-  scenery: { label: 'Scenery', color: '#7bc86c' },
-  culture: { label: 'Culture', color: '#b58cf0' },
-  city: { label: 'City', color: '#9aa8b8' },
-  nature: { label: 'Nature', color: '#4fae6a' },
-  deal: { label: 'Bargains', color: '#d4a017' },
+/** Icon for a place that has no photo, so an empty card or pin still says what it is */
+export const KIND_ICON: Record<Kind, 'bed' | 'meal' | 'pin'> = {
+  anime: 'pin',
+  car: 'pin',
+  ski: 'pin',
+  fuji: 'pin',
+  food: 'meal',
+  sight: 'pin',
+  onsen: 'pin',
+  hotel: 'bed',
+  station: 'pin',
+  airport: 'pin',
 }
-
-export const KIND_TEXT = {
-  planned: 'In the plan',
-  addon: 'Add to a day',
-  swap: 'Replace days',
-  plan: 'New route',
-} as const
-
-export const VERDICT = {
-  yes: { label: 'Want', color: '#2fbf7a' },
-  maybe: { label: 'Maybe', color: '#e0a82e' },
-  no: { label: 'Not interested', color: '#8a96a3' },
-} as const

@@ -38,7 +38,15 @@ for path in sorted(glob.glob(f'{HERE}/../src/data/plans/*.json')):
             elif m=='train':
                 try: line=rail_route(pts)
                 except Exception as e: print('  rail error',e)
+                if not line:
+                    # Long local trips: try again with more room around the tracks and easier transfers
+                    try: line=rail_route(pts,pad=0.25,join=0.01)
+                    except Exception as e: print('  rail error',e)
             else: continue
+            if not line and m in ('train','shinkansen'):
+                # Last resort: follow the roads, which is still closer to the real path than a straight line
+                line=osrm(pts,'car')
+                if line: print('  road line for',name,d['n'],m,leg['from'],'->',leg['to'])
             if line: out[f"{d['n']}-{i}"]=[[round(x,5),round(y,5)] for x,y in line]
             else: miss+=1; print('  no line',name,d['n'],m,leg['from'],'->',leg['to'])
     json.dump(out,open(f'{HERE}/../src/data/routes/{name}.json','w'),separators=(',',':'))

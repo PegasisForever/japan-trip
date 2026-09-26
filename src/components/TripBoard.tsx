@@ -21,6 +21,17 @@ function bases(days: Day[], places: Record<string, Place>) {
   return out
 }
 
+/**
+ * The amount at the start of a cost text, without the breakdown:
+ * "≈ ¥126,000 per person (Tokyo car ...)" → "≈ ¥126,000". The full text stays in "Cost details".
+ */
+function headline(text: string) {
+  return text
+    .split(' · ')
+    .map((part) => part.split(/ \(|\. |, plus | \+ |; /)[0].replace(/ per person$/, '').trim())
+    .join(' · ')
+}
+
 function loadDone(key: string): number[] {
   try {
     return JSON.parse(localStorage.getItem(key) ?? '[]')
@@ -32,6 +43,8 @@ function loadDone(key: string): number[] {
 export default function TripBoard({ plan, letter }: Props) {
   const key = `yukimichi-booked-${plan.id}`
   const [done, setDone] = useState<number[]>(() => loadDone(key))
+  const [open, setOpen] = useState(false)
+  const stays = bases(plan.days, plan.places)
   const regions = (Object.keys(REGION) as (keyof typeof REGION)[])
     .map((r) => ({ key: r, ...REGION[r], count: plan.days.filter((d) => d.region === r).length }))
     .filter((r) => r.count > 0)
@@ -47,7 +60,7 @@ export default function TripBoard({ plan, letter }: Props) {
   }
 
   return (
-    <aside className="board board-trip">
+    <aside className={`board board-trip${open ? ' is-open' : ''}`}>
       <div className="ekimei">
         <div className="ekimei-meta">
           <span>Plan {letter}</span>
@@ -72,13 +85,29 @@ export default function TripBoard({ plan, letter }: Props) {
         </div>
       </div>
 
+      {/* Phone only: the plan in one line; tap to open the rest, so the map stays visible */}
+      <button className="glance-mini" onClick={() => setOpen((o) => !o)} aria-expanded={open}>
+        <span>
+          <Icon name="bed" /> {stays.length} hotels
+        </span>
+        {plan.bookFirst && plan.bookFirst.length > 0 && (
+          <span className={done.length < plan.bookFirst.length ? 'glance-mini-alert' : ''}>
+            <Icon name="check" /> Booked {done.length}/{plan.bookFirst.length}
+          </span>
+        )}
+        <span className="glance-mini-open">
+          {open ? 'Hide' : 'Details'}
+          <Icon name={open ? 'up' : 'down'} />
+        </span>
+      </button>
+
       <div className="board-body">
         <p className="board-summary">{plan.summary}</p>
 
         <section className="bases">
           <h3>Where you sleep</h3>
           <ol>
-            {bases(plan.days, plan.places).map((b) => (
+            {stays.map((b) => (
               <li key={`${b.place.id}-${b.from}`}>
                 <span className="bases-n">{b.nights}</span>
                 <span>
@@ -93,17 +122,17 @@ export default function TripBoard({ plan, letter }: Props) {
         </section>
 
         <dl className="facts">
-          <div>
-            <dt>Total per person</dt>
-            <dd>{plan.cost.total}</dd>
+          <div className="facts-wide">
+            <dt>Total per person, without flights (full list in Cost details)</dt>
+            <dd>{headline(plan.cost.total)}</dd>
           </div>
           <div>
             <dt>Transport</dt>
-            <dd>{plan.cost.transport}</dd>
+            <dd>{headline(plan.cost.transport)}</dd>
           </div>
           <div>
             <dt>Hotels</dt>
-            <dd>{plan.cost.hotels}</dd>
+            <dd>{headline(plan.cost.hotels)}</dd>
           </div>
         </dl>
 

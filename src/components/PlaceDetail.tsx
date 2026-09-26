@@ -2,16 +2,22 @@ import type { Day, Place } from '../data/types'
 import { KIND_LABEL } from '../data/style'
 import Icon from './Icon'
 import Gallery from './Gallery'
+import PickTag from './PickTag'
+import { pickOf } from '../data/picks'
 import { photosFor } from '../data/gallery'
+import { mealOf } from '../data/timeline'
 
 interface Props {
+  planId: string
   place: Place
   day: Day | null
   onClose: () => void
 }
 
-export default function PlaceDetail({ place, day, onClose }: Props) {
+export default function PlaceDetail({ planId, place, day, onClose }: Props) {
   const stop = day?.stops.find((s) => s.place === place.id)
+  const meal = stop ? mealOf(stop) : null
+  const photos = photosFor(place.galleryKey ?? place.id, place.photo, place.credit)
   const gmaps = `https://www.google.com/maps/search/?api=1&query=${place.lat},${place.lon}`
 
   return (
@@ -19,15 +25,24 @@ export default function PlaceDetail({ place, day, onClose }: Props) {
       <button className="detail-close" onClick={onClose} aria-label="Close details">
         <Icon name="close" size={18} />
       </button>
-      <Gallery photos={photosFor(place.galleryKey ?? place.id, place.photo, place.credit)} alt={place.en} />
-      <div className="detail-body">
+      <Gallery photos={photos} alt={place.en} />
+      <div className={`detail-body${photos.length ? '' : ' no-photo'}`}>
         <p className="detail-kind">
-          {KIND_LABEL[place.kind]}
+          {meal ? (
+            <span className="detail-meal">
+              <Icon name="meal" size={14} /> {meal}
+            </span>
+          ) : (
+            KIND_LABEL[place.kind]
+          )}
           {stop?.time && <span> · {stop.time}</span>}
           {stop?.who && <span> · {stop.who} only</span>}
+          <PickTag pick={pickOf(planId, place.id)} />
         </p>
         <h2 className="detail-ja" lang="ja">{place.ja}</h2>
-        {place.romaji && <p className="detail-romaji">{place.romaji}</p>}
+        {place.romaji && place.romaji.toLowerCase() !== place.en.toLowerCase() && (
+          <p className="detail-romaji">{place.romaji}</p>
+        )}
         <p className="detail-en">{place.en}</p>
         {stop?.note && (
           <div className="detail-plan">

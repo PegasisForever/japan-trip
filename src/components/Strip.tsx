@@ -1,10 +1,15 @@
-import { useEffect, useRef } from 'react'
-import type { Day, Place } from '../data/types'
-import { KIND_LABEL, MODE_COLOR, MODE_LABEL, REGION } from '../data/style'
+import { useEffect, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
+import type { Day, Leg, Place } from '../data/types'
+import { KIND_ICON, KIND_LABEL, MODE_COLOR, MODE_LABEL, REGION } from '../data/style'
 import { photoUrl } from '../data/photos'
-import { buildTimeline, fmtClock, fmtLength } from '../data/timeline'
+import { buildTimeline, dayStart, fmtClock, fmtLength, mainRide, mealOf, stepsOf } from '../data/timeline'
+import Icon from './Icon'
+import PickTag from './PickTag'
+import { pickOf } from '../data/picks'
 
 interface Props {
+  planId: string
   day: Day | null
   days: Day[]
   places: Record<string, Place>
@@ -18,10 +23,51 @@ interface Props {
 /** Pixels per minute on the day timeline, and the smallest widths that stay readable */
 const PX = 2.4
 const MIN_STOP = 150
-const MIN_LEG = 60
+const MIN_WALK = 64
+/** A train, bus or drive block must fit the name of the service and its times */
+const MIN_RIDE = 124
+/** From this width a travel block lists every step, not only the main ride */
+const ALL_STEPS = 230
 
-export default function Strip({ day, days, places, hovered, selected, onHover, onSelect, onPickDay }: Props) {
+/** Photo of a place, or its kind icon when there is no photo, so the card does not look broken */
+function Cover({ place, size }: { place: Place; size: number }) {
+  if (place.photo) return <img src={photoUrl(place.photo, size)} alt="" loading="lazy" />
+  return (
+    <span className="card-ph" aria-hidden>
+      <Icon name={KIND_ICON[place.kind]} size={40} />
+    </span>
+  )
+}
+
+/** Full travel steps, shown next to a travel block on hover or focus */
+function LegTip({ leg, rect }: { leg: Leg; rect: DOMRect }) {
+  const left = Math.max(8, Math.min(rect.left, window.innerWidth - 348))
+  return createPortal(
+    <div className="leg-tip" role="tooltip" style={{ left, bottom: window.innerHeight - rect.top + 10 }}>
+      <p className="leg-tip-head">
+        {/* White dashes of walks and flights would not show on the light panel */}
+        <i
+          style={{ '--mc': leg.mode === 'flight' || leg.mode === 'walk' ? 'var(--ink-2)' : MODE_COLOR[leg.mode] } as React.CSSProperties}
+          className={leg.mode === 'flight' || leg.mode === 'walk' ? 'dash' : ''}
+        />
+        <b>{MODE_LABEL[leg.mode]}</b>
+        {leg.duration && <span>{leg.duration}</span>}
+        {leg.who && <em>{leg.who} only</em>}
+      </p>
+      <ol>
+        {stepsOf(leg.label).map((s, i) => (
+          <li key={i}>{s}</li>
+        ))}
+      </ol>
+    </div>,
+    document.body,
+  )
+}
+
+export default function Strip({ planId, day, days, places, hovered, selected, onHover, onSelect, onPickDay }: Props) {
   const rail = useRef<HTMLDivElement>(null)
+  // The travel steps shown next to a travel block; it belongs to one day only
+  const [tip, setTip] = useState<{ leg: Leg; rect: DOMRect; n: number } | null>(null)
 
   useEffect(() => {
     rail.current?.scrollTo({ left: 0 })
@@ -43,15 +89,15 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
           return (
             <button
               key={d.n}
-              className="card card-day"
+              className={`card card-day${p?.photo ? '' : ' no-photo'}`}
               style={{ '--rc': REGION[d.region].color } as React.CSSProperties}
               onClick={() => onPickDay(d.n)}
             >
-              {p.photo && <img src={photoUrl(p.photo, 480)} alt="" loading="lazy" />}
+              {p && <Cover place={p} size={480} />}
               <span className="card-shade" />
               <span className="card-top">
                 <span className="card-num">{d.n}</span>
-                <span className="card-time">{d.temp}</span>
+                <span className="card-time" title={d.temp}>{d.temp}</span>
               </span>
               <span className="card-body">
                 <span className="card-when">
@@ -73,12 +119,14 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
 
   // Lay the segments out left to right. Width follows duration, with a readable minimum.
   const ticks: { x: number; label: string }[] = []
-  const laid: { seg: ReturnType<typeof buildTimeline>[number]; x0: number; w: number }[] = []
+  const laid: { seg: ReturnType<typeof buildTimeline>[number]; w: number }[] = []
   let x = 0
   let lastT = -Infinity
+  let end = 0
   for (const seg of buildTimeline(day)) {
     const dur = seg.t1 - seg.t0
-    const w = Math.max(seg.kind === 'stop' ? MIN_STOP : MIN_LEG, dur * PX)
+    const min = seg.kind === 'stop' ? MIN_STOP : seg.leg.mode === 'walk' ? MIN_WALK : MIN_RIDE
+    const w = Math.max(min, dur * PX)
     // Hour ticks are placed inside each segment, so they stay true even when a segment is widened
     if (seg.t0 >= lastT && dur > 0) {
       for (let h = Math.ceil(seg.t0 / 60); h * 60 < seg.t1; h++) {
@@ -86,13 +134,22 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
       }
     }
     lastT = Math.max(lastT, seg.t1)
-    laid.push({ seg, x0: x, w })
+    end = seg.t1
+    laid.push({ seg, w })
     x += w + 4
   }
 
+  // The night and the next morning close the day
+  const sleep = day.sleep ? places[day.sleep] : null
+  const next = days.find((d) => d.n === day.n + 1)
+  const morning = next ? dayStart(next) : null
+  const morningPlace = morning ? places[morning.stop.place] : null
+  const morningMeal = morning ? mealOf(morning.stop) : null
+  const NIGHT_W = 210
+
   return (
-    <nav className="strip strip-tl" ref={rail} aria-label="Timeline of the day">
-      <div className="tl" style={{ width: x }}>
+    <nav className="strip strip-tl" ref={rail} aria-label="Timeline of the day" onScroll={() => setTip(null)}>
+      <div className="tl" style={{ width: x + (sleep ? NIGHT_W : 0) }}>
         <div className="tl-ruler" aria-hidden>
           {ticks.map((t, i) => (
             <span key={i} style={{ left: t.x }}>
@@ -104,37 +161,72 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
           {laid.map(({ seg, w }, i) => {
             if (seg.kind === 'leg') {
               const l = seg.leg
+              const ride = l.mode === 'walk' ? null : mainRide(l.label, l.mode)
+              const steps = stepsOf(l.label)
+              const rides = steps.filter((s) => /\d:\d\d\s*→/.test(s)).length
+              const show = (el: HTMLElement) => setTip({ leg: l, rect: el.getBoundingClientRect(), n: day.n })
               return (
-                <div
+                <button
                   key={i}
-                  className="tl-leg"
+                  type="button"
+                  className={`tl-leg${w >= ALL_STEPS ? ' is-wide' : ''}`}
                   style={{ width: w, '--mc': MODE_COLOR[l.mode] } as React.CSSProperties}
-                  title={`${l.label}${l.duration ? ' · ' + l.duration : ''}`}
+                  aria-label={`${MODE_LABEL[l.mode]}${l.duration ? ', ' + l.duration : ''}: ${l.label}`}
+                  onMouseEnter={(e) => show(e.currentTarget)}
+                  onMouseLeave={() => setTip(null)}
+                  onFocus={(e) => show(e.currentTarget)}
+                  onBlur={() => setTip(null)}
                 >
                   <i className={l.mode === 'flight' || l.mode === 'walk' ? 'dash' : ''} />
-                  <b>{MODE_LABEL[l.mode]}</b>
-                  <span>{l.duration}</span>
-                  {w > 170 && <small>{l.label}</small>}
-                  {l.who && <small>{l.who} only</small>}
-                </div>
+                  <span className="tl-leg-head">
+                    <b>{MODE_LABEL[l.mode]}</b>
+                    <span>{l.duration}</span>
+                  </span>
+                  {l.who && <em className="tl-leg-who">{l.who} only</em>}
+                  {w >= ALL_STEPS ? (
+                    <ol className="tl-leg-steps">
+                      {steps.map((s, k) => (
+                        <li key={k}>{s}</li>
+                      ))}
+                    </ol>
+                  ) : (
+                    ride && (
+                      <>
+                        <span className="tl-leg-svc">{ride.service}</span>
+                        {ride.dep && (
+                          <span className="tl-leg-time">
+                            {ride.dep}
+                            {ride.arr && ` → ${ride.arr}`}
+                          </span>
+                        )}
+                        {rides > 1 && (
+                          <small>
+                            {rides} rides
+                          </small>
+                        )}
+                      </>
+                    )
+                  )}
+                </button>
               )
             }
             const st = seg.stop
             const p = places[st.place]
+            const meal = mealOf(st)
             const first = day.stops.findIndex((o) => o.place === st.place) === seg.index
             return (
               <button
                 key={i}
                 data-id={first ? st.place : undefined}
                 style={{ width: w }}
-                className={`card card-stop${hovered === st.place ? ' is-hot' : ''}${selected === st.place ? ' is-selected' : ''}${st.who ? ' is-solo' : ''}`}
+                className={`card card-stop${p.photo ? '' : ' no-photo'}${meal ? ' is-meal' : ''}${hovered === st.place ? ' is-hot' : ''}${selected === st.place ? ' is-selected' : ''}${st.who ? ' is-solo' : ''}`}
                 onMouseEnter={() => onHover(st.place)}
                 onMouseLeave={() => onHover(null)}
                 onFocus={() => onHover(st.place)}
                 onBlur={() => onHover(null)}
                 onClick={() => onSelect(st.place)}
               >
-                {p.photo && <img src={photoUrl(p.photo, 480)} alt="" loading="lazy" />}
+                <Cover place={p} size={480} />
                 <span className="card-shade" />
                 <span className="card-top">
                   <span className="card-num">{order.get(st.place)}</span>
@@ -145,17 +237,59 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
                 </span>
                 {st.who && <span className="card-who">{st.who} only</span>}
                 <span className="card-body">
-                  <span className="card-kind">
-                    {KIND_LABEL[p.kind]} · {seg.open ? 'evening' : fmtLength(seg.t1 - seg.t0)}
-                  </span>
+                  <PickTag pick={pickOf(planId, st.place)} />
+                  {meal ? (
+                    <span className="card-kind card-meal">
+                      <Icon name="meal" size={14} />
+                      {meal} · {seg.open ? 'evening' : fmtLength(seg.t1 - seg.t0)}
+                    </span>
+                  ) : (
+                    <span className="card-kind">
+                      {KIND_LABEL[p.kind]} · {seg.open ? 'evening' : fmtLength(seg.t1 - seg.t0)}
+                    </span>
+                  )}
                   <span className="card-ja" lang="ja">{p.ja}</span>
                   <span className="card-en">{p.en}</span>
                 </span>
               </button>
             )
           })}
+          {sleep && (
+            <button
+              className="card card-night"
+              style={{ width: NIGHT_W - 4 }}
+              onClick={() => onSelect(sleep.id)}
+              onMouseEnter={() => onHover(sleep.id)}
+              onMouseLeave={() => onHover(null)}
+              aria-label={`Night at ${sleep.en}. Open the hotel.`}
+            >
+              <span className="card-top">
+                <span className="card-night-tag">
+                  <Icon name="moon" size={14} />
+                  Night
+                </span>
+                <span className="card-time">from {fmtClock(end)}</span>
+              </span>
+              <span className="card-body">
+                <span className="card-kind">
+                  <Icon name="bed" size={14} /> Sleep
+                </span>
+                <span className="card-ja" lang="ja">{sleep.ja}</span>
+                <span className="card-en">{sleep.en}</span>
+                {morning && (
+                  <span className="card-morning">
+                    <Icon name="sun" size={14} />
+                    Day {next!.n}: {morning.time ?? 'start'}
+                    {morningMeal ? ` ${morningMeal.toLowerCase()}` : ''}
+                    {morningPlace && morningPlace.id !== sleep.id ? ` · ${morningPlace.en}` : morningMeal ? ' here' : ' from here'}
+                  </span>
+                )}
+              </span>
+            </button>
+          )}
         </div>
       </div>
+      {tip && tip.n === day.n && <LegTip leg={tip.leg} rect={tip.rect} />}
     </nav>
   )
 }

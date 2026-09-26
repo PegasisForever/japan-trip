@@ -79,16 +79,16 @@ def simplify(line,tol=0.0005):
         if dist(out[-1],p)>tol: out.append(p)
     out.append(line[-1]); return out
 
-def route(points,shinkansen=False):
+def route(points,shinkansen=False,pad=0.08,join=0.002):
     if shinkansen: g=shinkansen_graph()
     else:
-        lons=[p[0] for p in points]; lats=[p[1] for p in points]; pad=0.08
+        lons=[p[0] for p in points]; lats=[p[1] for p in points]
         s,w,n,e=min(lats)-pad,min(lons)-pad,max(lats)+pad,max(lons)+pad
         area=(n-s)*(e-w)
         kinds='rail|subway|light_rail|tram|monorail' if area<0.6 else 'rail'
         q=f'[out:json][timeout:300];way["railway"~"^({kinds})$"][!"service"]({s:.3f},{w:.3f},{n:.3f},{e:.3f});out geom;'
         key='bbox-'+hashlib.md5(q.encode()).hexdigest()[:12]
-        g=Graph(ways_of(overpass(q,key)))
+        g=Graph(ways_of(overpass(q,key)),join=join)
     out=[points[0]]
     for a,b in zip(points,points[1:]):
         seg=g.path(a,b)

@@ -5,10 +5,15 @@ import type { Feature } from 'geojson'
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import type { Day, Leg, Place } from '../data/types'
-import { MODE_COLOR, KIND_LABEL } from '../data/style'
+import { MODE_COLOR, KIND_ICON, KIND_LABEL } from '../data/style'
+import { mealOf } from '../data/timeline'
+import { iconHtml } from './icons'
+import { pickHtml } from './pickHtml'
+import { pickOf } from '../data/picks'
 import { photoUrl } from '../data/photos'
 
 interface Props {
+  planId: string
   days: Day[]
   places: Record<string, Place>
   routes: Record<string, [number, number][]>
@@ -68,7 +73,7 @@ function buildRoutes(days: Day[], day: Day | null, places: Record<string, Place>
 }
 
 export default function MapView(props: Props) {
-  const { days, places, routes, day, hovered, selected, onHover, onSelect, onPickDay } = props
+  const { planId, days, places, routes, day, hovered, selected, onHover, onSelect, onPickDay } = props
   const box = useRef<HTMLDivElement>(null)
   const map = useRef<maplibregl.Map | null>(null)
   const markers = useRef<Map<string, { m: maplibregl.Marker; el: HTMLElement }>>(new Map())
@@ -128,7 +133,13 @@ export default function MapView(props: Props) {
       attributionControl: { compact: true },
     })
     m.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'bottom-right')
+    // Place names are flat images: when the map tilts they stretch and blur, so show them only on a flat map
+    m.on('pitch', () => {
+      if (m.getLayer('ref')) m.setLayoutProperty('ref', 'visibility', m.getPitch() > 20 ? 'none' : 'visible')
+    })
     m.on('load', () => {
+      // The credits start open and cover pins in the lower right; keep them behind the (i) button
+      box.current?.querySelector('.maplibregl-ctrl-attrib')?.classList.remove('maplibregl-compact-show')
       m.setTerrain({ source: 'dem', exaggeration: 1.25 })
       m.addSource('routes', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } })
       m.addLayer({
@@ -186,7 +197,7 @@ export default function MapView(props: Props) {
       markers.current.clear()
 
 
-      const pins: { id: string; label: string; place: Place; dayN?: number; time?: string }[] = []
+      const pins: { id: string; label: string; place: Place; dayN?: number; time?: string; what?: string }[] = []
       if (day) {
         const seen = new Set<string>()
         let i = 0
@@ -194,17 +205,26 @@ export default function MapView(props: Props) {
           if (seen.has(s.place)) continue
           seen.add(s.place)
           i += 1
-          pins.push({ id: s.place, label: String(i), place: places[s.place], time: s.time })
+          pins.push({ id: s.place, label: String(i), place: places[s.place], time: s.time, what: mealOf(s) ?? undefined })
         }
       } else {
         const seen = new Map<string, number[]>()
+        const home = new Set<number>()
         for (const d of days) {
           const id = d.sleep ?? d.stops[d.stops.length - 1].place
+          // A day with no hotel ends at the airport: that pin is the way home, not a night
+          if (!d.sleep) home.add(d.n)
           seen.set(id, [...(seen.get(id) ?? []), d.n])
         }
+        // "9·10·11" becomes "9–11" so the label stays short on crowded spots
+        const short = (ns: number[]) =>
+          ns.every((n, k) => k === 0 || n === ns[k - 1] + 1) && ns.length > 2 ? `${ns[0]}–${ns[ns.length - 1]}` : ns.join('·')
         seen.forEach((ns, id) => {
-          const label = ns.join('·')
-          pins.push({ id, label, place: places[id], dayN: ns[0] })
+          const nights = ns.filter((n) => !home.has(n))
+          const what = nights.length
+            ? `${nights.length > 1 ? 'Nights' : 'Night'} ${short(nights).replace(/·/g, ', ')}${nights.length < ns.length ? ', then home' : ''}`
+            : `Day ${ns.join(', ')}: fly home`
+          pins.push({ id, label: short(ns), place: places[id], dayN: ns[0], what })
         })
       }
 
@@ -213,16 +233,19 @@ export default function MapView(props: Props) {
         const el = document.createElement('button')
         el.className = `pin kind-${p.place.kind}${day ? '' : ' pin-night'}`
         el.setAttribute('aria-label', `${p.place.en} ${p.place.ja}`)
-        const img = p.place.photo ? `<img src="${photoUrl(p.place.photo, 160)}" alt="" loading="lazy">` : ''
+        const img = p.place.photo
+          ? `<img src="${photoUrl(p.place.photo, 160)}" alt="" loading="lazy">`
+          : iconHtml(KIND_ICON[p.place.kind], 20)
         el.innerHTML = `
           <span class="pin-ring">${img}</span>
           <span class="pin-num">${p.label}</span>
           <span class="pin-tip">
             ${p.place.photo ? `<img src="${photoUrl(p.place.photo, 480)}" alt="">` : ''}
             <span class="pin-tip-body">
-              <span class="pin-tip-kind">${day ? (p.time ? p.time + ' · ' : '') + KIND_LABEL[p.place.kind] : (p.label.includes('·') ? 'Nights ' : 'Night ') + p.label.replace(/·/g, ', ')}</span>
+              <span class="pin-tip-kind">${day ? (p.time ? p.time + ' · ' : '') + (p.what ?? KIND_LABEL[p.place.kind]) : p.what}</span>
               <span class="pin-tip-ja" lang="ja">${p.place.ja}</span>
               <span class="pin-tip-en">${p.place.en}</span>
+              ${day ? pickHtml(pickOf(planId, p.id)) : ''}
               ${day ? '' : `<span class="pin-tip-hint">Open day ${p.dayN}</span>`}
             </span>
           </span>`
@@ -251,10 +274,20 @@ export default function MapView(props: Props) {
       const narrow = window.innerWidth < 760
       const board = document.querySelector('.board')?.getBoundingClientRect()
       const strip = document.querySelector('.strip')?.getBoundingClientRect()
-      const bottom = strip ? window.innerHeight - strip.top + 10 : 230
+      // Leave room for the map key that sits on top of the strip
+      const bottom = strip ? window.innerHeight - strip.top + 56 : 280
       const padding = narrow
         ? { top: (board?.bottom ?? 300) + 30, bottom, left: 40, right: 40 }
         : { top: 110, bottom, left: (board?.right ?? 420) + 50, right: 80 }
+      // Padding larger than the map makes MapLibre skip the move; keep at least 80 px of map visible
+      const W = m.getContainer().clientWidth
+      const H = m.getContainer().clientHeight
+      const fit = (a: number, b: number, room: number) => {
+        const over = a + b - (room - 80)
+        return over > 0 ? [Math.max(0, a - over / 2), Math.max(0, b - over / 2)] : [a, b]
+      }
+      ;[padding.top, padding.bottom] = fit(padding.top, padding.bottom, H)
+      ;[padding.left, padding.right] = fit(padding.left, padding.right, W)
       m.fitBounds(bounds, {
         padding,
         maxZoom: 14,
@@ -266,7 +299,7 @@ export default function MapView(props: Props) {
     }
     if (ready.current) apply()
     else pending.current = apply
-  }, [day, days, places, routes])
+  }, [day, days, places, routes, planId])
 
   // Hover and selection highlight on markers
   useEffect(() => {
@@ -288,7 +321,9 @@ export default function MapView(props: Props) {
       center: [p.lon, p.lat],
       zoom: Math.max(m.getZoom(), p.kind === 'fuji' || p.kind === 'ski' ? 12.5 : 15),
       pitch: 45,
-      padding: narrow ? { top: 80, bottom: 380, left: 0, right: 0 } : { top: 80, bottom: 220, left: 440, right: 460 },
+      // Centre the place in the free space between the panels. An offset, not a padding:
+      // MapLibre keeps a padding and adds it to the next fitBounds, which then cannot fit and does not move.
+      offset: narrow ? [0, (80 - 380) / 2] : [(440 - 460) / 2, (80 - 220) / 2],
       duration: 1400,
     })
   }, [selected, places])

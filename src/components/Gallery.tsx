@@ -28,7 +28,7 @@ function Lightbox({ photos, start, alt, onClose }: { photos: Photo[]; start: num
       else if (e.key === 'ArrowRight') setI((n) => (n + 1) % photos.length)
       else if (e.key === 'ArrowLeft') setI((n) => (n - 1 + photos.length) % photos.length)
       else return
-      // Keep these keys away from the day tabs and review mode
+      // Keep these keys away from the day tabs behind the photo
       e.preventDefault()
       e.stopImmediatePropagation()
     }

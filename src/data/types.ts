@@ -85,47 +85,8 @@ export interface Day {
   sleepNote?: string
   notes?: string[]
   cost?: string
+  /** Place whose photo is the day card. Plans without it get one when they load (plans.ts). */
   cover: string
-}
-
-export type IdeaKind = 'planned' | 'addon' | 'swap' | 'plan'
-export type IdeaCategory = 'anime' | 'cars' | 'snow' | 'onsen' | 'food' | 'scenery' | 'culture' | 'city' | 'nature' | 'deal'
-
-/** A suggestion the travellers can accept or reject before detailed planning */
-export interface Idea {
-  id: string
-  kind: IdeaKind
-  category: IdeaCategory
-  title: string
-  titleJa: string
-  summary: string
-  why: string
-  days: number[]
-  duration: string
-  cost: string
-  winter: 'ok' | 'check' | 'no'
-  winterNote: string
-  lat: number
-  lon: number
-  route?: [number, number][]
-  places?: { en: string; ja: string; lat: number; lon: number }[]
-  anime?: string
-  photoQuery?: string
-  sources: string[]
-  /** What you will do there: a hook line, concrete moments, one insider tip */
-  experience?: { hook: string; moments: string[]; tip?: string }
-  /** Practical tips (places already in the plan) */
-  tips?: string[]
-  /** Which research area it came from */
-  area: string
-  photo?: string
-  credit?: Credit
-}
-
-export type Verdict = 'yes' | 'maybe' | 'no'
-export interface Choice {
-  verdict?: Verdict
-  note?: string
 }
 
 /** One complete trip option */

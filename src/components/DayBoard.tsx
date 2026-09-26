@@ -2,6 +2,7 @@ import { useState } from 'react'
 import type { Day, Place } from '../data/types'
 import { REGION } from '../data/style'
 import Icon from './Icon'
+import { dayStart, mealOf } from '../data/timeline'
 
 interface Props {
   day: Day
@@ -20,7 +21,11 @@ export default function DayBoard({ day, days, places, onPick, onSelect }: Props)
   const date = new Date(day.date + 'T12:00:00')
   const dateEn = date.toLocaleDateString('en-CA', { weekday: 'short', month: 'short', day: 'numeric' })
   const sleep = day.sleep ? places[day.sleep] : null
-  const start = day.stops.find((s) => s.time && /\d/.test(s.time) && !s.who)?.time ?? day.stops[0].time
+  const start = dayStart(day).time
+  // The next morning, so the alarm time is visible the evening before
+  const morning = next ? dayStart(next) : null
+  const morningPlace = morning ? places[morning.stop.place] : null
+  const morningMeal = morning ? mealOf(morning.stop) : null
 
   return (
     <aside className={`board${open ? ' is-open' : ''}`} style={{ '--rc': region.color } as React.CSSProperties}>
@@ -71,6 +76,21 @@ export default function DayBoard({ day, days, places, onPick, onSelect }: Props)
       <div className="board-body">
         <h2 className="board-title">{day.title}</h2>
 
+        {/* First after the title, so it is visible without scrolling */}
+        {day.alerts.length > 0 && (
+          <section className="alerts">
+            <h3>
+              <Icon name="alert" />
+              Don’t forget
+            </h3>
+            <ul>
+              {day.alerts.map((a, i) => (
+                <li key={i}>{a}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         <dl className="glance">
           <div>
             <dt>Start</dt>
@@ -91,6 +111,16 @@ export default function DayBoard({ day, days, places, onPick, onSelect }: Props)
               ) : (
                 'Flight home'
               )}
+              {morning && morningPlace && (
+                <span className="glance-morning">
+                  <Icon name="sun" size={14} />
+                  <span>
+                    Day {next!.n} starts <b>{morning.time ?? 'n/a'}</b>
+                    {morningMeal ? `, ${morningMeal.toLowerCase()}` : ''}
+                    {morningPlace.id === day.sleep ? ' at the hotel' : ` · ${morningPlace.en}`}
+                  </span>
+                </span>
+              )}
             </dd>
           </div>
         </dl>
@@ -100,19 +130,6 @@ export default function DayBoard({ day, days, places, onPick, onSelect }: Props)
             <b>Split day.</b> {day.split}
           </p>
         )}
-
-        <section className="alerts">
-          <h3>
-            <Icon name="alert" />
-            Don’t forget
-          </h3>
-          <ul>
-            {day.alerts.map((a, i) => (
-              <li key={i}>{a}</li>
-            ))}
-          </ul>
-        </section>
-
 
         <button className="more" onClick={() => setMore((m) => !m)} aria-expanded={more}>
           {more ? 'Hide day notes' : `Day notes${day.notes?.length ? ` and ${day.notes.length} tips` : ''}`}

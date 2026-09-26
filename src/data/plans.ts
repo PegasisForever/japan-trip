@@ -1,4 +1,4 @@
-import type { Credit, Place, Plan } from './types'
+import type { Credit, Day, Kind, Place, Plan } from './types'
 import oldPhotos from './photos.json'
 import ideaPhotos from './ideaPhotos.json'
 import ideaList from './ideas.json'
@@ -39,13 +39,23 @@ export interface LoadedPlan extends Omit<Plan, 'places'> {
   routes: Record<string, [number, number][]>
 }
 
+/** Photo for the day card: the given cover, else the first real sight of the day that has a photo */
+function coverOf(day: Day, places: Record<string, Place>): string {
+  if (day.cover && places[day.cover]) return day.cover
+  const plain: Kind[] = ['hotel', 'station', 'airport']
+  const withPic = day.stops.map((s) => places[s.place]).filter((p) => p?.photo)
+  return (withPic.find((p) => !plain.includes(p.kind)) ?? withPic[0] ?? places[day.stops[0].place]).id
+}
+
 export const plans: LoadedPlan[] = Object.entries(planFiles)
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([file, plan]) => {
     const name = file.split('/').pop()!.replace('.json', '')
+    const places = Object.fromEntries(plan.places.map((p) => [p.id, withPhoto(p)]))
     return {
       ...plan,
-      places: Object.fromEntries(plan.places.map((p) => [p.id, withPhoto(p)])),
+      days: plan.days.map((d) => ({ ...d, cover: coverOf(d, places) })),
+      places,
       routes: routeFiles[`./routes/${name}.json`] ?? {},
     }
   })

@@ -1,0 +1,20 @@
+"""Writes src/data/picks.json: for each plan and place, whose WANT it was ('aoki', 'pegasis' or 'both')."""
+import json, re, glob, os
+HERE=os.path.dirname(os.path.abspath(__file__)); ROOT=os.path.join(HERE,'..')
+def wants(f):
+    txt=open(os.path.join(ROOT,f)).read()
+    for s in re.split(r'\n(?=[A-Z][A-Z ]+ \()',txt):
+        if s.startswith('WANT'): return set(re.findall(r'\[([a-z0-9-]+)\] ·',s))
+    return set()
+A=wants('aoki-choices.txt'); P=wants('pega-choices.txt')
+out={}
+for f in sorted(glob.glob(os.path.join(ROOT,'src/data/plans/*.json'))):
+    plan=json.load(open(f)); res={}
+    for pl in plan['places']:
+        keys={k for k in (pl.get('ref'),pl['id']) if k}
+        keys|={'plan-'+k for k in keys}|{k.replace('plan-','') for k in keys}
+        a,p=bool(keys&A),bool(keys&P)
+        if a or p: res[pl['id']]='both' if a and p else 'aoki' if a else 'pegasis'
+    out[plan['id']]=res
+json.dump(out,open(os.path.join(ROOT,'src/data/picks.json'),'w'),indent=1)
+print({k:len(v) for k,v in out.items()})

@@ -39,6 +39,8 @@ export default function App() {
   const plan = plans[planIndex]
   const days = useMemo(() => plan?.days ?? [], [plan])
   const day = useMemo(() => days.find((d) => d.n === dayN) ?? null, [days, dayN])
+  // A link to a day that does not exist (#plan/day-99) shows the whole trip, with its tab selected
+  const curN = day?.n ?? null
 
   const go = useCallback((id: string, n: number | null) => {
     setPlanId(id)
@@ -70,13 +72,15 @@ export default function App() {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return
+      // Alt+Left is "back" in the browser; leave shortcuts with modifier keys alone
+      if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return
       if (e.key === 'Escape') setSelected(null)
-      if (e.key === 'ArrowRight') pickDay(Math.min(days.length, (dayN ?? 0) + 1))
-      if (e.key === 'ArrowLeft') pickDay(dayN && dayN > 1 ? dayN - 1 : null)
+      if (e.key === 'ArrowRight') pickDay(Math.min(days.length, (curN ?? 0) + 1))
+      if (e.key === 'ArrowLeft') pickDay(curN && curN > 1 ? curN - 1 : null)
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [dayN, days.length, pickDay])
+  }, [curN, days.length, pickDay])
 
   if (!plan) return <p className="empty">No plans yet.</p>
   const places = plan.places
@@ -85,6 +89,7 @@ export default function App() {
     <div className="app">
       <MapView
         key={`map-${plan.id}`}
+        planId={plan.id}
         days={days}
         places={places}
         routes={plan.routes}
@@ -98,9 +103,9 @@ export default function App() {
       <TopBar
         plans={plans}
         planId={plan.id}
-        onPlan={(id) => go(id, dayN)}
+        onPlan={(id) => go(id, curN)}
         days={days}
-        current={dayN}
+        current={curN}
         onPick={pickDay}
       />
       {day ? (
@@ -110,6 +115,7 @@ export default function App() {
       )}
       <MapKey day={day} days={days} />
       <Strip
+        planId={plan.id}
         day={day}
         days={days}
         places={places}
@@ -120,7 +126,7 @@ export default function App() {
         onPickDay={pickDay}
       />
       {selected && places[selected] && (
-        <PlaceDetail key={selected} place={places[selected]} day={day} onClose={() => setSelected(null)} />
+        <PlaceDetail key={selected} planId={plan.id} place={places[selected]} day={day} onClose={() => setSelected(null)} />
       )}
     </div>
   )
