@@ -173,45 +173,6 @@ p {
 .topbar > * {
   pointer-events: auto;
 }
-.brand {
-  flex: none;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 6px 14px 6px 6px;
-  border: 0;
-  border-radius: var(--r-panel);
-  background: var(--paper);
-  box-shadow: var(--shadow);
-  text-align: left;
-}
-.brand-ja {
-  display: grid;
-  place-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 7px;
-  background: var(--ink);
-  color: var(--paper);
-  font-weight: 700;
-  font-size: 15px;
-  writing-mode: vertical-rl;
-  letter-spacing: 0.06em;
-}
-.brand-en {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.2;
-}
-.brand-en b {
-  font-weight: 800;
-  font-size: 17px;
-  letter-spacing: -0.01em;
-}
-.brand-en small {
-  color: var(--mute);
-  font-size: 12.5px;
-}
 
 .tabs {
   display: flex;
@@ -1678,24 +1639,12 @@ button.ekimei-nav:hover {
     gap: 8px;
     padding-inline: 12px;
   }
-  .brand {
-    align-self: flex-start;
-    padding: 5px 12px 5px 5px;
-  }
-  .brand-ja {
-    width: 34px;
-    height: 34px;
-    font-size: 13px;
-  }
-  .brand-en b {
-    font-size: 16px;
-  }
   .board {
-    top: calc(142px + env(safe-area-inset-top, 0px));
+    top: calc(78px + env(safe-area-inset-top, 0px));
     left: 12px;
     right: 12px;
     width: auto;
-    max-height: calc(100% - 142px - 262px);
+    max-height: calc(100% - 78px - 262px);
   }
   .board-title,
   .ekimei-romaji,

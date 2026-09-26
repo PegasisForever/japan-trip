@@ -18,13 +18,6 @@ export default function TopBar({ days, current, onPick }: Props) {
 
   return (
     <header className="topbar">
-      <button className="brand" onClick={() => onPick(null)} aria-label="Whole trip">
-        <span className="brand-ja" lang="ja">雪道</span>
-        <span className="brand-en">
-          <b>Yukimichi</b>
-          <small>Tokyo to Osaka to Hokkaido, Jan 2027</small>
-        </span>
-      </button>
       <div className="tabs" role="tablist" ref={rail}>
         <button
           role="tab"
