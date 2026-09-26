@@ -2,7 +2,7 @@ import type { Choice, Idea, Verdict } from './types'
 
 /** "Day 4", "Days 6–8" or "Changes the route" */
 export function daysText(idea: Idea) {
-  if (idea.days.length === 0) return 'Changes the route'
+  if (idea.days.length === 0) return idea.kind === 'plan' ? 'Changes the route' : 'Any day on the route west'
   const d = [...idea.days].sort((a, b) => a - b)
   const range = d.length > 2 && d[d.length - 1] - d[0] === d.length - 1 ? `${d[0]}–${d[d.length - 1]}` : d.join(', ')
   return `${d.length === 1 ? 'Day' : 'Days'} ${range}`

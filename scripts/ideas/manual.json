@@ -1,0 +1,38 @@
+[
+ {
+  "id": "nara-park-todaiji",
+  "kind": "addon",
+  "category": "culture",
+  "title": "Nara Park, deer and Todaiji",
+  "titleJa": "奈良公園・東大寺",
+  "summary": "A big open park where about 1,300 wild deer walk among the visitors. At one end is Todaiji, a huge wooden hall with a 15 m bronze Buddha. A half day from Kyoto or Osaka, any day.",
+  "why": "The classic Kansai half day, easy by train, and it works on any day of the route west, not only on the festival night.",
+  "days": [],
+  "duration": "half day",
+  "cost": "Todaiji Great Buddha Hall ¥800; deer crackers ¥200; Kintetsu train from Kyoto about ¥760 or from Osaka Namba about ¥680 each way",
+  "winter": "ok",
+  "winterNote": "Open all year. Winter mornings are quiet and the deer are hungry. On Sat Jan 23, 2027 the park is crowded for the hill-burning festival (see that idea).",
+  "lat": 34.6851,
+  "lon": 135.843,
+  "places": [
+   {"en": "Kintetsu Nara Station", "ja": "近鉄奈良駅", "lat": 34.68467, "lon": 135.82797},
+   {"en": "Todai-ji Great Buddha Hall", "ja": "東大寺 大仏殿", "lat": 34.68893, "lon": 135.8399},
+   {"en": "Kasuga Taisha", "ja": "春日大社", "lat": 34.68051, "lon": 135.84607},
+   {"en": "Naramachi old town", "ja": "ならまち", "lat": 34.6777, "lon": 135.8304}
+  ],
+  "photoQuery": "Nara Park deer",
+  "sources": ["https://www.visitnara.jp/", "https://www.todaiji.or.jp/en/"],
+  "experience": {
+   "hook": "Bow to a wild deer, and it bows back before it takes the cracker.",
+   "moments": [
+    "Walk 10 minutes from Kintetsu Nara Station and meet the first deer on the grass.",
+    "Buy a pack of deer crackers (shika senbei), bow, and let the deer bow back.",
+    "Pass through the giant Nandaimon gate, then stand below the Great Buddha inside Todaiji.",
+    "Walk the moss-covered stone-lantern path up to Kasuga Taisha's red shrine.",
+    "Eat hot mochi from Nakatanidou near the station, famous for its fast mochi-pounding show."
+   ],
+   "tip": "Hide paper maps and snacks: the deer will eat them. Hold the crackers high until you are ready."
+  },
+  "area": "manual"
+ }
+]
