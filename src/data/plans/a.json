@@ -2203,30 +2203,6 @@
       ]
     },
     {
-      "id": "kasuga-taisha",
-      "ref": null,
-      "en": "Kasuga Taisha",
-      "ja": "春日大社",
-      "romaji": "Kasuga Taisha",
-      "lat": 34.68146,
-      "lon": 135.84835,
-      "kind": "sight",
-      "blurb": "A red shrine in the forest at the east end of Nara Park, with about 3,000 stone and bronze lanterns along its paths. Deer walk the approach with you.",
-      "info": [
-        {
-          "label": "Hours",
-          "value": "Gates 6:00–18:00; main hall area 7:00–17:00 (Nov–Feb)"
-        },
-        {
-          "label": "Price",
-          "value": "Grounds free; inner area ¥700 (9:00–16:00)"
-        }
-      ],
-      "tips": [
-        "The lantern path from the park is the best part: 20 min each way."
-      ]
-    },
-    {
       "id": "ganko-nara",
       "ref": null,
       "en": "Ganko tonkatsu, Nara",
@@ -3154,10 +3130,10 @@
       "region": "kansai",
       "short": "Nara + Inari",
       "cover": "nara-park",
-      "title": "Nara deer, the Great Buddha and Kasuga Taisha, then Fushimi Inari",
-      "titleJa": "奈良公園 → 東大寺 → 春日大社 → 伏見稲荷大社",
-      "romaji": "Nara Kōen → Tōdaiji → Kasuga Taisha → Fushimi Inari",
-      "summary": "A full morning in Nara: the deer, the Great Buddha at Todaiji and the lantern paths of Kasuga Taisha, lunch in Nara, then one direct JR train to Fushimi Inari. Back in Namba about 16:10 to rest, then izakaya dinner.",
+      "title": "Nara deer and the Great Buddha, then Fushimi Inari",
+      "titleJa": "奈良公園 → 東大寺 → 伏見稲荷大社",
+      "romaji": "Nara Kōen → Tōdaiji → Fushimi Inari",
+      "summary": "A full morning in Nara: time with the deer and the Great Buddha at Todaiji, lunch in Nara, then one direct JR train to Fushimi Inari. Back in Namba about 16:10 to rest, then izakaya dinner.",
       "temp": "1 – 8 °C",
       "alerts": [
         "Leave the hotel at 08:15.",
@@ -3173,17 +3149,12 @@
         {
           "place": "nara-park",
           "time": "09:20",
-          "note": "Deer and crackers in the open park, 40 min (both of you wanted the deer)."
+          "note": "Deer and crackers in the open park, 1 h 15 (both of you wanted the deer)."
         },
         {
           "place": "todaiji",
-          "time": "10:05",
-          "note": "The Great Buddha hall, 45 min, deer all around."
-        },
-        {
-          "place": "kasuga-taisha",
-          "time": "11:10",
-          "note": "The lantern paths and the red shrine, 45 min."
+          "time": "10:45",
+          "note": "The Great Buddha hall and the deer around the gate, 1 h 10."
         },
         {
           "place": "ganko-nara",
@@ -3230,17 +3201,10 @@
         },
         {
           "from": "todaiji",
-          "to": "kasuga-taisha",
-          "mode": "walk",
-          "label": "Walk south-east on the lantern path",
-          "duration": "20 min"
-        },
-        {
-          "from": "kasuga-taisha",
           "to": "ganko-nara",
           "mode": "walk",
-          "label": "Walk back west to Higashimuki",
-          "duration": "25 min"
+          "label": "Walk west along Noborioji-dori to Higashimuki",
+          "duration": "20 min"
         },
         {
           "from": "ganko-nara",
