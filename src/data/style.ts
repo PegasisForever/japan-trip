@@ -53,6 +53,7 @@ export const CATEGORY: Record<string, { label: string; color: string }> = {
 }
 
 export const KIND_TEXT = {
+  planned: 'In the plan',
   addon: 'Add to a day',
   swap: 'Replace days',
   plan: 'New route',

@@ -84,7 +84,7 @@ export interface Day {
   cover: string
 }
 
-export type IdeaKind = 'addon' | 'swap' | 'plan'
+export type IdeaKind = 'planned' | 'addon' | 'swap' | 'plan'
 export type IdeaCategory = 'anime' | 'cars' | 'snow' | 'onsen' | 'food' | 'scenery' | 'culture' | 'city' | 'nature'
 
 /** A suggestion the travellers can accept or reject before detailed planning */
@@ -110,6 +110,8 @@ export interface Idea {
   sources: string[]
   /** What you will do there: a hook line, concrete moments, one insider tip */
   experience?: { hook: string; moments: string[]; tip?: string }
+  /** Practical tips (places already in the plan) */
+  tips?: string[]
   /** Which research area it came from */
   area: string
   photo?: string

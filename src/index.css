@@ -1868,6 +1868,8 @@ button.ekimei-nav:hover {
 }
 .review-card {
   flex: 1;
+  display: flex;
+  flex-direction: column;
   overflow-y: auto;
 }
 .review-card .detail-photo img {
@@ -2215,4 +2217,104 @@ button.ekimei-nav:hover {
   .pin.is-selected .pin-ring {
     transform: none;
   }
+}
+
+/* ---------- Idea panel: only what is needed to decide ---------- */
+.idea-head {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.idea-head .detail-ja {
+  margin: 0;
+  font-size: 24px;
+}
+.idea-head .detail-en {
+  margin: 0;
+}
+.idea-facts-row {
+  list-style: none;
+  margin: -4px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  font-size: 14px;
+  color: var(--ink-2);
+}
+.idea-facts-row li {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+.idea-facts-row .warn {
+  color: #8a5a00;
+  font-weight: 600;
+}
+.idea-facts-row .warn.w-no {
+  color: #9b1c1c;
+}
+.todo-there {
+  gap: 8px;
+}
+.todo-there .hook {
+  font-size: 17px;
+}
+.todo-there .insider {
+  padding: 0;
+  background: none;
+  color: var(--mute);
+  font-size: 13.5px;
+}
+.more-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13.5px;
+  color: var(--ink-2);
+}
+.more-details p {
+  margin: 0;
+}
+.decide {
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: auto;
+  padding: 12px 20px 14px;
+  background: var(--paper);
+  border-top: 1px solid var(--rule);
+}
+.add-note {
+  align-self: flex-start;
+  padding: 2px 0;
+  border: 0;
+  background: none;
+  color: var(--mute);
+  font-size: 13.5px;
+}
+.add-note:hover {
+  color: var(--ink);
+}
+.note-box {
+  width: 100%;
+  resize: vertical;
+  padding: 8px 10px;
+  border: 1px solid var(--rule);
+  border-radius: var(--r-small);
+  background: var(--white);
+  font: 15px/1.4 var(--f-ui);
+}
+@media (max-width: 760px) {
+  .note-box {
+    font-size: 16px;
+  }
+}
+
+.mode-ideas .detail .detail-photo img {
+  aspect-ratio: 16 / 8;
 }

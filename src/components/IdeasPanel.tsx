@@ -174,7 +174,7 @@ export default function IdeasPanel(props: Props) {
                   </span>
                   <span className="idea-meta idea-facts">
                     <span>{shortDuration(idea.duration)}</span>
-                    <span>{shortCost(idea.cost)}</span>
+                    {/\d|free/i.test(idea.cost) && <span>{shortCost(idea.cost)}</span>}
                   </span>
                   {idea.winter !== 'ok' && (
                     <span className={`winter w-${idea.winter}`}>
@@ -190,7 +190,7 @@ export default function IdeasPanel(props: Props) {
                   )}
                 </span>
               </button>
-              <VerdictButtons value={c?.verdict} onChange={(v) => onVerdict(idea.id, v)} />
+              <VerdictButtons value={c?.verdict} onChange={(v) => onVerdict(idea.id, v)} planned={idea.kind === 'planned'} />
             </li>
           )
         })}

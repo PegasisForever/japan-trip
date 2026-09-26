@@ -175,7 +175,7 @@ export default function App() {
               places={places}
               onPick={pickDay}
               onSelect={setSelected}
-              ideaCount={ideas.filter((i) => i.days.includes(day.n)).length}
+              ideaCount={ideas.filter((i) => i.kind !== 'planned' && i.days.includes(day.n)).length}
               onIdeas={() => {
                 setFilter({ status: 'all', category: null, kind: null, day: day.n })
                 openIdeas(true)

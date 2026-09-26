@@ -1,0 +1,476 @@
+[
+ {
+  "id": "athome-cafe-akihabara",
+  "kind": "addon",
+  "category": "anime",
+  "title": "@home café, classic Akihabara maid café",
+  "titleJa": "あっとほぉーむカフェ",
+  "summary": "The best-known maid café chain in Akihabara; maids greet you with 'Welcome home, Master/Princess'. You order food or a drink, the maids cast the 'moe moe kyun' spell on it, and you can buy an instant photo (cheki) with a maid.",
+  "why": "It is the easiest, most beginner-friendly way to see the maid café culture you see in anime, with English menus and card/Alipay/WeChat payment.",
+  "days": [
+   2,
+   5
+  ],
+  "duration": "1 h (basic stay is 1 hour)",
+  "cost": "Admission ¥850 (ages 23–59; ¥600 ages 19–22) + at least 1 drink (¥720–900). Drink course incl. cheki ¥1,690; food course ¥2,810; full course ¥3,810. Extra cheki ¥870 (large ¥1,080). Total about ¥2,500–4,700.",
+  "winter": "ok",
+  "winterNote": "Indoor, open all year. Maids change costumes for seasonal 'cos days'. Weekends and evenings have a queue; use the at-Entry queue ticket or at-PASS reservation on the site. Electronic money (IC) payment ends Oct 2026; cards, PayPay, Alipay, WeChat Pay still OK.",
+  "lat": 35.70072,
+  "lon": 139.77189,
+  "places": [
+   {
+    "en": "@home café Akihabara Donki (Don Quijote 5F)",
+    "ja": "あっとほぉーむカフェ ドンキ店",
+    "lat": 35.70072,
+    "lon": 139.77189
+   },
+   {
+    "en": "@home café Akiba Cultures Zone 5F",
+    "ja": "あっとほぉーむカフェ AKIBAカルチャーズZONE店",
+    "lat": 35.69951,
+    "lon": 139.7704
+   }
+  ],
+  "photoQuery": "Akihabara maid cafe Don Quijote building",
+  "sources": [
+   "https://www.cafe-athome.com/system",
+   "https://www.cafe-athome.com/food-and-drink-menu",
+   "https://www.cafe-athome.com/amusement-menu",
+   "https://www.cafe-athome.com/rulebook"
+  ],
+  "experience": {
+   "hook": "Maids greet you in chorus and draw on your omurice in ketchup.",
+   "moments": [
+    "Hear the whole café call 'Welcome home, Master!' as you step in and get your at-home key card.",
+    "Order the Hiyoko-san omurice and ask the maid to draw a picture on it in ketchup.",
+    "Make heart hands and chant 'moe moe kyun' with your maid to make the food 'tastier'.",
+    "Pick a maid and pose for a cheki photo; she decorates it with drawings at your table."
+   ],
+   "tip": "The Drink Course (¥1,690) already includes one cheki. It is the cheapest full experience if you are not hungry."
+  }
+ },
+ {
+  "id": "maidreamin-akihabara",
+  "kind": "addon",
+  "category": "anime",
+  "title": "Maidreamin, maid café with stage shows",
+  "titleJa": "めいどりーみん 秋葉原本店",
+  "summary": "Big maid café chain with 7 shops in Akihabara, open until 23:00. Every shop has a small stage where maids sing and dance, and first-timers get a 'Maidreamin passport'.",
+  "why": "Loud, bright and fun for a first visit, and the late hours fit an evening after a full day of anime spots.",
+  "days": [
+   2,
+   3,
+   5
+  ],
+  "duration": "1 h",
+  "cost": "Entry ¥880 per hour (adult) + food/drink. Official average: ¥1,500 soft drink only, ¥2,000–2,500 with food, ¥2,500–3,500 with alcohol and a live show. Photo with a maid is extra.",
+  "winter": "ok",
+  "winterNote": "Indoor, open every day. Honten: Mon–Fri 11:30–23:00, Sat/Sun/holidays 10:30–23:00. No table or service charge. Payment: cash, cards, PayPay, WeChat Pay, Alipay. Reservation form on the site.",
+  "lat": 35.70198,
+  "lon": 139.77134,
+  "places": [
+   {
+    "en": "Maidreamin Honten (Sumiyoshi Bldg 6F)",
+    "ja": "めいどりーみん 秋葉原本店",
+    "lat": 35.70198,
+    "lon": 139.77134
+   },
+   {
+    "en": "Maidreamin LIVE RESTAURANT Heaven's Gate",
+    "ja": "めいどりーみん Heaven's Gate",
+    "lat": 35.69796,
+    "lon": 139.77245
+   }
+  ],
+  "photoQuery": "Akihabara maid cafe street night",
+  "sources": [
+   "https://maidreamin.com/first/charge.html",
+   "https://maidreamin.com/shop/index.html?id=1",
+   "https://maidreamin.com/first/intro.html",
+   "https://global.maidreamin.com/"
+  ],
+  "experience": {
+   "hook": "Get a passport to the 'dream country' and watch maids perform live.",
+   "moments": [
+    "Receive your Maidreamin passport and choose the name the maids will call you.",
+    "Say the spell 'oishiku nare, moe moe kyun' together with the maid over your drink.",
+    "Watch a maid song-and-dance show on the small stage between orders.",
+    "Take a commemorative photo with the maid you like before you 'leave the country'."
+   ],
+   "tip": "Entry is charged per hour, so order at once and watch the clock. For a bigger show, pick the Heaven's Gate live restaurant."
+  }
+ },
+ {
+  "id": "cure-maid-cafe",
+  "kind": "addon",
+  "category": "anime",
+  "title": "Cure Maid Café, the first maid café",
+  "titleJa": "キュアメイドカフェ",
+  "summary": "Opened in 2001, it calls itself Japan's first maid café. It is calm: classic long maid uniforms, good tea and scones, and a changing anime collaboration menu.",
+  "why": "A quiet, historic spot for anime fans; it appears as a model in 'Love Live!' and 'Saekano' and always runs an anime collab.",
+  "days": [
+   2
+  ],
+  "duration": "1 h",
+  "cost": "No entry charge found on the official site. Tea ¥770; food/collab menus extra. About ¥1,500–3,000.",
+  "winter": "ok",
+  "winterNote": "Open 11:00–20:00 daily (food L.O. 19:00). Moved: now in Onoden Bldg 4F (Gee! Store Akiba) by the station. Numbered tickets when busy; seat reservation only for paid 'supporter card' members. Collab cafés change about every 2 weeks; check what runs on Jan 20, 2027.",
+  "lat": 35.69835,
+  "lon": 139.77085,
+  "anime": "Love Live! and Saekano (How to Raise a Boring Girlfriend) use it as a model; rotating official anime collab menus",
+  "photoQuery": "Onoden building Akihabara",
+  "sources": [
+   "https://www.curemaid.jp/",
+   "https://www.curemaid.jp/information",
+   "https://www.curemaid.jp/menu/tea",
+   "https://zh.wikipedia.org/wiki/女僕咖啡廳"
+  ],
+  "experience": {
+   "hook": "Drink real tea where the maid café started, back in 2001.",
+   "moments": [
+    "Ride the Onoden escalator to 4F and walk through the Gee! Store to the café.",
+    "Order a pot of Darjeeling or smoky Lapsang souchong from the tea list, ¥770.",
+    "Try a scone or waffle while maids in long classic dresses serve quietly.",
+    "Check the collab menu and goods of whatever anime runs that fortnight."
+   ],
+   "tip": "Photos of your food are fine, but keep staff and other guests out of the frame, and no video."
+  }
+ },
+ {
+  "id": "cafe-mailish-classic",
+  "kind": "addon",
+  "category": "anime",
+  "title": "Cafe Mai:lish, quiet classic maid café",
+  "titleJa": "カフェ メイリッシュ",
+  "summary": "One of the older Akihabara maid cafés, calm and relaxed. No table charge: one order per 90 minutes, and the tea is certified by the Japan Tea Association.",
+  "why": "A more authentic, less showy maid café for when the loud chains feel too much; no entry fee keeps it cheap.",
+  "days": [
+   3,
+   5
+  ],
+  "duration": "1–1.5 h",
+  "cost": "No table charge; 1 order per 90 min. About ¥1,000–2,500.",
+  "winter": "ok",
+  "winterNote": "Closed on Wednesdays, so NOT on day 2 (Wed Jan 20, 2027). Mon/Tue/Thu 14:00–22:00, Fri–Sun/holidays 12:00–22:00. Every Thursday is 'Classical Maid Day' (day 3 evening fits). Phone reservations only on weekdays, up to 1 month ahead; no reservations on weekends.",
+  "lat": 35.70234,
+  "lon": 139.76958,
+  "photoQuery": "Akihabara Sotokanda street",
+  "sources": [
+   "https://mailish.jp/about.html",
+   "https://mailish.jp/access.html",
+   "https://mailish.jp/",
+   "https://zh.wikipedia.org/wiki/女僕咖啡廳"
+  ],
+  "experience": {
+   "hook": "A calm maid café where nobody rushes you: one order buys 90 minutes.",
+   "moments": [
+    "Climb to the 2nd floor of FH Kyowa Square on Sotokanda 3-chome.",
+    "Order tea and scones; on Thursdays the maids wear classic uniforms with a special tea menu.",
+    "Charge your phone at the table and rest your legs after the Akihabara crowds.",
+    "Collect a stamp for each ¥1,000 you spend on the original stamp card."
+   ],
+   "tip": "Go on Thursday evening (day 3) for Classical Maid Day. Ask staff first before you photograph your food."
+  }
+ },
+ {
+  "id": "swallowtail-butler-cafe",
+  "kind": "addon",
+  "category": "anime",
+  "title": "Swallowtail butler café, Ikebukuro",
+  "titleJa": "執事喫茶 スワロウテイル",
+  "summary": "A Victorian-style tea salon near Otome Road where butlers in tailcoats serve you. You pick your teacup from over 50, and eat a set meal or afternoon tea.",
+  "why": "The elegant 'reverse' of a maid café, famous in otome and anime culture; men are welcome too.",
+  "days": [
+   2,
+   5
+  ],
+  "duration": "about 100–110 min (fixed stay)",
+  "cost": "1 set per person is required: ¥5,400 (e.g. pasta + salad + drink, or scones + savoury + dessert tea set); dinner course ¥7,900. Cash or credit card only (no e-money).",
+  "winter": "check",
+  "winterNote": "Advance web reservation with an account is required; walk-in only if there is a same-day cancellation ('today's free seats' on the site). Tea time 10:30–18:15, dinner 18:30–21:15. Arrive 50+ min late = refused and cancellation fee. Menu changes monthly; book as soon as January dates open.",
+  "lat": 35.73146,
+  "lon": 139.71875,
+  "places": [
+   {
+    "en": "Otome Road",
+    "ja": "乙女ロード",
+    "lat": 35.73054,
+    "lon": 139.71791
+   }
+  ],
+  "photoQuery": "Otome Road Ikebukuro",
+  "sources": [
+   "https://www.butlers-cafe.jp/",
+   "https://www.butlers-cafe.jp/swallowtail/guidance",
+   "https://www.butlers-cafe.jp/swallowtail/menu/tmonth"
+  ],
+  "experience": {
+   "hook": "A butler opens the door and calls you home to a Victorian mansion.",
+   "moments": [
+    "Wait by the basement entrance until the doorman checks your booking and a butler escorts you in.",
+    "Choose your teacup from more than 50 in the cup selection.",
+    "Eat the monthly set, like scones with two jams and creams, or seasonal pasta.",
+    "Relax to the end; a butler comes 20–30 minutes before your time ends to settle the bill."
+   ],
+   "tip": "Absolutely no photos inside, with no exceptions. Ask the doorman where you may photograph the entrance."
+  }
+ },
+ {
+  "id": "maidreamin-heavens-gate-live",
+  "kind": "addon",
+  "category": "city",
+  "title": "Maid idol live show night",
+  "titleJa": "めいどりーみん LIVE RESTAURANT Heaven's Gate",
+  "summary": "Maidreamin's 60-seat 'live restaurant' next to Akihabara station, built around a stage. Maids perform idol-style songs and dances while you eat and drink.",
+  "why": "The closest thing to an idol concert-bar in one easy evening, and it stays open until 23:00.",
+  "days": [
+   2,
+   3,
+   5
+  ],
+  "duration": "1–2 h",
+  "cost": "Entry ¥880 per hour + food/drink; about ¥2,500–3,500 with a drink and a show (official average for 'drinks and live').",
+  "winter": "ok",
+  "winterNote": "Open daily: Mon–Fri 11:30–23:00, Sat/Sun/holidays 10:30–23:00. Event nights (birthdays, battles between shops) are the busiest; check the event page for Jan 2027 and reserve on the site.",
+  "lat": 35.69796,
+  "lon": 139.77245,
+  "photoQuery": "Akihabara Electric Town night",
+  "sources": [
+   "https://maidreamin.com/shop/index.html?id=1",
+   "https://maidreamin.com/first/charge.html",
+   "https://maidreamin.com/hyper/"
+  ],
+  "experience": {
+   "hook": "Eat dinner while maids put on a live idol show on stage.",
+   "moments": [
+    "Take the lift to 6F of the building by the Electric Town exit.",
+    "Order a drink and food, then join the 'moe moe kyun' spell with the whole room.",
+    "Wave along as maids sing and dance on the stage, like at a small idol live.",
+    "Walk out after 22:00 into the lit-up Chuo-dori signs."
+   ],
+   "tip": "Look at the event calendar: a shop 'battle' or a maid's anniversary night gives the biggest show."
+  }
+ },
+ {
+  "id": "ikebukuro-otome-road-animate-cafe",
+  "kind": "addon",
+  "category": "anime",
+  "title": "Otome Road and Animate Café",
+  "titleJa": "乙女ロード・アニメイトカフェ池袋",
+  "summary": "Ikebukuro's Otome Road is the fan street for female anime fans. Eat at an official Animate Café anime collab and drink a 'Gratte' latte with a character printed on the cream.",
+  "why": "Real anime collab food and goods in one short walk, with the Animate Ikebukuro main store next door.",
+  "days": [
+   2,
+   5
+  ],
+  "duration": "2–3 h",
+  "cost": "Collab café: about ¥2,000–3,000 (check each event). Gratte latte: about ¥1,000 (check). No reservation needed for Gratte.",
+  "winter": "check",
+  "winterNote": "Collab titles change every few weeks; check animatecafe.jp in Dec 2026 for Jan 2027 events. Some collabs need an online seat reservation, others are 'free entry'. Gratte at Animate Ikebukuro main store 10:00–20:00; numbered tickets when busy.",
+  "lat": 35.73007,
+  "lon": 139.71763,
+  "places": [
+   {
+    "en": "Animate Café Ikebukuro (PACKS 7F/8F)",
+    "ja": "アニメイトカフェ池袋",
+    "lat": 35.73007,
+    "lon": 139.71763
+   },
+   {
+    "en": "Otome Road",
+    "ja": "乙女ロード",
+    "lat": 35.73054,
+    "lon": 139.71791
+   },
+   {
+    "en": "Swallowtail butler café",
+    "ja": "執事喫茶 スワロウテイル",
+    "lat": 35.73146,
+    "lon": 139.71875
+   }
+  ],
+  "anime": "Changing official collabs (whatever runs in Jan 2027)",
+  "photoQuery": "Otome Road Ikebukuro",
+  "sources": [
+   "https://www.animatecafe.jp/shop",
+   "https://www.animate.co.jp/gratte/",
+   "https://www.animatecafe.jp/about/faq"
+  ],
+  "experience": {
+   "hook": "Drink a latte with your favourite character printed on the foam.",
+   "moments": [
+    "Walk Otome Road past shops full of character goods and doujinshi.",
+    "Order a Gratte and photograph the character printed on the cream before it melts.",
+    "Eat a themed collab dish and get a random bonus coaster or card.",
+    "Browse the floors of the Animate Ikebukuro main store for goods."
+   ],
+   "tip": "Pick the collab first on animatecafe.jp, then check if it needs a timed reservation. Many collabs sell out on the first days."
+  }
+ },
+ {
+  "id": "pokemon-cafe-nihonbashi",
+  "kind": "addon",
+  "category": "food",
+  "title": "Pokémon Café Tokyo, Nihonbashi",
+  "titleJa": "ポケモンカフェ TOKYO",
+  "summary": "The official Pokémon café in Nihonbashi Takashimaya. You eat Pokémon-shaped food, and Pikachu comes out for a short live show.",
+  "why": "A playful, very photogenic meal for anime and game fans, with English and simplified Chinese menus.",
+  "days": [
+   5
+  ],
+  "duration": "90 min (fixed)",
+  "cost": "About ¥2,500–4,000 per person for a dish, a drink and a dessert (estimate; check menu).",
+  "winter": "check",
+  "winterNote": "Reservation only, via the official site; opening time for bookings can change (it is usually about one month ahead, check the news page). Same-day seats only from cancellations at the door. Open 10:30–21:00, L.O. 20:30.",
+  "lat": 35.68044,
+  "lon": 139.77437,
+  "photoQuery": "Nihonbashi Takashimaya",
+  "sources": [
+   "https://www.pokemon-cafe.jp/ja/cafe/",
+   "https://www.pokemon-cafe.jp/ja/cafe/faq/"
+  ],
+  "experience": {
+   "hook": "Pikachu walks out and dances beside your table.",
+   "moments": [
+    "Go up to 5F of the Takashimaya East building near Tokyo Station.",
+    "Order a Pokémon-shaped dish and a souvenir-menu drink that comes with a café-only item.",
+    "Watch the Pikachu show, about 10 minutes long.",
+    "Buy café-only goods in the shop before your 90 minutes end."
+   ],
+   "tip": "Set a reminder for the day bookings open; slots go in minutes. Each email address can book only one slot."
+  }
+ },
+ {
+  "id": "kirby-cafe-solamachi",
+  "kind": "addon",
+  "category": "food",
+  "title": "Kirby Café at Tokyo Skytree",
+  "titleJa": "カービィカフェ TOKYO",
+  "summary": "The official Kirby café in Tokyo Solamachi at the foot of Skytree. Food and sweets look like Kirby and his friends.",
+  "why": "Cute, funny food for game fans, and you can join it with the Skytree view.",
+  "days": [
+   5
+  ],
+  "duration": "about 1.5 h",
+  "cost": "About ¥3,000–4,000 per person (estimate; check menu).",
+  "winter": "check",
+  "winterNote": "Reservation needs an account (since Aug 2026 slots). Slots for a month opened on the 10th of the month before in 2026 (so Jan 2027 slots probably from about Dec 10, 2026, check). Max 3 bookings per month per shop; photo ID checked at the door. Open 10:00–22:00.",
+  "lat": 35.71037,
+  "lon": 139.8119,
+  "photoQuery": "Tokyo Solamachi",
+  "sources": [
+   "https://kirbycafe.jp/cafe/tokyo/",
+   "https://kirbycafe.jp/cafe/faq/",
+   "https://kirbycafe.jp/cafe/"
+  ],
+  "experience": {
+   "hook": "Eat a Kirby-shaped meal right under Tokyo Skytree.",
+   "moments": [
+    "Find the café on Solamachi East Yard 4F, next to the Kirby Café The Store.",
+    "Order a Kirby dish and a dessert shaped like a Kirby character.",
+    "Photograph the food before you eat it; it looks too cute to cut.",
+    "Buy café-only goods at the store next door."
+   ],
+   "tip": "Come 10 minutes early with photo ID; the name on the booking must match."
+  }
+ },
+ {
+  "id": "super-potato-retro-arcade",
+  "kind": "addon",
+  "category": "city",
+  "title": "Super Potato retro games and arcade",
+  "titleJa": "スーパーポテト 秋葉原店",
+  "summary": "A famous retro game shop on 3 floors with Famicom, Mega Drive and much more. The top floor is a small arcade with old cabinets and Japanese sweets (dagashi).",
+  "why": "Old-school Japanese game culture next to the maid cafés; play a few ¥100 arcade games between cafés.",
+  "days": [
+   2
+  ],
+  "duration": "1 h",
+  "cost": "Free to enter; arcade games from about ¥100; games and goods extra.",
+  "winter": "ok",
+  "winterNote": "Open every day 11:00–20:00. Kitabayashi Bldg 3F/4F/5F, next to the @home café main shop.",
+  "lat": 35.69937,
+  "lon": 139.77074,
+  "photoQuery": "Super Potato Akihabara",
+  "sources": [
+   "https://www.superpotato.com/shop/akihabara"
+  ],
+  "experience": {
+   "hook": "Walk into a shop packed floor to ceiling with Famicom cartridges.",
+   "moments": [
+    "Go up to 3F and 4F, where the shelves are full of boxed retro games.",
+    "Look for old consoles, Famicom carts and rare handheld LSI games.",
+    "Play a round on an old arcade cabinet on 5F.",
+    "Buy a cheap dagashi sweet before you leave."
+   ],
+   "tip": "Check the back of the box for NTSC-J region before you buy a game to play at home."
+  }
+ },
+ {
+  "id": "maidreamin-sapporo-tanukikoji",
+  "kind": "addon",
+  "category": "city",
+  "title": "Maid café night in Sapporo",
+  "titleJa": "めいどりーみん 札幌狸小路店",
+  "summary": "Maidreamin's 60-seat Sapporo shop on the covered Tanukikoji shopping street. Same maid show and spells as Akihabara, open until 23:00.",
+  "why": "If you skip maid cafés in busy Tokyo, this is an easy, warm evening stop in snowy Sapporo.",
+  "days": [
+   13,
+   14
+  ],
+  "duration": "1 h",
+  "cost": "Entry ¥880 per hour + food/drink; about ¥1,500–3,500.",
+  "winter": "ok",
+  "winterNote": "Open daily 11:30–23:00. Tanukikoji is a covered arcade, so the walk is dry in snow. Sapporo Snow Festival 2027 dates: check (usually early Feb). Pin is Tanukikoji 4-chome (shop address: Minami 2-jo Nishi 4-10-2, Shimizu Bldg 6F).",
+  "lat": 43.05718,
+  "lon": 141.35211,
+  "photoQuery": "Tanukikoji Sapporo",
+  "sources": [
+   "https://maidreamin.com/shop/index.html?id=1",
+   "https://maidreamin.com/first/charge.html"
+  ],
+  "experience": {
+   "hook": "Warm up from the Sapporo snow with a maid café spell.",
+   "moments": [
+    "Walk the covered Tanukikoji arcade to the 4-chome block.",
+    "Take the lift to 6F of the Shimizu Building.",
+    "Chant 'moe moe kyun' over a hot drink with the maid.",
+    "Watch the stage show, then walk to Susukino for ramen."
+   ],
+   "tip": "Go after dinner; it is open to 23:00 and the evening shows are the liveliest."
+  }
+ },
+ {
+  "id": "gratte-sendai-animate",
+  "kind": "addon",
+  "category": "anime",
+  "title": "Character latte at Animate Sendai",
+  "titleJa": "アニメイトカフェグラッテ アニメイト仙台",
+  "summary": "A small Gratte counter inside Animate Sendai, by Sendai Station. You drink a latte with an anime character printed on the cream and browse the anime shop.",
+  "why": "A quick 30-minute anime stop in Sendai before or after gyutan dinner.",
+  "days": [
+   7
+  ],
+  "duration": "30–45 min",
+  "cost": "About ¥1,000 per drink (check).",
+  "winter": "ok",
+  "winterNote": "Animate Sendai is in EBeanS 7F by Sendai Station, indoor. Gratte hours 11:00–19:00 (L.O. 18:45). Titles change; check the Gratte event list for Jan 25, 2027.",
+  "lat": 38.25876,
+  "lon": 140.88004,
+  "photoQuery": "Sendai Station west exit",
+  "sources": [
+   "https://www.animate.co.jp/gratte/",
+   "https://www.animate.co.jp/shop/sendai/"
+  ],
+  "experience": {
+   "hook": "Drink a latte with an anime character printed on top.",
+   "moments": [
+    "Walk from Sendai Station west exit to EBeanS and go up to 7F.",
+    "Choose a character from the current collab and order the Gratte.",
+    "Take a photo of the printed cream before you drink.",
+    "Browse the Animate shop for manga and character goods."
+   ],
+   "tip": "L.O. is 18:45, so do it before gyutan dinner, not after."
+  }
+ }
+]

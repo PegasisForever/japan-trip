@@ -5,7 +5,7 @@ export function daysText(idea: Idea) {
   if (idea.days.length === 0) return 'Changes the route'
   const d = [...idea.days].sort((a, b) => a - b)
   const range = d.length > 2 && d[d.length - 1] - d[0] === d.length - 1 ? `${d[0]}–${d[d.length - 1]}` : d.join(', ')
-  return `${idea.kind === 'addon' ? 'Day' : 'Days'} ${range}`
+  return `${d.length === 1 ? 'Day' : 'Days'} ${range}`
 }
 
 
@@ -30,7 +30,7 @@ export function shortDuration(d: string) {
 export function choicesText(ideas: Idea[], choices: Record<string, Choice>) {
   const line = (i: Idea) => {
     const note = choices[i.id]?.note?.trim()
-    return `- ${i.title} (${i.titleJa}) [${i.id}] · ${daysText(i)}${note ? `\n  Note: ${note.replace(/\n/g, ' ')}` : ''}`
+    return `- ${i.kind === 'planned' ? '[in plan] ' : ''}${i.title} (${i.titleJa}) [${i.id}] · ${daysText(i)}${note ? `\n  Note: ${note.replace(/\n/g, ' ')}` : ''}`
   }
   const group = (v: Verdict, head: string) => {
     const list = ideas.filter((i) => choices[i.id]?.verdict === v)
