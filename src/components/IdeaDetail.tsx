@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import type { Choice, Idea, Verdict } from '../data/types'
-import { photoUrl } from '../data/photos'
 import VerdictButtons from './VerdictButtons'
 import { daysText, shortCost, shortDuration } from '../data/ideaText'
 import Icon from './Icon'
+import Gallery from './Gallery'
+import { photosFor } from '../data/gallery'
 
 /** "anitabi.cn" from a full link, so each source says where it goes */
 function host(u: string) {
@@ -30,16 +31,7 @@ export function IdeaBody({ idea, choice, onVerdict, onNote, review }: Props) {
   const exp = idea.experience
   return (
     <>
-      {idea.photo && (
-        <figure className="detail-photo">
-          <img src={photoUrl(idea.photo, 1280)} alt={idea.title} />
-          {idea.credit && (
-            <figcaption>
-              Photo: <a href={idea.credit.url} target="_blank" rel="noreferrer">{idea.credit.author}</a>, {idea.credit.license}
-            </figcaption>
-          )}
-        </figure>
-      )}
+      <Gallery photos={photosFor(idea.id, idea.photo, idea.credit)} alt={idea.title} />
       <div className="detail-body">
         <header className="idea-head">
           <h2 className="detail-ja" lang="ja">{idea.titleJa}</h2>

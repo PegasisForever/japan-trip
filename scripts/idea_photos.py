@@ -4,7 +4,12 @@
   python3 idea_photos.py fetch            # download picks from ideas/photo-picks.json ({id: index})
 """
 import json, os, re, sys, time, subprocess, urllib.request, urllib.parse
-UA={'User-Agent':'YukimichiTripPlanner/1.0 (personal trip map)'}
+UA={'User-Agent':'YukimichiTripPlanner/1.0 (https://de75-173-32-75-236.ngrok-free.app; personal trip planner) python-urllib'}
+import hashlib
+def std_thumb(title,want,orig_w):
+    name=title.split(':',1)[1].replace(' ','_'); h=hashlib.md5(name.encode()).hexdigest()
+    w=max([x for x in (250,330,500,960,1280,1920) if x<=min(want,orig_w)] or [250]); q=urllib.parse.quote(name)
+    return f'https://upload.wikimedia.org/wikipedia/commons/thumb/{h[0]}/{h[:2]}/{q}/{w}px-{q}'
 DB='cache/icands.json'; os.makedirs('cache/icands',exist_ok=True)
 def get(u,binary=False):
     for i in range(10):
@@ -36,8 +41,9 @@ if cmd=='cands':
             ii=pg.get('imageinfo',[{}])[0]
             if ii.get('mime')!='image/jpeg' or ii.get('width',0)<900 or ii.get('width',0)<ii.get('height',1)*0.9: continue
             f=f'cache/icands/{o["id"]}_{len(out)}.jpg'
-            open(f,'wb').write(get(ii['thumburl'].replace('/1280px-','/250px-'),True)); time.sleep(1.2)
-            out.append({'title':pg['title'],'thumb1280':ii['thumburl'],'url':ii['descriptionurl'],'meta':{k:ii['extmetadata'].get(k,{}).get('value','') for k in ('Artist','LicenseShortName')}})
+            try: open(f,'wb').write(get(std_thumb(pg['title'],250,ii['width']),True)); time.sleep(0.5)
+            except Exception: continue
+            out.append({'title':pg['title'],'thumb1280':std_thumb(pg['title'],1280,ii['width']),'url':ii['descriptionurl'],'meta':{k:ii['extmetadata'].get(k,{}).get('value','') for k in ('Artist','LicenseShortName')}})
             if len(out)==5: break
         db[o['id']]=out; json.dump(db,open(DB,'w'),ensure_ascii=False)
         print(o['id'],len(out),'|',q,flush=True); time.sleep(1.5)
@@ -50,6 +56,8 @@ elif cmd=='sheet':
     subprocess.run(['montage',*args,'-tile','5x','-geometry','250x160+3+3','-pointsize','12',out],check=True)
 elif cmd=='fetch':
     picks=json.load(open('ideas/photo-picks.json'))
+    import glob as _g
+    for extra in sorted(_g.glob('ideas/photo-picks-*.json')): picks.update(json.load(open(extra)))
     credits=json.load(open('../src/data/ideaPhotos.json'))
     for d in ('','t/','m/'): os.makedirs(f'../public/photos/{d}ideas',exist_ok=True)
     strip=lambda h: re.sub(r'\s+',' ',re.sub('<[^>]+>','',h or '')).strip()

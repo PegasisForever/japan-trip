@@ -1,7 +1,8 @@
 import type { Day, Place } from '../data/types'
 import { KIND_LABEL } from '../data/style'
-import { photoUrl } from '../data/photos'
 import Icon from './Icon'
+import Gallery from './Gallery'
+import { photosFor } from '../data/gallery'
 
 interface Props {
   place: Place
@@ -18,16 +19,7 @@ export default function PlaceDetail({ place, day, onClose }: Props) {
       <button className="detail-close" onClick={onClose} aria-label="Close details">
         <Icon name="close" size={18} />
       </button>
-      {place.photo && (
-        <figure className="detail-photo">
-          <img src={photoUrl(place.photo, 1280)} alt={place.en} />
-          {place.credit && (
-            <figcaption>
-              Photo: <a href={place.credit.url} target="_blank" rel="noreferrer">{place.credit.author}</a>, {place.credit.license}
-            </figcaption>
-          )}
-        </figure>
-      )}
+      <Gallery photos={photosFor(place.id, place.photo, place.credit)} alt={place.en} />
       <div className="detail-body">
         <p className="detail-kind">
           {KIND_LABEL[place.kind]}

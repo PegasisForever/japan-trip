@@ -1,0 +1,211 @@
+[
+  {
+    "id": "xhs-shelter-live-night",
+    "area": "xhs",
+    "kind": "addon",
+    "category": "anime",
+    "title": "See a real show at SHELTER",
+    "titleJa": "下北沢SHELTER ライブ",
+    "summary": "SHELTER in Shimokitazawa is the real live house behind STARRY in Bocchi the Rock. Chinese fans say: do not only photograph the door, buy a ticket for an evening show and stand inside like Bocchi's band.",
+    "why": "It turns the Bocchi pilgrimage on day 2 into a real indie-rock night in the same room.",
+    "days": [
+      2
+    ],
+    "duration": "2–3 h (evening)",
+    "cost": "Ticket about ¥2,000–3,000 (XHS, Apr 2026) + one drink ticket ¥600 at the door (XHS, Mar 2025)",
+    "winter": "check",
+    "winterNote": "XHS: 2 independent notes, latest Apr 2026 (纯一Guitar 04-10, 1,645 likes/719 saves: 'book ahead from abroad, pay with Visa, ¥2,000–3,000, 10 min walk from the station'; 困困的Sama酱 2025-03-17, 365 likes/366 saves: find the show on Google Maps → ticket site; site sign-up may need a Japanese phone number; pick up the paper ticket at 7-Eleven or FamilyMart for a small fee; queue by the number printed on the ticket; standing only, no seats; for a normal show you do not need to book far ahead). Show list for Jan 20, 2027 is not out yet: check loft-prj.co.jp/schedule in Dec 2026. Existing idea says no SHELTER photos on weekends or evenings.",
+    "lat": 35.66155,
+    "lon": 139.66956,
+    "anime": "Bocchi the Rock!: SHELTER is the model for STARRY, where Kessoku Band plays its first live",
+    "photoQuery": "Shimokitazawa SHELTER live house",
+    "sources": [
+      "https://www.xiaohongshu.com/explore/69d61c42000000001a025ced",
+      "https://www.xiaohongshu.com/explore/67d7ac42000000001c00e4c6",
+      "https://www.loft-prj.co.jp/schedule"
+    ],
+    "experience": {
+      "hook": "Stand in STARRY's real basement while a Tokyo band plays loud.",
+      "moments": [
+        "Check the SHELTER schedule in December and pick a band night on Jan 20.",
+        "Print the ticket at a 7-Eleven or FamilyMart on the way.",
+        "Walk down the poster-covered stairs under the neon SHELTER sign when your number is called.",
+        "Buy the ¥600 drink ticket, grab a can, and stand near the back."
+      ],
+      "tip": "Bring ¥600 in coins for the drink ticket; the queue at the counter is fast only with exact money."
+    }
+  },
+  {
+    "id": "xhs-akiba-street-maid-trap",
+    "area": "xhs",
+    "kind": "addon",
+    "category": "city",
+    "title": "Akihabara: skip street-tout maid cafés",
+    "titleJa": "秋葉原 客引きメイド 注意",
+    "summary": "Chinese visitors warn about maids who stand on Akihabara streets and lead you to a small room in an old building. Two people paid over ¥8,000 for 10 minutes, one phone photo and a cola; go only to shops you find yourself, like @home or Maidreamin.",
+    "why": "Protects the day-2 maid café budget; the real cafés already in ideas.json cost much less for more fun.",
+    "days": [
+      2
+    ],
+    "duration": "0 (a rule to follow)",
+    "cost": "Trap example (Feb 2026): ¥1,000×2 entry + ¥700×2 drinks + ¥2,500 phone photo + ¥1,000 for her drink + 20% tax = over ¥8,000 for two",
+    "winter": "ok",
+    "winterNote": "XHS: 2 notes read, latest Jul 2026 (momo 02-23, 121 likes/57 comments: tout led them through side streets to a tiny room, 'real ones have queues'; comment from another user: '¥2,500 per hour with drinks and a show' at a normal shop; upupup 07-21: long article that street touting and '40 minutes over ¥10,000' 'concept cafés' are now common while classic maid cafés close). The same search shows several other 避雷 (avoid) notes, not read. Chiyoda ward bans street touting, so a tout is itself a warning sign (rule known, not checked for 2026).",
+    "lat": 35.69788,
+    "lon": 139.77195,
+    "photoQuery": "Akihabara Chuo-dori street maid",
+    "sources": [
+      "https://www.xiaohongshu.com/explore/699c63790000000015023304",
+      "https://www.xiaohongshu.com/explore/6a5db471000000000100db81",
+      "https://www.xiaohongshu.com/search_result?keyword=%E7%A7%8B%E5%8F%B6%E5%8E%9F%20%E5%A5%B3%E4%BB%86%E5%92%96%E5%95%A1%20%E9%81%BF%E9%9B%B7&source=web_search_result_notes"
+    ],
+    "experience": {
+      "hook": "Smile, say 'daijoubu', and keep walking.",
+      "moments": [
+        "Pick your maid café before you arrive: @home, Maidreamin or Cure Maid.",
+        "Walk past maids with menus on Chuo-dori; a tout is not a café.",
+        "Before you sit anywhere, ask for the price list: entry, drink, photo, tax.",
+        "Leave if the room is in an old walk-up with no other customers."
+      ],
+      "tip": "A real maid café has a sign, a door on the street or in a mall, and often a queue."
+    }
+  },
+  {
+    "id": "xhs-ikebukuro-goods-route",
+    "area": "xhs",
+    "kind": "addon",
+    "category": "anime",
+    "title": "Ikebukuro anime goods route, 2026",
+    "titleJa": "池袋 アニメグッズ巡り（アニメイト・K-BOOKS・駿河屋）",
+    "summary": "XHS fans say Ikebukuro, not Akihabara, is now the best place to buy anime goods (谷子). Start at the 9-floor Animate main store, cross the street to Surugaya and Lashinbang for used goods, then walk the row of K-BOOKS shops toward Sunshine City.",
+    "why": "More new and used goods in a 10-minute walk than Akihabara, and it is on the same JR line as their Shinjuku hotel.",
+    "days": [
+      2,
+      5
+    ],
+    "duration": "2–3 h",
+    "cost": "Free to walk; used can badges and acrylic stands often a few hundred yen (price not checked). Tax-free at Animate from ¥5,000 before tax (existing idea).",
+    "winter": "ok",
+    "winterNote": "XHS: 2 independent notes, latest Sep 2026 (カレーパン 03-19, 3,183 likes/3,572 saves: exact route Animate → Stellaworth (2F, across the road) → Surugaya 1F + Lashinbang 3F opposite Animate → K-BOOKS idol, chara, live, otome and game buildings; 橘猫Hanabi 2026 map, 1,978 likes/2,537 saves, updated Sep 2026: two K-BOOKS shops renamed (K-BOOKS ファンシー館, K-POP館プラス), Lashinbang trend shop moved into the female doujin shop B1; comments add animega and an amiami shop with tax-free). Nakano Broadway note (Hopeful and invincible, Aug 2026): small shops open late and close early on their own schedule, and Google hours are often wrong, so go to Nakano after 13:00 and not near closing.",
+    "lat": 35.73156,
+    "lon": 139.71651,
+    "places": [
+      {
+        "en": "Surugaya Ikebukuro (Animate main store is across the street)",
+        "ja": "駿河屋 池袋",
+        "lat": 35.73156,
+        "lon": 139.71651
+      },
+      {
+        "en": "Animate Café Ikebukuro / Otome Road side",
+        "ja": "アニメイトカフェ池袋",
+        "lat": 35.73007,
+        "lon": 139.71763
+      },
+      {
+        "en": "Nakano Broadway (go after 13:00)",
+        "ja": "中野ブロードウェイ",
+        "lat": 35.70919,
+        "lon": 139.66574
+      }
+    ],
+    "photoQuery": "Animate Ikebukuro main store",
+    "sources": [
+      "https://www.xiaohongshu.com/explore/68dc0656000000000302179e",
+      "https://www.xiaohongshu.com/explore/69c1f047000000001b002af6",
+      "https://www.xiaohongshu.com/explore/6a85769c000000002800aedc"
+    ],
+    "experience": {
+      "hook": "Nine floors of new goods, then a street of used treasure.",
+      "moments": [
+        "Walk 8 minutes from Ikebukuro East Exit (north side) to the blue Animate tower.",
+        "Ride to the top of Animate and work down floor by floor.",
+        "Cross the road to Surugaya 1F and Lashinbang 3F for cheap used badges and stands.",
+        "Hop through the K-BOOKS buildings on the way to Sunshine City."
+      ],
+      "tip": "Keep all receipts from Animate in one visit: ¥5,000 before tax gets tax-free."
+    }
+  },
+  {
+    "id": "xhs-tokyu-stay-shinjuku",
+    "area": "xhs",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Tokyu Stay Shinjuku: washer in room",
+    "titleJa": "東急ステイ新宿",
+    "summary": "A Shinjuku-sanchome hotel that XHS users praise for a big room where two open suitcases fit, plus a washer-dryer and microwave in the room. It is 1 minute from Shinjuku-sanchome Station.",
+    "why": "For 4 Tokyo nights in winter, free in-room laundry of heavy clothes saves coin-laundry time; price is close to Gracery.",
+    "days": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "duration": "4 nights",
+    "cost": "About 1,100 CNY (≈ ¥23,000) per night in 2026 (XHS comment, room type not stated) vs Gracery ~¥26,000 twin. Not checked for Jan 2027 dates.",
+    "winter": "ok",
+    "winterNote": "XHS: 1 main note read (抬头看月亮 04-07-2026, 447 likes/421 saves: 'room very big, two suitcases open and still room to walk; washer-dryer (dryer is great) and microwave'); several other Shinjuku hotel notes list it. Official site: Deluxe Twin 30 m² has washer-dryer, mini kitchen and microwave; Superior Queen and Deluxe King have washer-dryer and microwave. Breakfast ¥2,530. Check twin price on the official site or Expedia before booking.",
+    "lat": 35.69092,
+    "lon": 139.70619,
+    "photoQuery": "Tokyu Stay Shinjuku",
+    "sources": [
+      "https://www.xiaohongshu.com/explore/69d3c4b9000000001a037aef",
+      "https://www.tokyustay.co.jp/hotel/SJ/",
+      "https://www.tokyustay.co.jp/hotel/SJ/room/"
+    ],
+    "experience": {
+      "hook": "Wash the ski socks in your room while you eat ramen downstairs.",
+      "moments": [
+        "Book the Deluxe Twin, the room type with washer-dryer and mini kitchen.",
+        "Throw in the day's clothes before dinner in Shinjuku-sanchome.",
+        "Warm a konbini bento in the room microwave after a late night.",
+        "Pack dry, clean clothes on day 6 before the Tohoku snow."
+      ],
+      "tip": "Ask for a twin with the washer-dryer; not every room type has the mini kitchen."
+    }
+  },
+  {
+    "id": "xhs-via-inn-shinjuku",
+    "area": "xhs",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Via Inn Shinjuku, cheap and clean",
+    "titleJa": "ヴィアイン新宿",
+    "summary": "A JR-West business hotel in Shinjuku 5-chome that a 10-times Tokyo visitor picked over Washington and Sotetsu Fresa: bright, clean, daily cleaning, and cheaper. From here you can walk underground to Busta Shinjuku for the airport bus.",
+    "why": "A plain, clean base for less money than Gracery; the airport bus link helps on day 1 and the last day.",
+    "days": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "duration": "4 nights",
+    "cost": "Solo traveller paid a little over 4,000 CNY for 8 nights (≈ ¥10,500 a night, summer 2026) and says it was about 2,000 CNY less than the two other hotels. Twin price for Jan 2027 not checked.",
+    "winter": "ok",
+    "winterNote": "XHS: 1 detailed note (萨畇らな 08-15-2026, 590 likes/750 saves, 87 comments). Room not big but a 34-inch suitcase fits open; TV takes phone mirroring; 5 min walk to Shinjuku-sanchome, close to Isetan. Weak points: only one Lawson nearby. Airport bus: go down at Shinjuku-sanchome exit E1, walk the underground passage toward Takashimaya to Busta Shinjuku 4F (about 20 min, dry in rain or snow). Check whether a twin room exists.",
+    "lat": 35.69333,
+    "lon": 139.70741,
+    "places": [
+      {
+        "en": "Busta Shinjuku (airport bus terminal, 4F)",
+        "ja": "バスタ新宿",
+        "lat": 35.6882,
+        "lon": 139.70044
+      }
+    ],
+    "photoQuery": "Via Inn Shinjuku hotel",
+    "sources": [
+      "https://www.xiaohongshu.com/explore/6a7f641f0000000026037817"
+    ],
+    "experience": {
+      "hook": "A clean, quiet room five minutes from Isetan's food hall.",
+      "moments": [
+        "Ride the airport bus into Busta Shinjuku and walk underground to the hotel.",
+        "Drop bags, then walk to Isetan's basement for half-price dinner after 19:30.",
+        "Cast anime clips from your phone to the room TV at night.",
+        "On departure day, walk the dry underground passage back to Busta 4F."
+      ],
+      "tip": "Prices on this hotel jump around: the author checked for days until the rate dropped."
+    }
+  }
+]

@@ -85,7 +85,7 @@ export interface Day {
 }
 
 export type IdeaKind = 'planned' | 'addon' | 'swap' | 'plan'
-export type IdeaCategory = 'anime' | 'cars' | 'snow' | 'onsen' | 'food' | 'scenery' | 'culture' | 'city' | 'nature'
+export type IdeaCategory = 'anime' | 'cars' | 'snow' | 'onsen' | 'food' | 'scenery' | 'culture' | 'city' | 'nature' | 'deal'
 
 /** A suggestion the travellers can accept or reject before detailed planning */
 export interface Idea {

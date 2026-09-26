@@ -34,5 +34,19 @@
  },
  "nikko-winter-kegon": {
   "photoQuery": "Kegon Falls winter"
+ },
+ "exp2-aoki-pvg-nrt-spring": {
+  "lat": 35.7654,
+  "lon": 140.386,
+  "route": null
+ },
+ "exp2-yyz-tyo-westjet-roundtrip": {
+  "route": null
+ },
+ "exp2-open-jaw-yyz-nrt-cts-yyz": {
+  "route": null
+ },
+ "exp2-aoki-return-to-pvg": {
+  "route": null
  }
 }

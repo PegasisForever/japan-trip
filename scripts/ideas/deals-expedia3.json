@@ -1,0 +1,492 @@
+[
+ {
+  "id": "exp3-shirogane-rin",
+  "kind": "swap",
+  "category": "deal",
+  "title": "Shirogane Onsen instead of Furano",
+  "titleJa": "森のしずく 凛（白金温泉）",
+  "summary": "Morinosizuku RIN at Shirogane Onsen (Biei) is CA$200 with breakfast on Jan 30, CA$118 less than Natulux Furano, and 30 min walk to the Blue Pond.",
+  "why": "Saves about CA$118 (~¥12,700) on the Jan 30 night and puts you next to Blue Pond and Shirahige Falls (the light-up is at night). Hotel ParkHills next door is CA$210 (was CA$318).",
+  "days": [
+   12
+  ],
+  "duration": "1 night",
+  "cost": "CA$177/night, CA$200 total with breakfast (half board +CA$74) vs Natulux Hotel Furano CA$318 total on Expedia",
+  "winter": "ok",
+  "winterNote": "Sat Jan 30, 2027, fully refundable, 1 room left at this price. Rated 7.4/10 (51 reviews) on Expedia. Hotel gives a shuttle to and from Biei Station. Other Shirogane options: Hotel ParkHills CA$191 (CA$210 total, 7.8, 173 reviews, CA$127 off), Aonobi Yuyu CA$243 (CA$295, 8.2). Outdoor bath: Shirogane is an onsen village with outdoor baths; not confirmed per hotel. Location approximate. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; totals include tax; CA$1 is about ¥108.",
+  "lat": 43.4796,
+  "lon": 142.6406,
+  "photoQuery": "Shirogane Onsen Biei winter",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Shirogane%20Onsen%2C%20Biei%2C%20Hokkaido%2C%20Japan&startDate=2027-01-30&endDate=2027-01-31&adults=2&rooms=1&sort=PRICE_LOW_TO_HIGH"
+  ],
+  "experience": {
+   "hook": "Sleep beside the Blue Pond for less than Furano.",
+   "moments": [
+    "Search 'Shirogane Onsen, Biei', Jan 30–31, 2 adults",
+    "Open Morinosizuku RIN",
+    "Pick the twin/triple with breakfast (CA$200 total)",
+    "Add half board (+CA$74) if you want dinner there",
+    "Drive to Blue Pond light-up after dark"
+   ],
+   "tip": "Cancel the Natulux Furano booking only after this one is confirmed."
+  }
+ },
+ {
+  "id": "exp3-jozankei-mori-no-uta",
+  "kind": "swap",
+  "category": "deal",
+  "title": "Jozankei onsen night with 2 meals",
+  "titleJa": "定山渓鶴雅リゾートスパ 森の謌",
+  "summary": "Jozankei Tsuruga Resort Spa MORI no UTA, twin with buffet dinner and breakfast, CA$495 for 2 on Jan 31 (rated 9.2).",
+  "why": "Costs CA$264 more than Dormy Inn Premium Sapporo (CA$231, room only) but includes two buffet meals for two (about CA$150–200 value) and indoor + outdoor hot spring baths. Only 1 h from Sapporo.",
+  "days": [
+   13
+  ],
+  "duration": "1 night",
+  "cost": "CA$446/night, CA$495 total with dinner + breakfast (was CA$460) vs Dormy Inn Premium Sapporo CA$231 room only",
+  "winter": "ok",
+  "winterNote": "Sun Jan 31, 2027, fully refundable. Outdoor baths: yes (shared). Private bath: cottages with private open-air hot spring CA$835 (CA$923 total). Cheaper Jozankei options, room only: Hotel Shikanoyu CA$212 (CA$260, 8.2, 366 reviews), Jozankei Manseikaku Milione CA$281 (CA$343, 8.0), Hanamomiji CA$331 (CA$404, 9.2). Feb 1 you drive/bus back to Sapporo (about 1 h). Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; totals include tax; CA$1 is about ¥108.",
+  "lat": 42.9676,
+  "lon": 141.1636,
+  "photoQuery": "Jozankei Tsuruga Resort Mori no Uta",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Jozankei%20Onsen%2C%20Sapporo%2C%20Hokkaido%2C%20Japan&startDate=2027-01-31&endDate=2027-02-01&adults=2&rooms=1&sort=PRICE_LOW_TO_HIGH&mealPlan=FULL_BOARD"
+  ],
+  "experience": {
+   "hook": "Last Hokkaido night in a snowy onsen gorge with dinner included.",
+   "moments": [
+    "Search 'Jozankei Onsen', Jan 31–Feb 1, 2 adults",
+    "Filter 'Dinner included'",
+    "Open MORI no UTA, choose 'Twin Room, Non Smoking' half board",
+    "Total with tax: CA$495"
+   ],
+   "tip": "Buffet half board is refundable; rooms were down to 6 left."
+  }
+ },
+ {
+  "id": "exp3-noboribetsu-grand",
+  "kind": "swap",
+  "category": "deal",
+  "title": "Noboribetsu Grand Hotel on sale",
+  "titleJa": "登別グランドホテル",
+  "summary": "Noboribetsu Grand Hotel twin CA$347 total (sale, CA$94 off); add buffet dinner + breakfast for CA$43 more. Rated 8.6 (618 reviews).",
+  "why": "About CA$390 for 2 with buffet dinner and breakfast, in the centre of Noboribetsu Onsen (Hell Valley on foot). Outdoor hot spring bath: yes.",
+  "days": [
+   12
+  ],
+  "duration": "1 night",
+  "cost": "CA$282/night, CA$347 total room only (was CA$376/night); half board +CA$43 → about CA$390 vs Natulux Furano CA$318 room only",
+  "winter": "check",
+  "winterNote": "Sat Jan 30, 2027, fully refundable. Only makes sense if you change the route (Noboribetsu is south of Sapporo, not on the Asahikawa–Furano line). Superior twin with in-room hot tub CA$466 (CA$569). Private family bath by reservation. Cheapest with dinner in the area: Kojohama Onsen Hotel CA$293 total (8.6, Shiraoi, CA$134 off), Toya Kohantei CA$291 (7.8, Lake Toya). Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; totals include tax; CA$1 is about ¥108.",
+  "lat": 42.496,
+  "lon": 141.145,
+  "photoQuery": "Noboribetsu Grand Hotel",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Noboribetsu%20Onsen%2C%20Noboribetsu%2C%20Hokkaido%2C%20Japan&startDate=2027-01-30&endDate=2027-01-31&adults=2&rooms=1&sort=PRICE_LOW_TO_HIGH&mealPlan=FULL_BOARD"
+  ],
+  "experience": {
+   "hook": "Big onsen hotel next to Hell Valley, half board for CA$43.",
+   "moments": [
+    "Search 'Noboribetsu Onsen', Jan 30–31",
+    "Open Noboribetsu Grand Hotel (sale badge)",
+    "Choose Standard Twin, then 'Half board (buffet dinner)' +CA$43",
+    "Check total before paying"
+   ],
+   "tip": "Kojohama Onsen Hotel (CA$293 with dinner) is the budget pick near the coast."
+  }
+ },
+ {
+  "id": "exp3-sounkyo-choyo",
+  "kind": "swap",
+  "category": "deal",
+  "title": "Sounkyo Onsen, cheap half board",
+  "titleJa": "層雲峡温泉 朝陽リゾートホテル",
+  "summary": "Sounkyo Onsen Choyo Resort Hotel, modern twin CA$229 total on Jan 30; half board shown as only +CA$16–32 more.",
+  "why": "About CA$89 cheaper than Natulux Furano and close to the Sounkyo Ice Fall Festival (ice light-up, late Jan–Mar). Rated 7.8 (395 reviews).",
+  "days": [
+   12
+  ],
+  "duration": "1 night",
+  "cost": "CA$199/night, CA$229 total room only; half board +CA$16 to +CA$32 (Expedia add-on) vs Natulux Furano CA$318",
+  "winter": "check",
+  "winterNote": "Sat Jan 30, 2027, fully refundable, 1–8 rooms left per type. The very low half-board add-on may be per person or a display error; confirm the total on the payment page. Sounkyo is 1 h east of Asahikawa, so it replaces the Furano night only if you skip Furano. Other Sounkyo options: Hotel Kumoi CA$212 (8.2), Choyotei CA$255 (7.4), Hotel Taisetsu Onsen & Canyon Resort CA$432 (8.6, breakfast). Outdoor bath: not confirmed on the page. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; totals include tax; CA$1 is about ¥108.",
+  "lat": 43.727,
+  "lon": 142.948,
+  "photoQuery": "Sounkyo Onsen ice fall festival",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Sounkyo%20Onsen%2C%20Kamikawa%2C%20Hokkaido%2C%20Japan&startDate=2027-01-30&endDate=2027-01-31&adults=2&rooms=1&sort=PRICE_LOW_TO_HIGH"
+  ],
+  "experience": {
+   "hook": "Ice-fall festival town with dinner for almost nothing extra.",
+   "moments": [
+    "Search 'Sounkyo', Jan 30–31, 2 adults",
+    "Open Sounkyo Onsen Choyo Resort Hotel",
+    "Pick 'Modern Twin (Western Modern)' and add Half board",
+    "Confirm total on the last page"
+   ],
+   "tip": "If half board really is +CA$16, this is the best meal deal found."
+  }
+ },
+ {
+  "id": "exp3-tazawako-resort",
+  "kind": "swap",
+  "category": "deal",
+  "title": "Tazawako onsen night near Nyuto",
+  "titleJa": "田沢湖レイクリゾート",
+  "summary": "Tazawako Lake Resort & Onsen twin with buffet dinner + breakfast CA$211 total on Jan 25 (rated 8.2, 230 reviews).",
+  "why": "Costs CA$95 more than Dormy Inn Sendai (CA$116 room only) but includes two meals and an onsen, 8 km from Nyuto Onsen. Nyuto ryokan (Tsurunoyu etc.) are not on Expedia.",
+  "days": [
+   7
+  ],
+  "duration": "1 night",
+  "cost": "CA$190/night, CA$211 total with half board; room + breakfast CA$148 (CA$165) vs Dormy Inn Sendai Ekimae CA$116",
+  "winter": "check",
+  "winterNote": "Mon Jan 25, 2027, fully refundable. Only works if you drive/rail to Tazawako instead of Sendai (changes Jan 26 Hayabusa start: Tazawako–Morioka is on the Akita Shinkansen). Better-rated nearby: Kashintei Shirahama CA$234 (9.8, 59 reviews), Katakuri no Hana CA$201 (8.8). Outdoor bath: not confirmed on the page. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; totals include tax; CA$1 is about ¥108.",
+  "lat": 39.725,
+  "lon": 140.72,
+  "photoQuery": "Tazawako Lake Resort Onsen",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Nyuto%20Onsen%2C%20Semboku%2C%20Akita%2C%20Japan&startDate=2027-01-25&endDate=2027-01-26&adults=2&rooms=1&sort=PRICE_LOW_TO_HIGH"
+  ],
+  "experience": {
+   "hook": "Snow-country onsen with dinner for CA$211.",
+   "moments": [
+    "Search 'Nyuto Onsen', Jan 25–26, sort by distance",
+    "Open Tazawako Lake Resort & Onsen",
+    "Pick 'Standard Twin' half board (CA$211)",
+    "Day-trip Tsurunoyu (outdoor mixed bath) by bus or car"
+   ],
+   "tip": "Kashintei Shirahama (9.8) is worth CA$23 more."
+  }
+ },
+ {
+  "id": "exp3-kawaguchiko-hanz",
+  "kind": "swap",
+  "category": "deal",
+  "title": "Fuji-view villa at Lake Kawaguchi",
+  "titleJa": "Hanz Outdoor Resort 河口湖",
+  "summary": "Cheapest Kawaguchiko stay in the 'private hot tub' filter: Hanz Outdoor Resort villa twin CA$275 with breakfast (9.4, 124 reviews); half board +CA$126.",
+  "why": "Costs CA$166 more than Route-Inn (CA$109) but gives a Fuji-view villa with hot tub area and breakfast. With dinner about CA$401. Hotel Koryu (lake-view twin, onsen) is a mid option at CA$236, dinner +CA$69.",
+  "days": [
+   4
+  ],
+  "duration": "1 night",
+  "cost": "CA$250/night, CA$275 total with breakfast (was CA$316) vs Route-Inn Kawaguchiko CA$109 with breakfast",
+  "winter": "ok",
+  "winterNote": "Fri Jan 22, 2027, fully refundable, 2 left. Private bath: the property appears under Expedia's 'Private hot tub' filter, but the villa text shows an indoor hot tub; confirm the room has its own bath. True private open-air ryokan options: Mt Fuji View and Sauna Ryokan Shizuku CA$560 total (private hot tub, 11.7 km), Kishinobo CA$461 (Minobu, far). Cheapest with dinner in the area: Hotel Koryu CA$254 + dinner CA$69 ≈ CA$330 (8.8, 129 reviews, lake-view top-floor twin CA$236). Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; totals include tax; CA$1 is about ¥108.",
+  "lat": 35.496,
+  "lon": 138.747,
+  "photoQuery": "Lake Kawaguchi Mt Fuji winter villa",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Fujikawaguchiko%2C%20Yamanashi%2C%20Japan&startDate=2027-01-22&endDate=2027-01-23&adults=2&rooms=1&sort=PRICE_LOW_TO_HIGH&room_amenities_group=PRIVATE_HOT_TUB"
+  ],
+  "experience": {
+   "hook": "Fuji view and your own villa for CA$166 more than a business hotel.",
+   "moments": [
+    "Search Fujikawaguchiko, Jan 22–23, 2 adults",
+    "Tick 'Private hot tub' under Room amenities",
+    "Open Hanz Outdoor Resort, 'Hanz Outdoor Villa C' with breakfast",
+    "Ask the hotel about the private bath before paying"
+   ],
+   "tip": "If budget matters, keep Route-Inn (CA$109): it is the clear value pick."
+  }
+ },
+ {
+  "id": "exp3-hakone-fourtreat",
+  "kind": "swap",
+  "category": "deal",
+  "title": "Hakone with dinner under CA$230",
+  "titleJa": "フォートリート箱根仙石原",
+  "summary": "Cheapest Hakone stay with dinner included on Jan 22: Fourtreat Hakone Sengokuhara CA$223 total (9.0, 9 reviews, CA$47 off).",
+  "why": "Half board in Hakone for CA$114 more than Route-Inn Kawaguchiko. Proven pick: Hakone Onsen Yuyado Yamanosyou CA$366 with dinner (9.2, 143 reviews).",
+  "days": [
+   4
+  ],
+  "duration": "1 night",
+  "cost": "CA$200/night, CA$223 total with dinner (was CA$247) vs Route-Inn Kawaguchiko CA$109",
+  "winter": "check",
+  "winterNote": "Fri Jan 22, 2027. Few reviews. Other Hakone dinner-included: Merveille Hakone Gora CA$394 (8.4), Hakone Kowakien CA$401 (9.0, was CA$504), Hotel Nanpuso CA$428 (9.0), Hakone Airu CA$732 (9.2, sale CA$486 off). Yumoto Komachikan CA$197 is in Yugawara, 10 km away. Outdoor bath: not confirmed. Replaces the Fuji night, so check the route. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; totals include tax; CA$1 is about ¥108.",
+  "lat": 35.26,
+  "lon": 139.0,
+  "photoQuery": "Hakone Sengokuhara ryokan",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Hakone%2C%20Kanagawa%2C%20Japan&startDate=2027-01-22&endDate=2027-01-23&adults=2&rooms=1&sort=PRICE_LOW_TO_HIGH&mealPlan=FULL_BOARD"
+  ],
+  "experience": {
+   "hook": "Hakone ryokan with dinner at business-hotel+ price.",
+   "moments": [
+    "Search Hakone, Jan 22–23",
+    "Filter 'Dinner included', sort price low to high",
+    "Compare Fourtreat (CA$223) with Yamanosyou (CA$366, 9.2)",
+    "Book the refundable rate"
+   ],
+   "tip": "Few reviews at Fourtreat; Yamanosyou is the safer choice."
+  }
+ },
+ {
+  "id": "exp3-kusatsu-ginzan-note",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Kusatsu and Ginzan: no Expedia bargain",
+  "titleJa": "草津温泉・銀山温泉",
+  "summary": "Kusatsu Jan 23: cheapest in-town ryokan is room-only CA$228; dinner-included starts at CA$912. Ginzan Jan 24: no Ginzan ryokan is sold on Expedia.",
+  "why": "Book Kusatsu and Ginzan ryokan direct or on Japanese sites (Rakuten/Jalan). On Expedia, Knot Shinjuku (CA$218) and Tsuruya Zao (from earlier pass) stay better value.",
+  "days": [
+   5,
+   6
+  ],
+  "duration": "1 night each",
+  "cost": "Kusatsu: Ryokan Yoshinoya CA$228 total room only (8.2, 158 reviews), BUNA Kusatsu CA$236; with dinner: Urakusatsu Tou CA$912, Hotel Sakurai CA$2,277. Ginzan area nearest: Yumeminoyado Kansyokan (Akakura Onsen, 23 km) CA$128 (9.0)",
+  "winter": "ok",
+  "winterNote": "Kusatsu Sat Jan 23 and Ginzan Sun Jan 24, 2027. Ginzan search returned only hotels 15–28 km away (Tendo, Naruko, Akakura). Tendo Onsen Takinoyu CA$310 (9.4) is the best onsen hotel near Yamagata on the Jan 24 night. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; totals include tax; CA$1 is about ¥108.",
+  "lat": 36.6225,
+  "lon": 138.596,
+  "photoQuery": "Kusatsu Onsen yubatake snow",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Kusatsu%20Onsen%2C%20Kusatsu%2C%20Gunma%2C%20Japan&startDate=2027-01-23&endDate=2027-01-24&adults=2&rooms=1&sort=PRICE_LOW_TO_HIGH",
+   "https://www.expedia.ca/Hotel-Search?destination=Ginzan%20Onsen%2C%20Obanazawa%2C%20Yamagata%2C%20Japan&startDate=2027-01-24&endDate=2027-01-25&adults=2&rooms=1&sort=PRICE_LOW_TO_HIGH"
+  ],
+  "experience": {
+   "hook": "Expedia does not have the classic Kusatsu/Ginzan ryokan deals.",
+   "moments": [
+    "Do not book these two on Expedia",
+    "Search Rakuten Travel or Jalan for Ginzan (Notoya, Fujiya, Kosekiya)",
+    "For Kusatsu, compare Yoshinoya CA$228 room only with Jalan half-board plans"
+   ],
+   "tip": "Ginzan ryokan sell out a year ahead; check now."
+  }
+ },
+ {
+  "id": "exp3-niseko-no-cheaper",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Niseko Jan 27–29: nothing cheaper",
+  "titleJa": "ニセコ 比羅夫",
+  "summary": "No well-rated place within 15 min of the Hirafu lifts is under CA$477 for 2 nights on Expedia. Keep Hotel 3M (~CA$310).",
+  "why": "Cheapest well-rated options: Hotel Kanronomori CA$477 (8.6, already in pass 1), Stay Resort Niseko CA$478 (8.8, bunk twin, 10 min drive), Niseko Freedom Inn CA$567 with breakfast (9.0, non-refundable). In-village (under 1 km) starts at CA$974.",
+  "days": [
+   9,
+   10
+  ],
+  "duration": "2 nights",
+  "cost": "Stay Resort Niseko CA$211/night (CA$478 total), Niseko Freedom Inn CA$228/night (CA$567 total, breakfast, non-refundable, was CA$304) vs plan Hotel 3M ~CA$310 for 2 nights",
+  "winter": "ok",
+  "winterNote": "Jan 27–29, 2027. Niseko Goshiki Onsen Ryokan CA$278 total has no reviews and is 20+ min away on the Annupuri side. Walking distance to Grand Hirafu: M Hotel CA$974 (9.0, 0.7 km), Yumoto Niseko Prince Hirafutei CA$1,025 (0.3 km). Free ski shuttle: Expedia pages did not state it for the cheap options; ask the hotel. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; totals include tax; CA$1 is about ¥108.",
+  "lat": 42.862,
+  "lon": 140.699,
+  "photoQuery": "Niseko Hirafu village night",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Niseko%20Tokyu%20Grand%20HIRAFU%2C%20Kutchan%2C%20Hokkaido%2C%20Japan&startDate=2027-01-27&endDate=2027-01-29&adults=2&rooms=1&sort=DISTANCE"
+  ],
+  "experience": {
+   "hook": "Peak-week Niseko is expensive on Expedia.",
+   "moments": [
+    "Keep Hotel 3M Kutchan booked direct",
+    "Use the car for the 10 min drive to Hirafu",
+    "If 3M sells out: Stay Resort Niseko CA$478, refundable"
+   ],
+   "tip": "Stay Resort has bunk-bed twins; check that suits you."
+  }
+ },
+ {
+  "id": "exp3-hotel-car-bundle",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Hotel + car bundle: not possible",
+  "titleJa": "ホテル＋レンタカー パッケージ",
+  "summary": "Expedia 'Stay + Car' packages need the car dates inside the hotel dates, so a 1-night Hakodate hotel with a 5-day one-way car to New Chitose cannot be bundled.",
+  "why": "No bundle saving for your route. Book the car alone (Hertz one-way CA$708, earlier pass) and the hotel alone.",
+  "days": [
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "duration": "—",
+  "cost": "No package price; Expedia error 'Please select options within the stay dates' for Hakodate hotel Jan 26–27 + car Jan 26–31 Hakodate→CTS",
+  "winter": "ok",
+  "winterNote": "Tested on expedia.ca Vacation Packages, Stay + Car, 2 travellers. A bundle would only work with a hotel booked for every car night in one city. The same rule blocks a Sapporo hotel + car bundle for this route. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; totals include tax; CA$1 is about ¥108.",
+  "lat": 41.7735,
+  "lon": 140.727,
+  "photoQuery": "Hakodate station winter",
+  "sources": [
+   "https://www.expedia.ca/Vacation-Packages"
+  ],
+  "experience": {
+   "hook": "Skip packages for the Hokkaido car.",
+   "moments": [
+    "Book Hertz one-way HKD→CTS as a car-only booking",
+    "Book each hotel separately with member prices"
+   ],
+   "tip": "The 'save up to 10%' banner does not apply to one-way road trips."
+  }
+ },
+ {
+  "id": "exp3-tokyo-drift-cheaper",
+  "kind": "swap",
+  "category": "deal",
+  "title": "Cheaper Daikoku JDM night",
+  "titleJa": "大黒PA JDMツアー",
+  "summary": "Daikoku PA JDM night tours from CA$116–153 per person, versus CA$180–220 found in the earlier pass.",
+  "why": "The best-reviewed cheap one is 'Tokyo: JDM Car Culture – Daikoku & Tokyo Drift Vibes' CA$153 pp (9.8, 121 reviews): saves CA$54 for 2 vs the CA$180 tour, CA$134 vs the CA$220 R34 tour.",
+  "days": [
+   2,
+   3
+  ],
+  "duration": "3–4 h",
+  "cost": "CA$153 pp (9.8, 121 reviews) or CA$138 pp (Daikoku PA Tokyo Drift JDM and Night Car Meet, 9.6, 10 reviews) or CA$116 pp (Street racing Tokyo Drift Daikoku, was CA$129, 1 review) vs CA$180–220 pp earlier",
+  "winter": "ok",
+  "winterNote": "All free cancellation. Daikoku meets are not guaranteed (police close the PA some nights); pick a tour that says it will go elsewhere if closed. Weekend nights are best. Seen for Jan 19–23, 2027 dates. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; totals include tax; CA$1 is about ¥108.",
+  "lat": 35.4623,
+  "lon": 139.68,
+  "photoQuery": "Daikoku parking area JDM night",
+  "sources": [
+   "https://www.expedia.ca/things-to-do/search?location=Tokyo%20%28and%20vicinity%29%2C%20Tokyo%20Prefecture%2C%20Japan&startDate=2027-01-19&endDate=2027-01-23&sort=RECOMMENDED&slimSearchKeyword=drift"
+  ],
+  "experience": {
+   "hook": "Same Daikoku car meet, CA$27–67 less per person.",
+   "moments": [
+    "Expedia Things to do, Tokyo, keyword 'drift'",
+    "Open 'JDM Car Culture – Daikoku & Tokyo Drift Vibes' (CA$153)",
+    "Pick a Friday or Saturday night",
+    "Read the 'if Daikoku is closed' note"
+   ],
+   "tip": "Reviews matter more than the CA$15 difference."
+  }
+ },
+ {
+  "id": "exp3-sumo-show-cheap",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Sumo show with hotpot, CA$85",
+  "titleJa": "相撲ショー ちゃんこ鍋",
+  "summary": "'Tokyo Sumo Experience: Wrestler Challenge, Hotpot & Mochi-Pounding' CA$85 pp (10/10, 259 reviews), CA$59 less than the top-listed CA$144 show.",
+  "why": "Saves CA$118 for two versus the most popular sumo show (CA$144, 9.8, 1,585 reviews). Cheapest overall: Shinjuku Kabukicho Live Sumo Show CA$72 (new, no reviews). Real tournament tickets on Expedia are CA$1,399 pp; buy those direct.",
+  "days": [
+   2,
+   3,
+   5
+  ],
+  "duration": "2 h",
+  "cost": "CA$85 pp (10/10, 259 reviews) vs CA$144 pp (Sumo Entertainment Show with Chicken Hot Pot & Geisha)",
+  "winter": "ok",
+  "winterNote": "Free cancellation. January Grand Sumo Tournament (Ryogoku) usually runs mid-January; if your dates overlap, official tickets (Ticket Oosumo) are far cheaper than Expedia's CA$1,399 package. Morning practice tour: CA$162 pp (9.8, 152 reviews). Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; totals include tax; CA$1 is about ¥108.",
+  "lat": 35.697,
+  "lon": 139.793,
+  "photoQuery": "sumo show Tokyo chanko",
+  "sources": [
+   "https://www.expedia.ca/things-to-do/search?location=Tokyo%20%28and%20vicinity%29%2C%20Tokyo%20Prefecture%2C%20Japan&startDate=2027-01-19&endDate=2027-01-23&sort=RECOMMENDED&slimSearchKeyword=sumo"
+  ],
+  "experience": {
+   "hook": "Get in the ring and eat chanko for CA$85.",
+   "moments": [
+    "Expedia Things to do, Tokyo, keyword 'sumo'",
+    "Open 'Wrestler Challenge Hotpot & Mochi-Pounding'",
+    "Choose a date Jan 19–23",
+    "Free cancellation up to the stated time"
+   ],
+   "tip": "Check the Hatsu Basho dates first; a real bout beats a show."
+  }
+ },
+ {
+  "id": "exp3-hokkaido-day-tours",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Hokkaido bus tours from Sapporo",
+  "titleJa": "札幌発 日帰りバスツアー",
+  "summary": "Sapporo day tours on Expedia: Lake Toya + Noboribetsu Hell Valley CA$77 pp; Asahiyama Zoo + Ningle Terrace CA$97 pp (9.6); Biei 'Best 5' late departure CA$88–94 pp (9.0–9.6); Lake Shikotsu Ice Festival bus CA$76 pp.",
+  "why": "Useful for Aoki on Feb 1 (alone in Sapporo) or as a no-driving backup in a storm. A Biei/Asahiyama bus tour at CA$97 pp is cheaper than a one-way car day with fuel and tolls.",
+  "days": [
+   11,
+   12,
+   13,
+   14
+  ],
+  "duration": "9–11 h",
+  "cost": "Toya+Noboribetsu CA$77 pp (8.8) / CA$84 pp incl. Niseko (10/10, 12 reviews); Asahiyama Zoo + snowmobile option + Ningle Terrace CA$97 pp (9.6, 18); Biei Best 5 CA$88 (9.0) or CA$94 (9.6); Shikotsu Ice Festival bus CA$76 pp; Shiroi Koibito Park CA$18",
+  "winter": "ok",
+  "winterNote": "All free cancellation. Drift-ice (Abashiri) tours: none on Expedia for these dates. Otaru: Hokkaido Shrine + Otaru day trip CA$85 pp (few reviews); Otaru is cheap by train on your own. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; totals include tax; CA$1 is about ¥108.",
+  "lat": 43.0687,
+  "lon": 141.3508,
+  "photoQuery": "Asahiyama Zoo penguin walk winter",
+  "sources": [
+   "https://www.expedia.ca/things-to-do/search?location=Sapporo%20%28and%20vicinity%29%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2027-01-29&endDate=2027-02-01&sort=RECOMMENDED&slimSearchKeyword="
+  ],
+  "experience": {
+   "hook": "Let someone else drive the snowy roads for CA$77–97.",
+   "moments": [
+    "Expedia Things to do, Sapporo, Jan 29–Feb 1",
+    "Pick Asahiyama/Biei or Toya/Noboribetsu",
+    "Check pickup point (usually Sapporo Station/Odori)",
+    "Book with free cancellation"
+   ],
+   "tip": "Good backup if a blizzard closes the passes."
+  }
+ },
+ {
+  "id": "exp3-shirakawago-nohi-bus",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Shirakawa-go by Nohi Bus tour",
+  "titleJa": "濃飛バス 白川郷定期観光バス",
+  "summary": "From Takayama, the Nohi Bus regular sightseeing bus to Shirakawa-go is CA$88 pp (9.6, 98 reviews); Nagoya day tours from CA$70 pp.",
+  "why": "Cheapest reliable way to Shirakawa-go in snow without a car. No light-up night tour was listed on Expedia for Jan 2027.",
+  "days": [
+   5
+  ],
+  "duration": "7 h 20 min",
+  "cost": "CA$88 pp (Takayama regular sightseeing bus) or CA$120 pp (Shirakawa-go + Gokayama by Nohi Bus, 10/10) vs private tours CA$199–1,306",
+  "winter": "check",
+  "winterNote": "Free cancellation. Shirakawa-go winter light-up is on selected Sundays in Jan–Feb and uses a reservation lottery; Expedia does not sell it. Only relevant if the Ideas route through Takayama is used. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; totals include tax; CA$1 is about ¥108.",
+  "lat": 36.2578,
+  "lon": 136.906,
+  "photoQuery": "Shirakawa-go winter snow",
+  "sources": [
+   "https://www.expedia.ca/things-to-do/search?location=Takayama%2C%20Gifu%2C%20Japan&startDate=2027-01-19&endDate=2027-02-01&sort=RECOMMENDED&slimSearchKeyword=Shirakawa"
+  ],
+  "experience": {
+   "hook": "Snow-roof village by scheduled bus, no driving.",
+   "moments": [
+    "Expedia Things to do, Takayama, keyword 'Shirakawa'",
+    "Open 'Departing from Takayama [Regular sightseeing bus]'",
+    "Pick a date; bus leaves Takayama Nohi bus centre"
+   ],
+   "tip": "For the light-up, apply to the official lottery, not Expedia."
+  }
+ },
+ {
+  "id": "exp3-maid-cafe-tour",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Akihabara maid café tour, CA$72",
+  "titleJa": "秋葉原 メイドカフェツアー",
+  "summary": "'Tokyo Akihabara, Anime, Manga, Video Games & Maid Cafe Tour' CA$72 pp (9.0), half the price of other maid tours (CA$157–358).",
+  "why": "Only useful if you want a guide; going to a maid café on your own is much cheaper. Expedia sells no maid café entry by itself.",
+  "days": [
+   2,
+   3
+  ],
+  "duration": "2 h+",
+  "cost": "CA$72 pp vs Akihabara Ultimate Anime & Gaming Tour with Maid Café CA$157 pp, private tours CA$358 pp",
+  "winter": "ok",
+  "winterNote": "Free cancellation. Price shown per adult for 2 adults ('lower prices with more than 2 adults'). Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; totals include tax; CA$1 is about ¥108.",
+  "lat": 35.6984,
+  "lon": 139.7731,
+  "photoQuery": "Akihabara maid cafe street",
+  "sources": [
+   "https://www.expedia.ca/things-to-do/search?location=Tokyo%20%28and%20vicinity%29%2C%20Tokyo%20Prefecture%2C%20Japan&startDate=2027-01-19&endDate=2027-01-23&sort=RECOMMENDED&slimSearchKeyword=maid"
+  ],
+  "experience": {
+   "hook": "Guided Akiba with a maid café stop.",
+   "moments": [
+    "Expedia Things to do, Tokyo, keyword 'maid'",
+    "Pick the CA$72 tour",
+    "Or skip it and walk in to a café yourself"
+   ],
+   "tip": "Self-guided is the real bargain."
+  }
+ }
+]

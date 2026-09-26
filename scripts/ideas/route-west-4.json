@@ -1,0 +1,888 @@
+[
+ {
+  "id": "rw4-namba-food-crawl",
+  "kind": "addon",
+  "category": "food",
+  "title": "Namba food crawl: Dotonbori to Kuromon",
+  "titleJa": "道頓堀・黒門市場・裏なんば 食べ歩き",
+  "summary": "Eat your way through south Osaka in one afternoon and evening: Kuromon Market seafood skewers, takoyaki and okonomiyaki on Dotonbori under the Glico sign, then small standing bars in Ura-Namba. Everything is within 15 minutes on foot.",
+  "why": "Osaka is the food city of Japan, and it is the easiest good night of the whole route: no tickets, no weather risk, and Namba is where most hotels are.",
+  "days": [
+   9,
+   10
+  ],
+  "duration": "half day (14:00 to late)",
+  "cost": "about 5,000-8,000 JPY per person for many small plates and drinks",
+  "winter": "ok",
+  "winterNote": "New route day 9 or 10 (Osaka). All year. Kuromon stalls mostly open in the day and many close in late afternoon, and some close on Sundays: go before 16:00. Dotonbori and Ura-Namba are busy until late at night.",
+  "lat": 34.66903,
+  "lon": 135.50157,
+  "places": [
+   {
+    "en": "Kuromon Market",
+    "ja": "黒門市場",
+    "lat": 34.66533,
+    "lon": 135.50698
+   },
+   {
+    "en": "Ebisubashi bridge (Glico sign view)",
+    "ja": "戎橋",
+    "lat": 34.66907,
+    "lon": 135.5013
+   },
+   {
+    "en": "Hozenji Yokocho alley",
+    "ja": "法善寺横丁",
+    "lat": 34.66818,
+    "lon": 135.50267
+   },
+   {
+    "en": "Ura-Namba (Torame Yokocho)",
+    "ja": "裏なんば 虎目横丁",
+    "lat": 34.66553,
+    "lon": 135.50473
+   }
+  ],
+  "photoQuery": "Dotonbori Osaka night Glico sign",
+  "sources": [
+   "https://ja.wikipedia.org/wiki/道頓堀",
+   "https://ja.wikipedia.org/wiki/黒門市場",
+   "https://www.osaka-info.jp/"
+  ],
+  "experience": {
+   "hook": "Osaka's kitchen in one walk: market skewers, river neon, tiny standing bars.",
+   "moments": [
+    "Eat a grilled scallop and a tuna skewer standing at a Kuromon Market stall in the early afternoon.",
+    "Walk to Ebisubashi bridge and take the photo with the Glico running man sign lit behind you.",
+    "Eat hot takoyaki from a Dotonbori stand, then okonomiyaki cooked on the iron plate at your table.",
+    "Find the moss-covered Fudo statue in quiet Hozenji Yokocho, a stone alley with old restaurants.",
+    "End in Ura-Namba: drink a highball and eat small plates at a standing bar for about 1,000 yen."
+   ],
+   "tip": "Go to Kuromon before 16:00, when stalls start to close. In Ura-Namba, pick the small bars that show prices outside."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw4-shinsekai-kushikatsu-spaworld",
+  "kind": "addon",
+  "category": "onsen",
+  "title": "Shinsekai kushikatsu and Spa World",
+  "titleJa": "新世界 串カツ・通天閣・スパワールド",
+  "summary": "Eat deep-fried kushikatsu skewers in retro Shinsekai under Tsutenkaku tower, then soak for hours at Spa World, a huge hot-spring bath house next door with 'Europe' and 'Asia' bath floors and a pool. Good for a cold evening.",
+  "why": "It puts the onsen interest into the Osaka stop: cheap, open late, and 2 minutes from the kushikatsu shops.",
+  "days": [
+   9,
+   10
+  ],
+  "duration": "3-4 h (evening)",
+  "cost": "Spa World 2,000 JPY weekday / 2,700 JPY weekend (with pool), 1,500 JPY without pool; +1,300 JPY after 24:00. Kushikatsu about 2,500 JPY",
+  "winter": "ok",
+  "winterNote": "New route day 9 or 10. Open all year. Spa World does NOT allow tattoos (also stickers). The Europe and Asia bath floors switch between men and women each month. Kushikatsu Daruma main store: no reservations, open every day.",
+  "lat": 34.64991,
+  "lon": 135.50561,
+  "places": [
+   {
+    "en": "Tsutenkaku tower",
+    "ja": "通天閣",
+    "lat": 34.65254,
+    "lon": 135.50631
+   },
+   {
+    "en": "Kushikatsu Daruma Shinsekai main store",
+    "ja": "串かつだるま 新世界総本店",
+    "lat": 34.65157,
+    "lon": 135.5062
+   },
+   {
+    "en": "Spa World",
+    "ja": "スパワールド 世界の大温泉",
+    "lat": 34.64991,
+    "lon": 135.50561
+   }
+  ],
+  "photoQuery": "Shinsekai Tsutenkaku night",
+  "sources": [
+   "https://www.spaworld.co.jp/info/ryokin/",
+   "https://www.spaworld.co.jp/",
+   "https://www.kushikatu-daruma.com/"
+  ],
+  "experience": {
+   "hook": "Fried skewers under a neon tower, then hot baths themed like different countries.",
+   "moments": [
+    "Walk under Tsutenkaku tower as the neon signs of Shinsekai come on at dusk.",
+    "Eat beef, lotus root and quail-egg kushikatsu at Daruma, and dip each one only once in the shared sauce.",
+    "Soak in the themed bath floor of the month at Spa World, from Roman-style to Asian-style baths.",
+    "Sweat in the new dry sauna, then cool down and drink a cold milk in the rest area."
+   ],
+   "tip": "Go on a weekday: 2,000 yen instead of 2,700. Leave before 24:00 or you pay 1,300 yen more."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw4-den-den-town-otaroad",
+  "kind": "addon",
+  "category": "anime",
+  "title": "Den Den Town and Otaroad shopping",
+  "titleJa": "日本橋でんでんタウン・オタロード",
+  "summary": "Osaka's Akihabara: one long street of electronics and anime shops (Sakaisuji) and the side street Otaroad full of figure, game and doujin shops. Visit Super Potato Otaroad for retro games, then Animate and Melonbooks for new goods.",
+  "why": "Anime goods and retro games at Osaka prices, less crowded than Akihabara, and 10 minutes on foot from Namba.",
+  "days": [
+   9,
+   10
+  ],
+  "duration": "3-4 h",
+  "cost": "free to walk; budget for goods",
+  "winter": "ok",
+  "winterNote": "New route day 9 or 10. All year. Super Potato Otaroad: weekdays 11:00-20:00, weekends 10:00-20:00, no closed days. Most shops open about 11:00; go after lunch.",
+  "lat": 34.66107,
+  "lon": 135.50491,
+  "places": [
+   {
+    "en": "Super Potato Otaroad (retro games)",
+    "ja": "スーパーポテト オタロード店",
+    "lat": 34.66189,
+    "lon": 135.50507
+   },
+   {
+    "en": "Animate Osaka Nipponbashi",
+    "ja": "アニメイト大阪日本橋",
+    "lat": 34.66051,
+    "lon": 135.5047
+   },
+   {
+    "en": "Melonbooks Osaka Nipponbashi",
+    "ja": "メロンブックス 大阪日本橋店",
+    "lat": 34.66058,
+    "lon": 135.50442
+   },
+   {
+    "en": "Den Den Town (Sakaisuji)",
+    "ja": "でんでんタウン",
+    "lat": 34.65922,
+    "lon": 135.50582
+   }
+  ],
+  "photoQuery": "Den Den Town Nipponbashi Osaka",
+  "sources": [
+   "https://www.superpotato.com/shop/otaroad",
+   "https://ja.wikipedia.org/wiki/日本橋_(大阪市)",
+   "https://www.openstreetmap.org/"
+  ],
+  "experience": {
+   "hook": "Osaka's Akihabara, smaller and cheaper, 10 minutes' walk from Dotonbori.",
+   "moments": [
+    "Walk south from Namba down Otaroad, where life-size anime posters and figure shop windows line both sides.",
+    "Dig through Famicom and Super Famicom boxes at Super Potato, 'the largest retro stock in West Japan'.",
+    "Check new character goods at Animate, then doujin and art books at Melonbooks next door.",
+    "Walk back along Sakaisuji past the old electronics stores that gave Den Den Town its name."
+   ],
+   "tip": "Used figures and goods are often cheaper here than in Akihabara. Bring your passport: many shops give tax-free over 5,000 yen."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw4-nipponbashi-maid-cafes",
+  "kind": "addon",
+  "category": "anime",
+  "title": "Osaka maid cafés on Otaroad",
+  "titleJa": "日本橋オタロード メイドカフェ",
+  "summary": "Three real maid cafés within 300 m of each other: Maidreamin Osaka Nipponbashi Otaroad (shows, 880 JPY per hour), CCOちゃ (Cocha), called Osaka's first maid café (500 JPY entry), and e-maid, a restaurant-style café with no table charge. Pick one or two.",
+  "why": "A Kansai version of the Akihabara maid café, easy to add to the Den Den Town walk, and e-maid is a calm choice if one of you finds shows too much.",
+  "days": [
+   9,
+   10
+  ],
+  "duration": "1-2 h",
+  "cost": "Maidreamin 880 JPY/h + 1 order (drinks from about 800 JPY); CCOちゃ 500 JPY entry + order; e-maid no charge, 1 order, 90 min limit",
+  "winter": "ok",
+  "winterNote": "New route day 9 or 10. Open all year. Hours (2025): Maidreamin Mon-Fri 11:30-23:00, Sat-Sun 10:30-23:00, after 20:00 it becomes 'HYPER' bar mode (3,800 JPY 1 h drinks). CCOちゃ weekdays 15:00-20:00 L.O., weekends 12:00-20:00. e-maid weekdays 12:00-21:45 L.O. Check before you go.",
+  "lat": 34.66012,
+  "lon": 135.50481,
+  "places": [
+   {
+    "en": "Maidreamin Osaka Nipponbashi Otaroad",
+    "ja": "めいどりーみん 大阪日本橋オタロード店",
+    "lat": 34.66012,
+    "lon": 135.50481
+   },
+   {
+    "en": "CCOちゃ (Osaka's first maid café)",
+    "ja": "CCOちゃ",
+    "lat": 34.6626,
+    "lon": 135.50462
+   },
+   {
+    "en": "Cafe e-maid",
+    "ja": "カフェ e-maid",
+    "lat": 34.66255,
+    "lon": 135.50381
+   }
+  ],
+  "photoQuery": "Nipponbashi Otaroad Osaka",
+  "sources": [
+   "https://maidreamin.com/shop/detail.html?id=17",
+   "https://osakalucci.jp/nippombashi-maidcafe",
+   "https://tabelog.com/osaka/A2701/A270202/27058810/"
+  ],
+  "experience": {
+   "hook": "Osaka's maid cafés: the big chain show, the oldest café, or a quiet lunch.",
+   "moments": [
+    "Say the 'moe moe kyun' spell with the maids over an omelette rice with a drawn picture at Maidreamin.",
+    "Watch a short stage show, then take a cheki instant photo with the maid you pick.",
+    "Try one of 30+ drinks with funny names and a latte drawing at CCOちゃ, Osaka's first maid café.",
+    "Eat a full meal in a calm room at e-maid if you want the style without the shows."
+   ],
+   "tip": "Go to Maidreamin before 20:00; after that it becomes a bar with a 3,800 yen drink plan."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw4-usj-late-january",
+  "kind": "addon",
+  "category": "city",
+  "title": "Universal Studios Japan on a weekday",
+  "titleJa": "ユニバーサル・スタジオ・ジャパン",
+  "summary": "A full day at USJ: Super Nintendo World with Mario Kart and the Donkey Kong Country mine-cart ride, plus Harry Potter. Late January weekdays are one of the quietest times of the year; buy an Express Pass that guarantees Nintendo area entry.",
+  "why": "Super Nintendo World and Donkey Kong Country exist only here and in the US; it is the big fun day between the Tokyo and Hokkaido parts.",
+  "days": [
+   9,
+   10
+  ],
+  "duration": "1 day",
+  "cost": "1-Day Studio Pass from 8,400 JPY (price changes by date); Express Pass 4 (with Donkey Kong) from 14,800 JPY, Express Pass 7 from 21,800 JPY; train from Osaka station 200 JPY",
+  "winter": "ok",
+  "winterNote": "New route day 9 or 10 (use a Tue-Thu). 25th anniversary 'Discover U!!!' runs Mar 4, 2026 - Mar 30, 2027, so it is on. The Holiday event ends Jan 17, the Nintendo 5th anniversary and the Frieren walk-through end Jan 11, 2027: they are over. 'Cool Japan' 2027 not announced; in 2026 its anime events started in spring, so likely not in late Jan. Express Pass goes on sale about 2 months before (late Nov 2026).",
+  "lat": 34.66564,
+  "lon": 135.43245,
+  "places": [
+   {
+    "en": "Universal City station",
+    "ja": "ユニバーサルシティ駅",
+    "lat": 34.66782,
+    "lon": 135.43857
+   },
+   {
+    "en": "Universal Studios Japan",
+    "ja": "ユニバーサル・スタジオ・ジャパン",
+    "lat": 34.66564,
+    "lon": 135.43245
+   }
+  ],
+  "photoQuery": "Super Nintendo World Universal Studios Japan",
+  "sources": [
+   "https://www.usj.co.jp/web/ja/jp",
+   "https://www.usj.co.jp/web/ja/jp/tickets/lineup",
+   "https://www.usj.co.jp/web/ja/jp/tickets/lineup/expresspass",
+   "https://www.usj.co.jp/web/ja/jp/enjoy/numbered-ticket"
+  ],
+  "experience": {
+   "hook": "Ride Mario Kart and Donkey Kong's mine cart on a quiet January weekday.",
+   "moments": [
+    "Walk through the green warp pipe into Super Nintendo World and hit ? blocks with a Power-Up Band.",
+    "Race in Mario Kart: Koopa's Challenge wearing AR goggles and throw shells at Bowser.",
+    "Ride Donkey Kong's Crazy Mine Cart, where the track seems to break under you.",
+    "Eat a hot butterbeer and walk Hogsmeade in the evening lights before the park closes."
+   ],
+   "tip": "Without Express, open the USJ app at entry and get the free Nintendo area timed ticket at once; they run out early."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw4-osaka-castle-umeda-sky",
+  "kind": "addon",
+  "category": "scenery",
+  "title": "Osaka Castle and Umeda Sky sunset",
+  "titleJa": "大阪城天守閣・梅田スカイビル空中庭園",
+  "summary": "Morning or afternoon at Osaka Castle (museum tower, 8th-floor view over the moats), then go to the Umeda Sky Building's open-air roof ring at 173 m for sunset and the city lights. Both are easy by subway.",
+  "why": "The two classic Osaka views in one half day, and the roof deck is an open-air walk in cold wind, a different feel from indoor Tokyo decks.",
+  "days": [
+   9,
+   10
+  ],
+  "duration": "half day",
+  "cost": "Castle tower 1,200 JPY (since Apr 1, 2025); Umeda Sky observatory 2,000 JPY",
+  "winter": "ok",
+  "winterNote": "New route day 9 or 10. Open all year. Umeda Sky 9:30-22:30 (last entry 22:00); the outside roof ring can close in strong wind or rain. Sunset in Osaka in late January is about 17:20.",
+  "lat": 34.70529,
+  "lon": 135.49053,
+  "places": [
+   {
+    "en": "Osaka Castle Main Tower",
+    "ja": "大阪城天守閣",
+    "lat": 34.68737,
+    "lon": 135.52586
+   },
+   {
+    "en": "Umeda Sky Building (Floating Garden)",
+    "ja": "梅田スカイビル 空中庭園展望台",
+    "lat": 34.70529,
+    "lon": 135.49053
+   }
+  ],
+  "photoQuery": "Umeda Sky Building Floating Garden",
+  "sources": [
+   "https://www.osakacastle.net/",
+   "https://www.skybldg.co.jp/en/observatory/",
+   "https://ja.wikipedia.org/wiki/梅田スカイビル"
+  ],
+  "experience": {
+   "hook": "A castle above stone moats, then a roof ring 173 m up at sunset.",
+   "moments": [
+    "Walk over the moat bridges and past giant stone blocks to the white-and-gold castle tower.",
+    "Look out from the 8th-floor deck of the tower over the park and the business towers.",
+    "Ride the glass escalator that crosses between the two Umeda Sky towers.",
+    "Walk the open-air roof ring at sunset and watch the rivers and trains light up below."
+   ],
+   "tip": "Arrive at Umeda Sky 30 minutes before sunset (about 17:20). Bring gloves: the roof deck is open and windy."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw4-liberty-walk-jdm-park-sennan",
+  "kind": "addon",
+  "category": "cars",
+  "title": "Liberty Walk JDM Park, Sennan",
+  "titleJa": "JDM PARK / LB DRIVE-IN（リバティーウォーク泉南）",
+  "summary": "Liberty Walk, the famous wide-body tuning brand, opened its 'JDM PARK / LB DRIVE-IN' in Sennan in late 2025: a showroom of LB cars, goods shop and a Sanuki udon shop, 15 minutes by car from Kansai Airport. Stop here on the way to a KIX flight.",
+  "why": "A real JDM place right on the way to the airport, free to visit, and no driving licence needed; Aoki can drive there if you rent a car.",
+  "days": [
+   10,
+   11
+  ],
+  "duration": "1-2 h",
+  "cost": "free entry (udon about 1,000 JPY); taxi or rental car needed",
+  "winter": "ok",
+  "winterNote": "New route day 10 or 11 (KIX flight day). Official site: 11:00-21:00, 365 days; its Instagram says 11:00-19:00, closed Thu: check. A local post (Apr 2026) says 'Sennan Saturday Night' car gathering from 20:00 every Saturday: not on the official site, so check. Udon shop 6:00-15:00. Nearest station JR Izumi-Sunagawa, about 1.7 km.",
+  "lat": 34.3475,
+  "lon": 135.2724,
+  "places": [
+   {
+    "en": "JDM PARK / LB DRIVE-IN",
+    "ja": "JDM PARK / LB DRIVE-IN",
+    "lat": 34.3475,
+    "lon": 135.2724
+   },
+   {
+    "en": "JR Izumi-Sunagawa station",
+    "ja": "和泉砂川駅",
+    "lat": 34.36053,
+    "lon": 135.28148
+   },
+   {
+    "en": "Kansai Airport",
+    "ja": "関西国際空港",
+    "lat": 34.43417,
+    "lon": 135.23278
+   }
+  ],
+  "photoQuery": "Liberty Walk Nissan GT-R",
+  "sources": [
+   "https://libertywalk.co.jp/jdm-park-lb-drive-in/",
+   "https://libertywalk.co.jp/event/lb-drive-in-jdm-park/",
+   "https://www.instagram.com/jdmparkosaka/",
+   "https://ameblo.jp/lb-kato/entry-12944046316.html"
+  ],
+  "experience": {
+   "hook": "Liberty Walk's own drive-in: wide-body cars and udon, next to the airport.",
+   "moments": [
+    "Walk around the LB wide-body cars on display, from GT-Rs to Lamborghinis with bolted-on fenders.",
+    "Look for Liberty Walk goods you cannot buy online: shirts, stickers, model cars.",
+    "Eat a bowl of Sanuki udon at Udonko inside the park before 15:00.",
+    "Drive or taxi 15 minutes to Kansai Airport for the flight north."
+   ],
+   "tip": "Put your big bags in a KIX coin locker or send them ahead, then come here light before an afternoon Peach flight."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw4-osaka-jdm-night-tour",
+  "kind": "addon",
+  "category": "cars",
+  "title": "Osaka JDM night tour, honest guide",
+  "titleJa": "大阪 JDMナイトツアー（助手席）",
+  "summary": "Kansai has no fixed 'Daikoku' meet: the famous Nanagan pier closed in 2017, and NEXCO closes Higashi-Osaka PA and Yao PA with police when crowds get dangerous. The reliable way is a guided passenger tour (e.g. 'JDM Car Meet Up Tour in Osaka', from about US$137) or MR.HIRO's guided drive if Aoki has 3+ years of manual driving.",
+  "why": "It gives the Osaka nights a car part without breaking rental rules: Pegasis rides as a passenger, and the guide knows where cars gather that week.",
+  "days": [
+   9,
+   10
+  ],
+  "duration": "3 h (night)",
+  "cost": "passenger tour about 15,000-21,000 JPY per person (US$137 on Viator, €119 on Expedia); MR.HIRO drive 57,000 JPY per car for 1 h",
+  "winter": "check",
+  "winterNote": "New route day 9 or 10; Friday or Saturday nights are best (new-route day 9 is a Wednesday, so move a day if you can). Meets are informal and move; no operator publishes a schedule. Osaka Auto Messe 2027 is Feb 12-14, 2027 at INTEX Osaka: after the trip ends (2026 ticket 3,000 JPY advance).",
+  "lat": 34.68876,
+  "lon": 135.59386,
+  "places": [
+   {
+    "en": "Higashi-Osaka PA (Kinki Expressway), known meet spot",
+    "ja": "東大阪PA",
+    "lat": 34.68876,
+    "lon": 135.59386
+   },
+   {
+    "en": "Tempozan (bay area night drive)",
+    "ja": "天保山",
+    "lat": 34.65627,
+    "lon": 135.43096
+   },
+   {
+    "en": "INTEX Osaka (Auto Messe, Feb 12-14, 2027)",
+    "ja": "インテックス大阪",
+    "lat": 34.63726,
+    "lon": 135.42001
+   }
+  ],
+  "photoQuery": "Nissan Skyline GT-R R34 night",
+  "sources": [
+   "https://corp.w-nexco.co.jp/newly/r7/0410k01/",
+   "https://daikokutour.com/car-meet-japan/",
+   "https://mrhiro-jdm.com/driving-tour",
+   "https://www.viator.com/tours/Osaka/JDM-Car-meet-up-Tour-in-Osaka/d333-477097P2",
+   "https://www.automesse.jp/",
+   "https://www.automesse.jp/ticket/"
+  ],
+  "experience": {
+   "hook": "Ride shotgun through Osaka's bay area at night and meet local car owners.",
+   "moments": [
+    "Get picked up in the evening and ride along the bay expressways past lit-up port cranes.",
+    "Stop where local owners gather that night and talk to them next to their Supras and RX-7s.",
+    "Drive past the dark piers of the Tempozan and Nanko area where Osaka's old meets were.",
+    "Take night photos with your guide's car under the expressway lights."
+   ],
+   "tip": "Book a Friday or Saturday night. Ask the guide which spot is open that week: PAs close without notice."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw4-fly-kix-cts-lcc",
+  "kind": "swap",
+  "category": "city",
+  "title": "Fly Kansai to Sapporo on LCC",
+  "titleJa": "関西空港→新千歳空港（Peach・ジェットスター）",
+  "summary": "The cheapest way north: Peach (8 flights a day, 7:20-17:45) or Jetstar (9:50) from Kansai Airport to New Chitose, 1 h 55 min, from 7,110 JPY on Jan 28, 2027. Take the Rapi:t from Namba (about 38 min, 1,670 JPY) and add a checked bag when you book.",
+  "why": "It is under half the price of JAL/ANA, has flights all day, and KIX is 40 minutes from Namba where the Osaka days end.",
+  "days": [
+   10,
+   11
+  ],
+  "duration": "about 5 h door to door",
+  "cost": "Google Flights Jan 28, 2027 (seen Sep 2026): Jetstar 9:50 7,110 JPY; Peach 12:35/16:15/17:45 7,850 JPY, 7:20/10:00/13:55 9,050 JPY. Checked bag: Jetstar 15 kg 2,030-2,500 JPY at booking (2,990+ later), skis +2,500; Peach about 2,000 JPY web / 3,100 airport (2025). Rapi:t 1,670 JPY",
+  "winter": "check",
+  "winterNote": "New route day 10 or 11. Schedules for Jan 2027 are open. Snow at New Chitose can delay or cancel flights; LCCs rebook only on their own (few) flights, so take a morning flight. Peach uses KIX Terminal 2 (free bus from Terminal 1, allow 20 min extra). JAL also flies KIX-CTS (9:45, 15:30, 13,250-16,550 JPY).",
+  "lat": 34.43417,
+  "lon": 135.23278,
+  "route": [
+   [
+    135.50157,
+    34.66903
+   ],
+   [
+    135.23278,
+    34.43417
+   ],
+   [
+    141.69222,
+    42.77528
+   ]
+  ],
+  "places": [
+   {
+    "en": "Nankai Namba station (Rapi:t)",
+    "ja": "南海なんば駅",
+    "lat": 34.66506,
+    "lon": 135.5006
+   },
+   {
+    "en": "Kansai International Airport",
+    "ja": "関西国際空港",
+    "lat": 34.43417,
+    "lon": 135.23278
+   },
+   {
+    "en": "New Chitose Airport",
+    "ja": "新千歳空港",
+    "lat": 42.77528,
+    "lon": 141.69222
+   }
+  ],
+  "photoQuery": "Peach Aviation A320 Kansai",
+  "sources": [
+   "https://www.google.com/travel/flights?q=Flights%20from%20KIX%20to%20CTS%20on%202027-01-28%20one%20way&hl=en&curr=JPY",
+   "https://files.jetstar.com/api/public/content/gk_fee_table_26",
+   "https://www.flypeach.com/lm/fares/fees_and_charges",
+   "https://www.airticket-center.com/peach/blog/peach-baggage-fees-and-size/",
+   "https://www.nankai.co.jp/traffic/express/rapit.html",
+   "https://www.navitime.co.jp/transfer/searchlist?orvStationCode=00007182&dnvStationCode=00289001&defaultCondition=0"
+  ],
+  "experience": {
+   "hook": "Blue Rapi:t train to the sea airport, two hours later you land in snow.",
+   "moments": [
+    "Ride the blue, round-nosed Rapi:t from Namba across the bridge to the airport island.",
+    "Check in at Peach's Terminal 2 and weigh your bag: the 7 kg carry-on limit is strict.",
+    "Look down at the Japan Alps and the white north of Honshu from the window.",
+    "Land at New Chitose and eat Hokkaido ramen or soft-serve in the domestic terminal."
+   ],
+   "tip": "Buy the checked bag when you book, not later: on Jetstar it costs about 1,000 yen more after booking."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw4-fly-itm-cts-full-service",
+  "kind": "swap",
+  "category": "city",
+  "title": "Fly Itami to Sapporo (JAL/ANA)",
+  "titleJa": "伊丹空港→新千歳空港（JAL・ANA）",
+  "summary": "Itami is the city airport, 25-35 minutes by limousine bus from Osaka station or Namba (730 JPY). JAL (7:35, 11:45, 15:00, 18:20, from 13,030 JPY on Jan 28, 2027) and ANA (about 7 flights, 8:30-19:05) fly to New Chitose in 1 h 45-50 min, with a 20 kg bag free.",
+  "why": "Less travel time than KIX, a free bag, and more flights to rebook onto if Hokkaido snow cancels one.",
+  "days": [
+   10,
+   11
+  ],
+  "duration": "about 4 h door to door",
+  "cost": "JAL 13,030 JPY (7:35, 11:45, 15:00, 18:20), 16,330 JPY (10:50, 12:45); ANA price not shown on Google Flights, usually similar: check ana.co.jp. Limousine bus 730 JPY",
+  "winter": "ok",
+  "winterNote": "New route day 10 or 11. Jan 2027 schedules open. Snow delays at New Chitose are common, but JAL/ANA have many flights to change to. For East Hokkaido: JAL via CTS to Memanbetsu (7:35 or 11:45 start) 18,240 JPY; no winter nonstop from Osaka to Kushiro.",
+  "lat": 34.78556,
+  "lon": 135.43806,
+  "route": [
+   [
+    135.49474,
+    34.70396
+   ],
+   [
+    135.43806,
+    34.78556
+   ],
+   [
+    141.69222,
+    42.77528
+   ]
+  ],
+  "places": [
+   {
+    "en": "Osaka Station (limousine bus stop)",
+    "ja": "大阪駅",
+    "lat": 34.70396,
+    "lon": 135.49474
+   },
+   {
+    "en": "OCAT / JR Namba bus terminal",
+    "ja": "OCAT（JR難波）",
+    "lat": 34.66639,
+    "lon": 135.49511
+   },
+   {
+    "en": "Osaka Itami Airport",
+    "ja": "大阪国際空港（伊丹）",
+    "lat": 34.78556,
+    "lon": 135.43806
+   },
+   {
+    "en": "New Chitose Airport",
+    "ja": "新千歳空港",
+    "lat": 42.77528,
+    "lon": 141.69222
+   }
+  ],
+  "photoQuery": "Osaka International Airport Itami",
+  "sources": [
+   "https://www.google.com/travel/flights?q=Flights%20from%20ITM%20to%20CTS%20on%202027-01-28%20one%20way&hl=en&curr=JPY",
+   "https://www.google.com/travel/flights?q=Flights%20from%20ITM%20to%20MMB%20on%202027-01-28%20one%20way&hl=en&curr=JPY",
+   "https://www.hankyu-kankobus.co.jp/limousine/timetable/N/",
+   "https://www.nikkei.com/article/DGXZQOUF25ADK0V20C25A2000000/"
+  ],
+  "experience": {
+   "hook": "The easy airport: bus from Umeda, big-airline seat, bag free.",
+   "moments": [
+    "Take the limousine bus from Osaka Station and watch planes land low over the houses near Itami.",
+    "Walk through Itami's new terminal, with shops for last Osaka snacks like 551 pork buns.",
+    "Fly north over the Sea of Japan coast and see snow start below Tohoku.",
+    "Land at New Chitose and pick up the rental car or the rapid train to Sapporo."
+   ],
+   "tip": "Take the 7:35 or 11:45 JAL: a morning flight leaves room to rebook if snow closes New Chitose later."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw4-fly-kobe-cts-skymark",
+  "kind": "swap",
+  "category": "city",
+  "title": "Fly Kobe to Sapporo on Skymark",
+  "titleJa": "神戸空港→新千歳空港（スカイマーク・AIRDO）",
+  "summary": "Kobe Airport, on an island 18 minutes from Sannomiya by Port Liner (340 JPY), has Skymark (8:05, 9:00, 15:05, 17:25), AIRDO (10:30, 19:00) and ANA (8:40) to New Chitose, 1 h 50 min, from 9,070 JPY. Skymark and AIRDO include a 20 kg bag.",
+  "why": "Nearly LCC prices with a free checked bag, and it fits well if you spend the last Kansai night in Kobe (beef, harbor lights) instead of Osaka.",
+  "days": [
+   10,
+   11
+  ],
+  "duration": "about 4 h door to door from Osaka",
+  "cost": "Skymark 17:25 9,070 JPY, 15:05 11,470 JPY, 8:05/9:00 12,570 JPY; AIRDO 10:30 9,965 JPY (Jan 28, 2027). Umeda to Kobe Airport by train about 700 JPY, about 1 h",
+  "winter": "check",
+  "winterNote": "New route day 10 or 11. Schedules open. Kobe Airport is small and fast: check-in 20 min before is often enough, but Skymark has fewer flights to rebook onto after a snow cancellation.",
+  "lat": 34.63428,
+  "lon": 135.22785,
+  "route": [
+   [
+    135.49474,
+    34.70396
+   ],
+   [
+    135.19286,
+    34.69316
+   ],
+   [
+    135.22785,
+    34.63428
+   ],
+   [
+    141.69222,
+    42.77528
+   ]
+  ],
+  "places": [
+   {
+    "en": "Kobe Airport",
+    "ja": "神戸空港",
+    "lat": 34.63428,
+    "lon": 135.22785
+   },
+   {
+    "en": "New Chitose Airport",
+    "ja": "新千歳空港",
+    "lat": 42.77528,
+    "lon": 141.69222
+   }
+  ],
+  "photoQuery": "Kobe Airport Skymark",
+  "sources": [
+   "https://www.google.com/travel/flights?q=Flights%20from%20UKB%20to%20CTS%20on%202027-01-28%20one%20way&hl=en&curr=JPY",
+   "https://www.skymark.co.jp/ja/baggage/checked.html",
+   "https://www.navitime.co.jp/"
+  ],
+  "experience": {
+   "hook": "A small island airport, a free suitcase, and near-LCC prices.",
+   "moments": [
+    "Ride the driverless Port Liner from Sannomiya over the harbor to the airport island.",
+    "Check in at a quiet terminal with short lines, then look back at the Rokko mountains.",
+    "Fly Skymark with your 20 kg suitcase included in the fare.",
+    "Land at New Chitose in the afternoon and drive into the snow."
+   ],
+   "tip": "The 17:25 Skymark (9,070 yen) is cheapest but lands at 19:15 in the dark; plan a Sapporo or Chitose hotel that night."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw4-fly-itm-asahikawa",
+  "kind": "swap",
+  "category": "snow",
+  "title": "Fly Itami straight to Asahikawa",
+  "titleJa": "伊丹空港→旭川空港（JAL）",
+  "summary": "One JAL nonstop a day, 8:45 to 10:30 (1 h 45 min, 18,960 JPY on Jan 28, 2027), lands you next to Biei and Furano. Start Hokkaido with the Blue Pond, Asahiyama Zoo and Furano skiing, then drive west to Sapporo and fly home from New Chitose.",
+  "why": "It skips the 2-hour drive from Sapporo to the snow country and gives a clean one-way route through Hokkaido, ending near the international airport.",
+  "days": [
+   10,
+   11
+  ],
+  "duration": "flight 1 h 45 min; changes the Hokkaido order",
+  "cost": "18,960 JPY (JAL, Jan 28, 2027); rental car one-way Asahikawa to New Chitose adds a drop fee",
+  "winter": "check",
+  "winterNote": "New route day 10 or 11. Only one nonstop (8:45), so leave Osaka hotel by about 7:00. Asahikawa Airport handles snow well but can still close in storms. There is no nonstop from Kansai Airport (Jetstar only via Narita).",
+  "lat": 43.67079,
+  "lon": 142.4541,
+  "route": [
+   [
+    135.49474,
+    34.70396
+   ],
+   [
+    135.43806,
+    34.78556
+   ],
+   [
+    142.4541,
+    43.67079
+   ],
+   [
+    142.6141,
+    43.49349
+   ],
+   [
+    142.39166,
+    43.3469
+   ],
+   [
+    141.69222,
+    42.77528
+   ]
+  ],
+  "places": [
+   {
+    "en": "Osaka Itami Airport",
+    "ja": "大阪国際空港",
+    "lat": 34.78556,
+    "lon": 135.43806
+   },
+   {
+    "en": "Asahikawa Airport",
+    "ja": "旭川空港",
+    "lat": 43.67079,
+    "lon": 142.4541
+   }
+  ],
+  "photoQuery": "Asahikawa Airport winter",
+  "sources": [
+   "https://www.google.com/travel/flights?q=Flights%20from%20ITM%20to%20AKJ%20on%202027-01-28%20one%20way&hl=en&curr=JPY",
+   "https://www.google.com/travel/flights?q=Flights%20from%20KIX%20to%20AKJ%20on%202027-01-28%20one%20way&hl=en&curr=JPY"
+  ],
+  "experience": {
+   "hook": "Breakfast in Osaka, the Blue Pond in snow before lunch.",
+   "moments": [
+    "Take the early bus to Itami and board the only nonstop to Asahikawa at 8:45.",
+    "Land at 10:30 at a small airport in white fields, 20 minutes from Biei.",
+    "Drive to the Blue Pond and Shirahige Falls the same afternoon.",
+    "Ski Furano the next day, then drive west to Sapporo for the last nights."
+   ],
+   "tip": "Book the rental car at Asahikawa Airport with return at New Chitose; compare the one-way fee with a Sapporo return."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw4-fly-itm-hakodate",
+  "kind": "swap",
+  "category": "city",
+  "title": "Fly Itami to Hakodate",
+  "titleJa": "伊丹空港→函館空港（JAL・ANA）",
+  "summary": "Three nonstops a day: ANA 8:20, JAL 11:10 (17,930 JPY on Jan 28, 2027) and ANA 15:30, about 1 h 30 min. Start Hokkaido in Hakodate (night view, morning market, Love Live Saint Snow places), then drive Onuma, Niseko, Otaru, Sapporo like the old baseline.",
+  "why": "It keeps the good south-to-north Hokkaido road trip of the first plan without the long Shinkansen from Tokyo.",
+  "days": [
+   10,
+   11
+  ],
+  "duration": "flight 1 h 30 min",
+  "cost": "JAL 11:10 17,930 JPY; ANA 8:20 and 15:30 price not shown on Google Flights (check ana.co.jp)",
+  "winter": "ok",
+  "winterNote": "New route day 10 or 11. Schedules open. No flights from Kansai Airport to Hakodate. Hakodate is milder than inland Hokkaido; roads to Niseko are snowy.",
+  "lat": 41.76988,
+  "lon": 140.82502,
+  "route": [
+   [
+    135.49474,
+    34.70396
+   ],
+   [
+    135.43806,
+    34.78556
+   ],
+   [
+    140.82502,
+    41.76988
+   ],
+   [
+    140.72638,
+    41.7738
+   ],
+   [
+    140.74577,
+    42.90183
+   ],
+   [
+    141.69222,
+    42.77528
+   ]
+  ],
+  "places": [
+   {
+    "en": "Osaka Itami Airport",
+    "ja": "大阪国際空港",
+    "lat": 34.78556,
+    "lon": 135.43806
+   },
+   {
+    "en": "Hakodate Airport",
+    "ja": "函館空港",
+    "lat": 41.76988,
+    "lon": 140.82502
+   }
+  ],
+  "photoQuery": "Hakodate night view Mount Hakodate",
+  "sources": [
+   "https://www.google.com/travel/flights?q=Flights%20from%20ITM%20to%20HKD%20on%202027-01-28%20one%20way&hl=en&curr=JPY",
+   "https://www.google.com/travel/flights?q=Flights%20from%20KIX%20to%20HKD%20on%202027-01-28%20one%20way&hl=en&curr=JPY"
+  ],
+  "experience": {
+   "hook": "From Osaka to Hakodate's famous night view in one afternoon.",
+   "moments": [
+    "Fly the 11:10 JAL and land in Hakodate by 12:40.",
+    "Eat a seafood bowl near the morning market or a Lucky Pierrot burger for lunch.",
+    "Ride the ropeway up Mt Hakodate for the night view of the narrow lit city.",
+    "Drive north the next day past frozen Onuma lake toward Niseko."
+   ],
+   "tip": "Take the 11:10 JAL: you land before lunch and can see the Mt Hakodate view at dusk (about 16:40)."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw4-ferry-maizuru-otaru",
+  "kind": "swap",
+  "category": "nature",
+  "title": "Overnight ferry Maizuru to Otaru",
+  "titleJa": "新日本海フェリー 舞鶴→小樽",
+  "summary": "Instead of flying, take a bus from Umeda to Maizuru (about 2 h, about 2,300 JPY) and board the Shin Nihonkai ferry at 23:50; it sails up the Sea of Japan for 21 hours and arrives in Otaru at 20:45 the next evening. Beds from 12,000 JPY (Tourist A), with a big bath on board.",
+  "why": "A slow, different travel day with sea baths and snow on the Hokkaido coast, arriving in Otaru, which is already on the route.",
+  "days": [
+   10,
+   11
+  ],
+  "duration": "1 night + 1 full day (21 h at sea)",
+  "cost": "Tourist A bed 12,000 JPY (fare period A, Oct 2026-Jan 2027); private rooms more; bus Osaka-Maizuru about 2,300 JPY",
+  "winter": "check",
+  "winterNote": "New route day 10 departure, day 11 arrival 20:45: it uses a full day. Daily 'with exceptions': check the monthly ship schedule (配船表) for Jan 2027 dock days. Winter sea can be rough; take seasickness pills.",
+  "lat": 35.48164,
+  "lon": 135.39191,
+  "route": [
+   [
+    135.49474,
+    34.70396
+   ],
+   [
+    135.39191,
+    35.48164
+   ],
+   [
+    141.02289,
+    43.18955
+   ]
+  ],
+  "places": [
+   {
+    "en": "Maizuru ferry terminal",
+    "ja": "舞鶴フェリーターミナル",
+    "lat": 35.48164,
+    "lon": 135.39191
+   },
+   {
+    "en": "Otaru port (Katsunai wharf)",
+    "ja": "小樽港 勝納ふ頭",
+    "lat": 43.18955,
+    "lon": 141.02289
+   }
+  ],
+  "photoQuery": "Shin Nihonkai Ferry Maizuru",
+  "sources": [
+   "https://www.snf.jp/guide/time_schedule/",
+   "https://www.snf.jp/guide/fare/",
+   "https://www.navitime.co.jp/"
+  ],
+  "experience": {
+   "hook": "Sleep on the Sea of Japan and wake up sailing toward Hokkaido.",
+   "moments": [
+    "Board the big white ferry near midnight at Maizuru after a bus ride from Osaka.",
+    "Soak in the ship's big bath while the sea moves slowly outside the window.",
+    "Watch the snowy coast of Tohoku and Hokkaido from the deck, wrapped up against the wind.",
+    "Arrive in Otaru at 20:45 and walk to the lit canal the same night."
+   ],
+   "tip": "Buy food in Osaka before you leave: the ship restaurant is open only at set times and costs more."
+  },
+  "area": "route-west"
+ }
+]

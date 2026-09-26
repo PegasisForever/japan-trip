@@ -1,6 +1,6 @@
 """Collects up to 6 Commons photo candidates per place so a human (or Claude) can pick the best one."""
 import json, urllib.request, urllib.parse, os, sys, time, subprocess
-UA={'User-Agent':'YukimichiTripPlanner/1.0 (personal trip site; contact via github)'}
+UA={'User-Agent':'YukimichiTripPlanner/1.0 (https://de75-173-32-75-236.ngrok-free.app; personal trip planner) python-urllib'}
 queries=json.load(open('photo-queries.json'))
 os.makedirs('cache/cands',exist_ok=True)
 db=json.load(open('cache/cands.json')) if os.path.exists('cache/cands.json') else {}

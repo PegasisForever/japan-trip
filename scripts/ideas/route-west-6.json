@@ -1,0 +1,469 @@
+[
+ {
+  "id": "rw6-plan-a-tokaido",
+  "kind": "plan",
+  "category": "city",
+  "title": "West route A: Tokaido line",
+  "titleJa": "東海道ルート：東京・富士・沼津・名古屋・京都・大阪・北海道",
+  "summary": "D1 Tue Jan 19 land Narita, Skyliner to Shinjuku (1 h 23 min, ¥2,820) · D2 Tokyo anime day (Suga shrine, Nakano, Akihabara) · D3 Kawasaki (Girls Band Cry) + guided Daikoku PA night · D4 highway bus Shinjuku→Kawaguchiko (~2 h), Oishi Park and lake, sleep Kawaguchiko · D5 Sat Chureito Pagoda at sunrise, Mishima-Kawaguchiko Liner bus to Mishima (1 h 43 min, ¥2,700), Numazu Love Live! Sunshine!! spots (Awashima, Uchiura), sleep Numazu · D6 Sun Hikari Mishima→Nagoya (1 h 15 min, ¥8,440), afternoon Toyota Automobile Museum (open Sun, closed Mon), sleep Nagoya · D7 Mon Ghibli Park (closed Tue), evening Shinkansen Nagoya→Kyoto (34 min, ¥5,910) · D8 Tue Kyoto: Fushimi Inari early, Kiyomizu, Gion · D9 Wed Uji (Euphonium) + Nara deer and Todaiji · D10 Thu Kyoto→Osaka: Kinkakuji in the morning, Dotonbori night, sleep Namba · D11 Fri Jan 29 Nankai to KIX, Jetstar 9:50→11:50 New Chitose, rental car, drive to Niseko (~2 h) · D12 Sat Niseko ski (Pegasis) / lesson (Aoki) · D13 Sun ski morning, drive to Otaru (~1 h 30 min), canal at night · D14 Mon Otaru→Sapporo, ramen, see snow-festival statues being built at Odori · D15 Tue Feb 2 CTS: Aoki flies Spring 13:50 direct to Shanghai, Pegasis flies Air Canada evening to Vancouver→Toronto. Nights: Tokyo 3, Kawaguchiko 1, Numazu 1, Nagoya 1, Kyoto 3, Osaka 1, Niseko 2, Otaru 1, Sapporo 1. Hokkaido = 4 nights, 4.5 days.",
+  "why": "Most variety for the west part: Fuji sunrise, two anime towns (Numazu, Uji), cars (Daikoku, Toyota museum) and Ghibli, and each travel day is short.",
+  "days": [],
+  "duration": "15 days (whole trip)",
+  "cost": "Transport approx ¥65,000–80,000 per person: Skyliner ¥2,820 · Tokyo trains ~¥3,000 · bus to Kawaguchiko ~¥2,200–2,600 · Mishima Liner ¥2,700 · Numazu buses ~¥1,500 · Hikari Mishima→Nagoya ¥8,440 · Nagoya subway + Linimo 2 days ~¥2,000 · Nagoya→Kyoto ¥5,910 · Kansai Mini Pass ¥3,000 (3 days, JR local) + Kintetsu/extra ~¥1,000 · Nankai to KIX ¥970 · Jetstar/Peach KIX→CTS ¥7,000–10,000 + checked bag ~¥2,500–4,000 · Hokkaido 4WD car 4 days + fuel + tolls, split by 2, ~¥27,000–32,000 (car price approx, not checked). No JR pass: single tickets are cheaper.",
+  "winter": "check",
+  "winterNote": "Ghibli Park closes on Tuesdays; January 2027 tickets go on sale Nov 10, 2026, 14:00 JST (sale is 2 months ahead on the 10th). Toyota Automobile Museum closes Mondays. Wakakusa Yamayaki (Nara, Sat Jan 23, 2027, fireworks 18:15, fire 18:30) falls on D5, so this version misses it. Sapporo Snow Festival 2027 is Feb 4–11 and Otaru Snow Light Path Feb 6–13: both start after the trip ends Feb 2. Chureito sunrise needs a clear morning; Fuji is often clear in January.",
+  "lat": 35.17077,
+  "lon": 136.8816,
+  "route": [
+   [
+    140.38556,
+    35.76528
+   ],
+   [
+    139.70056,
+    35.68944
+   ],
+   [
+    138.76861,
+    35.49833
+   ],
+   [
+    138.85928,
+    35.10311
+   ],
+   [
+    136.8816,
+    35.17077
+   ],
+   [
+    135.75861,
+    34.98556
+   ],
+   [
+    135.23028,
+    34.43056
+   ],
+   [
+    140.7049,
+    42.85913
+   ]
+  ],
+  "places": [
+   {
+    "en": "Kawaguchiko Station",
+    "ja": "河口湖駅",
+    "lat": 35.49833,
+    "lon": 138.76861
+   },
+   {
+    "en": "Awashima (Numazu, Love Live!)",
+    "ja": "淡島",
+    "lat": 35.03281,
+    "lon": 138.8883
+   },
+   {
+    "en": "Toyota Automobile Museum",
+    "ja": "トヨタ博物館",
+    "lat": 35.17274,
+    "lon": 137.05802
+   },
+   {
+    "en": "Ghibli Park",
+    "ja": "ジブリパーク",
+    "lat": 35.1725,
+    "lon": 137.0898
+   },
+   {
+    "en": "Uji Station (Euphonium)",
+    "ja": "宇治駅",
+    "lat": 34.8904,
+    "lon": 135.80061
+   }
+  ],
+  "anime": "Love Live! Sunshine!! (Numazu, Awashima, Uchiura), Hibike! Euphonium (Uji), Ghibli films (Ghibli Park), Girls Band Cry (Kawasaki)",
+  "photoQuery": "Tokaido Shinkansen Mount Fuji",
+  "sources": [
+   "https://transit.yahoo.co.jp/",
+   "https://ghibli-park.jp/en/ticket/",
+   "https://toyota-automobile-museum.jp/en/",
+   "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/kansaimini/",
+   "https://naratrip.com/yamayaki",
+   "https://www.google.com/travel/flights"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "Fuji sunrise, a Love Live seaside town, Ghibli, Kyoto, then Hokkaido powder.",
+   "moments": [
+    "Stand at Chureito Pagoda at sunrise with red pagoda, snow-capped Fuji and frozen breath in one photo.",
+    "Walk the Uchiura seafront in Numazu and look across the bay to Awashima, Aqours' island.",
+    "Stand next to a Toyota 2000GT at the Toyota Automobile Museum, then walk Ghibli's Grand Warehouse the next day.",
+    "Climb Fushimi Inari's orange gates at 7:00 before the crowds, then eat matcha soft cream by Uji Bridge.",
+    "Land at New Chitose at noon and be on Niseko snow the same evening, with Yotei in view."
+   ],
+   "tip": "Put Nagoya on Sunday–Monday: the car museum closes Mondays and Ghibli Park closes Tuesdays."
+  }
+ },
+ {
+  "id": "rw6-plan-b-alps-hokuriku",
+  "kind": "plan",
+  "category": "scenery",
+  "title": "West route B: Alps and Hokuriku",
+  "titleJa": "アルプス・北陸ルート：松本・高山・白川郷・金沢・京都・北海道",
+  "summary": "D1 Tue Jan 19 land Narita, Skyliner to Shinjuku · D2 Tokyo anime day · D3 Kawasaki + Daikoku PA night · D4 Fri Fuji day trip by bus (Kawaguchiko, Chureito) or Hakone, back to Tokyo · D5 Sat Azusa Shinjuku→Matsumoto (2 h 39 min, ¥6,730), Matsumoto Castle in snow, sleep Matsumoto · D6 Sun Jan 24 bus Matsumoto→Takayama (about 2 h 30 min, ~¥4,000–4,500), Takayama old town (Hyouka), evening Shirakawa-go light-up bus tour from Takayama (returns the same night) · D7 Mon morning train to Hida-Furukawa (Your Name), afternoon Nohi bus Takayama→Kanazawa via Shirakawa-go (~2 h 30 min, ~¥4,200), sleep Kanazawa · D8 Tue Kenrokuen + Omicho market, afternoon Tsurugi Shinkansen + Thunderbird via Tsuruga to Kyoto (2 h 4 min, ¥7,720) · D9 Wed Kyoto: Fushimi Inari, Kiyomizu, Gion · D10 Thu Uji + Nara, sleep Osaka · D11 Fri Jan 29 fly Itami→New Chitose (JAL 11:45→13:30, from ~¥13,000; or Peach from KIX ~¥8,000), rental car, drive to Furano (~2 h 30 min) · D12 Sat Furano ski · D13 Sun Blue Pond + Asahiyama Zoo, sleep Asahikawa · D14 Mon drive to Sapporo (~2 h), return car · D15 Tue Feb 2 fly home from CTS. Nights: Tokyo 4, Matsumoto 1, Takayama 1, Kanazawa 1, Kyoto 2, Osaka 1, Furano 2, Asahikawa 1, Sapporo 1. Hokkaido = 4 nights, 4.5 days.",
+  "why": "It catches the Shirakawa-go light-up on Sun Jan 24, adds two anime towns (Hyouka, Your Name), a black castle in snow and Furano's dry powder.",
+  "days": [],
+  "duration": "15 days (whole trip)",
+  "cost": "Transport approx ¥88,000–105,000 per person incl. the light-up tour: Skyliner ¥2,820 · Tokyo trains ~¥3,000 · Fuji day by bus ~¥4,800 · Azusa ¥6,730 · Matsumoto→Takayama bus ~¥4,000–4,500 · light-up bus tour from Takayama ¥13,000–16,000 · Takayama↔Hida-Furukawa JR ~¥500 · Takayama→Kanazawa bus ~¥4,200 · Kanazawa→Kyoto ¥7,720 · Kansai trains ~¥4,000 · Itami access ~¥700 · ITM→CTS ¥13,000–17,000 (JAL/ANA, bag included) · Hokkaido car 4 days split by 2 ~¥27,000–32,000 (approx). No pass pays off: the Takayama-Hokuriku Area Tourist Pass (¥19,800, 5 days) covers only ~¥13,000 of these legs.",
+  "winter": "check",
+  "winterNote": "Shirakawa-go light-up 2027: Jan 11, 17, 24, 31, 17:30–19:30, reservation only; Nohi bus tours from Takayama go on sale Oct 13–Nov 2, 2026 (staggered). One nonstop Itami→Asahikawa exists (JAL, 8:45, about ¥19,000 on Jan 28, 2027 per Google Flights; see rw4-fly-itm-asahikawa); it saves the 2 h 30 min drive to Furano but costs more than CTS. Asahiyama Zoo winter hours 10:30–15:30. Wakakusa Yamayaki (Sat Jan 23) and Sapporo Snow Festival (Feb 4–11, 2027) are both missed. Hokkaido roads: 4WD + studless tyres, drive in daylight.",
+  "lat": 36.25833,
+  "lon": 136.90556,
+  "route": [
+   [
+    139.70056,
+    35.68944
+   ],
+   [
+    137.9639,
+    36.2305
+   ],
+   [
+    137.2519,
+    36.1406
+   ],
+   [
+    136.90556,
+    36.25833
+   ],
+   [
+    136.64776,
+    36.57827
+   ],
+   [
+    135.75861,
+    34.98556
+   ],
+   [
+    135.43917,
+    34.78444
+   ],
+   [
+    142.39128,
+    43.34687
+   ]
+  ],
+  "places": [
+   {
+    "en": "Matsumoto Castle",
+    "ja": "松本城",
+    "lat": 36.2391,
+    "lon": 137.96912
+   },
+   {
+    "en": "Shirakawa-go (Ogimachi)",
+    "ja": "白川郷",
+    "lat": 36.25833,
+    "lon": 136.90556
+   },
+   {
+    "en": "Hida-Furukawa Station (Your Name)",
+    "ja": "飛騨古川駅",
+    "lat": 36.23673,
+    "lon": 137.18961
+   },
+   {
+    "en": "Omicho Market",
+    "ja": "近江町市場",
+    "lat": 36.57111,
+    "lon": 136.65639
+   },
+   {
+    "en": "Furano Ski Area",
+    "ja": "富良野スキー場",
+    "lat": 43.33278,
+    "lon": 142.33222
+   }
+  ],
+  "anime": "Hyouka (Takayama), Your Name (Hida-Furukawa), Hibike! Euphonium (Uji)",
+  "photoQuery": "Shirakawa-go winter light up",
+  "sources": [
+   "https://www.nouhibus.co.jp/shirakawa_lightup_2027/",
+   "https://shirakawa-go.gr.jp/events/441/",
+   "https://touristpass.jp/en/takayama_hokuriku/",
+   "https://transit.yahoo.co.jp/",
+   "https://en.wikipedia.org/wiki/Asahikawa_Airport",
+   "https://www.google.com/travel/flights"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "Castle, thatched village lit at night, then Hokkaido's driest powder.",
+   "moments": [
+    "Walk across the red bridge to Matsumoto Castle, black walls against fresh snow.",
+    "Stand on the Shiroyama deck on Sun Jan 24 as the thatched roofs of Shirakawa-go light up below.",
+    "Wait on the Hida-Furukawa platform where Taki arrives in Your Name, then walk the white-walled canal street.",
+    "Eat a seafood bowl at Omicho Market, then ride the new Hokuriku Shinkansen to Tsuruga.",
+    "Ski Furano's long groomed runs, then see Blue Pond lit up blue in the snow at night."
+   ],
+   "tip": "Book the Takayama light-up bus tour the day sales open in October; Jan 24 tours sell out."
+  }
+ },
+ {
+  "id": "rw6-plan-c-long-hokkaido",
+  "kind": "plan",
+  "category": "snow",
+  "title": "West route C: short west, long Hokkaido",
+  "titleJa": "関西は短く、北海道を長く",
+  "summary": "D1 Tue Jan 19 land Narita, Skyliner to Shinjuku · D2 Tokyo anime day · D3 Kawasaki + Daikoku PA night · D4 Fri Fuji day trip by bus (Kawaguchiko, Chureito) · D5 Sat Jan 23 Nozomi Tokyo→Kyoto (2 h 15 min, ¥14,170), Fushimi Inari, evening Kintetsu to Nara (~45 min) for the Wakakusa Yamayaki fireworks 18:15 and hill fire 18:30, sleep Kyoto · D6 Sun Kinkakuji early + Uji (Euphonium) · D7 Mon to Osaka: Osaka Castle, Nipponbashi Den Den Town, Dotonbori, sleep Namba · D8 Tue Jan 26 Nankai to KIX, Jetstar 9:50→11:50 New Chitose, rental car, drive to Otaru (~1 h 15 min), canal at night · D9 Wed drive to Niseko (~2 h), afternoon ski · D10 Thu Niseko ski · D11 Fri Niseko ski / Aoki lesson, onsen · D12 Sat drive to Sapporo (~2 h 30 min), Susukino · D13 Sun drive to Asahikawa (~2 h), Asahiyama Zoo, Blue Pond at night, sleep Asahikawa · D14 Mon back to Sapporo, return car · D15 Tue Feb 2 fly home from CTS. Nights: Tokyo 4, Kyoto 2, Osaka 1, Otaru 1, Niseko 3, Sapporo 2, Asahikawa 1. Hokkaido = 7 nights, 7.5 days.",
+  "why": "Pegasis gets 3 Niseko ski days and Aoki time to learn, the west part still has Kyoto, Uji and the one-night Nara fire festival.",
+  "days": [],
+  "duration": "15 days (whole trip)",
+  "cost": "Transport approx ¥80,000–95,000 per person: Skyliner ¥2,820 · Tokyo trains ~¥3,000 · Fuji day by bus ~¥4,800 · Nozomi Tokyo→Kyoto ¥14,170 (reserved; smartEX ~¥200 less) · Kyoto/Nara/Uji/Osaka trains ~¥4,000 · Nankai to KIX ¥970 · KIX→CTS ¥7,000–10,000 + bag ~¥2,500–4,000 · Hokkaido 4WD car 7 days + fuel + tolls, split by 2, ~¥45,000–55,000 (approx, not checked). Cheaper: no car in Niseko days, JR CTS→Kutchan ¥3,100 (2 h 56 min). No JR pass pays off.",
+  "winter": "check",
+  "winterNote": "Wakakusa Yamayaki 2027: Sat Jan 23 (New route day 5), fireworks 18:15, burning 18:30; best view from Nara Park or Heijo Palace site; last trains back to Kyoto are crowded. Sapporo Snow Festival 2027 is Feb 4–11 and Otaru Snow Light Path Feb 6–13, both after the trip; in late January you can see snow statues being built at Odori. Niseko night skiing runs in winter; snowstorms can close the Otaru–Niseko road (Route 5) for hours.",
+  "lat": 42.85913,
+  "lon": 140.7049,
+  "route": [
+   [
+    139.70056,
+    35.68944
+   ],
+   [
+    138.76861,
+    35.49833
+   ],
+   [
+    135.75861,
+    34.98556
+   ],
+   [
+    135.85419,
+    34.69103
+   ],
+   [
+    135.23028,
+    34.43056
+   ],
+   [
+    140.99389,
+    43.19778
+   ],
+   [
+    140.7049,
+    42.85913
+   ],
+   [
+    142.35899,
+    43.763
+   ]
+  ],
+  "places": [
+   {
+    "en": "Mount Wakakusa (Yamayaki)",
+    "ja": "若草山",
+    "lat": 34.69103,
+    "lon": 135.85419
+   },
+   {
+    "en": "Uji Station (Euphonium)",
+    "ja": "宇治駅",
+    "lat": 34.8904,
+    "lon": 135.80061
+   },
+   {
+    "en": "Otaru Canal",
+    "ja": "小樽運河",
+    "lat": 43.1987,
+    "lon": 141.0027
+   },
+   {
+    "en": "Niseko Hirafu",
+    "ja": "ニセコひらふ",
+    "lat": 42.85913,
+    "lon": 140.7049
+   },
+   {
+    "en": "Asahiyama Zoo",
+    "ja": "旭山動物園",
+    "lat": 43.76805,
+    "lon": 142.47978
+   }
+  ],
+  "anime": "Hibike! Euphonium (Uji)",
+  "photoQuery": "Wakakusa Yamayaki Nara",
+  "sources": [
+   "https://naratrip.com/yamayaki",
+   "https://transit.yahoo.co.jp/",
+   "https://www.snowfes.com/news/948.html",
+   "https://otaru.gr.jp/event/yukiakari2027",
+   "https://www.google.com/travel/flights"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "A whole hill set on fire in Nara, then a week of Hokkaido snow.",
+   "moments": [
+    "Watch fireworks over Nara, then see the whole grass hill of Wakakusa burn orange at 18:30.",
+    "Stand at Kinkakuji at opening time, then sip matcha by Uji Bridge in Euphonium's town.",
+    "Walk Otaru canal at night with gas lamps and snow banks, then eat fresh sushi.",
+    "Ski three days of Niseko powder under Mt Yotei; Aoki takes a lesson in Hirafu.",
+    "Watch penguins walk through the snow at Asahiyama Zoo, then see Blue Pond lit up."
+   ],
+   "tip": "Book the Kyoto hotel near Kintetsu Kyoto station for Jan 23; the Nara trains back fill up after 19:00."
+  }
+ },
+ {
+  "id": "rw6-jr-pass-compare-west",
+  "kind": "addon",
+  "category": "city",
+  "title": "JR pass check for west route",
+  "titleJa": "JRパス比較（西ルート）",
+  "summary": "No JR pass pays off on any of the three west-route versions; buy single tickets on smartEX (Tokaido Shinkansen) or JR-West online, and use the Kansai Mini Pass (¥3,000, 3 days) in Kyoto/Osaka/Nara. The Nationwide JR Pass is ¥53,000 for 7 days from Oct 1, 2026, but the JR legs on this route cost only about ¥18,000–20,000.",
+  "why": "It saves about ¥30,000 per person compared with a Nationwide pass that many blogs still recommend.",
+  "days": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "duration": "n/a",
+  "cost": "Nationwide JR Pass 7 days: ¥50,000 until Sep 30, 2026, ¥53,000 from Oct 1, 2026 (+ special ticket for Nozomi, e.g. Tokyo–Shin-Osaka ¥4,960). JR-covered legs per version: A ~¥20,000 (Hikari Mishima→Nagoya ¥8,440, Nagoya→Kyoto ¥5,910, Kansai locals); B ~¥18,000 (Azusa ¥6,730, Kanazawa→Kyoto ¥7,720, locals; buses not JR); C ~¥18,000 (Nozomi Tokyo→Kyoto ¥14,170, locals). Takayama-Hokuriku Area Tourist Pass ¥19,800/5 days covers only ~¥13,000 of B. Kansai-Hokuriku Area Pass ¥19,000/7 days covers ~¥13,000 of B. Kansai-Hiroshima Area Pass ¥17,000/5 days pays only if you add a Hiroshima/Miyajima day.",
+  "winter": "ok",
+  "winterNote": "New route days 5–10. JR-West's Kansai Area Pass (1–4 days) stops sales on Sep 30, 2026; the Kansai Mini Pass (¥3,000, 3 days, JR local/rapid only, no Shinkansen, no Haruka) stays. A JR Pass bought now at ¥50,000 cannot be kept until January (exchange orders must be used within 3 months). Tokaido Shinkansen prices change a little by season (late January is often an off-peak day, about ¥200 less).",
+  "lat": 34.98556,
+  "lon": 135.75861,
+  "photoQuery": "Kyoto Station Shinkansen",
+  "sources": [
+   "https://japanrailpass.net/en/purchase/price/",
+   "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/kansai/",
+   "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/kansaimini/",
+   "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/kansai_hokuriku/",
+   "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/kansai_hiroshima/",
+   "https://touristpass.jp/en/takayama_hokuriku/",
+   "https://smart-ex.jp/en/product/hayatoku21/"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "Add up the tickets first: the big pass loses you ¥30,000.",
+   "moments": [
+    "Book Tokaido Shinkansen seats on smartEX with a foreign credit card, then tap in with the same card or QR.",
+    "Check EX Hayatoku 21 fares 21+ days before; some Nozomi seats are cheaper than normal.",
+    "Buy the ¥3,000 Kansai Mini Pass for Kyoto, Uji, Nara (JR) and Osaka days.",
+    "Use Suica/ICOCA for everything else: buses, subways, Kintetsu."
+   ],
+   "tip": "Many blogs still show the Kansai Area Pass; it stops selling Sep 30, 2026."
+  }
+ },
+ {
+  "id": "rw6-luggage-west-route",
+  "kind": "addon",
+  "category": "city",
+  "title": "Skip suitcases: Tokyo to Kyoto",
+  "titleJa": "宅急便で荷物を先に送る（東京→京都）",
+  "summary": "On the west route, send the big suitcases with Yamato from the Tokyo hotel straight to the Kyoto hotel, and travel with a daypack through Fuji, Numazu/Matsumoto, Takayama and Nagoya. At the end, carry them on the plane to Hokkaido (cheaper than sending).",
+  "why": "Buses to Kawaguchiko, Takayama and Shirakawa-go have little luggage space, and they change hotels 5 times before Kyoto.",
+  "days": [
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "duration": "10 min at the hotel desk",
+  "cost": "Yamato cash price Kanto→Kansai: 120 size ¥2,040, 140 size ¥2,630, 160 size ¥3,020 (¥100 less if you bring it to a shop). Kansai→Hokkaido: 140 ¥3,810, 160 ¥4,180. A checked bag on Peach/Jetstar costs about ¥2,500–4,000, JAL/ANA includes 20 kg.",
+  "winter": "ok",
+  "winterNote": "New route: send on D3 or D4 from Tokyo, it arrives in Kyoto the next day or the day after. Ask the Kyoto hotel to keep it. Existing idea 'deal-yamato-suitcase-sapporo' covers Tokyo→Sapporo; on this route Kyoto is the better target because you fly from Osaka with the bags anyway. Snow can delay Hokkaido deliveries by a day.",
+  "lat": 35.68944,
+  "lon": 139.70056,
+  "photoQuery": "Yamato Transport truck",
+  "sources": [
+   "https://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "Five towns in five days with only a daypack.",
+   "moments": [
+    "Hand the suitcase to the Shinjuku hotel desk and fill in one Yamato form.",
+    "Climb onto the Kawaguchiko or Takayama bus with no fight for luggage space.",
+    "Open your Kyoto hotel room and find the suitcase waiting."
+   ],
+   "tip": "Measure the case: height + width + depth over 160 cm jumps to the 180 size price."
+  }
+ },
+ {
+  "id": "rw6-open-jaw-cts-exit",
+  "kind": "addon",
+  "category": "city",
+  "title": "Fly in Narita, out Sapporo",
+  "titleJa": "成田着・新千歳発のオープンジョー",
+  "summary": "Book each person's flights as multi-city: arrive Narita/Haneda Jan 19, leave New Chitose Feb 2. Pegasis can use Air Canada's new Sapporo–Vancouver nonstop (AC54, Tue/Fri/Sun), and Aoki can use Spring or China Eastern nonstop to Shanghai.",
+  "why": "No flight back to Tokyo or Osaka on the last day, and Tue Feb 2 is exactly an AC54 day.",
+  "days": [
+   1,
+   15
+  ],
+  "duration": "n/a",
+  "cost": "Google Flights snapshot on Sep 25, 2026, one way: CTS→Toronto via Vancouver (Air Canada) from ¥80,050; CTS→Shanghai Pudong nonstop Spring 13:50→17:00 ¥83,340 on Feb 2 (¥46,950 on Feb 1), China Eastern 13:30 nonstop; for comparison KIX→PVG Spring from ¥34,200 and NRT→PVG Spring ¥46,460 on Feb 2. Round trips / multi-city can be cheaper; check.",
+  "winter": "check",
+  "winterNote": "Air Canada YVR–CTS runs Dec 17, 2026 – Mar 26, 2027, B787: AC55 YVR 13:25 → CTS 15:35+1 (Mon/Thu/Sat), AC54 CTS 19:55 → YVR 11:10 (Tue/Fri/Sun); Google Flights showed 19:35 departure for Feb 2, so check. Chinese New Year is Feb 6, 2027, so China flights around Feb 1–5 cost more; book early. CTS flights can be delayed by snowstorms: sleep in Sapporo on D14, not Niseko.",
+  "lat": 42.77528,
+  "lon": 141.6925,
+  "photoQuery": "New Chitose Airport international terminal",
+  "sources": [
+   "https://www.aircanada.com/media/epic-snow-ramen-legendary-beer-air-canada-unveils-its-first-ever-winter-seasonal-service-to-sapporo/",
+   "https://www.airwaysmag.com/new-post/air-canada-vancouver-sapporo-nonstop-service",
+   "https://en.wikipedia.org/wiki/New_Chitose_Airport",
+   "https://www.google.com/travel/flights"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "End the trip at the snow airport, with a nonstop home for both.",
+   "moments": [
+    "Eat a last ramen at New Chitose's Ramen Dojo while Aoki boards the 13:50 Shanghai flight.",
+    "Buy Royce chocolate and Shiroi Koibito in the domestic terminal before Pegasis checks in.",
+    "Board the Air Canada 787 in the evening and land in Vancouver the same morning."
+   ],
+   "tip": "Search Aoki's CTS→PVG for Feb 1 and Feb 2: it was about ¥36,000 cheaper on Feb 1."
+  }
+ },
+ {
+  "id": "rw6-hokkaido-4-vs-7-days",
+  "kind": "addon",
+  "category": "snow",
+  "title": "Hokkaido: 4 days or 7?",
+  "titleJa": "北海道は4日か7日か",
+  "summary": "Versions A and B give Hokkaido 4 nights (fly Osaka→CTS on Fri Jan 29); version C gives 7 nights (fly Tue Jan 26). With 4 nights you get about 1.5 ski days; with 7 you get 3 ski days, Otaru, Sapporo and Asahikawa, but lose Nagoya/Numazu or the Alps.",
+  "why": "Pegasis is a good skier and Aoki needs time to learn; the west side has most of the anime and car places.",
+  "days": [
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "duration": "n/a",
+  "cost": "Each extra Hokkaido day with a car costs about ¥5,000–7,000 per person in car + fuel (approx), plus a Niseko lift ticket if skiing. The flight Osaka→CTS costs the same on either date (Jetstar/Peach ~¥7,000–10,000).",
+  "winter": "ok",
+  "winterNote": "No big Hokkaido festival falls inside the trip: Sapporo Snow Festival 2027 is Feb 4–11 and Otaru Snow Light Path Feb 6–13. So the Hokkaido part is for ski, snow scenery, onsen and food. Kansai side: Wakakusa Yamayaki Sat Jan 23 (only version C). Keep at least 1 buffer night in Sapporo before the flight home in case of snowstorms.",
+  "lat": 42.85913,
+  "lon": 140.7049,
+  "photoQuery": "Niseko Mount Yotei ski",
+  "sources": [
+   "https://www.snowfes.com/news/948.html",
+   "https://otaru.gr.jp/event/yukiakari2027",
+   "https://naratrip.com/yamayaki"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "Choose: more towns in the west, or more powder in the north.",
+   "moments": [
+    "Pick 4 days if Numazu, Ghibli, the car museum or Shirakawa-go matter most.",
+    "Pick 7 days if Pegasis wants 3 real powder days and Aoki wants to learn slowly.",
+    "Either way, sleep the last night in Sapporo, 40 min from the airport."
+   ],
+   "tip": "A middle option: fly on Wed Jan 27 (5 nights) by dropping one Kyoto day."
+  }
+ }
+]

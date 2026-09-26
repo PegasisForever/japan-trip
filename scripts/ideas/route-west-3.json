@@ -1,0 +1,824 @@
+[
+ {
+  "id": "rw3-inari-dawn-kinkakuji-snow",
+  "kind": "addon",
+  "category": "culture",
+  "title": "Fushimi Inari dawn, Kinkakuji snow",
+  "titleJa": "伏見稲荷大社（早朝）・金閣寺（雪景色）",
+  "summary": "Walk the Fushimi Inari torii tunnels at 7:00, before the crowds, then go to Kinkakuji for its 9:00 opening. If snow fell in the night, the gold temple has a white roof, which happens only 1-3 mornings a winter.",
+  "why": "Gives the two most famous Kyoto photos without the crowds, and a real chance of the rare snowy gold temple.",
+  "days": [
+   8
+  ],
+  "duration": "half day",
+  "cost": "Fushimi Inari free; Kinkakuji ¥500; trains/bus approx ¥600",
+  "winter": "ok",
+  "winterNote": "New route day 8 (or any Kyoto morning). Fushimi Inari is open 24 h, free. Kinkakuji opens 9:00-17:00. Settled snow at Kinkakuji is about 1-3 days a year (first snow of winter 2025-26 was Jan 3, 2026); check the forecast the night before. Arashiyama Hanatouro ended in 2021; its bamboo light-up 'Tsukitouro' was on Jan 10-11 in 2026, so not in your dates.",
+  "lat": 34.96752,
+  "lon": 135.77971,
+  "places": [
+   {
+    "en": "Fushimi Inari Taisha",
+    "ja": "伏見稲荷大社",
+    "lat": 34.96752,
+    "lon": 135.77971
+   },
+   {
+    "en": "Kinkaku-ji",
+    "ja": "金閣寺",
+    "lat": 35.03953,
+    "lon": 135.72954
+   }
+  ],
+  "photoQuery": "Fushimi Inari torii early morning",
+  "sources": [
+   "https://inari.jp/",
+   "https://www.shokoku-ji.jp/kinkakuji/",
+   "https://www.kyoto-np.co.jp/"
+  ],
+  "experience": {
+   "hook": "Empty orange torii at dawn, then maybe a gold temple under snow.",
+   "moments": [
+    "Walk the Senbon Torii tunnel at 7:00 with only the sound of your boots and crows.",
+    "Climb 30 minutes to the Yotsutsuji crossing and look down over south Kyoto in cold clear air.",
+    "Stand at the Kinkakuji pond edge at 9:00 opening and find the gold pavilion in its mirror.",
+    "Eat a hot yudofu or kitsune udon lunch near the station to warm your hands."
+   ],
+   "tip": "Look at the Kyoto snow forecast at night. With snow, skip Inari and be at the Kinkakuji gate before 9:00."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw3-kyo-fuyu-no-tabi-2027",
+  "kind": "addon",
+  "category": "culture",
+  "title": "Kyoto winter secret temple openings",
+  "titleJa": "第61回 京の冬の旅 非公開文化財特別公開",
+  "summary": "Every winter Kyoto City opens temple rooms, paintings and gardens that are closed the rest of the year. Pick 1-3 sites (about ¥800 each); after 3 stamps you get free tea and a sweet.",
+  "why": "Quiet, heated-by-nobody old rooms with few foreign visitors: a real 'insider' Kyoto moment on a cold day.",
+  "days": [
+   8,
+   9
+  ],
+  "duration": "2-4 h",
+  "cost": "approx ¥800 per site (2026 price)",
+  "winter": "check",
+  "winterNote": "New route day 8-9. The 61st edition in Jan-Mar 2027 is sold by tour companies, but the 2027 site list is not announced (usually out in November). 2026 (60th) ran Jan 9 - Mar 18, 2026, ¥800 per site. Some sites have short early-morning special slots.",
+  "lat": 34.98657,
+  "lon": 135.75858,
+  "photoQuery": "Kyoto temple interior winter fusuma painting",
+  "sources": [
+   "https://ja.kyoto.travel/specialopening/winter/",
+   "https://souda-kyoto.jp/",
+   "https://www.club-t.com/"
+  ],
+  "experience": {
+   "hook": "Step into Kyoto rooms that open only in winter.",
+   "moments": [
+    "Take off your shoes and walk in socks on ice-cold wooden floors past gold screen paintings.",
+    "Listen to the volunteer guide explain each room (Japanese; take photos where allowed).",
+    "Collect 3 stamps on the card and swap it for hot matcha and a Kyoto sweet.",
+    "Warm up afterwards in a kissaten with a thick toast and coffee."
+   ],
+   "tip": "Wear thick socks: the halls have no heating. Check the 2027 list in November and pick sites near your route."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw3-kurama-kibune-snow",
+  "kind": "addon",
+  "category": "snow",
+  "title": "Kurama to Kibune snowy hike",
+  "titleJa": "鞍馬寺・貴船神社（雪景色）",
+  "summary": "Take the small Eizan train north of Kyoto to Kurama, climb through Kurama-dera temple and over the hill to Kibune (about 1.5 h). Kifune Shrine's red lantern steps look best with snow; on snowy weekends the shrine lights them up at night.",
+  "why": "A cold mountain valley 30 minutes from Kyoto with a good chance of snow, a forest walk, and a famous lantern stair photo.",
+  "days": [
+   5,
+   6
+  ],
+  "duration": "half day",
+  "cost": "Eizan train approx ¥470 each way; Kurama-dera approx ¥500; Kifune shrine free",
+  "winter": "check",
+  "winterNote": "Kibune gets snow more often than Kyoto city. Kifune snow-day light-up in 2026: Jan 17 - Feb 28, Saturdays and Sundays only, sunset to 20:30, only when snow lies (cancelled on Jan 24, 2026 for no snow). 2027 not announced. New route: weekend days 5-6 (Jan 23-24) or 12-13 if you are in Kansai then; on weekdays you still get the snow walk but no light-up. Kurama cable car was stopped for repair and came back on Sep 1, 2026. The hill path is icy: wear shoes with grip.",
+  "lat": 35.12189,
+  "lon": 135.76294,
+  "places": [
+   {
+    "en": "Kurama-dera",
+    "ja": "鞍馬寺",
+    "lat": 35.11787,
+    "lon": 135.77065
+   },
+   {
+    "en": "Kifune Shrine",
+    "ja": "貴船神社",
+    "lat": 35.12189,
+    "lon": 135.76294
+   },
+   {
+    "en": "Kurama Onsen",
+    "ja": "くらま温泉",
+    "lat": 35.11924,
+    "lon": 135.77654
+   }
+  ],
+  "photoQuery": "Kifune Shrine lantern stairs snow",
+  "sources": [
+   "https://kifunejinja.jp/",
+   "https://x.com/kifunejinja",
+   "https://kurama-spa.com"
+  ],
+  "experience": {
+   "hook": "Red lanterns, white steps: Kyoto's snow valley is 30 minutes away.",
+   "moments": [
+    "Ride the one-car Eizan train as the houses turn into cedar forest.",
+    "Climb Kurama-dera's stone steps to the main hall and see the Kyoto hills under snow.",
+    "Walk down the root-covered forest path into Kibune, the river loud under the ice.",
+    "Stand at the foot of Kifune Shrine's lantern stairs, red posts against snow.",
+    "Finish with a hot soak at Kurama Onsen's outdoor bath if you have time."
+   ],
+   "tip": "Follow @kifunejinja on X: it posts by noon if the snow light-up is on that evening."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw3-ohara-sanzenin-winter",
+  "kind": "addon",
+  "category": "scenery",
+  "title": "Ohara village temples in snow",
+  "titleJa": "大原 三千院・寂光院",
+  "summary": "Take the bus one hour north to Ohara, a farm valley that is colder and snowier than Kyoto. See the moss garden and small smiling jizo statues of Sanzen-in, then walk the quiet lanes to Jakko-in.",
+  "why": "A slow, calm day after busy Tokyo: snowy moss garden, hot tea, pickles, and almost no crowds in winter.",
+  "days": [
+   8,
+   9
+  ],
+  "duration": "half day",
+  "cost": "Sanzen-in ¥700; Kyoto Bus approx ¥600 each way",
+  "winter": "ok",
+  "winterNote": "New route day 8-9. Sanzen-in is open every day; Dec-Feb hours 9:00-16:30. Ohara often has snow when Kyoto city has none, but not always.",
+  "lat": 35.11964,
+  "lon": 135.83492,
+  "places": [
+   {
+    "en": "Sanzen-in",
+    "ja": "三千院",
+    "lat": 35.11964,
+    "lon": 135.83492
+   },
+   {
+    "en": "Jakko-in",
+    "ja": "寂光院",
+    "lat": 35.12406,
+    "lon": 135.82082
+   }
+  ],
+  "photoQuery": "Sanzen-in Ohara snow",
+  "sources": [
+   "https://www.sanzenin.or.jp",
+   "https://www.keihanhotels-resorts.co.jp/"
+  ],
+  "experience": {
+   "hook": "Moss, snow and tiny smiling stone monks in a mountain valley.",
+   "moments": [
+    "Sit on the tatami of Sanzen-in's hall and look out at the Yusei-en garden.",
+    "Find the small warabe jizo statues peeking out of the moss (or the snow).",
+    "Taste shiba-zuke pickles free in the shops along the approach path.",
+    "Walk 20 minutes past rice fields to quiet Jakko-in."
+   ],
+   "tip": "Go early and take Kyoto Bus 17 from Kyoto Station; the last good buses back leave before 17:00."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw3-nara-yamayaki-2027",
+  "kind": "addon",
+  "category": "culture",
+  "title": "Nara deer and hill-burning festival",
+  "titleJa": "若草山焼き2027・奈良公園・東大寺",
+  "summary": "On Sat Jan 23, 2027 Nara sets a whole grass hill on fire after 600 fireworks. Spend the afternoon with the deer and the giant Buddha at Todaiji, then watch the hill burn from Nara Park at 18:30.",
+  "why": "Fireworks in January plus a mountain on fire is a once-a-year scene, and it fits right after the Tokyo days.",
+  "days": [
+   5
+  ],
+  "duration": "afternoon + evening",
+  "cost": "Festival free; Todaiji Great Buddha Hall ¥800; deer crackers ¥200; train Kyoto-Nara approx ¥760",
+  "winter": "check",
+  "winterNote": "New route day 5 (Sat Jan 23, 2027). Date is set by the Nara festival committee (Nara Prefecture notice, Sep 2026): 17:40 Nogami Shrine rite, 18:15 fireworks, 18:30 fire. Cancelled in bad weather, with no second date. To be there you must leave Tokyo by the morning of D5.",
+  "lat": 34.69117,
+  "lon": 135.85426,
+  "places": [
+   {
+    "en": "Wakakusa-yama",
+    "ja": "若草山",
+    "lat": 34.69117,
+    "lon": 135.85426
+   },
+   {
+    "en": "Todai-ji",
+    "ja": "東大寺",
+    "lat": 34.68824,
+    "lon": 135.83976
+   },
+   {
+    "en": "Kasuga Taisha",
+    "ja": "春日大社",
+    "lat": 34.68051,
+    "lon": 135.84607
+   },
+   {
+    "en": "Sarusawa Pond (view spot)",
+    "ja": "猿沢池",
+    "lat": 34.68144,
+    "lon": 135.83095
+   }
+  ],
+  "photoQuery": "Wakakusa Yamayaki Nara fireworks",
+  "sources": [
+   "https://www.pref.nara.lg.jp/",
+   "https://narashikanko.or.jp/event/detail_10236/",
+   "https://naratrip.com/wakakusayamayaki/"
+  ],
+  "experience": {
+   "hook": "600 fireworks, then a whole hill in Nara goes up in flames.",
+   "moments": [
+    "Bow to a deer and watch it bow back before you give it a cracker.",
+    "Stand below the 15 m bronze Great Buddha inside Todaiji's huge wooden hall.",
+    "Eat hot kakinoha sushi or kamameshi as the sky gets dark.",
+    "Watch fireworks over Wakakusa-yama at 18:15, then see the flames climb the hill at 18:30."
+   ],
+   "tip": "Get a place in Nara Park near Todaiji or by Sarusawa Pond by 17:30; the base of the hill is packed."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw3-kobe-beef-nada-kitano",
+  "kind": "addon",
+  "category": "food",
+  "title": "Kobe beef, sake cellars, Kitano",
+  "titleJa": "神戸牛ランチ・灘五郷酒蔵・北野異人館",
+  "summary": "Eat a real Kobe beef teppanyaki lunch in Sannomiya, walk up to the old Western houses of Kitano, then taste free sake at the Nada brewery museums (Hakutsuru, Kikumasamune).",
+  "why": "Kobe beef is a bucket-list meal, and the free sake museums make the rest of the day cheap.",
+  "days": [
+   10,
+   11
+  ],
+  "duration": "half day to 1 day",
+  "cost": "Real Kobe beef lunch approx ¥6,000-15,000 (cheaper 'wagyu' lunches from ¥1,500 are not Kobe beef); sake museums free; Hanshin train approx ¥200",
+  "winter": "ok",
+  "winterNote": "New route day 10-11. All indoor or city streets. Sake museums: Kikumasamune 9:30-16:30, free, closed at New Year only; January is the brewing season, the cellars smell of rice.",
+  "lat": 34.70097,
+  "lon": 135.19128,
+  "places": [
+   {
+    "en": "Kitano Ijinkan area",
+    "ja": "北野異人館",
+    "lat": 34.70097,
+    "lon": 135.19128
+   },
+   {
+    "en": "Sannomiya Station",
+    "ja": "三宮駅",
+    "lat": 34.69366,
+    "lon": 135.19543
+   },
+   {
+    "en": "Hakutsuru Sake Brewery Museum",
+    "ja": "白鶴酒造資料館",
+    "lat": 34.7102,
+    "lon": 135.2617
+   },
+   {
+    "en": "Kikumasamune Sake Brewery Museum",
+    "ja": "菊正宗酒造記念館",
+    "lat": 34.70862,
+    "lon": 135.26791
+   }
+  ],
+  "photoQuery": "Kobe beef teppanyaki",
+  "sources": [
+   "https://www.hyogo-tourism.jp/",
+   "https://www.city.kobe.lg.jp/",
+   "https://www.hakutsuru.co.jp/",
+   "https://kobe-ishidaya.com"
+  ],
+  "experience": {
+   "hook": "Kobe beef on a hot iron plate, then free sake in the cellar.",
+   "moments": [
+    "Watch the chef sear Kobe beef on the teppan and slice it in front of you.",
+    "Walk the steep Kitano lanes past the Weathercock House and 1900s Western homes.",
+    "See wooden sake tanks and old tools in the Hakutsuru museum, then taste the new-season sake.",
+    "Try a cup of Kikumasamune's dry 'karakuchi' sake in the free tasting corner."
+   ],
+   "tip": "Check the 'Kobe Beef' certificate (nose print) in the shop. Lunch sets cost about half of the same dinner."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw3-kobe-night-maya-luminarie",
+  "kind": "addon",
+  "category": "city",
+  "title": "Kobe night view and Luminarie",
+  "titleJa": "摩耶山 掬星台・神戸ルミナリエ2027",
+  "summary": "Ride the Maya cable car and ropeway to Kikuseidai for the 'ten-million-dollar' night view of Kobe and Osaka Bay. On Jan 29 - Feb 7, 2027 the Kobe Luminarie light arches also stand in the city below.",
+  "why": "Japan's top-3 night view plus the opening night of a famous light festival, both in one Friday evening.",
+  "days": [
+   11
+  ],
+  "duration": "evening (3-4 h)",
+  "cost": "Maya cable + ropeway round trip ¥1,560; Luminarie free, paid Meriken Park zone ¥500-750 advance / ¥1,000-1,500 on the day",
+  "winter": "check",
+  "winterNote": "New route day 11 (Fri Jan 29, 2027 = Luminarie first night). Luminarie 2027 (32nd): Jan 29 - Feb 7, dusk to 21:30. Maya Viewline winter hours (Nov 1 - Mar 19): CLOSED Tuesdays; Mon/Wed/Thu last ride up 16:40 (no night view); Fri/Sat/Sun/holidays last up 19:20. So night view only Fri-Sun. Stops in strong wind.",
+  "lat": 34.73395,
+  "lon": 135.2067,
+  "places": [
+   {
+    "en": "Kikuseidai, Mt Maya",
+    "ja": "掬星台",
+    "lat": 34.73395,
+    "lon": 135.2067
+   },
+   {
+    "en": "Higashi Yuenchi (Luminarie)",
+    "ja": "東遊園地",
+    "lat": 34.68778,
+    "lon": 135.19646
+   }
+  ],
+  "photoQuery": "Kikuseidai Mount Maya night view Kobe",
+  "sources": [
+   "https://koberope.jp/maya/price",
+   "https://kobe-luminarie.jp",
+   "https://prtimes.jp/",
+   "https://kobe-journal.com/"
+  ],
+  "experience": {
+   "hook": "Kobe's harbour lights spread below you like spilled gold.",
+   "moments": [
+    "Ride the old cable car, then the ropeway, up 700 m in the last light.",
+    "Stand at Kikuseidai at 18:00 and trace the city from Akashi Bridge to Osaka.",
+    "Ride down and walk into the glowing Luminarie arches downtown.",
+    "Eat hot steamed pork buns in Nankinmachi Chinatown after."
+   ],
+   "tip": "Go on Friday: take the 18:20 or 18:40 cable car up. Last car down leaves the top at 19:50."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw3-himeji-castle-winter",
+  "kind": "addon",
+  "category": "culture",
+  "title": "Himeji Castle, the white heron",
+  "titleJa": "姫路城",
+  "summary": "Japan's best original castle, all white, 6 floors of wood inside. Climb steep wooden stairs to the top, then walk the Kokoen garden next door.",
+  "why": "The most famous castle in Japan, 45 minutes from Kyoto by Shinkansen and easy to join with Kobe or Kinosaki.",
+  "days": [
+   9,
+   10
+  ],
+  "duration": "half day",
+  "cost": "¥2,500 for visitors who do not live in Himeji (from Mar 1, 2026; was ¥1,000); Shinkansen Kyoto-Himeji approx ¥5,000",
+  "winter": "ok",
+  "winterNote": "New route day 9-10. Open 9:00-17:00, last entry 16:00, closed only Dec 29-30. The yearly 'winter special opening' of closed rooms starts mid-February (2025: Feb 15 - Mar 2), so not in your dates. Snow here is rare.",
+  "lat": 34.83933,
+  "lon": 134.69402,
+  "places": [
+   {
+    "en": "Himeji Castle",
+    "ja": "姫路城",
+    "lat": 34.83933,
+    "lon": 134.69402
+   },
+   {
+    "en": "Himeji Station",
+    "ja": "姫路駅",
+    "lat": 34.82771,
+    "lon": 134.68943
+   }
+  ],
+  "photoQuery": "Himeji Castle",
+  "sources": [
+   "https://www.city.himeji.lg.jp/castle/",
+   "https://mainichi.jp/articles/20260227/",
+   "https://www.nikkei.com/"
+  ],
+  "experience": {
+   "hook": "Climb inside a 400-year-old wooden castle that never burned.",
+   "moments": [
+    "Walk straight from the station up Otemae street with the white keep growing ahead.",
+    "Climb six floors of steep, polished wooden stairs in socks, holding the rope rail.",
+    "Look out from the top floor window over the grey roofs to the sea.",
+    "Eat Himeji oden with ginger soy sauce near the station."
+   ],
+   "tip": "Arrive at 9:00. Coin lockers at Himeji Station take big suitcases; the castle has none."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw3-arima-onsen-kingin",
+  "kind": "addon",
+  "category": "onsen",
+  "title": "Arima gold and silver springs",
+  "titleJa": "有馬温泉 金の湯・銀の湯",
+  "summary": "Arima, 30 minutes from Kobe, has two kinds of water: rusty-red 'gold' salt water and clear 'silver' water. Do both public baths on a 2-bath ticket, walk the steep lanes, and ride the Rokko-Arima ropeway.",
+  "why": "One of Japan's oldest onsen and an easy half day from Kobe, with a real 'red water' you will not find elsewhere.",
+  "days": [
+   10,
+   11
+  ],
+  "duration": "half day",
+  "cost": "Kin no yu ¥800 (weekdays ¥650); 2-bath ticket ¥1,200; bus/train from Sannomiya approx ¥700-1,000 each way",
+  "winter": "ok",
+  "winterNote": "New route day 10-11. Kin no yu: 8:00-22:00, closed 2nd and 4th Tuesday of the month, so CLOSED on Tue Jan 26, 2027 (D8). It reopened Mar 17, 2026 after works. Rokko-Arima ropeway runs in winter; check for wind.",
+  "lat": 34.79679,
+  "lon": 135.24793,
+  "places": [
+   {
+    "en": "Kin no yu",
+    "ja": "金の湯",
+    "lat": 34.79679,
+    "lon": 135.24793
+   },
+   {
+    "en": "Gin no yu",
+    "ja": "銀の湯",
+    "lat": 34.79551,
+    "lon": 135.24902
+   },
+   {
+    "en": "Arima Onsen Station",
+    "ja": "有馬温泉駅",
+    "lat": 34.79926,
+    "lon": 135.24651
+   }
+  ],
+  "photoQuery": "Arima Onsen Kin no yu",
+  "sources": [
+   "https://arimaspa-kingin.jp/kin-01/",
+   "https://kansaionepass.com/",
+   "https://www.hankyu.co.jp/ticket/otoku/"
+  ],
+  "experience": {
+   "hook": "Soak in rust-red iron water that stains your towel orange.",
+   "moments": [
+    "Put your feet in the free gold-water footbath outside Kin no yu.",
+    "Sink into Kin no yu's brown, salty 'gold' water.",
+    "Walk up the lanes to Gin no yu for a clear 'silver' soak.",
+    "Eat a warm tansan senbei (soda cracker) baked on the street.",
+    "Ride the Rokko-Arima ropeway over snowy slopes back toward Kobe."
+   ],
+   "tip": "Go on a weekday morning: Kin no yu is ¥650 and quiet. Bring an old towel, the iron water stains."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw3-kinosaki-crab-sotoyu",
+  "kind": "swap",
+  "category": "onsen",
+  "title": "Kinosaki bath-hopping in crab season",
+  "titleJa": "城崎温泉 外湯めぐり・松葉ガニ",
+  "summary": "Stay one night in Kinosaki, a willow-lined canal town on the Sea of Japan side. Walk in yukata and wooden geta between 6 public baths with a free pass from your ryokan, and eat Matsuba snow crab.",
+  "why": "The classic Japanese onsen town night, often with snow, plus winter crab: a big contrast to cities.",
+  "days": [
+   9,
+   10
+  ],
+  "duration": "1 night (2 days)",
+  "cost": "Ltd exp Kyoto-Kinosaki approx ¥5,200-5,400 one way (2 h 20 min); bath day pass 'Yumepa' ¥1,500 (single ¥800), free for most ryokan guests; ryokan with crab dinner approx ¥25,000-45,000 pp (varies); ryokan crab lunch without stay from ¥10,450",
+  "winter": "ok",
+  "winterNote": "New route day 9-10. Crab season Nov 6 to March. Only 6 of 7 baths are open: Satono-yu closed since Apr 2024 and will reopen around Mar 2030. Kou-no-yu was closed May-Oct 2026 and should be open again. Each bath closes one weekday (e.g. Ichi-no-yu Wednesday, Gosho-no-yu Thursday); Mandara-yu and Yanagi-yu open at 15:00. Snow is common in January.",
+  "lat": 35.6259,
+  "lon": 134.8074,
+  "route": [
+   [
+    135.75858,
+    34.98657
+   ],
+   [
+    134.81342,
+    35.62375
+   ],
+   [
+    134.8074,
+    35.6259
+   ],
+   [
+    134.80953,
+    35.62616
+   ],
+   [
+    134.81269,
+    35.6268
+   ]
+  ],
+  "places": [
+   {
+    "en": "Kinosaki Onsen Station",
+    "ja": "城崎温泉駅",
+    "lat": 35.62375,
+    "lon": 134.81342
+   },
+   {
+    "en": "Gosho-no-yu",
+    "ja": "御所の湯",
+    "lat": 35.6259,
+    "lon": 134.8074
+   },
+   {
+    "en": "Ichi-no-yu",
+    "ja": "一の湯",
+    "lat": 35.62616,
+    "lon": 134.80953
+   },
+   {
+    "en": "Jizo-yu",
+    "ja": "地蔵湯",
+    "lat": 35.6268,
+    "lon": 134.81269
+   }
+  ],
+  "photoQuery": "Kinosaki Onsen canal willow snow",
+  "sources": [
+   "https://kinosaki-spa.gr.jp/",
+   "https://www.kobe-np.co.jp/news/tajima/",
+   "https://ekitan.com/",
+   "https://kinosaki-yoshiharu.com/dayuse"
+  ],
+  "experience": {
+   "hook": "Yukata, wooden sandals and snow: hop between six hot baths all night.",
+   "moments": [
+    "Change into the ryokan yukata and clack along the canal in geta under snowy willows.",
+    "Soak in Gosho-no-yu's outdoor bath beside a waterfall wall.",
+    "Try Ichi-no-yu's cave bath, dug into the rock.",
+    "Eat a crab dinner: boiled crab, grilled crab, then crab hotpot with rice porridge at the end.",
+    "Buy a hot crab bun and a local beer on the late-night walk back."
+   ],
+   "tip": "Your ryokan gives a free bath pass: tap it at each bath door. Go to Mandara-yu at 15:00 opening, it is empty."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw3-koyasan-shukubo-night",
+  "kind": "swap",
+  "category": "culture",
+  "title": "Koyasan temple stay in snow",
+  "titleJa": "高野山 宿坊・奥之院ナイトツアー",
+  "summary": "Ride the train and cable car up to Koyasan, a mountain town of 51 temples at 800 m. Sleep in a temple (shukubo), eat the monks' vegetarian dinner, walk the lantern-lit Okunoin graveyard at night, and join the fire ritual at dawn.",
+  "why": "A totally different Japan: snow, cedar forest, candles and chanting, after cities and ski resorts.",
+  "days": [
+   9,
+   10
+  ],
+  "duration": "1 night (2 days)",
+  "cost": "Shukubo with 2 meals approx ¥13,000-25,000 pp; Okunoin night tour ¥3,690 online (¥4,500 at the door; English tour approx ¥5,500-7,300); Nankai digital World Heritage ticket from Namba ¥3,980 (train + cable + local buses, round trip); Kongobuji ¥1,000",
+  "winter": "check",
+  "winterNote": "New route day 9-10. Snow often lies in January; train and cable are the easy way (roads need chains). Cable car: closed only Dec 22-24, 2025 for cable renewal; no closure announced for Jan 2027 (checked Sep 2026). Many shukubo do NOT take guests Dec-Feb (Wakayama tourism), so book early; Eko-in runs all year. Night tour runs almost every day at 19:00-20:20, some New Year breaks.",
+  "lat": 34.21878,
+  "lon": 135.60537,
+  "route": [
+   [
+    135.50132,
+    34.66868
+   ],
+   [
+    135.58227,
+    34.234
+   ],
+   [
+    135.57706,
+    34.22745
+   ],
+   [
+    135.58018,
+    34.21327
+   ],
+   [
+    135.58369,
+    34.21388
+   ],
+   [
+    135.59533,
+    34.2135
+   ],
+   [
+    135.60537,
+    34.21878
+   ]
+  ],
+  "places": [
+   {
+    "en": "Okunoin",
+    "ja": "奥之院",
+    "lat": 34.21878,
+    "lon": 135.60537
+   },
+   {
+    "en": "Ichinohashi (Okunoin entrance)",
+    "ja": "一の橋",
+    "lat": 34.2135,
+    "lon": 135.59533
+   },
+   {
+    "en": "Konpon Daito, Danjo Garan",
+    "ja": "根本大塔",
+    "lat": 34.21327,
+    "lon": 135.58018
+   },
+   {
+    "en": "Kongobuji",
+    "ja": "金剛峯寺",
+    "lat": 34.21388,
+    "lon": 135.58369
+   },
+   {
+    "en": "Koyasan Station (cable car top)",
+    "ja": "高野山駅",
+    "lat": 34.22745,
+    "lon": 135.57706
+   }
+  ],
+  "photoQuery": "Okunoin Koyasan snow lanterns",
+  "sources": [
+   "https://www.koyasan.or.jp/news/2025/11/13/",
+   "https://www.night.koyasan-okunoin.com",
+   "https://www.wakayama-kanko.or.jp/features/detail_519/",
+   "https://www.koyasan.or.jp/kongobuji/charges/",
+   "https://www.ekoin.jp/experience"
+  ],
+  "experience": {
+   "hook": "Sleep in a snowy temple and walk a graveyard of 200,000 tombs by lantern light.",
+   "moments": [
+    "Ride the steep cable car up through cedar forest into the snow line.",
+    "Eat shojin ryori dinner in your room: sesame tofu, tempura, pickles, all vegetables.",
+    "Walk Okunoin at 19:00 with a monk guide, moss-covered tombs lit by stone lanterns.",
+    "Sit in the dark hall at 6:30 for the morning chant and the roaring goma fire.",
+    "See the huge orange Konpon Daito pagoda standing in the snow."
+   ],
+   "tip": "Book a shukubo that allows the night tour; some have early bath and meal times. Bring warm socks: rooms are cold."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw3-wakayama-kuroshio-shirahama",
+  "kind": "addon",
+  "category": "food",
+  "title": "Tuna show and seaside onsen",
+  "titleJa": "黒潮市場・白浜温泉 崎の湯",
+  "summary": "Watch a whole tuna cut up at Kuroshio Market (Wakayama Marina City) and eat it fresh. Or go further south to Shirahama and sit in Saki-no-yu, a rock bath right at the Pacific waves.",
+  "why": "Warm, sunny coast and fresh tuna after the snow; Saki-no-yu is one of the most dramatic sea baths in Japan for ¥500.",
+  "days": [
+   10
+  ],
+  "duration": "half day (Kuroshio) or 1 day (Shirahama)",
+  "cost": "Kuroshio: show free, tuna bowls approx ¥1,500-3,000; Saki-no-yu ¥500; Osaka-Shirahama Ltd exp approx 2 h 30 min",
+  "winter": "ok",
+  "winterNote": "New route day 10, good after Koyasan (Koyasan-Hashimoto-Wakayama by train). Kuroshio tuna show: weekdays 12:30 and 15:00, weekends/holidays 11:00, 12:30, 15:00. Saki-no-yu Oct-Mar 8:00-17:00, last entry 30 min before. Adventure World's pandas went back to China in 2025.",
+  "lat": 34.15358,
+  "lon": 135.17587,
+  "places": [
+   {
+    "en": "Kuroshio Market",
+    "ja": "黒潮市場",
+    "lat": 34.15358,
+    "lon": 135.17587
+   },
+   {
+    "en": "Saki-no-yu",
+    "ja": "崎の湯",
+    "lat": 33.67696,
+    "lon": 135.33702
+   },
+   {
+    "en": "Toretore Market, Shirahama",
+    "ja": "とれとれ市場",
+    "lat": 33.68144,
+    "lon": 135.37515
+   }
+  ],
+  "photoQuery": "Sakinoyu Shirahama onsen",
+  "sources": [
+   "https://www.kuroshioichiba.co.jp/corner1/",
+   "https://www.town.shirahama.wakayama.jp/",
+   "https://www.wakayama-kanko.or.jp/spots/detail_565/"
+  ],
+  "experience": {
+   "hook": "Fresh tuna cut in front of you, then a hot bath at the Pacific's edge.",
+   "moments": [
+    "Watch the staff cut a whole tuna into blocks while the host calls out each part.",
+    "Eat a chutoro and otoro bowl straight after the show.",
+    "Sit in Saki-no-yu's rock pool as winter waves crash a few metres away.",
+    "Try grilled seafood skewers at Toretore Market in Shirahama."
+   ],
+   "tip": "Buy the fresh tuna sashimi cut after the show right away: it sells out in minutes."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw3-kansai-4day-swap",
+  "kind": "swap",
+  "category": "culture",
+  "title": "4 Kansai days: Kyoto to Kobe",
+  "titleJa": "京都・城崎温泉・姫路・神戸 4日間",
+  "summary": "D8 (Tue Jan 26) Kyoto: Fushimi Inari at 7:00, Kinkakuji 9:00 (snow chance), afternoon Kurama-Kibune snow walk · D9 (Wed) Ltd exp Kinosaki 7:32 → 9:52, 6 onsen baths, crab dinner, ryokan night · D10 (Thu) Hamakaze 7:13 → Himeji 8:54, castle at 9:00, Shinkansen to Shin-Kobe, Nada sake museums, Kobe beef dinner · D11 (Fri Jan 29) Arima Onsen gold bath in the morning, Kitano, then Maya night view (Friday hours) and Luminarie opening night; fly Itami/KIX → New Chitose on D12 morning. If you must fly on D11, skip the Friday evening. Swap: Koyasan temple night instead of Kinosaki.",
+  "why": "Mixes temples, a real onsen-town night, the best castle and Kobe beef, with no car and short trains; Friday lands on Luminarie's first night.",
+  "days": [
+   8,
+   9,
+   10,
+   11
+  ],
+  "duration": "4 days",
+  "cost": "Trains approx ¥15,000-18,000 pp (Kyoto-Kinosaki ¥5,300, Kinosaki-Himeji, Himeji-Kobe, locals); entry fees approx ¥6,000 (Himeji ¥2,500); Kinosaki crab ryokan approx ¥25,000-45,000 pp; Kobe beef lunch/dinner ¥6,000-15,000",
+  "winter": "ok",
+  "winterNote": "New route day 8-11 (Jan 26-29). Tue Jan 26: Maya ropeway closed and Arima Kin no yu closed, so Kobe is on Thu/Fri. Hamakaze runs only 3 times a day (Kinosaki 7:13, 14:14, 17:17 toward Himeji); Himeji last entry 16:00, so take the 7:13. Luminarie 2027: Jan 29 - Feb 7. Kifune snow light-up is weekends only, so not on these weekdays.",
+  "lat": 34.83933,
+  "lon": 134.69402,
+  "route": [
+   [
+    135.77971,
+    34.96752
+   ],
+   [
+    135.72954,
+    35.03953
+   ],
+   [
+    135.76294,
+    35.12189
+   ],
+   [
+    134.8074,
+    35.6259
+   ],
+   [
+    134.69402,
+    34.83933
+   ],
+   [
+    135.2617,
+    34.7102
+   ],
+   [
+    135.24793,
+    34.79679
+   ],
+   [
+    135.2067,
+    34.73395
+   ]
+  ],
+  "places": [
+   {
+    "en": "Fushimi Inari Taisha",
+    "ja": "伏見稲荷大社",
+    "lat": 34.96752,
+    "lon": 135.77971
+   },
+   {
+    "en": "Kinosaki Onsen",
+    "ja": "城崎温泉",
+    "lat": 35.6259,
+    "lon": 134.8074
+   },
+   {
+    "en": "Himeji Castle",
+    "ja": "姫路城",
+    "lat": 34.83933,
+    "lon": 134.69402
+   },
+   {
+    "en": "Arima Onsen Kin no yu",
+    "ja": "金の湯",
+    "lat": 34.79679,
+    "lon": 135.24793
+   },
+   {
+    "en": "Kikuseidai, Mt Maya",
+    "ja": "掬星台",
+    "lat": 34.73395,
+    "lon": 135.2067
+   }
+  ],
+  "photoQuery": "Kinosaki Onsen snow",
+  "sources": [
+   "https://www.jorudan.co.jp/",
+   "https://kinosaki-spa.gr.jp/",
+   "https://www.city.himeji.lg.jp/castle/",
+   "https://koberope.jp/maya/price",
+   "https://kobe-luminarie.jp",
+   "https://arimaspa-kingin.jp/kin-01/"
+  ],
+  "experience": {
+   "hook": "Torii at dawn, crab in a snow town, a white castle, Kobe lights.",
+   "moments": [
+    "Walk Fushimi Inari's empty torii tunnel at 7:00 on day 8.",
+    "Hop between Kinosaki's baths in yukata and eat a full crab dinner on day 9.",
+    "Climb Himeji Castle's wooden stairs right at 9:00 opening on day 10.",
+    "Eat Kobe beef from the teppan, then taste new sake in Nada.",
+    "End day 11 above Kobe at Kikuseidai, then walk under the Luminarie arches."
+   ],
+   "tip": "Send big bags from Kyoto to your Kobe hotel by takkyubin and travel to Kinosaki with small bags only."
+  },
+  "area": "route-west"
+ }
+]

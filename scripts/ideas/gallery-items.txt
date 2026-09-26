@@ -1,0 +1,176 @@
+narita | Narita Airport | 成田国際空港 | place:airport
+hotel-shinjuku | Hotel Gracery Shinjuku | ホテルグレイスリー新宿 | place:hotel
+omoide | Omoide Yokocho | 思い出横丁 | place:food
+daikoku | Daikoku Parking Area | 大黒PA | place:car
+rental-shinjuku | Rental car pickup, Shinjuku | タイムズカー 新宿 | place:car
+turnpike | Hakone Turnpike | アネスト岩田ターンパイク箱根 | place:car
+taikanzan | Taikanzan Viewpoint | 大観山 | place:fuji
+fun2drive | Fun2Drive guided JDM drive | Fun2Drive 箱根 | place:car
+otome | Otome Pass | 乙女峠 | place:fuji
+oshino | Oshino Hakkai | 忍野八海 | place:fuji
+chureito | Chureito Pagoda | 新倉山浅間公園 忠霊塔 | place:fuji
+hotel-kawaguchiko | Hotel Route-Inn Kawaguchiko | ホテルルートイン河口湖 | place:hotel
+lake-kawaguchi | Lake Kawaguchi north shore | 河口湖 大石公園 | place:fuji
+tokyo-st | Tokyo Station | 東京駅 | place:station
+yamagata-st | Yamagata Station | 山形駅 | place:station
+zao-onsen | Zao Onsen | 蔵王温泉 | place:onsen
+zao-ski | Zao Onsen Ski Resort | 蔵王温泉スキー場 | place:ski
+zao-juhyo | Zao snow monsters | 蔵王の樹氷 | place:ski
+ryokan-zao | Meito Resort Lucent Takamiya | 名湯リゾート ルーセントタカミヤ | place:onsen
+sendai-st | Sendai Station, Gyutan Street | 仙台駅 牛たん通り | place:food
+hotel-sendai | Dormy Inn Sendai Ekimae | 天然温泉 萩の湯 ドーミーイン仙台駅前 | place:hotel
+matsushima | Matsushima Bay | 松島 | place:sight
+shin-hakodate | Shin-Hakodate-Hokuto Station | 新函館北斗駅 | place:station
+kanemori | Kanemori Red Brick Warehouses | 金森赤レンガ倉庫 | place:sight
+mt-hakodate | Mount Hakodate night view | 函館山 | place:sight
+hotel-hakodate | La Vista Hakodate Bay | ラビスタ函館ベイ | place:hotel
+asaichi | Hakodate Morning Market | 函館朝市 | place:food
+goryokaku | Goryokaku Fort | 五稜郭 | place:sight
+rental-hakodate | Rental car pickup, Hakodate Station | レンタカー 函館駅前 | place:car
+onuma | Onuma Quasi-National Park | 大沼公園 | place:sight
+niseko | Niseko Grand Hirafu | ニセコ東急 グラン・ヒラフ | place:ski
+hotel-kutchan | Hotel 3M, Kutchan | ホテルスリーエム | place:hotel
+otaru-canal | Otaru Canal | 小樽運河 | place:sight
+sakaimachi | Sakaimachi Street | 堺町通り | place:sight
+otaru-sushi | Otaru Sushi Street | 寿司屋通り | place:food
+hotel-asahikawa | Dormy Inn Asahikawa | 天然温泉 神威の湯 ドーミーイン旭川 | place:hotel
+ramen-mura | Asahikawa Ramen Village | あさひかわラーメン村 | place:food
+asahiyama | Asahiyama Zoo penguin walk | 旭山動物園 | place:sight
+blue-pond | Shirogane Blue Pond, winter light-up | 白金青い池 | place:sight
+shirahige | Shirahige Falls | 白ひげの滝 | place:sight
+hotel-furano | Natulux Hotel Furano | ナチュラクスホテル | place:hotel
+shibuya-sky | Shibuya Sky | SHIBUYA SKY（渋谷スカイ） | place:sight
+rental-sapporo | Rental car drop, Sapporo Station | レンタカー 札幌駅北口 | place:car
+hotel-sapporo | Dormy Inn Premium Sapporo | ドーミーインPREMIUM札幌 | place:hotel
+beer-museum | Sapporo Beer Museum | サッポロビール博物館 | place:sight
+daruma | Jingisukan Daruma | 成吉思汗だるま 本店 | place:food
+nijo | Nijo Market | 二条市場 | place:food
+garaku | Soup Curry GARAKU | スープカレー GARAKU | place:food
+odori | Odori Park and Sapporo TV Tower | 大通公園・さっぽろテレビ塔 | place:sight
+moiwa | Mt Moiwa night view | もいわ山 | place:sight
+cts | New Chitose Airport | 新千歳空港 | place:airport
+hotel-narita | Toyoko Inn Narita Airport | 東横INN成田空港本館 | place:hotel
+naritasan | Naritasan Shinshoji Temple | 成田山新勝寺 | place:sight
+gbc-miharashi | Tamagawa Miharashi Park | 多摩川見晴らし公園 | place:anime
+gbc-minamikawara | Minamikawara Park and Miyakocho Footbridge | 南河原公園・都町歩道橋 | place:anime
+gbc-muza | MUZA Kawasaki Symphony Hall | ミューザ川崎シンフォニーホール | place:anime
+gbc-lazona | Lazona Kawasaki Plaza, Rufa Square | ラゾーナ川崎プラザ ルーファ広場 | place:anime
+gbc-east-plaza | Kawasaki Station East Exit Plaza | 川崎駅東口 駅前広場 | place:anime
+gbc-marufuku | Marufuku Coffee, Kawasaki Azalea | 丸福珈琲店 川崎アゼリア店 | place:anime
+gbc-citta | CLUB CITTA' and La Cittadella | クラブチッタ（ラ チッタデッラ） | place:anime
+suga | Suga Shrine stairs | 須賀神社（男坂） | place:anime
+shimokita | Shimokitazawa | 下北沢 | place:anime
+shelter | Shimokitazawa SHELTER | 下北沢SHELTER | place:anime
+nakano | Nakano Broadway | 中野ブロードウェイ | place:anime
+zest | Akihabara ZEST | 秋葉原ZEST | place:anime
+radio-kaikan | Akihabara Radio Kaikan | 秋葉原ラジオ会館 | place:anime
+kinshi | Kinshi Park | 錦糸公園 | place:anime
+sabbat-kansai-end-plan | Sabbat of the Witch Kansai ending | サノバウィッチ 聖地巡礼（京都・大阪・神戸） | idea:plan
+aokana-goto-plan | Aokana pilgrimage, Goto Islands | 蒼の彼方のフォーリズム 聖地巡礼（五島列島） | idea:plan
+west-japan-anime-plan | Sabbat plus Aokana west ending | 関西・五島 聖地巡礼ルート | idea:plan
+kaguya-sama-minato | Kaguya-sama walk, Mita to Takeshiba | かぐや様は告らせたい 聖地巡礼（三田・田町・新橋・竹芝） | idea:addon
+gbc-yako-saiwai-stamps | Girls Band Cry: Yako and stamps | ガールズバンドクライ 矢向・幸区・スタンプツアー | idea:addon
+gbc-tokyo-scenes | Girls Band Cry Tokyo scenes | ガールズバンドクライ 東京編（東京駅・渋谷・武道館） | idea:addon
+bocchi-shimokita-more | More Bocchi spots in Shimokitazawa | ぼっち・ざ・ろっく！ 下北沢 聖地（本多劇場・どんぐりひろば公園ほか） | idea:addon
+bocchi-kanazawa-hakkei | Bocchi's home town, Kanazawa-hakkei | ぼっち・ざ・ろっく！ 金沢八景（横浜市） | idea:addon
+enoshima-kamakura-bocchi-slamdunk | Enoshima and Slam Dunk crossing | 江の島・鎌倉高校前踏切 | idea:swap
+numazu-love-live-sunshine | Numazu, Love Live! Sunshine!! | ラブライブ！サンシャイン!! 沼津・内浦 | idea:swap
+yurucamp-motosu | Yuru Camp Motosu lake view | ゆるキャン△ 浩庵キャンプ場（本栖湖） | idea:addon
+hakodate-anime | Hakodate: Saint Snow and Conan | 函館 聖地巡礼（ラブライブ！サンシャイン!!・名探偵コナン） | idea:addon
+otaru-golden-kamuy | Otaru anime and Golden Kamuy | 小樽 聖地巡礼（ゴールデンカムイ・最終兵器彼女） | idea:addon
+ghibli-museum | Ghibli Museum, Mitaka | 三鷹の森ジブリ美術館 | idea:addon
+chichibu-anohana | Chichibu: Anohana and icicles | 秩父 聖地巡礼（あの花・ここさけ・空の青さを知る人よ） | idea:swap
+washinomiya-lucky-star | Washinomiya Shrine, Lucky Star | らき☆すた 鷲宮神社 | idea:addon
+oarai-garupan | Oarai, Girls und Panzer | ガールズ&パンツァー 大洗 | idea:swap
+hida-yourname-hyouka | Hida: Your Name and Hyouka | 飛騨古川・高山（君の名は。・氷菓） | idea:swap
+uji-toyosato-kansai | Uji Euphonium and Toyosato K-On | 宇治（響け！ユーフォニアム）・豊郷小学校旧校舎群（けいおん！） | idea:addon
+hakone-evangelion | Hakone as Evangelion Tokyo-3 | 箱根（エヴァンゲリオン 第3新東京市） | idea:addon
+rusutsu-snow-drift | Rusutsu snow drift driving course | ルスツリゾート 雪上ドリフト | idea:addon
+initial-d-haruna-day | Initial D Mt Haruna day trip | 頭文字D 聖地 榛名山（秋名山） | idea:swap
+irohazaka-nikko-bus | Irohazaka hairpins and Nikko | いろは坂（日光） | idea:swap
+megamiko-ice-driving | Frozen lake ice driving, Nagano | 女神湖 氷上ドライブ | idea:swap
+ebisu-drift-taxi | Ebisu Circuit drift taxi (closed) | エビスサーキット ドリフトタクシー | idea:addon
+tokyo-drift-day-tour | Guided circuit drift day from Tokyo | ドリフト体験ツアー（東京発） | idea:addon
+fuji-motorsports-museum | Fuji Motorsports Museum and Speedway | 富士モータースポーツミュージアム | idea:addon
+nissan-heritage-zama | Nissan Heritage Collection, Zama | 日産ヘリテージコレクション（座間） | idea:addon
+tokyo-bay-pa-night | Tatsumi PA and Umihotaru night | 辰巳第一PA・海ほたるPA | idea:addon
+nissan-crossing-ginza | Nissan Crossing Ginza showroom | NISSAN CROSSING（ニッサン クロッシング） | idea:addon
+honda-collection-hall-motegi | Honda Collection Hall, Motegi | ホンダコレクションホール（モビリティリゾートもてぎ） | idea:swap
+tokyo-auto-salon-2027 | Start trip at Tokyo Auto Salon | 東京オートサロン2027 | idea:plan
+up-garage-sapporo | Up Garage used parts, Sapporo | アップガレージ 札幌 | idea:addon
+toyota-automobile-museum | Toyota Automobile Museum, Nagoya | トヨタ博物館 | idea:swap
+shirakawa-go-lightup-hokuriku-fly | Shirakawa-go light-up, then fly north | 白川郷ライトアップ・飛騨高山・金沢 | idea:plan
+nagano-snow-monkeys-shiga-kogen | Snow monkeys and Shiga Kogen ski | 地獄谷野猿公苑・志賀高原・渋温泉 | idea:swap
+japan-alps-matsumoto-hakuba-kanazawa | Japan Alps: Matsumoto, Hakuba, Kanazawa | 松本城・白馬・金沢 | idea:plan
+gala-yuzawa-ski-daytrip | Gala Yuzawa Shinkansen ski day | GALA湯沢スキー場 | idea:swap
+fujiten-beginner-ski | Fujiten ski with Fuji view | ふじてんスノーリゾート | idea:addon
+yamanaka-diamond-fuji | Diamond Fuji sunset at Yamanaka | 山中湖 ダイヤモンド富士 | idea:addon
+motosu-lake-ice-cave | Lake Motosu and lava ice caves | 本栖湖・鳴沢氷穴・富岳風穴 | idea:addon
+fuji-q-skate | Fuji-Q rides and ice skating | 富士急ハイランド | idea:addon
+hakone-owakudani-openair | Owakudani and Open-Air Museum | 大涌谷・箱根彫刻の森美術館 | idea:addon
+gotemba-outlets | Gotemba outlets with Fuji view | 御殿場プレミアム・アウトレット | idea:addon
+atami-plum-izu-drive | Atami plum garden and Izu drive | 熱海梅園・伊豆スカイライン | idea:addon
+kusatsu-onsen | Kusatsu Onsen night in snow | 草津温泉 | idea:swap
+gokayama-window-lights | Gokayama Ainokura quiet window lights | 五箇山 相倉合掌造り集落 | idea:addon
+hok-east-drift-ice-road-trip | East Hokkaido drift ice road trip | 道東ドライブ（網走・知床・摩周・阿寒・鶴居） | idea:plan
+hok-asahikawa-sounkyo-abashiri | Asahikawa to Abashiri via Sounkyo | 旭川→層雲峡→網走 ドライブ | idea:plan
+hok-shift-for-snow-festival | Shift trip for Sapporo Snow Festival | さっぽろ雪まつり | idea:swap
+hok-shikotsu-ice-festival | Lake Shikotsu Ice Festival | 千歳・支笏湖氷濤まつり | idea:addon
+hok-tomamu-ice-village | Tomamu Ice Village and ski | 星野リゾート トマム アイスヴィレッジ | idea:addon
+hok-sounkyo-ice-waterfall | Sounkyo Ice Waterfall Festival | 層雲峡温泉氷瀑まつり | idea:addon
+hok-garinko-mombetsu | Garinko icebreaker at Mombetsu | 流氷砕氷船ガリンコ号III IMERU | idea:addon
+hok-toya-noboribetsu | Lake Toya and Noboribetsu Hells | 洞爺湖温泉・登別地獄谷 | idea:swap
+hok-other-ski-areas | Rusutsu, Kiroro, Teine, Furano ski | ルスツ・キロロ・サッポロテイネ・富良野スキー場 | idea:addon
+hok-otaru-tenguyama-yoichi | Nikka Yoichi and Tenguyama | ニッカウヰスキー余市蒸溜所・小樽天狗山 | idea:addon
+hok-sapporo-city-day | Sapporo ramen, beer and shrine | 元祖さっぽろラーメン横丁・サッポロビール博物館・北海道神宮 | idea:addon
+hok-jozankei-onsen | Jozankei Onsen night | 定山渓温泉 | idea:addon
+hok-akan-ainu-cranes | Lake Akan Ainu Kotan and cranes | 阿寒湖アイヌコタン・鶴見台 | idea:addon
+hok-kamui-misaki | Cape Kamui on Shakotan | 神威岬 | idea:addon
+athome-cafe-akihabara | @home café, classic Akihabara maid café | あっとほぉーむカフェ | idea:addon
+maidreamin-akihabara | Maidreamin, maid café with stage shows | めいどりーみん 秋葉原本店 | idea:addon
+cure-maid-cafe | Cure Maid Café, the first maid café | キュアメイドカフェ | idea:addon
+cafe-mailish-classic | Cafe Mai:lish, quiet classic maid café | カフェ メイリッシュ | idea:addon
+swallowtail-butler-cafe | Swallowtail butler café, Ikebukuro | 執事喫茶 スワロウテイル | idea:addon
+maidreamin-heavens-gate-live | Maid idol live show night | めいどりーみん LIVE RESTAURANT Heaven's Gate | idea:addon
+ikebukuro-otome-road-animate-cafe | Otome Road and Animate Café | 乙女ロード・アニメイトカフェ池袋 | idea:addon
+pokemon-cafe-nihonbashi | Pokémon Café Tokyo, Nihonbashi | ポケモンカフェ TOKYO | idea:addon
+kirby-cafe-solamachi | Kirby Café at Tokyo Skytree | カービィカフェ TOKYO | idea:addon
+super-potato-retro-arcade | Super Potato retro games and arcade | スーパーポテト 秋葉原店 | idea:addon
+maidreamin-sapporo-tanukikoji | Maid café night in Sapporo | めいどりーみん 札幌狸小路店 | idea:addon
+gratte-sendai-animate | Character latte at Animate Sendai | アニメイトカフェグラッテ アニメイト仙台 | idea:addon
+plan-kansai-kyoto-snow | Kansai temples, food and Uji | 京都・大阪・奈良・宇治 | idea:plan
+plan-alps-hokuriku | Japan Alps and Shirakawa-go loop | 北陸・飛騨・信州 周遊 | idea:plan
+plan-kyushu-goto-onsen | Kyushu: Goto islands and onsen drive | 九州：五島列島・阿蘇・別府 | idea:plan
+plan-hokkaido-deep-east | Hokkaido deep: drift ice and powder | 北海道周遊：流氷とパウダースノー | idea:plan
+plan-tokyo-base-daytrips | Tokyo base with day trips | 東京拠点の日帰り旅 | idea:plan
+plan-car-road-trip | JDM road trip: Izu to Gunma | 伊豆・富士・信州・群馬 ドライブ旅 | idea:plan
+plan-shift-snow-festival | Shift dates for Sapporo Snow Festival | さっぽろ雪まつりに合わせて日程変更 | idea:plan
+plan-okinawa-warm-break | Hokkaido snow to Okinawa sun | 北海道から沖縄へ | idea:plan
+ginzan-instead-of-zao | Ginzan Onsen snowy night instead of Zao | 銀山温泉 | idea:swap
+yamadera-in-snow | Yamadera mountain temple in snow | 山寺（宝珠山立石寺） | idea:addon
+aomori-instead-of-sendai | Aomori and Hakkoda instead of Sendai | 青森・八甲田 | idea:swap
+sukayu-onsen | Sukayu Onsen giant wooden bath | 酸ヶ湯温泉 | idea:addon
+oirase-frozen-waterfalls | Oirase Gorge frozen waterfalls tour | 奥入瀬渓流 氷瀑ツアー | idea:addon
+hirosaki-stove-train-day | Stove train and snowy Hirosaki Castle | 津軽鉄道ストーブ列車・弘前城 | idea:swap
+north-tohoku-rail-loop | Kakunodate, Nyuto, Hakkoda rail loop | 角館・乳頭温泉郷・八甲田 | idea:plan
+appi-kogen-ski-swap | Appi Kogen ski instead of Zao | 安比高原スキー場 | idea:swap
+morioka-wanko-soba-stop | Morioka wanko soba lunch stop | わんこそば（盛岡） | idea:addon
+matsushima-hiraizumi-addon | Matsushima bay or Hiraizumi temples | 松島・平泉 中尊寺 | idea:addon
+aizu-ouchijuku-swap | Aizu castle and Ouchi-juku in snow | 鶴ヶ城・大内宿 | idea:swap
+tohoku-rental-car | North Tohoku winter road trip | 東北 冬ドライブ（盛岡〜青森） | idea:plan
+lake-towada-winter-festival | Lake Towada Winter Story festival | 十和田湖冬物語 | idea:addon
+sumo-hatsu-basho-ryogoku | Grand Sumo New Year Tournament | 大相撲一月場所（初場所）両国国技館 | idea:addon
+teamlab-planets-toyosu-footbath | teamLab Planets and Toyosu footbath | チームラボプラネッツ TOKYO DMM／豊洲 千客万来 | idea:addon
+teamlab-borderless-tokyo-tower | teamLab Borderless and Tokyo Tower | チームラボボーダレス（麻布台ヒルズ）／東京タワー | idea:addon
+asakusa-skytree-yanaka | Asakusa, Skytree and Yanaka old town | 浅草寺・東京スカイツリー・谷中銀座 | idea:addon
+tsukiji-breakfast-tsukishima-monja | Tsukiji breakfast, Tsukishima monja | 築地場外市場・月島もんじゃストリート | idea:addon
+shinjuku-golden-gai-yokocho | Shinjuku yakitori alleys and Golden Gai | 思い出横丁・新宿ゴールデン街 | idea:addon
+tokyo-sento-sauna | Tokyo public bath and sauna | 黄金湯（墨田区）／小杉湯（高円寺） | idea:addon
+shibuya-harajuku-games-shops | Shibuya Nintendo, Pokemon and Harajuku | 渋谷PARCO（Nintendo TOKYO・ポケモンセンターシブヤ）・竹下通り・明治神宮 | idea:addon
+yokohama-chinatown-cupnoodles | Yokohama Chinatown and Cup Noodles | 横浜中華街・カップヌードルミュージアム横浜・赤レンガ倉庫 | idea:addon
+kamakura-enoshima-fuji | Kamakura and Enoshima winter day | 鎌倉・江の島 | idea:swap
+nikko-winter-kegon | Nikko shrines and frozen falls | 日光東照宮・華厳滝・中禅寺湖 | idea:swap
+kusatsu-onsen-overnight | Kusatsu Onsen night in snow | 草津温泉 湯畑 | idea:swap
+yunishigawa-kamakura-festival | Yunishigawa snow hut lanterns | 湯西川温泉 かまくら祭 | idea:swap
+mt-takao-fuji-view | Mt Takao winter Fuji view | 高尾山 | idea:addon
+kawagoe-little-edo | Kawagoe Little Edo old town | 小江戸川越（時の鐘・菓子屋横丁） | idea:addon

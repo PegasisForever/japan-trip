@@ -1,0 +1,798 @@
+[
+ {
+  "id": "rw5-tokaido-anime-cars-plan",
+  "area": "route-west",
+  "kind": "plan",
+  "category": "anime",
+  "title": "Tokaido anime and car road west",
+  "titleJa": "東海道 聖地巡礼＆クルマ旅（富士→浜松→名古屋→鈴鹿→京都）",
+  "summary": "A westward route that puts anime spots and car places on the same days, with the days put in order to fit each place's closed days. D5 (Sat Jan 23) Kawaguchiko → Yuru Camp drive: Motosu, Minobu (Motosu High School model), Fujinomiya · train to Hamamatsu, gyoza dinner · D6 (Sun Jan 24) Suzuki History Museum (weekend = open all day), Yamaha Communication Plaza in Iwata, Mitsuke Tenjin, sunset at the Bentenjima torii (Yuru Camp S2 ep 3), train to Nagoya · D7 (Mon Jan 25) Suzuka Circuit: drive an EV kart on the real F1 East Course, evening Osu (Medalist) · D8 (Tue Jan 26) Toyota Commemorative Museum + Toyota Kaikan, evening train to Kyoto · D9 (Wed Jan 27) Omi Jingu (Chihayafuru) + Demachi (Tamako Market, Eccentric Family) · D10 (Thu Jan 28) Uji (Euphonium, KyoAni monument) + Nishinomiya (Haruhi), fly Itami → Sapporo in the evening or on D11.",
+  "why": "It is one line of travel with no going back, and every day has both an anime place and a car place, which is what both of them like most.",
+  "days": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "duration": "6 days",
+  "cost": "Trains approx 16,000 JPY per person Mishima/Fuji → Kyoto in parts; Suzuka entry 2,000–2,400 + EV kart 2,000 per kart; museums 0–1,000 JPY each; rental car on D5 approx 8,000–12,000 JPY/day",
+  "winter": "ok",
+  "winterNote": "New route day 5–10. The order matters: Suzuka Circuit is CLOSED Jan 12–21 and Jan 26–29, 2027 (open Jan 22–25), so Suzuka must be D5–D7. Toyota Commemorative Museum is closed Mondays (Jan 25), Toyota Kaikan is closed Sundays, Suzuki History Museum is closed Mondays and on weekdays from Sep to Jan lets normal visitors in only from 15:00. D5 roads near Motosu can be icy: winter tyres, Aoki drives.",
+  "lat": 34.84361,
+  "lon": 136.53423,
+  "route": [
+   [
+    138.58551,
+    35.46431
+   ],
+   [
+    138.45255,
+    35.36116
+   ],
+   [
+    138.61002,
+    35.22734
+   ],
+   [
+    137.68962,
+    34.69067
+   ],
+   [
+    137.6026,
+    34.68903
+   ],
+   [
+    136.89906,
+    35.15741
+   ],
+   [
+    136.53423,
+    34.84361
+   ],
+   [
+    136.87652,
+    35.18251
+   ],
+   [
+    135.85131,
+    35.03244
+   ],
+   [
+    135.80664,
+    34.89324
+   ],
+   [
+    135.43806,
+    34.78556
+   ]
+  ],
+  "places": [
+   {
+    "en": "Kai-Tokiwa Station (Yuru Camp school walk)",
+    "ja": "甲斐常葉駅",
+    "lat": 35.44497,
+    "lon": 138.4769
+   },
+   {
+    "en": "Bentenjima seaside park torii (Yuru Camp S2)",
+    "ja": "弁天島海浜公園",
+    "lat": 34.68903,
+    "lon": 137.6026
+   },
+   {
+    "en": "Suzuka Circuit",
+    "ja": "鈴鹿サーキット",
+    "lat": 34.84361,
+    "lon": 136.53423
+   },
+   {
+    "en": "Toyota Commemorative Museum",
+    "ja": "トヨタ産業技術記念館",
+    "lat": 35.18251,
+    "lon": 136.87652
+   },
+   {
+    "en": "Omi Jingu (Chihayafuru)",
+    "ja": "近江神宮",
+    "lat": 35.03244,
+    "lon": 135.85131
+   }
+  ],
+  "anime": "Yuru Camp (S1, S2 ep 2–3), Medalist, Chihayafuru, Tamako Market, The Eccentric Family, Sound! Euphonium, Haruhi Suzumiya",
+  "photoQuery": "Suzuka Circuit grandstand",
+  "sources": [
+   "https://www.suzukacircuit.jp/calendar_s/",
+   "https://www.tcmit.org/visit/openinghour",
+   "https://suzuki-rekishikan.jp/",
+   "https://yurucamp-shizuoka.com/wp-content/themes/Yurucamp/assets/images/map_model2025.pdf",
+   "https://www.toyota.co.jp/jp/about_toyota/facility/toyota_kaikan/index.html"
+  ],
+  "experience": {
+   "hook": "Six days west: anime towns in the morning, race cars and car factories in the afternoon.",
+   "moments": [
+    "Eat a Minobu manju at Minobu Station, the small town where Nadeshiko lives in Yuru Camp.",
+    "Watch the sun go down behind the red torii in Lake Hamana, as Rin does in Yuru Camp S2.",
+    "Drive an EV kart through the first corners of the Suzuka F1 East Course.",
+    "See Toyota's first looms and a line of car-building robots at the museum in Nagoya.",
+    "Climb the Haruhi hill in Nishinomiya, then fly north to the snow."
+   ],
+   "tip": "Book the Suzuka EV kart online (Asoview) as soon as the January slots open; the ticket window does not sell it."
+  }
+ },
+ {
+  "id": "rw5-yurucamp-minobu-fujinomiya",
+  "area": "route-west",
+  "kind": "swap",
+  "category": "anime",
+  "title": "Yuru Camp west: Minobu, Fujinomiya",
+  "titleJa": "ゆるキャン△ 身延・富士宮 聖地巡礼",
+  "summary": "Leave Kawaguchiko to the west instead of going back to Tokyo: past Lake Motosu to Kai-Tokiwa Station and the old Shimobe school (model of Motosu High School), then Minobu Station street and Minobu manju. Go south to Fujinomiya: Fujisan Hongu Sengen Taisha and Fujinomiya yakisoba (S2 ep 7), then the Tokaido line at Fuji.",
+  "why": "It turns the Fuji days into the start of the trip west, with the home town of Nadeshiko and Rin that the covered Motosu campsite stop does not show.",
+  "days": [
+   5
+  ],
+  "duration": "1 day (by car, or JR Minobu line)",
+  "cost": "Rental car approx 8,000–12,000 JPY/day, or JR Minobu line approx 1,500 JPY; manju approx 80 JPY each; yakisoba approx 700 JPY",
+  "winter": "ok",
+  "winterNote": "New route day 5 (Kawaguchiko → Tokaido). The school model (旧下部小・中学校) can be seen only from outside. It opens inside only at events (e.g. Nov 28, 2026); no January 2027 event is announced. Route 300 past Motosu can be icy in the morning: winter tyres. JR Minobu line trains are about 1 per hour.",
+  "lat": 35.36116,
+  "lon": 138.45255,
+  "route": [
+   [
+    138.58551,
+    35.46431
+   ],
+   [
+    138.4769,
+    35.44497
+   ],
+   [
+    138.45255,
+    35.36116
+   ],
+   [
+    138.61002,
+    35.22734
+   ],
+   [
+    138.60288,
+    35.22553
+   ]
+  ],
+  "places": [
+   {
+    "en": "Kai-Tokiwa Station (school walk, ep 8)",
+    "ja": "甲斐常葉駅",
+    "lat": 35.44497,
+    "lon": 138.4769
+   },
+   {
+    "en": "Minobu Station and shopping street",
+    "ja": "身延駅",
+    "lat": 35.36116,
+    "lon": 138.45255
+   },
+   {
+    "en": "Fujisan Hongu Sengen Taisha (S2 ep 7)",
+    "ja": "富士山本宮浅間大社",
+    "lat": 35.22734,
+    "lon": 138.61002
+   },
+   {
+    "en": "Nishi-Fujinomiya Station (S2 ep 7)",
+    "ja": "西富士宮駅",
+    "lat": 35.22553,
+    "lon": 138.60288
+   },
+   {
+    "en": "Michi-no-eki Asagiri Kogen (S1 ep 3)",
+    "ja": "道の駅 朝霧高原",
+    "lat": 35.41381,
+    "lon": 138.59086
+   }
+  ],
+  "anime": "Yuru Camp: Motosu High School commute (S1 ep 8), Minobu manju, Fujinomiya (S2 ep 7), Asagiri Kogen soft cream (S1 ep 3)",
+  "photoQuery": "Minobu Station Yamanashi",
+  "sources": [
+   "https://www.yamanashi-kankou.jp/special/sp_yurucamp/story8.html",
+   "https://plus.rurubu.jp/article/454202007",
+   "https://yurucamp-shizuoka.com/wp-content/themes/Yurucamp/assets/images/map_model2025.pdf",
+   "https://www.5jogaoka.com"
+  ],
+  "experience": {
+   "hook": "The quiet valley town where the Outdoor Activities Club goes to school.",
+   "moments": [
+    "Walk the 600 m from Kai-Tokiwa Station over the small river to the old wooden-looking school, Motosu High in the show.",
+    "Buy warm Minobu manju at Eisho-do near Minobu Station, as the girls do.",
+    "Stop at Asagiri Kogen road station for a milk soft cream with Fuji right behind it.",
+    "Stand at the red torii of Hongu Sengen Taisha, then eat Fujinomiya yakisoba nearby."
+   ],
+   "tip": "Go to Asagiri Kogen before 10:00; the Fuji view is clearest in the morning before clouds come."
+  }
+ },
+ {
+  "id": "rw5-yurucamp-s2-hamanako",
+  "area": "route-west",
+  "kind": "addon",
+  "category": "anime",
+  "title": "Yuru Camp S2: Rin's New Year trip",
+  "titleJa": "ゆるキャン△ SEASON2 浜名湖・御前崎 聖地巡礼",
+  "summary": "In Yuru Camp Season 2 ep 1–3, Rin rides west over New Year: Omaezaki Lighthouse, Kakezuka Lighthouse, Mitsuke Tenjin in Iwata, the Nagisaen campsite and the red torii at Bentenjima on Lake Hamana, Kanzanji Onsen and the Okuhamanako lookout. Stop in Hamamatsu for a half or full day on the way to Nagoya.",
+  "why": "The story happens in late December and January, so the winter light and cold wind match what they will see.",
+  "days": [
+   5,
+   6
+  ],
+  "duration": "half day (Bentenjima, Kanzanji) to 1 day (with Omaezaki, by car)",
+  "cost": "Local trains approx 1,000 JPY; Hamamatsu gyoza approx 1,000 JPY; eel bowl approx 4,000–6,000 JPY",
+  "winter": "ok",
+  "winterNote": "New route day 5 or 6. Mild coast, no snow; strong dry west wind in January. Bentenjima torii is best at sunset (about 17:15 in late Jan). Omaezaki is far from the train: needs a car.",
+  "lat": 34.68903,
+  "lon": 137.6026,
+  "places": [
+   {
+    "en": "Bentenjima seaside park torii (S2 ep 3)",
+    "ja": "弁天島海浜公園",
+    "lat": 34.68903,
+    "lon": 137.6026
+   },
+   {
+    "en": "Nagisaen campsite (S2 ep 3)",
+    "ja": "渚園キャンプ場",
+    "lat": 34.69852,
+    "lon": 137.60721
+   },
+   {
+    "en": "Kanzanji Onsen area (S2 ep 3)",
+    "ja": "舘山寺",
+    "lat": 34.76826,
+    "lon": 137.61304
+   },
+   {
+    "en": "Mitsuke Tenjin (S2 ep 2)",
+    "ja": "見付天神 矢奈比賣神社",
+    "lat": 34.72978,
+    "lon": 137.86408
+   },
+   {
+    "en": "Omaezaki Lighthouse (S2 ep 2)",
+    "ja": "御前埼灯台",
+    "lat": 34.59583,
+    "lon": 138.22571
+   }
+  ],
+  "anime": "Yuru Camp SEASON 2 ep 1–3 (Rin's solo New Year trip to west Shizuoka, Nadeshiko's grandmother by Lake Hamana)",
+  "photoQuery": "Bentenjima torii Lake Hamana",
+  "sources": [
+   "https://yurucamp-shizuoka.com/wp-content/themes/Yurucamp/assets/images/map_model2025.pdf",
+   "https://ameblo.jp/agarin3104/entry-12650856718.html",
+   "https://ameblo.jp/agarin3104/entry-12649282904.html"
+  ],
+  "experience": {
+   "hook": "Follow Rin's New Year scooter trip, in the same cold January light.",
+   "moments": [
+    "Climb the white Omaezaki Lighthouse and look at the Pacific, where Rin starts Season 2.",
+    "Walk the stone steps of Mitsuke Tenjin in Iwata, seen when Rin looks for places to go.",
+    "Watch the red torii at Bentenjima turn black against the sunset over Lake Hamana.",
+    "Eat Hamamatsu gyoza in a ring with bean sprouts in the middle for dinner."
+   ],
+   "tip": "Combine with Yamaha Communication Plaza: Mitsuke Tenjin and the plaza are both in Iwata, a short taxi apart."
+  }
+ },
+ {
+  "id": "rw5-hamamatsu-motor-city",
+  "area": "route-west",
+  "kind": "addon",
+  "category": "cars",
+  "title": "Hamamatsu: Suzuki, Yamaha, Honda roots",
+  "titleJa": "浜松・磐田 ものづくりの街（スズキ歴史館・ヤマハ発動機コミュニケーションプラザ）",
+  "summary": "Hamamatsu is where Suzuki, Yamaha and Honda started. See the free Suzuki History Museum (looms from 1909, old cars and bikes, how cars are made today; book ahead) and Yamaha Motor's free Communication Plaza in Iwata (racing bikes, engines; renewed June 2026). With a car, add the Honda Soichiro Monozukuri museum in Tenryu.",
+  "why": "It is JDM history for free and fits on the Tokaido line between Fuji and Nagoya.",
+  "days": [
+   6
+  ],
+  "duration": "half day to 1 day",
+  "cost": "Free entry at both museums; local trains approx 500 JPY",
+  "winter": "ok",
+  "winterNote": "New route day 6 (Sun Jan 24) is best. Suzuki History Museum: reservation only, closed Mondays; Sep–Jan weekdays are for school trips, so normal visitors only from 15:00 on weekdays. Bookings open about 2 months ahead (Nov 2026 for January). Yamaha plaza: free, no booking for groups up to 10; open on company workdays 9:00–17:00 and some weekend days 10:00–17:00; check its calendar. In 2025 guides said a Toyota 2000GT (engine by Yamaha) was shown; not checked after the 2026 renewal. Honda museum (Tenryu) is closed Mon–Tue.",
+  "lat": 34.69067,
+  "lon": 137.68962,
+  "places": [
+   {
+    "en": "Suzuki History Museum",
+    "ja": "スズキ歴史館",
+    "lat": 34.69067,
+    "lon": 137.68962
+   },
+   {
+    "en": "Yamaha Motor Communication Plaza",
+    "ja": "ヤマハ発動機 コミュニケーションプラザ",
+    "lat": 34.72303,
+    "lon": 137.87674
+   }
+  ],
+  "photoQuery": "Suzuki History Museum Hamamatsu",
+  "sources": [
+   "https://suzuki-rekishikan.jp/",
+   "https://global.yamaha-motor.com/jp/showroom/cp/info/",
+   "https://news.yamaha-motor.co.jp/2026/032041.html",
+   "https://www.hamamatsu-pippi.net/blog/odekake/leisure/84482.html"
+  ],
+  "experience": {
+   "hook": "One city gave the world Suzuki, Yamaha and Honda. Both museums are free.",
+   "moments": [
+    "Walk past Michio Suzuki's 1909 wooden loom, then the first Suzuki cars and bikes.",
+    "See a real car shown in parts at the Suzuki museum's production floor.",
+    "Look at Yamaha's MotoGP bikes and marine engines at the new Iwata plaza.",
+    "Eat a Hamamatsu eel bowl or gyoza between the two museums."
+   ],
+   "tip": "Book the Suzuki museum for a Saturday or Sunday; on weekdays in January you can only go in after 15:00."
+  }
+ },
+ {
+  "id": "rw5-suzuka-circuit-challenger",
+  "area": "route-west",
+  "kind": "addon",
+  "category": "cars",
+  "title": "Suzuka Circuit: drive the F1 track",
+  "titleJa": "鈴鹿サーキット サーキットチャレンジャー",
+  "summary": "Suzuka Circuit, home of the Japanese F1 GP, has a park where anyone can drive an EV kart on the real racing course (East Course) with no licence needed. Walk the grandstand and the pit side, and see the Honda race cars on show.",
+  "why": "Pegasis cannot rent a car with 1 year of licence, but here both of them can drive on an F1 track.",
+  "days": [
+   5,
+   6,
+   7
+  ],
+  "duration": "half day",
+  "cost": "Entry 2,000–2,400 JPY adult (web is 500 JPY less), EV kart 2,000 JPY per kart (up to 3 people)",
+  "winter": "check",
+  "winterNote": "New route day 5–7 ONLY. Official: closed Jan 12–21 and Jan 26–29, 2027 for checks, so it is open Jan 22–25 (Fri–Mon). Winter hours about 10:00–16:30. Circuit Challenger tickets are online only (Asoview), not at the gate. No race events found for these dates. Honda's Suzuka car plant nearby had weekday tours (8:50, 13:45, free, booking) per a tour list; not confirmed for individuals or 2027.",
+  "lat": 34.84361,
+  "lon": 136.53423,
+  "photoQuery": "Suzuka Circuit",
+  "sources": [
+   "https://www.suzukacircuit.jp/calendar_s/",
+   "https://www.suzukacircuit.jp/eng/park/attraction/challenger/",
+   "https://www.suzukacircuit.jp/eng/park/fee/",
+   "https://global.honda/jp/suzuka/visitfactory.html"
+  ],
+  "experience": {
+   "hook": "No licence needed: you drive the real Suzuka F1 East Course yourself.",
+   "moments": [
+    "Drive the EV kart through turn 1 and the S-curves on the real F1 tarmac.",
+    "Stand on the main grandstand and look down the pit straight.",
+    "See the race cars and bikes on show in the park plaza.",
+    "Eat a hot lunch at the circuit restaurants on a cold, clear winter day."
+   ],
+   "tip": "Buy entry on the web (500 JPY less) and book the first kart slot; afternoons can be windy and cold."
+  }
+ },
+ {
+  "id": "rw5-nagoya-toyota-day",
+  "area": "route-west",
+  "kind": "addon",
+  "category": "cars",
+  "title": "Toyota day: Commemorative Museum, Kaikan",
+  "titleJa": "トヨタ産業技術記念館・トヨタ会館",
+  "summary": "Start at the Toyota Commemorative Museum by Nagoya Station, in Toyota's first red-brick loom factory: looms, then cars built step by step with robot demos. Then go to Toyota City for the free Toyota Kaikan Museum by the head office, with new Toyota, Lexus and GAZOO Racing cars and a new 'how Toyota builds cars' area (June 2026).",
+  "why": "It adds the factory side of Toyota to the covered Toyota Automobile Museum, and both are easy by train.",
+  "days": [
+   8
+  ],
+  "duration": "1 day",
+  "cost": "Commemorative Museum 1,000 JPY; Toyota Kaikan free; trains approx 1,500 JPY",
+  "winter": "ok",
+  "winterNote": "New route day 8 (Tue Jan 26) fits: the Commemorative Museum is closed Mondays (Jan 25), Toyota Kaikan is closed Sundays. Real plant tours at Toyota City stay stopped (notice 2023, still up in 2026); only the virtual tour runs. Toyota Kaikan museum guided tour now starts at 14:30.",
+  "lat": 35.18251,
+  "lon": 136.87652,
+  "places": [
+   {
+    "en": "Toyota Commemorative Museum of Industry and Technology",
+    "ja": "トヨタ産業技術記念館",
+    "lat": 35.18251,
+    "lon": 136.87652
+   },
+   {
+    "en": "Toyota Kaikan Museum",
+    "ja": "トヨタ会館",
+    "lat": 35.05412,
+    "lon": 137.15924
+   }
+  ],
+  "photoQuery": "Toyota Commemorative Museum of Industry and Technology",
+  "sources": [
+   "https://www.tcmit.org/visit/openinghour",
+   "https://www.tcmit.org/visit/admission",
+   "https://www.toyota.co.jp/jp/about_toyota/facility/toyota_kaikan/index.html",
+   "https://www.toyota.co.jp/en/about_toyota/facility/toyota_kaikan/"
+  ],
+  "experience": {
+   "hook": "From wooden looms to GR race cars, in Toyota's own home town.",
+   "moments": [
+    "Hear the old looms run in the red-brick hall where Toyota began.",
+    "Watch a car body go from pressed steel to welded shell in the automobile hall.",
+    "Ride the Meitetsu train to Toyota City and see the GAZOO Racing corner at Toyota Kaikan.",
+    "Buy GR and Lexus model cars in the Toyota Kaikan shop."
+   ],
+   "tip": "Do the Commemorative Museum at 9:30 opening, then Toyota Kaikan in the afternoon to join the 14:30 tour."
+  }
+ },
+ {
+  "id": "rw5-nagoya-medalist-osu",
+  "area": "route-west",
+  "kind": "addon",
+  "category": "anime",
+  "title": "Nagoya: Medalist rink and Osu",
+  "titleJa": "メダリスト 聖地巡礼 大須（名古屋スポーツセンター）",
+  "summary": "The figure skating anime Medalist (S2 aired Jan 2026) is set in Nagoya. Skate at the real home rink of Inori's club, Osu Skating Rink, see Osu Kannon and the Fuji-shaped slide at Uramonzen park (taiyaki scene, ep 3), and walk Osu shopping street, also used in Yatogame-chan. Near Nagoya Station, Coffee House Kako is Rin's breakfast cafe in the Yuru Camp movie.",
+  "why": "Skating in winter where the anime was drawn is fun for both, and Osu is Nagoya's otaku and food street.",
+  "days": [
+   6,
+   7,
+   8
+  ],
+  "duration": "half day",
+  "cost": "Skating 1,500 JPY + skate rental 500 JPY; Osu street food approx 1,500 JPY",
+  "winter": "ok",
+  "winterNote": "New route day 6–8. Osu rink public hours: weekdays 12:00–18:00, weekends 10:00–18:00; closed only Jan 1 (it can be booked out for events; check the site). Wear gloves on the ice.",
+  "lat": 35.15741,
+  "lon": 136.89906,
+  "places": [
+   {
+    "en": "Osu Skating Rink (Nagoya Sports Center)",
+    "ja": "名古屋スポーツセンター（大須スケートリンク）",
+    "lat": 35.15741,
+    "lon": 136.89906
+   },
+   {
+    "en": "Osu Kannon",
+    "ja": "大須観音",
+    "lat": 35.15967,
+    "lon": 136.89931
+   },
+   {
+    "en": "Uramonzen park (taiyaki scene)",
+    "ja": "裏門前公園",
+    "lat": 35.16122,
+    "lon": 136.9041
+   }
+  ],
+  "anime": "Medalist (Lux Higashiyama FSC home rink, Osu Kannon, taiyaki park ep 3); Yatogame-chan (Osu); Yuru Camp movie (Rin's cafe in Nagoya)",
+  "photoQuery": "Osu Kannon Nagoya",
+  "sources": [
+   "https://www.tour.ne.jp/matome/articles/j1221/",
+   "https://nsc-osuskate.jp",
+   "https://nsc-osuskate.jp/fee/",
+   "https://oinagoya.com/yurukyan/"
+  ],
+  "experience": {
+   "hook": "Skate on the real rink where Inori trains in Medalist.",
+   "moments": [
+    "Slide down past the stair handrail from Medalist ep 1, then rent skates and go on the ice.",
+    "Drink coffee in the rink's Komeda, drawn as 'Yoneda Coffee' in the anime.",
+    "Eat taiyaki on a bench at Uramonzen park by the big Fuji-shaped slide.",
+    "Walk the covered Osu streets for retro games, figures and fried chicken."
+   ],
+   "tip": "The rink has signed photos and real skates of Mao Asada and Shoma Uno in its gallery corner; look before you skate."
+  }
+ },
+ {
+  "id": "rw5-chihayafuru-omi-jingu",
+  "area": "route-west",
+  "kind": "addon",
+  "category": "anime",
+  "title": "Chihayafuru: Omi Jingu, Otsu",
+  "titleJa": "ちはやふる 聖地 近江神宮",
+  "summary": "Omi Jingu in Otsu is the 'holy place' of competitive karuta and the key place of Chihayafuru: the Meijin and Queen title matches are held every January in its Omi Kangakudo hall. Walk the vermilion gate and shrine, and see the clock museum with about 2,300 clocks.",
+  "why": "It is 10 minutes from Kyoto by train and is one of the big anime places in Kansai that the old plan did not have.",
+  "days": [
+   9
+  ],
+  "duration": "2 h",
+  "cost": "Shrine free; clock museum small fee; train from Kyoto approx 200–400 JPY",
+  "winter": "ok",
+  "winterNote": "New route day 9. The 2026 Meijin/Queen matches were on Jan 10–11, before this trip; 2027 dates not yet announced but likely early January too. Omi Kangakudo is a working hall: outside only when there is no event.",
+  "lat": 35.03244,
+  "lon": 135.85131,
+  "places": [
+   {
+    "en": "Omi Jingu",
+    "ja": "近江神宮",
+    "lat": 35.03244,
+    "lon": 135.85131
+   },
+   {
+    "en": "Omi-Jingu-mae Station (Keihan)",
+    "ja": "近江神宮前駅",
+    "lat": 35.02817,
+    "lon": 135.85574
+   }
+  ],
+  "anime": "Chihayafuru (Omi Jingu, national karuta tournaments and title matches)",
+  "photoQuery": "Omi Jingu shrine Otsu",
+  "sources": [
+   "https://ja.wikipedia.org/wiki/近江神宮",
+   "https://otsu.or.jp/event/karuta_meijin_queen/"
+  ],
+  "experience": {
+   "hook": "The shrine where Chihaya dreams of becoming Queen of karuta.",
+   "moments": [
+    "Walk up the long approach to the bright vermilion tower gate from the anime.",
+    "See the Omi Kangakudo hall where the real Meijin and Queen matches happen each January.",
+    "Look at the old water clock and 2,300 clocks in the museum by the shrine.",
+    "Buy a karuta-themed omamori or ema at the shrine office."
+   ],
+   "tip": "Take the Keihan Ishiyama-Sakamoto line to Omi-Jingu-mae; it is a short walk and quieter than JR Otsukyo."
+  }
+ },
+ {
+  "id": "rw5-kyoto-demachi-tamako-eccentric",
+  "area": "route-west",
+  "kind": "addon",
+  "category": "anime",
+  "title": "Demachi: Tamako Market, Eccentric Family",
+  "titleJa": "出町桝形商店街・下鴨神社（たまこまーけっと／有頂天家族）",
+  "summary": "Demachi Masugata shopping street in Kyoto is the model for Usagiyama street in KyoAni's Tamako Market: find the mackerel object, the Tamako pictures and the fan notebook. Cross the Kamo river delta to Shimogamo Shrine and Tadasu no Mori, where the tanuki family lives in The Eccentric Family.",
+  "why": "Two well-loved Kyoto anime in a 1-hour walk, with mochi and a winter forest.",
+  "days": [
+   9,
+   10
+  ],
+  "duration": "2–3 h",
+  "cost": "Free; mame-mochi at Demachi Futaba approx 250 JPY",
+  "winter": "ok",
+  "winterNote": "New route day 9 or 10. City spots, open all year. Some shops in the arcade close on Tuesdays or at irregular days; Demachi Futaba often has a queue.",
+  "lat": 35.03029,
+  "lon": 135.76885,
+  "places": [
+   {
+    "en": "Demachi Masugata shopping street (Usagiyama street)",
+    "ja": "出町桝形商店街",
+    "lat": 35.03029,
+    "lon": 135.76885
+   },
+   {
+    "en": "Demachi Futaba (Tamaya model, said by fans)",
+    "ja": "出町ふたば",
+    "lat": 35.03011,
+    "lon": 135.76963
+   },
+   {
+    "en": "Demachiyanagi Station",
+    "ja": "出町柳駅",
+    "lat": 35.03067,
+    "lon": 135.77319
+   },
+   {
+    "en": "Shimogamo Shrine (Tadasu no Mori)",
+    "ja": "下鴨神社",
+    "lat": 35.03699,
+    "lon": 135.77245
+   }
+  ],
+  "anime": "Tamako Market / Tamako Love Story (Usagiyama shopping street, Kamo river); The Eccentric Family (Shimogamo tanuki in Tadasu no Mori, Demachi arcade in ep 1)",
+  "photoQuery": "Demachi Masugata shopping street",
+  "sources": [
+   "https://masugata.demachi.jp/tamakomarket",
+   "https://www.leafkyoto.net/240902-kyoto-uchotenkazoku/"
+  ],
+  "experience": {
+   "hook": "Tamako's mochi street and the tanuki forest, one river apart.",
+   "moments": [
+    "Find the big mackerel object hanging in the middle of Masugata arcade.",
+    "Write a note in the Tamako Market fan notebook in the arcade.",
+    "Eat mame-mochi from Demachi Futaba while you cross the Kamo river stepping stones.",
+    "Walk into Tadasu no Mori, home of the Shimogamo tanuki in The Eccentric Family."
+   ],
+   "tip": "Go before 10:00: the Futaba line is short, and the stepping stones at the delta have fewer people."
+  }
+ },
+ {
+  "id": "rw5-uji-kyoani-medalist",
+  "area": "route-west",
+  "kind": "addon",
+  "category": "anime",
+  "title": "Uji deeper: KyoAni, Euphonium, Medalist",
+  "titleJa": "宇治 深掘り（志を繋ぐ碑・ユーフォ聖地・木下アカデミー京都アイスアリーナ）",
+  "summary": "Beyond Uji Bridge and Daikichiyama (already in the list): Kumiko's bench on Ajirogi path, Agata Shrine, Asagiri Bridge and Keihan Uji Station from Sound! Euphonium. Visit the KyoAni 'monument that links hopes' in the Tea and Uji history park, and the Kyoto Ice Arena used for the Rengecha club in Medalist.",
+  "why": "It adds a quiet moment for Kyoto Animation, whose shows they like, and more Uji scenes on the same half day.",
+  "days": [
+   9,
+   10
+  ],
+  "duration": "half day",
+  "cost": "Free; history park museum 800 JPY (optional)",
+  "winter": "ok",
+  "winterNote": "New route day 9 or 10. History park open 9:00–17:00, no regular closed day, park is free. The city asks visitors not to leave flowers or offerings at the monument. There is no fixed KyoAni Shop store now (only pop-up shops at events). Keihan × Euphonium collab ends Dec 20, 2026.",
+  "lat": 34.89565,
+  "lon": 135.80591,
+  "places": [
+   {
+    "en": "Tea and Uji history park (KyoAni monument)",
+    "ja": "お茶と宇治のまち歴史公園（志を繋ぐ碑）",
+    "lat": 34.89565,
+    "lon": 135.80591
+   },
+   {
+    "en": "Agata Shrine (Euphonium)",
+    "ja": "縣神社",
+    "lat": 34.88854,
+    "lon": 135.80577
+   },
+   {
+    "en": "Asagiri Bridge (Euphonium)",
+    "ja": "朝霧橋",
+    "lat": 34.89021,
+    "lon": 135.80941
+   },
+   {
+    "en": "Kinoshita Academy Kyoto Ice Arena (Medalist)",
+    "ja": "木下アカデミー京都アイスアリーナ",
+    "lat": 34.87518,
+    "lon": 135.80686
+   }
+  ],
+  "anime": "Sound! Euphonium (Kumiko bench, Agata Shrine, Asagiri Bridge); Kyoto Animation memorial monument; Medalist (Rengecha FSC home rink)",
+  "photoQuery": "Asagiri Bridge Uji",
+  "sources": [
+   "https://www.city.uji.kyoto.jp/soshiki/57/79518.html",
+   "https://uji-chazuna.kyoto/hours/",
+   "https://www.tour.ne.jp/matome/articles/j1221/",
+   "https://www.keihan.co.jp/euphonium/"
+  ],
+  "experience": {
+   "hook": "Kumiko's river walk, and a quiet stop for the people of Kyoto Animation.",
+   "moments": [
+    "Sit on Kumiko's bench on the Ajirogi path by the Uji river.",
+    "Cross the red Asagiri Bridge to the island, as in the Euphonium opening.",
+    "Stand for a quiet minute at the monument with 36 birds in the history park.",
+    "Look at the Kyoto Ice Arena where Medalist's Rengecha skaters train."
+   ],
+   "tip": "Buy matcha soft serve on Byodoin Omotesando after the walk; lines are short on January weekdays."
+  }
+ },
+ {
+  "id": "rw5-haruhi-nishinomiya",
+  "area": "route-west",
+  "kind": "addon",
+  "category": "anime",
+  "title": "Haruhi: Nishinomiya's last winter",
+  "titleJa": "涼宮ハルヒの憂鬱 聖地巡礼 西宮（西宮北高校・甲陽園）",
+  "summary": "Nishinomiya is the town of Haruhi Suzumiya. See the Nishinomiya-Kitaguchi Station area (Endless Eight), take the Hankyu line to Koyoen, walk past Yuki Nagato's apartment area and climb the steep 'Haruhi hill' to Nishinomiya Kita High School, North High in the anime.",
+  "why": "The school closes as 'Nishinomiya Kita' at the end of March 2027, so this is the last winter to see the real North High.",
+  "days": [
+   10
+  ],
+  "duration": "half day",
+  "cost": "Hankyu trains approx 400 JPY; cafe approx 700 JPY",
+  "winter": "ok",
+  "winterNote": "New route day 10, on the way to Itami Airport (20 min by bus/train). Official Haruhi site: the school merges and becomes Nishinomiya Kurakuen High School after March 2027. School is outside only (the Nov 23, 2025 open day was a one-time event). The hill is steep: 20–25 min up. Coffee-ya Dream (Endless Eight cafe) posts hours 8:00–18:00 on X; it may have moved, check before going.",
+  "lat": 34.76147,
+  "lon": 135.31283,
+  "places": [
+   {
+    "en": "Nishinomiya-Kitaguchi Station",
+    "ja": "西宮北口駅",
+    "lat": 34.74592,
+    "lon": 135.35664
+   },
+   {
+    "en": "Koyoen Station",
+    "ja": "甲陽園駅",
+    "lat": 34.76092,
+    "lon": 135.32997
+   },
+   {
+    "en": "Nishinomiya Kita High School (North High)",
+    "ja": "兵庫県立西宮北高等学校",
+    "lat": 34.76147,
+    "lon": 135.31283
+   }
+  ],
+  "anime": "The Melancholy of Haruhi Suzumiya (North High and the school hill, Endless Eight, Koyoen = 'Koyoen' station)",
+  "photoQuery": "Nishinomiya-Kitaguchi Station",
+  "sources": [
+   "https://www.haruhi.tv/fanclub/special_event_KitaHighSchool2025OHS.html",
+   "https://note.com/jolly_dietes1260/n/ncc06094bfe00",
+   "https://nishinomiya-style.jp/spot/haruhi/"
+  ],
+  "experience": {
+   "hook": "Climb the Haruhi hill before North High changes its name in 2027.",
+   "moments": [
+    "Stand at the Haruhi-famous clock area of Nishinomiya-Kitaguchi Station.",
+    "Ride the short Hankyu Koyo line to the small Koyoen terminus.",
+    "Walk up the steep hill to North High, the daily climb Kyon complains about.",
+    "Look back from the top over Nishinomiya to Osaka Bay."
+   ],
+   "tip": "Go on a weekend or after 16:00 on weekdays; it is a real school, so do not film students or go inside the gate."
+  }
+ },
+ {
+  "id": "rw5-mazda-museum-hiroshima",
+  "area": "route-west",
+  "kind": "addon",
+  "category": "cars",
+  "title": "Mazda Museum day from Osaka",
+  "titleJa": "マツダミュージアム（広島）",
+  "summary": "A free guided tour at Mazda's home in Hiroshima: rotary engines, the RX-7 line, the 787B Le Mans winner, and a view of a real assembly line. From Osaka it is a day trip: Shinkansen to Hiroshima (about 1 h 25), then 5 min to Mukainada.",
+  "why": "Rotary RX-7s are JDM icons, and it is the only big car-maker tour open to walk-in tourists on this route; Hiroshima okonomiyaki is a bonus.",
+  "days": [
+   9,
+   10
+  ],
+  "duration": "1 day (tour 2 h)",
+  "cost": "Tour free; Shin-Osaka–Hiroshima Shinkansen approx 10,000–11,000 JPY each way",
+  "winter": "ok",
+  "winterNote": "New route day 9 or 10 (weekdays only; no weekend tours). One English tour a day (meet 14:15 at the head office lobby, shuttle bus). Book online, up to 3 months ahead (from late Oct 2026). Museum closed Feb 8–26, 2027 for works (after this trip). It is far: only if they want a big car day.",
+  "lat": 34.37694,
+  "lon": 132.50306,
+  "places": [
+   {
+    "en": "Mazda head office (tour start)",
+    "ja": "マツダ本社",
+    "lat": 34.37694,
+    "lon": 132.50306
+   },
+   {
+    "en": "Mukainada Station",
+    "ja": "向洋駅",
+    "lat": 34.37672,
+    "lon": 132.50585
+   }
+  ],
+  "photoQuery": "Mazda Museum Hiroshima",
+  "sources": [
+   "https://www.mazda.com/en/experience/museum/reservations/",
+   "https://www.japan-guide.com/e/e3405.html"
+  ],
+  "experience": {
+   "hook": "See the rotary engine story and a real Mazda line, free.",
+   "moments": [
+    "Ride the Mazda shuttle bus from the head office into the huge plant.",
+    "Stand next to the 787B, the only Japanese car to win Le Mans in 1991.",
+    "Walk past the rotary cars, from the Cosmo Sport to the RX-7.",
+    "Watch workers and robots build real cars on the assembly line.",
+    "Eat Hiroshima okonomiyaki with noodles before the train back."
+   ],
+   "tip": "Book the English slot the day the 3-month window opens; weekday slots are few."
+  }
+ },
+ {
+  "id": "rw5-toyota-hokkaido-plant",
+  "area": "route-west",
+  "kind": "addon",
+  "category": "cars",
+  "title": "Toyota Hokkaido plant tour, Tomakomai",
+  "titleJa": "トヨタ自動車北海道 工場見学（苫小牧）",
+  "summary": "Toyota's Hokkaido factory in Tomakomai, about 30 min by car from New Chitose Airport, makes automatic and CVT gearboxes. The free 90-minute tour shows people and robots working side by side.",
+  "why": "The Toyota City plant tours are stopped, so this is the real Toyota factory they can see, and it is on the way from the airport.",
+  "days": [
+   11,
+   14
+  ],
+  "duration": "90 min",
+  "cost": "Free",
+  "winter": "check",
+  "winterNote": "New route day 11 (Fri Jan 29) or day 14 (Mon Feb 1): tours run Mon–Fri and on holidays, not weekends. Two slots a day (10:00 and an afternoon slot; sources say 13:00 or 14:00). Book on the official booking site 6 months to 3 weeks ahead (so by early January). Tour is in Japanese; individual visitors are allowed according to visitor reports, but confirm when booking. Needs a car (no near station).",
+  "lat": 42.64493,
+  "lon": 141.68527,
+  "photoQuery": "Tomakomai Hokkaido",
+  "sources": [
+   "https://toyotamotorhokkaido.rsvsys.jp",
+   "https://www.tmh.co.jp/manufacturing/",
+   "https://global.toyota/jp/company/plant-tours-outline/"
+  ],
+  "experience": {
+   "hook": "The one Toyota factory you can still walk through on this trip.",
+   "moments": [
+    "Drive from New Chitose Airport over the flat, snowy Yufutsu plain.",
+    "Walk the tour path above the line where CVT gearboxes are built.",
+    "Watch robots hand parts to workers at speed.",
+    "Pick up Toyota Hokkaido souvenirs at the end."
+   ],
+   "tip": "Book the 10:00 slot on the day you land or leave, so the plant fits between the airport and Sapporo."
+  }
+ }
+]

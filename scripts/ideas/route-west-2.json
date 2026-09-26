@@ -1,0 +1,955 @@
+[
+ {
+  "id": "rw2-plan-alps-westward",
+  "kind": "plan",
+  "category": "scenery",
+  "title": "West via Alps: ice, thatch, crab",
+  "titleJa": "松本・高山・白川郷・奥飛騨・金沢→京都/大阪",
+  "summary": "D5 (Sat Jan 23) Azusa Shinjuku→Matsumoto (2 h 39, ¥6,730); castle, Nawate street, castle projection mapping 18:00–22:00, ice-carving contest runs through the night · D6 (Sun Jan 24) see the finished ice sculptures at dawn, bus 9:55 Matsumoto→Takayama (arr. 12:28, ¥4,400, reserve), Sanmachi lunch, Nohi light-up tour Course B 15:10–20:45 to Shirakawa-go (¥16,000, deck ticket) · D7 (Mon) Miyagawa morning market 8:00, bus to Shinhotaka Ropeway (2,156 m snow deck), Hirayu no Mori onsen, back to Takayama; Hida no Sato light-up 17:30–20:30 · D8 (Tue) Nohi bus Takayama→Kanazawa (¥4,200, about 2 h 15), Higashi Chaya, 21st Century Museum, Omicho dinner · D9 (Wed) Kenrokuen free early entry 6:00–7:45 with snow ropes, Omicho crab brunch, afternoon Tsurugi + Thunderbird to Kyoto (2 h 04, ¥7,720) or Osaka (2 h 31, ¥9,410) · D10 (Thu) Kyoto/Osaka, fly to Hokkaido from Itami that evening or D11.",
+  "why": "It gives both travellers a new snow scene every day (ice art, a lit-up snow village, a 2,000 m ropeway, a snow garden) and ends near Itami/KIX for the Hokkaido flight.",
+  "days": [],
+  "duration": "6 days (D5–D10)",
+  "cost": "Transport approx ¥32,000 pp (Azusa 6,730 + bus 4,400 + Okuhida 2-day bus/ropeway pass 7,700 + bus 4,200 + Kanazawa→Osaka 9,410) + Shirakawa-go tour ¥16,000 + Hida no Sato ¥300 + Kenrokuen ¥0 early / ¥320",
+  "winter": "check",
+  "winterNote": "New route days 5–10. Shirakawa-go light-up is Sun Jan 24, 2027 (D6), 17:30–19:30, tickets only: Nohi tours for Jan 24 go on sale Oct 26, 2026 14:00 and sell out. Matsumoto ice festival 2027 not announced officially (2026: Jan 23–25, overnight contest Sat 16:00→Sun 5:00; one event site lists Jan 22–24, 2027). Projection mapping Dec 12, 2026–Feb 14, 2027. 21st Century Museum exhibition zones close on Mondays. Heavy snow can delay the buses.",
+  "lat": 36.25833,
+  "lon": 136.90556,
+  "route": [
+   [
+    139.70028,
+    35.69083
+   ],
+   [
+    137.96392,
+    36.23067
+   ],
+   [
+    137.2519,
+    36.1406
+   ],
+   [
+    136.90556,
+    36.25833
+   ],
+   [
+    137.58036,
+    36.28278
+   ],
+   [
+    136.64775,
+    36.57828
+   ],
+   [
+    135.75776,
+    34.98546
+   ],
+   [
+    135.49497,
+    34.70189
+   ]
+  ],
+  "places": [
+   {
+    "en": "Matsumoto Castle",
+    "ja": "松本城",
+    "lat": 36.2391,
+    "lon": 137.96912
+   },
+   {
+    "en": "Shirakawa-go Shiroyama viewpoint",
+    "ja": "荻町城跡展望台",
+    "lat": 36.26295,
+    "lon": 136.90796
+   },
+   {
+    "en": "Shinhotaka Ropeway",
+    "ja": "新穂高ロープウェイ",
+    "lat": 36.28278,
+    "lon": 137.58036
+   },
+   {
+    "en": "Kenrokuen",
+    "ja": "兼六園",
+    "lat": 36.56214,
+    "lon": 136.6625
+   },
+   {
+    "en": "Omicho Market",
+    "ja": "近江町市場",
+    "lat": 36.57111,
+    "lon": 136.65639
+   }
+  ],
+  "photoQuery": "Shirakawa-go winter illumination",
+  "sources": [
+   "https://shirakawa-go.gr.jp/events/441/",
+   "https://www.nouhibus.co.jp/shirakawa_lightup_2027/",
+   "https://www.nouhibus.co.jp/highwaybus/matsumoto/",
+   "https://matsumoto-kacchin.jp/ice-festival/",
+   "https://visitmatsumoto.com/event/detail_3003",
+   "https://shinhotaka-ropeway.jp/price/",
+   "https://transit.yahoo.co.jp/"
+  ],
+  "experience": {
+   "hook": "Six days, six snow scenes, from a black castle to crab in Kanazawa.",
+   "moments": [
+    "Watch ice carvers work all night under Matsumoto Castle, then see the finished sculptures at sunrise.",
+    "Stand on the Shiroyama deck above Shirakawa-go as the thatched roofs light up gold in deep snow.",
+    "Ride the double-decker Shinhotaka gondola to 2,156 m and look at the white Northern Alps from the roof deck.",
+    "Walk into Kenrokuen at 6:00 for free, when the rope 'snow umbrellas' over the pines are empty of crowds.",
+    "Eat male snow crab (kano-gani) at Omicho, then take the Thunderbird to Kyoto."
+   ],
+   "tip": "Put an alarm for Oct 26, 2026, 14:00 JST: Jan 24 light-up bus seats open then and go fast."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw2-plan-nozawa-kanazawa-west",
+  "kind": "plan",
+  "category": "snow",
+  "title": "Nozawa ski, then Hokuriku west",
+  "titleJa": "野沢温泉スキー・白川郷・金沢・永平寺→京都",
+  "summary": "D5 (Sat Jan 23) Hakutaka Tokyo→Iiyama (1 h 51, ¥8,360 unreserved), Nozawa Onsen Liner bus (25 min, ¥600), ski the afternoon, soak in the free wooden soto-yu baths · D6 (Sun Jan 24) ski until 11:00, Iiyama→Kanazawa (1 h 18, ¥6,730), 14:30 Hokutetsu light-up tour to Shirakawa-go with deck ticket (back 21:50, ¥18,500) · D7 (Mon) Kenrokuen early free entry, Omicho crab, Higashi Chaya (museum closed Mondays) · D8 (Tue) 21st Century Museum at 10:00, Tsurugi to Fukui (35 min), Eiheiji temple in snow, evening Thunderbird Fukui→Kyoto (1 h 27, ¥5,930) · D9–D10 Kyoto/Osaka, fly to Hokkaido from Itami/KIX.",
+  "why": "Pegasis gets a real ski day on big Nozawa slopes (Aoki can take a lesson), and the Shinkansen line makes it a straight line west with no bus transfers except the light-up tour.",
+  "days": [],
+  "duration": "4 days + Kansai (D5–D10)",
+  "cost": "Transport approx ¥22,000 pp (8,360 + 600 + 6,730 + 3,210 + 5,930 incl. local) + Nozawa 1-day lift ¥7,800 (4-hour ¥6,700) + light-up tour ¥18,500 + Eiheiji ¥700",
+  "winter": "check",
+  "winterNote": "New route days 5–10. Nozawa 2026–27 regular season Dec 19, 2026–Mar 28, 2027. Light-up tour seats for Jan 24 open Oct 26, 2026 14:00 (Hokutetsu, web or phone). Fukui Dinosaur Museum is NOT possible here: closed Jan 25–28, 2027 for maintenance (plus 2nd/4th Wednesdays).",
+  "lat": 36.90833,
+  "lon": 138.48194,
+  "route": [
+   [
+    139.76667,
+    35.68111
+   ],
+   [
+    138.35889,
+    36.84519
+   ],
+   [
+    138.48194,
+    36.90833
+   ],
+   [
+    136.64775,
+    36.57828
+   ],
+   [
+    136.90556,
+    36.25833
+   ],
+   [
+    136.35556,
+    36.05306
+   ],
+   [
+    135.75776,
+    34.98546
+   ]
+  ],
+  "places": [
+   {
+    "en": "Nozawa Onsen Ski Resort",
+    "ja": "野沢温泉スキー場",
+    "lat": 36.90833,
+    "lon": 138.48194
+   },
+   {
+    "en": "Shirakawa-go",
+    "ja": "白川郷",
+    "lat": 36.25833,
+    "lon": 136.90556
+   },
+   {
+    "en": "Kenrokuen",
+    "ja": "兼六園",
+    "lat": 36.56214,
+    "lon": 136.6625
+   },
+   {
+    "en": "Eiheiji temple",
+    "ja": "大本山永平寺",
+    "lat": 36.05306,
+    "lon": 136.35556
+   }
+  ],
+  "photoQuery": "Nozawa Onsen snow village",
+  "sources": [
+   "https://nozawaski.com/winter/lift_price/",
+   "https://nozawaonsen.info/nozawa-onsen-liner/",
+   "https://www.hokutetsu.co.jp/news/shirakawago-lightup2027/",
+   "https://daihonzan-eiheiji.com/sanpai/",
+   "https://www.dinosaur.pref.fukui.jp/guide/GroupGuide.html",
+   "https://transit.yahoo.co.jp/"
+  ],
+  "experience": {
+   "hook": "Ski a snow-village mountain, then see Shirakawa-go lit up the same night.",
+   "moments": [
+    "Ski Nozawa's long runs from the Nagasaka gondola while the beginner takes a morning ski-school lesson.",
+    "Soak in Oyu, the wooden public bath in the village centre, and drop a coin in the donation box.",
+    "Ride the evening bus from Kanazawa and watch Shirakawa-go's thatched roofs glow from the viewpoint deck.",
+    "Walk Eiheiji's covered wooden corridors in snow while monks in black robes move between halls.",
+    "Arrive in Kyoto on the Thunderbird in about 90 minutes from Fukui."
+   ],
+   "tip": "Send big bags from Tokyo to your Kanazawa hotel by takkyubin, so you carry only ski clothes to Nozawa."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw2-shirakawago-lightup-2027-tickets",
+  "kind": "addon",
+  "category": "culture",
+  "title": "Shirakawa-go light-up: 2027 ticket guide",
+  "titleJa": "白川郷ライトアップ2027 予約方法",
+  "summary": "Updated, more complete version of the existing Shirakawa-go light-up idea: all 2027 dates and every way in. Dates are Jan 11, 17, 24 and 31, 2027, 17:30–19:30; from 15:30 a gate closes the village to anyone without a ticket.",
+  "why": "Jan 24 falls on new route day 6, and choosing the right tour (with or without the viewpoint deck) decides whether you get the famous photo.",
+  "days": [
+   6
+  ],
+  "duration": "evening (about 5–7 h door to door)",
+  "cost": "Takayama Nohi tours: A ¥13,000 (folk museum + zenzai), B ¥16,000 (deck ticket), C ¥14,000 (Shirakawa-go no Yu onsen); Kanazawa Hokutetsu tour ¥18,500 (deck ticket); parking for own car ¥6,000 (1–5 people, first sale) / ¥7,000 (second sale), no deck",
+  "winter": "check",
+  "winterNote": "New route day 6 (Sun Jan 24, 2027). Sale dates for route-bus tours (Nohi, Kaetsuno, Toyama Chitetsu, Hokutetsu, Iruka), 14:00 JST: Jan 11 → Oct 13; Jan 17 → Oct 19; Jan 24 → Oct 26; Jan 31 → Nov 2, 2026. Inn-with-deck lottery Oct 1–31, 2026 (results Nov 10). Parking sale 1 opened Sep 10, 2026; sale 2 Dec 1, 2026 13:00; parking has no deck access, enter 15:00, leave by 20:00. Travel-agency tours published Dec 2, 2026. Regular route buses must arrive before 15:20. Cancelled only if heavy snow stops the event.",
+  "lat": 36.26295,
+  "lon": 136.90796,
+  "places": [
+   {
+    "en": "Shiroyama viewpoint (deck)",
+    "ja": "荻町城跡展望台",
+    "lat": 36.26295,
+    "lon": 136.90796
+   },
+   {
+    "en": "Shirakawa-go bus stop (Ogimachi)",
+    "ja": "白川郷（荻町）",
+    "lat": 36.26202,
+    "lon": 136.90687
+   },
+   {
+    "en": "Takayama Nohi Bus Center",
+    "ja": "高山濃飛バスセンター",
+    "lat": 36.1406,
+    "lon": 137.2519
+   },
+   {
+    "en": "Kanazawa Station West Exit",
+    "ja": "金沢駅西口",
+    "lat": 36.57828,
+    "lon": 136.64775
+   }
+  ],
+  "photoQuery": "Shirakawa-go light-up snow night",
+  "sources": [
+   "https://shirakawa-go.gr.jp/events/441/",
+   "https://www.nouhibus.co.jp/shirakawa_lightup_2027en/",
+   "https://www.hokutetsu.co.jp/news/shirakawago-lightup2027/",
+   "https://www.kaetsunou.co.jp/16779/",
+   "https://www.chitetsu.co.jp/?p=79184"
+  ],
+  "experience": {
+   "hook": "Four nights a year, and only ticket holders get past the gate.",
+   "moments": [
+    "Get off the tour bus in the blue dusk while snow squeaks under your boots.",
+    "Walk the main street as the windows of old farmhouses light up one by one.",
+    "Climb to the Shiroyama deck at 17:30 and see the whole valley of lit thatched roofs below.",
+    "Warm your hands on a hot drink before the bus leaves at the set time."
+   ],
+   "tip": "Only tours marked 'deck ticket' (Nohi Course B, Hokutetsu) let you up to the viewpoint. Book one at exactly 14:00 JST on sale day."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw2-matsumoto-ice-festival",
+  "kind": "addon",
+  "category": "culture",
+  "title": "Matsumoto ice sculptures and castle show",
+  "titleJa": "国宝松本城氷彫フェスティバル・プロジェクションマッピング",
+  "summary": "On the last weekend of January, ice carvers compete all night in Matsumoto Castle Park, and the finished sculptures stand in front of the castle at dawn. In the evening a free projection-mapping show plays on the castle tower.",
+  "why": "A new angle on Matsumoto (the castle itself is already in the Alps idea): it lines up with new route day 5 (Sat Jan 23) and gives a free night show plus a sunrise photo.",
+  "days": [
+   5,
+   6
+  ],
+  "duration": "evening + early morning",
+  "cost": "Festival and projection mapping free; castle keep ¥1,300 (not re-checked for 2027)",
+  "winter": "check",
+  "winterNote": "New route days 5–6. 2027 festival dates not officially announced; 2026 was Fri Jan 23–Sun Jan 25 with the championship carving Sat 16:00→Sun 5:00 and display Sun 5:00–about 14:00. An event listing site gives Jan 22–24, 2027. Projection mapping 2026–27: Dec 12, 2026–Feb 14, 2027, 18:00–22:00 (confirmed by Matsumoto tourism). Castle closed Dec 29–31 only.",
+  "lat": 36.2391,
+  "lon": 137.96912,
+  "places": [
+   {
+    "en": "Matsumoto Castle",
+    "ja": "松本城",
+    "lat": 36.2391,
+    "lon": 137.96912
+   },
+   {
+    "en": "Nawate Street",
+    "ja": "縄手通り",
+    "lat": 36.23461,
+    "lon": 137.97199
+   },
+   {
+    "en": "Matsumoto Station",
+    "ja": "松本駅",
+    "lat": 36.23067,
+    "lon": 137.96392
+   }
+  ],
+  "photoQuery": "Matsumoto Castle ice sculpture festival",
+  "sources": [
+   "https://matsumoto-kacchin.jp/ice-festival/",
+   "https://visitmatsumoto.com/event/detail_3003",
+   "https://www.mcci.jp/topics/",
+   "https://www.iwafu.com/events"
+  ],
+  "experience": {
+   "hook": "Ice carvers work all night under a black castle; you see the result at dawn.",
+   "moments": [
+    "Watch the projection show play on the castle tower in a loop after 18:00.",
+    "Stand by the moat at night and hear chainsaws and chisels as carvers shape big ice blocks.",
+    "Walk back at sunrise to see the finished sculptures lit pink against the snowy Alps.",
+    "Warm up with soba and hot sake on Nawate street, the frog-themed shopping lane."
+   ],
+   "tip": "Stay in a hotel near the castle, not the station, so the dawn walk to the sculptures is only a few minutes."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw2-takayama-market-sake",
+  "kind": "addon",
+  "category": "food",
+  "title": "Takayama morning market and sake shops",
+  "titleJa": "宮川朝市・陣屋前朝市・古い町並の造り酒屋",
+  "summary": "Two morning markets (Miyagawa along the river, Jinya-mae in front of the old government office) sell pickles, miso and hot snacks; in winter they open later. Then walk the Sanmachi lanes where six old sake breweries sell new-season sake with tastings.",
+  "why": "New angle vs the Hida anime idea: a slow, tasty morning in the snow town, with new-season sake that only appears in winter.",
+  "days": [
+   7
+  ],
+  "duration": "half day",
+  "cost": "Market snacks ¥300–800; sake tasting about ¥500–1,000 (varies by shop, not checked for 2027)",
+  "winter": "ok",
+  "winterNote": "New route day 7. Miyagawa market daily 8:00–12:00 in Dec–Mar (7:00 other months). Jinya-mae market Jan–Mar 7:00–12:00 (source varies: 7:00 or 8:00). The old winter 'sake brewery open week' rotation (6 breweries, one per week, Jan–Mar) was last confirmed in 2019; 2027 not announced. The summer sake event (Nonbe Matsuri) is not in January.",
+  "lat": 36.14058,
+  "lon": 137.25917,
+  "places": [
+   {
+    "en": "Miyagawa Morning Market",
+    "ja": "宮川朝市",
+    "lat": 36.14058,
+    "lon": 137.25917
+   },
+   {
+    "en": "Takayama Jinya",
+    "ja": "高山陣屋",
+    "lat": 36.14,
+    "lon": 137.26
+   },
+   {
+    "en": "Kami-Sannomachi (old town)",
+    "ja": "上三之町",
+    "lat": 36.14169,
+    "lon": 137.25951
+   }
+  ],
+  "photoQuery": "Miyagawa morning market Takayama",
+  "sources": [
+   "https://www.asaichi.net/information/",
+   "https://www.hidatakayama.or.jp/spot/detail_1126",
+   "https://www.takayamaryokan.jp/blog/?p=2447",
+   "https://www.kankou-gifu.jp/event/detail_1370"
+  ],
+  "experience": {
+   "hook": "A riverside market in snow, then new sake under green cedar balls.",
+   "moments": [
+    "Walk the Miyagawa riverside stalls and try hot mitarashi dango grilled with soy.",
+    "Buy red-turnip pickles and hoba miso from grandmothers at the Jinya-mae stalls.",
+    "Look for the fresh green cedar ball (sugidama) over brewery doors: it means new sake is ready.",
+    "Taste Hida sake side by side at a Kami-Sannomachi brewery counter.",
+    "Eat Hida beef nigiri on a rice cracker at a Sanmachi street stand."
+   ],
+   "tip": "Go at 9:00 in winter; stalls open at 8:00 but set up slowly in the cold."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw2-hida-no-sato-lightup",
+  "kind": "addon",
+  "category": "culture",
+  "title": "Hida Folk Village snow light-up",
+  "titleJa": "飛騨の里 冬のライトアップ",
+  "summary": "Hida no Sato, an open-air museum of thatched gassho farmhouses on a pond in Takayama, lights them up every evening in winter. It is a cheap, no-booking backup if Shirakawa-go light-up tickets are gone.",
+  "why": "The same snow-roof farmhouse scene, 10 minutes from Takayama, for ¥300 and without a lottery.",
+  "days": [
+   6,
+   7
+  ],
+  "duration": "1.5 h",
+  "cost": "¥300 (light-up hours)",
+  "winter": "ok",
+  "winterNote": "New route days 6–7. 2027 winter light-up: Jan 9 (Sat)–Feb 28, 2027, every day, 17:30–20:30 (announced by Hida no Sato). Free amazake and shiitake tea were served in 2026.",
+  "lat": 36.13254,
+  "lon": 137.23508,
+  "photoQuery": "Hida Folk Village winter snow",
+  "sources": [
+   "https://hidanosato.com/news/lightup2026/",
+   "https://www.kankou-gifu.jp/article/detail_285.html"
+  ],
+  "experience": {
+   "hook": "Thatched farmhouses glowing on a frozen pond, no ticket lottery needed.",
+   "moments": [
+    "Walk the snow path around the pond as lamps light the steep thatched roofs.",
+    "Take the reflection photo of the houses across the pond before it gets fully dark.",
+    "Drink the free hot amazake by the entrance (served in past years).",
+    "Take a taxi back to Takayama for a Hida beef dinner."
+   ],
+   "tip": "Arrive at 17:30 for the blue-hour sky; by 18:30 the photos are just black and gold."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw2-shinhotaka-okuhida-onsen",
+  "kind": "swap",
+  "category": "snow",
+  "title": "Shinhotaka Ropeway and Okuhida onsen",
+  "titleJa": "新穂高ロープウェイ・奥飛騨温泉郷（平湯・福地）",
+  "summary": "Ride Japan's only double-decker ropeway to Nishi-Hotaka-guchi (2,156 m) for a deck view of the snowy Northern Alps. On the way back, soak in the big open-air baths of Hirayu no Mori and see an ice-wall light-up in Fukuchi.",
+  "why": "It is the highest snow view on this route and pairs it with onsen, which both travellers want.",
+  "days": [
+   7
+  ],
+  "duration": "1 day from Takayama (or 1 night in Okuhida)",
+  "cost": "'Okuhida Marugoto Value Kippu' 2-day from Takayama ¥7,700 (bus Takayama–Shinhotaka + ropeway round trip; ropeway alone ¥3,800); Hirayu no Mori day bath ¥700",
+  "winter": "ok",
+  "winterNote": "New route day 7. Ropeway runs all year; winter timetable Dec 1–Mar 31: first car 9:00, last down about 16:15; stops in bad weather. Nabedaira car park closed in snow season. Shinhotaka no Yu river bath is closed Oct 31–late April. Fukuchi 'Aodaru' ice light-up and Shin-Hirayu 'Taruma Kaneko-ori' ice light-up ran late Dec–Feb/Mar in 2025–26 (2027 not announced). Hirayu ice falls festival is Feb 15–25 and Nakao kamakura Feb 1–10 (after this stretch). Takayama→ropeway about 1 h 40 by bus.",
+  "lat": 36.28278,
+  "lon": 137.58036,
+  "route": [
+   [
+    137.2519,
+    36.1406
+   ],
+   [
+    137.55253,
+    36.19217
+   ],
+   [
+    137.58036,
+    36.28278
+   ],
+   [
+    137.53136,
+    36.22494
+   ],
+   [
+    137.2519,
+    36.1406
+   ]
+  ],
+  "places": [
+   {
+    "en": "Shinhotaka Ropeway",
+    "ja": "新穂高ロープウェイ",
+    "lat": 36.28278,
+    "lon": 137.58036
+   },
+   {
+    "en": "Hirayu no Mori (day onsen)",
+    "ja": "ひらゆの森",
+    "lat": 36.18916,
+    "lon": 137.55133
+   },
+   {
+    "en": "Fukuchi Onsen",
+    "ja": "福地温泉",
+    "lat": 36.22494,
+    "lon": 137.53136
+   }
+  ],
+  "photoQuery": "Shinhotaka Ropeway winter",
+  "sources": [
+   "https://shinhotaka-ropeway.jp/price/",
+   "https://shinhotaka-ropeway.jp/pdf/pamphlet/ja.pdf",
+   "https://okuhida.or.jp/hot-spring/",
+   "https://www.kankou-gifu.jp/article/detail_285.html"
+  ],
+  "experience": {
+   "hook": "A two-storey gondola lifts you to 2,156 m of snow and Alps.",
+   "moments": [
+    "Stand at the front window of the double-decker gondola as the forest turns white below.",
+    "Walk onto the roof deck at Nishi-Hotaka-guchi and see Yarigatake's sharp peak in the cold air.",
+    "Eat the 'itadaki' churros shaped like the kanji for summit at the top café.",
+    "Soak in one of Hirayu no Mori's many outdoor baths with snow piled on the rocks.",
+    "See Fukuchi's lit blue-white ice walls after dark if you stay the night."
+   ],
+   "tip": "Go up on the first car at 9:00; clouds often build after noon and hide the peaks."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw2-kanazawa-winter-day",
+  "kind": "addon",
+  "category": "city",
+  "title": "Kanazawa in snow: garden, crab, art",
+  "titleJa": "兼六園の雪吊り・近江町市場・ひがし茶屋街・21世紀美術館",
+  "summary": "Enter Kenrokuen free before 7:45 to see the rope 'yukitsuri' snow umbrellas, eat crab at Omicho Market, walk the Higashi Chaya teahouse street and see the 21st Century Museum pool. New details for late January are in the notes.",
+  "why": "Kanazawa is the natural overnight between Shirakawa-go and Kyoto, and this day gives food, gardens and art with smart timing.",
+  "days": [
+   8,
+   9
+  ],
+  "duration": "1 day",
+  "cost": "Kenrokuen ¥320 (free 6:00–7:45); crab: set meals and whole male crabs vary widely, often ¥5,000+ (not checked); 21st Century Museum exhibition about ¥450–1,200 (varies); Higashi Chaya street free",
+  "winter": "ok",
+  "winterNote": "New route days 8–9. Kenrokuen Oct 16–end Feb 8:00–17:00; free early entry Nov–Feb 6:00–7:45 (last entry 7:30) via Renchimon or Zuishinzaka gates only. Garden winter light-up 2027 is Feb 6–10, 13, 20, 27 (after this trip). Omicho 9:00–17:00 (Sun/holidays 9:00–16:00), no eating while walking. Local female kobako crab is only sold until December; in late Jan local crab is the male kano-gani (season Nov 6–Mar 20). 21st Century Museum: exhibition zones closed Mondays (Jan 25, 2027 is a Monday); Swimming Pool underground needs a same-day time slot from 9:00 plus an exhibition ticket.",
+  "lat": 36.56214,
+  "lon": 136.6625,
+  "places": [
+   {
+    "en": "Kenrokuen",
+    "ja": "兼六園",
+    "lat": 36.56214,
+    "lon": 136.6625
+   },
+   {
+    "en": "Omicho Market",
+    "ja": "近江町市場",
+    "lat": 36.57111,
+    "lon": 136.65639
+   },
+   {
+    "en": "Higashi Chaya district",
+    "ja": "ひがし茶屋街",
+    "lat": 36.57245,
+    "lon": 136.66716
+   },
+   {
+    "en": "21st Century Museum",
+    "ja": "金沢21世紀美術館",
+    "lat": 36.56083,
+    "lon": 136.65819
+   }
+  ],
+  "photoQuery": "Kenrokuen yukitsuri snow",
+  "sources": [
+   "https://shiro-niwa.pref.ishikawa.lg.jp/kenrokuen-garden/info.html",
+   "https://kenrokuen.or.jp/information/",
+   "https://www.hot-ishikawa.jp/event/detail_21201.html",
+   "https://ohmicho-ichiba.com/contact02/",
+   "https://ja.wikipedia.org/wiki/%E3%82%BA%E3%83%AF%E3%82%A4%E3%82%AC%E3%83%8B",
+   "https://www.kanazawa21.jp/"
+  ],
+  "experience": {
+   "hook": "Snow ropes over 300-year-old pines, then crab for breakfast.",
+   "moments": [
+    "Walk into Kenrokuen at 6:30 for free and see the Karasaki pine's cone of ropes over the frozen pond.",
+    "Eat a kaisen-don or boiled kano-gani crab at an Omicho counter while the fish sellers shout prices.",
+    "Walk Higashi Chaya's wooden teahouse lane and try gold-leaf soft serve.",
+    "Look up through the water of Leandro Erlich's Swimming Pool, then stand under it."
+   ],
+   "tip": "Book the Swimming Pool slot on the museum site at 9:00 the same morning; afternoon slots go first on weekends."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw2-fukui-eiheiji-dinosaur",
+  "kind": "addon",
+  "category": "culture",
+  "title": "Fukui: Eiheiji in snow, dinosaurs",
+  "titleJa": "大本山永平寺・福井県立恐竜博物館・東尋坊",
+  "summary": "Stop in Fukui between Kanazawa and Kyoto: Eiheiji is a working Zen training temple in cedar forest, very quiet in snow. The Fukui Prefectural Dinosaur Museum is one of the world's big dinosaur museums, but it is closed on most of our dates.",
+  "why": "Fukui is directly on the Kanazawa→Kyoto line (Tsurugi stops there), so it costs almost no extra travel time.",
+  "days": [
+   8,
+   9
+  ],
+  "duration": "half day",
+  "cost": "Eiheiji ¥700; Eiheiji Liner bus from Fukui Station about 30 min; Dinosaur Museum ¥1,000 (timed reservation)",
+  "winter": "check",
+  "winterNote": "New route days 8–9. Eiheiji open 8:30–16:30 (enter by 16:00). Dinosaur Museum: closed 2nd/4th Wednesdays (Jan 13 and 27, 2027) AND planned maintenance closure Jan 25–28, 2027, so on this stretch it only works on Jan 23–24 or from Jan 29. Tojinbo cliffs are open-air and free; winter waves are strong, keep back from the edge.",
+  "lat": 36.05306,
+  "lon": 136.35556,
+  "places": [
+   {
+    "en": "Eiheiji",
+    "ja": "大本山永平寺",
+    "lat": 36.05306,
+    "lon": 136.35556
+   },
+   {
+    "en": "Fukui Prefectural Dinosaur Museum",
+    "ja": "福井県立恐竜博物館",
+    "lat": 36.08306,
+    "lon": 136.50667
+   },
+   {
+    "en": "Tojinbo cliffs",
+    "ja": "東尋坊",
+    "lat": 36.23778,
+    "lon": 136.12528
+   },
+   {
+    "en": "Fukui Station",
+    "ja": "福井駅",
+    "lat": 36.06213,
+    "lon": 136.22332
+   }
+  ],
+  "photoQuery": "Eiheiji snow",
+  "sources": [
+   "https://daihonzan-eiheiji.com/sanpai/",
+   "https://www.dinosaur.pref.fukui.jp/guide/fee.html",
+   "https://www.dinosaur.pref.fukui.jp/guide/GroupGuide.html",
+   "https://www.echizen-tetudo.co.jp/fare/special/"
+  ],
+  "experience": {
+   "hook": "A silent Zen temple in snowy cedars, right on your way to Kyoto.",
+   "moments": [
+    "Take off your shoes and walk Eiheiji's long wooden stair corridors between snow-covered halls.",
+    "Look up at the 230 painted ceiling panels of the Sanshokaku hall.",
+    "Eat Echizen oroshi soba with grated radish near the temple gate.",
+    "If you have a free day after Jan 28, stand under the full T. rex skeletons at the Dinosaur Museum."
+   ],
+   "tip": "Leave big bags in Fukui Station lockers; the temple has many steep stairs."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw2-toyama-stop",
+  "kind": "addon",
+  "category": "food",
+  "title": "Toyama stop: glass art and shrimp",
+  "titleJa": "富山市ガラス美術館・白えび亭",
+  "summary": "Toyama is the Shinkansen gateway to Takayama (Hida express, 1 h 31). In winter the mountain sights are closed, so the stop is the Kengo Kuma-designed Glass Art Museum and a white shrimp bowl at the station.",
+  "why": "If you come from Tokyo by Shinkansen instead of via Matsumoto, this makes the change of trains into a good 2-hour stop.",
+  "days": [
+   6
+  ],
+  "duration": "2–3 h",
+  "cost": "Glass museum collection ¥200; shiro-ebi tendon about ¥1,500–2,000 (not checked)",
+  "winter": "ok",
+  "winterNote": "New route day 6 (if you go Tokyo→Toyama→Takayama). Tateyama Kurobe Alpine Route is CLOSED in winter (closed from Dec 1, reopens mid-April; 2026 opened Apr 15). Kurobe Gorge trolley train is CLOSED (runs about Apr–Nov 30). Glass museum 9:30–18:00, closed 1st and 3rd Wednesdays (Jan 6 and 20, 2027). White shrimp fishing is Apr–Nov, so in January you eat frozen stock. Himi 'kan-buri' winter yellowtail brand season often ends in mid/late January.",
+  "lat": 36.68858,
+  "lon": 137.21475,
+  "places": [
+   {
+    "en": "Toyama Glass Art Museum",
+    "ja": "富山市ガラス美術館",
+    "lat": 36.68858,
+    "lon": 137.21475
+   },
+   {
+    "en": "Shiroebi-tei (Toyama Station)",
+    "ja": "白えび亭",
+    "lat": 36.70108,
+    "lon": 137.21387
+   },
+   {
+    "en": "Toyama Station",
+    "ja": "富山駅",
+    "lat": 36.70122,
+    "lon": 137.21317
+   }
+  ],
+  "photoQuery": "Toyama Glass Art Museum",
+  "sources": [
+   "https://toyama-glass-art-museum.jp/visitor/",
+   "https://shiroebiya.co.jp/tei/",
+   "https://www.info-toyama.com/",
+   "https://www.alpen-route.com/",
+   "https://www.kurotetu.co.jp/"
+  ],
+  "experience": {
+   "hook": "A wooden library-museum full of glass, then a bowl of tiny sweet shrimp.",
+   "moments": [
+    "Walk up through the cedar-slat atrium of the TOYAMA Kirari building.",
+    "See Dale Chihuly's glass garden room on the 6th floor.",
+    "Eat a shiro-ebi tendon, a pile of small crisp white shrimp, at Shiroebi-tei in the station.",
+    "Catch the Hida express to Takayama along the snowy Jinzu river gorge."
+   ],
+   "tip": "Sit on the right side of the Hida train toward Takayama for river views."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw2-nozawa-onsen-ski-stop",
+  "kind": "swap",
+  "category": "snow",
+  "title": "Nozawa Onsen ski stop en route",
+  "titleJa": "野沢温泉スキー場・外湯めぐり",
+  "summary": "Nozawa Onsen is a ski village 25 minutes by bus from Iiyama Station, which is on the Hokuriku Shinkansen between Tokyo and Kanazawa. Ski a day, then walk the snowy lanes between 13 free public baths.",
+  "why": "New angle vs the Hakuba idea: it sits on the westward Shinkansen line, so skiing does not cost an extra travel day, and the free baths suit both.",
+  "days": [
+   5,
+   6
+  ],
+  "duration": "1 night, 1–1.5 ski days",
+  "cost": "Lift 1 day ¥7,800, 4 h ¥6,700, 2 days ¥14,500 (2026–27 regular); Nozawa Onsen Liner ¥600 each way; Tokyo→Iiyama ¥8,360 unreserved; soto-yu baths free (donation)",
+  "winter": "ok",
+  "winterNote": "New route days 5–6. Regular season prices Dec 19, 2026–Mar 28, 2027. Dosojin fire festival is Jan 15 (before arrival). Hakuba (existing idea) needs a 1 h+ bus from Nagano instead, so Nozawa is the easier stop on this route. Iiyama→Kanazawa 1 h 18 (¥6,730).",
+  "lat": 36.90833,
+  "lon": 138.48194,
+  "route": [
+   [
+    139.76667,
+    35.68111
+   ],
+   [
+    138.35889,
+    36.84519
+   ],
+   [
+    138.44794,
+    36.92225
+   ],
+   [
+    138.35889,
+    36.84519
+   ],
+   [
+    136.64775,
+    36.57828
+   ]
+  ],
+  "places": [
+   {
+    "en": "Nozawa Onsen Ski Resort",
+    "ja": "野沢温泉スキー場",
+    "lat": 36.90833,
+    "lon": 138.48194
+   },
+   {
+    "en": "Nozawa Onsen village",
+    "ja": "野沢温泉",
+    "lat": 36.92225,
+    "lon": 138.44794
+   },
+   {
+    "en": "Iiyama Station",
+    "ja": "飯山駅",
+    "lat": 36.84519,
+    "lon": 138.35889
+   }
+  ],
+  "photoQuery": "Nozawa Onsen Oyu bath",
+  "sources": [
+   "https://nozawaski.com/winter/lift_price/",
+   "https://www.vill.nozawaonsen.nagano.jp/",
+   "https://nozawakanko.jp/hotspring/",
+   "https://transit.yahoo.co.jp/"
+  ],
+  "experience": {
+   "hook": "A ski resort where the public baths are free and the village steams.",
+   "moments": [
+    "Ride the Nagasaka gondola and ski the Skyline course with views to the Sea of Japan side mountains.",
+    "Let the beginner practise on the wide Uenotaira area slopes.",
+    "Walk the snowy lanes at night between wooden bathhouses like Oyu and Kuma no Tearaiyu.",
+    "Watch locals boil eggs and vegetables in the 90°C Ogama spring."
+   ],
+   "tip": "The soto-yu water is very hot; add cold water slowly and bring your own small towel."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw2-kanazawa-to-kansai-trains",
+  "kind": "addon",
+  "category": "city",
+  "title": "Kanazawa to Kyoto/Osaka: train facts",
+  "titleJa": "金沢→京都・大阪（北陸新幹線つるぎ＋サンダーバード）",
+  "summary": "Since 2024 you take the Hokuriku Shinkansen to Tsuruga and change on the same platform area to the Thunderbird. Kanazawa→Kyoto is about 2 h 04 (¥7,720) and →Osaka about 2 h 31 (¥9,410), reserved seats.",
+  "why": "This is the key link from the Alps side to the Osaka flight, and there are cheaper ways if you plan ahead.",
+  "days": [
+   9,
+   10
+  ],
+  "duration": "2–2.5 h",
+  "cost": "Reserved: Kyoto ¥7,720, Osaka ¥9,410, Kansai Airport ¥11,080 (3 h 43). Unreserved Shinkansen + local Special Rapid: Osaka ¥7,480, 3 h 23. All-local: ¥5,040, about 5 h. JR-West 'HOKURIKU One-way Ticket' for foreign tourists: Kanazawa→Osaka ¥8,000, →Kyoto ¥6,500 (buy from overseas agency, not in Japan).",
+  "winter": "ok",
+  "winterNote": "New route days 9–10. Times/fares from Yahoo Transit for a normal weekday in 2026. Snow can delay the Thunderbird around Lake Biwa. Fukui→Kyoto 1 h 27 (¥5,930) if you stop in Fukui. For Itami airport, bus from Osaka/Shin-Osaka about 25–30 min.",
+  "lat": 35.6451,
+  "lon": 136.07806,
+  "route": [
+   [
+    136.64775,
+    36.57828
+   ],
+   [
+    136.22332,
+    36.06213
+   ],
+   [
+    136.07806,
+    35.6451
+   ],
+   [
+    135.75776,
+    34.98546
+   ],
+   [
+    135.50011,
+    34.73348
+   ]
+  ],
+  "places": [
+   {
+    "en": "Kanazawa Station",
+    "ja": "金沢駅",
+    "lat": 36.57828,
+    "lon": 136.64775
+   },
+   {
+    "en": "Tsuruga Station (change)",
+    "ja": "敦賀駅",
+    "lat": 35.6451,
+    "lon": 136.07806
+   },
+   {
+    "en": "Kyoto Station",
+    "ja": "京都駅",
+    "lat": 34.98546,
+    "lon": 135.75776
+   },
+   {
+    "en": "Shin-Osaka Station",
+    "ja": "新大阪駅",
+    "lat": 34.73348,
+    "lon": 135.50011
+   }
+  ],
+  "photoQuery": "Thunderbird limited express Tsuruga",
+  "sources": [
+   "https://transit.yahoo.co.jp/search/result?from=%E9%87%91%E6%B2%A2&to=%E5%A4%A7%E9%98%AA",
+   "https://www.westjr.co.jp/travel-information/en/tickets-passes/oneway/hokuriku/"
+  ],
+  "experience": {
+   "hook": "Two trains, one easy change, snow coast to Kyoto in two hours.",
+   "moments": [
+    "Board the Tsurugi Shinkansen at Kanazawa with a bento from the station.",
+    "Change at Tsuruga: the Thunderbird leaves from the platforms downstairs, about 10–15 minutes later.",
+    "Watch Lake Biwa pass on the left before Kyoto."
+   ],
+   "tip": "Buy one ticket Kanazawa→Kyoto/Osaka covering both trains; it gives you both seat reservations in one go."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw2-takayama-exits-west",
+  "kind": "addon",
+  "category": "city",
+  "title": "Takayama to Nagoya or Osaka",
+  "titleJa": "高山→名古屋・大阪（特急ひだ・高速バス）",
+  "summary": "From Takayama you can go straight south to Osaka without Kanazawa: one direct Hida train a day, or Hida to Nagoya plus Shinkansen, or a highway bus. Matsumoto→Takayama is by reserved bus only.",
+  "why": "If you skip Kanazawa, this is the fastest way from the snow town to the Osaka flight, with a Toyota Museum stop possible in Nagoya.",
+  "days": [
+   8,
+   9
+  ],
+  "duration": "2.5–5.5 h",
+  "cost": "Direct Hida 36: Takayama 15:34→Osaka 19:50, ¥7,920 unreserved. Hida + Nozomi via Nagoya: 3 h 47, ¥11,110. Hida to Nagoya: 2 h 28, ¥5,610. Nohi bus to Nagoya ¥3,600 (web ¥3,300, about 2 h 35–2 h 45). Nohi/Kintetsu bus to Kyoto ¥6,500 / Osaka ¥7,000 (5 h 40; dep. 8:00, 10:10, 13:40). Matsumoto→Takayama bus ¥4,400 (2 h 20–2 h 50).",
+  "winter": "ok",
+  "winterNote": "New route days 8–9. Timetables checked Sep 2026 for the current timetable; January can differ. Buses need a reservation (1 month ahead). Snow can slow the Hida line and the Gujo route.",
+  "lat": 36.1406,
+  "lon": 137.2519,
+  "route": [
+   [
+    137.96392,
+    36.23067
+   ],
+   [
+    137.2519,
+    36.1406
+   ],
+   [
+    136.88164,
+    35.17069
+   ],
+   [
+    135.75776,
+    34.98546
+   ],
+   [
+    135.49497,
+    34.70189
+   ]
+  ],
+  "places": [
+   {
+    "en": "Takayama Station / Nohi Bus Center",
+    "ja": "高山駅・高山濃飛バスセンター",
+    "lat": 36.1406,
+    "lon": 137.2519
+   },
+   {
+    "en": "Nagoya Station",
+    "ja": "名古屋駅",
+    "lat": 35.17069,
+    "lon": 136.88164
+   },
+   {
+    "en": "Osaka Station",
+    "ja": "大阪駅",
+    "lat": 34.70189,
+    "lon": 135.49497
+   }
+  ],
+  "photoQuery": "Hida limited express snow",
+  "sources": [
+   "https://www.nouhibus.co.jp/highwaybus/osaka/",
+   "https://www.nouhibus.co.jp/highwaybus/nagoya/",
+   "https://www.nouhibus.co.jp/highwaybus/matsumoto/",
+   "https://transit.yahoo.co.jp/"
+  ],
+  "experience": {
+   "hook": "One seat from the snowy Alps town to Osaka, along a river gorge.",
+   "moments": [
+    "Board the new HC85 Hida train at Takayama with Hida beef bento.",
+    "Watch the Hida river gorge and Gero onsen town pass in the snow.",
+    "Stay seated through Kyoto and step off at Osaka in the evening."
+   ],
+   "tip": "The direct Hida to Osaka runs once a day in the afternoon; reserve it, the Osaka cars are few."
+  },
+  "area": "route-west"
+ },
+ {
+  "id": "rw2-jr-passes-alps-hokuriku",
+  "kind": "addon",
+  "category": "city",
+  "title": "Alps/Hokuriku rail passes: buy or skip",
+  "titleJa": "高山・北陸エリア周遊きっぷ／北陸アーチパス等の比較",
+  "summary": "We checked every pass for this area in 2026. Only the Takayama-Hokuriku pass and the Kansai-Hokuriku pass can be used in January, and for the plans above single tickets are about the same or cheaper.",
+  "why": "Passes cost ¥19,000–35,000, so a wrong pick wastes money; this shows which one fits which route.",
+  "days": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "duration": "-",
+  "cost": "Takayama-Hokuriku Area Tourist Pass ¥19,800 / 5 days; Alpine-Takayama-Matsumoto ¥24,500 / 5 days (not usable in winter); Hokuriku Arch Pass ¥35,000 / 7 days; Kansai-Hokuriku Area Pass ¥19,000 / 7 days; Hokuriku Area Pass ¥7,000 / 4 days",
+  "winter": "ok",
+  "winterNote": "New route days 5–10. Takayama-Hokuriku: JR Nagoya–Takayama–Toyama, Toyama–Tsuruga Shinkansen, Tsuruga–Kyoto–Osaka, Osaka–KIX, plus Nohi/Hokutetsu/Toyama Chitetsu buses Takayama–Shirakawa-go–Kanazawa/Toyama (some need reservations); no Matsumoto, no light-up tours. Plan A legs it covers (Takayama→Kanazawa ¥4,200 + Kanazawa→Osaka ¥9,410) = ¥13,610, less than ¥19,800. Alpine-Takayama-Matsumoto: usage period Apr 15–Nov 10, 2026 only. Hokuriku Arch: Narita/Haneda–Tokyo–Kanazawa–Osaka–KIX; Tokyo→Kanazawa ¥14,600 + Kanazawa→Osaka ¥9,410 = ¥24,010, so it only pays with extra trips (N'EX, Haruka, Toyama/Fukui side trips). Kansai-Hokuriku: Joetsu-Myoko–Tsuruga Shinkansen + Kansai; good only if you also stay several Kansai days on JR. All need a foreign passport and 'Temporary Visitor' entry.",
+  "lat": 36.57828,
+  "lon": 136.64775,
+  "photoQuery": "Hokuriku Shinkansen Kanazawa Station",
+  "sources": [
+   "https://touristpass.jp/en/takayama_hokuriku/",
+   "https://touristpass.jp/en/alpine/",
+   "https://www.westjr.co.jp/travel-information/en/tickets-passes/other/hokuriku-arch-pass/",
+   "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/kansai_hokuriku/",
+   "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/hokuriku/"
+  ],
+  "experience": {
+   "hook": "Most passes here lose money on this route; pick single tickets or one-way deals.",
+   "moments": [
+    "Add up your real legs first: Tokyo→Kanazawa ¥14,600, Kanazawa→Osaka ¥9,410.",
+    "Use the Takayama-Hokuriku pass only if you add Toyama, Fukui or a Kansai Airport ride within 5 days.",
+    "Buy the ¥8,000 Hokuriku One-way Ticket (Kanazawa→Osaka) from an overseas agency before you fly."
+   ],
+   "tip": "The Alpine-Takayama-Matsumoto pass looks perfect on maps, but it is not valid after Nov 10, 2026."
+  },
+  "area": "route-west"
+ }
+]

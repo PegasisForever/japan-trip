@@ -1,0 +1,721 @@
+[
+ {
+  "id": "rw1-tokaido-slow-plan",
+  "kind": "plan",
+  "category": "city",
+  "title": "Tokaido slow road to Nagoya",
+  "titleJa": "東海道 ゆっくり西へ（箱根・静岡・浜松・名古屋）",
+  "summary": "Go west from Tokyo in 5 days, one stop per day, and send big suitcases ahead to Nagoya. D5 Sat Jan 23 Romancecar Shinjuku → Hakone-Yumoto, Hakone loop, ryokan night · D6 Sun Jan 24 Moto-Hakone → Tokai Bus → Mishima Skywalk (Fuji view) → Kodama to Shizuoka (24 min), Hobby Square, night Shizuoka · D7 Mon Jan 25 bus to Nihondaira, ropeway to Kunozan Toshogu, Hikari to Hamamatsu (20 min), Kanzanji ropeway over Lake Hamana, onsen night at Kanzanji · D8 Tue Jan 26 Yamaha Communication Plaza (Iwata) or Hamamatsu unagi lunch, Hikari to Nagoya (30 min), Toyota Commemorative Museum, Osu and miso katsu · D9 Wed Jan 27 Ghibli Park or SCMaglev and Railway Park, then on to Kyoto/Osaka in the evening. Train cost Tokyo → Nagoya this way is about ¥19,000–22,000 per person, against ¥11,100 for a direct Nozomi.",
+  "why": "It turns the Tokyo–Osaka move into five small trips with Fuji, onsen, cars and Ghibli, and no day has more than 1 h 30 min on trains.",
+  "days": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "duration": "5 days",
+  "cost": "Trains/buses about ¥19,000–22,000 pp (Hakone Freepass Odawara ¥6,000 + Odakyu Shinjuku–Odawara ¥910 + Romancecar ¥1,200; Mishima→Shizuoka Kodama ¥1,980 unreserved; Shizuoka→Hamamatsu Hikari ¥2,330 unreserved; Hamamatsu→Nagoya Hikari ¥4,840 reserved; local buses). Hotels: 1 ryokan + 3 business hotels.",
+  "winter": "ok",
+  "winterNote": "New route days 5–9. Weekday traps: Hobby Square, Suzuki museum and Toyota Commemorative Museum close on Mondays; Ghibli Park and SCMaglev park close on Tuesdays (Jan 26 closed); Toyota Kaikan closes Sundays. No snow on this coast; Hakone roads can ice in the morning. Fares from Jorudan for Jan 25, 2027.",
+  "lat": 34.97178,
+  "lon": 138.38925,
+  "route": [
+   [
+    139.70056,
+    35.68944
+   ],
+   [
+    139.10391,
+    35.23353
+   ],
+   [
+    138.98059,
+    35.1522
+   ],
+   [
+    138.38925,
+    34.97178
+   ],
+   [
+    138.46375,
+    34.97344
+   ],
+   [
+    137.61739,
+    34.76381
+   ],
+   [
+    136.87594,
+    35.18324
+   ],
+   [
+    137.0898,
+    35.1725
+   ]
+  ],
+  "places": [
+   {
+    "en": "Hakone-Yumoto Station",
+    "ja": "箱根湯本駅",
+    "lat": 35.23353,
+    "lon": 139.10391
+   },
+   {
+    "en": "Mishima Skywalk",
+    "ja": "三島スカイウォーク",
+    "lat": 35.1522,
+    "lon": 138.98059
+   },
+   {
+    "en": "Nihondaira Ropeway (Nihondaira Station)",
+    "ja": "日本平ロープウェイ 日本平駅",
+    "lat": 34.97344,
+    "lon": 138.46375
+   },
+   {
+    "en": "Kanzanji Ropeway",
+    "ja": "かんざんじロープウェイ",
+    "lat": 34.76381,
+    "lon": 137.61739
+   },
+   {
+    "en": "Nagoya Station",
+    "ja": "名古屋駅",
+    "lat": 35.17069,
+    "lon": 136.88164
+   }
+  ],
+  "photoQuery": "Tokaido Shinkansen Mount Fuji",
+  "sources": [
+   "https://odakyu-global.com/passes/hakone-freepass/",
+   "https://mishima-skywalk.jp/access/",
+   "https://www.toshogu.or.jp/access/",
+   "https://www.kanzanji-ropeway.jp/price/",
+   "https://www.jorudan.co.jp/norikae/",
+   "https://ghibli-park.jp/en/calendar/"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "Five short hops west, each with Fuji, a hot bath or cars.",
+   "moments": [
+    "Ride the Romancecar to Hakone-Yumoto and soak in a ryokan bath the first night.",
+    "Walk Mishima Skywalk, Japan's longest footbridge, with Mt Fuji straight ahead on a clear morning.",
+    "Float 5 minutes down the Nihondaira ropeway to the red and gold Kunozan Toshogu shrine.",
+    "Cross Lake Hamana on Japan's only ropeway over a lake, then soak at Kanzanji Onsen.",
+    "End in Nagoya with miso katsu in Osu and a Ghibli Park day."
+   ],
+   "tip": "Send big suitcases from the Tokyo hotel to the Nagoya hotel (¥3,020 per 160-size bag) and travel five days with daypacks."
+  }
+ },
+ {
+  "id": "rw1-tokaido-express-swap",
+  "kind": "swap",
+  "category": "cars",
+  "title": "Two-day Tokaido: Shizuoka, Hamamatsu, Nagoya",
+  "titleJa": "東海道 2日間（静岡・浜松・名古屋）",
+  "summary": "A fast version of the westward move that uses the weekend. D5 Sat Jan 23 Hikari Tokyo → Shizuoka (59 min, ¥6,270 reserved), Nihondaira and Kunozan ropeway, Hobby Square, Hikari to Hamamatsu (20 min), unagi dinner · D6 Sun Jan 24 Suzuki Museum at 9:00 (weekend = full hours), Hikari to Nagoya (30 min), SCMaglev and Railway Park or Toyota Commemorative Museum, Osu and miso katsu at night. D7 continue to Kyoto/Osaka (Nagoya → Shin-Osaka 50 min, ¥6,270–6,480).",
+  "why": "Pegasis and Aoki see Fuji country, two car museums and a Shinkansen simulator but lose only one day against a direct train.",
+  "days": [
+   5,
+   6
+  ],
+  "duration": "2 days",
+  "cost": "Trains ≈ ¥13,400 pp (Tokyo→Shizuoka ¥6,270 + Shizuoka→Hamamatsu ¥2,330 + Hamamatsu→Nagoya ¥4,840) + buses/ropeway ≈ ¥2,700 + museums ¥1,000–1,200",
+  "winter": "ok",
+  "winterNote": "New route days 5–6. Suzuki Museum: free, booking needed; on weekdays Sep–Jan visitors enter only after 15:00 (school groups), so the Sunday slot matters. Nihondaira ropeway has a planned stop Dec 1–21, 2026 only. Fares from Jorudan (Jan 2027 dates).",
+  "lat": 34.97178,
+  "lon": 138.38925,
+  "route": [
+   [
+    139.76694,
+    35.68083
+   ],
+   [
+    138.38925,
+    34.97178
+   ],
+   [
+    138.46375,
+    34.97344
+   ],
+   [
+    137.7344,
+    34.70343
+   ],
+   [
+    137.68962,
+    34.69067
+   ],
+   [
+    136.88164,
+    35.17069
+   ]
+  ],
+  "places": [
+   {
+    "en": "Shizuoka Station",
+    "ja": "静岡駅",
+    "lat": 34.97178,
+    "lon": 138.38925
+   },
+   {
+    "en": "Kunozan Toshogu",
+    "ja": "久能山東照宮",
+    "lat": 34.96479,
+    "lon": 138.4676
+   },
+   {
+    "en": "Suzuki Museum",
+    "ja": "スズキ歴史館",
+    "lat": 34.69067,
+    "lon": 137.68962
+   },
+   {
+    "en": "SCMaglev and Railway Park",
+    "ja": "リニア・鉄道館",
+    "lat": 35.04887,
+    "lon": 136.85121
+   }
+  ],
+  "photoQuery": "Hamamatsu Station Shinkansen",
+  "sources": [
+   "https://www.suzuki-rekishikan.jp/",
+   "https://ropeway.shizutetsu.co.jp/important/20260318/3448/",
+   "https://www.jorudan.co.jp/norikae/"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "Fuji views, a shrine by ropeway, then Suzuki and bullet trains.",
+   "moments": [
+    "Stand on the Nihondaira hilltop and look across Suruga Bay to snowy Mt Fuji.",
+    "Eat grilled unagi in Hamamatsu, the eel town of Lake Hamana.",
+    "Walk the Suzuki Museum from the 1909 loom to Jimny and Hayabusa bikes.",
+    "Drive the N700 Shinkansen simulator at SCMaglev and Railway Park in Nagoya.",
+    "Finish with a huge miso katsu in Osu."
+   ],
+   "tip": "Book the Suzuki Museum online (free) for Sunday morning; weekday visits in January start only at 15:00."
+  }
+ },
+ {
+  "id": "rw1-hakone-westward-luggage",
+  "kind": "swap",
+  "category": "onsen",
+  "title": "Hakone as first stop, no suitcases",
+  "titleJa": "箱根を西行きの最初の宿に（手ぶら観光）",
+  "summary": "Make Hakone the first night of the westward trip instead of a day trip from Tokyo. Take the Romancecar to Hakone-Yumoto, hand bags to the station luggage counter, loop Hakone with the Freepass, then leave west by Tokai Bus from Moto-Hakone to Mishima (via Mishima Skywalk) or by Tozan train to Odawara and the Shinkansen.",
+  "why": "It saves the trip back to Tokyo and gives one ryokan onsen night before the business hotels start.",
+  "days": [
+   5,
+   6
+  ],
+  "duration": "1 night",
+  "cost": "Freepass (Hakone area, from Odawara) 2 days ¥6,000 + Odakyu Shinjuku–Odawara ¥910 + Romancecar ¥1,200; luggage ¥1,500 per bag each way; ryokan extra",
+  "winter": "ok",
+  "winterNote": "New route days 5–6. Luggage counter at Hakone-Yumoto: drop 8:30–12:00, bags at hotel after 15:00; return trip must be booked at the hotel desk by 10:00, pick up at Yumoto 13:30–18:30, and it only goes back to Yumoto. Snow can stop delivery. Ropeway and boats stop in strong wind.",
+  "lat": 35.23353,
+  "lon": 139.10391,
+  "route": [
+   [
+    139.70056,
+    35.68944
+   ],
+   [
+    139.10391,
+    35.23353
+   ],
+   [
+    139.0306,
+    35.20283
+   ],
+   [
+    138.98059,
+    35.1522
+   ],
+   [
+    138.91116,
+    35.12634
+   ]
+  ],
+  "places": [
+   {
+    "en": "Hakone-Yumoto Station (luggage counter)",
+    "ja": "箱根湯本駅 手荷物配送カウンター",
+    "lat": 35.23353,
+    "lon": 139.10391
+   },
+   {
+    "en": "Moto-Hakone port (bus to Mishima)",
+    "ja": "元箱根港",
+    "lat": 35.20283,
+    "lon": 139.0306
+   },
+   {
+    "en": "Mishima Skywalk",
+    "ja": "三島スカイウォーク",
+    "lat": 35.1522,
+    "lon": 138.98059
+   },
+   {
+    "en": "Mishima Station",
+    "ja": "三島駅",
+    "lat": 35.12634,
+    "lon": 138.91116
+   }
+  ],
+  "photoQuery": "Odakyu Romancecar Hakone-Yumoto",
+  "sources": [
+   "https://odakyu-global.com/passes/hakone-freepass/",
+   "https://www.hakonenavi.jp/hakone-luggage-transport-service/en/",
+   "https://mishima-skywalk.jp/access/"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "Arrive in Hakone with empty hands, leave west over Mishima Skywalk.",
+   "moments": [
+    "Sit in the Romancecar from Shinjuku and watch the hills rise after Odawara.",
+    "Hand your suitcases to the counter at Hakone-Yumoto and walk off with only a daypack.",
+    "Loop Hakone: Tozan train switchbacks, ropeway over Owakudani steam, pirate boat on Lake Ashi.",
+    "Soak in the ryokan bath at night while the air outside is near 0 °C.",
+    "Take the morning bus from Moto-Hakone to Mishima Skywalk for Fuji across the bridge."
+   ],
+   "tip": "If you leave west via Mishima, the station service cannot follow you; send bags by Yamato from the ryokan to your next hotel."
+  }
+ },
+ {
+  "id": "rw1-atami-sakura-night",
+  "kind": "swap",
+  "category": "onsen",
+  "title": "Atami early cherry blossoms at night",
+  "titleJa": "あたみ桜 糸川桜まつり・熱海温泉泊",
+  "summary": "Stop one night in Atami, the seaside onsen town 36 min from Tokyo by Hikari. The Itokawa river walk has 'Atami-zakura', Japan's earliest cherry blossoms, lit up every night during the January festival; then soak in a hotel onsen above the bay.",
+  "why": "Real cherry blossoms in January, plus an onsen night by the sea, on the direct line west.",
+  "days": [
+   5
+  ],
+  "duration": "half day + 1 night",
+  "cost": "Tokyo→Atami Hikari ¥4,070 reserved; Atami→Shizuoka Kodama ¥3,100; festival free; onsen hotel extra",
+  "winter": "check",
+  "winterNote": "New route day 5. 2026 festival: Jan 10–Feb 8, light-up daily 16:30–23:00, weekend free sakura tea; 2027 not announced, likely similar. Kawazu cherry festival is later (2026: Feb 7–Mar 8). No Atami fireworks in late Jan (next: Feb 21, 2027). The existing Atami plum idea covers the plum garden.",
+  "lat": 35.09609,
+  "lon": 139.0732,
+  "places": [
+   {
+    "en": "Itokawa river walk, Dragon Bridge",
+    "ja": "糸川遊歩道 ドラゴン橋",
+    "lat": 35.09609,
+    "lon": 139.0732
+   },
+   {
+    "en": "Atami Station",
+    "ja": "熱海駅",
+    "lat": 35.10361,
+    "lon": 139.07744
+   }
+  ],
+  "photoQuery": "Atami zakura Itokawa",
+  "sources": [
+   "https://www.ataminews.gr.jp/event/208",
+   "https://www.ataminews.gr.jp/event/8",
+   "https://kawazuzakura.jp/company.html"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "Pink cherry blossoms in January, lit over a small river by the sea.",
+   "moments": [
+    "Walk down from Atami Station through the covered shopping street toward the sea.",
+    "Stroll the Itokawa river walk under pink Atami-zakura, lit after 16:30.",
+    "Stand on Dragon Bridge and photograph blossoms against the neon of the old onsen town.",
+    "Soak in your hotel's hot spring bath with the dark sea below."
+   ],
+   "tip": "Come on a weekend morning for free sakura tea, then return after dark for the light-up."
+  }
+ },
+ {
+  "id": "rw1-shuzenji-onsen-night",
+  "kind": "swap",
+  "category": "onsen",
+  "title": "Shuzenji onsen night in Izu",
+  "titleJa": "修善寺温泉",
+  "summary": "A quiet, old onsen town in the middle of Izu, 37 min from Mishima by the local Sunzu Line. Walk the bamboo forest path and the river with Tokko-no-yu, stay in a ryokan, and come back to Mishima for the Shinkansen west.",
+  "why": "A more traditional onsen night than Hakone, easy to add between Hakone/Mishima and Shizuoka.",
+  "days": [
+   5,
+   6
+  ],
+  "duration": "1 night",
+  "cost": "Mishima→Shuzenji ¥550 each way (Atami→Shuzenji direct Odoriko ¥1,840); ryokan with 2 meals often ¥15,000–30,000 pp (check)",
+  "winter": "ok",
+  "winterNote": "New route days 5–6. Mild, no snow. Tokko-no-yu is now for viewing only (no bathing). Kawazu cherry blossoms (further south) start in February, after this trip.",
+  "lat": 34.97047,
+  "lon": 138.92753,
+  "route": [
+   [
+    138.91116,
+    35.12634
+   ],
+   [
+    138.95137,
+    34.97921
+   ],
+   [
+    138.92753,
+    34.97047
+   ],
+   [
+    138.91116,
+    35.12634
+   ]
+  ],
+  "places": [
+   {
+    "en": "Tokko-no-yu",
+    "ja": "独鈷の湯",
+    "lat": 34.9702,
+    "lon": 138.92778
+   },
+   {
+    "en": "Bamboo forest path",
+    "ja": "竹林の小径",
+    "lat": 34.96972,
+    "lon": 138.92602
+   },
+   {
+    "en": "Shuzenji Station",
+    "ja": "修善寺駅",
+    "lat": 34.97921,
+    "lon": 138.95137
+   }
+  ],
+  "photoQuery": "Shuzenji Onsen bamboo path",
+  "sources": [
+   "https://www.shuzenji-kankou.com/",
+   "https://ja.wikipedia.org/wiki/修善寺温泉",
+   "https://www.jorudan.co.jp/norikae/"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "A river, a bamboo path and a ryokan in the middle of Izu.",
+   "moments": [
+    "Ride the small Sunzu Line train from Mishima past fields and Fuji views.",
+    "Walk the bamboo forest path along the Katsura river as lanterns come on.",
+    "See Tokko-no-yu, the spring said to be opened by the monk Kukai.",
+    "Eat a ryokan dinner of Izu seafood and soak in the bath before bed."
+   ],
+   "tip": "Walk the bamboo path early in the morning before day-trip buses arrive."
+  }
+ },
+ {
+  "id": "rw1-numazu-port-godzilla",
+  "kind": "addon",
+  "category": "food",
+  "title": "Numazu port seafood and deep-sea aquarium",
+  "titleJa": "沼津港・沼津港深海水族館",
+  "summary": "Stop at Numazu port on the way west: eat a fresh aji (horse mackerel) or seafood bowl at the port restaurants, then see the Deep Sea Aquarium with frozen coelacanths. Until Jan 31, 2027 it has a 'Godzilla Minus Zero' collab with Godzilla figures and design material.",
+  "why": "Seafood lunch plus a Godzilla show fits a Hakone → Mishima → Shizuoka day, and adds to the Love Live stop if they want it.",
+  "days": [
+   6
+  ],
+  "duration": "3 h",
+  "cost": "Aquarium adult ¥2,200; seafood bowl about ¥1,500–3,000 (check); Mishima→Numazu local ¥200s",
+  "winter": "ok",
+  "winterNote": "New route day 6. Godzilla −0.0 collab: Oct 3, 2026 – Jan 31, 2027 (stickers for the first 25,000 visitors from Dec 1). Aquarium 10:00–18:00 (hours change by season). The existing Numazu Love Live idea covers Uchiura and Aqours spots.",
+  "lat": 35.08397,
+  "lon": 138.85817,
+  "places": [
+   {
+    "en": "Numazu Deep Sea Aquarium",
+    "ja": "沼津港深海水族館",
+    "lat": 35.08397,
+    "lon": 138.85817
+   },
+   {
+    "en": "Numazu Port",
+    "ja": "沼津港",
+    "lat": 35.08189,
+    "lon": 138.85631
+   },
+   {
+    "en": "Mishima Skywalk",
+    "ja": "三島スカイウォーク",
+    "lat": 35.1522,
+    "lon": 138.98059
+   }
+  ],
+  "photoQuery": "Numazu port Byuo gate",
+  "sources": [
+   "https://www.numazu-deepsea.com/access/",
+   "https://www.numazu-deepsea.com/news/9685-2/"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "Frozen coelacanths and Godzilla, next to Japan's deepest bay.",
+   "moments": [
+    "Eat a fresh aji or shirasu bowl at a port restaurant by the fish market.",
+    "Stand in front of the two frozen coelacanths, the only ones shown in the world.",
+    "Look at Godzilla figures from each era in the Godzilla Minus Zero collab rooms.",
+    "Watch giant Japanese spider crabs from Suruga Bay walk in the tanks."
+   ],
+   "tip": "Go before Jan 31, 2027; after that the Godzilla collab ends."
+  }
+ },
+ {
+  "id": "rw1-shizuoka-nihondaira-kunozan",
+  "kind": "addon",
+  "category": "scenery",
+  "title": "Nihondaira Fuji view and Kunozan ropeway",
+  "titleJa": "日本平・日本平ロープウェイ・久能山東照宮",
+  "summary": "From Shizuoka Station take the bus to the Nihondaira hilltop for a wide Fuji and Suruga Bay view, then ride the 5-min ropeway down to Kunozan Toshogu, the first shrine of Tokugawa Ieyasu. Back in town, the free Shizuoka Hobby Square (Tamiya, Bandai, Hasegawa) is 1 min from the station.",
+  "why": "The best Fuji view on the Tokaido line, a national treasure shrine, and Shizuoka's model-kit culture for anime and car fans.",
+  "days": [
+   6,
+   7
+  ],
+  "duration": "half day",
+  "cost": "Bus Shizuoka Sta→Nihondaira ¥710 one way; ropeway round trip ¥1,250; shrine admission extra (check); Hobby Square free",
+  "winter": "ok",
+  "winterNote": "New route days 6–7. Winter air gives the clearest Fuji. Ropeway daily, Nihondaira dep. 9:10–16:45; planned stop Dec 1–21, 2026 only. Hobby Square 11:00–18:00 weekdays, 10:00–18:00 weekends, closed Mondays. The life-size Gundam stood in Shizuoka only in 2010–2011; there is no statue now.",
+  "lat": 34.97344,
+  "lon": 138.46375,
+  "places": [
+   {
+    "en": "Nihondaira Ropeway, Nihondaira Station",
+    "ja": "日本平ロープウェイ 日本平駅",
+    "lat": 34.97344,
+    "lon": 138.46375
+   },
+   {
+    "en": "Kunozan Toshogu",
+    "ja": "久能山東照宮",
+    "lat": 34.96479,
+    "lon": 138.4676
+   },
+   {
+    "en": "Shizuoka Hobby Square",
+    "ja": "静岡ホビースクエア",
+    "lat": 34.97103,
+    "lon": 138.39083
+   },
+   {
+    "en": "S-Pulse Dream Plaza (Chibi Maruko-chan Land)",
+    "ja": "エスパルスドリームプラザ",
+    "lat": 35.01058,
+    "lon": 138.49292
+   }
+  ],
+  "photoQuery": "Nihondaira Mount Fuji view",
+  "sources": [
+   "https://www.toshogu.or.jp/access/",
+   "https://ropeway.shizutetsu.co.jp/",
+   "https://ropeway.shizutetsu.co.jp/important/20260318/3448/",
+   "http://hobbysquare.jp/index.html",
+   "https://ja.wikipedia.org/wiki/静岡ホビースクエア"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "Fuji over the bay, then a cable car down to a golden shrine.",
+   "moments": [
+    "Look from Nihondaira Yume Terrace across Suruga Bay and Miho pine beach to snowy Fuji.",
+    "Ride the 5-minute ropeway over the deep Byobu valley to Kunozan.",
+    "Walk up to the lacquered red-and-gold shrine where Ieyasu was first buried.",
+    "Browse new plastic kits from Tamiya and Bandai at Hobby Square, and build one in the free workshop room."
+   ],
+   "tip": "Go up in the morning; Fuji often hides in clouds after noon. Hobby Square is closed Mondays."
+  }
+ },
+ {
+  "id": "rw1-hamamatsu-lake-hamana",
+  "kind": "swap",
+  "category": "food",
+  "title": "Lake Hamana ropeway, oysters and unagi",
+  "titleJa": "浜名湖・かんざんじロープウェイ・舘山寺温泉",
+  "summary": "Stay a night at Kanzanji Onsen on Lake Hamana, 45 min by bus from Hamamatsu Station. Ride Japan's only ropeway that crosses a lake, then eat winter lake food: unagi, Hamamatsu gyoza and the local 'kaki kaba-don' (grilled oyster bowl).",
+  "why": "Eel, oysters and a salty onsen by a lake: a food night between Shizuoka and Nagoya with Fuji on clear days.",
+  "days": [
+   7
+  ],
+  "duration": "half day + 1 night",
+  "cost": "Bus Hamamatsu Sta→Kanzanji about 45 min (fare check); ropeway round trip ¥1,300 (¥1,700 with music-box museum); unagi meal about ¥4,000–6,000 (check)",
+  "winter": "ok",
+  "winterNote": "New route day 7. Ropeway 10:00–17:30 in normal season; check the operating calendar. Oyster kaba-don and wild tora-fugu are winter dishes here. Pal Pal amusement park has its own winter days.",
+  "lat": 34.76381,
+  "lon": 137.61739,
+  "places": [
+   {
+    "en": "Kanzanji Ropeway",
+    "ja": "かんざんじロープウェイ",
+    "lat": 34.76381,
+    "lon": 137.61739
+   },
+   {
+    "en": "Okusayama summit",
+    "ja": "大草山",
+    "lat": 34.76989,
+    "lon": 137.62053
+   },
+   {
+    "en": "Kanzanji Onsen",
+    "ja": "舘山寺温泉",
+    "lat": 34.76161,
+    "lon": 137.61592
+   },
+   {
+    "en": "Hamamatsu Station",
+    "ja": "浜松駅",
+    "lat": 34.70343,
+    "lon": 137.7344
+   }
+  ],
+  "photoQuery": "Kanzanji Ropeway Lake Hamana",
+  "sources": [
+   "https://www.kanzanji-ropeway.jp/price/",
+   "https://www.kanzanji-ropeway.jp/lb/access.php",
+   "https://www.kanzanji.gr.jp/"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "A ropeway over the lake, eel for lunch, oysters for dinner.",
+   "moments": [
+    "Ride the Kanzanji ropeway across Lake Hamana to Okusayama and look around 360 degrees.",
+    "Eat unagi-don in Hamamatsu, Japan's best-known eel town.",
+    "Try kaki kaba-don, Lake Hamana oysters grilled in sweet eel sauce, a winter dish.",
+    "Soak in Kanzanji's salty hot spring with the lake outside the window."
+   ],
+   "tip": "Look for Fuji from the Okusayama top on cold, clear mornings. Order Hamamatsu gyoza with bean sprouts as a side."
+  }
+ },
+ {
+  "id": "rw1-scmaglev-railway-park",
+  "kind": "addon",
+  "category": "culture",
+  "title": "SCMaglev and Railway Park, Nagoya",
+  "titleJa": "リニア・鉄道館",
+  "summary": "JR Central's train museum by Nagoya port: 39 real trains, from steam engines to Shinkansen and the maglev test car, plus Japan's largest railway diorama. Try the N700 Shinkansen driving simulator.",
+  "why": "After riding the Shinkansen west, they can drive one in the simulator and see the record-breaking maglev.",
+  "days": [
+   9
+  ],
+  "duration": "3 h",
+  "cost": "Adult ¥1,200; N700 simulator ¥500 (first come, limited); Aonami Line Nagoya→Kinjo-futo ¥360, 24 min",
+  "winter": "ok",
+  "winterNote": "New route day 9 (or any day but Tuesday). 10:00–17:30, last entry 17:00, closed Tuesdays (Jan 19, 26, Feb 2). Simulator tickets sell out; on busy days they hand out numbered tickets before opening.",
+  "lat": 35.04887,
+  "lon": 136.85121,
+  "photoQuery": "SCMaglev and Railway Park",
+  "sources": [
+   "https://museum.jr-central.co.jp/facilities/",
+   "https://museum.jr-central.co.jp/en/"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "Drive a Shinkansen, then stand beside the maglev test car.",
+   "moments": [
+    "Walk into the main hall past a steam engine, a Shinkansen and the maglev test car side by side.",
+    "Buy a ticket at the info desk and drive the N700 simulator for 15 minutes.",
+    "Watch the huge diorama run from day to night with trains and city lights.",
+    "Sit inside old Shinkansen cars and compare seats from each era."
+   ],
+   "tip": "Be at the door at 10:00 and go straight to the info desk for N700 simulator tickets."
+  }
+ },
+ {
+  "id": "rw1-ghibli-park-winter",
+  "kind": "addon",
+  "category": "anime",
+  "title": "Ghibli Park in winter",
+  "titleJa": "ジブリパーク",
+  "summary": "Studio Ghibli's park in Expo 2005 Aichi Commemorative Park, about 1 h from Nagoya. The Premium pass opens all five areas: Grand Warehouse, Hill of Youth, Dondoko Forest (Satsuki and Mei's house), Mononoke Village and Valley of Witches.",
+  "why": "The biggest anime place on the Tokaido route, and it fits the Nagoya stop.",
+  "days": [
+   9
+  ],
+  "duration": "1 day",
+  "cost": "O-sanpo Day Pass Premium ¥7,300 weekdays / ¥7,800 weekends; Standard (3 areas) ¥3,300 / ¥3,800; bus Nagoya Sta→park ¥1,200 or subway + Linimo",
+  "winter": "check",
+  "winterNote": "New route day 9. Jan 2027 calendar: closed Tuesdays (Jan 19, Jan 26, Feb 2); weekday hours 10:00–17:00, weekends 9:00–17:00. Tickets only by advance booking (Lawson Ticket or Klook, passport check); they go on sale 2 months ahead on the 10th at 14:00 JST, so January 2027 opens Nov 10, 2026. No refunds.",
+  "lat": 35.1725,
+  "lon": 137.0898,
+  "photoQuery": "Ghibli Park Grand Warehouse",
+  "anime": "Studio Ghibli: My Neighbor Totoro (Satsuki and Mei's house), Princess Mononoke, Kiki's Delivery Service, Howl's Moving Castle",
+  "sources": [
+   "https://ghibli-park.jp/en/ticket/",
+   "https://ghibli-park.jp/en/calendar/",
+   "https://ghibli-park.jp/en/"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "Walk into Totoro's house and Kiki's town in the same day.",
+   "moments": [
+    "Enter the Grand Warehouse at your time slot and find famous Ghibli film scenes built full size.",
+    "Step inside Satsuki and Mei's house in Dondoko Forest and look into every room.",
+    "Walk the Valley of Witches past Howl's castle and Kiki's bakery.",
+    "Warm up with hot food at the Valley of Witches stalls on a cold winter afternoon."
+   ],
+   "tip": "Set an alarm for Nov 10, 2026, 14:00 Japan time; Premium weekday tickets for late January can go fast."
+  }
+ },
+ {
+  "id": "rw1-nagoya-food-osu-castle",
+  "kind": "addon",
+  "category": "food",
+  "title": "Nagoya food, Osu and the castle",
+  "titleJa": "名古屋めし・大須商店街・名古屋城",
+  "summary": "One Nagoya day for its own food: hitsumabushi (eel on rice, eaten 3 ways) at Atsuta Horaiken near Atsuta Shrine, miso katsu at Yabaton's main shop in Osu, and spicy tebasaki wings at night. Walk Osu Kannon and the Osu shopping streets, and see Nagoya Castle's rebuilt Honmaru Palace.",
+  "why": "Three famous local dishes in one day, plus Osu's anime, figure and used-goods shops.",
+  "days": [
+   8,
+   9
+  ],
+  "duration": "1 day",
+  "cost": "Hitsumabushi ¥4,950 (Horaiken main shop); miso katsu about ¥1,500–2,500 (check); castle ¥500",
+  "winter": "ok",
+  "winterNote": "New route days 8–9. Horaiken main shop closed Wednesdays and 2nd/4th Thursdays; Jingu branch closed Tuesdays and 2nd/4th Mondays (Jan 25, 26 both closed); Matsuzakaya branch closed Tuesdays. Yabaton Yabacho main shop 11:00–21:00, no closed day. Castle 9:00–16:30, main keep closed for rebuilding; Honmaru Palace open.",
+  "lat": 35.15967,
+  "lon": 136.89931,
+  "places": [
+   {
+    "en": "Osu Kannon",
+    "ja": "大須観音",
+    "lat": 35.15967,
+    "lon": 136.89931
+   },
+   {
+    "en": "Atsuta Horaiken (main shop)",
+    "ja": "あつた蓬莱軒 本店",
+    "lat": 35.12225,
+    "lon": 136.90861
+   },
+   {
+    "en": "Atsuta Shrine",
+    "ja": "熱田神宮",
+    "lat": 35.12736,
+    "lon": 136.90867
+   },
+   {
+    "en": "Nagoya Castle",
+    "ja": "名古屋城",
+    "lat": 35.18549,
+    "lon": 136.89909
+   }
+  ],
+  "photoQuery": "Osu Kannon Nagoya",
+  "sources": [
+   "https://www.houraiken.com/honten/index.html",
+   "https://www.houraiken.com/access.html",
+   "https://www.yabaton.com/modules/shop/index.php?content_id=2",
+   "https://www.nagoyajo.city.nagoya.jp/en/information/"
+  ],
+  "area": "route-west",
+  "experience": {
+   "hook": "Eel three ways, a pork cutlet in red miso, and wings at midnight.",
+   "moments": [
+    "Eat hitsumabushi at Atsuta Horaiken: plain first, then with wasabi and leeks, then with hot dashi.",
+    "Walk Atsuta Shrine's cedar paths, home of one of Japan's three sacred treasures.",
+    "Order waraji tonkatsu at Yabaton in Osu, a plate-sized cutlet under sweet red miso.",
+    "Dig through anime goods, figures and retro games along the Osu shopping arcades.",
+    "End with peppery tebasaki chicken wings and a beer at an izakaya."
+   ],
+   "tip": "Line up at Horaiken 20 minutes before 11:30 opening; check which branch is open that weekday."
+  }
+ }
+]

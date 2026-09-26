@@ -1,0 +1,280 @@
+[
+ {
+  "id": "exp2-knot-shinjuku-jan23",
+  "kind": "swap",
+  "category": "deal",
+  "title": "Knot Shinjuku for Jan 23",
+  "titleJa": "ホテルノット東京新宿",
+  "summary": "Knot Tokyo Shinjuku for the Saturday night Jan 23 is CA$218 total with tax, CA$58 less than Hotel Gracery on the same night.",
+  "why": "Same hotel as the Jan 19–22 deal, so you know the place, and it saves about CA$58 (~¥6,300).",
+  "days": [5],
+  "duration": "1 night",
+  "cost": "CA$197/night, CA$218 total (member, CA$43 off) vs Hotel Gracery Shinjuku CA$228/night, CA$276 total",
+  "winter": "ok",
+  "winterNote": "Sat Jan 23 – Sun Jan 24, 2027, 2 adults, 1 room, fully refundable. Book it as a separate stay: one stay Jan 19–24 at Knot costs CA$814 (CA$148/night member price), but two bookings (Jan 19–22 CA$429 + Jan 23 CA$218) cost CA$647, so keeping the room on Jan 22 costs about CA$167 extra. Ask the hotel to hold your bags on Jan 22 instead (free). Other Jan 23 options: Shinjuku Granbell CA$148 (CA$182 total), Sunroute Plaza Shinjuku CA$183 (CA$202). Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD; CA$1 is about ¥108.",
+  "lat": 35.6919,
+  "lon": 139.6927,
+  "photoQuery": "Knot Tokyo Shinjuku hotel",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?rooms=1&destination=Shinjuku%2C+Tokyo%2C+Tokyo+Prefecture%2C+Japan&regionId=179168&selected=1179444&startDate=2027-01-23&endDate=2027-01-24&adults=2",
+   "https://www.expedia.ca/Hotel-Search?rooms=1&destination=Shinjuku%2C+Tokyo%2C+Tokyo+Prefecture%2C+Japan&regionId=179168&selected=1179444&startDate=2027-01-19&endDate=2027-01-24&adults=2"
+  ],
+  "experience": {
+   "hook": "Two short bookings beat one long stay by CA$167.",
+   "moments": [
+    "Sign in to Expedia so member prices show",
+    "Book Knot Shinjuku Jan 19–22 (CA$429) as one booking",
+    "Book Knot Shinjuku Jan 23–24 (CA$218) as a second booking",
+    "On Jan 22 check out and leave your big bags at the front desk"
+   ],
+   "tip": "Both rates are refundable; re-check in December."
+  }
+ },
+ {
+  "id": "exp2-yyz-tyo-westjet-roundtrip",
+  "kind": "swap",
+  "category": "deal",
+  "title": "WestJet Toronto–Narita round trip",
+  "titleJa": "ウエストジェット 成田往復",
+  "summary": "Cheapest round trip for Pegasis is still WestJet at CA$1,039, one stop in Calgary, with a checked bag included.",
+  "why": "It is CA$438 less than the next airline (Delta CA$1,477) and CA$1,225 less than Air Canada nonstop (CA$2,264).",
+  "days": [1, 15],
+  "duration": "16 h 55 min out",
+  "cost": "CA$1,039 round trip, 1 adult economy (WestJet 'Econo') vs Delta via Detroit to Haneda CA$1,477, Air Canada nonstop CA$2,264",
+  "winter": "ok",
+  "winterNote": "Out Mon Jan 18: WestJet YYZ 9:35 → YYC (1 h 35 min stop) → NRT 16:30 Jan 19. Other WestJet times same price: 7:30, 6:00, 22:20. Back Tue Feb 2 from Tokyo. Econo fare: carry-on and 1st checked bag included, seat choice for a fee, change fee CA$150, cancel for airline credit minus a fee. 'Econoflex' CA$110 more gives free seat choice and no change fee. Expedia says the lowest price for this search over the past week was CA$1,039. Seen on expedia.ca 2026-09-25, signed in.",
+  "lat": 35.77198,
+  "lon": 140.39286,
+  "route": [[-79.62482, 43.67772], [-114.02030, 51.13140], [140.39286, 35.77198]],
+  "photoQuery": "Narita International Airport",
+  "sources": [
+   "https://www.expedia.ca/Flights-Search?trip=roundtrip&leg1=from:YYZ,to:TYO,departure:1/18/2027TANYT&leg2=from:TYO,to:YYZ,departure:2/2/2027TANYT&passengers=adults:1&mode=search&options=cabinclass:economy&sortOrder=INCREASING&sortType=PRICE"
+  ],
+  "experience": {
+   "hook": "Price is steady at CA$1,039 with a bag.",
+   "moments": [
+    "Search YYZ to Tokyo (all airports), Jan 18 – Feb 2, 1 adult",
+    "Sort by price, pick WestJet 9:35 a.m. via Calgary",
+    "Choose Econo (bag included) or Econoflex (+CA$110, free changes)",
+    "Compare with the open-jaw option before you pay"
+   ],
+   "tip": "Turn on 'Watch prices' so Expedia tells you if it drops."
+  }
+ },
+ {
+  "id": "exp2-open-jaw-yyz-nrt-cts-yyz",
+  "kind": "swap",
+  "category": "deal",
+  "title": "Open-jaw: fly home from Sapporo",
+  "titleJa": "新千歳空港から帰国",
+  "summary": "Toronto→Narita out and Sapporo (New Chitose)→Toronto back costs CA$1,247. You skip the Sapporo→Narita flight and the Narita hotel night.",
+  "why": "It costs about CA$78 more than round trip + domestic flight + Narita hotel, but gives you one more evening in Sapporo with Aoki and one less flight.",
+  "days": [14, 15],
+  "duration": "14 h 22 min back",
+  "cost": "CA$1,247 open-jaw vs CA$1,039 round trip + CA$72 Jetstar CTS→NRT + CA$58 Narita hotel = CA$1,169",
+  "winter": "check",
+  "winterNote": "Out: WestJet YYZ 9:35 Jan 18 → NRT 16:30 Jan 19 (via Calgary). Back Tue Feb 2: Air Canada CTS 19:35 → YVR (1 h 40 min stop) → YYZ 19:57 same day, 14 h 22 min. Same price with longer Vancouver stops. Out-leg fare 'Econo': carry-on + 1st checked bag included. Air Canada via Haneda (operated by ANA) is CA$1,512. You still need a Sapporo hotel for Feb 1 night (share Aoki's room). The CA$72 Jetstar fare does not include a checked bag, so the real gap is smaller. Snow can delay CTS flights; an evening departure gives buffer. Seen on expedia.ca 2026-09-25.",
+  "lat": 42.78728,
+  "lon": 141.68134,
+  "route": [[-79.62482, 43.67772], [140.39286, 35.77198], [141.68134, 42.78728], [-123.18400, 49.19470], [-79.62482, 43.67772]],
+  "photoQuery": "New Chitose Airport",
+  "sources": [
+   "https://www.expedia.ca/Flights-Search?trip=multi&leg1=from:YYZ,to:TYO,departure:1/18/2027TANYT&leg2=from:CTS,to:YYZ,departure:2/2/2027TANYT&passengers=adults:1&mode=search&options=cabinclass:economy"
+  ],
+  "experience": {
+   "hook": "End the trip in Sapporo, not at a Narita airport hotel.",
+   "moments": [
+    "Choose 'Multi-city' on Expedia flights",
+    "Flight 1: YYZ → Tokyo, Jan 18; Flight 2: CTS → YYZ, Feb 2",
+    "Pick WestJet 9:35 out, then Air Canada 19:35 back",
+    "Drop the Feb 1 Narita hotel and the CTS→NRT flight from the plan"
+   ],
+   "tip": "Worth the extra ~CA$78 if you value the last day in Hokkaido."
+  }
+ },
+ {
+  "id": "exp2-flight-hotel-package-knot",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Flight + Knot Shinjuku package",
+  "titleJa": "航空券＋ホテル パッケージ",
+  "summary": "Expedia package: WestJet round trip + 3 nights Knot Shinjuku (Jan 19–22) for CA$1,411, about CA$57 less than booking them apart.",
+  "why": "Small saving for the same flight and hotel; Gracery in a package gets '1 night free' but is still CA$227 more than Knot.",
+  "days": [1, 2, 3, 15],
+  "duration": "round trip + 3 nights",
+  "cost": "CA$1,411 package (was CA$1,558, CA$147 off) vs CA$1,039 flight + CA$429 hotel = CA$1,468 separate; Gracery package CA$1,638 (1 night free, was CA$1,980)",
+  "winter": "ok",
+  "winterNote": "Searched as 1 traveller, 1 room, YYZ–Tokyo Jan 18 – Feb 2, stay Shinjuku Jan 19–22. Package price is per traveller and includes flight + stay, taxes and fees. Aoki flies from Shanghai, so add her to the room as a second guest at the hotel step and check the price again; a 2-traveller package would add a second Toronto flight. Only works with a round-trip flight, not with the open-jaw Sapporo return. Cheapest Shinjuku package overall: capsule/hostel CA$1,106. Seen on expedia.ca 2026-09-25, signed in.",
+  "lat": 35.6919,
+  "lon": 139.6927,
+  "photoQuery": "Knot Tokyo Shinjuku hotel",
+  "sources": [
+   "https://www.expedia.ca/Vacation-Packages"
+  ],
+  "experience": {
+   "hook": "Bundle the flight and first hotel for a small extra discount.",
+   "moments": [
+    "Open Expedia Packages, choose Stay + Flight",
+    "Flight YYZ → Tokyo (all airports), Jan 18 – Feb 2; stay Shinjuku Jan 19–22",
+    "Set 1 traveller, sort by price, open THE KNOT TOKYO Shinjuku",
+    "Check the room holds 2 adults before paying"
+   ],
+   "tip": "Skip the package if you choose the open-jaw return."
+  }
+ },
+ {
+  "id": "exp2-jetstar-cts-nrt-feb1",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Jetstar Sapporo→Narita Feb 1",
+  "titleJa": "ジェットスター 新千歳→成田",
+  "summary": "Evening Jetstar flight New Chitose → Narita on Feb 1 is CA$72 (~¥7,800), the cheapest of 56 nonstop flights that day.",
+  "why": "Half the JAL price (CA$137 to Haneda) and it lands at Narita, next to the Feb 1 airport hotel.",
+  "days": [14],
+  "duration": "1 h 45 min",
+  "cost": "CA$72 (Jetstar 20:40 → 22:25) vs JAL to Haneda CA$137, ANA from CA$652; Feb 2 morning cheapest is CA$137 (JAL)",
+  "winter": "check",
+  "winterNote": "Mon Feb 1, 2027: Jetstar CTS 20:40 → NRT 22:25 CA$72; 9:30 → 11:25 CA$80; 11:05 → 13:00 CA$88; 12:00 → 13:50 CA$97; 18:10 → 19:55 CA$118. Base fare: carry-on only, checked bag costs extra (add about ¥2,000–4,000 on Jetstar). Tue Feb 2 lowest fare shown CA$137. Snow delays at CTS are common in February. Seen on expedia.ca 2026-09-25.",
+  "lat": 42.78728,
+  "lon": 141.68134,
+  "route": [[141.68134, 42.78728], [140.39286, 35.77198]],
+  "photoQuery": "Jetstar Japan New Chitose Airport",
+  "sources": [
+   "https://www.expedia.ca/Flights-Search?trip=oneway&leg1=from:CTS,to:TYO,departure:1/2/2027TANYT&passengers=adults:1&mode=search&options=cabinclass:economy&sortOrder=INCREASING&sortType=PRICE"
+  ],
+  "experience": {
+   "hook": "A CA$72 hop from Sapporo to your Narita hotel.",
+   "moments": [
+    "Search one-way CTS → Tokyo, Mon Feb 1, 1 adult",
+    "Sort by price, pick Jetstar 20:40",
+    "Add a checked bag on Jetstar's site after booking",
+    "Walk or shuttle to the Narita airport hotel"
+   ],
+   "tip": "Expedia.ca reads dates as day/month here; check the date shown."
+  }
+ },
+ {
+  "id": "exp2-aoki-pvg-nrt-spring",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Aoki: Shanghai→Narita Spring Airlines",
+  "titleJa": "春秋航空 上海浦東→成田",
+  "summary": "Aoki's cheapest good flight in: Spring Airlines nonstop Pudong → Narita on Jan 19 for CA$304, with carry-on and 1 checked bag.",
+  "why": "Nonstop, bag included, and lands 18:40, close to Pegasis's 16:30 Narita arrival.",
+  "days": [1],
+  "duration": "2 h 40 min",
+  "cost": "CA$304 (Spring 15:00 → 18:40, Springflexi) vs Air China nonstop CA$376, Jetstar nonstop 2:20 → 6:20 CA$313; cheapest overall Hong Kong Airlines CA$280 with a stop in Hong Kong",
+  "winter": "ok",
+  "winterNote": "Tue Jan 19, 2027, 1 adult, economy one-way. Spring fare shown as estimate, payable in RMB. Air China 9:40 → 13:40 CA$376 and 14:25 → 18:10 CA$376 (nonstop). The open-jaw PVG→Tokyo + CTS→PVG was CA$923 (Air China out, 1 stop back), more than two one-ways (CA$304 + CA$579 = CA$883). Chinese sites (Ctrip, Spring's own site) may be lower. Seen on expedia.ca 2026-09-25.",
+  "lat": 31.14337,
+  "lon": 121.80527,
+  "route": [[121.80527, 31.14337], [140.39286, 35.77198]],
+  "photoQuery": "Shanghai Pudong International Airport",
+  "sources": [
+   "https://www.expedia.ca/Flights-Search?trip=oneway&leg1=from:PVG,to:TYO,departure:1/19/2027TANYT&passengers=adults:1&mode=search&options=cabinclass:economy&sortOrder=INCREASING&sortType=PRICE"
+  ],
+  "experience": {
+   "hook": "Nonstop with a bag for about ¥33,000.",
+   "moments": [
+    "Search one-way PVG → Tokyo, Jan 19, 1 adult",
+    "Sort by price; pick Spring Airlines 15:00 nonstop",
+    "Check the 'Springflexi' fare shows carry-on + 1st checked bag",
+    "Meet Pegasis at Narita T1/T2 around 19:00"
+   ],
+   "tip": "Compare with Spring's own Chinese site; it is often cheaper."
+  }
+ },
+ {
+  "id": "exp2-aoki-return-to-pvg",
+  "kind": "swap",
+  "category": "deal",
+  "title": "Aoki: return to Shanghai Feb 2",
+  "titleJa": "新千歳／成田→上海浦東",
+  "summary": "From Sapporo the cheapest is CA$579 (1 stop via Narita). If Aoki flies CTS→NRT with Pegasis on Feb 1, then Air China Narita→Pudong nonstop on Feb 2 is CA$371, so CA$443 total.",
+  "why": "Flying back via Narita with Pegasis saves Aoki about CA$136 and keeps you together one more evening, but adds a Narita hotel night.",
+  "days": [14, 15],
+  "duration": "3 h 25 min (NRT–PVG nonstop)",
+  "cost": "CA$72 CTS→NRT (Feb 1) + CA$371 NRT→PVG (Feb 2) = CA$443 vs CA$579 CTS→PVG (1 stop) or CA$1,031 CTS→PVG nonstop (China Eastern)",
+  "winter": "check",
+  "winterNote": "Tue Feb 2, 2027: Air China NRT 15:00 → PVG 17:25 CA$371 (also 19:30 → 22:15 CA$371), Spring NRT 19:40 → 22:25 CA$453. From CTS: ANA/Air China via NRT 13:40 → 22:15 CA$579; Asiana via Seoul CA$633 (CA$20 off); China Eastern nonstop 13:30 → 17:10 CA$1,031. Air China basic fare may not include a checked bag; check. Only fits if you do NOT take the open-jaw Sapporo return for Pegasis. Aoki's 15-day visa limit: Jan 19 – Feb 2 is 15 days, fine. Seen on expedia.ca 2026-09-25.",
+  "lat": 35.77198,
+  "lon": 140.39286,
+  "route": [[141.68134, 42.78728], [140.39286, 35.77198], [121.80527, 31.14337]],
+  "photoQuery": "Narita International Airport Terminal 1",
+  "sources": [
+   "https://www.expedia.ca/Flights-Search?trip=oneway&leg1=from:TYO,to:PVG,departure:2/2/2027TANYT&passengers=adults:1&mode=search&options=cabinclass:economy&sortOrder=INCREASING&sortType=PRICE",
+   "https://www.expedia.ca/Flights-Search?trip=oneway&leg1=from:CTS,to:PVG,departure:2/2/2027TANYT&passengers=adults:1&mode=search&options=cabinclass:economy&sortOrder=INCREASING&sortType=PRICE"
+  ],
+  "experience": {
+   "hook": "Go home via Narita together and pay less.",
+   "moments": [
+    "Both fly Jetstar CTS 20:40 → NRT on Feb 1 (CA$72 each)",
+    "Share one Narita airport hotel room",
+    "Feb 2: Aoki takes Air China NRT 15:00 → PVG",
+    "Pegasis takes the Toronto flight the same day"
+   ],
+   "tip": "If Pegasis picks the open-jaw home from Sapporo, Aoki should take the CA$579 CTS→PVG fare instead."
+  }
+ },
+ {
+  "id": "exp2-hokkaido-car-hertz",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Hertz Hakodate→New Chitose one-way",
+  "titleJa": "ハーツ 函館空港→新千歳空港",
+  "summary": "Hertz one-way car from Hakodate Airport (Jan 27 10:00) to New Chitose Airport (Jan 31 12:00) from CA$708 total, one-way fee included, free cancellation, pay at pick-up.",
+  "why": "Fixed price you can cancel free; it sets a ceiling to compare with Toyota/Nippon Rent-a-Car direct sites.",
+  "days": [9, 10, 11, 12, 13],
+  "duration": "4 days",
+  "cost": "Economy Toyota Passo CA$708 total (rental CA$405.52 + taxes/fees incl. one-way drop CA$302.66); Compact Yaris CA$773; Midsize Corolla Sport CA$876; Compact Van Sienta CA$899; Mini Van Noah CA$1,168",
+  "winter": "check",
+  "winterNote": "Only 5 cars, all Hertz, all shown as automatic, unlimited mileage, fuel full-to-full. No SUV or 4WD class was offered for this one-way route on Expedia, and winter tyres / 4WD were NOT listed; in Hokkaido winter tyres are normally standard, but ask Hertz to confirm 4WD. Pick-up counter hours HKD 8:00–19:00; drop-off CTS 8:00–20:00. Drop is at CTS airport, not Sapporo city. Age surcharge under 25 / over 70. Seen on expedia.ca 2026-09-25.",
+  "lat": 41.77000,
+  "lon": 140.82194,
+  "route": [[140.82194, 41.77000], [140.68660, 42.90120], [142.35500, 43.77060], [141.68134, 42.78728]],
+  "photoQuery": "Hakodate Airport",
+  "sources": [
+   "https://www.expedia.ca/carsearch?locn=Hakodate%20(HKD)&loc2=Sapporo%20(CTS)&date1=27/01/2027&date2=31/01/2027&time1=1000AM&time2=1200PM"
+  ],
+  "experience": {
+   "hook": "A cancel-free one-way car across Hokkaido for about ¥76,000.",
+   "moments": [
+    "Search cars: pick-up Hakodate (HKD), drop-off Sapporo (CTS), Jan 27 10:00 – Jan 31 12:00",
+    "Compare Economy CA$708 and Compact Van CA$899",
+    "Reserve with 'pay at pick-up' only after checking 4WD with Hertz",
+    "Compare with Toyota Rent a Car 4WD one-way before deciding"
+   ],
+   "tip": "Aoki drives (Japan-accepted licence); bring the licence and International Driving Permit."
+  }
+ },
+ {
+  "id": "exp2-shinjuku-car-sixt",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Sixt car at Shinjuku Station",
+  "titleJa": "シクスト 新宿駅",
+  "summary": "Sixt Honda Fit Hybrid at Shinjuku Station, Jan 22 08:00 – Jan 23 13:00, CA$190 total with free cancellation.",
+  "why": "0.8 km from the hotel, cheap, and fine for Hakone Turnpike and Kawaguchiko.",
+  "days": [4, 5],
+  "duration": "29 h",
+  "cost": "Hybrid Compact (Honda Fit Hybrid) CA$190 at Sixt Shinjuku Station vs cheapest Compact CA$160 at Sixt Shibuya (3.5 km) and SUV from CA$265; Luxury SUV Lexus NX350h CA$546",
+  "winter": "check",
+  "winterNote": "Sixt Tokyo Shinjuku Station, B1F, 1-25-1 Nishi-Shinjuku. 44 cars shown; free cancellation, pay at pick-up, unlimited mileage. Winter tyres or chains were not listed; for Fuji Five Lakes in late January ask Sixt for studless tyres (often extra). Midsize wagon Corolla Fielder CA$200. Seen on expedia.ca 2026-09-25.",
+  "lat": 35.69147,
+  "lon": 139.69606,
+  "photoQuery": "Shinjuku Center Building",
+  "sources": [
+   "https://www.expedia.ca/carsearch?locn=Shinjuku%2C%20Tokyo%2C%20Japan&date1=22/01/2027&date2=23/01/2027&time1=0800AM&time2=0100PM"
+  ],
+  "experience": {
+   "hook": "Pick up the car under Shinjuku Station for about ¥20,500.",
+   "moments": [
+    "Search cars: Shinjuku, Jan 22 08:00 – Jan 23 13:00",
+    "Sort by total price",
+    "Pick Sixt Hybrid Compact at Tokyo Shinjuku Station (CA$190)",
+    "Ask for winter tyres at the counter"
+   ],
+   "tip": "Aoki must be the driver."
+  }
+ }
+]

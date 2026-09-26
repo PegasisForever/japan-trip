@@ -1,6 +1,6 @@
 """Finds a real photo per place on Wikimedia Commons, saves 1280px + 320px copies and the credit."""
 import json, subprocess, urllib.request, urllib.parse, os, re, sys, time
-UA={'User-Agent':'YukimichiTripPlanner/1.0 (personal trip site)'}
+UA={'User-Agent':'YukimichiTripPlanner/1.0 (https://de75-173-32-75-236.ngrok-free.app; personal trip planner) python-urllib'}
 data=json.loads(subprocess.check_output(['node','export.ts']))
 queries=json.load(open('photo-queries.json'))
 credits=json.load(open('../src/data/photos.json')) if os.path.exists('../src/data/photos.json') else {}

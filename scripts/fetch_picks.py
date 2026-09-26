@@ -1,6 +1,6 @@
 """Downloads the picked Commons photo for each place in 3 sizes and writes the credits file."""
 import json, urllib.request, os, re, subprocess, time
-UA={'User-Agent':'YukimichiTripPlanner/1.0 (personal trip map)'}
+UA={'User-Agent':'YukimichiTripPlanner/1.0 (https://de75-173-32-75-236.ngrok-free.app; personal trip planner) python-urllib'}
 cands=json.load(open('cache/cands.json')); picks=json.load(open('picks.json'))
 credits=json.load(open('../src/data/photos.json'))
 for d in ('','t/','m/'): os.makedirs(f'../public/photos/{d}',exist_ok=True)

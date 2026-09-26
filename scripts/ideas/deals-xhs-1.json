@@ -1,0 +1,474 @@
+[
+  {
+    "id": "xhs-hokkaido-winter-driving-rules",
+    "area": "xhs",
+    "kind": "addon",
+    "category": "cars",
+    "title": "Hokkaido snow driving: real warnings",
+    "titleJa": "北海道 冬道運転の注意",
+    "summary": "Chinese drivers who drove Hokkaido in winter 2025–26 share the same rules: slow down, no sudden braking or steering, and watch for black ice on roads that look dry. In a whiteout, follow the red-and-white arrow poles above the road edge and the tail lights ahead.",
+    "why": "Aoki drives the 5-day Hakodate→Sapporo car and Pegasis has only 1 year of licence, so these tips cut the real risk on days 9–13.",
+    "days": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "duration": "whole Hokkaido car part",
+    "cost": "¥0 (4WD rental costs more; notes say 4WD is worth it)",
+    "winter": "ok",
+    "winterNote": "XHS: 4 independent notes, latest Jan 2026 (Azure 01-09, 北海道旅居中 2025-12-03 with 303 likes/544 saves, 不是小小只 01-20, momo 03-21). Tips: new snow grips well, grey 'dry' road or roads before bridges/tunnels may be black ice; on ice use engine brake (L or B gear) instead of hard brake (top comment); in a whiteout turn on fog lights and hazards and stop at a konbini, gas station or michi-no-eki; if the navi sends you onto a small road with no tyre tracks for 500 m, turn back; keep the fuel tank full; plan to arrive before dark (about 16:30 in late Jan). Roaming phone numbers work for 110/119; some eSIMs have poor signal in the countryside.",
+    "lat": 42.875,
+    "lon": 140.65884,
+    "places": [
+      {
+        "en": "Niseko to Otaru road (comment: 'rotten snow, easy to slide')",
+        "ja": "ニセコ〜小樽",
+        "lat": 43.19,
+        "lon": 140.994
+      }
+    ],
+    "photoQuery": "Hokkaido snowy road arrow sign winter driving",
+    "sources": [
+      "https://www.xiaohongshu.com/explore/69310296000000001e02d52d",
+      "https://www.xiaohongshu.com/explore/696f1798000000000a0309a9",
+      "https://www.xiaohongshu.com/search_result?keyword=%E5%8C%97%E6%B5%B7%E9%81%93%20%E5%86%AC%E5%A4%A9%20%E8%87%AA%E9%A9%BE%20%E6%B3%A8%E6%84%8F&source=web_search_result_notes"
+    ],
+    "experience": {
+      "hook": "Five rules from people who slid, spun and still got there.",
+      "moments": [
+        "Ask the rental desk for 4WD and check the studless winter tyres before you leave Hakodate.",
+        "Brake early and softly; on shiny grey road, shift to L or B and let the engine slow you.",
+        "In a whiteout, switch on fog lights, look up for the red-and-white arrow poles, and follow tail lights.",
+        "If snow keeps coming, pull into a Seicomart or michi-no-eki and wait it out with hot coffee.",
+        "Fill the tank at half, and aim to park before 16:30 when it gets dark."
+      ],
+      "tip": "If Google Maps sends you down a side road with no tyre tracks, turn around at once."
+    }
+  },
+  {
+    "id": "xhs-niseko-beginner-day-aoki",
+    "area": "xhs",
+    "kind": "addon",
+    "category": "snow",
+    "title": "Aoki's first Niseko ski day",
+    "titleJa": "ニセコ 初心者の一日",
+    "summary": "XHS skiers agree: a beginner should start at Annupuri or Hanazono beginner runs, take a lesson, and buy only one resort's ticket or a half-day ticket. They also warn about one 'easy' tree run, Strawberry Fields, where going left leads to steep chutes.",
+    "why": "Aoki is a beginner and Pegasis is good: this lets Aoki learn safely and cheaply while Pegasis skis the big mountain.",
+    "days": [
+      10
+    ],
+    "duration": "1 day",
+    "cost": "Niseko United all-mountain 1-day ¥13,500 in peak season 2026-27 (official); a single-resort or half-day ticket costs less (price per resort not checked). Rental: notes say about ¥4,000 skis/board + ¥3,000 wear + ¥1,500 helmet.",
+    "winter": "ok",
+    "winterNote": "XHS: 4 independent notes, latest Feb 2026 (典伊选手 02-04: half-day ticket from about 10:00–12:00 was enough, buy on the resort site; Kico 02-06: 'Village is steep for beginners, choose Annupuri'; 硅谷hannah 01-07 on Strawberry Fields; 假装有年假 07-28 on rental prices and 2–3 lesson days). Last lift about 16:30. Official 2026-27 all-mountain peak 1-day ¥13,500 (Dec 24–Feb 28).",
+    "lat": 42.85005,
+    "lon": 140.64945,
+    "places": [
+      {
+        "en": "Niseko Annupuri ski area",
+        "ja": "ニセコアンヌプリ国際スキー場",
+        "lat": 42.85005,
+        "lon": 140.64945
+      },
+      {
+        "en": "Mt Niseko Annupuri summit",
+        "ja": "ニセコアンヌプリ",
+        "lat": 42.875,
+        "lon": 140.65884
+      }
+    ],
+    "photoQuery": "Niseko Annupuri ski resort beginner slope",
+    "sources": [
+      "https://www.niseko.ne.jp/en/lift/",
+      "https://www.xiaohongshu.com/explore/698349760000000028021ce1",
+      "https://www.xiaohongshu.com/search_result?keyword=%E4%BA%8C%E4%B8%96%E8%B0%B7%20%E6%BB%91%E9%9B%AA%20%E6%96%B0%E6%89%8B&source=web_search_result_notes"
+    ],
+    "experience": {
+      "hook": "Aoki learns on soft powder while Pegasis rides the whole mountain.",
+      "moments": [
+        "Rent skis, wear and helmet at the base; do not buy gear for a first trip.",
+        "Book Aoki a morning group or private lesson at Annupuri; stay on green runs only.",
+        "Buy a half-day ticket after lunch instead of an all-mountain day ticket.",
+        "Meet at the base for hot ramen, then ski the last run together before 16:30."
+      ],
+      "tip": "In Strawberry Fields, follow the coloured arrows and never drift left; skip Kamp Kitsune."
+    }
+  },
+  {
+    "id": "xhs-hakodate-jiyu-ichiba",
+    "area": "xhs",
+    "kind": "addon",
+    "category": "food",
+    "title": "Hakodate locals' market, not Asaichi",
+    "titleJa": "函館自由市場",
+    "summary": "Hakodate Jiyu Ichiba is the fish market where local people shop, 10 minutes' walk from Hakodate Station. You buy fresh uni, hairy crab and sashimi at local prices and eat some at the stalls.",
+    "why": "Same Hokkaido seafood as the famous morning market, with fewer tourists and lower prices, near their day-8/9 hotel.",
+    "days": [
+      8,
+      9
+    ],
+    "duration": "1–1.5 h",
+    "cost": "Salt-water uni about ¥6,500 a box (Jan 2026 note); crab and sashimi by weight. Sushi bowl across OMO5 is 'about ¥1,000 less than at Asaichi'.",
+    "winter": "ok",
+    "winterNote": "XHS: 3 independent notes, latest Feb 2026 (很高兴说说少女 02-21, 243 likes/457 saves; Nothin 01-12; For BBQ 01-18, 440 likes/698 saves). Stalls mainly 6:00–13:00, go before 8:00 on weekends, some stalls are cash only. Closed days not checked: check before you go.",
+    "lat": 41.77332,
+    "lon": 140.73449,
+    "places": [
+      {
+        "en": "Hakodate Jiyu Ichiba",
+        "ja": "函館自由市場",
+        "lat": 41.77332,
+        "lon": 140.73449
+      },
+      {
+        "en": "Hakodate Sushi (across the street from OMO5; OMO5 point shown)",
+        "ja": "はこだて寿司",
+        "lat": 41.77379,
+        "lon": 140.72958
+      }
+    ],
+    "photoQuery": "Hakodate Jiyu Ichiba market",
+    "sources": [
+      "https://www.xiaohongshu.com/explore/699988df000000000a032960",
+      "https://www.xiaohongshu.com/explore/6964b7e9000000001a01c09f",
+      "https://www.xiaohongshu.com/explore/696cc1c0000000000a03c623"
+    ],
+    "experience": {
+      "hook": "Eat uni where Hakodate grandmothers buy their fish.",
+      "moments": [
+        "Walk 10 minutes from Hakodate Station before 8:00 with cash in your pocket.",
+        "Ask at the crab stall for a boiled hairy crab and let them open it for you.",
+        "Buy a small box of salt-water uni and eat it with the free wasabi.",
+        "For dinner, walk in to Hakodate Sushi opposite OMO5 for a big kaisen-don."
+      ],
+      "tip": "Ask two or three stalls for the same item: notes say prices differ between stalls."
+    }
+  },
+  {
+    "id": "xhs-otaru-naruto-half-chicken",
+    "area": "xhs",
+    "kind": "addon",
+    "category": "food",
+    "title": "Otaru half fried chicken, ¥1,190",
+    "titleJa": "若鶏時代なると 本店",
+    "summary": "A 70-year-old Otaru restaurant famous for a whole half chicken, deep-fried and salty. It has 270 seats, so you walk in without booking, 7–8 minutes from Otaru Station.",
+    "why": "A hot, big, cheap meal after the cold canal walk on day 11, and no queue stress.",
+    "days": [
+      11
+    ],
+    "duration": "1 h",
+    "cost": "Half chicken ¥1,190; chicken set meal ¥1,490 (official menu)",
+    "winter": "ok",
+    "winterNote": "XHS: many notes over years, 3 read, latest Jan 2026 (小手姐姐 01-06: 'big, fast, no reservation needed'; 吃汉阿祖 2025-03, 679 likes). One note says 'too salty'. Open 11:00–21:00 (LO 20:30), closed Jan 1 only.",
+    "lat": 43.20028,
+    "lon": 140.99511,
+    "photoQuery": "Otaru Naruto fried half chicken",
+    "sources": [
+      "http://otaru-naruto.jp/naruto/menu.html",
+      "http://otaru-naruto.jp/naruto/shop.html",
+      "https://www.xiaohongshu.com/explore/695d0d3600000000220313ab"
+    ],
+    "experience": {
+      "hook": "Tear a crackling half chicken apart with your hands.",
+      "moments": [
+        "Walk 8 minutes up Yanagawa-dori from Otaru Station in the snow.",
+        "Order one half chicken to share and a zangi fried chicken plate.",
+        "Pull the crispy skin off with the plastic gloves they give you.",
+        "Finish with the shop's own soft-serve ice cream at the front."
+      ],
+      "tip": "One half chicken for two is enough if you also want the canal sweets after."
+    }
+  },
+  {
+    "id": "xhs-asahikawa-sanshiro-shinkoyaki",
+    "area": "xhs",
+    "kind": "addon",
+    "category": "food",
+    "title": "Kodoku no Gurume izakaya, Asahikawa",
+    "titleJa": "独酌 三四郎",
+    "summary": "Dokushaku Sanshiro is the old wooden izakaya from the drama Kodoku no Gurume's Asahikawa special. You eat shinko-yaki (grilled half young chicken with sweet sauce), thick tamagoyaki and grilled fish.",
+    "why": "A screen-pilgrimage dinner that is also the local No.1 izakaya, on their Asahikawa night.",
+    "days": [
+      11
+    ],
+    "duration": "1.5 h",
+    "cost": "Price not checked; notes say normal izakaya prices (about ¥3,000–4,000 per person is a guess, check)",
+    "winter": "ok",
+    "winterNote": "XHS: 3 independent notes, latest Feb 2026 (宅蘑菇Moku 02-13 'Asahikawa winter night, Kodoku izakaya'; pittxxii 2024-11, 126 likes; 安安娜贝儿 2025-07). Author said walk-in OK but it fills at dinner time. Coordinate is the block 3-jo-dori 5-chome (address from memory, check on Google Maps). Other Asahikawa pick from a Feb 2026 note: 焼き鳥八丁目 near the station, chicken wings, slow service.",
+    "lat": 43.76888,
+    "lon": 142.35649,
+    "anime": "Kodoku no Gurume (TV drama), Asahikawa business-trip special: Goro orders shinko-yaki, tamagoyaki and grilled hokke",
+    "photoQuery": "Asahikawa izakaya shinkoyaki",
+    "sources": [
+      "https://www.xiaohongshu.com/explore/672778f8000000001a01f3f0",
+      "https://www.xiaohongshu.com/search_result?keyword=%E6%97%AD%E5%B7%9D%20%E6%96%B0%E5%AD%90%E7%83%A7&source=web_search_result_notes"
+    ],
+    "experience": {
+      "hook": "Order exactly what Goro ordered, with snow falling outside.",
+      "moments": [
+        "Walk in at opening time and sit at the counter if there is space.",
+        "Order 'Goro's selection': shinko-yaki, tamagoyaki and grilled hokke.",
+        "Pour the sweet shinko-yaki sauce over a bowl of white rice.",
+        "Walk back to the Dormy Inn for the onsen and free late-night ramen."
+      ],
+      "tip": "Go at opening time; on busy nights walk-ins wait."
+    }
+  },
+  {
+    "id": "xhs-sapporo-shorin-soup-curry",
+    "area": "xhs",
+    "kind": "addon",
+    "category": "food",
+    "title": "Sapporo's top-rated soup curry: SHO-RIN",
+    "titleJa": "スープカレー SHO-RIN",
+    "summary": "A Sapporo local's ranking of every soup curry shop puts SHO-RIN in Susukino at the top, above the famous GARAKU. You pick a soup, a spice level and toppings, and eat a big bowl of vegetables and chicken.",
+    "why": "Hot, spicy, filling soup after a cold day; less queue than GARAKU.",
+    "days": [
+      13,
+      14
+    ],
+    "duration": "1 h",
+    "cost": "Price not checked (Sapporo soup curry is usually about ¥1,500–2,000)",
+    "winter": "ok",
+    "winterNote": "XHS: 3 independent notes, latest Jan 2026 (性转酷拉皮卡 ranking 2025-10, 3,692 likes/7,026 saves; 芝加歌 01-09 'SHO-RIN', 182 likes; 年久失修大电风扇 01-13). Same ranking says skip 'Curry House' at New Chitose airport. Opening hours not checked.",
+    "lat": 43.0549,
+    "lon": 141.35409,
+    "places": [
+      {
+        "en": "SHO-RIN",
+        "ja": "SHO-RIN",
+        "lat": 43.0549,
+        "lon": 141.35409
+      },
+      {
+        "en": "GARAKU (famous, long queue)",
+        "ja": "スープカレーGARAKU",
+        "lat": 43.0584,
+        "lon": 141.35897
+      }
+    ],
+    "photoQuery": "Sapporo soup curry",
+    "sources": [
+      "https://www.xiaohongshu.com/explore/68e0f1a0000000000301fe1b",
+      "https://www.xiaohongshu.com/search_result?keyword=%E6%9C%AD%E5%B9%8C%20%E6%B1%A4%E5%92%96%E5%96%B1%20%E6%9C%AC%E5%9C%B0%E4%BA%BA&source=web_search_result_notes"
+    ],
+    "experience": {
+      "hook": "The soup curry a local ranked above GARAKU.",
+      "moments": [
+        "Walk to Susukino, south of Tanuki-koji, and put your names on the list.",
+        "Pick a soup base, a spice level and chicken leg or pork.",
+        "Dip the rice into the soup one spoon at a time, the local way.",
+        "Walk off the heat under the Susukino lights."
+      ],
+      "tip": "Start at spice level 3 or lower: levels climb fast."
+    }
+  },
+  {
+    "id": "xhs-maibasket-100-yen-bento",
+    "area": "xhs",
+    "kind": "addon",
+    "category": "deal",
+    "title": "¥100 bento after 19:40 in Sapporo",
+    "titleJa": "まいばすけっと 値下げ弁当",
+    "summary": "Small AEON-group supermarkets in Sapporo (Maibasket) cut bento prices hard at night. A Jan 2026 note shows a ¥594 hamburg bento sold for ¥108 after about 19:40.",
+    "why": "A late snack or next-day breakfast for about ¥100–300 instead of ¥600–1,000.",
+    "days": [
+      13,
+      14
+    ],
+    "duration": "15 min",
+    "cost": "¥108 vs ¥594 normal (bento, Jan 2026 photo)",
+    "winter": "ok",
+    "winterNote": "XHS: 3 notes, latest Jan 2026 (喵喵大人 01-16 at まいばすけっと北2条西14丁目店: 'any shop with the AEON logo works'; 多肉车厘子 'half-price sushi after 19:00'; Lost And Found on discount times). Discounts vary by shop and day; it is not a promise. Different from the depachika half-price idea.",
+    "lat": 43.06117,
+    "lon": 141.3356,
+    "photoQuery": "Japanese supermarket discount bento sticker",
+    "sources": [
+      "https://www.xiaohongshu.com/explore/696a390b000000000b012375",
+      "https://www.xiaohongshu.com/search_result?keyword=%E6%9C%AD%E5%B9%8C%20%E8%B6%85%E5%B8%82%20%E6%89%93%E6%8A%98%20%E5%AF%BF%E5%8F%B8%20%E6%99%9A%E4%B8%8A&source=web_search_result_notes"
+    ],
+    "experience": {
+      "hook": "A full bento for the price of a canned coffee.",
+      "moments": [
+        "After dinner, find the nearest Maibasket or AEON on Google Maps.",
+        "Go at 19:40–20:30 and look for yellow 値下げ or red 半額 stickers.",
+        "Take a bento and onigiri for breakfast back to the hotel fridge."
+      ],
+      "tip": "Heat it in the store microwave: staff ask '温めますか?'; say 'hai'."
+    }
+  },
+  {
+    "id": "xhs-biei-fudo-no-taki-walk",
+    "area": "xhs",
+    "kind": "addon",
+    "category": "scenery",
+    "title": "Biei: quiet Fudo falls, skip frozen Blue Pond",
+    "titleJa": "白金不動の滝",
+    "summary": "XHS notes warn that the Blue Pond in winter is white snow, not blue, and Shirogane Blue River bridge is packed with tour groups. Instead stop at Shirogane Fudo-no-taki, a short snowy forest path one stop before Shirogane Onsen, then walk 1 km to Shirahige falls.",
+    "why": "Gives their day-12 Biei stop a quiet snow-forest walk and real photos, not only a crowded bridge.",
+    "days": [
+      12
+    ],
+    "duration": "1–1.5 h",
+    "cost": "¥0; street stalls near Shirogane sell hot croquettes and beef skewers (price not checked)",
+    "winter": "check",
+    "winterNote": "XHS: 4 independent notes, latest Feb 2026 (艾琳酱 02-02, 362 likes/493 saves: Fudo falls path; 小红薯 01-14 and lu小鹿 02-22: 'do not come to Blue Pond in winter'; 柴犬姜糖糖 03-02: many Biei shops close on Wednesday). Blue Pond light-up may still be worth it at night: check 2027 dates. Path is snow; wear boots with grip.",
+    "lat": 43.47898,
+    "lon": 142.6263,
+    "places": [
+      {
+        "en": "Shirogane Fudo-no-taki",
+        "ja": "白金不動の滝",
+        "lat": 43.47898,
+        "lon": 142.6263
+      },
+      {
+        "en": "Shirahige Falls",
+        "ja": "白ひげの滝",
+        "lat": 43.47458,
+        "lon": 142.63919
+      },
+      {
+        "en": "Blue Pond (white in daytime winter)",
+        "ja": "青い池",
+        "lat": 43.49349,
+        "lon": 142.6141
+      }
+    ],
+    "photoQuery": "Shirogane Fudo waterfall Biei winter",
+    "sources": [
+      "https://www.xiaohongshu.com/explore/69805e58000000000e00e313",
+      "https://www.xiaohongshu.com/explore/69a51b52000000001a01cd06",
+      "https://www.xiaohongshu.com/search_result?keyword=%E7%BE%8E%E7%91%9B%20%E5%86%AC%E5%A4%A9%20%E6%94%BB%E7%95%A5%20%E9%81%BF%E5%9D%91&source=web_search_result_notes"
+    ],
+    "experience": {
+      "hook": "A silent snow forest one stop before the tour buses.",
+      "moments": [
+        "Park at the Fudo-no-taki sign before Shirogane Onsen.",
+        "Walk the snow path under heavy white trees to the small falls.",
+        "Drive or walk 1 km on to Shirahige falls and its blue stream.",
+        "Eat a hot croquette from the stall by the bridge."
+      ],
+      "tip": "Do not plan Biei cafés on a Wednesday: many close."
+    }
+  },
+  {
+    "id": "xhs-biei-blue-river-snowshoe",
+    "area": "xhs",
+    "kind": "addon",
+    "category": "nature",
+    "title": "Biei Blue River snowshoe tour",
+    "titleJa": "美瑛 青い川 スノーシュー",
+    "summary": "A small-group guided snowshoe walk through Biei forest to a blue river, then a stop at Shirahige falls. Notes say it is flat, easy for beginners, and fun: you can slide down on your bottom.",
+    "why": "An easy snow activity both can do, with a guide who shows animal tracks and powder snow.",
+    "days": [
+      12
+    ],
+    "duration": "2.5 h (13:15 start)",
+    "cost": "¥8,000 per person for 2+ (¥12,000 solo), Field North, last season's price",
+    "winter": "ok",
+    "winterNote": "XHS: 3 independent notes, latest Mar 2026 (lxlexy 02-15, 216 likes: Field North guide, 'hard to get a slot, watch for cancellations'; 柴犬姜糖糖 03-02: another guide, 17 people at Chinese New Year; 小熊软糖 01-12). Official: Blue River tour runs Dec 12–Mar 22, 9:30 or 13:15, meet at Oka no Kura near JR Biei Station; book by web form early.",
+    "lat": 43.59096,
+    "lon": 142.46123,
+    "photoQuery": "Biei snowshoe forest winter",
+    "sources": [
+      "https://www.field-north.com/snowshoe/index.html",
+      "https://www.xiaohongshu.com/explore/698d93eb000000000e00f422",
+      "https://www.xiaohongshu.com/explore/69a51b52000000001a01cd06"
+    ],
+    "experience": {
+      "hook": "Walk on top of deep powder to a river the colour of ice.",
+      "moments": [
+        "Meet the guide at Oka no Kura by Biei Station at 13:15.",
+        "Strap on snowshoes and follow the tracks into the white forest.",
+        "Shake a snowy tree over your friend, then slide down a slope on your bottom.",
+        "Stand over the blue river, then see Shirahige falls on the way back."
+      ],
+      "tip": "Wear waterproof pants and gloves; the guide gives shoe covers."
+    }
+  },
+  {
+    "id": "xhs-sapporo-value-hotels",
+    "area": "xhs",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Sapporo value hotels from XHS",
+    "titleJa": "ホテル札幌ガーデンパレス",
+    "summary": "An XHS note (Sep 2026) says Hotel Sapporo Garden Palace is under CNY 500 (about ¥10,000) a room even in winter peak, with a big 26 m² room, 10 minutes' walk to Sapporo/Odori. Another note rates 'the b Sapporo' by Tanuki-koji at CNY 350 (about ¥7,000) with free snacks and coffee in the lobby.",
+    "why": "Could cut the Sapporo night cost vs Dormy Inn Premium, with a bigger room; compare before booking.",
+    "days": [
+      13
+    ],
+    "duration": "1 night",
+    "cost": "Garden Palace: under about ¥10,000 per room (winter, per note) vs Dormy Inn Premium Sapporo (baseline); the b Sapporo about ¥7,000 (June price, winter will be higher)",
+    "winter": "check",
+    "winterNote": "XHS: 2 independent notes (抱猫 Sep 2026, 235 likes/353 saves, 38 comments: one comment saw ¥36,000-level price on another app, author says check several apps; one says the bed was hard; 佐伊浪里个浪 2025-06: the b, Stream, Daiwa Roynet, Tokyu Stay). Prices change fast in Snow Festival season; check Jan 31 2027 prices on Expedia/Jalan.",
+    "lat": 43.06226,
+    "lon": 141.34726,
+    "places": [
+      {
+        "en": "Hotel Sapporo Garden Palace",
+        "ja": "ホテル札幌ガーデンパレス",
+        "lat": 43.06226,
+        "lon": 141.34726
+      },
+      {
+        "en": "the b Sapporo",
+        "ja": "the b 札幌",
+        "lat": 43.05714,
+        "lon": 141.3548
+      }
+    ],
+    "photoQuery": "Hotel Sapporo Garden Palace",
+    "sources": [
+      "https://www.xiaohongshu.com/explore/6ab39c0c000000000201347e",
+      "https://www.xiaohongshu.com/explore/6856932e0000000012032409"
+    ],
+    "experience": {
+      "hook": "A big old-style room for less than a business hotel.",
+      "moments": [
+        "Compare Jan 31 prices for Garden Palace, the b and Dormy Inn on 2–3 sites.",
+        "Book free-cancel, then check again in December.",
+        "Walk 10 minutes to Odori; take a taxi if you arrive at night with bags on snow."
+      ],
+      "tip": "If Dormy Inn is cheaper that night, keep it: free onsen and ramen win."
+    }
+  },
+  {
+    "id": "xhs-new-chitose-food-picks",
+    "area": "xhs",
+    "kind": "addon",
+    "category": "food",
+    "title": "New Chitose airport: eat this, skip that",
+    "titleJa": "新千歳空港 グルメ",
+    "summary": "A Dec 2025 'red and black list' of New Chitose airport food: buy Calbee fresh-fried chips, Snow Cheese and Sapporo Nogakko milk cookies. It says skip Rokkatei rum-raisin cookies (too sweet) and the fish-cake stall; a soup-curry ranker says skip 'Curry House'.",
+    "why": "The last Hokkaido meal and gifts on Feb 1–2 without wasting money on tourist traps.",
+    "days": [
+      14,
+      15
+    ],
+    "duration": "1 h",
+    "cost": "Snacks and gifts, from a few hundred yen (prices not checked)",
+    "winter": "ok",
+    "winterNote": "XHS: 3 independent notes, latest Jan 2026 (Kiyokawa Niyo 2025-12-20, 243 likes; 悦悦大冬瓜 01-18 'go for Sapporo Nogakko'; soup-curry ranking 2025-10 on Curry House). Arrive 3+ hours early: notes say 3 hours is not enough to see it all. Most food is in the domestic terminal.",
+    "lat": 42.78781,
+    "lon": 141.68087,
+    "photoQuery": "New Chitose Airport domestic terminal shops",
+    "sources": [
+      "https://www.xiaohongshu.com/explore/6946266e000000001f006125",
+      "https://www.xiaohongshu.com/search_result?keyword=%E6%96%B0%E5%8D%83%E5%B2%81%E6%9C%BA%E5%9C%BA%20%E5%BF%85%E5%90%83&source=web_search_result_notes"
+    ],
+    "experience": {
+      "hook": "Spend the last yen on the airport snacks locals rate.",
+      "moments": [
+        "Queue 10 minutes for Calbee chips fried in front of you.",
+        "Buy Snow Cheese rolls, sold only at the airport and Sapporo.",
+        "Pick Sapporo Nogakko milk cookies as gifts; they travel well.",
+        "Eat ramen or soup curry in the domestic terminal, not at Curry House."
+      ],
+      "tip": "Go to the domestic terminal even if you fly international: most shops are there."
+    }
+  }
+]

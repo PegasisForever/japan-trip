@@ -1,0 +1,548 @@
+[
+  {
+    "id": "stay-super-hotel-shinjuku",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Super Hotel Shinjuku instead of Gracery",
+    "titleJa": "スーパーホテル新宿歌舞伎町（高濃度炭酸泉 演舞の湯）",
+    "summary": "Stay 4 nights at Super Hotel Shinjuku Kabukicho, 5 min from Gracery. Twin room with a free breakfast buffet (fresh bread) and a carbonated-spring public bath.",
+    "why": "Same street as Gracery, but the twin room costs about half and breakfast is included. Taiwanese and HK blogs rate it a top value pick in Shinjuku.",
+    "days": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "duration": "4 nights",
+    "cost": "Twin, 2 people, with breakfast: Jan 19 ¥16,000, Jan 20 ¥17,600, Jan 21 ¥17,800, Jan 23 (Sat) ¥22,900 = about ¥74,300. Gracery twin on Jalan for the same nights: ¥29,160 + ¥29,160 + ¥30,210 + ¥38,660 = about ¥127,000 (room only).",
+    "winter": "ok",
+    "winterNote": "Prices seen on Jalan and Rakuten on 25 Sep 2026 for the real dates. Room is an 'economy twin' with two 90 cm beds, so it is small. The free Super Hotel 'Smart Membership' gives about ¥500 cash back per night when you book on the official site or app (4 nights = about ¥2,000). Kabukicho is noisy at night.",
+    "lat": 35.69696,
+    "lon": 139.70224,
+    "photoQuery": "Super Hotel Shinjuku Kabukicho",
+    "sources": [
+      "https://www.jalan.net/yad396148/plan/",
+      "https://travel.rakuten.co.jp/HOTEL/147193/",
+      "https://www.superhotel.co.jp/otoku/ssm.html",
+      "https://jimcat711.pixnet.net/blog/posts/9578064696",
+      "https://vocus.cc/article/688796b5fd8978000150d677"
+    ],
+    "experience": {
+      "hook": "Save about ¥50,000 on 4 Tokyo nights and get breakfast every day.",
+      "moments": [
+        "Open the Super Hotel app or superhotel.co.jp and join Smart Membership (free).",
+        "Search 'スーパーホテル新宿歌舞伎町', 2 adults, twin, Jan 19–22 and Jan 23–24 (two bookings, Jan 22 you are in Kawaguchiko).",
+        "Compare with Jalan and Rakuten (the Rakuten 'さき楽' 90-day plan is ¥17,800); take the lowest.",
+        "At check-in use the machine; the ¥500/night points come back as cash."
+      ],
+      "tip": "Leave big bags at the hotel on Jan 22; ask the front desk to keep them for one night."
+    }
+  },
+  {
+    "id": "stay-yuen-shinjuku-upgrade",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Onsen ryokan in Shinjuku, same price",
+    "titleJa": "ONSEN RYOKAN 由縁 新宿",
+    "summary": "A modern ryokan-style hotel near Shinjuku-gyoemmae with a rooftop open-air bath. Weekday twin rooms cost about the same as a Gracery twin.",
+    "why": "For the same money as Gracery you get an onsen-style bath every night in central Tokyo, good after long anime and car days.",
+    "days": [
+      1,
+      2,
+      3
+    ],
+    "duration": "3 weeknights (Sat is much higher)",
+    "cost": "Twin, room only: ¥30,000 (Rakuten, Wed Jan 20) vs Gracery twin ¥29,160–30,700 (Jalan). Saturday Jan 23: Yuen ¥40,800 vs Gracery ¥38,660.",
+    "winter": "ok",
+    "winterNote": "Weeknights only give the value; for Sat Jan 23 keep a cheaper hotel. Breakfast plan adds about ¥4,800 pp. Prices seen 25 Sep 2026 for the real dates.",
+    "lat": 35.69268,
+    "lon": 139.7111,
+    "photoQuery": "ONSEN RYOKAN YUEN SHINJUKU",
+    "sources": [
+      "https://travel.rakuten.co.jp/HOTEL/172443/",
+      "https://www.jalan.net/yad315830/plan/"
+    ],
+    "experience": {
+      "hook": "Same price as Gracery, but you end the day in a rooftop hot bath.",
+      "moments": [
+        "On Rakuten Travel search 'ONSEN RYOKAN 由縁 新宿', 2 adults, twin, Jan 19–22.",
+        "Pick the '素泊まり 基本プラン' twin (about ¥30,000).",
+        "Get the Rakuten Super SALE coupon first (see the Rakuten entry) to cut 4–10% more.",
+        "Book the Saturday night somewhere cheaper, e.g. Super Hotel Shinjuku."
+      ],
+      "tip": "The bath is busiest 21:00–23:00; go before dinner."
+    }
+  },
+  {
+    "id": "stay-route-inn-kawaguchiko-direct",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Route Inn Kawaguchiko cheaper on Jalan",
+    "titleJa": "ホテルルートイン河口湖（霊水の湯）",
+    "summary": "Keep the same hotel, but book it on Jalan, Rakuten or the Route Inn site. The twin with free breakfast and onsen is cheaper there than on Expedia.",
+    "why": "No change to the plan, just a lower price for the same room.",
+    "days": [
+      4
+    ],
+    "duration": "1 night",
+    "cost": "¥13,900 twin, 2 people, breakfast included (Jalan and Rakuten, Fri Jan 22) vs ¥16,000–22,000 on Expedia.",
+    "winter": "ok",
+    "winterNote": "The ¥13,900 room faces away from the lake (no Fuji view). Route Inn official site: free membership gives ¥300 off per stay. If you want a lake-view open-air bath, Ashiwada Hotel (4.6/5 on Jalan) is ¥16,830 twin with breakfast on the 'さき楽60/早期割60' plan (book 60 days ahead, by about Nov 23).",
+    "lat": 35.5126,
+    "lon": 138.77447,
+    "photoQuery": "Hotel Route Inn Kawaguchiko",
+    "sources": [
+      "https://www.jalan.net/yad325352/plan/",
+      "https://travel.rakuten.co.jp/HOTEL/1778/",
+      "https://yasuku.yutomo.jp/life/rutohotel-cheap/",
+      "https://travel.rakuten.co.jp/HOTEL/4869/"
+    ],
+    "experience": {
+      "hook": "Same Route Inn, ¥2,000–8,000 less, breakfast still free.",
+      "moments": [
+        "Search 'ホテルルートイン河口湖' on Jalan, Fri Jan 22, 2 adults.",
+        "Pick 'スタンダードプラン 朝食付' with the 禁煙カジュアルツイン room (¥13,900).",
+        "Check route-inn.co.jp with a free member account; it should be ¥300 lower.",
+        "Cancel the Expedia booking only after the new one is confirmed."
+      ],
+      "tip": "Ask the breakfast start time at check-in if you go for the Chureito sunrise."
+    }
+  },
+  {
+    "id": "stay-zao-pension-stella",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Zao pension with dinner, half price",
+    "titleJa": "ペンション ステラ（蔵王温泉）",
+    "summary": "A small family-run pension on the Zao Onsen ski area with dinner, breakfast and a private open-air onsen bath you book by time. The wagyu steak plan also gives a lift ticket discount.",
+    "why": "It keeps the onsen and 2 meals of the baseline for less than half the price of a Zao ryokan; reviews (4.4/5) praise the food and the kind owners.",
+    "days": [
+      6
+    ],
+    "duration": "1 night",
+    "cost": "¥23,100 for 2 with dinner + breakfast (Rakuten standard plan) or ¥27,500 for 2 with Yamagata wagyu steak (Jalan early-bird) vs baseline ¥40,000–60,000 for 2. Big Zao ryokan on Sun Jan 24: Tsuruya ¥70,400, Ohmiya ¥81,400 with 2 meals.",
+    "winter": "ok",
+    "winterNote": "Seen 25 Sep 2026 for Sun Jan 24, 2027 (3 rooms left). Rooms have no own bath or toilet (shared). Located on the Kaminoyama side of the ski area; about 10 min by taxi from Zao Onsen bus terminal in winter. Check that the lift discount is still offered when you book.",
+    "lat": 38.15994,
+    "lon": 140.37903,
+    "photoQuery": "Pension Stella Zao Onsen",
+    "sources": [
+      "https://travel.rakuten.co.jp/HOTEL/32131/",
+      "https://www.jalan.net/yad377732/plan/",
+      "https://www.jalan.net/yad341866/plan/",
+      "https://www.jalan.net/yad338565/plan/"
+    ],
+    "experience": {
+      "hook": "Onsen night with dinner in Zao for about ¥11,500 per person.",
+      "moments": [
+        "Search 'ペンション ステラ 蔵王' on Rakuten Travel, Jan 24, 2 adults.",
+        "Choose the 'ご夫婦カップルプラン' or 'スタンダードプラン' with 2 meals (¥23,100), or the wagyu steak plan on Jalan (¥27,500).",
+        "Tell them your arrival time and ask for the taxi/pick-up from the bus terminal.",
+        "Book your private open-air bath time at check-in; ask for the lift ticket discount."
+      ],
+      "tip": "Ask the owners which lift and ropeway to use from the pension to reach the snow monsters."
+    }
+  },
+  {
+    "id": "stay-zao-yoshidaya-breakfast",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Zao town ryokan, breakfast free",
+    "titleJa": "蔵王温泉 吉田屋",
+    "summary": "A small ryokan in the centre of Zao Onsen with a sulphur spring bath. The early-bird winter plan with breakfast costs the same as room only; you eat dinner in the onsen town.",
+    "why": "For people who want to walk the onsen street and try local jingisukan or soba for dinner, instead of a fixed ryokan dinner.",
+    "days": [
+      6
+    ],
+    "duration": "1 night",
+    "cost": "¥35,200 for 2 with breakfast (6-mat room, shared toilet) or ¥37,400 (8-mat, own toilet) vs baseline ¥40,000–60,000 with 2 meals. Dinner in town about ¥2,000–4,000 pp.",
+    "winter": "ok",
+    "winterNote": "Plan '人気の冬を先行予約 冬季限定プラン', online card payment only. Jalan also shows up to ¥7,000 in coupons for this ryokan. In Zao, 素泊まり vs 2 meals: Tsuruya room only ¥50,600 vs ¥70,400 with meals, so 2 meals add about ¥10,000 pp.",
+    "lat": 38.16846,
+    "lon": 140.3969,
+    "photoQuery": "Zao Onsen Yoshidaya",
+    "sources": [
+      "https://www.jalan.net/yad327282/plan/",
+      "https://travel.rakuten.co.jp/HOTEL/196554/"
+    ],
+    "experience": {
+      "hook": "Pay room-only price, still get breakfast, and eat dinner out in the snow town.",
+      "moments": [
+        "On Jalan open '蔵王温泉 吉田屋', Jan 24, 2 adults.",
+        "Press 'クーポンGET' to take the hotel coupons before you book.",
+        "Pick the winter early-bird plan with breakfast (朝食付き), not the room-only one at the same price.",
+        "After skiing, walk to the Zao onsen street for dinner and the public baths."
+      ],
+      "tip": "Bring small cash for the public baths (Kawarayu etc.) in town."
+    }
+  },
+  {
+    "id": "stay-sendai-granbach",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Hotel Granbach Sendai over Dormy Inn",
+    "titleJa": "ホテルグランバッハ仙台",
+    "summary": "A 4.7/5 rated hotel 5 min from Sendai Station east exit, with a top-floor public bath, free lounge drinks, welcome sweets and a free late-night snack.",
+    "why": "It is cheaper than Dormy Inn Sendai Ekimae and has the same things that make Dormy nice (big bath, free night snack), plus a larger twin room.",
+    "days": [
+      7
+    ],
+    "duration": "1 night",
+    "cost": "Twin, room only, Mon Jan 25: ¥13,464 (Jalan sale to Sep 29) / ¥15,048 (Rakuten Super SALE) / ¥15,840 normal vs Dormy Inn Sendai Ekimae twin ¥18,000.",
+    "winter": "ok",
+    "winterNote": "Sendai city lodging tax ¥300 per person per night (since Jan 2026) is extra at every hotel. Rakuten '早割60' plan (book 60 days ahead, by about Nov 26) is another low rate.",
+    "lat": 38.25975,
+    "lon": 140.88835,
+    "photoQuery": "Hotel Granbach Sendai",
+    "sources": [
+      "https://www.jalan.net/yad318775/plan/",
+      "https://travel.rakuten.co.jp/HOTEL/178914/",
+      "https://www.jalan.net/yad311879/plan/"
+    ],
+    "experience": {
+      "hook": "Better hotel, bigger bath, ¥2,500–4,500 less than the Dormy.",
+      "moments": [
+        "Before Sep 29 23:59: Jalan, 'ホテルグランバッハ仙台', Jan 25, 2 adults, twin (¥13,464).",
+        "After that: Rakuten '早割60' or standard twin (¥15,048–15,840).",
+        "Arrive before 19:00 for the welcome sweets.",
+        "Take the free Tohoku night snack 21:30–23:00 after gyutan dinner."
+      ],
+      "tip": "The hotel is on the east exit side; gyutan streets are on the west side, 10 min walk."
+    }
+  },
+  {
+    "id": "stay-hakodate-jr-inn",
+    "kind": "swap",
+    "category": "deal",
+    "title": "JR Inn Hakodate next to station",
+    "titleJa": "JRイン函館",
+    "summary": "A 4.6/5 business hotel right beside Hakodate Station with a public bath. Twin room only is about ¥8,000 less than La Vista Hakodate Bay.",
+    "why": "You leave by car early next day, so a hotel next to the station and rental car shops saves time and money; the morning market is 2 min away for breakfast.",
+    "days": [
+      8
+    ],
+    "duration": "1 night",
+    "cost": "Twin, room only, Tue Jan 26: ¥14,200 (Jalan and Rakuten sale) / ¥14,600 (早期45) vs La Vista Hakodate Bay twin ¥22,356–24,840 room only, ¥29,600–31,234 with breakfast.",
+    "winter": "ok",
+    "winterNote": "Early-bird '早期45' needs booking 45 days ahead (by about Dec 12). The famous La Vista breakfast is what you give up; a seafood bowl at Hakodate morning market costs about ¥2,000–3,500 pp.",
+    "lat": 41.77377,
+    "lon": 140.72568,
+    "photoQuery": "JR Inn Hakodate",
+    "sources": [
+      "https://www.jalan.net/yad319815/plan/",
+      "https://travel.rakuten.co.jp/HOTEL/177807/",
+      "https://www.jalan.net/yad313464/plan/"
+    ],
+    "experience": {
+      "hook": "Save about ¥8,000 and sleep 1 minute from the station and market.",
+      "moments": [
+        "Jalan or Rakuten: 'JRイン函館', Jan 26, 2 adults, twin.",
+        "Book the sale plan by Sep 29 or the '早期45' plan by mid-December.",
+        "Walk to Hakodate Asaichi at 7:00 for a seafood bowl.",
+        "Pick up the rental car near the station and drive to Onuma."
+      ],
+      "tip": "Ask for a high floor on the Hakodate-yama side for a night view."
+    }
+  },
+  {
+    "id": "stay-la-vista-hakodate-early",
+    "kind": "addon",
+    "category": "deal",
+    "title": "La Vista Hakodate early-bird breakfast",
+    "titleJa": "ラビスタ函館ベイ 早期割90",
+    "summary": "If you keep La Vista Hakodate Bay for its famous seafood breakfast, book the sale or the 90-day early-bird plan, which also gives a room on floor 7 or higher and late check-out.",
+    "why": "Same hotel and breakfast, lower price, better room.",
+    "days": [
+      8
+    ],
+    "duration": "1 night",
+    "cost": "Twin with breakfast: ¥29,600 (Jalan sale, to Sep 29) or ¥31,234 (早期割90) vs about ¥36,000 standard with breakfast; room only ¥22,356 (Rakuten Super SALE 10% off) vs ¥24,840.",
+    "winter": "ok",
+    "winterNote": "早期割90 must be booked 90 days before (by about Oct 28, 2026). Sale plans are prepaid by card.",
+    "lat": 41.76703,
+    "lon": 140.71829,
+    "photoQuery": "La Vista Hakodate Bay",
+    "sources": [
+      "https://www.jalan.net/yad313464/plan/",
+      "https://travel.rakuten.co.jp/HOTEL/69295/"
+    ],
+    "experience": {
+      "hook": "Keep the ikura breakfast, pay less, sleep higher.",
+      "moments": [
+        "Jalan: 'ラビスタ函館ベイ', Jan 26, 2 adults, twin.",
+        "Before Sep 29: take the sale plan with breakfast (¥29,600).",
+        "Or before Oct 28: take '【早期割90】朝食付 7階以上確約＆レイトアウト'.",
+        "Use the rooftop onsen at night and the free ramen snack."
+      ],
+      "tip": "Go to breakfast at opening time; the ikura bowl queue gets long."
+    }
+  },
+  {
+    "id": "stay-asahikawa-cabin",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Premier Hotel CABIN Asahikawa onsen",
+    "titleJa": "天然温泉 プレミアホテル-CABIN-旭川",
+    "summary": "A business hotel 3 min from Asahikawa Station with a natural hot spring bath and a Finnish sauna. On Fri Jan 29 it costs less than half of Dormy Inn Asahikawa.",
+    "why": "Dormy Inn Asahikawa is very expensive that Friday; CABIN gives the same onsen-and-sauna night near the station for much less.",
+    "days": [
+      11
+    ],
+    "duration": "1 night",
+    "cost": "Twin, room only: ¥19,008 (決めトク, prepaid, no cancel) / ¥20,064 (flexible) vs Dormy Inn Asahikawa twin ¥42,300–43,000. Save about ¥23,000.",
+    "winter": "ok",
+    "winterNote": "Seen 25 Sep 2026 for Fri Jan 29, 2027. The ¥19,008 plan cannot be cancelled; the ¥20,064 plan can. Twin room type is 'おまかせ' (hotel chooses, 18 m² or more). Hong Kong and Taiwan blogs list it as a high-value Asahikawa pick.",
+    "lat": 43.76565,
+    "lon": 142.35763,
+    "photoQuery": "Premier Hotel CABIN Asahikawa",
+    "sources": [
+      "https://www.jalan.net/yad327425/plan/",
+      "https://travel.rakuten.co.jp/HOTEL/50750/",
+      "https://www.jalan.net/yad394942/plan/",
+      "https://www.hafh.com/zh-tw/travel-stories/11200"
+    ],
+    "experience": {
+      "hook": "Onsen and sauna by the station, about ¥23,000 cheaper than Dormy.",
+      "moments": [
+        "Jalan or Rakuten: 'プレミアホテル-CABIN-旭川', Jan 29, 2 adults, twin.",
+        "Pick the flexible plan (¥20,064) until your flights are fixed.",
+        "Park the rental car at the hotel parking (ask the price when booking).",
+        "Soak in the onsen after the Otaru drive; ramen alley is a short walk."
+      ],
+      "tip": "Ask for a non-smoking twin in the booking note; the cheapest twin is listed as a smoking room."
+    }
+  },
+  {
+    "id": "stay-furano-la-terre-2meals",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Furano onsen hotel with 2 meals",
+    "titleJa": "スパ＆ホテルリゾート ふらのラテール",
+    "summary": "An onsen hotel in Naka-Furano. For the same price as a room-only double at Natulux, you get a 10-mat Japanese room, dinner, breakfast and hot spring baths.",
+    "why": "More for the same money on a Saturday night in peak ski season, and a quiet onsen night after the zoo and Blue Pond.",
+    "days": [
+      12
+    ],
+    "duration": "1 night",
+    "cost": "¥39,400 for 2 with dinner + breakfast (エコノミーライト plan, Sat Jan 30) vs Natulux double room only ¥38,380 (早旅90) to ¥42,660. Cheaper option: Furano Hops Hotel (Kami-Furano) 33 m² twin room only ¥20,800, save about ¥17,500.",
+    "winter": "ok",
+    "winterNote": "La Terre is about 15 min by car north of Furano town, so you need the car (you have it). Natulux early-bird 90 must be booked by about Nov 1. Seen 25 Sep 2026 for the real date.",
+    "lat": 43.42517,
+    "lon": 142.44562,
+    "photoQuery": "Furano La Terre hotel",
+    "sources": [
+      "https://travel.rakuten.co.jp/HOTEL/109429/",
+      "https://www.jalan.net/yad345283/plan/",
+      "https://www.jalan.net/yad364002/plan/",
+      "https://travel.rakuten.co.jp/HOTEL/137400/"
+    ],
+    "experience": {
+      "hook": "Pay Natulux room-only money, get onsen plus dinner and breakfast.",
+      "moments": [
+        "Rakuten or Jalan: 'ふらのラテール', Jan 30, 2 adults.",
+        "Choose 'エコノミーライト 1泊2食付' in the 10-mat Japanese room (¥39,400).",
+        "Drive from Biei Blue Pond (about 40 min) and arrive before dinner time.",
+        "Next morning drive 15 min into Furano, then on to Sapporo."
+      ],
+      "tip": "If you prefer beds, Furano Hops Hotel twin is ¥20,800 and closer to Biei."
+    }
+  },
+  {
+    "id": "stay-sapporo-route-inn-chuo",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Route Inn Sapporo Chuo, both nights",
+    "titleJa": "ホテルルートイン札幌中央",
+    "summary": "A 4.3/5 business hotel in central Sapporo with a public bath and free breakfast buffet. Twin on Jan 31, then Aoki stays on in a single on Feb 1, so no hotel change.",
+    "why": "Dormy Inn Premium Sapporo is very expensive that weekend; this saves about ¥26,000 over the two nights and includes breakfast. The hotel also has a free shuttle plan to Sapporo central fish market.",
+    "days": [
+      13,
+      14
+    ],
+    "duration": "2 nights",
+    "cost": "Jan 31 twin with breakfast ¥16,500 + Feb 1 single with breakfast ¥12,850 (Rakuten 早期得割) = ¥29,350 vs Dormy Inn Premium Sapporo twin ¥36,900 + economy single (no shower) ¥18,900 = ¥55,800 room only.",
+    "winter": "ok",
+    "winterNote": "早期得割 needs booking 28 days ahead (by Jan 4). Jalan single is ¥14,300. Route Inn official site gives ¥300 off per stay for free members. Seen 25 Sep 2026 for the real dates.",
+    "lat": 43.05437,
+    "lon": 141.35124,
+    "photoQuery": "Hotel Route Inn Sapporo Chuo",
+    "sources": [
+      "https://travel.rakuten.co.jp/HOTEL/108142/",
+      "https://www.jalan.net/yad376176/plan/",
+      "https://www.jalan.net/yad310500/plan/"
+    ],
+    "experience": {
+      "hook": "Two Sapporo nights with breakfast for about half the Dormy price.",
+      "moments": [
+        "Rakuten: 'ホテルルートイン札幌中央', Jan 31, 2 adults, twin, standard plan (¥16,500).",
+        "Second booking: Feb 1, 1 adult, single, '早期得割' plan (¥12,850).",
+        "Ask at check-in for the free shuttle to the central wholesale market (北のグルメ plan).",
+        "Pegasis leaves for New Chitose on Feb 1; Aoki keeps the bags in the same hotel."
+      ],
+      "tip": "Tell the front desk that one person stays a second night, so the key and room move are easy."
+    }
+  },
+  {
+    "id": "stay-sapporo-vessel-campana",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Vessel Campana: seafood breakfast, less money",
+    "titleJa": "ベッセルホテルカンパーナすすきの",
+    "summary": "A 4.7/5 hotel in Susukino with a large bath and sauna, famous for its breakfast buffet where you build your own seafood rice bowl.",
+    "why": "Chinese-language travel blogs call it the best-value Sapporo hotel for its breakfast; it costs less with breakfast than Dormy Premium without.",
+    "days": [
+      13
+    ],
+    "duration": "1 night",
+    "cost": "Twin with breakfast ¥28,690 (Rakuten Super SALE 5% off), room only ¥24,320 vs Dormy Inn Premium Sapporo twin room only ¥36,900.",
+    "winter": "ok",
+    "winterNote": "Sale price only if booked by Oct 1, 09:59 JST; normal twin room only is ¥25,600. Seen 25 Sep 2026 for Sun Jan 31, 2027.",
+    "lat": 43.05425,
+    "lon": 141.34916,
+    "photoQuery": "Vessel Hotel Campana Susukino",
+    "sources": [
+      "https://travel.rakuten.co.jp/HOTEL/172398/",
+      "https://www.jalan.net/yad332464/plan/",
+      "https://catheadtravel.com/vessel-hotel-campana-susukino-review/",
+      "https://hk.trip.com/moments/detail/sapporo-1878-134314406/"
+    ],
+    "experience": {
+      "hook": "Build your own ikura and salmon bowl at breakfast, and still pay ¥8,000 less.",
+      "moments": [
+        "Before Oct 1 09:59 JST, take the Rakuten Super SALE coupon.",
+        "Rakuten: 'ベッセルホテルカンパーナすすきの', Jan 31, 2 adults, standard twin, breakfast plan.",
+        "Use the big bath and sauna after the Furano drive.",
+        "Go to breakfast early on Feb 1 before the flight."
+      ],
+      "tip": "Susukino station exit 4 is 5 min away, easy with luggage."
+    }
+  },
+  {
+    "id": "stay-narita-toyoko-solo",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Toyoko Inn Narita solo-use twin",
+    "titleJa": "東横INN成田空港本館 ひとり利用プラン",
+    "summary": "Toyoko Inn Narita Airport sells a twin room for one person with breakfast and the free airport shuttle at less than its single price.",
+    "why": "Pegasis gets a bigger room for the last night before flying home, for less money.",
+    "days": [
+      14
+    ],
+    "duration": "1 night",
+    "cost": "¥6,925 for 1 person, twin room, breakfast included (Jalan 'ひとり利用プラン', Mon Feb 1) vs about ¥9,764–10,254 normal single price on Jalan.",
+    "winter": "ok",
+    "winterNote": "Toyoko Club Card gives only 5% off and costs ¥1,500 to join, so it is not worth it for one night. Free shuttle bus to the terminals. Seen 25 Sep 2026.",
+    "lat": 35.7821,
+    "lon": 140.38424,
+    "photoQuery": "Toyoko Inn Narita Airport Honkan",
+    "sources": [
+      "https://www.jalan.net/yad361772/plan/",
+      "https://travel.rakuten.co.jp/HOTEL/108627/",
+      "https://www.toyoko-inn.com/club_card/"
+    ],
+    "experience": {
+      "hook": "Twin room for one, with breakfast, for under ¥7,000.",
+      "moments": [
+        "Jalan: '東横INN成田空港本館', Feb 1, 1 adult.",
+        "Pick 'ひとり利用プラン' (twin, ¥6,925).",
+        "From the terminal take the free Toyoko shuttle bus.",
+        "Take the early shuttle back on Feb 2 after breakfast."
+      ],
+      "tip": "Do not buy the club card for one night; the fee is more than the saving."
+    }
+  },
+  {
+    "id": "stay-rakuten-super-sale",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Rakuten Super SALE coupons, ends Oct 1",
+    "titleJa": "楽天スーパーSALE（楽天トラベル）",
+    "summary": "Rakuten Travel is running its Super SALE now. Many hotels on this trip have SALE plans 5–10% off, and you can stack a 4–8% coupon (10% for a first app booking).",
+    "why": "It cuts every hotel booked on Rakuten by about 10–15% if you book before Oct 1, and stays up to Feb 28, 2027 are covered.",
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "duration": "booking window to Oct 1, 2026",
+    "cost": "Example: La Vista Hakodate Bay twin ¥22,356 SALE vs ¥24,840; Granbach Sendai ¥15,048 vs ¥15,840; Vessel Campana ¥24,320 vs ¥25,600; plus 4–8% coupon (e.g. about ¥1,000–3,000 off a ¥25,000 night).",
+    "winter": "ok",
+    "winterNote": "Booking period: Sep 1, 10:00 – Oct 1, 2026, 09:59 JST. Stay period: to Feb 28, 2027. Coupons need online card payment and are first-come (e.g. 70,000 uses each). Some coupons need Rakuten Mobile or Bonus Program level 2. Choose plans with free cancellation while flights are not booked.",
+    "lat": 35.69065,
+    "lon": 139.70069,
+    "photoQuery": "Rakuten Travel",
+    "sources": [
+      "https://event.travel.rakuten.co.jp/special/supersale/",
+      "https://travel.rakuten.co.jp/HOTEL/69295/",
+      "https://travel.rakuten.co.jp/HOTEL/178914/"
+    ],
+    "experience": {
+      "hook": "About 10–15% off most hotels if you book in the next few days.",
+      "moments": [
+        "Open event.travel.rakuten.co.jp/special/supersale/ and press 'まとめてクーポンを獲得'.",
+        "Search each hotel with exact dates; look for plans named 【楽天スーパーSALE】.",
+        "Pay by card online so the coupon applies.",
+        "Keep a free-cancel plan until your flights are fixed."
+      ],
+      "tip": "If this is your first booking in the Rakuten Travel app, use the app for the most expensive night to get the 10% coupon."
+    }
+  },
+  {
+    "id": "stay-jalan-10days-sale",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Jalan monthly 10-day sale",
+    "titleJa": "じゃらんのお得な10日間 ＋ クーポンフェス",
+    "summary": "Every month from the 20th to the 29th, Jalan sells special low plans and gives coupons; the current one ends Sep 29, 23:59. A coupon festival (up to ¥5,000 coupons) runs to Oct 16.",
+    "why": "Many of the lowest prices found for this trip are these sale plans; if you miss one, the next opens Oct 20.",
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "duration": "Sep 20–29, Oct 20–29, Nov 20–29, Dec 20–29",
+    "cost": "Examples (Jalan sale vs normal on Jalan): Gracery Shinjuku double ¥24,510 vs ¥25,800, twin ¥29,160 vs ¥30,700; Granbach Sendai twin ¥13,464 vs ¥15,840; JR Inn Hakodate ¥14,200 vs ¥14,700. Coupons can add up to 31% off on bookings of ¥10,000+.",
+    "winter": "ok",
+    "winterNote": "Current sale: Sep 20, 10:00 – Sep 29, 23:59, 2026. Coupon Fes: Sep 17 – Oct 16 (coupon rounds 9/17–9/28, 9/29–10/7, 10/8–10/16). Not every date or room is discounted. Jalan points are 2% (Ponta).",
+    "lat": 35.69065,
+    "lon": 139.70069,
+    "photoQuery": "Jalan travel",
+    "sources": [
+      "https://www.jalan.net/theme/otoku_10days/",
+      "https://www.jalan.net/theme/jalancouponfes/",
+      "https://www.jalan.net/yad309286/plan/"
+    ],
+    "experience": {
+      "hook": "Book on the 20th–29th of any month and pay less.",
+      "moments": [
+        "Open jalan.net/theme/otoku_10days/ during the sale days.",
+        "Search the hotel with exact dates; sale plans show '【予約受付期間】' and 'じゃらんのお得な10日間'.",
+        "Press 'クーポンGET' on the hotel page and in the Coupon Fes page before paying.",
+        "Compare with Rakuten for the same room, then book the cheaper one."
+      ],
+      "tip": "Set a phone reminder for Oct 20 and Nov 20 in case prices drop again."
+    }
+  }
+]

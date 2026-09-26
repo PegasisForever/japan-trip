@@ -1,0 +1,491 @@
+[
+  {
+    "id": "deal-narita-bus-instead-of-nex",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Narita to Shinjuku without N'EX",
+    "titleJa": "エアポートバス東京・成田（TYO-NRT）／スカイライナー",
+    "summary": "Take the ¥1,500 Airport Bus Tokyo-Narita to Tokyo Station, then the JR Chuo Line to Shinjuku. If you want a train, the Skyliner online ticket to Nippori plus JR to Shinjuku is also cheaper than N'EX.",
+    "why": "You save about ¥1,600 per person (bus) or about ¥800 per person (Skyliner) on arrival day. The N'EX round-trip ticket (¥5,200) does not help, because nobody goes back to Narita by train.",
+    "days": [
+      1
+    ],
+    "duration": "1.5–2 h",
+    "cost": "Bus ¥1,500 + JR Tokyo→Shinjuku ~¥210 = ~¥1,710 pp, or Skyliner online ¥2,310 + JR Nippori→Shinjuku ~¥210 = ~¥2,520 pp, vs N'EX Narita→Shinjuku ¥3,325 pp (2026 fare)",
+    "winter": "ok",
+    "winterNote": "Bus ¥1,500 is for normal hours; late-night and early-morning buses cost ¥3,000. Bus needs no booking. Skyliner discount is online only (Keisei Skyliner e-ticket), not at the station. N'EX discount ticket 'Toku-wari' for N'EX ends Sep 30, 2026.",
+    "lat": 35.7654,
+    "lon": 140.38599,
+    "route": [
+      [
+        140.38599,
+        35.7654
+      ],
+      [
+        139.76799,
+        35.68096
+      ],
+      [
+        139.70091,
+        35.68852
+      ]
+    ],
+    "photoQuery": "Narita Airport Terminal 1 bus stop",
+    "sources": [
+      "https://tyo-nrt.com/",
+      "https://www.keisei.co.jp/keisei/tetudou/skyliner/us/tickets/coupon.php",
+      "https://transit.yahoo.co.jp/",
+      "https://www.japan.travel/en/ca/news/certain-jr-passes-are-about-to-get-more-convenient/"
+    ],
+    "experience": {
+      "hook": "Same ride into Tokyo for half the N'EX price.",
+      "moments": [
+        "After customs, follow the signs to the bus stops of the Airport Bus Tokyo-Narita (TYO-NRT).",
+        "Pay ¥1,500 at the ticket counter or machine (no booking needed); buses leave about every 10–20 min in the day.",
+        "Get off at Tokyo Station Yaesu side, walk into JR, tap Suica to Shinjuku (Chuo Line Rapid, ~15 min).",
+        "If you prefer a train: buy the Skyliner ticket online before the trip (¥2,310), ride to Nippori, change to JR Yamanote Line to Shinjuku."
+      ],
+      "tip": "With big ski bags the bus is easier: luggage goes under the bus, no stairs at Nippori."
+    }
+  },
+  {
+    "id": "deal-no-jr-pass-single-tickets",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Skip JR passes, buy single tickets",
+    "titleJa": "JRパスより普通のきっぷ",
+    "summary": "With 2026 prices, no JR East pass is cheaper than normal tickets for this plan. Buy normal tickets for Tokyo→Yamagata, Yamagata→Sendai and Sendai→Shin-Hakodate-Hokuto.",
+    "why": "You avoid losing about ¥8,000 per person on a pass that looks good but does not pay back on this route.",
+    "days": [
+      6,
+      7,
+      8
+    ],
+    "duration": "n/a",
+    "cost": "Single tickets ~¥31,740 pp (Tsubasa Tokyo→Yamagata ¥11,670 + Yamagata→Sendai ¥1,100 + Hayabusa Sendai→Shin-Hakodate-Hokuto ¥18,500 + local to Hakodate ¥470) vs JR East-South Hokkaido Rail Pass ¥40,000 (6 days) / JR EAST PASS ¥35,000 (5 days, does not reach Hakodate)",
+    "winter": "ok",
+    "winterNote": "Pass prices from Mar 14, 2026: JR EAST PASS 5 days ¥35,000 (old Tohoku pass ¥30,000 is gone), JR East-South Hokkaido ¥40,000, JR Tohoku-South Hokkaido ¥32,000 (no Tokyo, so you pay Tokyo→Fukushima extra), JR Tokyo Wide ¥16,000 (3 days; covers Fuji Excursion to Kawaguchiko but not Yamagata; you drive on those days). A pass only pays if you also replace the Hokkaido car with trains to Kutchan and Otaru.",
+    "lat": 38.26035,
+    "lon": 140.88239,
+    "photoQuery": "Tsubasa shinkansen Yamagata Station",
+    "sources": [
+      "https://www.japan.travel/en/ca/news/certain-jr-passes-are-about-to-get-more-convenient/",
+      "https://www.japan-guide.com/e/e2361_tohoku_hokkaido.html",
+      "https://matcha-jp.com/tw/26679",
+      "https://transit.yahoo.co.jp/"
+    ],
+    "experience": {
+      "hook": "The cheapest pass is the one you do not buy.",
+      "moments": [
+        "Book Tsubasa (Jan 24) and Hayabusa (Jan 26) as normal reserved seats on Eki-net or at a JR ticket machine.",
+        "Use Suica for the short Yamagata→Sendai local train (or the Zao→Sendai bus).",
+        "Only reconsider the ¥40,000 JR East-South Hokkaido pass if you drop the Hokkaido rental car and go by train to Niseko and Otaru."
+      ],
+      "tip": "Many English blogs still show the old ¥30,000 Tohoku pass; that product ended in March 2026."
+    }
+  },
+  {
+    "id": "deal-ekinet-special-28",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Watch Eki-net 50% 'Special 28'",
+    "titleJa": "新幹線eチケット（トクだ値スペシャル28）",
+    "summary": "JR East stopped the normal Eki-net 'Tokudane' discounts in Sep 2026. The only big discount left is a 50% weekday sale that must be booked 28 days ahead, on dates JR East picks.",
+    "why": "If JR East puts late January on sale, Sendai→Shin-Hakodate-Hokuto on Tue Jan 26 drops from ¥18,500 to about ¥9,250 per person.",
+    "days": [
+      8
+    ],
+    "duration": "n/a",
+    "cost": "~¥9,250 pp (50% off) vs ¥18,500 pp Sendai→Shin-Hakodate-Hokuto; Tokyo→Yamagata on Sun Jan 24 is NOT eligible (weekdays only)",
+    "winter": "check",
+    "winterNote": "Tokudane 14 ended Sep 16, 2026 and Tokudane 1 on Sep 29, 2026 (JR East + JR Hokkaido). Special 28 so far only for Oct 14–27 and Dec 7–17, 2026 weekdays. Jan 2027 dates not announced. For Jan 26 you must book by about Dec 29, 2026. Limited seats.",
+    "lat": 41.90461,
+    "lon": 140.6487,
+    "photoQuery": "Hayabusa shinkansen Shin-Hakodate-Hokuto",
+    "sources": [
+      "https://www.kzlifelog.com/entry/jre-tokudane-tokuwari-discontinued-2026",
+      "https://www.eki-net.com/top/tokudane/kakaku.html",
+      "https://www.jreast.co.jp/press/2026/20260807_ho02.pdf"
+    ],
+    "experience": {
+      "hook": "Half-price Hayabusa, if the dates line up.",
+      "moments": [
+        "Make a free Eki-net account (the human does this; it works with foreign cards).",
+        "From November, check eki-net.com news for a new 'トクだ値スペシャル28' period that covers late January 2027.",
+        "If Jan 26 is inside the period, book Sendai→Shin-Hakodate-Hokuto 28 days ahead (by ~Dec 29) at 50% off.",
+        "If not, buy the normal ticket; there is no other year-round Eki-net discount now."
+      ],
+      "tip": "Special 28 changes cost fees; only book it when the Jan 26 date is fixed."
+    }
+  },
+  {
+    "id": "deal-night-bus-tokyo-zao",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Night ski bus Tokyo to Zao",
+    "titleJa": "東京駅発 蔵王温泉行き 夜行バス",
+    "summary": "Leave Tokyo late on Jan 23 by night bus and wake up at Zao Onsen on Jan 24. You skip the Tsubasa train, the Yamagata→Zao bus and one hotel night in Shinjuku.",
+    "why": "Saves about ¥5,000–10,000 per person on transport and about ¥13,000 per person on the Gracery night, and gives a full ski day at Zao.",
+    "days": [
+      5,
+      6
+    ],
+    "duration": "night bus ~5 h 40 min",
+    "cost": "Night bus ¥2,500–8,500 pp vs Tsubasa ¥11,670 + Yamagata→Zao bus ¥1,200 = ¥12,870 pp; plus ~¥13,000 pp hotel saved. Daytime option: Tohoku Kyuko bus Tokyo→Yamagata ¥6,000–6,700 pp (~6 h)",
+    "winter": "check",
+    "winterNote": "Direct Tokyo→Zao Onsen buses run only in ski season; 2026-27 timetable not yet published (bushikaku lists 4 services, ¥2,500–8,500). Early-morning arrival, so plan a place to change and store bags (ski centre / ryokan). Daytime Tohoku Kyuko web early-pay discount is not valid Fri–Sun and holidays.",
+    "lat": 38.16743,
+    "lon": 140.3937,
+    "route": [
+      [
+        139.76799,
+        35.68096
+      ],
+      [
+        140.3937,
+        38.16743
+      ]
+    ],
+    "photoQuery": "Zao Onsen bus terminal winter",
+    "sources": [
+      "https://www.bushikaku.net/search/tokyo_yamagata/_yamagatazao/",
+      "https://www.tohoku-express.co.jp/course/yamagata/",
+      "https://glostravel.com/ja/article/zao-snow-monsters"
+    ],
+    "experience": {
+      "hook": "Sleep on the road, wake up in snow monster country.",
+      "moments": [
+        "After Shibuya Sky on Jan 23, check out of Gracery (book only Jan 19–22 there).",
+        "Board the ski bus at Tokyo Station Yaesu around 22:00–23:00 (check 2027 times).",
+        "Arrive Zao Onsen bus terminal in the early morning, store bags, rent skis.",
+        "Take the ropeway to the snow monsters in morning light, ski all day, check into the ryokan."
+      ],
+      "tip": "Pick a 3-row (independent seat) bus; the extra ~¥2,000 is worth the sleep."
+    }
+  },
+  {
+    "id": "deal-zao-lift-includes-ropeway",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Zao lift pass covers ropeway",
+    "titleJa": "蔵王温泉スキー場 全山共通リフト券",
+    "summary": "The Zao all-mountain 1-day ticket also covers the Zao Ropeway to the snow monsters and night skiing at Uenodai until 21:00. Buy it online and pick it up with a QR code.",
+    "why": "One ¥8,000 ticket replaces the ¥4,400 ropeway ticket plus a lift ticket, and adds night skiing on arrival day.",
+    "days": [
+      6,
+      7
+    ],
+    "duration": "1.5 days",
+    "cost": "Jan 24: 1-day ¥8,000 (ski + ropeway + night) and Jan 25: 4-hour ¥6,600 = ¥14,600 pp, vs 2-day ¥15,900 or lift + separate ropeway ¥4,400 round trip. Aoki (beginner) option: ropeway only ¥4,400 or 4-hour ¥6,600",
+    "winter": "ok",
+    "winterNote": "2026-27 price table: Jan 4–29 is 'regular season' (1-day ¥8,000, 4-hour ¥6,600); from Jan 30 'peak' ¥9,000/¥7,400. Night skiing Uenodai 17:00–21:00 daily Dec 19–Feb 28. Web sale via asoview; QR is exchanged at unmanned machines. Night snow-monster light-up and the 'Night Cruiser' snowcat tour (¥7,500 last season, booking needed) run only on set dates; 2026-27 dates not yet out.",
+    "lat": 38.16165,
+    "lon": 140.39517,
+    "photoQuery": "Zao snow monsters juhyo ropeway",
+    "sources": [
+      "https://zaomountainresort.com/chrage/",
+      "https://glostravel.com/ja/article/zao-snow-monsters",
+      "https://zaoropeway.co.jp/winter/juhyo_illusion.php"
+    ],
+    "experience": {
+      "hook": "One ticket: snow monsters by day, night skiing after dinner.",
+      "moments": [
+        "Before the trip, buy the 1-day ticket online (asoview link on the Zao resort site) for Jan 24.",
+        "Scan the QR at the ticket machine, take Zao Ropeway (Sanroku station) up to Jizo-sancho for the snow monsters.",
+        "Ski the afternoon, eat at the ryokan, then night-ski at Uenodai until 21:00 with the same ticket.",
+        "Jan 25: buy a 4-hour ticket for the morning, then bus to Sendai."
+      ],
+      "tip": "Go up the ropeway first: on clear mornings the monsters are best and lines are short."
+    }
+  },
+  {
+    "id": "deal-niseko-annupuri-ticket",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Ski Annupuri, skip All-Mountain pass",
+    "titleJa": "ニセコアンヌプリ国際スキー場 1日券",
+    "summary": "Buy the Niseko Annupuri 1-day ticket instead of the Niseko United all-mountain ticket. Annupuri has wide gentle runs for Aoki and powder for Pegasis, and the ticket includes night skiing.",
+    "why": "Saves ¥5,700 per person (¥11,400 for two) for one ski day.",
+    "days": [
+      10
+    ],
+    "duration": "1 day",
+    "cost": "Annupuri 1-day ¥7,800 pp (5-hour ¥6,700) vs Niseko United all-mountain 1-day ¥13,500 pp; Hirafu+Hanazono online ¥11,800 (window ¥12,500)",
+    "winter": "ok",
+    "winterNote": "Peak season Dec 24, 2026–Feb 28, 2027. Annupuri hours 8:30–19:30 (night 16:30–19:30). Hirafu online price is ¥700 less than window price. Annupuri base is ~15 min drive from Kutchan.",
+    "lat": 42.85333,
+    "lon": 140.64861,
+    "photoQuery": "Niseko Annupuri ski resort gondola",
+    "sources": [
+      "https://annupuri.info/lift-tickets/",
+      "https://www.niseko.ne.jp/ja/lift/",
+      "https://hapisnow.jp/snowresort/niseko-grand-hirafu/"
+    ],
+    "experience": {
+      "hook": "Same Niseko powder, almost half the lift price.",
+      "moments": [
+        "Drive from Hotel 3M Kutchan to Annupuri base (free parking).",
+        "Buy the Annupuri 1-day ticket at the counter (or online).",
+        "Aoki takes the green runs near the base; Pegasis rides the gondola to the top.",
+        "Stay for night skiing until 19:30 with the same ticket."
+      ],
+      "tip": "If you want Hirafu for one run, buy a single ride, not the ¥13,500 all-mountain ticket."
+    }
+  },
+  {
+    "id": "deal-fly-sendai-sapporo",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Fly Sendai to Sapporo",
+    "titleJa": "仙台空港→新千歳空港（Peach ほか）",
+    "summary": "Replace the Hayabusa to Hakodate with a 1 h 20 min flight from Sendai to New Chitose, and rent the Hokkaido car at New Chitose. Hakodate and Onuma drop out; you get an extra Hokkaido day.",
+    "why": "Saves about ¥8,000–15,000 per person on the ticket, plus the ¥11,000–27,000 Hakodate→Sapporo one-way car fee (New Chitose→Sapporo is free or small).",
+    "days": [
+      8,
+      9
+    ],
+    "duration": "half day",
+    "cost": "Peach Sendai→New Chitose ~¥6,590 (recent 30-day low), sale fares from ¥3,590; Trip.com average for January ~¥10,620 pp; vs Hayabusa ¥18,500 pp",
+    "winter": "check",
+    "winterNote": "You lose Hakodate (La Vista hotel, night view) and Onuma. Peach base fare has no checked bag (ski bags cost extra). Peach runs ~2 flights a day. Snow can delay flights at New Chitose. Check the Hakodate hotel cancel rules before switching.",
+    "lat": 38.13779,
+    "lon": 140.92161,
+    "route": [
+      [
+        140.92161,
+        38.13779
+      ],
+      [
+        141.68296,
+        42.78679
+      ],
+      [
+        140.74577,
+        42.90183
+      ]
+    ],
+    "photoQuery": "Peach Aviation Sendai Airport",
+    "sources": [
+      "https://travelwest.jp/domestic/air/route/SDJ/CTS/PMM/",
+      "https://jp.trip.com/flights/sendai-to-sapporo/airfares-sdj-spk/",
+      "https://dsk.ne.jp/news/peach_sale_20260106",
+      "https://mimigo.tw/car-rental-hokkaido/"
+    ],
+    "experience": {
+      "hook": "Trade the Hakodate night view for a cheaper, faster jump north.",
+      "moments": [
+        "Watch for a Peach domestic sale (Peach runs several per year) and book Sendai→New Chitose for Jan 26.",
+        "Take the Sendai Airport Access Line from Sendai Station (~25 min).",
+        "At New Chitose, pick up the rental car and drive to Niseko/Kutchan (~2 h).",
+        "Return the car in Sapporo or at New Chitose at the end: same area, so little or no one-way fee."
+      ],
+      "tip": "Add the ski-bag fee when you compare; Peach is only cheap without extra bags."
+    }
+  },
+  {
+    "id": "deal-hokkaido-rail-instead-of-car",
+    "kind": "swap",
+    "category": "deal",
+    "title": "Hokkaido by train, not car",
+    "titleJa": "札幌・富良野エリアパス＋普通乗車券",
+    "summary": "Do Hakodate→Kutchan→Otaru→Asahikawa→Biei→Furano→Sapporo by JR. Buy single tickets to Otaru, then the Sapporo-Furano Area Pass for the last 4 days.",
+    "why": "For two people the train costs about ¥38,000 in total, the car about ¥70,000–100,000, so you save ¥30,000–60,000; no winter driving at night.",
+    "days": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "duration": "5 days",
+    "cost": "Rail ~¥19,140 pp (Hakodate→Kutchan ¥6,760 + Kutchan→Otaru ¥1,380 + Sapporo-Furano Area Pass ¥11,000, which also covers Sapporo→New Chitose) vs car ~¥35,000–50,000 per person share (rental 5 days, one-way fee ¥11,000–27,000, HEP ¥9,600, fuel). Hokkaido Rail Pass 5 days ¥22,000 is NOT better than this.",
+    "winter": "check",
+    "winterNote": "Hakodate→Kutchan is ~4 h with a change at Oshamambe; local trains on the Hakodate Line mountain section are few (check timetable). Blue Pond needs the Dohoku bus from Biei; Onuma is a stop of the Hokuto express. You lose the Hokkaido driving part of the trip. Sapporo-Furano Area Pass: 4 consecutive days, foreign passport.",
+    "lat": 43.06866,
+    "lon": 141.35079,
+    "route": [
+      [
+        140.72638,
+        41.7738
+      ],
+      [
+        140.74577,
+        42.90183
+      ],
+      [
+        141.00303,
+        43.19755
+      ],
+      [
+        142.36007,
+        43.76378
+      ],
+      [
+        141.35079,
+        43.06866
+      ]
+    ],
+    "photoQuery": "JR Hokkaido Kamui limited express snow",
+    "sources": [
+      "https://www.jrhokkaido.co.jp/global/english/ticket/railpass/index.html",
+      "https://transit.yahoo.co.jp/",
+      "https://www.jrh-rentacar.jp/fee",
+      "https://nissan-rentacar.com/car/spent-fee/"
+    ],
+    "experience": {
+      "hook": "Let the train drive through the blizzard.",
+      "moments": [
+        "Jan 27: Hokuto express Hakodate→Oshamambe (stop at Onuma-koen on the way if you want), local train to Kutchan.",
+        "Jan 29: local train Kutchan→Otaru; start the Sapporo-Furano Area Pass here (Jan 29–Feb 1).",
+        "Otaru→Sapporo→Asahikawa by Kamui/Lilac; bus to Asahiyama Zoo.",
+        "Biei→Furano by local train; Blue Pond by Dohoku bus from Biei; Furano→Sapporo; Feb 1 train to New Chitose on the same pass."
+      ],
+      "tip": "Keep the car only for one day (e.g., Biei/Blue Pond from Asahikawa) if you still want to drive."
+    }
+  },
+  {
+    "id": "deal-hokkaido-car-oneway-hep",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Cut Hokkaido car one-way fee",
+    "titleJa": "北海道レンタカー 乗り捨て料金比較＋HEP",
+    "summary": "If you keep the Hakodate→Sapporo car, the one-way fee differs a lot by company. Compare on Tabirai/ToCoo and ask for the Hokkaido Expressway Pass (HEP) at pickup.",
+    "why": "Choosing the right company saves up to about ¥10,000 per car on the one-way fee alone.",
+    "days": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "duration": "5 days",
+    "cost": "One-way fee Hakodate→Sapporo: Nissan ¥17,600, JR Eki Rent-a-Car ¥27,000; some companies ¥8,000–15,000. HEP 5 days ¥9,600 (normal car) / ¥7,700 (kei). Rental from ~¥5,600/day in Hakodate on Tabirai (off-season, before winter extras)",
+    "winter": "check",
+    "winterNote": "Toyota changed its Hokkaido one-way fees for bookings from May 12, 2026 (free inside the same area only). HEP is for foreign passport holders, sold only through rental companies, needs an ETC card from the rental. Tolls on this route were not checked here; compare HEP price with toll total on driveplaza before paying. Book 4WD + studless tyres.",
+    "lat": 41.7738,
+    "lon": 140.72638,
+    "photoQuery": "Hokkaido winter road rental car",
+    "sources": [
+      "https://nissan-rentacar.com/car/spent-fee/",
+      "https://www.jrh-rentacar.jp/fee",
+      "https://www.toyotarentacar.net/news/2026/04/01/3200/",
+      "https://www.driveplaza.com/etc/drawari/hokkaido_expass/",
+      "https://www.tabirai.net/s/car/hokkaido/hakodate_area/",
+      "https://mimigo.tw/car-rental-hokkaido/"
+    ],
+    "experience": {
+      "hook": "Same car, same road, ¥10,000 less.",
+      "moments": [
+        "On Tabirai or ToCoo, search Hakodate station pickup Jan 27, return Sapporo station Jan 31, 4WD.",
+        "Compare the total with the one-way fee included (it is often hidden until the last step).",
+        "At pickup, show passports and ask for HEP (5 days) with the ETC card.",
+        "Return at Sapporo on Jan 31 with a full tank (keep the receipt)."
+      ],
+      "tip": "Chinese blogs (Mimigo) report ¥8,000–15,000 for Hakodate↔Sapporo; anything above ¥20,000 is expensive."
+    }
+  },
+  {
+    "id": "deal-shibuya-sky-before-15",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Shibuya Sky before 15:00 slot",
+    "titleJa": "SHIBUYA SKY WEBチケット（14:59までの入場）",
+    "summary": "Buy the official web ticket for an entry time before 15:00 and stay on the roof until sunset. Late-January sunset is about 16:50.",
+    "why": "Saves ¥700 per person against the sunset slot and ¥1,000 against the counter price, and sunset slots often sell out.",
+    "days": [
+      5
+    ],
+    "duration": "2–3 h",
+    "cost": "Web ¥2,700 (entry to 14:59) vs web ¥3,400 (15:00 and later) vs counter ¥3,000 / ¥3,700",
+    "winter": "check",
+    "winterNote": "Web tickets go on sale 2 weeks ahead (for Jan 23 → about Jan 9, 2027, Japan time). If web is sold out, the counter is sold out too. Roof closes in strong wind or rain. Check on the site that there is no stay limit after entry.",
+    "lat": 35.65838,
+    "lon": 139.70222,
+    "photoQuery": "Shibuya Sky rooftop sunset",
+    "sources": [
+      "https://www.shibuya-scramble-square.com/sky/ticket/",
+      "https://tokyocheapo.com/place/shibuya-sky/"
+    ],
+    "experience": {
+      "hook": "Daytime price, sunset view.",
+      "moments": [
+        "Jan 9, 2027 (Japan time): book the 14:30 or 14:40 entry on the official site.",
+        "Arrive from Kawaguchiko, drop bags, enter before 15:00.",
+        "Walk the roof in daylight, then keep your spot on the west side for Mt Fuji and the sunset at ~16:50.",
+        "Stay for the night view, then dinner in Shibuya."
+      ],
+      "tip": "Bring gloves; the open roof is very cold in January."
+    }
+  },
+  {
+    "id": "deal-sapporo-subway-card-cap",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Sapporo subway card fare cap",
+    "titleJa": "札幌市営地下鉄 クレカ乗車 上限運賃",
+    "summary": "Tap a Visa/Mastercard/JCB contactless card at Sapporo subway gates. The day's fares stop at the price of a 1-day ticket, with no ticket to buy.",
+    "why": "On Sunday Jan 31 the cap is ¥520 (weekend price), on Monday Feb 1 ¥830; each ride is ¥210+, so 3+ rides are free after the cap.",
+    "days": [
+      13,
+      14
+    ],
+    "duration": "1–2 days",
+    "cost": "Max ¥520 pp on Sat/Sun/holidays, ¥830 pp weekdays, vs ¥210–380 per ride",
+    "winter": "ok",
+    "winterNote": "Started Mar 26, 2026. Subway only (not streetcar or JR). Each person needs own card; same card for all rides of the day.",
+    "lat": 43.06017,
+    "lon": 141.352,
+    "photoQuery": "Sapporo Odori subway station",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000881.000032321.html",
+      "https://www.city.sapporo.jp/st/josyaken/doni-chika/donichika.html",
+      "https://release.traicy.com/posts/202603051064104"
+    ],
+    "experience": {
+      "hook": "Unlimited Sapporo subway for ¥520 with no ticket.",
+      "moments": [
+        "Return the car on Jan 31 morning.",
+        "Tap your contactless credit card at the gate marked for card payment.",
+        "Ride Odori, Susukino, Sapporo Station as much as you like; the system stops charging at the cap.",
+        "Aoki: on Feb 1 use the same card until the train to the airport (JR is separate)."
+      ],
+      "tip": "Use the same physical card or the same phone every time, or the cap does not add up."
+    }
+  },
+  {
+    "id": "deal-sapporo-narita-lcc",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Sapporo to Narita on LCC",
+    "titleJa": "新千歳→成田（ジェットスター／Peach）",
+    "summary": "For Pegasis on Feb 1, Jetstar and Peach fly New Chitose→Narita from about ¥5,000. The JAL Japan Explorer Pass is the backup if you want a bag included.",
+    "why": "LCC fares are about ¥10,000+ less than a normal full-service fare; note ANA's visitor fare no longer exists.",
+    "days": [
+      14
+    ],
+    "duration": "1 h 40 min",
+    "cost": "Jetstar from ¥5,490 / low fares ~¥5,640 (plus bag fee) vs JAL Japan Explorer Pass (visitors only, price shown only in search) vs normal ANA/JAL fares ¥15,000+",
+    "winter": "check",
+    "winterNote": "ANA's visitor fare (Experience/Discover JAPAN) ended May 18, 2026. JAL Explorer Pass: you must live outside Japan and hold an international ticket; no changes, no refunds. LCC base fares have no checked bag; ski bags cost extra. Snow delays are common at New Chitose in late January.",
+    "lat": 42.78679,
+    "lon": 141.68296,
+    "photoQuery": "New Chitose Airport Jetstar Japan",
+    "sources": [
+      "https://www.jetstar.com/jp/ja/help/flight-schedules",
+      "https://www.airtrip.jp/flight/CTS/NRT/",
+      "https://watabi.org/en/articles/japan-domestic-flight-fares-guide",
+      "https://www.jal.co.jp/egl/en/world/japan_explorer_pass/lp/"
+    ],
+    "experience": {
+      "hook": "Last hop to Narita for the price of a lunch set.",
+      "moments": [
+        "Sign up for Jetstar and Peach sale emails; both run domestic sales several times a year.",
+        "Book CTS→NRT for Feb 1 with one checked bag added (compare total with JAL Explorer Pass).",
+        "Take JR from Sapporo to New Chitose (~40 min).",
+        "Land at Narita T3/T1 and walk or bus to Toyoko Inn Narita Airport."
+      ],
+      "tip": "Jetstar and Peach use Narita Terminal 3; allow time to reach the hotel shuttle."
+    }
+  }
+]

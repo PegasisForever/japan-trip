@@ -50,6 +50,7 @@ export const CATEGORY: Record<string, { label: string; color: string }> = {
   culture: { label: 'Culture', color: '#b58cf0' },
   city: { label: 'City', color: '#9aa8b8' },
   nature: { label: 'Nature', color: '#4fae6a' },
+  deal: { label: 'Bargains', color: '#d4a017' },
 }
 
 export const KIND_TEXT = {

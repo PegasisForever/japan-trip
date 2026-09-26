@@ -1,0 +1,628 @@
+[
+  {
+    "id": "deal-dormy-inn-free-yonaki-soba",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Free late-night ramen at Dormy Inn",
+    "titleJa": "夜鳴きそば（無料）",
+    "summary": "Every Dormy Inn gives guests a free bowl of light soy ramen from 21:30 to 23:00, plus free ice cream after the bath and a free yogurt drink in the morning. You stay at three Dormy Inns, so you get this three times.",
+    "why": "Saves about ¥1,000 per person per night on a late snack: about ¥6,000 for two over three nights, with no booking needed.",
+    "days": [
+      7,
+      11,
+      13
+    ],
+    "duration": "30 min",
+    "cost": "¥0 vs about ¥930–1,000 for a bowl of ramen outside (e.g. Hachiya Asahikawa shoyu ¥930)",
+    "winter": "ok",
+    "winterNote": "Every night 21:30–23:00 (Sendai Ekimae, Asahikawa, Premium Sapporo). Free ice cream 15:00–01:00, yogurt drink 5:00–10:00. Only for hotel guests. Dormy Inn Asahikawa breakfast is ¥2,500 per adult (price from 2025-05): if you book room-only, a Seicomart breakfast costs under ¥700.",
+    "lat": 43.057039,
+    "lon": 141.348897,
+    "places": [
+      {
+        "en": "Dormy Inn Sendai Ekimae",
+        "ja": "天然温泉 萩の湯 ドーミーイン仙台駅前",
+        "lat": 38.264205,
+        "lon": 140.879775
+      },
+      {
+        "en": "Dormy Inn Asahikawa",
+        "ja": "天然温泉 神威の湯 ドーミーイン旭川",
+        "lat": 43.770972,
+        "lon": 142.359908
+      },
+      {
+        "en": "Dormy Inn Premium Sapporo",
+        "ja": "石狩の湯 ドーミーインPREMIUM札幌",
+        "lat": 43.057039,
+        "lon": 141.348897
+      }
+    ],
+    "photoQuery": "Dormy Inn yonaki soba ramen",
+    "sources": [
+      "https://dormy-hotels.com/dormyinn/hotels/premium_sapporo/service/",
+      "https://dormy-hotels.com/dormyinn/hotels/sendaiekimae/service/",
+      "https://dormy-hotels.com/dormyinn/hotels/asahikawa/breakfast/",
+      "https://dormykatsu.com/category/dormykatsu-enjoy/yonaki-soba/"
+    ],
+    "experience": {
+      "hook": "A free bowl of hot ramen before bed, three nights in a row.",
+      "moments": [
+        "After the onsen, take the free ice bar in the lobby (15:00–01:00).",
+        "At 21:30 go to the hotel restaurant and take a number for the yonaki soba.",
+        "Eat the small shoyu ramen; a second small bowl is often OK if it is not busy.",
+        "If you are too full, ask at the front desk: some hotels give a cup noodle to take to your room.",
+        "In the morning take the free yogurt drink (5:00–10:00)."
+      ],
+      "tip": "Go at 21:30 sharp: near 23:00 it can sell out."
+    }
+  },
+  {
+    "id": "deal-hakodate-asaichi-500-yen-bowl",
+    "kind": "addon",
+    "category": "food",
+    "title": "¥550 seafood bowl, Hakodate market",
+    "titleJa": "朝市食堂 二番館（函館朝市 えきに市場2F）",
+    "summary": "Asaichi Shokudo Nibankan, upstairs in the Ekini Market, sells small seafood bowls for ¥500 + tax (¥550) with miso soup. For a bigger bowl, Yamasan Michishita in Donburi Yokocho has 20+ bowls from ¥1,210.",
+    "why": "A real Hakodate market breakfast for one sixth of the famous Kikuyo Tomoe-don price.",
+    "days": [
+      8,
+      9
+    ],
+    "duration": "45 min",
+    "cost": "¥550 (Nibankan gomoku-don) or from ¥1,210 (Yamasan Michishita) vs ¥3,278 for Kikuyo Shokudo 元祖函館巴丼",
+    "winter": "ok",
+    "winterNote": "Nibankan 8:00–14:00 (closed days not confirmed, check). Market opens about 6:00 in Jan–Apr. Yamasan Michishita 6:00–21:00, open all year. In January the squid is yari-ika (spear squid). Parking: spend ¥2,200+ at partner shops for 1 h free.",
+    "lat": 41.772566,
+    "lon": 140.725399,
+    "places": [
+      {
+        "en": "Ekini Market (Nibankan on 2F)",
+        "ja": "えきに市場",
+        "lat": 41.772566,
+        "lon": 140.725399
+      },
+      {
+        "en": "Hakodate Morning Market",
+        "ja": "函館朝市",
+        "lat": 41.772239,
+        "lon": 140.724817
+      }
+    ],
+    "photoQuery": "Hakodate Morning Market seafood bowl",
+    "sources": [
+      "https://www.omoroionnsenn.com/entry/2025/12/11/073959",
+      "https://www.nap-camp.com/mag/99154",
+      "https://yamasan-michishitastore.com/",
+      "https://hakodate-kikuyo.com/",
+      "https://www.hakobura.jp/features/33"
+    ],
+    "experience": {
+      "hook": "Ikura, scallop and tuna on rice for ¥550, one minute from Hakodate Station.",
+      "moments": [
+        "Walk out of the west exit of Hakodate Station to the Ekini Market (えきに市場).",
+        "Go up to the 2nd floor to Asaichi Shokudo Nibankan (8:00 open).",
+        "Order the 五目丼 (gomoku-don) or イカ刺丼 (squid) from the ¥500 list.",
+        "Still hungry? Walk to Donburi Yokocho and share one ¥1,210+ bowl at Yamasan Michishita."
+      ],
+      "tip": "The ¥500 bowls use plain white rice, not sushi rice, and are small: order two kinds and share."
+    }
+  },
+  {
+    "id": "deal-hakodate-yakitori-bento",
+    "kind": "addon",
+    "category": "food",
+    "title": "Hakodate yakitori bento ¥680",
+    "titleJa": "ハセガワストア やきとり弁当",
+    "summary": "Hasegawa Store, a local konbini, grills pork 'yakitori' skewers to order and puts three on rice with seaweed. The Bay Area store is next to the Lucky Pierrot burger shop, the other cheap local favourite.",
+    "why": "Hakodate soul food for under ¥700: a hot dinner or car lunch before the drive to Onuma and Niseko.",
+    "days": [
+      8,
+      9
+    ],
+    "duration": "20 min",
+    "cost": "¥680 (small, 3 pork skewers, tax incl., menu of July 2026) vs about ¥1,500+ for a sit-down dinner in the Bay Area",
+    "winter": "ok",
+    "winterNote": "Made to order: allow 10 min, or phone 1 h before. Five flavours; タレ (sauce) is the most popular. Prices can change; confirm in the shop.",
+    "lat": 41.765647,
+    "lon": 140.715023,
+    "places": [
+      {
+        "en": "Hasegawa Store Bay Area",
+        "ja": "ハセガワストア ベイエリア店",
+        "lat": 41.765647,
+        "lon": 140.715023
+      },
+      {
+        "en": "Lucky Pierrot Bay Area",
+        "ja": "ラッキーピエロ ベイエリア本店",
+        "lat": 41.765794,
+        "lon": 140.714894
+      }
+    ],
+    "photoQuery": "Hasegawa Store yakitori bento Hakodate",
+    "sources": [
+      "https://www.hasesuto.co.jp/pdf/hasesutomenu_20260701.pdf?v=1.0",
+      "https://www.hakobura.jp/features/16",
+      "https://luckypierrot.jp/menu/chineasechicken/",
+      "https://www.funliday.com/posts/hakodate-cuisine-top12/"
+    ],
+    "experience": {
+      "hook": "A hot box of charcoal-grilled pork skewers for ¥680.",
+      "moments": [
+        "Walk to Hasegawa Store Bay Area (5 min from Suehirocho tram stop).",
+        "Fill in the order slip: やきとり弁当（小）, flavour タレ.",
+        "Wait for your number, then eat in the small eating corner or in the car.",
+        "Cross the street to Lucky Pierrot for a Chinese Chicken Burger if you want more."
+      ],
+      "tip": "Pull the skewers out with the lid held down: that is how locals eat it."
+    }
+  },
+  {
+    "id": "deal-sendai-gyutan-lunch",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Cheap Sendai gyutan lunch",
+    "titleJa": "牛たん若 仙台駅東口店 / たんや善治郎 平日ランチ",
+    "summary": "Gyutan Waka near the east exit sells a full beef-tongue set for about ¥1,160. Tanya Zenjirou near the west exit has a weekday lunch menu (11:00–15:00) from ¥1,210.",
+    "why": "Same Sendai gyutan with barley rice and tail soup for about half the dinner price near the station.",
+    "days": [
+      7
+    ],
+    "duration": "1 h",
+    "cost": "about ¥1,160 (Waka 牛たん定食) or ¥1,210–1,958 (Zenjirou weekday lunch) vs ¥2,585–3,080 for Zenjirou's normal 牛たん定食",
+    "winter": "ok",
+    "winterNote": "Jan 25, 2027 is a Monday, so the weekday lunch applies. Waka: weekdays 11:30–15:00 and 17:00–22:00, closed Tuesday; ¥1,160 is from reviews (older), check the current price. Zenjirou Ekimae Honten: 11:00–23:00, no closed day; no lunch at the Gyutan-dori shop in the station.",
+    "lat": 38.258979,
+    "lon": 140.885158,
+    "places": [
+      {
+        "en": "Gyutan Waka, Sendai Sta. east exit (block-level position)",
+        "ja": "牛たん若 仙台駅東口店",
+        "lat": 38.258979,
+        "lon": 140.885158
+      },
+      {
+        "en": "Sendai Station east exit",
+        "ja": "仙台駅東口",
+        "lat": 38.259856,
+        "lon": 140.883736
+      }
+    ],
+    "photoQuery": "Sendai gyutan teishoku beef tongue",
+    "sources": [
+      "https://www.tanya-zenjirou.jp/menu/lunch.html",
+      "https://matipura.com/gourmet/27747/",
+      "https://4travel.jp/dm_shisetsu_tips/12891137",
+      "https://retty.me/area/PRE04/ARE158/SUB53103/100000022435/",
+      "https://service-news.tokyo/gyuutan-senndaieki-822"
+    ],
+    "experience": {
+      "hook": "A full gyutan set with barley rice and tail soup for about ¥1,200.",
+      "moments": [
+        "Come off the Zao bus at Sendai Station before 15:00.",
+        "Walk 3 min from the east exit to Gyutan Waka, or 2 min from the west exit to Zenjirou (AK Bldg 3F).",
+        "At Zenjirou ask for the 平日ランチ menu, not the normal menu.",
+        "Refill the barley rice once for free at Zenjirou."
+      ],
+      "tip": "Eat gyutan at lunch; at night use the free Dormy Inn ramen."
+    }
+  },
+  {
+    "id": "deal-yoshida-udon-chureito",
+    "kind": "addon",
+    "category": "food",
+    "title": "¥600 Yoshida udon after Chureito",
+    "titleJa": "元祖 みうらうどん（吉田のうどん）",
+    "summary": "Yoshida udon is the hard, chewy local noodle of Fujiyoshida, sold in simple shops for a few hundred yen. Miura Udon, near Shimoyoshida Station below the Chureito Pagoda, sells niku (beef) udon for ¥600.",
+    "why": "A warm local meal after a cold sunrise shoot, much cheaper than a tourist hoto set at the lake.",
+    "days": [
+      5
+    ],
+    "duration": "30 min",
+    "cost": "¥600 (niku udon, medium) vs about ¥1,500 for a hoto set at Kawaguchiko shops (typical price, not checked for 2027)",
+    "winter": "ok",
+    "winterNote": "Open 10:00–14:00, closed Wednesday. Jan 23, 2027 is a Saturday, so it is open. Many Yoshida udon shops close by 14:00. Position is block-level (下吉田1丁目).",
+    "lat": 35.493957,
+    "lon": 138.806728,
+    "photoQuery": "Yoshida udon Fujiyoshida",
+    "sources": [
+      "https://fujiyoshida.net/gourmet/index.php?p=97",
+      "https://ganso-miuraudon.com/",
+      "https://retty.me/area/PRE19/ARE259/SUB25901/LCAT5/CAT60/PUR46/"
+    ],
+    "experience": {
+      "hook": "Hard, chewy Fuji noodles in miso-soy soup for ¥600.",
+      "moments": [
+        "After sunrise at the Chureito Pagoda, rest in the car or a cafe until 10:00.",
+        "Drive or walk 10 min to Miura Udon in Shimoyoshida.",
+        "Order 肉うどん (niku udon), medium.",
+        "Add the red chilli paste 'suridane' on the table."
+      ],
+      "tip": "Pay cash; small udon shops often do not take cards."
+    }
+  },
+  {
+    "id": "deal-shinjuku-standing-sushi",
+    "kind": "addon",
+    "category": "food",
+    "title": "Standing sushi in Shinjuku",
+    "titleJa": "寿司 魚がし日本一 新宿西口店（立喰）",
+    "summary": "Uogashi Nihon-ichi is a standing sushi bar: a chef makes each piece in front of you. Pieces start at ¥75 (ordered two at a time), and a set of nigiri is ¥1,400.",
+    "why": "Counter sushi made by hand, at kaitenzushi prices, 10 min from Hotel Gracery.",
+    "days": [
+      1,
+      2,
+      5
+    ],
+    "duration": "30 min",
+    "cost": "about ¥1,400–2,000 per person vs ¥3,500+ for a sit-down nigiri set (e.g. ¥3,500 特選握り at an airport sushi counter)",
+    "winter": "ok",
+    "winterNote": "Mon–Fri 11:00–23:00, Sat 11:00–22:00, Sun/holiday 11:00–21:30. No reservations (standing shop). Prices from the Tabelog menu; check in the shop.",
+    "lat": 35.690001,
+    "lon": 139.697289,
+    "photoQuery": "standing sushi bar Tokyo",
+    "sources": [
+      "https://tabelog.com/tokyo/A1304/A130401/13000821/dtlmenu/",
+      "https://uogashi-nihonichi.imachika.com/store/28",
+      "https://www.du-soleil.com/entry/uogashi-nihonichi",
+      "https://www.hotpepper.jp/strJ000124693/"
+    ],
+    "experience": {
+      "hook": "Stand at the counter and eat nigiri the moment the chef puts it down.",
+      "moments": [
+        "Walk to the west exit side of Shinjuku Station (Nishi-Shinjuku 1-12-12).",
+        "Stand at a free space at the counter and order by the menu board, two pieces per order.",
+        "Start with the ¥75 and ¥120 fish, then add one or two top pieces.",
+        "Pay and leave in 20–30 min: that is normal here."
+      ],
+      "tip": "Go at lunch or after 21:00 when the counter is less full."
+    }
+  },
+  {
+    "id": "deal-omoide-yokocho-senbero",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Senbero drinks at Omoide Yokocho",
+    "titleJa": "立呑み晩杯屋 新宿思い出横丁店 / ゴールデン街",
+    "summary": "Senbero means 'drunk for ¥1,000'. Banpaiya in Omoide Yokocho sells stew and fried liver for ¥130 and drinks from ¥290, from 7:00 to 23:30. In Golden Gai, choose bars with no seat charge.",
+    "why": "See Shinjuku's old alley bars for about ¥1,000 each, not ¥5,000+.",
+    "days": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "duration": "1 h",
+    "cost": "about ¥1,000 per person (2 drinks + 2 small plates) vs a Golden Gai bill with charge that can reach ¥5,000 for 2 drinks",
+    "winter": "ok",
+    "winterNote": "Banpaiya: 7:00–23:30 every day, cash only, about 40 people. Golden Gai: many bars charge ¥500–2,000 seat fee; Bar Araku waives its ¥700 charge for foreign tourists; 4C's Bar Rosso has happy hour to 19:00 with no charge (from their X account, check).",
+    "lat": 35.693016,
+    "lon": 139.699697,
+    "photoQuery": "Omoide Yokocho Shinjuku",
+    "sources": [
+      "https://shinjuku-omoide.com/shop/banpaiya",
+      "https://1000bero.net/restaurant-964/",
+      "https://livejapan.com/ja/in-tokyo/in-pref-tokyo/in-shinjuku/article-a0002669/",
+      "https://gourmet.bunj.in/?p=4924",
+      "https://x.com/4csbar_rosso"
+    ],
+    "experience": {
+      "hook": "Two drinks and two plates in a smoky Showa alley for about ¥1,000.",
+      "moments": [
+        "Walk 3 min from Shinjuku west exit into Omoide Yokocho.",
+        "At Banpaiya, order 煮込み (¥130) and レバフライ (¥130) with a ¥290 green-tea highball.",
+        "Walk 10 min east to Golden Gai and look for signs 'No charge' / チャージなし.",
+        "Ask the price before you sit if there is no price on the door."
+      ],
+      "tip": "Pay cash and keep each stop to 1–2 drinks: that is how senbero works."
+    }
+  },
+  {
+    "id": "deal-isetan-depachika-half-price",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Half-price depachika dinner",
+    "titleJa": "伊勢丹新宿店 デパ地下（閉店前の値引き）",
+    "summary": "Department-store food halls cut prices on sushi, bento and deli food before they close at 20:00. At Isetan Shinjuku, 20–30% stickers start near 19:00 and 50% stickers near 19:30.",
+    "why": "Top-quality sushi and bento for a hotel-room dinner at about half price, 8 min walk from Hotel Gracery.",
+    "days": [
+      1,
+      2,
+      5
+    ],
+    "duration": "45 min",
+    "cost": "about ¥1,000–1,500 per person vs ¥2,000–3,000 at full price",
+    "winter": "ok",
+    "winterNote": "Closes 20:00; best time 19:15–19:50. What is cut and how much changes each day. High-end brand counters often do not cut prices. Supermarkets start earlier (18:00–19:00).",
+    "lat": 35.69164,
+    "lon": 139.704602,
+    "photoQuery": "depachika food hall Tokyo",
+    "sources": [
+      "https://yenfinder.com/tips/depachika-money-pillar",
+      "https://tabelog.com/tokyo/A1304/A130401/13173300/dtlrvwlst/B113966640/?type=0",
+      "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12246186807"
+    ],
+    "experience": {
+      "hook": "Isetan sushi and bento at half price, eaten in your hotel room.",
+      "moments": [
+        "Come to the Isetan Shinjuku main building B1 at about 19:15.",
+        "Walk the sushi, bento and deli counters and look for yellow and red stickers.",
+        "Buy at the 半額 (50% off) sticker near 19:30–19:50.",
+        "Walk 8 min back to Hotel Gracery and eat in the room."
+      ],
+      "tip": "Sushi and sashimi get cut last; wait until 19:40 if you want them."
+    }
+  },
+  {
+    "id": "deal-uobei-shibuya",
+    "kind": "addon",
+    "category": "food",
+    "title": "Uobei touch-screen sushi Shibuya",
+    "titleJa": "魚べい 渋谷道玄坂店",
+    "summary": "Uobei is a sushi chain where you order on a screen and the plates come to your seat on a fast rail. Plates start at about ¥150 including tax.",
+    "why": "Cheap and fun sushi 5 min from Shibuya Sky, good for a quick dinner before or after the view.",
+    "days": [
+      5
+    ],
+    "duration": "45 min",
+    "cost": "about ¥1,500–2,000 per person (10–12 plates) vs ¥3,500+ for a sushi-counter set",
+    "winter": "ok",
+    "winterNote": "Prices from Tabelog (from ¥150). There is often a line at dinner; go before 18:00.",
+    "lat": 35.659465,
+    "lon": 139.697799,
+    "photoQuery": "Uobei sushi Shibuya",
+    "sources": [
+      "https://tabelog.com/tokyo/A1303/A130301/13144109/",
+      "https://www.uobei.info/menu/?topics_id=793",
+      "https://map.yahoo.co.jp/v3/place/44CEdpaJDjw/menu"
+    ],
+    "experience": {
+      "hook": "Sushi flies to your seat on a rail, from ¥150 a plate.",
+      "moments": [
+        "Walk up Dogenzaka from Shibuya Station.",
+        "Take a ticket at the machine and wait for your seat number.",
+        "Order on the screen in English, three plates at a time.",
+        "Push the plates into the slot at the end, then pay at the register."
+      ],
+      "tip": "Try the ¥230 kitsune udon or ramen for a warm filler."
+    }
+  },
+  {
+    "id": "deal-hokkaido-kaitenzushi-toriton-hanamaru",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Local kaitenzushi: Toriton and Hanamaru",
+    "titleJa": "回転寿し トリトン / 回転寿司 根室花まる",
+    "summary": "Toriton and Nemuro Hanamaru are the conveyor sushi chains Hokkaido people rate highest. With the car you can go to Toriton in Asahikawa (Kyokushin) and Sapporo (Kita-8 Kosei); Hanamaru is inside Sapporo Station (Stellar Place 6F).",
+    "why": "Hokkaido fish like a sushi bar, for about ¥3,500 per person, not ¥8,000+.",
+    "days": [
+      11,
+      13,
+      14
+    ],
+    "duration": "1–1.5 h",
+    "cost": "about ¥3,000–3,600 per person (one review: 20 plates for 2 = ¥7,200 at Toriton) vs ¥3,500 for only 9 pieces at a counter sushi shop, and ¥8,000+ for omakase",
+    "winter": "ok",
+    "winterNote": "Toriton Kyokushin (Asahikawa) 11:00–22:00, may close early when busy; car park. Hanamaru Stellar Place 11:00–22:00; tickets from 10:00, waits of 2–3 h at dinner; scan the QR code and get a LINE/e-mail call. No reservations at either. Tokyo option: Nemuro Hanamaru KITTE Marunouchi (5F), line up by 10:50.",
+    "lat": 43.733563,
+    "lon": 142.389476,
+    "places": [
+      {
+        "en": "Toriton Kyokushin, Asahikawa (block-level)",
+        "ja": "回転寿し トリトン 旭神店",
+        "lat": 43.733563,
+        "lon": 142.389476
+      },
+      {
+        "en": "Toriton Kita-8 Kosei, Sapporo",
+        "ja": "回転寿し トリトン 北8条光星店",
+        "lat": 43.072777,
+        "lon": 141.361414
+      },
+      {
+        "en": "Nemuro Hanamaru, Stellar Place 6F",
+        "ja": "根室花まる JRタワーステラプレイス店",
+        "lat": 43.068046,
+        "lon": 141.350991
+      },
+      {
+        "en": "Nemuro Hanamaru KITTE Marunouchi",
+        "ja": "根室花まる KITTE丸の内店",
+        "lat": 35.679859,
+        "lon": 139.764781
+      }
+    ],
+    "photoQuery": "kaitenzushi conveyor belt sushi Hokkaido",
+    "sources": [
+      "http://toriton-kita1.jp/shop/",
+      "http://toriton-kita1.jp/shop/kyokushin/",
+      "https://tabelog.com/hokkaido/A0101/A010303/1005628/dtlrvwlst/B504968795/?type=0",
+      "https://www.sushi-hanamaru.com/store/details/s03.html",
+      "https://www.sushi-hanamaru.com/blog/details/post_98.html",
+      "https://maman-days.com/nemurohanamare-kitte-marunouchi-review/",
+      "https://note.com/johnny_sapporo/n/n307e3edbbce3"
+    ],
+    "experience": {
+      "hook": "Hokkaido scallop, salmon roe and sea urchin from a conveyor belt at local prices.",
+      "moments": [
+        "Day 11: drive to Toriton Kyokushin in Asahikawa for dinner; park free at the shop.",
+        "Order the local fish by shouting to the chef or on the tablet; look at the plate colour for price.",
+        "Day 13: on the way into Sapporo, stop at Toriton Kita-8 Kosei (car park), not the crowded station shop.",
+        "Day 14: if you want Hanamaru, take a ticket at Stellar Place at 10:00 and scan the QR code to wait outside."
+      ],
+      "tip": "Go at 16:00–17:00 on a weekday: the lines at 18:00–20:00 are long."
+    }
+  },
+  {
+    "id": "deal-seicomart-hot-chef",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Seicomart Hot Chef meals",
+    "titleJa": "セイコーマート ホットシェフ",
+    "summary": "Seicomart is Hokkaido's own konbini. Its Hot Chef counter cooks katsudon, fried chicken and big onigiri in the shop. A katsudon is ¥669 (Feb 2026).",
+    "why": "A hot, filling meal for under ¥700 near the ski hill, on road trips and at the airport, instead of ski-resort prices.",
+    "days": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "duration": "15 min",
+    "cost": "¥669 katsudon vs about ¥2,000+ for lunch at Niseko Hirafu ski restaurants (typical, check)",
+    "winter": "ok",
+    "winterNote": "Hot Chef is not in every Seicomart and some items sell out by evening. Seicomart shops are on almost all roads you drive (Kutchan town has several). Price rose from ¥637 to ¥669 in one year; expect a little more in 2027.",
+    "lat": 42.901628,
+    "lon": 140.754347,
+    "places": [
+      {
+        "en": "Seicomart Kutchan, Kita-1 Higashi-2",
+        "ja": "セイコーマート 倶知安",
+        "lat": 42.901628,
+        "lon": 140.754347
+      },
+      {
+        "en": "Seicomart Niseko Hirafu",
+        "ja": "セイコーマート ニセコひらふ",
+        "lat": 42.859125,
+        "lon": 140.704898
+      }
+    ],
+    "photoQuery": "Seicomart convenience store Hokkaido",
+    "sources": [
+      "https://www.seicomart.co.jp/instore/lineup.html",
+      "https://www.seicomart.co.jp/instore/hotchef.html",
+      "https://ameblo.jp/e-y-1983/entry-12958128476.html"
+    ],
+    "experience": {
+      "hook": "A hot katsudon from a konbini, cooked in the shop, for ¥669.",
+      "moments": [
+        "Look for the orange Seicomart sign with a HOT CHEF counter.",
+        "Take the katsudon, butadon or fried chicken from the warm shelf.",
+        "Ask them to warm it (温めてください) if it is not warm.",
+        "Eat in the car before the ski lift or on the drive to Otaru."
+      ],
+      "tip": "Buy Seicomart's own-brand drinks and snacks too: they are cheaper than other konbini."
+    }
+  },
+  {
+    "id": "deal-kutchan-yamamoto-shokudo",
+    "kind": "addon",
+    "category": "food",
+    "title": "Local diner in Kutchan",
+    "titleJa": "山本食堂（倶知安）",
+    "summary": "Yamamoto Shokudo is an old family diner in central Kutchan, near Hotel 3M. It serves katsu curry, tempura soba and donburi for about ¥800–1,100, all day with no break.",
+    "why": "Eat where Kutchan locals eat, for half the price of Hirafu ski-village restaurants.",
+    "days": [
+      9,
+      10
+    ],
+    "duration": "45 min",
+    "cost": "¥800–1,100 per dish (katsu curry ¥910) vs about ¥2,000+ for a main at Hirafu restaurants (typical, check)",
+    "winter": "ok",
+    "winterNote": "Mon–Fri 11:00–19:30, Sat/Sun/holidays 11:00–19:00, irregular closed days (phone before). Jan 27–28, 2027 are Wednesday and Thursday. Last order is early: go before 19:00. Position is block-level (Kita-1 Higashi-2).",
+    "lat": 42.9016,
+    "lon": 140.7543,
+    "photoQuery": "Kutchan town Hokkaido",
+    "sources": [
+      "https://umaten.jp/hokkaido/yamamoto-shokudo-kutchan-2/",
+      "https://tabelog.com/hokkaido/C1400/rstLst/teishoku/",
+      "https://retty.me/area/PRE01/PUR46/city/01400/"
+    ],
+    "experience": {
+      "hook": "Hot katsu curry for ¥910 in a Showa-era diner full of locals.",
+      "moments": [
+        "After skiing, drive back to Kutchan town (about 15 min from Hirafu).",
+        "Park and walk to Yamamoto Shokudo at Kita-1 Higashi-2.",
+        "Order katsu curry or the mini tempura-don + soba set.",
+        "Walk to the Seicomart on the same block for breakfast supplies."
+      ],
+      "tip": "Go at about 17:30: the diner closes at 19:00–19:30."
+    }
+  },
+  {
+    "id": "deal-asahikawa-hachiya-ramen",
+    "kind": "addon",
+    "category": "food",
+    "title": "Asahikawa ramen at Hachiya",
+    "titleJa": "ラーメンの蜂屋 五条創業店",
+    "summary": "Hachiya (since 1947) makes Asahikawa shoyu ramen with a pork-and-fish soup and burnt lard on top. A bowl starts at ¥930; it is an 8-minute walk from Dormy Inn Asahikawa.",
+    "why": "A famous local ramen for under ¥1,000, near your hotel on the Asahikawa night.",
+    "days": [
+      11,
+      12
+    ],
+    "duration": "40 min",
+    "cost": "from ¥930 per bowl vs about ¥1,500+ for a sit-down dinner",
+    "winter": "ok",
+    "winterNote": "10:30–19:50. The official site says open every day; the tourism site says closed Thursday: phone 0166-22-3343. Jan 29 is Friday, Jan 30 Saturday. You can ask for less burnt lard (少なめ).",
+    "lat": 43.770077,
+    "lon": 142.360868,
+    "photoQuery": "Asahikawa ramen",
+    "sources": [
+      "https://hachiya88.storeinfo.jp/",
+      "https://taisetsu-kamui.jp/gourmet/6222"
+    ],
+    "experience": {
+      "hook": "Smoky burnt-lard shoyu ramen, 8 min on foot from your hotel.",
+      "moments": [
+        "Walk from Dormy Inn Asahikawa to 5-jo 7-chome.",
+        "Order しょうゆラーメン; say ラード少なめ if you want it lighter.",
+        "Finish before 19:50 last service.",
+        "Back at the hotel, still take the free yonaki soba if you have room."
+      ],
+      "tip": "Go at lunch on Jan 30 if you arrive late on Jan 29."
+    }
+  },
+  {
+    "id": "deal-otaru-sakaimachi-free-tastings",
+    "kind": "addon",
+    "category": "deal",
+    "title": "Free sweets tastings in Otaru",
+    "titleJa": "小樽 堺町通り 試食（ルタオ本店・北菓楼 小樽本館）",
+    "summary": "On Sakaimachi street, LeTAO's main shop gives free samples of its Double Fromage cheesecake, and Kitakaro next door gives free samples of okaki rice crackers and baumkuchen.",
+    "why": "Taste the famous Hokkaido sweets free before you choose one box of gifts.",
+    "days": [
+      11
+    ],
+    "duration": "1 h",
+    "cost": "¥0 for samples vs about ¥860+ for a LeTAO cafe cake set",
+    "winter": "ok",
+    "winterNote": "LeTAO main shop 9:00–18:00 (can change by season); Kitakaro Otaru 10:00–18:00. Samples depend on the day and how busy the shop is. Sakaimachi street is icy in January: wear shoes with grip.",
+    "lat": 43.191307,
+    "lon": 141.007439,
+    "places": [
+      {
+        "en": "LeTAO main shop",
+        "ja": "小樽洋菓子舗ルタオ本店",
+        "lat": 43.191307,
+        "lon": 141.007439
+      },
+      {
+        "en": "Kitakaro Otaru",
+        "ja": "北菓楼 小樽本館",
+        "lat": 43.191751,
+        "lon": 141.007419
+      }
+    ],
+    "photoQuery": "LeTAO Otaru Sakaimachi",
+    "sources": [
+      "https://www.letao-brand.jp/shop/letao/",
+      "https://www.gltjp.com/ja/directory/review/14569/",
+      "https://www.hotpepper.jp/strJ000806860/",
+      "https://ameblo.jp/tabi-iroiro/entry-12853104814.html"
+    ],
+    "experience": {
+      "hook": "Free cheesecake and baumkuchen samples along a snowy old street.",
+      "moments": [
+        "Park near Minami-Otaru and walk to the Merchen crossroads.",
+        "Taste Double Fromage at LeTAO main shop (1F).",
+        "Walk next door to Kitakaro for okaki and baumkuchen samples.",
+        "Buy one box of your favourite as a gift."
+      ],
+      "tip": "Go before 11:00: fewer tour buses and more samples out."
+    }
+  }
+]

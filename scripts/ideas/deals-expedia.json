@@ -1,0 +1,422 @@
+[
+ {
+  "id": "exp-knot-tokyo-shinjuku",
+  "kind": "swap",
+  "category": "deal",
+  "title": "Knot Tokyo Shinjuku, member twin",
+  "titleJa": "ホテルノット東京新宿",
+  "summary": "Saves about CA$397 (~¥43,000) for the two of you over 3 nights and keeps you in Shinjuku.",
+  "why": "Saves about CA$397 (~¥43,000) for the two of you over 3 nights and keeps you in Shinjuku.",
+  "days": [
+   1,
+   2,
+   3
+  ],
+  "duration": "3 nights",
+  "cost": "CA$429 total for 3 nights Jan 19–22 (member price, ~CA$130/night before tax) vs Hotel Gracery Shinjuku twin CA$826 total (CA$228/night) on Expedia",
+  "winter": "ok",
+  "winterNote": "Twin room, member price shown when signed in, free cancellation until Jan 17, 2027. Gracery single-room-type rate was CA$184/night (CA$666 total) but that is not twin. Location approximate (Nishi-Shinjuku, ~10 min walk to Shinjuku Station). Jan 23 night not priced here; search it the same way. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; CA$1 is about ¥108.",
+  "lat": 35.6919,
+  "lon": 139.6927,
+  "photoQuery": "Knot Tokyo Shinjuku hotel",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Shinjuku%2C%20Tokyo&startDate=2027-01-19&endDate=2027-01-22&adults=2&rooms=1"
+  ],
+  "experience": {
+   "hook": "Same Shinjuku base for half the Gracery price.",
+   "moments": [
+    "Sign in to Expedia (One Key) so member prices show",
+    "Search Shinjuku, Jan 19–22, 2 adults, 1 room",
+    "Open Knot Tokyo Shinjuku and pick the twin room with free cancellation",
+    "Check the total with tax before you pay (CA$429)"
+   ],
+   "tip": "Book the refundable rate now; re-check in December and rebook if the price drops."
+  }
+ },
+ {
+  "id": "exp-route-inn-kawaguchiko",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Route-Inn Kawaguchiko with breakfast",
+  "titleJa": "ホテルルートイン河口湖",
+  "summary": "Same planned hotel, about CA$40–95 (¥4,500–10,000) cheaper than the plan estimate, and breakfast is included.",
+  "why": "Same planned hotel, about CA$40–95 (¥4,500–10,000) cheaper than the plan estimate, and breakfast is included.",
+  "days": [
+   4
+  ],
+  "duration": "1 night",
+  "cost": "CA$99/night, CA$109 total with tax and breakfast vs plan ¥16,000–22,000 (~CA$150–205)",
+  "winter": "ok",
+  "winterNote": "Jan 22, 2027, 1 night. Location approximate. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; CA$1 is about ¥108.",
+  "lat": 35.4979,
+  "lon": 138.7626,
+  "photoQuery": "Hotel Route-Inn Kawaguchiko",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Fujikawaguchiko%2C%20Yamanashi%2C%20Japan&startDate=2027-01-22&endDate=2027-01-23&adults=2&rooms=1"
+  ],
+  "experience": {
+   "hook": "Your planned Kawaguchiko hotel, cheaper on Expedia.",
+   "moments": [
+    "Search Fujikawaguchiko, Jan 22–23, 2 adults",
+    "Type Route Inn in 'Search by property name'",
+    "Choose the twin with breakfast",
+    "Total should be about CA$109"
+   ],
+   "tip": "Compare with the Route-Inn own site once, but Expedia was lower than the plan estimate."
+  }
+ },
+ {
+  "id": "exp-gokan-no-yu-tsuruya",
+  "kind": "swap",
+  "category": "deal",
+  "title": "Gokan no Yu Tsuruya, Zao ryokan",
+  "titleJa": "五感の湯 つるや",
+  "summary": "Rated 9.4 (250 reviews), 2 min walk to Zao Onsen ski area and 6 min to the Chuo ropeway; half-board price is inside the plan range.",
+  "why": "Rated 9.4 (250 reviews), 2 min walk to Zao Onsen ski area and 6 min to the Chuo ropeway; half-board price is inside the plan range.",
+  "days": [
+   6
+  ],
+  "duration": "1 night",
+  "cost": "CA$414 room only (CA$460 total, was CA$432) or half board (dinner+breakfast) +CA$155 ≈ CA$615 for 2; twin 'Japanese Modern' half board CA$614 (CA$683 total) vs plan ¥20,000–30,000 pp (~CA$370–555 for 2)",
+  "winter": "ok",
+  "winterNote": "Jan 24, 2027. Fully refundable until Jan 17 (tatami room) or Jan 3 (twin). Other Zao ryokan on Expedia: Zao Onsen Levert Zao CA$295 (CA$332 total, room only), Omiya Ryokan CA$406 (CA$499), Meitoya So CA$412 (CA$501). Address Zao-onsen 710; location approximate. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; CA$1 is about ¥108.",
+  "lat": 38.167,
+  "lon": 140.397,
+  "photoQuery": "Zao Onsen Tsuruya ryokan",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Zaoonsen%2C%20Yamagata&startDate=2027-01-24&endDate=2027-01-25&adults=2&rooms=1"
+  ],
+  "experience": {
+   "hook": "A 9.4 onsen ryokan steps from the Zao lifts at the plan price.",
+   "moments": [
+    "Search Zao Onsen, Jan 24–25, 2 adults",
+    "Open Gokan no Yu Tsuruya",
+    "Pick the room, then 'Half board' in Extras",
+    "Check the total with tax (about CA$615–683)"
+   ],
+   "tip": "Half board on Expedia is still refundable; that is rare for ryokan."
+  }
+ },
+ {
+  "id": "exp-dormy-inn-sendai-ekimae",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Dormy Inn Sendai Ekimae on Expedia",
+  "titleJa": "ドーミーイン仙台駅前",
+  "summary": "Same planned hotel, about CA$15–70 cheaper than the plan estimate, free cancellation, onsen bath and late-night ramen.",
+  "why": "Same planned hotel, about CA$15–70 cheaper than the plan estimate, free cancellation, onsen bath and late-night ramen.",
+  "days": [
+   7
+  ],
+  "duration": "1 night",
+  "cost": "CA$104 (CA$116 total, was CA$143) vs plan ¥14,000–20,000 (~CA$130–185)",
+  "winter": "ok",
+  "winterNote": "Jan 25, 2027. Alternatives: Dormy Inn Sendai Annex CA$106 (CA$118), Onyado Nono Sendai CA$188 (CA$208, 9.4). Location approximate. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; CA$1 is about ¥108.",
+  "lat": 38.2605,
+  "lon": 140.879,
+  "photoQuery": "Dormy Inn Sendai Ekimae",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Sendai%20Station&startDate=2027-01-25&endDate=2027-01-26&adults=2&rooms=1"
+  ],
+  "experience": {
+   "hook": "Planned Sendai hotel, under the plan price.",
+   "moments": [
+    "Search Sendai Station, Jan 25–26, 2 adults",
+    "Tick the Dormy Inn brand filter",
+    "Pick Dormy Inn Sendai Ekimae, refundable rate",
+    "Total about CA$116"
+   ],
+   "tip": "Expedia shows a sale strike-through; book before the sale ends."
+  }
+ },
+ {
+  "id": "exp-jr-inn-hakodate",
+  "kind": "swap",
+  "category": "deal",
+  "title": "JR Inn Hakodate instead of La Vista",
+  "titleJa": "JRイン函館",
+  "summary": "Saves CA$85 (~¥9,000) for the night; rated 9.4, next to Hakodate Station with a top-floor bath.",
+  "why": "Saves CA$85 (~¥9,000) for the night; rated 9.4, next to Hakodate Station with a top-floor bath.",
+  "days": [
+   8
+  ],
+  "duration": "1 night",
+  "cost": "CA$104 (CA$115 total, sale CA$50 off) vs La Vista Hakodate Bay CA$161 (CA$200 total) on Expedia",
+  "winter": "ok",
+  "winterNote": "Jan 26, 2027, fully refundable. Other options: Hotel Global View Hakodate CA$98 (CA$122), La'gent Stay Hakodate Ekimae CA$114 (CA$126, 9.0). La Vista has the famous breakfast; JR Inn does not include it. Location approximate. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; CA$1 is about ¥108.",
+  "lat": 41.7735,
+  "lon": 140.727,
+  "photoQuery": "JR Inn Hakodate",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Hakodate%2C%20Hokkaido&startDate=2027-01-26&endDate=2027-01-27&adults=2&rooms=1"
+  ],
+  "experience": {
+   "hook": "Half the La Vista price, by the station.",
+   "moments": [
+    "Search Hakodate, Jan 26–27, 2 adults",
+    "Find JR Inn Hakodate (sale badge)",
+    "Pick a twin with free cancellation",
+    "Total about CA$115"
+   ],
+   "tip": "If you want the La Vista breakfast, keep La Vista: CA$200 is still inside the plan range."
+  }
+ },
+ {
+  "id": "exp-kutchan-kanronomori",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Niseko on Expedia: no bargain",
+  "titleJa": "ホテル甘露の森",
+  "summary": "No saving: Hotel 3M Kutchan is not on Expedia and the cheapest 8+ rated Niseko places cost more. Keep booking Hotel 3M direct.",
+  "why": "No saving: Hotel 3M Kutchan is not on Expedia and the cheapest 8+ rated Niseko places cost more. Keep booking Hotel 3M direct.",
+  "days": [
+   9,
+   10
+  ],
+  "duration": "2 nights",
+  "cost": "Hotel Kanronomori CA$194/night (CA$477 for 2 nights, 8.6, onsen) vs plan Hotel 3M ~¥8,500 pp (~CA$155/night for 2)",
+  "winter": "ok",
+  "winterNote": "Jan 27–29, 2027. Other results: Iwanai Kogen Hotel CA$187 (CA$413 total), Stay Resort Niseko CA$211 (CA$478), Niseko Freedom Inn CA$228 (CA$567). Location approximate. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; CA$1 is about ¥108.",
+  "lat": 42.84,
+  "lon": 140.665,
+  "photoQuery": "Hotel Kanronomori Niseko",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Kutchan%2C%20Hokkaido&startDate=2027-01-27&endDate=2027-01-29&adults=2&rooms=1"
+  ],
+  "experience": {
+   "hook": "Expedia is expensive in Niseko in peak ski season.",
+   "moments": [
+    "Search Kutchan, Jan 27–29",
+    "Sort by price, guest rating 8+",
+    "Compare with Hotel 3M direct price",
+    "Book Hotel 3M direct"
+   ],
+   "tip": "Peak-season Niseko: book direct early."
+  }
+ },
+ {
+  "id": "exp-jr-inn-asahikawa",
+  "kind": "swap",
+  "category": "deal",
+  "title": "JR Inn Asahikawa instead of Dormy Inn",
+  "titleJa": "JRイン旭川",
+  "summary": "Saves CA$36; rated 9.2, connected to Asahikawa Station.",
+  "why": "Saves CA$36; rated 9.2, connected to Asahikawa Station.",
+  "days": [
+   11
+  ],
+  "duration": "1 night",
+  "cost": "CA$156 (CA$189 total, sale CA$52 off) vs Dormy Inn Asahikawa CA$204 (CA$225 total) on Expedia",
+  "winter": "ok",
+  "winterNote": "Jan 29, 2027, fully refundable. Cheaper: Kuretake Inn Asahikawa CA$114 (CA$138, breakfast included, 8.4), Premier Hotel Cabin Asahikawa CA$120 (CA$138, 8.4); Route-Inn Grand Asahikawa Ekimae CA$170 (CA$194, onsen, 9.0). Location approximate. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; CA$1 is about ¥108.",
+  "lat": 43.7626,
+  "lon": 142.3585,
+  "photoQuery": "JR Inn Asahikawa",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Asahikawa%2C%20Hokkaido&startDate=2027-01-29&endDate=2027-01-30&adults=2&rooms=1"
+  ],
+  "experience": {
+   "hook": "Cheaper, higher rated, right at the station.",
+   "moments": [
+    "Search Asahikawa, Jan 29–30, 2 adults",
+    "Find JR Inn Asahikawa",
+    "Pick twin, free cancellation",
+    "Total about CA$189"
+   ],
+   "tip": "For the lowest cost with breakfast, take Kuretake Inn at CA$138."
+  }
+ },
+ {
+  "id": "exp-natulux-furano",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Natulux Furano member discount",
+  "titleJa": "ナチュラクスホテル",
+  "summary": "Planned hotel shows CA$51 off; switching to Itsuka Furano e saves another CA$73.",
+  "why": "Planned hotel shows CA$51 off; switching to Itsuka Furano e saves another CA$73.",
+  "days": [
+   12
+  ],
+  "duration": "1 night",
+  "cost": "CA$260 (CA$318 total, CA$51 off) for the planned hotel; alternatives Itsuka Furano e CA$202 (CA$245, 9.6) or Hostel Tomar CA$200 (CA$229, 8.8)",
+  "winter": "ok",
+  "winterNote": "Jan 30, 2027. La Vista Furano Hills (onsen, 9.2) CA$364 (CA$407). Natulux location approximate (near Furano Station). Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; CA$1 is about ¥108.",
+  "lat": 43.342,
+  "lon": 142.383,
+  "photoQuery": "Natulux Hotel Furano",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Furano%2C%20Hokkaido&startDate=2027-01-30&endDate=2027-01-31&adults=2&rooms=1"
+  ],
+  "experience": {
+   "hook": "Planned Furano hotel with a discount.",
+   "moments": [
+    "Search Furano, Jan 30–31, 2 adults",
+    "Open Furano Natulux Hotel",
+    "Check the twin total (CA$318)",
+    "Compare with Itsuka Furano e"
+   ],
+   "tip": "Natulux on Expedia was not refundable in the list; check the rate rules."
+  }
+ },
+ {
+  "id": "exp-monterey-edelhof-sapporo",
+  "kind": "swap",
+  "category": "deal",
+  "title": "Monterey Edelhof Sapporo, onsen",
+  "titleJa": "ホテルモントレエーデルホフ札幌",
+  "summary": "Saves CA$47 on Jan 31 and CA$144 on Feb 1 (Aoki alone); rated 9.2, natural hot-spring bath, 7 min walk to Sapporo Station.",
+  "why": "Saves CA$47 on Jan 31 and CA$144 on Feb 1 (Aoki alone); rated 9.2, natural hot-spring bath, 7 min walk to Sapporo Station.",
+  "days": [
+   13,
+   14
+  ],
+  "duration": "2 nights",
+  "cost": "Jan 31: CA$140 (CA$184 total) vs Dormy Inn Premium Sapporo CA$208 (CA$231); Feb 1, 1 adult: CA$119 (CA$156) vs Dormy Inn Sapporo Annex CA$270 (CA$300)",
+  "winter": "ok",
+  "winterNote": "Jan 31–Feb 2, 2027, fully refundable. Also Tokyu Stay Sapporo CA$183 (CA$202, washer in room). Location approximate. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; CA$1 is about ¥108.",
+  "lat": 43.0655,
+  "lon": 141.3515,
+  "photoQuery": "Hotel Monterey Edelhof Sapporo",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Sapporo%2C%20Hokkaido&startDate=2027-01-31&endDate=2027-02-01&adults=2&rooms=1"
+  ],
+  "experience": {
+   "hook": "Onsen hotel by the station for less than Dormy Inn.",
+   "moments": [
+    "Search Sapporo, Jan 31–Feb 1, 2 adults, and Feb 1–2, 1 adult",
+    "Open Hotel Monterey Edelhof Sapporo",
+    "Pick refundable rate",
+    "Totals about CA$184 and CA$156"
+   ],
+   "tip": "Stay both nights in the same hotel so Aoki does not move bags on Feb 1."
+  }
+ },
+ {
+  "id": "exp-narita-marroad",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Narita airport hotels, 1 adult",
+  "titleJa": "成田空港周辺ホテル",
+  "summary": "Planned Toyoko Inn is already cheap on Expedia; Marroad saves CA$4, Hotel Nikko Narita (9.2) costs CA$90 total for a better room.",
+  "why": "Planned Toyoko Inn is already cheap on Expedia; Marroad saves CA$4, Hotel Nikko Narita (9.2) costs CA$90 total for a better room.",
+  "days": [
+   14
+  ],
+  "duration": "1 night",
+  "cost": "Toyoko Inn Narita Airport Honkan CA$56 (CA$62 total, breakfast, shuttle) vs cheaper Marroad International CA$47 (CA$58, 8.8) or 9h nine hours Narita CA$44 (CA$54)",
+  "winter": "ok",
+  "winterNote": "Feb 1, 2027, 1 adult, fully refundable. Toyoko Inn location approximate. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; CA$1 is about ¥108.",
+  "lat": 35.773,
+  "lon": 140.362,
+  "photoQuery": "Toyoko Inn Narita Airport",
+  "sources": [
+   "https://www.expedia.ca/Hotel-Search?destination=Narita%20International%20Airport%20(NRT)&startDate=2027-02-01&endDate=2027-02-02&adults=1&rooms=1"
+  ],
+  "experience": {
+   "hook": "Pegasis's last night, under CA$65.",
+   "moments": [
+    "Search Narita Airport, Feb 1–2, 1 adult",
+    "Choose Toyoko Inn Honkan or Shinkan (both CA$62 total)",
+    "Check shuttle times for the morning flight"
+   ],
+   "tip": "Toyoko Inn includes breakfast and a free airport shuttle."
+  }
+ },
+ {
+  "id": "exp-daikoku-jdm-tour",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Daikoku JDM car meet tour",
+  "titleJa": "大黒PA JDMツアー",
+  "summary": "Pegasis cannot rent JDM cars; these tours drive you to Daikoku PA in a JDM car with free cancellation.",
+  "why": "Pegasis cannot rent JDM cars; these tours drive you to Daikoku PA in a JDM car with free cancellation.",
+  "days": [
+   3
+  ],
+  "duration": "2–5 h",
+  "cost": "CA$180 pp (JDM Car meetup Daikoku tour with hotel pickup, 4 h 30 min) or CA$220 pp (Daikoku drift JDM carmeet in R34/Supra/Silvia, 10/10, 100 reviews)",
+  "winter": "ok",
+  "winterNote": "Evening tours, free cancellation. Also 'Daikoku Parking and Tokyo Evening Tour with English Driver' CA$207. Car meets depend on police closures of the PA. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; CA$1 is about ¥108.",
+  "lat": 35.4617,
+  "lon": 139.6818,
+  "photoQuery": "Daikoku Parking Area",
+  "sources": [
+   "https://www.expedia.ca/things-to-do/search?location=Shibuya%2C%20Tokyo&slimSearchKeyword=Shibuya%20Sky&startDate=2027-01-23&endDate=2027-01-23"
+  ],
+  "experience": {
+   "hook": "Ride in a real JDM car to Daikoku PA.",
+   "moments": [
+    "Open Expedia Things to do, Tokyo",
+    "Search 'Daikoku'",
+    "Pick a tour with free cancellation",
+    "Book for Jan 21 evening"
+   ],
+   "tip": "Compare with the same tour on the operator site; Expedia prices include tax."
+  }
+ },
+ {
+  "id": "exp-patlabor-ingram",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Patlabor INGRAM control experience",
+  "titleJa": "パトレイバー イングラム操縦体験",
+  "summary": "Cheap anime extra: control a Patlabor INGRAM robot; no official-price comparison found.",
+  "why": "Cheap anime extra: control a Patlabor INGRAM robot; no official-price comparison found.",
+  "days": [
+   2
+  ],
+  "duration": "2–5 h",
+  "cost": "CA$45 pp (Patlabor INGRAM hand control & Mecharobot battle, 50 min, 9.0, 19 reviews, free cancellation)",
+  "winter": "ok",
+  "winterNote": "Found under the teamLab search in Tokyo things to do. Location in Tokyo not shown on list card; coordinates are Tokyo centre (approximate). teamLab Planets on Expedia is CA$79 pp, more than the official ~¥4,000, so book teamLab direct. No plain Shibuya Sky ticket on Expedia; tours with Shibuya Sky cost CA$153–405, so book Shibuya Sky direct. Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; CA$1 is about ¥108.",
+  "lat": 35.6812,
+  "lon": 139.7671,
+  "photoQuery": "Patlabor Ingram",
+  "sources": [
+   "https://www.expedia.ca/things-to-do/search?location=Tokyo%2C%20Japan&slimSearchKeyword=teamLab&startDate=2027-01-20&endDate=2027-01-23"
+  ],
+  "experience": {
+   "hook": "Pilot a Patlabor for CA$45.",
+   "moments": [
+    "Open Expedia Things to do, Tokyo",
+    "Search 'Patlabor'",
+    "Check the address and time slots",
+    "Book with free cancellation"
+   ],
+   "tip": "Buy teamLab and Shibuya Sky on the official sites; Expedia is more expensive for those."
+  }
+ },
+ {
+  "id": "exp-zao-snow-monster-hike",
+  "kind": "addon",
+  "category": "deal",
+  "title": "Zao snow monster snowshoe hike",
+  "titleJa": "蔵王 樹氷スノーシューツアー",
+  "summary": "Guided snowshoe walk to the snow monsters; Expedia has no ropeway-only ticket, so ropeway and lift passes must be bought at Zao.",
+  "why": "Guided snowshoe walk to the snow monsters; Expedia has no ropeway-only ticket, so ropeway and lift passes must be bought at Zao.",
+  "days": [
+   6,
+   7
+  ],
+  "duration": "2–5 h",
+  "cost": "CA$158 pp (Yamagata: Zao Snow Monsters snowshoe hiking with local guide, 4 h, 10/10, free cancellation)",
+  "winter": "ok",
+  "winterNote": "Late January is peak snow-monster season. No Niseko lift pass or Zao ropeway ticket is sold on Expedia. Also on Expedia: Anniversary Sale, members save up to 30% on selected hotels, book by Oct 7, 2026; 'stay + car' bundle saves up to CA$260 (shown in Hakodate/Niseko searches). Prices seen on expedia.ca on 2026-09-25 while signed in (One Key Blue tier), CAD, 2 adults 1 room unless noted; CA$1 is about ¥108.",
+  "lat": 38.1685,
+  "lon": 140.419,
+  "photoQuery": "Zao juhyo snow monsters",
+  "sources": [
+   "https://www.expedia.ca/things-to-do/search?location=Yamagata%2C%20Japan&slimSearchKeyword=Zao&startDate=2027-01-24&endDate=2027-01-25"
+  ],
+  "experience": {
+   "hook": "Walk among the snow monsters with a guide.",
+   "moments": [
+    "Open Expedia Things to do, Yamagata",
+    "Search 'Zao'",
+    "Pick the snowshoe hike",
+    "Book with free cancellation"
+   ],
+   "tip": "Aoki is a beginner skier; this lets her see the snow monsters without skiing."
+  }
+ }
+]

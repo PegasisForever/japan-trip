@@ -1,0 +1,542 @@
+[
+  {
+    "id": "deal-tax-free-refund-2027",
+    "title": "New tax-free refund at departure",
+    "titleJa": "免税 リファンド方式（出国時に返金）",
+    "summary": "From 1 Nov 2026 shops charge the full price with 10% tax, and you get the tax back after a customs check at the airport. Show your passport at each shop, keep items unopened, and scan your passport at the customs kiosk before you check in your bags.",
+    "why": "Both of you shop in Tokyo and Hokkaido; if you do not know the new steps you lose the 10% at the airport.",
+    "days": [
+      2,
+      5,
+      14,
+      15
+    ],
+    "duration": "10 min per shop, 5–15 min at the airport",
+    "cost": "10% back on ¥5,000+ (before tax) per shop per day, vs 0% if you miss the customs check",
+    "winterNote": "Rule starts 1 Nov 2026, so it applies to the whole trip. Customs check must be BEFORE bag drop at Narita (Pegasis) and New Chitose (Aoki); both airports also accept Visit Japan Web. Leave Japan within 90 days of purchase. If one item of a receipt is missing or opened, the whole receipt gets no refund. Refund goes to card, app or cash, depending on the shop; some shops may keep a small fee.",
+    "lat": 35.77587,
+    "lon": 140.39331,
+    "places": [
+      {
+        "en": "Narita Airport",
+        "ja": "成田国際空港",
+        "lat": 35.77587,
+        "lon": 140.39331
+      },
+      {
+        "en": "New Chitose Airport international terminal",
+        "ja": "新千歳空港 国際線ターミナル",
+        "lat": 42.78622,
+        "lon": 141.67633
+      }
+    ],
+    "photoQuery": "Narita International Airport departure hall",
+    "sources": [
+      "https://matcha-jp.com/jp/27460",
+      "https://www.gltjp.com/ja/article/item/21542/",
+      "https://japan.storm.mg/articles/1166190",
+      "https://livejapan.com/public/operation/taxfree/ja.html",
+      "https://www.mlit.go.jp/kankocho/tax-free/page01_000001_00021.html"
+    ],
+    "experience": {
+      "hook": "Pay full price now, get 10% back at the airport, if you keep every item.",
+      "moments": [
+        "Show your passport at the till and choose how you want the refund (card, app or cash).",
+        "Keep all items of each tax-free receipt together and unopened until you fly.",
+        "At the airport, go to the customs kiosk BEFORE the airline counter and scan your passport.",
+        "If the screen is green, check in; if red, show the items to the customs officer.",
+        "Wait for the refund on your card or app; the time depends on the shop."
+      ],
+      "tip": "Arrive 30 min earlier than normal on Feb 2; a red result after bag drop means no refund."
+    },
+    "kind": "addon",
+    "category": "deal",
+    "winter": "ok"
+  },
+  {
+    "id": "deal-donki-coupon-stack",
+    "title": "Don Quijote coupon plus tax-free",
+    "titleJa": "ドン・キホーテ 訪日客クーポン＋免税",
+    "summary": "Show the free Don Quijote tourist coupon on your phone before you pay, together with your passport. You get 5% off from ¥10,000 and 7% off from ¥30,000 (before tax), on top of the 10% tax refund.",
+    "why": "Snacks, cosmetics and anime goods for friends at home in one late-night shop near your Shinjuku hotel.",
+    "days": [
+      2,
+      5
+    ],
+    "duration": "1 h",
+    "cost": "¥30,000 basket: about ¥25,300 after 7% coupon and 10% refund, vs ¥33,000 with tax",
+    "winterNote": "Coupon is on the Don Quijote/LIVE JAPAN coupon page (Sept 2026 version, about 600 shops). Show it BEFORE the cashier starts. Alcohol, tobacco, game consoles and items over ¥100,000 do not count toward the minimum. From Nov 2026 the 10% comes back at the airport, not at the till. Check the coupon again in January 2027.",
+    "lat": 35.69375,
+    "lon": 139.7017,
+    "places": [
+      {
+        "en": "Don Quijote Shinjuku Kabukicho",
+        "ja": "ドン・キホーテ 新宿歌舞伎町店",
+        "lat": 35.69375,
+        "lon": 139.7017
+      }
+    ],
+    "photoQuery": "Don Quijote Shinjuku store",
+    "sources": [
+      "https://livejapan.com/en/article-a0005736/",
+      "https://www.donki.com/en/tax_free/",
+      "https://matcha-jp.com/en/coupon/11"
+    ],
+    "experience": {
+      "hook": "Stack up to 7% coupon on the 10% tax refund at the 24-hour chaos store.",
+      "moments": [
+        "Open the coupon page on your phone before you go in.",
+        "Put both baskets on one receipt to pass ¥10,000 or ¥30,000 before tax.",
+        "Show passport and coupon at the tax-free counter before the scan starts.",
+        "Keep the tax-free bag sealed until the airport."
+      ],
+      "tip": "Buy on your last Tokyo evening so the unopened items go straight into your suitcase."
+    },
+    "kind": "addon",
+    "category": "deal",
+    "winter": "ok"
+  },
+  {
+    "id": "deal-bic-matsukiyo-coupons",
+    "title": "Bic Camera and Matsukiyo coupons",
+    "titleJa": "ビックカメラ・マツモトキヨシ 免税クーポン",
+    "summary": "Bic Camera gives tourists 7% off electronics, cameras and toys, and 5% off cosmetics, on top of tax-free, from ¥5,000 before tax. Matsumoto Kiyoshi and Cocokara Fine give 3% off from ¥10,000, up to 7% for larger baskets.",
+    "why": "Cameras, gadgets and Japanese medicine or skin care are cheaper here than in Canada or China, and the coupon adds to the refund.",
+    "days": [
+      2,
+      5,
+      14
+    ],
+    "duration": "30–60 min",
+    "cost": "¥50,000 camera: about ¥46,500 after 7% coupon, then ¥5,000 tax back, vs ¥55,000 with tax",
+    "winterNote": "The Bic Camera coupon shown now is valid until 31 Oct 2026; a new one is usually issued, so check before January. Not for Apple, game consoles, Grand Seiko and some other brands. The Matsukiyo coupon is valid to 31 Mar 2027. Also valid at Air Bic Camera in Narita.",
+    "lat": 35.69203,
+    "lon": 139.70185,
+    "places": [
+      {
+        "en": "Bic Camera Shinjuku East Exit",
+        "ja": "ビックカメラ 新宿東口店",
+        "lat": 35.69203,
+        "lon": 139.70185
+      }
+    ],
+    "photoQuery": "Bic Camera Shinjuku",
+    "sources": [
+      "https://livejapan.com/public/operation/coupon/biccamera/en.html",
+      "https://sakurainjapan.com/matsumoto-kiyoshi-coupon/",
+      "https://japaijapan.com/www/coupon/",
+      "https://www.kkday.com/ja/product/147676-cocokara-fine-duty-free-coupon-japan"
+    ],
+    "experience": {
+      "hook": "Two free phone coupons turn the 10% tax refund into up to 17% off.",
+      "moments": [
+        "Save both coupon pages on your phone before the trip.",
+        "Show the coupon and passport at the tax-free till before you pay.",
+        "Buy all drugstore items in one shop on one day to pass ¥10,000.",
+        "Keep the receipt with the items for the airport kiosk."
+      ],
+      "tip": "Ask the store for its tax-free counter; not every Matsukiyo branch does tax-free."
+    },
+    "kind": "addon",
+    "category": "deal",
+    "winter": "ok"
+  },
+  {
+    "id": "deal-aoki-alipay-unionpay",
+    "title": "Alipay and UnionPay discounts for Aoki",
+    "titleJa": "支付宝 跨境消费 随机立减・銀聯 ドンキ割引",
+    "summary": "Aoki can pay with Alipay or WeChat Pay at the bank rate with no extra fee, and Alipay often has a random discount for small payments in Japan. UnionPay cards also get Don Quijote discounts (¥500 off ¥10,000, ¥4,000 off ¥40,000 in the Oct–Dec 2026 campaign).",
+    "why": "Aoki pays in RMB with no card fee, and small konbini payments can get random money back.",
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "duration": "every payment",
+    "cost": "0% FX fee vs 1–1.5% on a Visa/Mastercard from China; UnionPay Donki: ¥4,000 off a ¥40,000 basket (10%)",
+    "winterNote": "Alipay random discount: search 跨境消费 in the app to claim it; the July 2026 campaign gave about ¥34 back per payment, max 10 payments, and ended 31 Jul, so check for a January 2027 one. The UnionPay Donki campaign runs 1 Oct–31 Dec 2026, one use per day; watch for a new one. Some Japanese shops stopped Alipay/WeChat Pay in 2026, so carry a UnionPay card and some cash too. Seven Bank ATMs take UnionPay 00:10–23:50.",
+    "lat": 35.69375,
+    "lon": 139.7017,
+    "photoQuery": "Alipay payment Japan convenience store",
+    "sources": [
+      "https://japan.asoventure.jp/cn/article/china-tourist-japan-payment-guide-2026",
+      "https://www.threads.com/@chac9chac9/post/DarW8FqiXOi/",
+      "https://m.unionpayintl.com/cardholderServ/serviceCenter/merchant/12179529643?type=1",
+      "https://www.ntdtv.com/gb/2026/02/02/a104062570.html",
+      "https://www.sevenbank.co.jp/intlcard/card2.html"
+    ],
+    "experience": {
+      "hook": "Pay with Alipay at konbini and let random discounts cut small bills.",
+      "moments": [
+        "Before the trip, open Alipay, search 跨境消费, and claim any Japan coupon.",
+        "Use Alipay for small konbini buys, where the random discount is a bigger share.",
+        "Use the UnionPay card at Don Quijote when a UnionPay campaign runs.",
+        "Carry ¥20,000–30,000 cash for small ramen shops and shrine offerings."
+      ],
+      "tip": "Always pay in JPY; if a terminal offers RMB, say no, the shop rate is worse."
+    },
+    "kind": "addon",
+    "category": "deal",
+    "winter": "ok"
+  },
+  {
+    "id": "deal-pegasis-no-fx-card",
+    "title": "No-FX card and smart ATM use",
+    "titleJa": "海外手数料なしカード・セブン銀行ATM",
+    "summary": "Pegasis pays with a Canadian card that has no 2.5% foreign fee, always chooses yen on the screen, and takes cash from 7-Eleven (Seven Bank) ATMs in few large amounts.",
+    "why": "On a trip of about ¥400,000 per person, a normal Canadian card costs about ¥10,000 in hidden fees.",
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "duration": "set up before the trip",
+    "cost": "0% vs 2.5% FX fee (saves about ¥2,500 per ¥100,000); Seven Bank ATM ¥110 (to ¥10,000) or ¥220 (more)",
+    "winterNote": "No-FX cards in Canada: Home Trust Preferred Visa ($0 fee), Scotiabank Passport Visa Infinite ($150, lounge visits), Wealthsimple Visa Infinite ($240). Apply in autumn 2026, the card needs weeks to arrive. Wise card: free ATM withdrawals up to CA$100 per month, then CA$2.69 + 2.69%, so it is not good for big cash. Seven Bank max ¥100,000 per withdrawal. Some rural Hokkaido shops and onsen take cash only.",
+    "lat": 35.69231,
+    "lon": 139.70139,
+    "places": [
+      {
+        "en": "Seven Bank ATM, Shinjuku Station",
+        "ja": "セブン銀行ATM 新宿駅",
+        "lat": 35.69231,
+        "lon": 139.70139
+      }
+    ],
+    "photoQuery": "Seven Bank ATM Japan",
+    "sources": [
+      "https://www.ratehub.ca/blog/credit-cards-with-no-foreign-exchange-fees/",
+      "https://wise.com/ca/pricing/card-fees",
+      "https://yenfinder.com/tips/seven-eleven-seven-bank-atm-japan",
+      "https://glostravel.com/en/article/japan-atm-withdraw-cash-foreign-card-2026"
+    ],
+    "experience": {
+      "hook": "Stop paying 2.5% on every ramen bowl with a no-FX card.",
+      "moments": [
+        "Get a no-FX card before you leave and tell the bank your travel dates.",
+        "When a card machine or ATM asks yen or CAD, press yen every time.",
+        "Take ¥50,000–100,000 at one 7-Eleven ATM, not many small withdrawals.",
+        "Keep cash for Hokkaido onsen, small restaurants and parking."
+      ],
+      "tip": "Take cash in Sapporo or Hakodate before the Niseko–Asahikawa drive; konbini ATMs are fewer between towns."
+    },
+    "kind": "addon",
+    "category": "deal",
+    "winter": "ok"
+  },
+  {
+    "id": "deal-esim-vs-roaming",
+    "title": "Cheap eSIM instead of roaming",
+    "titleJa": "旅行者向けeSIM（Ubigi・Airalo）",
+    "summary": "Buy a Japan data eSIM online before the trip and install it at home; it starts when you land. It costs a fraction of Canadian roaming or a Chinese day pass.",
+    "why": "You need maps for 7 days of driving and snow updates; a cheap eSIM gives that for the whole 15 days.",
+    "days": [
+      1
+    ],
+    "duration": "15 min set up at home",
+    "cost": "Ubigi 10 GB / 30 days about US$16, Airalo unlimited 15 days CA$68.50; China Mobile Japan pass was 11.9 RMB/day on promo until 1 Oct 2026, now back to the higher normal price",
+    "winterNote": "Ubigi uses Docomo and KDDI (au), the two networks with the best rural Hokkaido coverage. Prices from Sept 2026 sites; check again before January. For Aoki: a Chinese SIM roams through China, so Google Maps may be blocked; a Japan eSIM gives open internet, but keep the Chinese SIM on for bank SMS.",
+    "lat": 35.77587,
+    "lon": 140.39331,
+    "photoQuery": "smartphone eSIM travel Japan",
+    "sources": [
+      "https://cellulardata.ubigi.com/rates-and-coverage/japan-data-plans/japan-10gb-30-days/",
+      "https://www.airalo.com/japan-esim",
+      "https://www.japan-wireless.com/column/japan-esim-cost-per-gb-price-comparison-by-provider/",
+      "https://www.10086.cn/roaming/yewu/japan/"
+    ],
+    "experience": {
+      "hook": "Land at Narita with maps already working, for about US$16.",
+      "moments": [
+        "Buy the plan online in the week before you fly.",
+        "Install the eSIM at home on Wi-Fi, but switch it on only in Japan.",
+        "Turn on data roaming for the eSIM line after landing.",
+        "Share one phone's hotspot in the car to save data."
+      ],
+      "tip": "Buy 10–20 GB each; maps and messaging on a 15-day trip rarely use more."
+    },
+    "kind": "addon",
+    "category": "deal",
+    "winter": "ok"
+  },
+  {
+    "id": "deal-tmg-free-observatory",
+    "title": "Free Tokyo view from City Hall",
+    "titleJa": "東京都庁 展望室（無料）",
+    "summary": "Take the lift to the free 202 m observatory of the Tokyo Metropolitan Government Building, 10 minutes' walk from your hotel. After dark, watch the free projection mapping show on the building wall.",
+    "why": "On a clear winter day you see Mt Fuji and Skytree for ¥0, next to your Shinjuku hotel.",
+    "days": [
+      2,
+      5
+    ],
+    "duration": "1 h",
+    "cost": "Free vs Shibuya Sky ¥2,700–3,400 web (¥3,000–3,700 at the counter)",
+    "winterNote": "South deck 9:30–21:30, closed 1st and 3rd Tuesday (so closed on Tue 19 Jan 2027); North deck 9:30–17:00, closed 2nd and 4th Monday. Fuji is clearest on winter mornings. Projection mapping 'TOKYO Night & Light' runs every 30 min about 18:30–21:30 (Sept 2026 schedule). If you keep Shibuya Sky, buy online: it saves ¥300 each.",
+    "lat": 35.6903,
+    "lon": 139.69155,
+    "photoQuery": "Tokyo Metropolitan Government Building observatory Mount Fuji",
+    "sources": [
+      "https://www.zaimu.metro.tokyo.lg.jp/tochousha/goannai/tenbou",
+      "https://tokyoprojectionmappingproject.jp",
+      "https://www.shibuya-scramble-square.com/sky/ticket/"
+    ],
+    "experience": {
+      "hook": "See Fuji from 202 m for free, 10 minutes from your bed.",
+      "moments": [
+        "Walk to the main building and take the observatory lift on the 1st floor.",
+        "Look west for Mt Fuji and northeast for Skytree.",
+        "Play the free 'Memories Piano' if the South deck is open.",
+        "Come back after dark for the projection show on the tower wall."
+      ],
+      "tip": "Go at 9:30 on Jan 20 or Jan 23: winter air is often clearest in the morning."
+    },
+    "kind": "addon",
+    "category": "deal",
+    "winter": "ok"
+  },
+  {
+    "id": "deal-zao-kyodo-yokujo",
+    "title": "Zao public baths for ¥300",
+    "titleJa": "蔵王温泉 共同浴場（上湯・下湯・川原湯）",
+    "summary": "Zao Onsen has three old public baths with strong sulphur water from the same springs as the ryokan. Put ¥300 in the box and soak; Shita-yu also has a footbath.",
+    "why": "The best acidic Zao water for the price of a konbini snack, after skiing.",
+    "days": [
+      6,
+      7
+    ],
+    "duration": "30 min each",
+    "cost": "¥300 per bath vs ¥850 at Zao Dairotenburo (closed in winter) or ¥1,000+ day-use at a hotel",
+    "winterNote": "Open 6:00–22:00, adults ¥300 (Aug 2026 price), pay in the honesty box, cash only. No shower or soap. Zao Dairotenburo is closed in winter. Some ryokan give guests free tickets; ask at check-in.",
+    "lat": 38.16779,
+    "lon": 140.39604,
+    "places": [
+      {
+        "en": "Shita-yu public bath",
+        "ja": "下湯共同浴場",
+        "lat": 38.16779,
+        "lon": 140.39604
+      }
+    ],
+    "photoQuery": "Zao Onsen public bath",
+    "sources": [
+      "https://zaomountainresort.com/about",
+      "https://www.oomiyaryokan.jp/sightseeing",
+      "https://yamagatakanko.com/attractions/detail_2764",
+      "https://onsenzanmaiblog.com/"
+    ],
+    "experience": {
+      "hook": "Soak in milky sulphur water in a wooden hut for ¥300.",
+      "moments": [
+        "Walk up snowy Takayu-dori street after dinner in your yukata and coat.",
+        "Drop ¥300 in the box at Kami-yu or Shita-yu.",
+        "Wash from the bucket, then slide into the hot, sour-smelling water.",
+        "Warm your feet at the Shita-yu footbath on the way back."
+      ],
+      "tip": "Bring your own small towel and coins; there is no staff and no change."
+    },
+    "kind": "addon",
+    "category": "deal",
+    "winter": "ok"
+  },
+  {
+    "id": "deal-sento-and-dormy-onsen",
+    "title": "Sento and hotel onsen, not spas",
+    "titleJa": "銭湯・ドーミーイン大浴場",
+    "summary": "A neighbourhood sento in Tokyo costs ¥600 and in Hokkaido ¥550. Your Dormy Inn hotels in Sendai, Asahikawa and Sapporo have their own hot baths, free for guests.",
+    "why": "You want many onsen moments; most can cost ¥0–600 instead of big spa prices.",
+    "days": [
+      2,
+      3,
+      7,
+      11,
+      13
+    ],
+    "duration": "45 min",
+    "cost": "¥600 Tokyo sento / ¥550 Hokkaido sento / ¥0 Dormy Inn bath, vs large spa complexes that cost several times more",
+    "winterNote": "Tokyo price is ¥600 from 1 Aug 2026; Hokkaido ¥550 from 1 Oct 2026. Bring a small towel and soap or buy them at the counter. Dormy Inn baths are open late and early morning.",
+    "lat": 35.69556,
+    "lon": 139.70228,
+    "places": [
+      {
+        "en": "Dormy Inn Premium Sapporo",
+        "ja": "ドーミーインPREMIUM札幌",
+        "lat": 43.05704,
+        "lon": 141.3489
+      }
+    ],
+    "photoQuery": "Tokyo sento public bath interior",
+    "sources": [
+      "https://www.1010.or.jp/guide/",
+      "https://www.kita-no-sento.com/",
+      "https://yumeguri.net/p-kizi/kizi/ryoukin-kaitei_8"
+    ],
+    "experience": {
+      "hook": "Soak like a local under a Mt Fuji wall painting for ¥600.",
+      "moments": [
+        "Find the nearest sento on the Tokyo Sento map (1010.or.jp).",
+        "Pay ¥600 at the counter and rent a towel if needed.",
+        "Wash at a stool, then soak in the hot tub under the painted mural.",
+        "In the Dormy Inn hotels, use the big hotel bath before bed, free for guests."
+      ],
+      "tip": "Bring a small towel and coins; many sento rent towels but charge extra."
+    },
+    "kind": "addon",
+    "category": "deal",
+    "winter": "ok"
+  },
+  {
+    "id": "deal-yunokawa-free-footbath",
+    "title": "Free footbath at Yunokawa Onsen",
+    "titleJa": "湯の川温泉足湯「湯巡り舞台」",
+    "summary": "Hakodate's Yunokawa Onsen has a free public footbath by the tram stop. Warm your feet in real onsen water before or after the morning market or the night view.",
+    "why": "A free warm-up in snowy Hakodate on the evening you arrive by Shinkansen.",
+    "days": [
+      8,
+      9
+    ],
+    "duration": "20 min",
+    "cost": "Free vs ¥500–1,500 for a day onsen",
+    "winterNote": "Open 9:00–21:00, free. Bring a small towel to dry your feet. On the tram line to Yunokawa Onsen stop.",
+    "lat": 41.77961,
+    "lon": 140.78568,
+    "photoQuery": "Yunokawa Onsen footbath Hakodate",
+    "sources": [
+      "https://hakodate-yunokawa.jp/spots/spots_01",
+      "https://www.hakobura.jp/"
+    ],
+    "experience": {
+      "hook": "Hot feet, cold air, free: Hakodate's onsen footbath by the tram.",
+      "moments": [
+        "Ride the tram to Yunokawa Onsen stop.",
+        "Take off shoes and socks and sit on the wooden bench.",
+        "Put your feet in the hot water while snow falls around you.",
+        "Dry your feet with your own towel and walk to dinner."
+      ],
+      "tip": "Go before 21:00 closing and keep a spare pair of warm socks in your bag."
+    },
+    "kind": "addon",
+    "category": "deal",
+    "winter": "ok"
+  },
+  {
+    "id": "deal-yamato-suitcase-sapporo",
+    "title": "Send suitcases ahead by Yamato",
+    "titleJa": "ヤマト運輸 宅急便（東京→札幌）",
+    "summary": "Send one big suitcase from your Shinjuku hotel front desk or a konbini to your Sapporo hotel, and travel with small bags on trains and in the car. A 160-size case (sum of sides up to 160 cm) from Tokyo to Hokkaido costs ¥3,630.",
+    "why": "Seven hotel changes, Shinkansen racks and a small rental car are much easier without two big suitcases.",
+    "days": [
+      5,
+      6
+    ],
+    "duration": "10 min",
+    "cost": "¥3,630 per 160-size case (¥3,530 if you drop it at a shop or konbini), 180 size ¥5,220",
+    "winterNote": "Prices from Yamato's official table (cash price, Kanto → Hokkaido). Delivery takes about 2 days; ask the Sapporo hotel first if they will keep a bag for a guest arriving days later. Snow can delay Hokkaido deliveries by a day. Hotel front desks can print the form.",
+    "lat": 35.69556,
+    "lon": 139.70228,
+    "places": [
+      {
+        "en": "Hotel Gracery Shinjuku (send)",
+        "ja": "ホテルグレイスリー新宿",
+        "lat": 35.69556,
+        "lon": 139.70228
+      },
+      {
+        "en": "Dormy Inn Premium Sapporo (receive)",
+        "ja": "ドーミーインPREMIUM札幌",
+        "lat": 43.05704,
+        "lon": 141.3489
+      }
+    ],
+    "photoQuery": "Yamato Transport delivery truck",
+    "sources": [
+      "https://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html"
+    ],
+    "experience": {
+      "hook": "Travel Tohoku and Hokkaido with a day bag; your suitcase waits in Sapporo.",
+      "moments": [
+        "Pack ski clothes and 8 days of basics in a small bag.",
+        "Ask the Gracery front desk for a Takkyubin form on the morning of Jan 24.",
+        "Write the Sapporo hotel address, your name and check-in date Jan 31.",
+        "Pick up the suitcase at Dormy Inn Sapporo check-in."
+      ],
+      "tip": "Write 'guest arriving 1/31' and your booking name on the label so the hotel keeps it."
+    },
+    "kind": "addon",
+    "category": "deal",
+    "winter": "ok"
+  },
+  {
+    "id": "deal-used-anime-goods",
+    "title": "Where used anime goods are cheapest",
+    "titleJa": "駿河屋・らしんばん・まんだらけ 中古グッズ",
+    "summary": "For common used anime goods, Surugaya is usually cheapest and has the most stock; Lashinbang is close, with frequent sales; Mandarake is best for rare items but prices are higher. Animate does tax-free from ¥5,000 before tax.",
+    "why": "You can buy more Girls Band Cry and other merch for the same money if you check the cheap shop first.",
+    "days": [
+      2
+    ],
+    "duration": "2–3 h",
+    "cost": "Same item often several hundred yen cheaper at Surugaya/Lashinbang than at Mandarake; 10% back tax-free from ¥5,000 (before tax) in one shop",
+    "winterNote": "Price order comes from Japanese collector forums (Surugaya ≥ Lashinbang > Mandarake for price), not a fixed rule. Check the price sticker, then compare. Buy in one shop on one day to reach the ¥5,000 tax-free minimum.",
+    "lat": 35.70156,
+    "lon": 139.77183,
+    "places": [
+      {
+        "en": "Surugaya Akihabara",
+        "ja": "駿河屋 秋葉原",
+        "lat": 35.70156,
+        "lon": 139.77183
+      },
+      {
+        "en": "Mandarake, Nakano Broadway",
+        "ja": "まんだらけ 中野ブロードウェイ",
+        "lat": 35.70897,
+        "lon": 139.66578
+      }
+    ],
+    "anime": "Girls Band Cry and general anime merch",
+    "photoQuery": "Nakano Broadway Mandarake",
+    "sources": [
+      "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12314422632",
+      "https://corosuke-anything-talk.net/",
+      "https://www.animate.co.jp/special/",
+      "https://www.surugaya.co.jp/"
+    ],
+    "experience": {
+      "hook": "Check Surugaya first, Mandarake last, and keep ¥ for the rare find.",
+      "moments": [
+        "Photograph price tags of what you want at Mandarake in Nakano.",
+        "Compare the same items at Surugaya and Lashinbang in Akihabara.",
+        "Buy the common items where cheapest, rare ones where you found them.",
+        "Show your passport when the total in one shop passes ¥5,000."
+      ],
+      "tip": "Mandarake has the rare items; buy those there, and the common items at the cheaper shops."
+    },
+    "kind": "addon",
+    "category": "deal",
+    "winter": "ok"
+  }
+]
