@@ -73,9 +73,22 @@ export default function Strip({ planId, day, days, places, hovered, selected, on
     rail.current?.scrollTo({ left: 0 })
   }, [day])
 
+  // Hover and click that start in the timeline itself must not scroll it: only the map does.
+  // (A place can have 2 cards, e.g. the hotel at the start and end of the day, so scrolling would jump.)
+  const ownHover = useRef<string | null>(null)
+  const ownSelect = useRef<string | null>(null)
+  const hoverHere = (id: string | null) => {
+    ownHover.current = id
+    onHover(id)
+  }
+  const selectHere = (id: string) => {
+    ownSelect.current = id
+    onSelect(id)
+  }
+
   useEffect(() => {
     const id = hovered ?? selected
-    if (!id) return
+    if (!id || id === (hovered ? ownHover.current : ownSelect.current)) return
     rail.current
       ?.querySelector<HTMLElement>(`[data-id="${id}"]`)
       ?.scrollIntoView({ block: 'nearest', inline: 'nearest', behavior: 'smooth' })
@@ -220,11 +233,11 @@ export default function Strip({ planId, day, days, places, hovered, selected, on
                 data-id={first ? st.place : undefined}
                 style={{ width: w }}
                 className={`card card-stop${p.photo ? '' : ' no-photo'}${meal ? ' is-meal' : ''}${hovered === st.place ? ' is-hot' : ''}${selected === st.place ? ' is-selected' : ''}${st.who ? ' is-solo' : ''}`}
-                onMouseEnter={() => onHover(st.place)}
-                onMouseLeave={() => onHover(null)}
-                onFocus={() => onHover(st.place)}
-                onBlur={() => onHover(null)}
-                onClick={() => onSelect(st.place)}
+                onMouseEnter={() => hoverHere(st.place)}
+                onMouseLeave={() => hoverHere(null)}
+                onFocus={() => hoverHere(st.place)}
+                onBlur={() => hoverHere(null)}
+                onClick={() => selectHere(st.place)}
               >
                 <Cover place={p} size={480} />
                 <span className="card-shade" />
@@ -258,9 +271,9 @@ export default function Strip({ planId, day, days, places, hovered, selected, on
             <button
               className="card card-night"
               style={{ width: NIGHT_W - 4 }}
-              onClick={() => onSelect(sleep.id)}
-              onMouseEnter={() => onHover(sleep.id)}
-              onMouseLeave={() => onHover(null)}
+              onClick={() => selectHere(sleep.id)}
+              onMouseEnter={() => hoverHere(sleep.id)}
+              onMouseLeave={() => hoverHere(null)}
               aria-label={`Night at ${sleep.en}. Open the hotel.`}
             >
               <span className="card-top">
