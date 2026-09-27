@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import * as maplibregl from 'maplibre-gl'
 import type { LngLatLike } from 'maplibre-gl'
 import type { Feature } from 'geojson'
@@ -32,8 +32,20 @@ interface Props {
 
 type Coord = [number, number]
 
-// Vite cannot follow MapLibre's runtime worker lookup, so hand it the bundled worker
-maplibregl.setWorkerUrl(workerUrl)
+// Vite cannot follow MapLibre's runtime worker lookup, so hand it the bundled worker.
+// Through the free ngrok link, a plain worker request from iOS Safari gets ngrok's HTML warning page, not the script:
+// the map then draws no routes. So fetch the script with the header that skips the warning, and run it from a blob.
+let workerDone = false
+const workerReady: Promise<void> = fetch(workerUrl, { headers: { 'ngrok-skip-browser-warning': '1' } })
+  .then((r) => {
+    if (!r.ok || (r.headers.get('content-type') ?? '').includes('html')) throw new Error('worker script not loaded')
+    return r.blob()
+  })
+  .then((b) => maplibregl.setWorkerUrl(URL.createObjectURL(new Blob([b], { type: 'text/javascript' }))))
+  .catch(() => maplibregl.setWorkerUrl(workerUrl))
+  .then(() => {
+    workerDone = true
+  })
 
 const ESRI = 'https://server.arcgisonline.com/ArcGIS/rest/services'
 
@@ -108,7 +120,16 @@ function framePadding(m: maplibregl.Map) {
   return padding
 }
 
+/** Waits for the map worker, then shows the map */
 export default function MapView(props: Props) {
+  const [ok, setOk] = useState(workerDone)
+  useEffect(() => {
+    if (!ok) workerReady.then(() => setOk(true))
+  }, [ok])
+  return ok ? <MapInner {...props} /> : <div className="map" />
+}
+
+function MapInner(props: Props) {
   const { days, places, routes, day, hovered, selected, hotLeg, focusLeg, lit, onHover, onSelect, onPickDay } = props
   const box = useRef<HTMLDivElement>(null)
   const map = useRef<maplibregl.Map | null>(null)
