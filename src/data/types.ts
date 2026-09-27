@@ -9,6 +9,7 @@ export type Kind =
   | 'hotel'
   | 'station'
   | 'airport'
+  | 'shop'
 
 export type Mode = 'drive' | 'shinkansen' | 'train' | 'bus' | 'flight' | 'walk' | 'ropeway'
 

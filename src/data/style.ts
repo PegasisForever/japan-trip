@@ -31,6 +31,7 @@ export const KIND_LABEL: Record<Kind, string> = {
   hotel: 'Stay',
   station: 'Station',
   airport: 'Airport',
+  shop: 'Shop',
 }
 
 export const REGION: Record<Region, { en: string; ja: string; color: string }> = {
@@ -54,4 +55,5 @@ export const KIND_ICON: Record<Kind, 'bed' | 'meal' | 'pin'> = {
   hotel: 'bed',
   station: 'pin',
   airport: 'pin',
+  shop: 'pin',
 }

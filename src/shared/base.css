@@ -362,3 +362,8 @@
     transform: none;
   }
 }
+
+/* Dark mode: light icons on the map's zoom buttons */
+.dark .maplibregl-ctrl button .maplibregl-ctrl-icon {
+  filter: invert(1);
+}

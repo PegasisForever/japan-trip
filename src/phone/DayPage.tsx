@@ -18,9 +18,23 @@ function PickWord({ id }: { id: string }) {
   return p ? <span className={`pword pword-${p}`}>{PICK_SHORT[p]}</span> : null
 }
 
+/** Japanese phone numbers ("044-211-0100", "0136-46-3332") become links that call */
+function withPhones(text: string) {
+  return text.split(/(\b0\d{1,4}-\d{1,4}-\d{3,4}\b)/).map((part, i) =>
+    i % 2 ? (
+      <a key={i} className="external" href={`tel:+81${part.slice(1).replace(/-/g, '')}`}>
+        {part}
+      </a>
+    ) : (
+      part
+    ),
+  )
+}
+
 /** The first words of a stop note, to tell apart two visits to one place: "Bag storage" */
 function gist(note?: string) {
-  const first = (note ?? '').split(/[.:;(]/)[0].trim()
+  // Split at the first full stop, colon, semicolon or bracket, but not inside a clock time (18:10)
+  const first = (note ?? '').split(/[.;(]|:(?!\d\d)/)[0].trim()
   return first.length > 42 ? first.slice(0, 40) + '…' : first
 }
 
@@ -57,7 +71,7 @@ export default function DayPage({ f7route }: { f7route: Router.Route }) {
           {alerts.map((a, i) => (
             <p key={i}>
               <i className="f7-icons">exclamationmark_triangle_fill</i>
-              <span>{a}</span>
+              <span>{withPhones(a)}</span>
             </p>
           ))}
           {day.alerts.length > 1 && (
@@ -149,8 +163,8 @@ export default function DayPage({ f7route }: { f7route: Router.Route }) {
 
       <BlockTitle>Other days</BlockTitle>
       <List inset strong dividers className="day-nav">
-        {prev && <ListItem link={`/day/${prev.n}/`} reloadCurrent transition="f7-dive" title={`← ${prev.short}`} footer={`Day ${prev.n} · ${dateShort(prev)}`} />}
-        {next && <ListItem link={`/day/${next.n}/`} reloadCurrent title={`${next.short} →`} footer={`Day ${next.n} · ${dateShort(next)}`} />}
+        {prev && <ListItem link={`/day/${prev.n}/`} reloadCurrent header={`Previous day · Day ${prev.n} · ${dateShort(prev)}`} title={prev.short} />}
+        {next && <ListItem link={`/day/${next.n}/`} reloadCurrent header={`Next day · Day ${next.n} · ${dateShort(next)}`} title={next.short} />}
       </List>
     </Page>
   )

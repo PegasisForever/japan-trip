@@ -2,8 +2,8 @@ import { useSyncExternalStore } from 'react'
 
 /** What the map shows, and the sheets on top. All pages read and change it. */
 export interface PhoneState {
-  /** Day on the map; null = the whole trip */
-  mapDay: number | null
+  /** Day on the map */
+  mapDay: number
   /** Place picked on the map (by its card or its pin) */
   mapPlace: string | null
   /** A travel block to frame on the map (t makes the same one move again) */
@@ -16,7 +16,7 @@ export interface PhoneState {
   refit: number
 }
 
-let state: PhoneState = { mapDay: null, mapPlace: null, focusLeg: null, leg: null, picker: false, refit: 0 }
+let state: PhoneState = { mapDay: 1, mapPlace: null, focusLeg: null, leg: null, picker: false, refit: 0 }
 const subs = new Set<() => void>()
 
 export function getPhone() {
@@ -29,7 +29,7 @@ export function setPhone(patch: Partial<PhoneState>) {
 }
 
 /** Show a day on the map, from its start */
-export function showDay(n: number | null) {
+export function showDay(n: number) {
   if (n === state.mapDay) return
   setPhone({ mapDay: n, mapPlace: null, focusLeg: null })
 }

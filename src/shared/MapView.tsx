@@ -292,9 +292,11 @@ function MapInner(props: Props) {
   useEffect(() => {
     const m = map.current
     if (!m || !ready.current) return
-    const key = hotLeg ?? ''
-    m.setFilter('routes-hot-glow', ['==', ['get', 'key'], key])
-    m.setFilter('routes-hot', ['==', ['get', 'key'], key])
+    // One travel part ("4-2") or several in a row ("4-1,4-2")
+    const keys = (hotLeg ?? '').split(',').filter(Boolean)
+    const filter: maplibregl.FilterSpecification = ['in', ['get', 'key'], ['literal', keys]]
+    m.setFilter('routes-hot-glow', filter)
+    m.setFilter('routes-hot', filter)
   }, [hotLeg])
 
   // Routes, markers and camera follow the selected tab
@@ -408,11 +410,14 @@ function MapInner(props: Props) {
   useEffect(() => {
     const m = map.current
     if (!m || !focusLeg || !ready.current) return
-    const [n, i] = focusLeg.key.split('-').map(Number)
-    const leg = days.find((d) => d.n === n)?.legs[i]
-    if (!leg || !places[leg.from] || !places[leg.to]) return
     const bounds = new maplibregl.LngLatBounds()
-    for (const c of legLine(leg, focusLeg.key, places, routes)) bounds.extend(c as LngLatLike)
+    for (const key of focusLeg.key.split(',')) {
+      const [n, i] = key.split('-').map(Number)
+      const leg = days.find((d) => d.n === n)?.legs[i]
+      if (!leg || !places[leg.from] || !places[leg.to]) continue
+      for (const c of legLine(leg, key, places, routes)) bounds.extend(c as LngLatLike)
+    }
+    if (bounds.isEmpty()) return
     const cam = m.cameraForBounds(bounds, { padding: framePadding(m, cb.current.frame()), maxZoom: 16 })
     if (cam) m.flyTo({ ...cam, pitch: 40, bearing: 0, curve: 1.6, duration: flyTime(m, bounds.getCenter().toArray() as [number, number]), essential: true })
   }, [focusLeg, days, places, routes])
@@ -426,8 +431,8 @@ function MapInner(props: Props) {
     // flyTo zooms out until both places are in view, then zooms in, on one smooth arc
     m.flyTo({
       center: [p.lon, p.lat],
-      // Not closer than 15.5: the satellite photos are blurry while the closer tiles load
-      zoom: Math.min(15.5, Math.max(m.getZoom(), p.kind === 'fuji' || p.kind === 'ski' ? 12.5 : 15)),
+      // Not closer than 15: closer satellite tiles load slowly and stay blurry on mobile data
+      zoom: Math.min(15, Math.max(m.getZoom(), p.kind === 'fuji' || p.kind === 'ski' ? 12.5 : 15)),
       pitch: 45,
       // Centre the place in the free space between the panels. An offset, not a padding:
       // MapLibre keeps a padding and adds it to the next fitBounds, which then cannot fit and does not move.

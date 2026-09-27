@@ -31,6 +31,8 @@ export default function Gallery({ photos, alt, className = '', credit: showCredi
       popupPush: false,
     })
     pb.current.open(k)
+    // Black bars with white icons, like the Photos app, in light mode too
+    pb.current.$el?.addClass('dark')
   }
 
   if (photos.length === 0) return null

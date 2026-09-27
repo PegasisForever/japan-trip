@@ -76,9 +76,10 @@ export function legByKey(key: string) {
 
 /** Directions links: Apple Maps on iPhone, Google Maps everywhere */
 export function mapLinks(p: Place) {
-  const q = encodeURIComponent(p.ja || p.en)
+  // Directions to the point, with the place name so the maps app shows what it is
+  const name = encodeURIComponent(p.en)
   return {
-    apple: `https://maps.apple.com/?q=${q}&ll=${p.lat},${p.lon}`,
-    google: `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}`,
+    apple: `https://maps.apple.com/?daddr=${p.lat},${p.lon}&q=${name}`,
+    google: `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lon}`,
   }
 }
