@@ -289,7 +289,7 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
                   <Icon name="moon" size={14} />
                   Night
                 </span>
-                <span className="card-time">from {fmtClock(dayEnd)}</span>
+                {!(nightAt >= 0 && laid[nightAt].seg.kind === 'stop' && laid[nightAt].seg.guess) && <span className="card-time">from {fmtClock(dayEnd)}</span>}
               </span>
               <span className="card-body">
                 <span className="card-kind">

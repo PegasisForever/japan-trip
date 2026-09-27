@@ -28,7 +28,8 @@ export function fmtLength(min: number) {
 
 export type Segment =
   | { kind: 'leg'; t0: number; t1: number; leg: Leg }
-  | { kind: 'stop'; t0: number; t1: number; stop: Stop; index: number; open: boolean }
+  /** guess: the arrival time is only a guess (it comes after an open-ended evening) */
+  | { kind: 'stop'; t0: number; t1: number; stop: Stop; index: number; open: boolean; guess?: boolean }
 
 /** Groups the day's legs by the stop they lead to. */
 export function legsBeforeStops(day: Day) {
@@ -52,6 +53,13 @@ export function legsBeforeStops(day: Day) {
 }
 
 const LAST_STAY = 120
+
+/** A stay written at the end of a stop note: "Smaller car meet, Tokyo skyline, 15 min." → 15 */
+function stayOf(note?: string): number | null {
+  const m = /(?:^|[,;] )(?:(\d+(?:\.\d+)?) h(?: (\d+))?|(\d+) min)\.?$/.exec((note ?? '').trim())
+  if (!m) return null
+  return m[3] ? Number(m[3]) : Math.round(Number(m[1]) * 60 + Number(m[2] ?? 0))
+}
 
 /**
  * Turns a day into time segments: travel, then a stay, then travel...
@@ -78,14 +86,21 @@ export function buildTimeline(day: Day): Segment[] {
     let open = false
     const nextArrive = k + 1 < day.stops.length ? arrive[k + 1] : null
     if (nextArrive != null) leave = nextArrive - travel[k + 1]
-    // The next stop has no time (tonight's hotel): leave after an hour
-    else if (k + 1 < day.stops.length) leave = a + 60
+    // The next stop has no time. Before tonight's hotel this is the evening: stay as long as the note says
+    // ("..., 15 min."), else it is open-ended, as the last place of a day always was. Anywhere else: an hour.
+    else if (k + 1 < day.stops.length) {
+      const said = stayOf(stop.note)
+      const toNight = day.stops[k + 1].end === 'night'
+      leave = a + (said ?? (toNight ? LAST_STAY : 60))
+      open = toNight && said == null
+    }
     else {
       leave = a + LAST_STAY
       open = true
     }
     if (leave <= a) leave = a + 10
-    segs.push({ kind: 'stop', t0: a, t1: leave, stop, index: k, open })
+    const prev = segs.findLast((x) => x.kind === 'stop')
+    segs.push({ kind: 'stop', t0: a, t1: leave, stop, index: k, open, guess: arrive[k] == null && prev?.kind === 'stop' && prev.open })
     cursor = leave
   })
 

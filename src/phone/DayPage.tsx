@@ -164,7 +164,7 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
                 <span className="ts-stop-text">
                   <b>{p.en}</b>
                   <small className="num">
-                    Night from {from}
+                    {seg.guess ? 'Night' : `Night from ${from}`}
                     {morning && ` · tomorrow from ${morning.time ?? 'morning'}`}
                   </small>
                 </span>

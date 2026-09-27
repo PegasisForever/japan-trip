@@ -588,7 +588,9 @@
   background: color-mix(in srgb, var(--f7-text-color) 28%, transparent);
 }
 .day-picker {
-  height: 88vh;
+  /* 80% of the visible screen, so the map stays in view above it */
+  height: 80vh;
+  height: 80dvh;
   border-radius: 28px 28px 0 0;
 }
 /* Framework7 puts the sheet content in an inner box: the head stays, the list below it scrolls */

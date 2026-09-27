@@ -15,6 +15,7 @@ import { getPhone, setPhone, showDay, usePhone } from './store'
 /** A place card, with the travel from the place before it ("4-1,4-2" for the sheet) */
 type Card = { place: Place; stop: Stop; n: number; legs: Leg[]; legKeys: string; stay: string; arrive: string }
 
+
 /** Room taken by the glass controls on top of the map: the day bar above, the cards below */
 function frame(): Pad {
   const cs = getComputedStyle(document.documentElement)
@@ -39,7 +40,7 @@ function cardsOf(day: Day): Card[] {
   for (const seg of buildTimeline(day))
     if (seg.kind === 'stop') {
       stays.set(seg.index, seg.open ? 'evening' : fmtLength(seg.t1 - seg.t0))
-      arrive.set(seg.index, fmtClock(seg.t0))
+      arrive.set(seg.index, seg.guess ? '' : fmtClock(seg.t0))
     }
   day.stops.forEach((st, k) => {
     // Each place once, but tonight's hotel always closes the day (also when the day started there)
