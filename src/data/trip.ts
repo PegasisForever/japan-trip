@@ -58,23 +58,6 @@ export function headline(text: string) {
     .join(' · ')
 }
 
-/** Booking ticks, kept in this browser only */
-const DONE_KEY = 'yukimichi-booked'
-export function loadDone(): number[] {
-  try {
-    return JSON.parse(localStorage.getItem(DONE_KEY) ?? '[]')
-  } catch {
-    return []
-  }
-}
-export function saveDone(done: number[]) {
-  try {
-    localStorage.setItem(DONE_KEY, JSON.stringify(done))
-  } catch {
-    /* storage blocked: the ticks just do not persist */
-  }
-}
-
 /** Numbered places of a day, in the order they are first visited */
 export function stopOrder(day: Day) {
   const order = new Map<string, number>()

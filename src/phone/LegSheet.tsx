@@ -14,7 +14,9 @@ export default function LegSheet() {
   const onMap = () => {
     if (!found || !key) return
     setPhone({ leg: null, mapDay: found.day.n, mapPlace: null, focusLeg: { key, t: Date.now() } })
-    f7.tab.show('#view-map')
+    // Back to the map, under the pages on top of it
+    const router = f7.views.main?.router
+    if (router && router.history.length > 1) router.back(router.history[0], { force: true })
   }
 
   return (
@@ -23,11 +25,12 @@ export default function LegSheet() {
       opened={!!found}
       onSheetClosed={() => setPhone({ leg: null })}
       swipeToClose
+      swipeHandler=".leg-sheet .grabber"
       backdrop
       push={false}
       style={{ height: 'auto' }}
     >
-      <div className="swipe-handler" />
+      <div className="grabber" />
       {found && (
         <PageContent>
           <BlockTitle large className="leg-title" style={{ '--mc': MODE_COLOR[found.leg.mode] } as React.CSSProperties}>

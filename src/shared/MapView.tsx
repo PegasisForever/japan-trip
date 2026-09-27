@@ -34,6 +34,8 @@ interface Props {
   frame: () => Pad
   /** Where a selected place goes, in px from the centre of the map */
   placeOffset: () => [number, number]
+  /** Change it to frame the whole day (or trip) again */
+  refit?: number
   /** Desktop: a preview card over a pin under the mouse, and the zoom buttons */
   hoverTips?: boolean
 }
@@ -133,7 +135,7 @@ export default function MapView(props: Props) {
 }
 
 function MapInner(props: Props) {
-  const { days, places, routes, day, hovered, selected, hotLeg, focusLeg, lit, hoverTips = false } = props
+  const { days, places, routes, day, hovered, selected, hotLeg, focusLeg, lit, refit = 0, hoverTips = false } = props
   const box = useRef<HTMLDivElement>(null)
   const map = useRef<maplibregl.Map | null>(null)
   const markers = useRef<Map<string, { m: maplibregl.Marker; el: HTMLElement }>>(new Map())
@@ -390,7 +392,7 @@ function MapInner(props: Props) {
     }
     if (ready.current) apply()
     else pending.current = apply
-  }, [day, days, places, routes])
+  }, [day, days, places, routes, refit])
 
   // Hover and selection highlight on markers
   useEffect(() => {
@@ -424,7 +426,8 @@ function MapInner(props: Props) {
     // flyTo zooms out until both places are in view, then zooms in, on one smooth arc
     m.flyTo({
       center: [p.lon, p.lat],
-      zoom: Math.max(m.getZoom(), p.kind === 'fuji' || p.kind === 'ski' ? 12.5 : 15),
+      // Not closer than 15.5: the satellite photos are blurry while the closer tiles load
+      zoom: Math.min(15.5, Math.max(m.getZoom(), p.kind === 'fuji' || p.kind === 'ski' ? 12.5 : 15)),
       pitch: 45,
       // Centre the place in the free space between the panels. An offset, not a padding:
       // MapLibre keeps a padding and adds it to the next fitBounds, which then cannot fit and does not move.

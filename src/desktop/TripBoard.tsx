@@ -1,22 +1,15 @@
-import { useState } from 'react'
 import { List, ListItem, Block, BlockTitle } from 'framework7-react'
 import { REGION } from '../data/style'
 import { plan } from '../data/plan'
-import { days, headline, loadDone, saveDone, stays, tripRange } from '../data/trip'
+import { days, headline, stays, tripRange } from '../data/trip'
+import { bookings } from '../data/bookings'
 
 /** Left panel for the whole trip: where you sleep, money, what to book */
 export default function TripBoard({ onSelect }: { onSelect: (id: string) => void }) {
-  const [done, setDone] = useState<number[]>(loadDone)
-  const book = plan.bookFirst ?? []
+  const done = bookings.filter((b) => b.done).length
   const regions = (Object.keys(REGION) as (keyof typeof REGION)[])
     .map((r) => ({ key: r, ...REGION[r], count: days.filter((d) => d.region === r).length }))
     .filter((r) => r.count > 0)
-
-  const toggle = (i: number) => {
-    const next = done.includes(i) ? done.filter((x) => x !== i) : [...done, i]
-    setDone(next)
-    saveDone(next)
-  }
 
   return (
     <>
@@ -62,14 +55,19 @@ export default function TripBoard({ onSelect }: { onSelect: (id: string) => void
         <ListItem title="Hotels" after={headline(plan.cost.hotels)} />
       </List>
 
-      {book.length > 0 && (
+      {bookings.length > 0 && (
         <>
           <BlockTitle>
-            Book before you go <span className="side-count num">{done.length} of {book.length} done</span>
+            Book before you go <span className="side-count num">{done} of {bookings.length} done</span>
           </BlockTitle>
+          {/* Read only: the list is BOOKINGS.md in the repo */}
           <List inset strong dividers mediaList className="side-book">
-            {book.map((b, i) => (
-              <ListItem key={i} checkbox checked={done.includes(i)} onChange={() => toggle(i)} className={done.includes(i) ? 'is-done' : ''} title={b.what} text={b.why} />
+            {bookings.map((b, i) => (
+              <ListItem key={i} className={b.done ? 'is-done' : ''} title={b.what} text={b.why}>
+                <i slot="media" className={`f7-icons ${b.done ? 'ok' : 'todo'}`}>
+                  {b.done ? 'checkmark_circle_fill' : 'circle'}
+                </i>
+              </ListItem>
             ))}
           </List>
         </>

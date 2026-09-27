@@ -10,7 +10,7 @@ function credit(p: Photo) {
  * Swipeable photo strip. Tap a photo to open it full screen
  * (Framework7 photo browser: pinch to zoom, swipe down to close).
  */
-export default function Gallery({ photos, alt, className = '' }: { photos: Photo[]; alt: string; className?: string }) {
+export default function Gallery({ photos, alt, className = '', credit: showCredit = true }: { photos: Photo[]; alt: string; className?: string; credit?: boolean }) {
   const track = useRef<HTMLDivElement>(null)
   const [i, setI] = useState(0)
   const pb = useRef<ReturnType<typeof f7.photoBrowser.create> | null>(null)
@@ -22,6 +22,8 @@ export default function Gallery({ photos, alt, className = '' }: { photos: Photo
     pb.current = f7.photoBrowser.create({
       photos: photos.map((p) => ({ url: p.big, caption: credit(p) })),
       type: 'standalone',
+      // Black, like the Photos app
+      theme: 'dark',
       swipeToClose: true,
       exposition: false,
       toolbar: photos.length > 1,
@@ -56,7 +58,7 @@ export default function Gallery({ photos, alt, className = '' }: { photos: Photo
           ))}
         </div>
       )}
-      {p.credit && (
+      {showCredit && p.credit && (
         <figcaption>
           <a href={p.credit.url} target="_blank" rel="noreferrer">
             {p.credit.author}

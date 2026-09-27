@@ -16,7 +16,8 @@ export default function PlacePage({ f7route }: { f7route: Router.Route }) {
   const place = places[f7route.params.id ?? '']
   if (!place) return <Page><Navbar title="Place" backLink /></Page>
   const day = days.find((d) => d.n === Number(f7route.query.day)) ?? null
-  const stop = day?.stops.find((s) => s.place === place.id)
+  // A place visited twice in a day (an airport) shows the plan of the visit that was tapped
+  const stop = day?.stops[Number(f7route.query.stop)]?.place === place.id ? day.stops[Number(f7route.query.stop)] : day?.stops.find((s) => s.place === place.id)
   const meal = stop ? mealOf(stop) : null
   const photos = photosFor(place.galleryKey ?? place.id, place.photo, place.credit)
   const links = mapLinks(place)
@@ -41,7 +42,7 @@ export default function PlacePage({ f7route }: { f7route: Router.Route }) {
   return (
     <Page className="place-page">
       <Navbar title={place.en} backLink transparent />
-      {photos.length > 0 ? <Gallery photos={photos} alt={place.en} className="place-hero" /> : <div className="place-hero-empty" />}
+      {photos.length > 0 ? <Gallery photos={photos} alt={place.en} className="place-hero" credit={false} /> : <div className="place-hero-empty" />}
 
       <Block className="place-head">
         <p className="place-kind">

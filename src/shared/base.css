@@ -54,6 +54,10 @@
 }
 
 /* ---------- Whose pick ---------- */
+/* The long label ("Aoki's pick"); the short word is for the timeline cards only */
+.pick-short {
+  display: none;
+}
 .pick {
   align-self: flex-start;
   display: inline-flex;

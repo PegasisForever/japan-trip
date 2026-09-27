@@ -1,58 +1,70 @@
-import { Page, Navbar, NavRight, Link, List, ListItem, Block, BlockTitle, f7 } from 'framework7-react'
+import { Page, Navbar, List, ListItem, Block, BlockTitle } from 'framework7-react'
 import type { Router } from 'framework7/types'
+import { useState } from 'react'
 import { MODE_COLOR, MODE_LABEL } from '../data/style'
 import { photoUrl } from '../data/photos'
 import { buildTimeline, dayStart, mainRide, mealOf } from '../data/timeline'
-import { days, places, dateLong, legKey } from '../data/trip'
-import { pickOf } from '../data/picks'
+import { days, places, dateLong, dateShort, legKey } from '../data/trip'
+import { pickOf, type Pick } from '../data/picks'
 import { MODE_ICON } from '../shared/modeIcon'
 import Icon from '../shared/Icon'
-import { setPhone } from './store'
+import { setPhone, showDay } from './store'
 
-function PickDot({ id }: { id: string }) {
+const PICK_SHORT: Record<Pick, string> = { aoki: 'Aoki', pegasis: 'Pegasis', both: 'Both' }
+
+/** "Aoki", "Pegasis" or "Both", in their colour */
+function PickWord({ id }: { id: string }) {
   const p = pickOf(id)
-  return p ? <i className={`pdot pdot-${p}`} aria-label={p === 'both' ? 'Both picked' : `${p === 'aoki' ? 'Aoki' : 'Pegasis'}'s pick`} /> : null
+  return p ? <span className={`pword pword-${p}`}>{PICK_SHORT[p]}</span> : null
+}
+
+/** The first words of a stop note, to tell apart two visits to one place: "Bag storage" */
+function gist(note?: string) {
+  const first = (note ?? '').split(/[.:;(]/)[0].trim()
+  return first.length > 42 ? first.slice(0, 40) + '…' : first
 }
 
 /**
- * One day on the phone: the reminders, then the day as one list of places and the travel between them.
- * Only the time and the name show here; the place page and the travel sheet have the rest.
+ * The day's schedule: places and the travel between them, in order.
+ * A row shows only the time and the name; the place page and the travel sheet have the rest.
  */
 export default function DayPage({ f7route }: { f7route: Router.Route }) {
   const n = Number(f7route.params.n)
   const day = days.find((d) => d.n === n)
+  const [allAlerts, setAllAlerts] = useState(false)
   if (!day) return <Page><Navbar title="Day" backLink /></Page>
 
-  const segs = buildTimeline(day)
+  // The first travel row has no place before it (it leaves the hotel of the night before): leave it out
+  const segs = buildTimeline(day).filter((s, i) => !(i === 0 && s.kind === 'leg'))
   const sleep = day.sleep ? places[day.sleep] : null
+  const prev = days.find((d) => d.n === n - 1)
   const next = days.find((d) => d.n === n + 1)
   const morning = next ? dayStart(next) : null
-
-  const showMap = () => {
-    setPhone({ mapDay: n, mapPlace: null, focusLeg: null })
-    f7.tab.show('#view-map')
-  }
+  const repeated = new Set(day.stops.map((s) => s.place).filter((p, i, a) => a.indexOf(p) !== i))
+  const alerts = allAlerts ? day.alerts : day.alerts.slice(0, 1)
 
   return (
-    <Page className="day-page">
-      <Navbar large title={day.short} backLink>
-        <NavRight>
-          <Link iconF7="map" onClick={showMap} aria-label="Show this day on the map" />
-        </NavRight>
-      </Navbar>
+    // The map behind this page follows the day shown here
+    <Page className="day-page" onPageBeforeIn={() => showDay(n)}>
+      <Navbar large title={day.short} backLink />
 
-      <p className="day-sub">
+      <p className="day-sub num">
         Day {day.n} · {dateLong(day)} · {day.temp}
       </p>
 
       {day.alerts.length > 0 && (
         <div className="reminders">
-          {day.alerts.map((a, i) => (
+          {alerts.map((a, i) => (
             <p key={i}>
               <i className="f7-icons">exclamationmark_triangle_fill</i>
               <span>{a}</span>
             </p>
           ))}
+          {day.alerts.length > 1 && (
+            <button className="reminders-more" onClick={() => setAllAlerts((v) => !v)}>
+              {allAlerts ? 'Show less' : `${day.alerts.length - 1} more to remember`}
+            </button>
+          )}
         </div>
       )}
 
@@ -68,19 +80,14 @@ export default function DayPage({ f7route }: { f7route: Router.Route }) {
               <ListItem
                 key={i}
                 link="#"
-                noChevron
-                className="leg-row"
+                className={`leg-row mode-${l.mode}`}
                 onClick={() => setPhone({ leg: key })}
+                title={`${MODE_LABEL[l.mode]}${l.duration ? ` · ${l.duration}` : ''}${l.who ? ` · ${l.who} only` : ''}`}
+                after={ride?.dep ?? ''}
                 style={{ '--mc': MODE_COLOR[l.mode] } as React.CSSProperties}
               >
                 <span slot="media" className="leg-ico">
                   <Icon name={MODE_ICON[l.mode]} size={15} />
-                </span>
-                <span slot="title" className="leg-text">
-                  {MODE_LABEL[l.mode]}
-                  {l.duration && <span className="num"> · {l.duration}</span>}
-                  {ride && <span className="leg-svc"> · {ride.service}{ride.dep ? ` ${ride.dep}` : ''}</span>}
-                  {l.who && <em> · {l.who} only</em>}
                 </span>
               </ListItem>
             )
@@ -90,7 +97,13 @@ export default function DayPage({ f7route }: { f7route: Router.Route }) {
           const meal = mealOf(st)
           const time = st.time && /\d/.test(st.time) ? st.time : ''
           return (
-            <ListItem key={i} link={`/place/${p.id}/?day=${day.n}`} className="stop-row" title={p.en}>
+            <ListItem
+              key={i}
+              link={`/place/${p.id}/?day=${day.n}&stop=${seg.index}`}
+              className="stop-row"
+              title={p.en}
+              footer={repeated.has(p.id) ? gist(st.note) : undefined}
+            >
               <div slot="media" className="thumb">
                 {p.photo ? <img src={photoUrl(p.photo, 160)} alt="" loading="lazy" /> : <i className="f7-icons">placemark</i>}
               </div>
@@ -98,9 +111,7 @@ export default function DayPage({ f7route }: { f7route: Router.Route }) {
                 {time}
                 {meal && <b> · {meal}</b>}
                 {st.who && <em> · {st.who} only</em>}
-              </span>
-              <span slot="after-title">
-                <PickDot id={p.id} />
+                <PickWord id={p.id} />
               </span>
             </ListItem>
           )
@@ -120,33 +131,27 @@ export default function DayPage({ f7route }: { f7route: Router.Route }) {
         )}
       </List>
 
-      {(day.notes?.length || day.cost) && (
+      {day.notes && day.notes.length > 0 && (
         <List inset strong accordionList className="notes-acc">
-          <ListItem accordionItem title="Notes and cost">
+          <ListItem accordionItem title={`${day.notes.length} tips for the day`}>
             <div className="accordion-item-content">
               <Block>
-                {day.notes && (
-                  <ul className="note-list">
-                    {day.notes.map((t, i) => (
-                      <li key={i}>{t}</li>
-                    ))}
-                  </ul>
-                )}
-                {day.cost && <p className="cost-line">{day.cost}</p>}
+                <ul className="note-list">
+                  {day.notes.map((t, i) => (
+                    <li key={i}>{t}</li>
+                  ))}
+                </ul>
               </Block>
             </div>
           </ListItem>
         </List>
       )}
 
-      {next && (
-        <>
-          <BlockTitle>Next</BlockTitle>
-          <List inset strong dividers>
-            <ListItem link={`/day/${next.n}/`} reloadCurrent title={next.short} header={`Day ${next.n} · ${dateLong(next)}`} />
-          </List>
-        </>
-      )}
+      <BlockTitle>Other days</BlockTitle>
+      <List inset strong dividers className="day-nav">
+        {prev && <ListItem link={`/day/${prev.n}/`} reloadCurrent transition="f7-dive" title={`← ${prev.short}`} footer={`Day ${prev.n} · ${dateShort(prev)}`} />}
+        {next && <ListItem link={`/day/${next.n}/`} reloadCurrent title={`${next.short} →`} footer={`Day ${next.n} · ${dateShort(next)}`} />}
+      </List>
     </Page>
   )
 }

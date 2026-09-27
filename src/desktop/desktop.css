@@ -3,7 +3,6 @@
 .desktop {
   --side-w: 380px;
   --strip-h: 246px;
-  --glass-blur: saturate(180%) blur(20px);
   /* Text on glass: follows light and dark mode */
   --g-ink: var(--f7-text-color);
   --g-mute: color-mix(in srgb, var(--f7-text-color) 62%, transparent);
@@ -14,8 +13,7 @@
   overflow: hidden;
 }
 .glass-panel {
-  backdrop-filter: var(--glass-blur);
-  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: saturate(180%) blur(20px);
   background-color: var(--f7-glass-bg-color);
   box-shadow: var(--f7-glass-shadow);
   color: var(--g-ink);
@@ -45,8 +43,7 @@
   scrollbar-width: none;
   border-radius: 32px;
   pointer-events: auto;
-  backdrop-filter: var(--glass-blur);
-  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: saturate(180%) blur(20px);
   background-color: var(--f7-glass-bg-color);
   box-shadow: var(--f7-glass-shadow);
 }
@@ -63,6 +60,8 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 1px;
+  /* Framework7 makes every <button> full width */
+  width: auto;
   min-width: 64px;
   padding: 6px 13px 9px;
   border: 0;
@@ -350,8 +349,7 @@
   height: 34px;
   justify-content: center;
   border-radius: 17px;
-  backdrop-filter: var(--glass-blur);
-  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: saturate(180%) blur(20px);
   background-color: var(--f7-glass-bg-color);
   box-shadow: var(--f7-glass-shadow);
   color: var(--g-ink);
@@ -442,8 +440,7 @@
 }
 .tl-leg {
   border-radius: 16px;
-  backdrop-filter: var(--glass-blur);
-  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: saturate(180%) blur(20px);
   background: rgba(20, 24, 30, 0.62);
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12);
   cursor: pointer;
@@ -455,8 +452,7 @@
 .leg-tip,
 .pin-tip {
   border-radius: 20px;
-  backdrop-filter: var(--glass-blur);
-  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: saturate(180%) blur(20px);
   background: var(--f7-glass-bg-color);
   box-shadow: var(--f7-glass-shadow);
   color: var(--g-ink);
@@ -475,8 +471,7 @@
 .mapkey {
   bottom: calc(var(--strip-h) - 30px);
   border-radius: 16px;
-  backdrop-filter: var(--glass-blur);
-  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: saturate(180%) blur(20px);
   background: rgba(20, 24, 30, 0.6);
 }
 .desktop .maplibregl-ctrl-bottom-right {
@@ -485,10 +480,30 @@
 .desktop .maplibregl-ctrl-group:not(:empty) {
   border-radius: 18px;
   overflow: hidden;
-  backdrop-filter: var(--glass-blur);
+  backdrop-filter: saturate(180%) blur(20px);
   background: var(--f7-glass-bg-color);
 }
 /* The place panel sits on the right; move the zoom buttons out of its way */
 .desktop:has(.d-detail) .maplibregl-ctrl-bottom-right {
   right: 424px;
+}
+
+/* Browsers with no background blur: a more solid panel, so the text stays readable */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .glass-panel,
+  .dtabs,
+  .leg-tip,
+  .pin-tip,
+  .tl-leg,
+  .mapkey {
+    background-color: rgba(246, 247, 249, 0.96);
+  }
+  .dark .glass-panel,
+  .dark .dtabs,
+  .dark .leg-tip,
+  .dark .pin-tip,
+  .tl-leg,
+  .mapkey {
+    background-color: rgba(28, 30, 34, 0.95);
+  }
 }

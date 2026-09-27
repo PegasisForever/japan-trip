@@ -98,7 +98,6 @@ export interface Plan {
   who: { pegasis: string; aoki: string }
   cost: { transport: string; hotels: string; activities: string; total: string }
   flights: string[]
-  bookFirst?: { what: string; why: string }[]
   /** Where each place comes from, to reuse its photos */
   places: (Place & { ref?: string | null })[]
   days: Day[]
