@@ -35,8 +35,8 @@ export default function LegSheet() {
       // Move the map once the sheet has its full height, so the route lands above it
       onSheetOpened={() => key && first && setPhone({ mapDay: first.day.n, mapPlace: null, focusLeg: { key, t: Date.now() } })}
       onSheetClosed={() => setPhone({ leg: null, hot: null, focusLeg: null })}
+      // Swipe down anywhere on the sheet to close it
       swipeToClose
-      swipeHandler=".leg-sheet .grabber"
       // No dark layer: the highlighted route must stay visible. A tap on the map closes the sheet.
       backdrop={false}
       closeByOutsideClick

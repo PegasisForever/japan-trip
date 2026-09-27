@@ -590,11 +590,17 @@
 .day-picker {
   height: 88vh;
   border-radius: 28px 28px 0 0;
+}
+/* Framework7 puts the sheet content in an inner box: the head stays, the list below it scrolls */
+.day-picker .sheet-modal-inner {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 .picker-head {
   position: relative;
+  user-select: none;
+  -webkit-user-select: none;
   padding: 26px 20px 8px;
 }
 .picker-head h2 {
@@ -609,6 +615,7 @@
 }
 .day-picker .page-content {
   flex: 1;
+  min-height: 0;
   position: relative;
   height: auto;
   padding-top: 0;
@@ -1014,4 +1021,42 @@
 }
 .ts-leg.is-tiny {
   font-size: 11px;
+}
+/* Long stays: a photo across the top, then the name, the times and the plan */
+.ts-stop.is-tall {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+  padding: 6px 6px 10px;
+  border-radius: 18px;
+}
+.ts-stop.is-tall img {
+  flex: 1 1 0;
+  width: 100%;
+  height: auto;
+  min-height: 60px;
+  max-height: 220px;
+  border-radius: 13px;
+}
+.ts-stop.is-tall .ts-stop-text {
+  flex: none;
+  padding: 0 6px;
+}
+.ts-stop.is-tall .ts-stop-text b {
+  font-size: 17px;
+  white-space: normal;
+}
+.ts-note {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-top: 4px;
+  font-size: 13.5px;
+  line-height: 1.35;
+  color: color-mix(in srgb, var(--f7-text-color) 75%, transparent);
+}
+.ts-stop:not(.is-tall) .ts-note {
+  -webkit-line-clamp: 2;
+  font-size: 13px;
 }

@@ -14,6 +14,9 @@ import { setPhone, showDay } from './store'
 const PX = 1.8
 /** Space between two blocks, taken from the end of the first one */
 const GAP = 2
+/** The smallest block that still shows a name and a time; travel can be thinner */
+const MIN_STOP = 44
+const MIN_LEG = 24
 
 const PICK_SHORT: Record<Pick, string> = { aoki: 'Aoki', pegasis: 'Pegasis', both: 'Both' }
 
@@ -61,10 +64,27 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
   const morning = next ? dayStart(next) : null
   const repeated = new Set(day.stops.map((s) => s.place).filter((p, i, a) => a.indexOf(p) !== i))
   const alerts = allAlerts ? day.alerts : day.alerts.slice(0, 1)
-  const start = Math.min(...segs.map((x) => x.t0))
-  const end = Math.max(...segs.map((x) => x.t1))
+  // Lay the blocks out in time order. Each is as tall as it is long, but never shorter than it needs to be
+  // readable; the hour marks move with the blocks, so a mark is always at the right point of the block it falls in.
+  const laid: { seg: (typeof segs)[number]; top: number; h: number }[] = []
+  let y = 0
+  let last = segs.length ? segs[0].t0 : 0
+  for (const seg of segs) {
+    y += Math.max(0, seg.t0 - last) * PX
+    const h = Math.max(seg.kind === 'stop' ? MIN_STOP : MIN_LEG, (seg.t1 - seg.t0) * PX - GAP)
+    laid.push({ seg, top: y, h })
+    y += h + GAP
+    last = seg.t1
+  }
+  const height = y
+  /** Where a clock time falls on the page */
+  const yAt = (t: number) => {
+    for (const b of laid) if (t >= b.seg.t0 && t <= b.seg.t1) return b.top + ((t - b.seg.t0) / Math.max(1, b.seg.t1 - b.seg.t0)) * (b.h + GAP)
+    const after = laid.find((b) => b.seg.t0 > t)
+    return after ? after.top - (after.seg.t0 - t) * PX : height
+  }
   const ticks: number[] = []
-  for (let hr = Math.ceil(start / 60); hr * 60 <= end; hr++) ticks.push(hr)
+  if (laid.length) for (let hr = Math.ceil(laid[0].seg.t0 / 60); hr * 60 <= last; hr++) ticks.push(hr)
 
   return (
     // The map behind this page follows the day shown here
@@ -94,16 +114,14 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
       {day.split && <Block className="split-note">{day.split}</Block>}
 
       {/* The day on one time scale: each place and each travel is as tall as it is long */}
-      <div className="tscale" style={{ height: (end - start) * PX + 8 }}>
+      <div className="tscale" style={{ height: height + 8 }}>
         {ticks.map((h) => (
-          <div key={h} className="ts-tick num" style={{ top: (h * 60 - start) * PX }}>
+          <div key={h} className="ts-tick num" style={{ top: yAt(h * 60) }}>
             <span>{fmtClock(h * 60)}</span>
           </div>
         ))}
-        {segs.map((seg, i) => {
-          const top = (seg.t0 - start) * PX
-          const h = Math.max(3, (seg.t1 - seg.t0) * PX - GAP)
-          const size = h < 30 ? ' is-tiny' : h < 58 ? ' is-short' : ''
+        {laid.map(({ seg, top, h }, i) => {
+          const size = h < 30 ? ' is-tiny' : h < 58 ? ' is-short' : h >= 150 && seg.kind === 'stop' ? ' is-tall' : ''
           if (seg.kind === 'leg') {
             const l = seg.leg
             const ride = l.mode === 'walk' ? null : mainRide(l.label, l.mode)
@@ -138,7 +156,7 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
               style={{ top, height: h }}
               onClick={() => f7router.navigate(`/place/${p.id}/?day=${day.n}&stop=${seg.index}`)}
             >
-              {p.photo && <img src={photoUrl(p.photo, 160)} alt="" loading="lazy" />}
+              {p.photo && <img src={photoUrl(p.photo, h >= 150 ? 480 : 160)} alt="" loading="lazy" />}
               <span className="ts-stop-text">
                 <b>{p.en}</b>
                 <small className="num">
@@ -148,7 +166,9 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
                   {st.who && <em> · {st.who} only</em>}
                   <PickWord id={p.id} />
                 </small>
-                {repeated.has(p.id) && h >= 58 && <span className="ts-gist">{gist(st.note)}</span>}
+                {repeated.has(p.id) && h >= 58 && h < 90 && <span className="ts-gist">{gist(st.note)}</span>}
+                {/* A longer stay has room for the plan itself */}
+                {h >= 90 && st.note && <span className="ts-note">{st.note}</span>}
               </span>
             </button>
           )

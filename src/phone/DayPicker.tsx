@@ -34,8 +34,8 @@ export default function DayPicker() {
       opened={picker}
       onSheetOpen={() => body.current?.querySelector('.is-current')?.scrollIntoView({ block: 'center' })}
       onSheetClosed={() => setPhone({ picker: false })}
+      // Swipe down anywhere on the sheet to close it (from the list, when it is scrolled to the top)
       swipeToClose
-      swipeHandler=".day-picker .picker-head"
       backdrop
     >
       <div className="picker-head">
