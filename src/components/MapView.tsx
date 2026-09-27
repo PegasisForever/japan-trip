@@ -23,6 +23,8 @@ interface Props {
   hotLeg: string | null
   /** A travel block that was clicked: the map moves to show its route (t makes a second click move again) */
   focusLeg: { key: string; t: number } | null
+  /** Place under the mouse in the timeline: ring only, no popup */
+  lit: string | null
   onHover: (id: string | null) => void
   onSelect: (id: string) => void
   onPickDay: (n: number) => void
@@ -98,7 +100,7 @@ function framePadding(m: maplibregl.Map) {
 }
 
 export default function MapView(props: Props) {
-  const { days, places, routes, day, hovered, selected, hotLeg, focusLeg, onHover, onSelect, onPickDay } = props
+  const { days, places, routes, day, hovered, selected, hotLeg, focusLeg, lit, onHover, onSelect, onPickDay } = props
   const box = useRef<HTMLDivElement>(null)
   const map = useRef<maplibregl.Map | null>(null)
   const markers = useRef<Map<string, { m: maplibregl.Marker; el: HTMLElement }>>(new Map())
@@ -340,8 +342,9 @@ export default function MapView(props: Props) {
       el.classList.toggle('is-hot', id === hovered)
       if (id === hovered) el.classList.toggle('tip-below', el.getBoundingClientRect().top < 330)
       el.classList.toggle('is-selected', id === selected)
+      el.classList.toggle('is-lit', id === lit)
     })
-  }, [hovered, selected, day])
+  }, [hovered, selected, lit, day])
 
   // Show the whole route of a clicked travel block
   useEffect(() => {

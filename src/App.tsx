@@ -21,6 +21,8 @@ export default function App() {
   const [hovered, setHovered] = useState<string | null>(null)
   const [selected, setSelected] = useState<string | null>(null)
   const [hotLeg, setHotLeg] = useState<string | null>(null)
+  // A place under the mouse in the timeline: its map pin lights up, without the pin's popup card
+  const [lit, setLit] = useState<string | null>(null)
   const [focusLeg, setFocusLeg] = useState<{ key: string; t: number } | null>(null)
   const showLeg = useCallback((key: string) => {
     setSelected(null)
@@ -36,6 +38,7 @@ export default function App() {
     setSelected(null)
     setHovered(null)
     setHotLeg(null)
+    setLit(null)
     history.replaceState(null, '', n ? `#day-${n}` : window.location.pathname)
   }, [])
 
@@ -72,6 +75,7 @@ export default function App() {
         selected={selected}
         hotLeg={hotLeg}
         focusLeg={focusLeg}
+        lit={lit}
         onHover={setHovered}
         onSelect={setSelected}
         onPickDay={pickDay}
@@ -89,7 +93,7 @@ export default function App() {
         places={places}
         hovered={hovered}
         selected={selected}
-        onHover={setHovered}
+        onHover={setLit}
         onSelect={setSelected}
         onPickDay={pickDay}
         onHotLeg={setHotLeg}

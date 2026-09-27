@@ -1373,13 +1373,20 @@ button.ekimei-nav:hover {
 }
 .pin:hover .pin-ring,
 .pin.is-hot .pin-ring,
+.pin.is-lit .pin-ring,
 .pin.is-selected .pin-ring {
   transform: scale(1.25);
+}
+/* Lit from the timeline: a bigger photo circle with a white ring, but no popup card */
+.pin.is-lit .pin-ring {
+  transform: scale(1.5);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.9);
 }
 .pin.is-selected .pin-ring {
   border-color: var(--focus);
 }
 .pin.is-hot,
+.pin.is-lit,
 .pin:hover,
 .pin.is-selected {
   z-index: 10;
