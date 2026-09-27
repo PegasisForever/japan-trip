@@ -3,7 +3,7 @@ import type { Router } from 'framework7/types'
 import { useEffect, useMemo, useRef } from 'react'
 import MapView, { type Pad } from '../shared/MapView'
 import { plan } from '../data/plan'
-import { days, places, dateShort, stopOrder } from '../data/trip'
+import { days, places, dateShort, dateLong, stopOrder } from '../data/trip'
 import { photoUrl } from '../data/photos'
 import { buildTimeline, legsBeforeStops, mainRide, mealOf, minutes, fmtClock, fmtLength } from '../data/timeline'
 import { KIND_LABEL, MODE_COLOR } from '../data/style'
@@ -96,28 +96,33 @@ export default function MapPage({ f7router }: { f7router: Router.Router }) {
   const cards = useMemo(() => cardsOf(day), [day])
   const deck = useRef<HTMLDivElement>(null)
   const pager = useRef<HTMLDivElement>(null)
-  const shown = useRef(-1)
+  // The card in the middle of the row: 0 is the whole day, 1 and up are the places
+  const shown = useRef(0)
   const firstDay = useRef(true)
   const deckTimer = useRef<number | undefined>(undefined)
   const pagerTimer = useRef<number | undefined>(undefined)
 
-  // A new day: the cards start at the first place (none picked yet), the title row shows the day
+  // A new day: the cards start at the whole day, the title row shows the day
   useEffect(() => {
     deck.current?.scrollTo({ left: 0 })
-    shown.current = -1
+    shown.current = 0
     const el = pager.current
     // Straight to the day on the first load (it can be today, in the middle of the trip)
     if (el && middleIndex(el) !== day.n - 1) el.scrollTo({ left: (day.n - 1) * el.clientWidth, behavior: firstDay.current ? 'instant' : 'smooth' })
     firstDay.current = false
   }, [day])
 
-  // A pin was tapped: bring its card into view
+  // A pin was tapped: bring its card into view. No place picked (the day title was tapped): the whole-day card.
   useEffect(() => {
-    if (!mapPlace || !deck.current) return
-    // The card in view already shows this place (the hotel can be both the first and the last card)
-    if (cards[shown.current]?.place.id === mapPlace) return
-    const i = cards.findIndex((c) => c.place.id === mapPlace)
-    if (i < 0) return
+    if (!deck.current) return
+    let i = 0
+    if (mapPlace) {
+      // The card in view already shows this place (the hotel can be both the first and the last card)
+      if (cards[shown.current - 1]?.place.id === mapPlace) return
+      i = cards.findIndex((c) => c.place.id === mapPlace) + 1
+      if (i < 1) return
+    }
+    if (i === shown.current) return
     shown.current = i
     ;(deck.current.children[i] as HTMLElement | undefined)?.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' })
   }, [mapPlace, cards])
@@ -128,10 +133,11 @@ export default function MapPage({ f7router }: { f7router: Router.Router }) {
     deckTimer.current = window.setTimeout(() => {
       if (!deck.current) return
       const i = middleIndex(deck.current)
-      // The first card at rest before any swipe: keep the whole day in view
-      if (i === shown.current || (i === 0 && shown.current === -1)) return
+      if (i === shown.current) return
       shown.current = i
-      setPhone({ mapPlace: cards[i].place.id, focusLeg: null })
+      // The whole-day card: all of the day's places on the map
+      if (i === 0) setPhone({ mapPlace: null, focusLeg: null, refit: getPhone().refit + 1 })
+      else setPhone({ mapPlace: cards[i - 1].place.id, focusLeg: null })
     }, 90)
   }
 
@@ -144,6 +150,13 @@ export default function MapPage({ f7router }: { f7router: Router.Router }) {
       if (n !== getPhone().mapDay) showDay(n)
     }, 90)
   }
+
+  // The day from leaving the hotel to the night: "10:00–23:00"
+  const span = useMemo(() => {
+    const segs = buildTimeline(day)
+    const night = segs.find((x) => x.kind === 'stop' && x.stop.end === 'night')
+    return segs.length ? `${fmtClock(segs[0].t0)}–${fmtClock(night ? night.t0 : Math.max(...segs.map((x) => x.t1)))}` : ''
+  }, [day])
 
   const open = (c: Card) => f7router.navigate(`/place/${c.place.id}/?day=${day.n}&stop=${day.stops.indexOf(c.stop)}`)
 
@@ -202,6 +215,23 @@ export default function MapPage({ f7router }: { f7router: Router.Router }) {
       </div>
 
       <div className="deck" ref={deck} onScroll={onDeckScroll} key={day.n}>
+        <div className="deck-item">
+          <span className="deck-travel is-empty" aria-hidden />
+          <button className="deck-card deck-whole" onClick={() => setPhone({ mapPlace: null, focusLeg: null, refit: getPhone().refit + 1 })}>
+            <span className="deck-img">
+              {places[day.cover]?.photo ? <img src={photoUrl(places[day.cover].photo!, 480)} alt="" /> : <i className="f7-icons">map</i>}
+            </span>
+            <span className="deck-text">
+              <small className="num">
+                {dateLong(day)} · {day.temp}
+              </small>
+              <b>Whole day</b>
+              <span className="num">
+                {new Set(cards.map((c) => c.place.id)).size} places{span ? ` · ${span}` : ''}
+              </span>
+            </span>
+          </button>
+        </div>
         {cards.map((c) => {
           const time = c.stop.time && /\d/.test(c.stop.time) ? c.stop.time : null
           return (
