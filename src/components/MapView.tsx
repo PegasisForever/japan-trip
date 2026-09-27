@@ -77,6 +77,15 @@ function buildRoutes(days: Day[], day: Day | null, places: Record<string, Place>
   return { type: 'FeatureCollection' as const, features }
 }
 
+/**
+ * How long a flight takes: longer for a longer trip, 1.2–3.5 s.
+ * Not maxDuration: MapLibre does not cap a flight that is too long, it sets its time to 0 and the camera jumps.
+ */
+function flyTime(m: maplibregl.Map, to: [number, number]) {
+  const km = m.getCenter().distanceTo(new maplibregl.LngLat(to[0], to[1])) / 1000
+  return Math.min(3500, 1200 + 450 * Math.log2(1 + km))
+}
+
 /** Keep what the map shows clear of the floating board and the photo strip */
 function framePadding(m: maplibregl.Map) {
   const narrow = window.innerWidth < 760
@@ -356,7 +365,7 @@ export default function MapView(props: Props) {
     const bounds = new maplibregl.LngLatBounds()
     for (const c of legLine(leg, focusLeg.key, places, routes)) bounds.extend(c as LngLatLike)
     const cam = m.cameraForBounds(bounds, { padding: framePadding(m), maxZoom: 16 })
-    if (cam) m.flyTo({ ...cam, pitch: 40, bearing: 0, curve: 1.6, speed: 0.8, maxDuration: 3500, essential: true })
+    if (cam) m.flyTo({ ...cam, pitch: 40, bearing: 0, curve: 1.6, duration: flyTime(m, bounds.getCenter().toArray() as [number, number]), essential: true })
   }, [focusLeg, days, places, routes])
 
   // Fly to a selected place
@@ -375,8 +384,7 @@ export default function MapView(props: Props) {
       // MapLibre keeps a padding and adds it to the next fitBounds, which then cannot fit and does not move.
       offset: narrow ? [0, (80 - 380) / 2] : [(440 - 460) / 2, (80 - 220) / 2],
       curve: 1.6,
-      speed: 0.8,
-      maxDuration: 3500,
+      duration: flyTime(m, [p.lon, p.lat]),
       essential: true,
     })
   }, [selected, places])
