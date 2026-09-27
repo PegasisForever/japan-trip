@@ -7,6 +7,8 @@ const hosts = ['.ngrok-free.app', '.ngrok.app', '.ngrok.dev', '.ngrok-free.dev',
 // https://vite.dev/config/
 // The site folder: "/" locally, "/japan-trip/" for GitHub Pages (BASE=/japan-trip/ npm run build)
 const base = process.env.BASE ?? '/'
+// The worker gets its rules as text, so a rule cannot use a variable from here: build fixed patterns instead
+const under = (folder: string) => new RegExp(`^https?://[^/]+${base.replace(/[/.]/g, '\\$&')}${folder}/`)
 
 export default defineConfig({
   base,
@@ -35,25 +37,52 @@ export default defineConfig({
         ],
       },
       workbox: {
-        // The page itself is not served from the stored copy first (see the NetworkFirst rule below)
-        globPatterns: ['**/*.{js,css,svg,woff2,ttf}'],
-        maximumFileSizeToCacheInBytes: 6 * 1024 * 1024,
+        // Nothing is stored ahead of time except the icons: the page and its code always come as one set,
+        // from the network when there is one. (Stored code that a new version deleted, while iOS still showed
+        // the old page, gave the installed app a white screen after each update.)
+        globPatterns: ['**/*.{svg,png,woff2,ttf}'],
+        globIgnores: ['photos/**'],
         navigateFallback: null,
-        // A new version takes over at once, not after all app windows close
         skipWaiting: true,
         clientsClaim: true,
+        // Removes the code store of the earlier versions of this worker
         cleanupOutdatedCaches: true,
         runtimeCaching: [
           {
-            // With internet: always the newest page (and so the newest code and plan).
-            // No answer in 4 s, or no internet: the last page that loaded.
+            // With internet: always the newest page. No answer in 4 s, or no internet: the last page that loaded.
             urlPattern: ({ request }) => request.mode === 'navigate',
             handler: 'NetworkFirst',
             options: { cacheName: 'pages', networkTimeoutSeconds: 4, cacheableResponse: { statuses: [200] } },
           },
           {
+            // The code (file names change with each version): from the network, and kept for use with no internet.
+            // Old versions stay until there are many, so the last page that loaded always finds its code.
+            urlPattern: under('assets'),
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'code',
+              networkTimeoutSeconds: 6,
+              expiration: { maxEntries: 120 },
+              cacheableResponse: { statuses: [200] },
+              // "Not found" from the server (an old file after an update) counts as no answer: use the stored file
+              plugins: [
+                {
+                  fetchDidSucceed: async ({ response }) => {
+                    if (!response.ok) throw new Error(`code file: ${response.status}`)
+                    return response
+                  },
+                },
+              ],
+            },
+          },
+          {
             // Photos: small ones first (lists, pins), then the big ones when opened
-            urlPattern: ({ url }) => url.pathname.startsWith(`${base}photos/`) || url.hostname === 'upload.wikimedia.org',
+            urlPattern: under('photos'),
+            handler: 'CacheFirst',
+            options: { cacheName: 'photos', expiration: { maxEntries: 1500 }, cacheableResponse: { statuses: [0, 200] } },
+          },
+          {
+            urlPattern: ({ url }) => url.hostname === 'upload.wikimedia.org',
             handler: 'CacheFirst',
             options: { cacheName: 'photos', expiration: { maxEntries: 1500 }, cacheableResponse: { statuses: [0, 200] } },
           },

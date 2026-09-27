@@ -16,6 +16,28 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      // Safety net for the installed app: still blank 8 s after opening means stored files do not match.
+      // Clear the stored copy and load once more from the network (once per open, so it cannot loop).
+      setTimeout(function () {
+        var root = document.getElementById('root')
+        if (root && root.children.length) return
+        try {
+          if (sessionStorage.getItem('yukimichi-healed')) return
+          sessionStorage.setItem('yukimichi-healed', '1')
+        } catch (e) {}
+        var jobs = []
+        if ('serviceWorker' in navigator)
+          jobs.push(navigator.serviceWorker.getRegistrations().then(function (rs) {
+            return Promise.all(rs.map(function (r) { return r.unregister() }))
+          }))
+        if (window.caches)
+          jobs.push(caches.keys().then(function (ks) {
+            return Promise.all(ks.filter(function (k) { return k !== 'tiles' && k !== 'photos' }).map(function (k) { return caches.delete(k) }))
+          }))
+        Promise.all(jobs).then(function () { location.reload() }, function () { location.reload() })
+      }, 8000)
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
