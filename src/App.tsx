@@ -21,6 +21,11 @@ export default function App() {
   const [hovered, setHovered] = useState<string | null>(null)
   const [selected, setSelected] = useState<string | null>(null)
   const [hotLeg, setHotLeg] = useState<string | null>(null)
+  const [focusLeg, setFocusLeg] = useState<{ key: string; t: number } | null>(null)
+  const showLeg = useCallback((key: string) => {
+    setSelected(null)
+    setFocusLeg({ key, t: Date.now() })
+  }, [])
 
   const day = days.find((d) => d.n === dayN) ?? null
   // A link to a day that does not exist (#day-99) shows the whole trip, with its tab selected
@@ -66,6 +71,7 @@ export default function App() {
         hovered={hovered}
         selected={selected}
         hotLeg={hotLeg}
+        focusLeg={focusLeg}
         onHover={setHovered}
         onSelect={setSelected}
         onPickDay={pickDay}
@@ -87,6 +93,7 @@ export default function App() {
         onSelect={setSelected}
         onPickDay={pickDay}
         onHotLeg={setHotLeg}
+        onFocusLeg={showLeg}
       />
       {selected && places[selected] && (
         <PlaceDetail key={selected} place={places[selected]} day={day} onClose={() => setSelected(null)} />

@@ -21,6 +21,8 @@ interface Props {
   selected: string | null
   /** "day-leg" key of the travel block under the mouse, e.g. "4-2" */
   hotLeg: string | null
+  /** A travel block that was clicked: the map moves to show its route (t makes a second click move again) */
+  focusLeg: { key: string; t: number } | null
   onHover: (id: string | null) => void
   onSelect: (id: string) => void
   onPickDay: (n: number) => void
@@ -73,8 +75,30 @@ function buildRoutes(days: Day[], day: Day | null, places: Record<string, Place>
   return { type: 'FeatureCollection' as const, features }
 }
 
+/** Keep what the map shows clear of the floating board and the photo strip */
+function framePadding(m: maplibregl.Map) {
+  const narrow = window.innerWidth < 760
+  const board = document.querySelector('.board')?.getBoundingClientRect()
+  const strip = document.querySelector('.strip')?.getBoundingClientRect()
+  // Leave room for the map key that sits on top of the strip
+  const bottom = strip ? window.innerHeight - strip.top + 56 : 280
+  const padding = narrow
+    ? { top: (board?.bottom ?? 300) + 30, bottom, left: 40, right: 40 }
+    : { top: 110, bottom, left: (board?.right ?? 420) + 50, right: 80 }
+  // Padding larger than the map makes MapLibre skip the move; keep at least 80 px of map visible
+  const W = m.getContainer().clientWidth
+  const H = m.getContainer().clientHeight
+  const fit = (a: number, b: number, room: number) => {
+    const over = a + b - (room - 80)
+    return over > 0 ? [Math.max(0, a - over / 2), Math.max(0, b - over / 2)] : [a, b]
+  }
+  ;[padding.top, padding.bottom] = fit(padding.top, padding.bottom, H)
+  ;[padding.left, padding.right] = fit(padding.left, padding.right, W)
+  return padding
+}
+
 export default function MapView(props: Props) {
-  const { days, places, routes, day, hovered, selected, hotLeg, onHover, onSelect, onPickDay } = props
+  const { days, places, routes, day, hovered, selected, hotLeg, focusLeg, onHover, onSelect, onPickDay } = props
   const box = useRef<HTMLDivElement>(null)
   const map = useRef<maplibregl.Map | null>(null)
   const markers = useRef<Map<string, { m: maplibregl.Marker; el: HTMLElement }>>(new Map())
@@ -297,26 +321,8 @@ export default function MapView(props: Props) {
           for (const c of legLine(leg, `${day.n}-${i}`, places, routes)) bounds.extend(c as LngLatLike)
         })
       }
-      // Keep the route clear of the floating board and the photo strip
-      const narrow = window.innerWidth < 760
-      const board = document.querySelector('.board')?.getBoundingClientRect()
-      const strip = document.querySelector('.strip')?.getBoundingClientRect()
-      // Leave room for the map key that sits on top of the strip
-      const bottom = strip ? window.innerHeight - strip.top + 56 : 280
-      const padding = narrow
-        ? { top: (board?.bottom ?? 300) + 30, bottom, left: 40, right: 40 }
-        : { top: 110, bottom, left: (board?.right ?? 420) + 50, right: 80 }
-      // Padding larger than the map makes MapLibre skip the move; keep at least 80 px of map visible
-      const W = m.getContainer().clientWidth
-      const H = m.getContainer().clientHeight
-      const fit = (a: number, b: number, room: number) => {
-        const over = a + b - (room - 80)
-        return over > 0 ? [Math.max(0, a - over / 2), Math.max(0, b - over / 2)] : [a, b]
-      }
-      ;[padding.top, padding.bottom] = fit(padding.top, padding.bottom, H)
-      ;[padding.left, padding.right] = fit(padding.left, padding.right, W)
       m.fitBounds(bounds, {
-        padding,
+        padding: framePadding(m),
         maxZoom: 14,
         pitch: day ? 40 : 0,
         bearing: 0,
@@ -336,6 +342,18 @@ export default function MapView(props: Props) {
       el.classList.toggle('is-selected', id === selected)
     })
   }, [hovered, selected, day])
+
+  // Show the whole route of a clicked travel block
+  useEffect(() => {
+    const m = map.current
+    if (!m || !focusLeg || !ready.current) return
+    const [n, i] = focusLeg.key.split('-').map(Number)
+    const leg = days.find((d) => d.n === n)?.legs[i]
+    if (!leg || !places[leg.from] || !places[leg.to]) return
+    const bounds = new maplibregl.LngLatBounds()
+    for (const c of legLine(leg, focusLeg.key, places, routes)) bounds.extend(c as LngLatLike)
+    m.fitBounds(bounds, { padding: framePadding(m), maxZoom: 16, pitch: 40, bearing: 0, duration: 1200, essential: true })
+  }, [focusLeg, days, places, routes])
 
   // Fly to a selected place
   useEffect(() => {

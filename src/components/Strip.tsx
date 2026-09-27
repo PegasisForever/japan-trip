@@ -19,6 +19,8 @@ interface Props {
   onPickDay: (n: number) => void
   /** The travel block under the mouse, as "day-leg" ("4-2"), so the map can show its route */
   onHotLeg: (key: string | null) => void
+  /** A travel block was clicked: show its route on the map */
+  onFocusLeg: (key: string) => void
 }
 
 /** Pixels per minute: the whole day uses one scale, so every hour has the same width */
@@ -67,7 +69,7 @@ function LegTip({ leg, rect }: { leg: Leg; rect: DOMRect }) {
   )
 }
 
-export default function Strip({ day, days, places, hovered, selected, onHover, onSelect, onPickDay, onHotLeg }: Props) {
+export default function Strip({ day, days, places, hovered, selected, onHover, onSelect, onPickDay, onHotLeg, onFocusLeg }: Props) {
   const rail = useRef<HTMLDivElement>(null)
   // The travel steps shown next to a travel block; it belongs to one day only
   const [tip, setTip] = useState<{ leg: Leg; rect: DOMRect; n: number } | null>(null)
@@ -186,6 +188,7 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
                   aria-label={`${MODE_LABEL[l.mode]}${l.duration ? ', ' + l.duration : ''}: ${l.label}`}
                   onMouseEnter={(e) => show(e.currentTarget)}
                   onMouseLeave={hide}
+                  onClick={() => onFocusLeg(key)}
                   onFocus={(e) => show(e.currentTarget)}
                   onBlur={hide}
                 >

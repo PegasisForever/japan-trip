@@ -993,10 +993,11 @@ button.ekimei-nav:hover {
 .pick-short {
   display: none;
 }
-.card-stop.is-narrow .pick-long {
+/* Timeline cards always use the short word: "Aoki", "Pegasis", "Both" */
+.card-stop .pick-long {
   display: none;
 }
-.card-stop.is-narrow .pick-short {
+.card-stop .pick-short {
   display: inline;
 }
 /* Narrowest cards: only the coloured dot, under the number */
