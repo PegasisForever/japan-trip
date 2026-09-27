@@ -17,6 +17,8 @@ interface Props {
   onHover: (id: string | null) => void
   onSelect: (id: string) => void
   onPickDay: (n: number) => void
+  /** The travel block under the mouse, as "day-leg" ("4-2"), so the map can show its route */
+  onHotLeg: (key: string | null) => void
 }
 
 /** Pixels per minute: the whole day uses one scale, so every hour has the same width */
@@ -65,7 +67,7 @@ function LegTip({ leg, rect }: { leg: Leg; rect: DOMRect }) {
   )
 }
 
-export default function Strip({ day, days, places, hovered, selected, onHover, onSelect, onPickDay }: Props) {
+export default function Strip({ day, days, places, hovered, selected, onHover, onSelect, onPickDay, onHotLeg }: Props) {
   const rail = useRef<HTMLDivElement>(null)
   // The travel steps shown next to a travel block; it belongs to one day only
   const [tip, setTip] = useState<{ leg: Leg; rect: DOMRect; n: number } | null>(null)
@@ -166,7 +168,15 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
               const ride = l.mode === 'walk' ? null : mainRide(l.label, l.mode)
               const steps = stepsOf(l.label)
               const rides = steps.filter((s) => /\d:\d\d\s*→/.test(s)).length
-              const show = (el: HTMLElement) => setTip({ leg: l, rect: el.getBoundingClientRect(), n: day.n })
+              const key = `${day.n}-${day.legs.indexOf(l)}`
+              const show = (el: HTMLElement) => {
+                setTip({ leg: l, rect: el.getBoundingClientRect(), n: day.n })
+                onHotLeg(key)
+              }
+              const hide = () => {
+                setTip(null)
+                onHotLeg(null)
+              }
               return (
                 <button
                   key={i}
@@ -175,9 +185,9 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
                   style={{ left, width: w, '--mc': MODE_COLOR[l.mode] } as React.CSSProperties}
                   aria-label={`${MODE_LABEL[l.mode]}${l.duration ? ', ' + l.duration : ''}: ${l.label}`}
                   onMouseEnter={(e) => show(e.currentTarget)}
-                  onMouseLeave={() => setTip(null)}
+                  onMouseLeave={hide}
                   onFocus={(e) => show(e.currentTarget)}
-                  onBlur={() => setTip(null)}
+                  onBlur={hide}
                 >
                   <i className={l.mode === 'flight' || l.mode === 'walk' ? 'dash' : ''} />
                   <span className="tl-leg-head">

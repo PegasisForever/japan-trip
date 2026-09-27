@@ -19,6 +19,8 @@ interface Props {
   day: Day | null
   hovered: string | null
   selected: string | null
+  /** "day-leg" key of the travel block under the mouse, e.g. "4-2" */
+  hotLeg: string | null
   onHover: (id: string | null) => void
   onSelect: (id: string) => void
   onPickDay: (n: number) => void
@@ -63,7 +65,7 @@ function buildRoutes(days: Day[], day: Day | null, places: Record<string, Place>
       const active = !day || d.n === day.n
       features.push({
         type: 'Feature',
-        properties: { mode: leg.mode, active: active ? 1 : 0, color: MODE_COLOR[leg.mode] },
+        properties: { key: `${d.n}-${i}`, mode: leg.mode, active: active ? 1 : 0, color: MODE_COLOR[leg.mode] },
         geometry: { type: 'LineString', coordinates: legLine(leg, `${d.n}-${i}`, places, routes) },
       })
     })
@@ -72,7 +74,7 @@ function buildRoutes(days: Day[], day: Day | null, places: Record<string, Place>
 }
 
 export default function MapView(props: Props) {
-  const { days, places, routes, day, hovered, selected, onHover, onSelect, onPickDay } = props
+  const { days, places, routes, day, hovered, selected, hotLeg, onHover, onSelect, onPickDay } = props
   const box = useRef<HTMLDivElement>(null)
   const map = useRef<maplibregl.Map | null>(null)
   const markers = useRef<Map<string, { m: maplibregl.Marker; el: HTMLElement }>>(new Map())
@@ -173,6 +175,23 @@ export default function MapView(props: Props) {
         layout: { 'line-cap': 'round' },
         paint: { 'line-color': ['get', 'color'], 'line-width': 3, 'line-dasharray': [1, 2] },
       })
+      // The route of the travel block under the mouse in the timeline: a white glow, then the line on top
+      m.addLayer({
+        id: 'routes-hot-glow',
+        type: 'line',
+        source: 'routes',
+        filter: ['==', ['get', 'key'], ''],
+        layout: { 'line-join': 'round', 'line-cap': 'round' },
+        paint: { 'line-color': '#ffffff', 'line-width': 12, 'line-opacity': 0.9, 'line-blur': 2 },
+      })
+      m.addLayer({
+        id: 'routes-hot',
+        type: 'line',
+        source: 'routes',
+        filter: ['==', ['get', 'key'], ''],
+        layout: { 'line-join': 'round', 'line-cap': 'round' },
+        paint: { 'line-color': ['get', 'color'], 'line-width': 6 },
+      })
       ready.current = true
       pending.current?.()
       pending.current = null
@@ -184,6 +203,22 @@ export default function MapView(props: Props) {
       ready.current = false
     }
   }, [])
+
+  // Highlight one leg; the other lines of the day fade so it stands out
+  useEffect(() => {
+    const m = map.current
+    if (!m) return
+    const apply = () => {
+      const key = hotLeg ?? ''
+      m.setFilter('routes-hot-glow', ['==', ['get', 'key'], key])
+      m.setFilter('routes-hot', ['==', ['get', 'key'], key])
+      const o = hotLeg ? 0.3 : 1
+      m.setPaintProperty('routes-line', 'line-opacity', o)
+      m.setPaintProperty('routes-dashed', 'line-opacity', o)
+      m.setPaintProperty('routes-casing', 'line-opacity', hotLeg ? 0.2 : 0.55)
+    }
+    if (ready.current) apply()
+  }, [hotLeg])
 
   // Routes, markers and camera follow the selected tab
   useEffect(() => {

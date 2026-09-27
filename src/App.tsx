@@ -20,6 +20,7 @@ export default function App() {
   const [dayN, setDayN] = useState<number | null>(readHash)
   const [hovered, setHovered] = useState<string | null>(null)
   const [selected, setSelected] = useState<string | null>(null)
+  const [hotLeg, setHotLeg] = useState<string | null>(null)
 
   const day = days.find((d) => d.n === dayN) ?? null
   // A link to a day that does not exist (#day-99) shows the whole trip, with its tab selected
@@ -29,6 +30,7 @@ export default function App() {
     setDayN(n)
     setSelected(null)
     setHovered(null)
+    setHotLeg(null)
     history.replaceState(null, '', n ? `#day-${n}` : window.location.pathname)
   }, [])
 
@@ -63,6 +65,7 @@ export default function App() {
         day={day}
         hovered={hovered}
         selected={selected}
+        hotLeg={hotLeg}
         onHover={setHovered}
         onSelect={setSelected}
         onPickDay={pickDay}
@@ -83,6 +86,7 @@ export default function App() {
         onHover={setHovered}
         onSelect={setSelected}
         onPickDay={pickDay}
+        onHotLeg={setHotLeg}
       />
       {selected && places[selected] && (
         <PlaceDetail key={selected} place={places[selected]} day={day} onClose={() => setSelected(null)} />
