@@ -987,9 +987,25 @@ button.ekimei-nav:hover {
   z-index: 2;
 }
 /* Short blocks: fewer words, the rest is in the hover tip and the place panel */
-.card-stop.is-narrow .card-en,
-.card-stop.is-narrow .pick {
+.card-stop.is-narrow .card-en {
   display: none;
+}
+.pick-short {
+  display: none;
+}
+.card-stop.is-narrow .pick-long {
+  display: none;
+}
+.card-stop.is-narrow .pick-short {
+  display: inline;
+}
+/* Narrowest cards: only the coloured dot, under the number */
+.pick-dot {
+  padding: 4px;
+}
+.card-stop.is-tiny .card-top {
+  flex-direction: column;
+  gap: 4px;
 }
 .card-stop.is-narrow .card-kind {
   font-size: 11px;
@@ -2018,4 +2034,14 @@ button.ekimei-nav:hover {
   .gallery-nav {
     display: none;
   }
+}
+
+/* Text for screen readers only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
 }

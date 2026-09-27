@@ -243,6 +243,7 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
                 <span className="card-shade" />
                 <span className="card-top">
                   <span className="card-num">{order.get(st.place)}</span>
+                  {w < TINY && <PickTag pick={pickOf(st.place)} dot />}
                   <span className="card-time">
                     {st.time && /\d/.test(st.time) ? st.time : fmtClock(seg.t0)}
                     {!seg.open && <span className="card-time-end">–{fmtClock(seg.t1)}</span>}
