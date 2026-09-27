@@ -5,6 +5,7 @@ import 'framework7/css/bundle'
 import 'framework7-icons/css/framework7-icons.css'
 import './shared/base.css'
 import Root from './Root'
+import './pwa'
 
 Framework7.use(Framework7React)
 
