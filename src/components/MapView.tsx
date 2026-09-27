@@ -355,7 +355,8 @@ export default function MapView(props: Props) {
     if (!leg || !places[leg.from] || !places[leg.to]) return
     const bounds = new maplibregl.LngLatBounds()
     for (const c of legLine(leg, focusLeg.key, places, routes)) bounds.extend(c as LngLatLike)
-    m.fitBounds(bounds, { padding: framePadding(m), maxZoom: 16, pitch: 40, bearing: 0, duration: 1200, essential: true })
+    const cam = m.cameraForBounds(bounds, { padding: framePadding(m), maxZoom: 16 })
+    if (cam) m.flyTo({ ...cam, pitch: 40, bearing: 0, curve: 1.6, speed: 0.8, maxDuration: 3500, essential: true })
   }, [focusLeg, days, places, routes])
 
   // Fly to a selected place
@@ -365,14 +366,18 @@ export default function MapView(props: Props) {
     const p = places[selected]
     if (!p) return
     const narrow = window.innerWidth < 760
-    m.easeTo({
+    // flyTo zooms out until both places are in view, then zooms in, on one smooth arc
+    m.flyTo({
       center: [p.lon, p.lat],
       zoom: Math.max(m.getZoom(), p.kind === 'fuji' || p.kind === 'ski' ? 12.5 : 15),
       pitch: 45,
       // Centre the place in the free space between the panels. An offset, not a padding:
       // MapLibre keeps a padding and adds it to the next fitBounds, which then cannot fit and does not move.
       offset: narrow ? [0, (80 - 380) / 2] : [(440 - 460) / 2, (80 - 220) / 2],
-      duration: 1400,
+      curve: 1.6,
+      speed: 0.8,
+      maxDuration: 3500,
+      essential: true,
     })
   }, [selected, places])
 
