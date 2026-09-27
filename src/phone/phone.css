@@ -1,0 +1,513 @@
+/* Phone (iPhone 14 size). Framework7 iOS 26 draws the bars, lists and sheets; these rules add only what the trip needs. */
+
+.glass {
+  backdrop-filter: saturate(180%) blur(16px);
+  -webkit-backdrop-filter: saturate(180%) blur(16px);
+  background-color: var(--f7-glass-bg-color);
+  box-shadow: var(--f7-glass-shadow);
+}
+
+/* ---------- Photo squares in lists ---------- */
+.thumb {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--rc, #7d8ea0) 30%, #1a2633);
+  color: rgba(255, 255, 255, 0.8);
+}
+.thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.thumb .f7-icons {
+  font-size: 22px;
+}
+.thumb.night {
+  background: linear-gradient(170deg, #2a3a66, #121a30);
+  color: #c9d6ff;
+}
+
+/* ---------- Days ---------- */
+.days-when,
+.day-sub {
+  margin: 0 calc(16px + var(--f7-safe-area-left)) 6px;
+  color: var(--f7-block-title-text-color, rgba(0, 0, 0, 0.6));
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+.days-list .item-header {
+  font-variant-numeric: tabular-nums;
+}
+.days-list .item-title {
+  font-weight: 600;
+}
+.days-foot {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* ---------- One day ---------- */
+.reminders {
+  margin: 12px 16px 0;
+  padding: 12px 14px;
+  border-radius: 22px;
+  background: color-mix(in srgb, #ffcc00 22%, var(--f7-list-strong-bg-color, #fff));
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.reminders p {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.35;
+}
+.reminders .f7-icons {
+  flex: none;
+  margin-top: 1px;
+  font-size: 16px;
+  color: #d99a00;
+}
+.split-note {
+  font-size: 14px;
+  color: var(--f7-block-strong-text-color);
+}
+.plan-list .stop-row .item-header {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--f7-theme-color);
+}
+.plan-list .stop-row .item-header b {
+  color: #d99a00;
+  font-weight: 600;
+}
+.plan-list .stop-row .item-header em,
+.leg-row em {
+  font-style: normal;
+  color: #8e44ad;
+}
+.plan-list .stop-row .item-title {
+  font-weight: 600;
+  white-space: normal;
+}
+.plan-list .night-row .item-header {
+  color: #7d8ce0;
+}
+/* Travel rows: smaller and grey, between the places */
+.plan-list .leg-row .item-content {
+  min-height: 0;
+}
+.plan-list .leg-row .item-inner {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  min-height: 0;
+}
+.plan-list .leg-row .item-media {
+  align-self: center;
+  width: 52px;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.plan-list .leg-row .item-title {
+  font-size: 13.5px;
+  color: var(--f7-list-item-footer-text-color, rgba(0, 0, 0, 0.55));
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.leg-ico {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--mc);
+  color: #0b1520;
+}
+.leg-ico.big {
+  width: 34px;
+  height: 34px;
+}
+.leg-svc {
+  font-variant-numeric: tabular-nums;
+}
+/* Whose pick: a dot after the name. The place page has the word. */
+.pdot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  margin-left: 6px;
+  border-radius: 50%;
+  vertical-align: 1px;
+}
+.pdot-aoki {
+  background: var(--aoki);
+}
+.pdot-pegasis {
+  background: var(--pegasis);
+}
+.pdot-both {
+  background: linear-gradient(90deg, var(--aoki) 50%, var(--pegasis) 50%);
+}
+.note-list {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14.5px;
+}
+.cost-line {
+  font-size: 14px;
+  color: var(--f7-list-item-footer-text-color);
+}
+
+/* ---------- One place ---------- */
+.place-page .page-content {
+  padding-top: 0;
+}
+.place-hero {
+  margin: 0;
+}
+.place-hero .gallery-slide img {
+  aspect-ratio: 4 / 3.4;
+}
+.place-hero .gallery-dots {
+  bottom: 12px;
+}
+.place-hero figcaption {
+  top: calc(var(--f7-safe-area-top) + 64px);
+  bottom: auto;
+  opacity: 0.8;
+}
+.place-hero-empty {
+  height: calc(var(--f7-safe-area-top) + 64px);
+}
+.place-head {
+  margin-top: 16px;
+}
+.place-head h1 {
+  margin: 2px 0 0;
+  font-size: 28px;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+.place-kind {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--f7-theme-color);
+}
+.place-ja {
+  margin: 6px 0 0;
+  font-size: 20px;
+}
+.place-tags {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+.place-tags:empty {
+  display: none;
+}
+.solo {
+  padding: 1px 8px;
+  border-radius: 10px;
+  background: var(--info-bg);
+  color: var(--info-ink);
+  font-size: 11.5px;
+  font-weight: 700;
+}
+.dir-btn {
+  margin-top: 16px;
+  gap: 6px;
+}
+.dir-btn .f7-icons {
+  font-size: 20px;
+}
+.place-plan,
+.place-do {
+  font-size: 15.5px;
+  line-height: 1.45;
+}
+.place-do .hook {
+  margin-top: 0;
+  font-weight: 600;
+}
+.place-do ol {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.place-do .tip {
+  margin-bottom: 0;
+  color: var(--f7-list-item-footer-text-color);
+}
+.info-list .item-title {
+  white-space: normal;
+  font-size: 15px;
+}
+
+/* ---------- Map tab ---------- */
+.map-page {
+  background: #0b1520;
+}
+.map-page .map {
+  inset: 0;
+}
+.map-switch {
+  position: absolute;
+  z-index: 5;
+  top: calc(var(--f7-safe-area-top) + 8px);
+  left: 12px;
+  right: 12px;
+  display: flex;
+  align-items: center;
+  height: 56px;
+  border-radius: 28px;
+  backdrop-filter: saturate(180%) blur(16px);
+  -webkit-backdrop-filter: saturate(180%) blur(16px);
+  background-color: var(--f7-glass-bg-color);
+  box-shadow: var(--f7-glass-shadow);
+}
+.map-switch .link {
+  width: 52px;
+  height: 56px;
+  justify-content: center;
+}
+.map-switch .link.disabled {
+  opacity: 0.3;
+}
+.map-switch-label {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0;
+  background: none;
+  color: var(--f7-text-color);
+  font: inherit;
+}
+.map-switch-label small {
+  font-size: 12px;
+  opacity: 0.65;
+}
+.map-switch-label b {
+  max-width: 100%;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.map-card {
+  position: absolute;
+  z-index: 5;
+  left: 12px;
+  right: 12px;
+  bottom: calc(var(--f7-safe-area-bottom) + 92px);
+  border-radius: 26px;
+  overflow: hidden;
+  backdrop-filter: saturate(180%) blur(16px);
+  -webkit-backdrop-filter: saturate(180%) blur(16px);
+  background-color: var(--f7-glass-bg-color);
+  box-shadow: var(--f7-glass-shadow);
+  animation: card-in 0.3s var(--ease);
+}
+@keyframes card-in {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+}
+.map-card-main {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  border: 0;
+  background: none;
+  color: var(--f7-text-color);
+  font: inherit;
+  text-align: left;
+}
+.map-card-main img {
+  flex: none;
+  width: 76px;
+  height: 76px;
+  border-radius: 18px;
+  object-fit: cover;
+}
+.map-card-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+.map-card-text small {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--f7-theme-color);
+}
+.map-card-text b {
+  font-size: 17px;
+  line-height: 1.25;
+}
+.map-card-text span {
+  font-size: 14px;
+  opacity: 0.7;
+}
+.map-card .chev {
+  font-size: 18px;
+  opacity: 0.4;
+}
+.map-card-close.link {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 36px;
+  height: 36px;
+  justify-content: center;
+}
+.map-card-close .f7-icons {
+  font-size: 16px;
+  opacity: 0.6;
+}
+.map-page .maplibregl-ctrl-bottom-right,
+.map-page .maplibregl-ctrl-bottom-left {
+  bottom: calc(var(--f7-safe-area-bottom) + 84px);
+}
+/* Pins a little smaller on a phone */
+.map-page .pin,
+.map-page .pin-ring {
+  width: 38px;
+  height: 38px;
+}
+
+/* ---------- Travel steps sheet ---------- */
+.leg-sheet {
+  --f7-sheet-height: auto;
+}
+.leg-sheet .page-content {
+  padding-top: 24px;
+  padding-bottom: calc(var(--f7-safe-area-bottom) + 16px);
+  max-height: 75vh;
+}
+.leg-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.leg-title small {
+  margin-left: auto;
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0.6;
+}
+.leg-route {
+  margin: -4px 16px 0;
+  font-size: 14px;
+  opacity: 0.7;
+}
+.steps {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+  line-height: 1.4;
+  font-variant-numeric: tabular-nums;
+}
+.leg-actions .button {
+  gap: 6px;
+}
+
+/* ---------- Trip ---------- */
+.trip-hero {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 4px 16px 0;
+  padding: 16px 18px;
+  border-radius: 26px;
+  background: linear-gradient(135deg, #2f7cf6, #6a4fd8);
+  color: #fff;
+}
+.trip-hero p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.4;
+}
+.trip-hero .num {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+}
+.trip-hero .num b {
+  font-size: 40px;
+  font-weight: 700;
+}
+.trip-hero .num span {
+  margin-top: 4px;
+  font-size: 12px;
+  opacity: 0.85;
+}
+.block-title .count {
+  float: right;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.book-list .item-title {
+  white-space: normal;
+}
+.book-what {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 1.3;
+}
+.book-list .is-done .book-what {
+  opacity: 0.45;
+  text-decoration: line-through;
+}
+.book-list .item-footer .due {
+  color: #e0452f;
+  font-weight: 600;
+}
+.book-list .item-footer .ok {
+  color: #1f9d63;
+  font-weight: 600;
+}
+.why-link .f7-icons {
+  font-size: 22px;
+  color: var(--f7-theme-color);
+}
+.cost-detail p {
+  font-size: 14px;
+  line-height: 1.45;
+}
+.flight-list .item-text {
+  -webkit-line-clamp: unset;
+  max-height: none;
+  font-size: 14.5px;
+  color: var(--f7-text-color);
+}
+.fine {
+  font-size: 13px;
+  opacity: 0.65;
+  margin-top: -20px;
+}

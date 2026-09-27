@@ -1,0 +1,494 @@
+/* Desktop: the map fills the window; glass panels (Framework7 iOS 26 glass) float on it. */
+
+.desktop {
+  --side-w: 380px;
+  --strip-h: 246px;
+  --glass-blur: saturate(180%) blur(20px);
+  /* Text on glass: follows light and dark mode */
+  --g-ink: var(--f7-text-color);
+  --g-mute: color-mix(in srgb, var(--f7-text-color) 62%, transparent);
+}
+.d-app {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+.glass-panel {
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  background-color: var(--f7-glass-bg-color);
+  box-shadow: var(--f7-glass-shadow);
+  color: var(--g-ink);
+}
+.dark .glass-panel {
+  background-color: rgba(28, 30, 34, 0.72);
+}
+
+/* ---------- Day tabs: one glass capsule ---------- */
+.dtop {
+  position: absolute;
+  z-index: 6;
+  top: 14px;
+  left: 16px;
+  right: 16px;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+.dtabs {
+  display: flex;
+  gap: 2px;
+  min-width: 0;
+  max-width: 100%;
+  padding: 5px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  border-radius: 32px;
+  pointer-events: auto;
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  background-color: var(--f7-glass-bg-color);
+  box-shadow: var(--f7-glass-shadow);
+}
+.dark .dtabs {
+  background-color: rgba(28, 30, 34, 0.72);
+}
+.dtabs::-webkit-scrollbar {
+  display: none;
+}
+.dtab {
+  position: relative;
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  min-width: 64px;
+  padding: 6px 13px 9px;
+  border: 0;
+  border-radius: 26px;
+  background: transparent;
+  color: var(--g-ink);
+  font: inherit;
+  line-height: 1.2;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s var(--ease);
+}
+/* Line colour of the region, like the colour band on a JR sign */
+.dtab::after {
+  content: '';
+  position: absolute;
+  left: 13px;
+  right: 13px;
+  bottom: 4px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--rc);
+}
+.dtab-trip::after {
+  display: none;
+}
+.dtab:hover {
+  background: color-mix(in srgb, var(--f7-text-color) 8%, transparent);
+}
+.dtab[aria-selected='true'] {
+  background: var(--f7-theme-color);
+  color: #fff;
+  box-shadow: var(--f7-glass-shadow-thumb);
+}
+.dtab-top {
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.dtab-n {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.6;
+  margin-right: 2px;
+}
+.dtab-date {
+  font-size: 12px;
+  opacity: 0.65;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.dtab[aria-selected='true'] .dtab-n,
+.dtab[aria-selected='true'] .dtab-date {
+  opacity: 0.85;
+}
+
+/* ---------- Left panel ---------- */
+.d-side {
+  position: absolute;
+  z-index: 5;
+  top: 84px;
+  left: 16px;
+  bottom: calc(var(--strip-h) + 8px);
+  width: var(--side-w);
+  border-radius: 28px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-bottom: 12px;
+  scrollbar-width: thin;
+  animation: side-in 0.35s var(--ease);
+}
+@keyframes side-in {
+  from {
+    opacity: 0.4;
+    transform: translateX(-8px);
+  }
+}
+.side-head {
+  padding: 18px 20px 6px;
+}
+.side-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: -8px -10px 6px;
+}
+.side-nav .link {
+  width: 36px;
+  height: 36px;
+  justify-content: center;
+  border-radius: 18px;
+}
+.side-nav .link:hover {
+  background: color-mix(in srgb, var(--f7-text-color) 8%, transparent);
+}
+.side-nav .link.disabled {
+  opacity: 0.25;
+}
+.side-nav .f7-icons {
+  font-size: 18px;
+}
+.side-kicker {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--g-mute);
+}
+.side-head > .side-kicker {
+  justify-content: flex-start;
+}
+.rdot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--rc);
+}
+.side-head h1 {
+  margin: 0;
+  font-size: 28px;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+.side-sub {
+  margin: 6px 0 0;
+  font-size: 14.5px;
+  line-height: 1.4;
+  color: var(--g-mute);
+}
+.side-ja {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: var(--g-mute);
+}
+.side-alerts {
+  margin: 12px 16px 0;
+  padding: 12px 16px 14px;
+  border-radius: 20px;
+  background: color-mix(in srgb, #ffcc00 24%, transparent);
+}
+.side-alerts h3 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 6px;
+  font-size: 14px;
+}
+.side-alerts .f7-icons {
+  font-size: 15px;
+  color: #d99a00;
+}
+.side-alerts ul {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13.5px;
+  line-height: 1.4;
+}
+.d-side .list,
+.d-detail .list {
+  --f7-list-inset-side-margin: 16px;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+.d-side .block-title {
+  margin-top: 22px;
+}
+.d-side .list .item-media .f7-icons {
+  font-size: 20px;
+  color: var(--f7-theme-color);
+}
+.side-facts .item-footer {
+  color: #c98a12;
+  font-weight: 600;
+}
+.side-split {
+  font-size: 14px;
+}
+.side-notes {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+}
+.side-fine {
+  font-size: 13px;
+  color: var(--g-mute);
+}
+.side-cost {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 13.5px;
+}
+.side-cost span {
+  color: var(--g-mute);
+}
+.side-count {
+  float: right;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.side-money .item-after {
+  color: var(--g-ink);
+  font-variant-numeric: tabular-nums;
+}
+.side-book .item-title {
+  white-space: normal;
+  font-size: 14.5px;
+  font-weight: 600;
+}
+.side-book .item-text {
+  font-size: 13px;
+}
+.side-book .is-done .item-title {
+  opacity: 0.45;
+  text-decoration: line-through;
+}
+.region-bar {
+  display: flex;
+  gap: 2px;
+  height: 6px;
+  margin: 14px 0 10px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.region-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  font-size: 12.5px;
+  color: var(--g-mute);
+}
+.region-legend span {
+  display: inline-flex;
+  align-items: center;
+}
+.region-legend i {
+  width: 8px;
+  height: 8px;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+.region-legend small {
+  margin-left: 3px;
+  font-size: 12.5px;
+}
+
+/* ---------- Right panel: one place ---------- */
+.d-detail {
+  position: absolute;
+  z-index: 7;
+  top: 84px;
+  right: 16px;
+  bottom: calc(var(--strip-h) + 8px);
+  width: 400px;
+  border-radius: 28px;
+  overflow: hidden;
+  animation: detail-in 0.35s var(--ease);
+}
+@keyframes detail-in {
+  from {
+    opacity: 0;
+    transform: translateX(16px) scale(0.98);
+  }
+}
+.d-detail-scroll {
+  height: 100%;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-bottom: 16px;
+}
+.d-close.link {
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  right: 10px;
+  width: 34px;
+  height: 34px;
+  justify-content: center;
+  border-radius: 17px;
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  background-color: var(--f7-glass-bg-color);
+  box-shadow: var(--f7-glass-shadow);
+  color: var(--g-ink);
+}
+.d-close .f7-icons {
+  font-size: 15px;
+}
+.d-place-head {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+.d-kind {
+  margin: 0;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--f7-theme-color);
+}
+.d-place-head h2 {
+  margin: 4px 0 0;
+  font-size: 24px;
+  line-height: 1.25;
+}
+.d-romaji {
+  margin: 2px 0 0;
+  font-size: 13.5px;
+  color: var(--g-mute);
+}
+.d-en {
+  margin: 2px 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.d-plan h3 {
+  margin: 0 0 4px;
+  font-size: 13px;
+  color: var(--f7-theme-color);
+}
+.d-plan p {
+  margin: 0;
+  font-size: 14.5px;
+}
+.d-do {
+  font-size: 14.5px;
+  line-height: 1.45;
+}
+.d-do .hook {
+  font-weight: 600;
+}
+.d-do ol {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.d-do .tip {
+  color: var(--g-mute);
+}
+.d-info .item-title {
+  white-space: normal;
+  font-size: 14.5px;
+}
+.d-blurb {
+  font-size: 14.5px;
+}
+.d-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.d-links .button {
+  width: auto;
+  padding: 0 14px;
+}
+.d-detail .gallery {
+  background: #0f1a26;
+}
+.d-detail .gallery-slide img {
+  aspect-ratio: 16 / 11;
+}
+
+/* ---------- Timeline strip at the bottom ---------- */
+.strip {
+  background: linear-gradient(to top, rgba(5, 12, 20, 0.75), rgba(5, 12, 20, 0));
+}
+.tcard {
+  border-radius: 18px;
+}
+.tl-leg {
+  border-radius: 16px;
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  background: rgba(20, 24, 30, 0.62);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+  cursor: pointer;
+}
+.tl-leg:hover,
+.tl-leg:focus-visible {
+  background: rgba(40, 46, 56, 0.78);
+}
+.leg-tip,
+.pin-tip {
+  border-radius: 20px;
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  background: var(--f7-glass-bg-color);
+  box-shadow: var(--f7-glass-shadow);
+  color: var(--g-ink);
+  --ink-2: var(--g-ink);
+  --mute: var(--g-mute);
+}
+.dark .leg-tip,
+.dark .pin-tip {
+  background: rgba(28, 30, 34, 0.86);
+}
+.pin-tip {
+  --paper: transparent;
+}
+
+/* ---------- Map key and map controls ---------- */
+.mapkey {
+  bottom: calc(var(--strip-h) - 30px);
+  border-radius: 16px;
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  background: rgba(20, 24, 30, 0.6);
+}
+.desktop .maplibregl-ctrl-bottom-right {
+  bottom: calc(var(--strip-h) + 20px);
+}
+.desktop .maplibregl-ctrl-group:not(:empty) {
+  border-radius: 18px;
+  overflow: hidden;
+  backdrop-filter: var(--glass-blur);
+  background: var(--f7-glass-bg-color);
+}
+/* The place panel sits on the right; move the zoom buttons out of its way */
+.desktop:has(.d-detail) .maplibregl-ctrl-bottom-right {
+  right: 424px;
+}

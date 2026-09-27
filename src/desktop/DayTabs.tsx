@@ -8,7 +8,7 @@ interface Props {
   onPick: (n: number | null) => void
 }
 
-export default function TopBar({ days, current, onPick }: Props) {
+export default function DayTabs({ days, current, onPick }: Props) {
   const rail = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -17,16 +17,16 @@ export default function TopBar({ days, current, onPick }: Props) {
   }, [current])
 
   return (
-    <header className="topbar">
-      <div className="tabs" role="tablist" ref={rail}>
+    <header className="dtop">
+      <div className="dtabs" role="tablist" ref={rail}>
         <button
           role="tab"
           aria-selected={current === null}
-          className="tab tab-trip"
+          className="dtab dtab-trip"
           onClick={() => onPick(null)}
         >
-          <span className="tab-top">Whole trip</span>
-          <span className="tab-date" lang="ja">全行程</span>
+          <span className="dtab-top">Whole trip</span>
+          <span className="dtab-date" lang="ja">全行程</span>
         </button>
         {days.map((d) => {
           const [, m, dd] = d.date.split('-')
@@ -35,15 +35,15 @@ export default function TopBar({ days, current, onPick }: Props) {
               key={d.n}
               role="tab"
               aria-selected={current === d.n}
-              className="tab"
+              className="dtab"
               style={{ '--rc': REGION[d.region].color } as React.CSSProperties}
               onClick={() => onPick(d.n)}
               title={`${d.title} · ${d.titleJa}`}
             >
-              <span className="tab-top">
-                <span className="tab-n">{d.n}</span> {d.short}
+              <span className="dtab-top">
+                <span className="dtab-n">{d.n}</span> {d.short}
               </span>
-              <span className="tab-date">
+              <span className="dtab-date">
                 {Number(m)}/{Number(dd)} <span lang="ja">{d.weekday}</span>
               </span>
             </button>

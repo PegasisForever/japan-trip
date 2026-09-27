@@ -21,11 +21,17 @@ export const ICON_PATHS = {
   meal: 'M6.5 3v4.5a1.5 1.5 0 0 0 3 0V3M8 3v14M14.5 17V3c-1.8.8-2.8 3-2.8 5.6 0 1.4.9 2.4 2.8 2.4',
   moon: 'M16 12.5A6.5 6.5 0 0 1 7.5 4a6.5 6.5 0 1 0 8.5 8.5z',
   sun: 'M10 13.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM10 2.5V4M10 16v1.5M2.5 10H4M16 10h1.5M4.7 4.7l1.1 1.1M14.2 14.2l1.1 1.1M4.7 15.3l1.1-1.1M14.2 5.8l1.1-1.1',
+  car: 'M4 13.5V10l1.6-4h8.8L16 10v3.5M3.5 13.5h13M4.5 13.5v2M15.5 13.5v2M6.8 10.8h.1M13.2 10.8h.1',
+  train: 'M6 3.5h8a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2zM4 9.5h12M7 12.2h.1M13 12.2h.1M7 14.5l-2 2.5M13 14.5l2 2.5',
+  bus: 'M5 3.5h10a1.5 1.5 0 0 1 1.5 1.5v9.5h-13V5A1.5 1.5 0 0 1 5 3.5zM3.5 9.5h13M6.5 12h.1M13.5 12h.1M5.5 14.5v2M14.5 14.5v2',
+  walk: 'M11.2 5a1.3 1.3 0 1 0 0-.1M8.5 17l1.8-5.5 2.2 2V17M6.5 10.5l2.3-3.3h3l1.6 3 2 .9M10.3 11.5l.8-4.3',
+  plane: 'M16.5 10h-13M16.5 10L11 4H9.3l2.2 6-2.2 6H11l5.5-6zM5.5 10L4 7M5.5 10L4 13',
+  ropeway: 'M3 4l14 4M10 6.2V9M6 9h8v6.5H6zM6 12h8',
 } as const
 
 export type IconName = keyof typeof ICON_PATHS
 
 /** Same icon as an HTML string, for markers that MapLibre builds outside React */
 export function iconHtml(name: IconName, size = 12) {
-  return `<svg class="icon" width="${size}" height="${size}" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${ICON_PATHS[name]}"/></svg>`
+  return `<svg class="ico" width="${size}" height="${size}" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${ICON_PATHS[name]}"/></svg>`
 }

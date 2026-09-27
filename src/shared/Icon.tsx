@@ -3,7 +3,7 @@ import { ICON_PATHS, type IconName } from './icons'
 export default function Icon({ name, size = 16, className }: { name: IconName; size?: number; className?: string }) {
   return (
     <svg
-      className={`icon${className ? ' ' + className : ''}`}
+      className={`ico${className ? ' ' + className : ''}`}
       width={size}
       height={size}
       viewBox="0 0 20 20"

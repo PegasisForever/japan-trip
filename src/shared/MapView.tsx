@@ -25,10 +25,20 @@ interface Props {
   focusLeg: { key: string; t: number } | null
   /** Place under the mouse in the timeline: ring only, no popup */
   lit: string | null
-  onHover: (id: string | null) => void
+  onHover?: (id: string | null) => void
   onSelect: (id: string) => void
   onPickDay: (n: number) => void
+  /** A route line was tapped ("day-leg" key) */
+  onLeg?: (key: string) => void
+  /** Space to keep clear of the panels on top of the map, in px */
+  frame: () => Pad
+  /** Where a selected place goes, in px from the centre of the map */
+  placeOffset: () => [number, number]
+  /** Desktop: a preview card over a pin under the mouse, and the zoom buttons */
+  hoverTips?: boolean
 }
+
+export type Pad = { top: number; bottom: number; left: number; right: number }
 
 type Coord = [number, number]
 
@@ -98,16 +108,9 @@ function flyTime(m: maplibregl.Map, to: [number, number]) {
   return Math.min(3500, 1200 + 450 * Math.log2(1 + km))
 }
 
-/** Keep what the map shows clear of the floating board and the photo strip */
-function framePadding(m: maplibregl.Map) {
-  const narrow = window.innerWidth < 760
-  const board = document.querySelector('.board')?.getBoundingClientRect()
-  const strip = document.querySelector('.strip')?.getBoundingClientRect()
-  // Leave room for the map key that sits on top of the strip
-  const bottom = strip ? window.innerHeight - strip.top + 56 : 280
-  const padding = narrow
-    ? { top: (board?.bottom ?? 300) + 30, bottom, left: 40, right: 40 }
-    : { top: 110, bottom, left: (board?.right ?? 420) + 50, right: 80 }
+/** Keep what the map shows clear of the panels on top of it */
+function framePadding(m: maplibregl.Map, want: Pad) {
+  const padding = { ...want }
   // Padding larger than the map makes MapLibre skip the move; keep at least 80 px of map visible
   const W = m.getContainer().clientWidth
   const H = m.getContainer().clientHeight
@@ -130,16 +133,17 @@ export default function MapView(props: Props) {
 }
 
 function MapInner(props: Props) {
-  const { days, places, routes, day, hovered, selected, hotLeg, focusLeg, lit, onHover, onSelect, onPickDay } = props
+  const { days, places, routes, day, hovered, selected, hotLeg, focusLeg, lit, hoverTips = false } = props
   const box = useRef<HTMLDivElement>(null)
   const map = useRef<maplibregl.Map | null>(null)
   const markers = useRef<Map<string, { m: maplibregl.Marker; el: HTMLElement }>>(new Map())
   const ready = useRef(false)
   const pending = useRef<(() => void) | null>(null)
-  const cb = useRef({ onHover, onSelect, onPickDay })
+  // The latest callbacks and frame, for listeners that MapLibre keeps from the first render
+  const cb = useRef(props)
   useEffect(() => {
-    cb.current = { onHover, onSelect, onPickDay }
-  }, [onHover, onSelect, onPickDay])
+    cb.current = props
+  })
 
   useEffect(() => {
     if (!box.current) return
@@ -189,7 +193,10 @@ function MapInner(props: Props) {
       maxPitch: 70,
       attributionControl: { compact: true },
     })
-    m.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'bottom-right')
+    if (hoverTips) m.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'bottom-right')
+    // A tab that was hidden (display: none) has a map of size 0; draw it again when it shows
+    const ro = new ResizeObserver(() => m.resize())
+    ro.observe(box.current)
     // Place names are flat images: when the map tilts they stretch and blur, so show them only on a flat map
     m.on('pitch', () => {
       if (m.getLayer('ref')) m.setLayoutProperty('ref', 'visibility', m.getPitch() > 20 ? 'none' : 'visible')
@@ -231,6 +238,15 @@ function MapInner(props: Props) {
         layout: { 'line-cap': 'round' },
         paint: { 'line-color': ['get', 'color'], 'line-width': 3, 'line-dasharray': [1, 2] },
       })
+      // Wide and clear, so a finger can tap a thin line
+      m.addLayer({
+        id: 'routes-hit',
+        type: 'line',
+        source: 'routes',
+        filter: ['==', ['get', 'active'], 1],
+        layout: { 'line-join': 'round', 'line-cap': 'round' },
+        paint: { 'line-color': '#000000', 'line-width': 24, 'line-opacity': 0 },
+      })
       // The route of the travel block under the mouse in the timeline: a white glow, then the line on top
       m.addLayer({
         id: 'routes-hot-glow',
@@ -252,12 +268,22 @@ function MapInner(props: Props) {
       pending.current?.()
       pending.current = null
     })
+    // Tap a route line: its travel steps
+    const tapLeg = (e: maplibregl.MapLayerMouseEvent) => {
+      const key = e.features?.[0]?.properties?.key
+      if (key && cb.current.onLeg) cb.current.onLeg(String(key))
+    }
+    m.on('click', 'routes-hit', tapLeg)
+    m.on('mouseenter', 'routes-hit', () => cb.current.onLeg && (m.getCanvas().style.cursor = 'pointer'))
+    m.on('mouseleave', 'routes-hit', () => (m.getCanvas().style.cursor = ''))
     map.current = m
     return () => {
+      ro.disconnect()
       m.remove()
       map.current = null
       ready.current = false
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   // Three looks only: other days faded, the selected day normal, the hovered leg highlighted
@@ -322,7 +348,7 @@ function MapInner(props: Props) {
         el.innerHTML = `
           <span class="pin-ring">${img}</span>
           <span class="pin-num">${p.label}</span>
-          <span class="pin-tip">
+          ${hoverTips ? `<span class="pin-tip">
             ${p.place.photo ? `<img src="${photoUrl(p.place.photo, 480)}" alt="">` : ''}
             <span class="pin-tip-body">
               <span class="pin-tip-kind">${day ? (p.time ? p.time + ' · ' : '') + (p.what ?? KIND_LABEL[p.place.kind]) : p.what}</span>
@@ -331,13 +357,13 @@ function MapInner(props: Props) {
               ${day ? pickHtml(pickOf(p.id)) : ''}
               ${day ? '' : `<span class="pin-tip-hint">Open day ${p.dayN}</span>`}
             </span>
-          </span>`
+          </span>` : ''}`
         el.addEventListener('mouseenter', () => {
           // Show the preview under the pin when there is no room above it
           el.classList.toggle('tip-below', el.getBoundingClientRect().top < 330)
-          cb.current.onHover(p.id)
+          cb.current.onHover?.(p.id)
         })
-        el.addEventListener('mouseleave', () => cb.current.onHover(null))
+        el.addEventListener('mouseleave', () => cb.current.onHover?.(null))
         el.addEventListener('click', (e) => {
           e.stopPropagation()
           if (p.dayN) cb.current.onPickDay(p.dayN)
@@ -354,7 +380,7 @@ function MapInner(props: Props) {
         })
       }
       m.fitBounds(bounds, {
-        padding: framePadding(m),
+        padding: framePadding(m, cb.current.frame()),
         maxZoom: 14,
         pitch: day ? 40 : 0,
         bearing: 0,
@@ -385,7 +411,7 @@ function MapInner(props: Props) {
     if (!leg || !places[leg.from] || !places[leg.to]) return
     const bounds = new maplibregl.LngLatBounds()
     for (const c of legLine(leg, focusLeg.key, places, routes)) bounds.extend(c as LngLatLike)
-    const cam = m.cameraForBounds(bounds, { padding: framePadding(m), maxZoom: 16 })
+    const cam = m.cameraForBounds(bounds, { padding: framePadding(m, cb.current.frame()), maxZoom: 16 })
     if (cam) m.flyTo({ ...cam, pitch: 40, bearing: 0, curve: 1.6, duration: flyTime(m, bounds.getCenter().toArray() as [number, number]), essential: true })
   }, [focusLeg, days, places, routes])
 
@@ -395,7 +421,6 @@ function MapInner(props: Props) {
     if (!m || !selected || !ready.current) return
     const p = places[selected]
     if (!p) return
-    const narrow = window.innerWidth < 760
     // flyTo zooms out until both places are in view, then zooms in, on one smooth arc
     m.flyTo({
       center: [p.lon, p.lat],
@@ -403,7 +428,7 @@ function MapInner(props: Props) {
       pitch: 45,
       // Centre the place in the free space between the panels. An offset, not a padding:
       // MapLibre keeps a padding and adds it to the next fitBounds, which then cannot fit and does not move.
-      offset: narrow ? [0, (80 - 380) / 2] : [(440 - 460) / 2, (80 - 220) / 2],
+      offset: cb.current.placeOffset(),
       curve: 1.6,
       duration: flyTime(m, [p.lon, p.lat]),
       essential: true,

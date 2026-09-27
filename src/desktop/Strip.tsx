@@ -4,8 +4,8 @@ import type { Day, Leg, Place } from '../data/types'
 import { KIND_ICON, KIND_LABEL, MODE_COLOR, MODE_LABEL, REGION } from '../data/style'
 import { photoUrl } from '../data/photos'
 import { buildTimeline, dayStart, fmtClock, fmtLength, mainRide, mealOf, stepsOf } from '../data/timeline'
-import Icon from './Icon'
-import PickTag from './PickTag'
+import Icon from '../shared/Icon'
+import PickTag from '../shared/PickTag'
 import { pickOf } from '../data/picks'
 
 interface Props {
@@ -107,7 +107,7 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
           return (
             <button
               key={d.n}
-              className={`card card-day${p?.photo ? '' : ' no-photo'}`}
+              className={`tcard card-day${p?.photo ? '' : ' no-photo'}`}
               style={{ '--rc': REGION[d.region].color } as React.CSSProperties}
               onClick={() => onPickDay(d.n)}
             >
@@ -235,7 +235,7 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
                 data-id={first ? st.place : undefined}
                 style={{ left, width: w }}
                 title={w < NARROW ? `${st.time ?? fmtClock(seg.t0)} · ${p.en}` : undefined}
-                className={`card card-stop${w < TINY ? ' is-tiny' : w < NARROW ? ' is-narrow' : ''}${p.photo ? '' : ' no-photo'}${meal ? ' is-meal' : ''}${hovered === st.place ? ' is-hot' : ''}${selected === st.place ? ' is-selected' : ''}${st.who ? ' is-solo' : ''}`}
+                className={`tcard card-stop${w < TINY ? ' is-tiny' : w < NARROW ? ' is-narrow' : ''}${p.photo ? '' : ' no-photo'}${meal ? ' is-meal' : ''}${hovered === st.place ? ' is-hot' : ''}${selected === st.place ? ' is-selected' : ''}${st.who ? ' is-solo' : ''}`}
                 onMouseEnter={() => hoverHere(st.place)}
                 onMouseLeave={() => hoverHere(null)}
                 onFocus={() => hoverHere(st.place)}
@@ -273,7 +273,7 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
           })}
           {sleep && (
             <button
-              className="card card-night"
+              className="tcard card-night"
               style={{ left: x, width: NIGHT_W - 4 }}
               onClick={() => selectHere(sleep.id)}
               onMouseEnter={() => hoverHere(sleep.id)}
