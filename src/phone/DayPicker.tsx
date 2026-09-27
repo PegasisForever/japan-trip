@@ -32,7 +32,13 @@ export default function DayPicker() {
     <Sheet
       className="day-picker"
       opened={picker}
-      onSheetOpen={() => body.current?.querySelector('.is-current')?.scrollIntoView({ block: 'center' })}
+      // Show the current day in the middle of the list. Set the list's own scroll only:
+      // scrollIntoView also moves the sheet itself while it slides in, and the animation jumps.
+      onSheetOpen={() => {
+        const list = body.current?.closest('.page-content') as HTMLElement | null
+        const cur = body.current?.querySelector<HTMLElement>('.is-current')
+        if (list && cur) list.scrollTop = Math.max(0, cur.offsetTop - list.clientHeight / 2 + cur.offsetHeight / 2)
+      }}
       onSheetClosed={() => setPhone({ picker: false })}
       // Swipe down anywhere on the sheet to close it (from the list, when it is scrolled to the top)
       swipeToClose
