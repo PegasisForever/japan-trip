@@ -1,10 +1,10 @@
-import { Page, Navbar, List, ListItem, Block, BlockTitle } from 'framework7-react'
+import { Page, Navbar, List, ListItem, Block } from 'framework7-react'
 import type { Router } from 'framework7/types'
 import { useState } from 'react'
 import { MODE_COLOR, MODE_LABEL } from '../data/style'
 import { photoUrl } from '../data/photos'
 import { buildTimeline, dayStart, fmtClock, fmtLength, mainRide, mealOf } from '../data/timeline'
-import { days, places, dateLong, dateShort, legKey } from '../data/trip'
+import { days, places, dateLong, legKey } from '../data/trip'
 import { pickOf, type Pick } from '../data/picks'
 import { MODE_ICON } from '../shared/modeIcon'
 import Icon from '../shared/Icon'
@@ -58,7 +58,6 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
 
   // The first travel row has no place before it (it leaves the hotel of the night before): leave it out
   const segs = buildTimeline(day).filter((s, i) => !(i === 0 && s.kind === 'leg'))
-  const prev = days.find((d) => d.n === n - 1)
   const next = days.find((d) => d.n === n + 1)
   const morning = next ? dayStart(next) : null
   const repeated = new Set(day.stops.map((s) => s.place).filter((p, i, a) => a.indexOf(p) !== i))
@@ -213,11 +212,6 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
         </List>
       )}
 
-      <BlockTitle>Other days</BlockTitle>
-      <List inset strong dividers className="day-nav">
-        {prev && <ListItem link={`/day/${prev.n}/`} reloadCurrent header={`Previous day · Day ${prev.n} · ${dateShort(prev)}`} title={prev.short} />}
-        {next && <ListItem link={`/day/${next.n}/`} reloadCurrent header={`Next day · Day ${next.n} · ${dateShort(next)}`} title={next.short} />}
-      </List>
     </Page>
   )
 }
