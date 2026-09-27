@@ -25,7 +25,7 @@
       "why": "Booked (Sep 26, 2026). Check that the note \"no raw fish, cooked food only\" is in the booking, or email the ryokan."
     },
     {
-      "what": "Toyota Rent a Car, both cars: Kawasaki Shinkawabashi → Mishima Shinkansen-guchi, Jan 21 17:45 – Jan 23 11:40, compact, STUDLESS TYRES + ETC; and New Chitose Poplar → Sapporo-ekimae, 4WD (studless standard), Jan 28 13:50 – Jan 31 14:15",
+      "what": "Toyota Rent a Car, both cars: Kawasaki Shinkawabashi → Mishima Shinkansen-guchi, Jan 21 16:45 – Jan 23 11:40, compact, STUDLESS TYRES + ETC; and New Chitose Poplar → Sapporo-ekimae, 4WD (studless standard), Jan 28 13:50 – Jan 31 14:15",
       "why": "book now (by Sep 30, 2026): Toyota takes bookings 6 months ahead, and Kanagawa has only a few studless-tyre cars. Phone Kawasaki Shinkawabashi (044-211-0100) to get the studless car confirmed in writing; if they have none, ask another Toyota Rent-Lease Yokohama shop near Kawasaki Station."
     },
     {
@@ -594,7 +594,7 @@
         },
         {
           "label": "Rent",
-          "value": "Thu Jan 21 17:45 → Sat Jan 23 11:40 at Mishima"
+          "value": "Thu Jan 21 16:45 → Sat Jan 23 11:40 at Mishima"
         },
         {
           "label": "Price (C1 compact, e.g. Yaris/Passo)",
@@ -2515,9 +2515,9 @@
       "short": "Harajuku + Shibuya",
       "cover": "shibuya-sky",
       "title": "Meiji Jingu, Harajuku, Nintendo and Pokémon, Shibuya Sky at sunset, Golden Gai",
-      "titleJa": "明治神宮 → 竹下通り → 渋谷PARCO → ハチ公 → 渋谷スカイ → 都庁 → ゴールデン街",
-      "romaji": "Meiji Jingū → Takeshita-dōri → Shibuya Paruko → Hachikō → Shibuya Sukai → Tochō → Gōruden-gai",
-      "summary": "A late start: the forest shrine Meiji Jingu, crêpes on Takeshita Street, lunch and the Nintendo and Pokémon shops in Shibuya, Hachiko, and Shibuya Sky at sunset. Half-price food at Isetan, the free City Hall night view and one drink in Golden Gai.",
+      "titleJa": "明治神宮 → 竹下通り → 渋谷PARCO → ハチ公 → 渋谷スカイ → 新宿",
+      "romaji": "Meiji Jingū → Takeshita-dōri → Shibuya Paruko → Hachikō → Shibuya Sukai → Shinjuku",
+      "summary": "A slow first full day: the forest shrine Meiji Jingu, crêpes on Takeshita Street, lunch and the Nintendo and Pokémon shops in Shibuya, the Girls Band Cry meeting place at Hachiko, and Tokyo from Shibuya Sky at sunset. Half-price food at Isetan and one drink in Golden Gai.",
       "temp": "2 – 10 °C",
       "alerts": [
         "Shibuya Sky: buy the web ticket for about 16:00 (sunset about 16:55); sales open 4 weeks ahead."
@@ -2525,32 +2525,32 @@
       "stops": [
         {
           "place": "hotel-super-shinjuku",
-          "time": "10:15",
-          "note": "Breakfast: coffee and onigiri from the konbini, or a café (the hotel buffet ends at 09:00; eat it by 09:00 if you are up)."
+          "time": "09:00",
+          "note": "Breakfast: free hotel buffet (07:00–09:00), no rush."
         },
         {
           "place": "meiji-jingu",
-          "time": "11:15",
-          "note": "The forest path to the main hall and back, 40 min."
+          "time": "10:15",
+          "note": "The forest path to the main hall and back, 45 min."
         },
         {
           "place": "takeshita",
-          "time": "12:05",
-          "note": "Crêpes, snacks and fun shops, 40 min."
+          "time": "11:15",
+          "note": "Crêpes, snacks and fun shops, 45 min."
         },
         {
           "place": "uobei-shibuya",
-          "time": "13:00",
-          "note": "Lunch: touch-screen sushi (cooked plates for Aoki), 40 min."
+          "time": "12:20",
+          "note": "Lunch: touch-screen sushi (cooked plates for Aoki), 45 min."
         },
         {
           "place": "shibuya-parco",
-          "time": "13:50",
-          "note": "Nintendo TOKYO and Pokémon Center on 6F, 1 h (Aoki's pick)."
+          "time": "13:20",
+          "note": "Nintendo TOKYO and Pokémon Center on 6F, 1 h 15 (Aoki's pick)."
         },
         {
           "place": "hachiko",
-          "time": "15:00",
+          "time": "14:50",
           "note": "Girls Band Cry ep 3 meeting place, the Scramble crossing, 20 min (Aoki's pick)."
         },
         {
@@ -2561,16 +2561,11 @@
         {
           "place": "isetan",
           "time": "19:10",
-          "note": "Dinner: half-price sushi and bento in the food hall before the 20:00 close (Pegasis's pick)."
-        },
-        {
-          "place": "tmg",
-          "time": "20:05",
-          "note": "Free night view from the 45th-floor North Deck (open to 21:30; the South Deck is closed on this 3rd Tuesday), 30 min (both of you wanted it)."
+          "note": "Dinner: half-price sushi and bento in the food hall before the 20:00 close; eat at the hotel (Pegasis's pick)."
         },
         {
           "place": "golden-gai",
-          "time": "21:00",
+          "time": "20:45",
           "note": "One drink in a tiny bar, 45 min (both of you wanted it)."
         }
       ],
@@ -2579,7 +2574,7 @@
           "from": "hotel-super-shinjuku",
           "to": "meiji-jingu",
           "mode": "train",
-          "label": "Walk to JR Shinjuku (12 min); JR Yamanote Line, Shinjuku about 11:05 → Harajuku 11:09; walk 2 min",
+          "label": "Walk to JR Shinjuku (12 min); JR Yamanote Line, Shinjuku about 10:05 → Harajuku 10:09; walk 2 min",
           "duration": "20 min"
         },
         {
@@ -2593,7 +2588,7 @@
           "from": "takeshita",
           "to": "uobei-shibuya",
           "mode": "train",
-          "label": "JR Yamanote Line, Harajuku about 12:48 → Shibuya 12:50; walk to Dogenzaka 6 min",
+          "label": "JR Yamanote Line, Harajuku about 12:05 → Shibuya 12:07; walk to Dogenzaka 6 min",
           "duration": "15 min"
         },
         {
@@ -2626,17 +2621,17 @@
         },
         {
           "from": "isetan",
-          "to": "tmg",
-          "mode": "train",
-          "label": "Marunouchi Line, Shinjuku-sanchome about 19:52 → Nishi-Shinjuku 19:56 (eat the food at the hotel later); walk 8 min",
-          "duration": "15 min"
+          "to": "hotel-super-shinjuku",
+          "mode": "walk",
+          "label": "Walk to the hotel with the food",
+          "duration": "12 min"
         },
         {
-          "from": "tmg",
+          "from": "hotel-super-shinjuku",
           "to": "golden-gai",
-          "mode": "train",
-          "label": "Walk to Tochomae; Toei Oedo Line, Tochomae about 20:40 → Higashi-Shinjuku 20:45; walk 8 min",
-          "duration": "20 min"
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "6 min"
         },
         {
           "from": "golden-gai",
@@ -2652,7 +2647,7 @@
         "A light day for jet lag: short walks, lots of indoor places.",
         "Tax-free: from Nov 2026 you pay the tax in the shop and get it back at the airport customs desk."
       ],
-      "cost": "≈ ¥9,000 per person (trains ¥600, lunch, Shibuya Sky sunset ticket ≈ ¥3,000, Isetan dinner, one drink + cover)"
+      "cost": "≈ ¥9,000 per person (trains ¥400, lunch, Shibuya Sky sunset ticket ≈ ¥3,000, Isetan dinner, one drink + cover)"
     },
     {
       "n": 3,
@@ -2662,9 +2657,9 @@
       "short": "Anime day",
       "cover": "nakano",
       "title": "Anime day: Your Name stairs, Akihabara, Ikebukuro, Nakano, a live show in Shimokitazawa",
-      "titleJa": "須賀神社 → 秋葉原 → 池袋 → 中野 → 下北沢SHELTER",
-      "romaji": "Suga Jinja → Akihabara → Ikebukuro → Nakano → Shimokitazawa",
-      "summary": "The Your Name stairs, then a full anime-goods day with a maid café lunch in Akihabara, Ikebukuro and Nakano. You end at a real live show in Shimokitazawa after a cheap Chinese diner dinner.",
+      "titleJa": "須賀神社 → 都庁 → 秋葉原 → 池袋 → 中野 → 下北沢SHELTER",
+      "romaji": "Suga Jinja → Tochō → Akihabara → Ikebukuro → Nakano → Shimokitazawa",
+      "summary": "An early look at the Your Name stairs and the free City Hall view, then a full anime-goods day with a maid café lunch. You end at a real live show in Shimokitazawa after a cheap Chinese diner dinner.",
       "temp": "2 – 10 °C",
       "alerts": [
         "Buy the SHELTER ticket online when the January list is out (loft-prj.co.jp, in December); note the OPEN time.",
@@ -2673,13 +2668,18 @@
       "stops": [
         {
           "place": "hotel-super-shinjuku",
-          "time": "10:15",
-          "note": "Breakfast: coffee and onigiri from the konbini, or a café (the hotel buffet ends at 09:00; eat it by 09:00 if you are up)."
+          "time": "09:00",
+          "note": "Breakfast: free hotel buffet (07:00–09:00), no rush."
         },
         {
           "place": "suga",
-          "time": "11:20",
+          "time": "10:20",
           "note": "Your Name stairs, 15 min (Aoki's pick)."
+        },
+        {
+          "place": "tmg",
+          "time": "11:00",
+          "note": "Free 45th-floor view; Mt Fuji if it is clear, 30 min (both of you wanted it)."
         },
         {
           "place": "radio-kaikan",
@@ -2722,15 +2722,22 @@
           "from": "hotel-super-shinjuku",
           "to": "suga",
           "mode": "train",
-          "label": "Walk to Shinjuku-sanchome (10 min); Tokyo Metro Marunouchi Line, Shinjuku-sanchome about 11:06 → Yotsuya-sanchome 11:09; walk 8 min",
+          "label": "Walk to Shinjuku-sanchome (10 min); Tokyo Metro Marunouchi Line, Shinjuku-sanchome about 10:06 → Yotsuya-sanchome 10:09; walk 8 min",
           "duration": "25 min"
         },
         {
           "from": "suga",
+          "to": "tmg",
+          "mode": "train",
+          "label": "Walk to Yotsuya-sanchome (8 min); Marunouchi Line, Yotsuya-sanchome about 10:45 → Nishi-Shinjuku 10:52; walk 8 min",
+          "duration": "25 min"
+        },
+        {
+          "from": "tmg",
           "to": "radio-kaikan",
           "mode": "train",
-          "label": "Walk to Yotsuya-sanchome (8 min); Marunouchi Line, Yotsuya-sanchome about 11:45 → Awajicho 11:55; walk 8 min to Akihabara",
-          "duration": "30 min"
+          "label": "Toei Oedo Line, Tochomae about 11:35 → Ueno-okachimachi 11:54; JR Yamanote Line, Okachimachi → Akihabara 12:00",
+          "duration": "35 min"
         },
         {
           "from": "radio-kaikan",
@@ -2801,67 +2808,67 @@
       "title": "Nissan Crossing, Girls Band Cry in Yako and Kawasaki, Yokohama Chinatown, then Daikoku by your own car",
       "titleJa": "銀座 → 矢向 → 川崎 → 横浜中華街 → 大黒PA → 辰巳PA",
       "romaji": "Ginza → Yakō → Kawasaki → Yokohama Chūkagai → Daikoku PA → Tatsumi PA",
-      "summary": "Nissan Crossing in Ginza, then Nina's home streets in Yako and the Girls Band Cry walk in Kawasaki. Pegasis picks up the car at 17:45 and drives you to Yokohama Chinatown for dinner, then Daikoku and Tatsumi at night.",
+      "summary": "Nissan Crossing in Ginza, then Nina's home streets in Yako and the Girls Band Cry walk in Kawasaki. Pegasis picks up the car at 16:45 and drives you to Yokohama Chinatown for dinner, then Daikoku and Tatsumi at night.",
       "temp": "2 – 10 °C",
       "alerts": [
-        "Pegasis: licence + IDP + passport with the landing stamp for the car at 17:45 (studless tyres confirmed in writing when you booked).",
-        "Daikoku: police now close it on some weekdays too. At 19:00 check X and the Shutoko closure site; if closed, drive straight to Tatsumi PA.",
-        "Before you leave: hand both suitcases to the hotel front for Yamato TA-Q-BIN to Dormy Inn PREMIUM Namba (arrives Fri 22)."
+        "09:30: hand both suitcases to the hotel front for Yamato TA-Q-BIN to Dormy Inn PREMIUM Namba (arrives Fri 22).",
+        "Pegasis: licence + IDP + passport with the landing stamp for the car at 16:45 (studless tyres confirmed in writing when you booked).",
+        "Daikoku: police now close it on some weekdays too. At 18:00 check X and the Shutoko closure site; if closed, drive straight to Tatsumi PA."
       ],
       "stops": [
         {
           "place": "hotel-super-shinjuku",
-          "time": "10:00",
-          "note": "Breakfast: coffee and onigiri from the konbini, or a café (the hotel buffet ends at 09:00; eat it by 09:00 if you are up). Hand both suitcases to the front for Yamato to Osaka."
+          "time": "09:00",
+          "note": "Breakfast: free hotel buffet. 09:30: hand both suitcases to the front for Yamato to Osaka."
         },
         {
           "place": "nissan-crossing",
-          "time": "11:30",
+          "time": "10:30",
           "note": "Free Nissan showroom in Ginza, 20 min (Aoki's pick)."
         },
         {
           "place": "yako-shinmei",
-          "time": "12:40",
+          "time": "11:40",
           "note": "Girls Band Cry: Nina's home streets and the shrine from ep 12–13, 30 min (Aoki's pick)."
         },
         {
           "place": "fukuwarai-yako",
-          "time": "13:20",
-          "note": "Lunch: local ramen by Yako Station, 35 min (it closes about 14:00: be there by 13:25)."
+          "time": "12:20",
+          "note": "Lunch: local ramen by Yako Station, 35 min (closes about 14:00)."
         },
         {
           "place": "gbc-lazona",
-          "time": "14:20",
+          "time": "13:20",
           "note": "Buy the GBC stamp book; Rufa Square stage."
         },
         {
           "place": "gbc-miharashi",
-          "time": "15:05",
+          "time": "14:05",
           "note": "The river steps from ep 2, in afternoon sun."
         },
         {
           "place": "gbc-marufuku",
-          "time": "16:00",
+          "time": "15:00",
           "note": "Hotcake and coffee (afternoon snack), 45 min; East Exit plaza stamp above."
         },
         {
           "place": "toyota-shinkawabashi",
-          "time": "17:45",
+          "time": "16:45",
           "note": "Pick up the car (studless tyres, ETC). Walk past CLUB CITTA' on the way."
         },
         {
           "place": "hotenkaku",
-          "time": "18:25",
+          "time": "17:25",
           "note": "Dinner: pan-fried xiaolongbao, then a short walk through the gates and past Kanteibyo, 1 h (Aoki's pick)."
         },
         {
           "place": "daikoku",
-          "time": "19:50",
+          "time": "18:50",
           "note": "JDM meet; Pegasis drives in (his pick)."
         },
         {
           "place": "tatsumi",
-          "time": "21:30",
+          "time": "20:30",
           "note": "Smaller car meet, Tokyo skyline, 15 min."
         }
       ],
@@ -2870,14 +2877,14 @@
           "from": "hotel-super-shinjuku",
           "to": "nissan-crossing",
           "mode": "train",
-          "label": "Walk to Shinjuku-sanchome (10 min); Tokyo Metro Marunouchi Line, Shinjuku-sanchome about 11:05 → Ginza 11:22 (exit A4)",
+          "label": "Walk to Shinjuku-sanchome (10 min); Tokyo Metro Marunouchi Line, Shinjuku-sanchome about 10:05 → Ginza 10:22 (exit A4)",
           "duration": "25 min"
         },
         {
           "from": "nissan-crossing",
           "to": "yako-shinmei",
           "mode": "train",
-          "label": "Walk to JR Shimbashi (10 min); JR Tokaido Line, Shimbashi about 12:02 → Kawasaki 12:16; JR Nambu Line, Kawasaki about 12:24 → Yako 12:30; walk 10 min",
+          "label": "Walk to JR Shimbashi (10 min); JR Tokaido Line, Shimbashi about 11:02 → Kawasaki 11:16; JR Nambu Line, Kawasaki about 11:24 → Yako 11:30; walk 10 min",
           "duration": "50 min"
         },
         {
@@ -2891,7 +2898,7 @@
           "from": "fukuwarai-yako",
           "to": "gbc-lazona",
           "mode": "train",
-          "label": "JR Nambu Line, Yako about 14:00 → Kawasaki 14:06; walk to Lazona (west exit)",
+          "label": "JR Nambu Line, Yako about 13:00 → Kawasaki 13:06; walk to Lazona (west exit)",
           "duration": "15 min"
         },
         {
@@ -2926,7 +2933,7 @@
           "from": "hotenkaku",
           "to": "daikoku",
           "mode": "drive",
-          "label": "Drive, Shuto Bayshore Route (Wangan-sen) to Daikoku PA; leave by 19:30",
+          "label": "Drive, Shuto Bayshore Route (Wangan-sen) to Daikoku PA; leave by 18:30",
           "duration": "20 min"
         },
         {
@@ -3323,32 +3330,32 @@
       "stops": [
         {
           "place": "matsuya-nipponbashi",
-          "time": "11:00",
+          "time": "10:00",
           "note": "Breakfast: gyudon or a breakfast set, 20 min."
         },
         {
           "place": "ganko-nara",
-          "time": "12:45",
+          "time": "11:45",
           "note": "Lunch: tonkatsu set, 45 min."
         },
         {
           "place": "nara-park",
-          "time": "13:45",
+          "time": "12:45",
           "note": "Deer and crackers in the open park, 1 h 30 (both of you wanted the deer)."
         },
         {
           "place": "todaiji",
-          "time": "15:25",
-          "note": "The Great Buddha hall and the deer around the gate, 1 h 15 (closes 17:00)."
+          "time": "14:25",
+          "note": "The Great Buddha hall and the deer around the gate, 1 h 15 (winter closing 17:00)."
         },
         {
           "place": "edosan",
-          "time": "17:00",
+          "time": "16:00",
           "note": "Check in; tea, yukata, a rest. Deer outside the door at dusk."
         },
         {
           "place": "edosan",
-          "time": "18:30",
+          "time": "18:00",
           "note": "Dinner: Wakakusa hot-pot course, served in your room."
         }
       ],
@@ -3364,7 +3371,7 @@
           "from": "matsuya-nipponbashi",
           "to": "ganko-nara",
           "mode": "train",
-          "label": "Walk to Kintetsu-Nippombashi (5 min); Kintetsu Nara Line Rapid Express, Kintetsu-Nippombashi about 11:36 → Kintetsu-Nara 12:11 (¥680); walk 8 min to Higashimuki",
+          "label": "Walk to Kintetsu-Nippombashi (5 min); Kintetsu Nara Line Rapid Express, Kintetsu-Nippombashi about 10:36 → Kintetsu-Nara 11:11 (¥680); walk 8 min to Higashimuki",
           "duration": "50 min"
         },
         {
@@ -3528,22 +3535,22 @@
       "stops": [
         {
           "place": "kuromon",
-          "time": "11:00",
+          "time": "10:00",
           "note": "Breakfast by grazing: grilled scallops, wagyu skewers, fruit."
         },
         {
           "place": "lb-drive-in",
-          "time": "13:15",
-          "note": "Lunch first: Sanuki udon in the park (Wed 11:00–15:00, order by 14:30), then LB wide-body cars and goods, 2 h."
+          "time": "12:15",
+          "note": "Lunch: Sanuki udon in the park (Wed 11:00–15:00), then LB wide-body cars and goods, 2 h."
         },
         {
           "place": "dormy-namba",
-          "time": "17:15",
+          "time": "16:15",
           "note": "Rest."
         },
         {
           "place": "ebisubashi",
-          "time": "18:10",
+          "time": "17:50",
           "note": "Glico sign and the canal at night."
         },
         {
@@ -3564,14 +3571,14 @@
           "from": "kuromon",
           "to": "lb-drive-in",
           "mode": "train",
-          "label": "Walk to Ebisucho (12 min); Sakaisuji Line, Ebisucho about 12:00 → Dobutsuen-mae 12:01; JR Hanwa Line Kishuji Rapid, Shin-Imamiya about 12:07 → Hineno about 12:45; JR Hanwa Line local, Hineno about 12:50 → Izumi-Sunagawa 13:00; taxi 5 min",
+          "label": "Walk to Ebisucho (12 min); Sakaisuji Line, Ebisucho about 11:00 → Dobutsuen-mae 11:01; JR Hanwa Line Kishuji Rapid, Shin-Imamiya about 11:07 → Hineno about 11:45; JR Hanwa Line local, Hineno about 11:50 → Izumi-Sunagawa 12:00; taxi 5 min",
           "duration": "1 h 10"
         },
         {
           "from": "lb-drive-in",
           "to": "dormy-namba",
           "mode": "train",
-          "label": "Taxi (ask the shop to call one) or walk 22 min to Izumi-Sunagawa; JR Hanwa Line Kishuji Rapid, Izumi-Sunagawa about 15:50 → Shin-Imamiya 16:42; JR Yamatoji Line, Shin-Imamiya 16:45 → JR Namba 16:49; walk 12 min",
+          "label": "Taxi (ask the shop to call one) or walk 22 min to Izumi-Sunagawa; JR Hanwa Line Kishuji Rapid, Izumi-Sunagawa about 14:50 → Shin-Imamiya 15:42; JR Yamatoji Line, Shin-Imamiya 15:45 → JR Namba 15:49; walk 12 min",
           "duration": "1 h 30"
         },
         {
@@ -3771,33 +3778,33 @@
       "alerts": [
         "Rental reserved online (with the 10% code); buy lift tickets online when sales open.",
         "Rusutsu drift (tomorrow 15:00) booked in advance after the licence email.",
-        "Leave the hotel at 10:40; take your gloves and goggles."
+        "Leave the hotel at 09:40; take your gloves and goggles."
       ],
       "stops": [
         {
           "place": "stay-resort-niseko",
-          "time": "09:45",
+          "time": "08:45",
           "note": "Breakfast in the room (Seicomart food from last night), no rush."
         },
         {
           "place": "hirafu-base",
-          "time": "11:00",
+          "time": "10:00",
           "note": "Pick up the reserved rental: skis, boots, poles, helmet, jacket + pants. Buy lift tickets. Wear your own gloves and goggles."
         },
         {
           "place": "niseko",
-          "time": "11:45",
+          "time": "10:45",
           "note": "Pegasis teaches Aoki on the Ace Family area: walking on skis, snowplough, stopping, then the Ace Family lift."
         },
         {
           "place": "boyoso-hirafu",
-          "time": "13:30",
+          "time": "12:30",
           "note": "Lunch: katsu curry or ramen in the old lodge, 50 min."
         },
         {
           "place": "niseko",
-          "time": "14:30",
-          "note": "Afternoon runs together on the Ace Family area; gear in .Base storage by 15:50."
+          "time": "13:30",
+          "note": "Afternoon runs together on the Ace Family area; gear in .Base storage by 15:45."
         },
         {
           "place": "stay-resort-niseko",
@@ -3885,33 +3892,33 @@
       "alerts": [
         "Breath test before the drift course: no alcohol the night before.",
         "Pegasis: licence + IDP + passport. Leave Rusutsu by 15:45: sunset is about 16:40.",
-        "Leave the hotel at 10:30 (Saturday: park at Hirafu lot 1)."
+        "Leave the hotel at 09:30 (Saturday: park at Hirafu lot 1)."
       ],
       "stops": [
         {
           "place": "stay-resort-niseko",
-          "time": "09:30",
+          "time": "08:30",
           "note": "Breakfast in the room (Seicomart food)."
         },
         {
           "place": "hirafu-base",
-          "time": "10:45",
+          "time": "09:45",
           "note": "Take the gear out of storage; buy lift tickets."
         },
         {
           "place": "niseko",
-          "time": "11:00",
-          "note": "Ski together until 12:15 on the Ace Family area."
+          "time": "10:00",
+          "note": "Ski together until 12:00 on the Ace Family area."
         },
         {
           "place": "hirafu-base",
-          "time": "12:25",
+          "time": "12:10",
           "note": "Return all the rental gear."
         },
         {
           "place": "powderhood-hirafu",
-          "time": "12:40",
-          "note": "Lunch: burgers at the gondola base, 35 min; leave at 13:20."
+          "time": "12:30",
+          "note": "Lunch: burgers at the gondola base, 45 min."
         },
         {
           "place": "rusutsu-drift",
