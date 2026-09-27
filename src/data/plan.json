@@ -1,22 +1,22 @@
 {
   "id": "trip",
   "name": "Tokyo → Osaka → Hokkaido",
-  "tagline": "Always together: 4 nights in Tokyo, one short Hakone–Fuji car trip, an Osaka hotel with a ryokan night in Nara Park, and 4 nights in Hokkaido.",
-  "summary": "4 nights in Shinjuku with a slow Harajuku and Shibuya day, a full anime day and a Girls Band Cry day in Yako and Kawasaki, where Pegasis picks up a car for Yokohama Chinatown, Daikoku, the Turnpike and Fuji. One Fuji-view villa night, then the car goes back at Mishima and a direct Kodama takes you to Osaka for the Nara hill fire, Suzuka, Kyoto, Den Den Town and Liberty Walk, with one ryokan night inside Nara Park and a Matsusaka beef dinner. A JAL flight to Hokkaido: 3 nights in Kutchan for skiing (Pegasis teaches Aoki) and the Rusutsu drift course, 1 night in Sapporo, and a Peach flight to Narita for both flights home. You do everything together, every meal has a named place, and every train and bus has its departure time.",
+  "tagline": "Always together: 4 nights in Tokyo, one short Hakone–Fuji car trip, Osaka with a night in Nagoya and a last ryokan night in Nara Park, and 4 nights in Hokkaido.",
+  "summary": "4 nights in Shinjuku with a slow Harajuku and Shibuya day, a full anime day and a Girls Band Cry day in Yako and Kawasaki, where Pegasis picks up a car for Yokohama Chinatown, Daikoku, the Turnpike and Fuji. One Fuji-view villa night, then the car goes back at Mishima and a direct Kodama takes you to Osaka for the Nara hill fire. Suzuka, then one night in Nagoya and a full day at Ghibli Park; back in Osaka for Kyoto, Den Den Town and a Matsusaka beef dinner, and a last ryokan night inside Nara Park. A JAL flight from Itami to Hokkaido: 3 nights in Kutchan for skiing (Pegasis teaches Aoki) and the Rusutsu drift course, 1 night in Sapporo, and a Peach flight to Narita for both flights home. You do everything together, every meal has a named place, and every train and bus has its departure time.",
   "who": {
     "pegasis": "In: 23 of 25 WANTs. Daikoku (you drive, no guide) + Tatsumi, Turnpike, Taikanzan, Otome Pass, Gotemba outlets (plain shopping, 45 min), TMG view, airport bus instead of N'EX, Omoide/Golden Gai, Isetan half-price food, Radio Kaikan, Maidreamin, Ikebukuro goods route, Nakano, SHELTER with a live show, Nara hill fire, Suzuka EV kart and the Tokaido car road (as Hakone–Fuji by car + Suzuka + Nagoya), Niseko Grand Hirafu, Rusutsu drift (30-min self-drive course at 15:00), GARAKU, Moiwa, Daruma. Out: Asahiyama penguins (5 h of travel), Onuma (2 h south of Niseko, a whole extra day). Your maybes in: Lake Kawaguchi, Shibuya Sky, the Kawasaki GBC walk. Because you travel together, you now also join some short stops you marked not interested: Suga stairs (15 min), Nissan Crossing (20 min), Enoshima (1 h), Fuji Motorsports Museum (1 h), Toyota museum (1 h 20), Fushimi Inari and Kinkakuji (a calm morning, not at dawn). Nijo Market is out (no split on the last day).",
     "aoki": "In: about 43 of 49 WANTs. Omoide/Golden Gai, Suga stairs, Tokyo Station dome and Hachiko (GBC Tokyo), Nissan Crossing, TMG, Radio Kaikan, ZEST, Nakano and used goods, Ikebukuro, Shimokita and a SHELTER live show, Shibuya Sky at sunset + Nintendo/Pokémon + Harajuku, the Kawasaki GBC stamp walk, Daikoku + Tatsumi, Enoshima + Slam Dunk crossing, Hakone as Tokyo-3, Fuji Motorsports Museum, Lake Kawaguchi, Hanz villa, Yuru Camp Motosu, Nara fire, Suzuka, Toyota museum, Fushimi Inari + Kinkakuji (not at dawn, so Pegasis can join), no Sabbat places (they are only for looking, so they are out), Namba food, Den Den Town, Liberty Walk, Donki coupon, one and a half ski days at Niseko on the beginner area (Pegasis teaches you, no paid lesson), Rusutsu drift (back seat), Moiwa, Daruma. You also join Pegasis's Taikanzan and Gotemba outlets (short stops you marked not interested). Yokohama Chinatown (dinner before Daikoku). Out: Cup Noodles Museum (it closes at 18:00, too early for the Kawasaki day), Fujiten ski (Niseko instead), the paid maid-café tour (the Akihabara maid café instead), Cape Kamui (path closed in winter), Aokana/Goto (off route), Toyota Kaikan (closed Sundays). Uji is skipped because you marked it not interested."
   },
   "cost": {
-    "transport": "≈ ¥126,000 per person (Tokyo car 2 days: Toyota ≈ ¥19,000 + studless ¥4,400 + one-way ¥8,800 + tolls, fuel, parking ≈ ¥16,000, split; Kodama Mishima → Shin-Osaka ¥12,300; Kansai, Suzuka and Nagoya trains ≈ ¥20,000 + Suzuka taxis ≈ ¥2,000; JAL ¥16,330; Hokkaido 4WD 3 days + fuel ≈ ¥60,000 split (not checked); Nara and Kyoto trains for the ryokan night ≈ ¥1,500; Peach New Chitose → Narita ≈ ¥13,500 with bag; airport buses and trains (TYO-NRT ¥1,500, Itami bus ¥730); suitcase courier ≈ ¥3,000)",
-    "hotels": "≈ ¥178,500 per person (Super Hotel 4 nights ≈ ¥33,000; Hanz half board (breakfast + BBQ dinner) ≈ ¥21,500; Dormy Inn PREMIUM Namba 4 nights ≈ ¥40,000 not checked; Edosan ryokan hot-pot plan ¥30,800; STAY RESORT NISEKO 3 nights ¥81,360 per room = ≈ ¥40,700 (Rakuten, Sep 26, 2026); Route Inn 1 night ≈ ¥8,250)",
-    "activities": "≈ ¥90,000 Pegasis / ¥70,000 Aoki (Hirafu rental 2 days ¥33,210 each with the 10% early code; own gloves and goggles ≈ ¥6,000–10,000 each; lift tickets peak season 1 day ¥11,800 × 2 each; no ski lesson; Rusutsu: Pegasis Introduction Course ¥31,000, Aoki back seat ¥10,000; Shibuya Sky, SHELTER, maid cafés, Suzuka, Fuji Motorsports Museum ¥1,800, Toyota museum ¥1,000, Kinkakuji ¥500, Moiwa — the museums and temples now for both)",
-    "total": "≈ ¥409,000 Pegasis / ¥389,000 Aoki, plus meals about ¥4,000–6,000 a day (≈ ¥75,000, plus the Matsusaka beef dinner ≈ ¥12,000; every meal is in the day plans), excl. international flights. Pegasis also buys a suitcase for the way home (≈ ¥5,000–15,000) and pays a return bag fee if the fare has none. If Aoki takes a pro ride-along instead of the back seat: +¥7,000. Aoki: Air China change fee about 500–1,000 yuan."
+    "transport": "≈ ¥124,000 per person (Tokyo car 2 days: Toyota ≈ ¥19,000 + studless ¥4,400 + one-way ¥8,800 + tolls, fuel, parking ≈ ¥16,000, split; Kodama Mishima → Shin-Osaka ¥12,300; Kansai, Suzuka and Nagoya trains ≈ ¥20,000 + Suzuka taxis ≈ ¥2,000; JAL ¥13,030; Hokkaido 4WD 3 days + fuel ≈ ¥60,000 split (not checked); Nara and Kyoto trains for the ryokan night ≈ ¥1,500; Peach New Chitose → Narita ≈ ¥13,500 with bag; airport buses and trains (TYO-NRT ¥1,500, Nara–Itami bus ¥1,750); suitcase courier ≈ ¥3,000)",
+    "hotels": "≈ ¥176,000 per person (Super Hotel Shinjuku 4 nights ≈ ¥33,000; Hanz half board (breakfast + BBQ dinner) ≈ ¥21,500; Dormy Inn PREMIUM Namba 3 nights ≈ ¥35,000 (only Sat Jan 23 checked: ¥29,340 per room); Super Hotel Nagoya 1 night ≈ ¥6,500; Edosan ryokan hot-pot plan ¥30,800; STAY RESORT NISEKO 3 nights ¥81,360 per room = ≈ ¥40,700 (Rakuten, Sep 26, 2026); Route Inn 1 night ≈ ¥8,250)",
+    "activities": "≈ ¥97,000 Pegasis / ¥77,000 Aoki (Ghibli Park Premium ¥7,300 each; Hirafu rental 2 days ¥33,210 each with the 10% early code; own gloves and goggles ≈ ¥6,000–10,000 each; lift tickets peak season 1 day ¥11,800 × 2 each; no ski lesson; Rusutsu: Pegasis Introduction Course ¥31,000, Aoki back seat ¥10,000; Shibuya Sky, SHELTER, maid cafés, Suzuka, Fuji Motorsports Museum ¥1,800, Toyota museum ¥1,000, Kinkakuji ¥500, Moiwa — the museums and temples now for both)",
+    "total": "≈ ¥413,000 Pegasis / ¥393,000 Aoki, plus meals about ¥4,000–6,000 a day (≈ ¥75,000, plus the Matsusaka beef dinner ≈ ¥12,000; every meal is in the day plans), excl. international flights. Pegasis also buys a suitcase for the way home (≈ ¥5,000–15,000) and pays a return bag fee if the fare has none. If Aoki takes a pro ride-along instead of the back seat: +¥7,000. Aoki: Air China change fee about 500–1,000 yuan."
   },
   "flights": [
     "Pegasis: WestJet round trip, Toronto 09:35 Sun Jan 17 → Calgary → Narita T1 16:30 Mon Jan 18; home WS81 Narita T1 18:30 Mon Feb 1 → Calgary → Toronto 22:10 (CA$1,039 with a checked bag on an Econo fare, Google Flights, Sep 26, 2026).",
     "Aoki (booked, dates changed): Air China CA919 Shanghai Pudong T2 14:25 → Narita T1 18:10, Mon Jan 18; home CA920 Narita T1 19:30 → Pudong T2 22:15, Mon Feb 1. Feb 1 = visa day 15.",
-    "Osaka → Hokkaido: JAL (J-Air) Itami 10:50 → New Chitose 12:35, Thu Jan 28, ¥16,330 with a 20 kg bag (Google Flights, Sep 26, 2026).",
+    "Osaka → Hokkaido: JAL Itami 11:45 → New Chitose 13:30, Thu Jan 28, ¥13,030 with a 20 kg bag (Google Flights, Sep 26, 2026).",
     "Sapporo → Tokyo, both: Peach MM576 New Chitose 12:00 → Narita T1 13:50, Mon Feb 1 (about ¥10,890 each + checked bag)."
   ],
   "places": [
@@ -850,15 +850,15 @@
       "lat": 34.67095,
       "lon": 135.50645,
       "kind": "hotel",
-      "blurb": "Your Osaka base for 4 nights (with one ryokan night in Nara between): Suzuka, Kyoto and Liberty Walk are day trips. Hot-spring bath and free late-night ramen.",
+      "blurb": "Your Osaka base: 1 night before Nagoya, then 2 nights before the Nara ryokan. Hot-spring bath and free late-night ramen.",
       "info": [
         {
           "label": "Nights",
-          "value": "Jan 23–27 (5)"
+          "value": "Sat Jan 23, then Mon Jan 25 – Tue Jan 26 (3 nights, 2 stays)"
         },
         {
           "label": "Price",
-          "value": "Not checked (Google Hotels ignored the dates); about ¥18,000–25,000 a night for a twin (estimate). Only 12 twins + 7 compact twins: book now on the official site"
+          "value": "Twin on the official site: Sat Jan 23 ¥29,340 (Sep 27, 2026); Jan 25–26 not checked (about ¥20,000 a night). Only 12 twins + 7 compact twins: book early"
         },
         {
           "label": "Free",
@@ -875,6 +875,7 @@
       ],
       "tips": [
         "Suitcases sent from Tokyo on Jan 21 wait here: write the check-in date (1/23) and your name on the Yamato slip.",
+        "Ask the front to keep both suitcases on Jan 24 while you sleep in Nagoya.",
         "The hot-spring bath is optional."
       ]
     },
@@ -1147,15 +1148,15 @@
       "lat": 34.78556,
       "lon": 135.43806,
       "kind": "airport",
-      "blurb": "The city airport for domestic flights. Small and fast; JAL includes a 20 kg bag.",
+      "blurb": "The city airport for domestic flights. Small and fast; JAL includes a 20 kg bag. The airport bus from Nara stops at the JAL North Terminal.",
       "info": [
         {
           "label": "Flight",
-          "value": "JAL (J-Air) 10:50 → New Chitose 12:35, Thu Jan 28, ¥16,330 incl. 20 kg bag (Google Flights, Sep 26, 2026)"
+          "value": "JAL 11:45 → New Chitose 13:30, Thu Jan 28, ¥13,030 incl. 20 kg bag (Google Flights, Sep 26, 2026)"
         },
         {
           "label": "Bus",
-          "value": "Osaka Airport Limousine from Namba-ekimae (N1) 08:40 / 09:00 → Itami North Terminal (JAL) 09:10 / 09:30, ¥730; from OCAT (JR Namba) 08:50 / 09:10"
+          "value": "Nara Kotsu airport bus, JR Nara (East exit, stop 4) 09:15 → Itami North Terminal (JAL) 10:46, ¥1,750 (narakotsu.co.jp, Sep 27, 2026)"
         }
       ],
       "tips": [
@@ -1207,7 +1208,7 @@
         },
         {
           "label": "Rent",
-          "value": "Thu Jan 28 13:40 → Sun Jan 31 about 14:15, one way to Sapporo-ekimae"
+          "value": "Thu Jan 28 14:10 → Sun Jan 31 about 14:15, one way to Sapporo-ekimae"
         },
         {
           "label": "Car",
@@ -2066,7 +2067,7 @@
       "info": [
         {
           "label": "Night",
-          "value": "Mon Jan 25 (1 room was left on Sep 26, 2026)"
+          "value": "Wed Jan 27, the last night before the flight (a room was free on Rakuten, Sep 27, 2026)"
         },
         {
           "label": "Price",
@@ -2083,7 +2084,8 @@
       ],
       "tips": [
         "Book the hot-pot plan and write \"no raw fish, cooked food only\" in the booking note.",
-        "Leave the suitcases at Dormy Inn Namba; bring one small bag each."
+        "You arrive with your suitcases: they keep them at the front until check-in at 15:00.",
+        "Jan 28: breakfast at 08:00, then ask them to call a taxi to JR Nara for the 09:15 airport bus."
       ]
     },
     {
@@ -2111,7 +2113,8 @@
         }
       ],
       "tips": [
-        "Book a table for 18:30 on Wed Jan 27.",
+        "Book a table for 18:30 on Tue Jan 26.",
+        "Check its closed day on TableCheck before you book.",
         "Everything is cooked on the grill: fine for Aoki."
       ]
     },
@@ -2334,6 +2337,123 @@
       ],
       "tips": [
         "Look for signs \"Welcome\" or a posted cover charge at the door; some bars are for regulars only."
+      ]
+    },
+    {
+      "id": "super-hotel-nagoya",
+      "ref": null,
+      "en": "Super Hotel Nagoya Tennen Onsen Shinkansen-guchi",
+      "ja": "天然温泉 名城金鯱の湯 スーパーホテル名古屋天然温泉 新幹線口",
+      "romaji": "Sūpā Hoteru Nagoya Tennen Onsen Shinkansen-guchi",
+      "lat": 35.17414,
+      "lon": 136.87904,
+      "kind": "hotel",
+      "blurb": "One night in Nagoya between Suzuka and Ghibli Park: a small twin with a hot-spring bath and a fresh-bread breakfast buffet, 7 min from Nagoya Station.",
+      "info": [
+        {
+          "label": "Night",
+          "value": "Sun Jan 24"
+        },
+        {
+          "label": "Price",
+          "value": "Twin with breakfast ¥12,540–13,200 for the room (Rakuten, Sep 27, 2026; 4 left)"
+        },
+        {
+          "label": "Room",
+          "value": "Small twin, 12 m²: fine for one night with small bags"
+        },
+        {
+          "label": "Breakfast",
+          "value": "Buffet 6:30–9:00"
+        },
+        {
+          "label": "Access",
+          "value": "7 min on foot from Nagoya Station, Taiko-dori (Shinkansen) side"
+        }
+      ],
+      "tips": [
+        "Your suitcases stay at Dormy Inn Namba tonight: bring one small bag each."
+      ]
+    },
+    {
+      "id": "osu",
+      "ref": "rw1-nagoya-food-osu-castle",
+      "en": "Osu Kannon and the Osu shopping streets",
+      "ja": "大須観音・大須商店街",
+      "romaji": "Ōsu Kannon, Ōsu Shōtengai",
+      "lat": 35.15967,
+      "lon": 136.89931,
+      "kind": "shop",
+      "blurb": "Nagoya's old temple and the covered shopping streets around it: anime goods, figures, retro games, used clothes and street food.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Most shops about 10:00–19:00 or 20:00"
+        }
+      ],
+      "tips": [
+        "Sunday evening: go straight to the figure and game shops, they close first."
+      ]
+    },
+    {
+      "id": "yabaton-yabacho",
+      "ref": "rw1-nagoya-food-osu-castle",
+      "en": "Yabaton main shop, Yabacho",
+      "ja": "矢場とん 矢場町本店",
+      "romaji": "Yabaton Yabachō Honten",
+      "lat": 35.16167,
+      "lon": 136.90623,
+      "kind": "food",
+      "blurb": "The main shop of the miso katsu chain: a pork cutlet under sweet red miso sauce.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "11:00–21:00, no closed day"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥1,500–2,500"
+        }
+      ],
+      "tips": [
+        "Order the waraji tonkatsu (plate-sized) to share, or the classic miso katsu."
+      ]
+    },
+    {
+      "id": "ghibli-park",
+      "ref": "rw1-ghibli-park-winter",
+      "en": "Ghibli Park",
+      "ja": "ジブリパーク",
+      "romaji": "Jiburi Pāku",
+      "lat": 35.17512,
+      "lon": 137.08877,
+      "kind": "anime",
+      "blurb": "Studio Ghibli's park in Expo 2005 Aichi Commemorative Park: the Grand Warehouse, Satsuki and Mei's house, the Valley of Witches (Howl and Kiki) and Mononoke Village.",
+      "info": [
+        {
+          "label": "Day",
+          "value": "Mon Jan 25 (the park is closed on Tuesdays)"
+        },
+        {
+          "label": "Hours",
+          "value": "Weekdays 10:00–17:00"
+        },
+        {
+          "label": "Tickets",
+          "value": "O-sanpo Day Pass Premium ¥7,300 (all 5 areas), Standard ¥3,300 (3 areas), weekday prices"
+        },
+        {
+          "label": "Sale",
+          "value": "Advance only: January tickets open Nov 10, 2026, 14:00 Japan time (Lawson Ticket or Klook, passport check, no refunds)"
+        },
+        {
+          "label": "Access",
+          "value": "Higashiyama Line to Fujigaoka, Linimo to Ai-Chikyuhaku-Kinen-Koen, about 1 h from Nagoya Station"
+        }
+      ],
+      "tips": [
+        "The Grand Warehouse has a set entry time on the ticket: plan the day around it.",
+        "Hot food at the Valley of Witches stalls for lunch."
       ]
     }
   ],
@@ -3130,13 +3250,13 @@
         }
       ],
       "sleep": "dormy-namba",
-      "sleepNote": "Dormy Inn night 1 of 2 (then the ryokan, then 2 more nights).",
+      "sleepNote": "Dormy Inn, 1 night; tomorrow you sleep in Nagoya and come back on Jan 25.",
       "notes": [
         "Chureito Pagoda is out: neither of you marked it a want, and it needs an early start.",
         "If you miss the Kodama, the next one is about 1 h later; you then go from Namba straight to Nara.",
         "Train times are from the current timetable; check again in December.",
         "Koan campsite lists ¥600 per car; keep ¥600–1,000 cash.",
-        "Todaiji and the deer are on day 8, in daylight: today is only the fire."
+        "Todaiji and the deer are on day 10, in daylight: today is only the fire."
       ],
       "cost": "≈ ¥22,000 per person (Shinkansen ¥12,300, car drop fee and fuel split, bento, dinner)"
     },
@@ -3145,15 +3265,16 @@
       "date": "2027-01-24",
       "weekday": "日",
       "region": "chubu",
-      "short": "Suzuka",
+      "short": "Suzuka + Nagoya",
       "cover": "suzuka",
-      "title": "Suzuka F1 track kart, Toyota museum, miso katsu at Nagoya Station",
-      "titleJa": "鈴鹿サーキット → トヨタ産業技術記念館 → 名古屋駅",
-      "romaji": "Suzuka Sākitto → Toyota Sangyō Gijutsu Kinenkan → Nagoya-eki",
-      "summary": "The EV kart on the Suzuka F1 track at midday, the Toyota museum in the afternoon, miso katsu in Nagoya Station and a Nozomi back to Osaka by 19:30.",
+      "title": "Suzuka F1 track kart, Toyota museum, Osu and miso katsu, a night in Nagoya",
+      "titleJa": "鈴鹿サーキット → トヨタ産業技術記念館 → 大須 → 矢場とん",
+      "romaji": "Suzuka Sākitto → Toyota Sangyō Gijutsu Kinenkan → Ōsu → Yabaton",
+      "summary": "The EV kart on the Suzuka F1 track at midday and the Toyota museum in the afternoon. No train back to Osaka tonight: a small Nagoya hotel with a hot-spring bath, the Osu shopping streets and miso katsu at the main shop.",
       "temp": "1 – 9 °C",
       "alerts": [
         "Leave the hotel at 09:15: the kart runs only about 12:00–13:15.",
+        "Leave both suitcases at the Dormy Inn front (you are back tomorrow evening); take one small bag each.",
         "Buy Suzuka entry and the EV kart slot on Asoview on Dec 1, 2026 (kart runs only about 12:00–13:15).",
         "Toyota museum last entry 16:30."
       ],
@@ -3179,9 +3300,19 @@
           "note": "Looms to cars, robot demos, 1 h 45 (Aoki's pick). Last entry 16:30."
         },
         {
-          "place": "yabaton-esca",
-          "time": "17:15",
-          "note": "Dinner: miso katsu in the station mall, 45 min."
+          "place": "super-hotel-nagoya",
+          "time": "17:10",
+          "note": "Check in and drop the small bags, 15 min."
+        },
+        {
+          "place": "osu",
+          "time": "17:50",
+          "note": "Anime goods, figures and retro games in the covered streets, 1 h 15 (from your ideas list)."
+        },
+        {
+          "place": "yabaton-yabacho",
+          "time": "19:15",
+          "note": "Dinner: miso katsu at the main shop, 45 min."
         }
       ],
       "legs": [
@@ -3215,216 +3346,102 @@
         },
         {
           "from": "toyota-museum",
-          "to": "yabaton-esca",
+          "to": "super-hotel-nagoya",
           "mode": "train",
-          "label": "Meitetsu Nagoya Line, Sako about 16:45 → Meitetsu-Nagoya 16:47; walk through the station to ESCA (Shinkansen side), 12 min",
+          "label": "Meitetsu Nagoya Line, Sako about 16:45 → Meitetsu-Nagoya 16:47; walk through the station to the Taiko-dori (Shinkansen) side and on to the hotel, 15 min",
           "duration": "25 min"
         },
         {
-          "from": "yabaton-esca",
-          "to": "dormy-namba",
-          "mode": "shinkansen",
-          "label": "Walk to the Shinkansen gates (5 min); Tokaido Shinkansen Nozomi, Nagoya about 18:10 → Shin-Osaka 18:59; Midosuji Line, Shin-Osaka about 19:05 → Namba 19:20; walk 10 min",
-          "duration": "1 h 25"
+          "from": "super-hotel-nagoya",
+          "to": "osu",
+          "mode": "train",
+          "label": "Walk to Nagoya Station (7 min); Higashiyama Line, Nagoya → Fushimi (2 min); Tsurumai Line, Fushimi → Osu Kannon (3 min); walk 3 min",
+          "duration": "25 min"
+        },
+        {
+          "from": "osu",
+          "to": "yabaton-yabacho",
+          "mode": "walk",
+          "label": "Walk east through the Osu streets to Yabacho",
+          "duration": "12 min"
+        },
+        {
+          "from": "yabaton-yabacho",
+          "to": "super-hotel-nagoya",
+          "mode": "train",
+          "label": "Meijo Line, Yabacho → Sakae (2 min); Higashiyama Line, Sakae → Nagoya (5 min); walk 7 min",
+          "duration": "25 min"
         }
       ],
-      "sleep": "dormy-namba",
-      "sleepNote": "Dormy Inn night 2 of 2 before the ryokan.",
+      "sleep": "super-hotel-nagoya",
+      "sleepNote": "One night in Nagoya: hot-spring bath, breakfast buffet from 6:30.",
       "notes": [
-        "Suzuka on Jan 24: 10:00–17:00, entry ¥2,200 (official calendar, checked Sep 26, 2026).",
+        "Suzuka on Jan 24: 10:00–17:00, entry ¥2,200 (official calendar, checked Sep 26, 2026). The park is closed Jan 26–29.",
         "A Mie Kotsu bus also runs Shiroko → circuit, but its timetable could not be read online: the taxi is sure.",
         "Kart times for January 2027 are published on Dec 1, 2026: confirm then that a slot near 12:30 exists.",
-        "Osu is out (only a maybe): you are back in Namba about 19:30 instead of 20:45."
+        "After dinner, tebasaki chicken wings in Sakae (Yamachan or Furaibo) if you are still hungry."
       ],
-      "cost": "≈ ¥24,000 per person (Kintetsu about ¥3,700, taxis about ¥2,000, Nozomi ¥6,700, Suzuka ¥2,200 + kart share, museum ¥1,000, meals)"
+      "cost": "≈ ¥24,000 per person (Kintetsu about ¥3,700, taxis about ¥2,000, Suzuka ¥2,200 + kart share, museum ¥1,000, subway, hotel ≈ ¥6,500, meals)"
     },
     {
       "n": 8,
       "date": "2027-01-25",
       "weekday": "月",
-      "region": "kansai",
-      "short": "Nara ryokan",
-      "cover": "edosan",
-      "title": "A slow day in Nara: deer, the Great Buddha and a ryokan night in Nara Park",
-      "titleJa": "奈良公園 → 東大寺 → 江戸三",
-      "romaji": "Nara Kōen → Tōdaiji → Edosan",
-      "summary": "A slow morning in Osaka, one Kintetsu train to Nara, lunch, then a long afternoon with the deer and the Great Buddha. Your ryokan is inside Nara Park: tatami room, yukata and a hot-pot dinner in your room.",
-      "temp": "1 – 8 °C",
+      "region": "chubu",
+      "short": "Ghibli Park",
+      "cover": "ghibli-park",
+      "title": "Ghibli Park all day, then the Nozomi back to Osaka and kushikatsu",
+      "titleJa": "ジブリパーク → 名古屋駅 → 新大阪 → 道頓堀",
+      "romaji": "Jiburi Pāku → Nagoya-eki → Shin-Ōsaka → Dōtonbori",
+      "summary": "A hotel breakfast, then the subway and the Linimo to Ghibli Park: Totoro's house, the Grand Warehouse and Kiki's town. A Nozomi back to Osaka in the evening, the suitcases waiting at the Dormy Inn, and kushikatsu in Dotonbori.",
+      "temp": "0 – 9 °C",
       "alerts": [
-        "Leave the suitcases at the Dormy Inn front (you are back tomorrow); take one small bag each.",
-        "Ryokan: booked the fully cooked hot-pot plan, with \"no raw fish\" in the note."
+        "Ghibli Park tickets are advance only: January opens Nov 10, 2026, 14:00 Japan time. No refunds.",
+        "The Grand Warehouse has a set entry time on your ticket: keep to it."
       ],
       "stops": [
         {
-          "place": "matsuya-nipponbashi",
-          "time": "11:00",
-          "note": "Breakfast: gyudon or a breakfast set, 20 min."
+          "place": "super-hotel-nagoya",
+          "time": "07:45",
+          "note": "Breakfast buffet, 30 min; check out."
         },
         {
-          "place": "ganko-nara",
-          "time": "12:45",
-          "note": "Lunch: tonkatsu set, 45 min."
-        },
-        {
-          "place": "nara-park",
-          "time": "13:45",
-          "note": "Deer and crackers in the open park, 1 h 30 (both of you wanted the deer)."
-        },
-        {
-          "place": "todaiji",
-          "time": "15:25",
-          "note": "The Great Buddha hall and the deer around the gate, 1 h 15 (closes 17:00)."
-        },
-        {
-          "place": "edosan",
-          "time": "17:00",
-          "note": "Check in; tea, yukata, a rest. Deer outside the door at dusk."
-        },
-        {
-          "place": "edosan",
-          "time": "18:30",
-          "note": "Dinner: Wakakusa hot-pot course, served in your room."
-        }
-      ],
-      "legs": [
-        {
-          "from": "dormy-namba",
-          "to": "matsuya-nipponbashi",
-          "mode": "walk",
-          "label": "Walk",
-          "duration": "3 min"
-        },
-        {
-          "from": "matsuya-nipponbashi",
-          "to": "ganko-nara",
-          "mode": "train",
-          "label": "Walk to Kintetsu-Nippombashi (5 min); Kintetsu Nara Line Rapid Express, Kintetsu-Nippombashi about 11:36 → Kintetsu-Nara 12:11 (¥680); walk 8 min to Higashimuki",
-          "duration": "50 min"
-        },
-        {
-          "from": "ganko-nara",
-          "to": "nara-park",
-          "mode": "walk",
-          "label": "Walk east into the park",
-          "duration": "12 min"
-        },
-        {
-          "from": "nara-park",
-          "to": "todaiji",
-          "mode": "walk",
-          "label": "Walk north through the park",
-          "duration": "10 min"
-        },
-        {
-          "from": "todaiji",
-          "to": "edosan",
-          "mode": "walk",
-          "label": "Walk south through the park to the Sagiike pond",
-          "duration": "20 min"
-        }
-      ],
-      "sleep": "edosan",
-      "sleepNote": "Ryokan night: tatami room, dinner and breakfast in your room.",
-      "notes": [
-        "Fushimi Inari and Kinkakuji are tomorrow (day 9): today is only Nara.",
-        "Todaiji hall: winter hours 8:00–17:00."
-      ],
-      "cost": "≈ ¥33,000 per person (ryokan ¥30,800 with dinner and breakfast, Kintetsu ¥680, Todaiji ¥1,200, deer crackers ¥200, lunch)"
-    },
-    {
-      "n": 9,
-      "date": "2027-01-26",
-      "weekday": "火",
-      "region": "kansai",
-      "short": "Inari + Kinkakuji",
-      "cover": "fushimi-inari",
-      "title": "Ryokan breakfast, Fushimi Inari, Kyoto ramen, Kinkakuji, Den Den Town",
-      "titleJa": "江戸三 → 伏見稲荷大社 → 京都駅 → 金閣寺 → 日本橋オタロード",
-      "romaji": "Edosan → Fushimi Inari → Kyōto-eki → Kinkakuji → Nipponbashi",
-      "summary": "A slow ryokan breakfast and a 10:00 check-out, then one direct JR train to Fushimi Inari. Ramen at Kyoto Station, Kinkakuji in the afternoon, back to Osaka for the anime shops on Otaroad and kushikatsu.",
-      "temp": "2 – 9 °C",
-      "alerts": [
-        "Phone LB DRIVE-IN today to confirm Wednesday hours and ask about a taxi from Izumi-Sunagawa."
-      ],
-      "stops": [
-        {
-          "place": "edosan",
-          "time": "08:30",
-          "note": "Breakfast in your room; check out at 10:00."
-        },
-        {
-          "place": "fushimi-inari",
-          "time": "11:20",
-          "note": "Torii tunnels, 1 h 10: up to the first viewpoint and back (Aoki's pick)."
-        },
-        {
-          "place": "ramen-koji",
-          "time": "12:50",
-          "note": "Lunch: choose a ramen shop on the Kyoto Station 10F floor, 45 min."
-        },
-        {
-          "place": "kinkakuji",
-          "time": "14:25",
-          "note": "Gold pavilion, 45 min (Aoki's pick)."
+          "place": "ghibli-park",
+          "time": "10:00",
+          "note": "Premium pass: the Grand Warehouse, Satsuki and Mei's house, the Valley of Witches, Mononoke Village and the Hill of Youth; lunch at the park (Aoki's pick)."
         },
         {
           "place": "dormy-namba",
-          "time": "17:00",
-          "note": "Check in again (suitcases are at the front); drop the bags."
-        },
-        {
-          "place": "otaroad",
-          "time": "17:30",
-          "note": "Figures, retro games, Animate, Melonbooks, 1 h 30 (Aoki's pick)."
+          "time": "18:05",
+          "note": "Check in again; the suitcases are at the front."
         },
         {
           "place": "kushikatsu-daruma-dotonbori",
-          "time": "19:20",
+          "time": "19:00",
           "note": "Dinner: kushikatsu (fried skewers), no second dip in the sauce."
         }
       ],
       "legs": [
         {
-          "from": "edosan",
-          "to": "fushimi-inari",
+          "from": "super-hotel-nagoya",
+          "to": "ghibli-park",
           "mode": "train",
-          "label": "Walk to JR Nara (20 min); JR Nara Line Miyakoji Rapid, Nara about 10:37 → Inari 11:19 (no change, ¥680)",
+          "label": "Walk to Nagoya Station (7 min); Higashiyama Line, Nagoya about 08:50 → Fujigaoka 09:18; Linimo, Fujigaoka → Ai-Chikyuhaku-Kinen-Koen (13 min); walk 5 min",
           "duration": "1 h"
         },
         {
-          "from": "fushimi-inari",
-          "to": "ramen-koji",
-          "mode": "train",
-          "label": "JR Nara Line, Inari about 12:35 → Kyoto 12:40; up to Station building 10F",
-          "duration": "15 min"
-        },
-        {
-          "from": "ramen-koji",
-          "to": "kinkakuji",
-          "mode": "bus",
-          "label": "Kyoto City Bus 205, Kyoto Station about 13:45 → Kinkakuji-michi 14:20; walk 5 min",
-          "duration": "40 min"
-        },
-        {
-          "from": "kinkakuji",
+          "from": "ghibli-park",
           "to": "dormy-namba",
-          "mode": "train",
-          "label": "Kyoto City Bus 205, Kinkakuji-michi about 15:15 → Kyoto Station 15:55; JR Kyoto Line Special Rapid, Kyoto about 16:05 → Osaka 16:34; Midosuji Line, Umeda about 16:40 → Namba 16:48; walk 10 min",
-          "duration": "1 h 50"
+          "mode": "shinkansen",
+          "label": "Linimo to Fujigaoka and Higashiyama Line to Nagoya (about 50 min, leave the park 15:45); Tokaido Shinkansen Nozomi, Nagoya about 16:50 → Shin-Osaka 17:40 (reserved seats); Midosuji Line, Shin-Osaka → Namba (15 min); walk 10 min",
+          "duration": "2 h 20"
         },
         {
           "from": "dormy-namba",
-          "to": "otaroad",
-          "mode": "walk",
-          "label": "Walk south-east",
-          "duration": "12 min"
-        },
-        {
-          "from": "otaroad",
           "to": "kushikatsu-daruma-dotonbori",
           "mode": "walk",
-          "label": "Walk north-west to Dotonbori",
-          "duration": "15 min"
+          "label": "Walk to Dotonbori",
+          "duration": "10 min"
         },
         {
           "from": "kushikatsu-daruma-dotonbori",
@@ -3435,44 +3452,54 @@
         }
       ],
       "sleep": "dormy-namba",
-      "sleepNote": "Dormy Inn, 2 more nights.",
+      "sleepNote": "Dormy Inn, 2 nights before the ryokan.",
       "notes": [
-        "Fushimi Inari and Kinkakuji are Aoki's wants; Den Den Town too.",
-        "Kyoto bus 205 can be slow and full: a taxi from Kyoto Station takes about 25 min (≈ ¥3,000).",
+        "Ghibli Park is closed on Tuesdays: Monday is the only Nagoya day that works.",
+        "Both Toyota museums and the Liberty Walk shop in Aichi are closed on Mondays.",
+        "Other choice: the SCMaglev and Railway Park (open Mondays, ¥1,200, N700 simulator ¥500).",
         "Train times are from the current timetable; check them on Jorudan the day before."
       ],
-      "cost": "≈ ¥8,000 per person (JR and bus about ¥2,300, Kinkakuji ¥500, ramen, kushikatsu); goods extra"
+      "cost": "≈ ¥19,000 per person (Ghibli Premium ¥7,300, subway and Linimo about ¥700, Nozomi ¥6,700, meals)"
     },
     {
-      "n": 10,
-      "date": "2027-01-27",
-      "weekday": "水",
+      "n": 9,
+      "date": "2027-01-26",
+      "weekday": "火",
       "region": "kansai",
-      "short": "Liberty Walk",
-      "cover": "lb-drive-in",
-      "title": "Kuromon breakfast, Liberty Walk JDM park, Matsusaka beef dinner",
-      "titleJa": "黒門市場 → LB DRIVE-IN（泉南）→ 法善寺横丁",
-      "romaji": "Kuromon → Sennan → Dōtonbori",
-      "summary": "Kuromon Market as breakfast, then the Liberty Walk JDM park in Sennan with an udon lunch there. Back early to pack, then the Glico sign and Matsusaka beef yakiniku in Hozenji Yokocho.",
+      "short": "Inari + Kinkakuji",
+      "cover": "fushimi-inari",
+      "title": "Fushimi Inari, Kyoto ramen, Kinkakuji, Matsusaka beef dinner",
+      "titleJa": "伏見稲荷大社 → 京都駅 → 金閣寺 → 法善寺横丁",
+      "romaji": "Fushimi Inari → Kyōto-eki → Kinkakuji → Hōzenji Yokochō",
+      "summary": "A weekday morning at Fushimi Inari before the crowds, ramen at Kyoto Station and Kinkakuji after lunch. Back in Osaka to rest, then the Glico sign and Matsusaka beef yakiniku in Hozenji Yokocho.",
       "temp": "2 – 9 °C",
       "alerts": [
-        "Liberty Walk: Wednesday is open on both the site and Instagram; phone on Jan 26 to confirm.",
-        "Pack tonight: tomorrow the bus to Itami leaves Namba at 09:00."
+        "Matsusaka beef at 18:30: book it on TableCheck."
       ],
       "stops": [
         {
-          "place": "kuromon",
-          "time": "11:00",
-          "note": "Breakfast by grazing: grilled scallops, wagyu skewers, fruit."
+          "place": "matsuya-nipponbashi",
+          "time": "08:30",
+          "note": "Breakfast: gyudon or a breakfast set, 20 min."
         },
         {
-          "place": "lb-drive-in",
-          "time": "13:15",
-          "note": "Lunch first: Sanuki udon in the park (Wed 11:00–15:00, order by 14:30), then LB wide-body cars and goods, 2 h."
+          "place": "fushimi-inari",
+          "time": "09:55",
+          "note": "Torii tunnels, 1 h 10: up to the first viewpoint and back (Aoki's pick)."
+        },
+        {
+          "place": "ramen-koji",
+          "time": "11:30",
+          "note": "Lunch: choose a ramen shop on the Kyoto Station 10F floor, 45 min."
+        },
+        {
+          "place": "kinkakuji",
+          "time": "13:00",
+          "note": "Gold pavilion, 45 min (Aoki's pick)."
         },
         {
           "place": "dormy-namba",
-          "time": "17:15",
+          "time": "15:50",
           "note": "Rest."
         },
         {
@@ -3489,24 +3516,38 @@
       "legs": [
         {
           "from": "dormy-namba",
-          "to": "kuromon",
+          "to": "matsuya-nipponbashi",
           "mode": "walk",
           "label": "Walk",
-          "duration": "5 min"
+          "duration": "3 min"
         },
         {
-          "from": "kuromon",
-          "to": "lb-drive-in",
+          "from": "matsuya-nipponbashi",
+          "to": "fushimi-inari",
           "mode": "train",
-          "label": "Walk to Ebisucho (12 min); Sakaisuji Line, Ebisucho about 12:00 → Dobutsuen-mae 12:01; JR Hanwa Line Kishuji Rapid, Shin-Imamiya about 12:07 → Hineno about 12:45; JR Hanwa Line local, Hineno about 12:50 → Izumi-Sunagawa 13:00; taxi 5 min",
-          "duration": "1 h 10"
+          "label": "Sakaisuji Line, Nippombashi about 08:55 → Kitahama 09:01; Keihan Main Line, Kitahama about 09:08 → Fushimi-Inari about 09:50 (change as Jorudan shows, ≈ ¥700 in all); walk 5 min",
+          "duration": "1 h"
         },
         {
-          "from": "lb-drive-in",
+          "from": "fushimi-inari",
+          "to": "ramen-koji",
+          "mode": "train",
+          "label": "JR Nara Line, Inari about 11:15 → Kyoto 11:20; up to Station building 10F",
+          "duration": "15 min"
+        },
+        {
+          "from": "ramen-koji",
+          "to": "kinkakuji",
+          "mode": "bus",
+          "label": "Kyoto City Bus 205, Kyoto Station about 12:20 → Kinkakuji-michi 12:55; walk 5 min (or a taxi, about 25 min, ≈ ¥3,000)",
+          "duration": "40 min"
+        },
+        {
+          "from": "kinkakuji",
           "to": "dormy-namba",
           "mode": "train",
-          "label": "Taxi (ask the shop to call one) or walk 22 min to Izumi-Sunagawa; JR Hanwa Line Kishuji Rapid, Izumi-Sunagawa about 15:50 → Shin-Imamiya 16:42; JR Yamatoji Line, Shin-Imamiya 16:45 → JR Namba 16:49; walk 12 min",
-          "duration": "1 h 30"
+          "label": "Kyoto City Bus 205, Kinkakuji-michi about 13:50 → Kyoto Station 14:30; JR Kyoto Line Special Rapid, Kyoto about 14:45 → Osaka 15:14; Midosuji Line, Umeda about 15:20 → Namba 15:28; walk 10 min",
+          "duration": "1 h 50"
         },
         {
           "from": "dormy-namba",
@@ -3531,14 +3572,130 @@
         }
       ],
       "sleep": "dormy-namba",
-      "sleepNote": "Dormy Inn, last night in Osaka.",
+      "sleepNote": "Dormy Inn, last night in Osaka. Pack tonight: tomorrow the suitcases come with you to Nara.",
       "notes": [
-        "Kuromon and Liberty Walk are Aoki's wants.",
-        "The udon shop at LB DRIVE-IN is open only 11:00–15:00; the park is closed on Thursday.",
-        "JR Hanwa Line times are from the current timetable; check them on Jorudan the day before.",
-        "JAL includes a 20 kg checked bag each: Pegasis's suitcase flies free tomorrow."
+        "Fushimi Inari and Kinkakuji are Aoki's wants.",
+        "Kyoto bus 205 can be slow and full: a taxi from Kyoto Station takes about 25 min (≈ ¥3,000).",
+        "Train times are from the current timetable; check them on Jorudan the day before."
       ],
-      "cost": "≈ ¥20,000 per person (JR + taxi about ¥2,500, market food, udon, Matsusaka beef ¥11,880 + drinks)"
+      "cost": "≈ ¥20,000 per person (Keihan, JR and bus about ¥2,500, Kinkakuji ¥500, ramen, Matsusaka beef ¥11,880 + drinks)"
+    },
+    {
+      "n": 10,
+      "date": "2027-01-27",
+      "weekday": "水",
+      "region": "kansai",
+      "short": "Nara ryokan",
+      "cover": "edosan",
+      "title": "Kuromon brunch, Den Den Town, then deer, the Great Buddha and a ryokan night in Nara Park",
+      "titleJa": "黒門市場 → 日本橋オタロード → 奈良公園 → 東大寺 → 江戸三",
+      "romaji": "Kuromon → Nipponbashi → Nara Kōen → Tōdaiji → Edosan",
+      "summary": "Kuromon Market as brunch and the anime shops on Otaroad, then one Kintetsu train to Nara with the suitcases. The deer and the Great Buddha in the afternoon, and the last special night: a ryokan inside Nara Park with a hot-pot dinner in your room.",
+      "temp": "1 – 8 °C",
+      "alerts": [
+        "Check out at 10:30 and leave the suitcases at the Dormy Inn front until about 12:55.",
+        "Ryokan: move the booking to Jan 27 (hot-pot plan, \"no raw fish\" in the note)."
+      ],
+      "stops": [
+        {
+          "place": "kuromon",
+          "time": "10:40",
+          "note": "Brunch by grazing: grilled scallops, wagyu skewers, fruit, 45 min."
+        },
+        {
+          "place": "otaroad",
+          "time": "11:30",
+          "note": "Figures, retro games, Animate, Melonbooks, 1 h 15 (Aoki's pick). Most shops open at 11:00."
+        },
+        {
+          "place": "dormy-namba",
+          "time": "12:55",
+          "note": "Take the suitcases from the front."
+        },
+        {
+          "place": "edosan",
+          "time": "14:05",
+          "note": "Leave the suitcases at the front (check-in from 15:00)."
+        },
+        {
+          "place": "nara-park",
+          "time": "14:25",
+          "note": "Deer and crackers in the open park, 1 h (both of you wanted the deer)."
+        },
+        {
+          "place": "todaiji",
+          "time": "15:35",
+          "note": "The Great Buddha hall and the deer around the gate, 1 h (closes 17:00)."
+        },
+        {
+          "place": "edosan",
+          "time": "17:00",
+          "note": "Check in; tea, yukata, a rest. Deer outside the door at dusk."
+        },
+        {
+          "place": "edosan",
+          "time": "18:30",
+          "note": "Dinner: Wakakusa hot-pot course, served in your room."
+        }
+      ],
+      "legs": [
+        {
+          "from": "dormy-namba",
+          "to": "kuromon",
+          "mode": "walk",
+          "label": "Walk",
+          "duration": "5 min"
+        },
+        {
+          "from": "kuromon",
+          "to": "otaroad",
+          "mode": "walk",
+          "label": "Walk south along Sakaisuji",
+          "duration": "8 min"
+        },
+        {
+          "from": "otaroad",
+          "to": "dormy-namba",
+          "mode": "walk",
+          "label": "Walk north",
+          "duration": "12 min"
+        },
+        {
+          "from": "dormy-namba",
+          "to": "edosan",
+          "mode": "train",
+          "label": "Walk to Kintetsu-Nippombashi with the suitcases (5 min); Kintetsu Nara Line Rapid Express, Kintetsu-Nippombashi about 13:10 → Kintetsu-Nara 13:45 (¥680); taxi from the station to Edosan (about 10 min, ≈ ¥1,000)",
+          "duration": "1 h"
+        },
+        {
+          "from": "edosan",
+          "to": "nara-park",
+          "mode": "walk",
+          "label": "Walk north into the park",
+          "duration": "15 min"
+        },
+        {
+          "from": "nara-park",
+          "to": "todaiji",
+          "mode": "walk",
+          "label": "Walk north through the park",
+          "duration": "10 min"
+        },
+        {
+          "from": "todaiji",
+          "to": "edosan",
+          "mode": "walk",
+          "label": "Walk south through the park to the Sagiike pond",
+          "duration": "20 min"
+        }
+      ],
+      "sleep": "edosan",
+      "sleepNote": "Ryokan night: tatami room, dinner and breakfast in your room. Tomorrow you fly from Itami.",
+      "notes": [
+        "Todaiji hall: winter hours 8:00–17:00.",
+        "Kuromon: some stalls close on Sundays; Wednesday is fine."
+      ],
+      "cost": "≈ ¥35,000 per person (ryokan ¥30,800 with dinner and breakfast, Kintetsu ¥680, taxi share ¥500, Todaiji ¥1,200, deer crackers ¥200, market food)"
     },
     {
       "n": 11,
@@ -3547,49 +3704,44 @@
       "region": "hokkaido",
       "short": "Fly north",
       "cover": "cts",
-      "title": "Fly Itami → New Chitose, ramen, drive to Kutchan in daylight",
-      "titleJa": "伊丹空港 → 新千歳空港 → 倶知安",
-      "romaji": "Itami → Shin-Chitose → Kutchan",
-      "summary": "An airport bus and a JAL flight north, a quick miso ramen at the airport, then the 4WD car to Kutchan before sunset. Ramen dinner 2 minutes from the hotel.",
+      "title": "Ryokan breakfast, airport bus from Nara, fly Itami → New Chitose, drive to Kutchan",
+      "titleJa": "江戸三 → 伊丹空港 → 新千歳空港 → 倶知安",
+      "romaji": "Edosan → Itami → Shin-Chitose → Kutchan",
+      "summary": "Breakfast at the ryokan, one airport bus from JR Nara to Itami and a JAL flight north. The 4WD car at 14:10 and the drive to Kutchan, the last part after dark. Ramen dinner 2 minutes from the hotel.",
       "temp": "−9 – −2 °C",
       "alerts": [
-        "One of the few early mornings: the bus to Itami leaves Namba at 09:00 (the flight is 10:50, so you drive to Kutchan in daylight).",
-        "Leave the car shop by 14:15 for the Lake Shikotsu road; later, or if it snows, take Route 5 via Otaru."
+        "Taxi from Edosan at about 08:55 for the 09:15 airport bus at JR Nara (East exit, stop 4). Reserve bus seats online.",
+        "You reach Kutchan at about 17:00, after dark: drive slowly on snow. Leave the car shop by 14:30 for the Lake Shikotsu road; later, or if it snows, take Route 5 via Otaru."
       ],
       "stops": [
         {
-          "place": "matsuya-nipponbashi",
+          "place": "edosan",
           "time": "08:00",
-          "note": "Breakfast, 20 min."
+          "note": "Breakfast in your room, 40 min; check out."
         },
         {
           "place": "itami",
-          "time": "09:30",
-          "note": "JAL 10:50 → New Chitose 12:35 (North Terminal)."
+          "time": "10:46",
+          "note": "JAL 11:45 → New Chitose 13:30 (North Terminal). Buy a bento or onigiri for lunch at the gate."
         },
         {
           "place": "cts",
-          "time": "12:35",
+          "time": "13:30",
           "note": "Land; take the bags."
         },
         {
-          "place": "shirakaba-sanso-cts",
-          "time": "13:00",
-          "note": "Lunch: Sapporo miso ramen in the Ramen Dojo, 30 min."
-        },
-        {
           "place": "toyota-cts",
-          "time": "13:50",
-          "note": "Pick up the 4WD car (book it for 13:50)."
+          "time": "14:10",
+          "note": "Pick up the 4WD car (book it for 14:10)."
         },
         {
           "place": "stay-resort-niseko",
-          "time": "16:20",
-          "note": "Check in (self check-in machine) before sunset."
+          "time": "16:55",
+          "note": "Check in (self check-in machine)."
         },
         {
           "place": "sports-takiguchi",
-          "time": "16:40",
+          "time": "17:10",
           "note": "Buy ski gloves and goggles for both (≈ ¥6,000–10,000 each), 30 min. Open to 19:00 on weekdays (Thursday)."
         },
         {
@@ -3605,38 +3757,24 @@
       ],
       "legs": [
         {
-          "from": "dormy-namba",
-          "to": "matsuya-nipponbashi",
-          "mode": "walk",
-          "label": "Walk",
-          "duration": "3 min"
-        },
-        {
-          "from": "matsuya-nipponbashi",
+          "from": "edosan",
           "to": "itami",
           "mode": "bus",
-          "label": "Walk to the Namba-ekimae bus stop (10 min); Osaka Airport Limousine bus, Namba-ekimae 09:00 → Itami North Terminal 09:30 (¥730)",
-          "duration": "50 min"
+          "label": "Taxi to JR Nara East exit (ask the ryokan to call one, about 10 min, ≈ ¥1,000); Nara Kotsu airport bus, JR Nara 09:15 → Itami North Terminal (JAL) 10:46 (¥1,750)",
+          "duration": "1 h 50"
         },
         {
           "from": "itami",
           "to": "cts",
           "mode": "flight",
-          "label": "JAL (J-Air), Itami 10:50 → New Chitose 12:35",
+          "label": "JAL, Itami 11:45 → New Chitose 13:30",
           "duration": "1 h 45"
         },
         {
           "from": "cts",
-          "to": "shirakaba-sanso-cts",
-          "mode": "walk",
-          "label": "Walk up to the domestic terminal 3F",
-          "duration": "5 min"
-        },
-        {
-          "from": "shirakaba-sanso-cts",
           "to": "toyota-cts",
           "mode": "bus",
-          "label": "Toyota Rent a Car free shuttle bus from the arrivals counter, about 13:40",
+          "label": "Toyota Rent a Car counter in arrivals, then the free shuttle bus, about 14:00",
           "duration": "10 min"
         },
         {
@@ -3686,9 +3824,10 @@
       "sleepNote": "Night 1 of 3 in Kutchan (STAY RESORT NISEKO, non-smoking twin, room only).",
       "notes": [
         "Pegasis drives every leg (Aoki's Chinese licence is not valid in Japan): take a 10-min break at Lake Shikotsu or Kimobetsu.",
-        "If you leave the car shop after 14:15 or it snows hard, drive via Sapporo and Otaru (Route 5), about 2 h 45."
+        "If you leave the car shop after 14:30 or it snows hard, drive via Sapporo and Otaru (Route 5), about 2 h 45.",
+        "Sunset in Kutchan is about 16:40."
       ],
-      "cost": "≈ ¥28,000 per person (JAL ¥16,330, bus ¥730, car day 1 and fuel split, meals); ski gloves and goggles ≈ ¥6,000–10,000 each"
+      "cost": "≈ ¥26,000 per person (JAL ¥13,030, airport bus ¥1,750, taxi share ¥500, car day 1 and fuel split, meals); ski gloves and goggles ≈ ¥6,000–10,000 each"
     },
     {
       "n": 12,
