@@ -204,20 +204,13 @@ export default function MapView(props: Props) {
     }
   }, [])
 
-  // Highlight one leg; the other lines of the day fade so it stands out
+  // Three looks only: other days faded, the selected day normal, the hovered leg highlighted
   useEffect(() => {
     const m = map.current
-    if (!m) return
-    const apply = () => {
-      const key = hotLeg ?? ''
-      m.setFilter('routes-hot-glow', ['==', ['get', 'key'], key])
-      m.setFilter('routes-hot', ['==', ['get', 'key'], key])
-      const o = hotLeg ? 0.3 : 1
-      m.setPaintProperty('routes-line', 'line-opacity', o)
-      m.setPaintProperty('routes-dashed', 'line-opacity', o)
-      m.setPaintProperty('routes-casing', 'line-opacity', hotLeg ? 0.2 : 0.55)
-    }
-    if (ready.current) apply()
+    if (!m || !ready.current) return
+    const key = hotLeg ?? ''
+    m.setFilter('routes-hot-glow', ['==', ['get', 'key'], key])
+    m.setFilter('routes-hot', ['==', ['get', 'key'], key])
   }, [hotLeg])
 
   // Routes, markers and camera follow the selected tab
