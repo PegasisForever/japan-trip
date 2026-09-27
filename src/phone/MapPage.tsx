@@ -5,7 +5,7 @@ import MapView, { type Pad } from '../shared/MapView'
 import { plan } from '../data/plan'
 import { days, places, dateShort } from '../data/trip'
 import { photoUrl } from '../data/photos'
-import { legsBeforeStops, mainRide, mealOf, minutes, fmtLength } from '../data/timeline'
+import { buildTimeline, legsBeforeStops, mainRide, mealOf, minutes, fmtLength } from '../data/timeline'
 import { KIND_LABEL, MODE_COLOR } from '../data/style'
 import { MODE_ICON } from '../shared/modeIcon'
 import Icon from '../shared/Icon'
@@ -13,15 +13,18 @@ import type { Day, Leg, Place, Stop } from '../data/types'
 import { getPhone, setPhone, showDay, usePhone } from './store'
 
 /** A place card, with the travel from the place before it ("4-1,4-2" for the sheet) */
-type Card = { place: Place; stop: Stop; n: number; legs: Leg[]; legKeys: string }
+type Card = { place: Place; stop: Stop; n: number; legs: Leg[]; legKeys: string; stay: string }
 
 /** Room taken by the glass controls on top of the map: the day bar above, the cards below */
 function frame(): Pad {
   const cs = getComputedStyle(document.documentElement)
   const top = parseFloat(cs.getPropertyValue('--f7-safe-area-top')) || 0
   const bottom = parseFloat(cs.getPropertyValue('--f7-safe-area-bottom')) || 0
+  // An open travel sheet covers the lower part: keep the route above it
+  const sheet = getPhone().leg ? document.querySelector<HTMLElement>('.leg-sheet') : null
+  const low = sheet ? sheet.offsetHeight + 24 : bottom + 200
   // Sides: room for half a pin and its number, so no pin is cut at the screen edge
-  return { top: top + 110, bottom: bottom + 200, left: 52, right: 52 }
+  return { top: top + 110, bottom: low, left: 52, right: 52 }
 }
 
 /** Each place of the day once, in visiting order, numbered like its pin */
@@ -29,12 +32,15 @@ function cardsOf(day: Day): Card[] {
   const out: Card[] = []
   const seen = new Set<string>()
   const { before } = legsBeforeStops(day)
+  // How long you stay: from the arrival until the travel to the next place starts
+  const stays = new Map<number, string>()
+  for (const seg of buildTimeline(day)) if (seg.kind === 'stop') stays.set(seg.index, seg.open ? 'evening' : fmtLength(seg.t1 - seg.t0))
   day.stops.forEach((st, k) => {
     if (seen.has(st.place) || !places[st.place]) return
     seen.add(st.place)
     // The first place of the day: the travel before it leaves last night's hotel; leave it out
     const legs = k === 0 ? [] : before[k]
-    out.push({ place: places[st.place], stop: st, n: seen.size, legs, legKeys: legs.map((l) => `${day.n}-${day.legs.indexOf(l)}`).join(',') })
+    out.push({ place: places[st.place], stop: st, n: seen.size, legs, legKeys: legs.map((l) => `${day.n}-${day.legs.indexOf(l)}`).join(','), stay: stays.get(k) ?? '' })
   })
   return out
 }
@@ -77,7 +83,7 @@ function middleIndex(el: HTMLElement) {
  * Swipe the day title to change the day; swipe the cards at the bottom to go from place to place.
  */
 export default function MapPage({ f7router }: { f7router: Router.Router }) {
-  const { mapDay, mapPlace, focusLeg, refit } = usePhone()
+  const { mapDay, mapPlace, focusLeg, refit, hot } = usePhone()
   const day = days.find((d) => d.n === mapDay) ?? days[0]
   const cards = useMemo(() => cardsOf(day), [day])
   const deck = useRef<HTMLDivElement>(null)
@@ -153,7 +159,7 @@ export default function MapPage({ f7router }: { f7router: Router.Router }) {
         day={day}
         hovered={null}
         selected={mapPlace}
-        hotLeg={focusLeg?.key ?? null}
+        hotLeg={hot ?? focusLeg?.key ?? null}
         focusLeg={focusLeg}
         lit={null}
         refit={refit}
@@ -199,6 +205,7 @@ export default function MapPage({ f7router }: { f7router: Router.Router }) {
                 <span className="deck-text">
                   <small className="num">
                     {time && `${time} · `}
+                    {c.stay && <span className="deck-stay">{c.stay} · </span>}
                     {mealOf(c.stop) ?? KIND_LABEL[c.place.kind] ?? ''}
                   </small>
                   <b>{c.place.en}</b>

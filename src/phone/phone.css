@@ -828,3 +828,190 @@
   color: var(--f7-theme-color);
   font-weight: 600;
 }
+.deck-text small .deck-stay {
+  font-size: inherit;
+  opacity: 1;
+  color: var(--f7-text-color);
+  white-space: nowrap;
+}
+.deck-text small {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ---------- Schedule on one time scale ---------- */
+.tscale {
+  position: relative;
+  margin: 18px 16px 8px 0;
+}
+/* Hour lines, with the hour in a column on the left */
+.ts-tick {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 0;
+  border-top: 1px solid color-mix(in srgb, var(--f7-text-color) 10%, transparent);
+}
+.ts-tick span {
+  position: absolute;
+  left: 12px;
+  top: -8px;
+  padding-right: 4px;
+  background: var(--f7-page-bg-color);
+  font-size: 11.5px;
+  line-height: 16px;
+  color: color-mix(in srgb, var(--f7-text-color) 50%, transparent);
+}
+.ts-stop,
+.ts-leg {
+  position: absolute;
+  left: 58px;
+  right: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: auto;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  font: inherit;
+  text-align: left;
+  color: var(--f7-text-color);
+}
+.ts-stop {
+  z-index: 2;
+  padding: 6px 10px 6px 6px;
+  border-radius: 14px;
+  background: var(--f7-list-strong-bg-color, #fff);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+.ts-stop:active,
+.ts-leg:active {
+  opacity: 0.7;
+}
+.ts-stop img {
+  flex: none;
+  width: 46px;
+  height: 46px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.ts-stop-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+.ts-stop-text b {
+  font-size: 15.5px;
+  line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ts-stop-text small {
+  font-size: 12.5px;
+  color: color-mix(in srgb, var(--f7-text-color) 60%, transparent);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ts-stop-text em {
+  font-style: normal;
+  font-weight: 600;
+  color: #c98a12;
+}
+.ts-gist {
+  font-size: 12.5px;
+  color: color-mix(in srgb, var(--f7-text-color) 60%, transparent);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* Short stays: one line, a smaller photo */
+.ts-stop.is-short {
+  align-items: center;
+  padding: 3px 10px 3px 4px;
+  border-radius: 10px;
+}
+.ts-stop.is-short img {
+  width: 26px;
+  height: 26px;
+  border-radius: 7px;
+}
+.ts-stop.is-short .ts-stop-text {
+  flex-direction: row;
+  align-items: baseline;
+  gap: 6px;
+}
+.ts-stop.is-short .ts-stop-text b {
+  flex: 0 1 auto;
+  font-size: 14px;
+}
+.ts-stop.is-short .ts-stop-text small {
+  flex: 1 1 0;
+  min-width: 40px;
+}
+.ts-stop.is-tiny {
+  align-items: center;
+  padding: 0 8px 0 4px;
+  border-radius: 6px;
+}
+.ts-stop.is-tiny img {
+  display: none;
+}
+.ts-stop.is-tiny .ts-stop-text b {
+  font-size: 12px;
+}
+.ts-stop.is-tiny .ts-stop-text small,
+.ts-stop.is-tiny .pword {
+  display: none;
+}
+/* Travel: a thin coloured band, text beside the icon */
+.ts-leg {
+  z-index: 1;
+  align-items: center;
+  padding: 0 10px 0 8px;
+  border-left: 4px solid var(--mc);
+  border-radius: 4px 12px 12px 4px;
+  background: color-mix(in srgb, var(--mc) 16%, transparent);
+  font-size: 13px;
+  font-weight: 600;
+}
+.ts-leg.mode-walk,
+.ts-leg.mode-flight {
+  border-left-color: color-mix(in srgb, var(--f7-text-color) 30%, transparent);
+  background: color-mix(in srgb, var(--f7-text-color) 6%, transparent);
+}
+.ts-leg .leg-ico {
+  flex: none;
+  width: 20px;
+  height: 20px;
+}
+.ts-leg.mode-walk .leg-ico,
+.ts-leg.mode-flight .leg-ico {
+  background: color-mix(in srgb, var(--f7-text-color) 14%, transparent);
+  color: var(--f7-text-color);
+}
+.ts-leg-text {
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ts-leg-text em {
+  font-style: normal;
+  color: #8e44ad;
+}
+.ts-leg.is-tiny .leg-ico {
+  width: 14px;
+  height: 14px;
+}
+.ts-leg.is-tiny .leg-ico svg {
+  width: 9px;
+  height: 9px;
+}
+.ts-leg.is-tiny {
+  font-size: 11px;
+}

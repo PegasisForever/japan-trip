@@ -37,6 +37,8 @@ export default function PhoneApp() {
         className="safe-areas"
         browserHistory={!installed}
         browserHistorySeparator="#!"
+        // The site folder ("/japan-trip/" on GitHub Pages): without it the router reads the folder as a page and shows nothing
+        browserHistoryRoot={import.meta.env.BASE_URL}
         browserHistoryAnimateOnLoad={false}
         iosSwipeBack={installed}
       />

@@ -1,9 +1,10 @@
-import { Page, Navbar, Block, BlockTitle, List, ListItem, Button, f7 } from 'framework7-react'
+import { Page, Navbar, Block, BlockTitle, List, ListItem, Button } from 'framework7-react'
 import type { Router } from 'framework7/types'
 import { KIND_LABEL } from '../data/style'
 import { photosFor } from '../data/gallery'
 import { mealOf } from '../data/timeline'
-import { days, places, mapLinks } from '../data/trip'
+import { days, places } from '../data/trip'
+import { openDirections } from './directions'
 import { pickOf } from '../data/picks'
 import Gallery from '../shared/Gallery'
 import PickTag from '../shared/PickTag'
@@ -20,22 +21,9 @@ export default function PlacePage({ f7route }: { f7route: Router.Route }) {
   const stop = day?.stops[Number(f7route.query.stop)]?.place === place.id ? day.stops[Number(f7route.query.stop)] : day?.stops.find((s) => s.place === place.id)
   const meal = stop ? mealOf(stop) : null
   const photos = photosFor(place.galleryKey ?? place.id, place.photo, place.credit)
-  const links = mapLinks(place)
   const time = stop?.time && /\d/.test(stop.time) ? stop.time : null
 
-  const directions = () =>
-    f7.actions
-      .create({
-        buttons: [
-          [
-            { text: 'Directions', label: true },
-            { text: 'Apple Maps', onClick: () => window.open(links.apple, '_blank') },
-            { text: 'Google Maps', onClick: () => window.open(links.google, '_blank') },
-          ],
-          [{ text: 'Cancel', strong: true }],
-        ],
-      })
-      .open()
+  const directions = () => openDirections(place)
 
   const hasMore = !!(place.experience || place.anime || place.tips?.length || place.links?.length)
 

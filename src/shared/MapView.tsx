@@ -419,7 +419,8 @@ function MapInner(props: Props) {
     }
     if (bounds.isEmpty()) return
     const cam = m.cameraForBounds(bounds, { padding: framePadding(m, cb.current.frame()), maxZoom: 16 })
-    if (cam) m.flyTo({ ...cam, pitch: 40, bearing: 0, curve: 1.6, duration: flyTime(m, bounds.getCenter().toArray() as [number, number]), essential: true })
+    // Flat: the camera is worked out for a flat map; a tilt would push the far end of the route out of the frame
+    if (cam) m.flyTo({ ...cam, pitch: 0, bearing: 0, curve: 1.6, duration: flyTime(m, bounds.getCenter().toArray() as [number, number]), essential: true })
   }, [focusLeg, days, places, routes])
 
   // Fly to a selected place

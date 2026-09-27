@@ -8,6 +8,8 @@ export interface PhoneState {
   mapPlace: string | null
   /** A travel block to frame on the map (t makes the same one move again) */
   focusLeg: { key: string; t: number } | null
+  /** Route drawn bright on the map ("4-1,4-2") */
+  hot: string | null
   /** Travel steps open in the sheet ("day-leg" key) */
   leg: string | null
   /** The list of days is open */
@@ -16,7 +18,7 @@ export interface PhoneState {
   refit: number
 }
 
-let state: PhoneState = { mapDay: 1, mapPlace: null, focusLeg: null, leg: null, picker: false, refit: 0 }
+let state: PhoneState = { mapDay: 1, mapPlace: null, focusLeg: null, hot: null, leg: null, picker: false, refit: 0 }
 const subs = new Set<() => void>()
 
 export function getPhone() {
