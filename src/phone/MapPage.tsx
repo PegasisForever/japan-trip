@@ -114,8 +114,10 @@ export default function MapPage({ f7router }: { f7router: Router.Router }) {
   // A pin was tapped: bring its card into view
   useEffect(() => {
     if (!mapPlace || !deck.current) return
+    // The card in view already shows this place (the hotel can be both the first and the last card)
+    if (cards[shown.current]?.place.id === mapPlace) return
     const i = cards.findIndex((c) => c.place.id === mapPlace)
-    if (i < 0 || i === shown.current) return
+    if (i < 0) return
     shown.current = i
     ;(deck.current.children[i] as HTMLElement | undefined)?.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' })
   }, [mapPlace, cards])
