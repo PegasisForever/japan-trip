@@ -972,12 +972,56 @@ button.ekimei-nav:hover {
   white-space: nowrap;
 }
 .tl-row {
-  display: flex;
-  gap: 4px;
-  align-items: stretch;
+  position: relative;
+  height: 164px;
 }
-.tl-row .card {
-  flex: none;
+/* Each block sits at its clock time on one scale */
+.tl-row > * {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: auto;
+}
+.tl-row > *:hover,
+.tl-row > *:focus-visible {
+  z-index: 2;
+}
+/* Short blocks: fewer words, the rest is in the hover tip and the place panel */
+.card-stop.is-narrow .card-en,
+.card-stop.is-narrow .pick {
+  display: none;
+}
+.card-stop.is-narrow .card-kind {
+  font-size: 11px;
+}
+.card-stop.is-narrow .card-time {
+  font-size: 11px;
+}
+.card-stop.is-tiny .card-body,
+.card-stop.is-tiny .card-time,
+.card-stop.is-tiny .card-who {
+  display: none;
+}
+.card-stop.is-tiny .card-top {
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+}
+.card-stop.is-narrow .card-time-end {
+  display: none;
+}
+.tl-leg.is-narrow .tl-leg-time {
+  white-space: normal;
+}
+.tl-leg.is-narrow .tl-leg-svc,
+.tl-leg.is-narrow small {
+  display: none;
+}
+.tl-leg.is-tiny {
+  padding: 9px 0 0;
+}
+.tl-leg.is-tiny > :not(i) {
+  display: none;
 }
 .tl-leg {
   flex: none;
@@ -1714,6 +1758,9 @@ button.ekimei-nav:hover {
   }
   .card {
     width: 150px;
+    height: 132px;
+  }
+  .tl-row {
     height: 132px;
   }
   .card-ja {

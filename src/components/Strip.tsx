@@ -19,12 +19,14 @@ interface Props {
   onPickDay: (n: number) => void
 }
 
-/** Pixels per minute on the day timeline, and the smallest widths that stay readable */
-const PX = 2.4
-const MIN_STOP = 150
-const MIN_WALK = 64
-/** A train, bus or drive block must fit the name of the service and its times */
-const MIN_RIDE = 124
+/** Pixels per minute: the whole day uses one scale, so every hour has the same width */
+const PX = 3.2
+/** Space between two blocks, taken from the end of the first one so the start times stay exact */
+const GAP = 3
+/** Below these widths a block shows less text; the full text is in the hover tip */
+const TINY = 72
+const NARROW = 150
+const RIDE_FULL = 124
 /** From this width a travel block lists every step, not only the main ride */
 const ALL_STEPS = 230
 
@@ -129,27 +131,15 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
   const order = new Map<string, number>()
   for (const st of day.stops) if (!order.has(st.place)) order.set(st.place, order.size + 1)
 
-  // Lay the segments out left to right. Width follows duration, with a readable minimum.
+  // One time scale for the whole day: a block starts at its clock time and is as wide as it is long
+  const segs = buildTimeline(day)
+  const start = segs.length ? Math.min(...segs.map((s) => s.t0)) : 0
+  const end = segs.length ? Math.max(...segs.map((s) => s.t1)) : 0
+  const at = (t: number) => (t - start) * PX
+  const laid = segs.map((seg) => ({ seg, x: at(seg.t0), w: Math.max(3, (seg.t1 - seg.t0) * PX - GAP) }))
   const ticks: { x: number; label: string }[] = []
-  const laid: { seg: ReturnType<typeof buildTimeline>[number]; w: number }[] = []
-  let x = 0
-  let lastT = -Infinity
-  let end = 0
-  for (const seg of buildTimeline(day)) {
-    const dur = seg.t1 - seg.t0
-    const min = seg.kind === 'stop' ? MIN_STOP : seg.leg.mode === 'walk' ? MIN_WALK : MIN_RIDE
-    const w = Math.max(min, dur * PX)
-    // Hour ticks are placed inside each segment, so they stay true even when a segment is widened
-    if (seg.t0 >= lastT && dur > 0) {
-      for (let h = Math.ceil(seg.t0 / 60); h * 60 < seg.t1; h++) {
-        ticks.push({ x: x + ((h * 60 - seg.t0) / dur) * w, label: fmtClock(h * 60) })
-      }
-    }
-    lastT = Math.max(lastT, seg.t1)
-    end = seg.t1
-    laid.push({ seg, w })
-    x += w + 4
-  }
+  for (let h = Math.ceil(start / 60); h * 60 <= end; h++) ticks.push({ x: at(h * 60), label: fmtClock(h * 60) })
+  const x = at(end) + 8
 
   // The night and the next morning close the day
   const sleep = day.sleep ? places[day.sleep] : null
@@ -170,7 +160,7 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
           ))}
         </div>
         <div className="tl-row">
-          {laid.map(({ seg, w }, i) => {
+          {laid.map(({ seg, x: left, w }, i) => {
             if (seg.kind === 'leg') {
               const l = seg.leg
               const ride = l.mode === 'walk' ? null : mainRide(l.label, l.mode)
@@ -181,8 +171,8 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
                 <button
                   key={i}
                   type="button"
-                  className={`tl-leg${w >= ALL_STEPS ? ' is-wide' : ''}`}
-                  style={{ width: w, '--mc': MODE_COLOR[l.mode] } as React.CSSProperties}
+                  className={`tl-leg${w >= ALL_STEPS ? ' is-wide' : ''}${w < TINY ? ' is-tiny' : w < RIDE_FULL ? ' is-narrow' : ''}`}
+                  style={{ left, width: w, '--mc': MODE_COLOR[l.mode] } as React.CSSProperties}
                   aria-label={`${MODE_LABEL[l.mode]}${l.duration ? ', ' + l.duration : ''}: ${l.label}`}
                   onMouseEnter={(e) => show(e.currentTarget)}
                   onMouseLeave={() => setTip(null)}
@@ -230,8 +220,9 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
               <button
                 key={i}
                 data-id={first ? st.place : undefined}
-                style={{ width: w }}
-                className={`card card-stop${p.photo ? '' : ' no-photo'}${meal ? ' is-meal' : ''}${hovered === st.place ? ' is-hot' : ''}${selected === st.place ? ' is-selected' : ''}${st.who ? ' is-solo' : ''}`}
+                style={{ left, width: w }}
+                title={w < NARROW ? `${st.time ?? fmtClock(seg.t0)} · ${p.en}` : undefined}
+                className={`card card-stop${w < TINY ? ' is-tiny' : w < NARROW ? ' is-narrow' : ''}${p.photo ? '' : ' no-photo'}${meal ? ' is-meal' : ''}${hovered === st.place ? ' is-hot' : ''}${selected === st.place ? ' is-selected' : ''}${st.who ? ' is-solo' : ''}`}
                 onMouseEnter={() => hoverHere(st.place)}
                 onMouseLeave={() => hoverHere(null)}
                 onFocus={() => hoverHere(st.place)}
@@ -244,7 +235,7 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
                   <span className="card-num">{order.get(st.place)}</span>
                   <span className="card-time">
                     {st.time && /\d/.test(st.time) ? st.time : fmtClock(seg.t0)}
-                    {!seg.open && `–${fmtClock(seg.t1)}`}
+                    {!seg.open && <span className="card-time-end">–{fmtClock(seg.t1)}</span>}
                   </span>
                 </span>
                 {st.who && <span className="card-who">{st.who} only</span>}
@@ -269,7 +260,7 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
           {sleep && (
             <button
               className="card card-night"
-              style={{ width: NIGHT_W - 4 }}
+              style={{ left: x, width: NIGHT_W - 4 }}
               onClick={() => selectHere(sleep.id)}
               onMouseEnter={() => hoverHere(sleep.id)}
               onMouseLeave={() => hoverHere(null)}
