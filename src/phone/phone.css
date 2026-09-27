@@ -1060,3 +1060,25 @@
   -webkit-line-clamp: 2;
   font-size: 13px;
 }
+/* Tonight's hotel: the last block of the day */
+.ts-stop.is-night {
+  align-items: center;
+  background: linear-gradient(170deg, #2a3a66, #121a30);
+  color: #fff;
+}
+.ts-stop.is-night small {
+  color: rgba(255, 255, 255, 0.75);
+}
+.ts-moon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #c9d6ff;
+}
+.ts-moon .f7-icons {
+  font-size: 20px;
+}

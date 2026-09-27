@@ -3,9 +3,9 @@ import type { Router } from 'framework7/types'
 import { useEffect, useMemo, useRef } from 'react'
 import MapView, { type Pad } from '../shared/MapView'
 import { plan } from '../data/plan'
-import { days, places, dateShort } from '../data/trip'
+import { days, places, dateShort, stopOrder } from '../data/trip'
 import { photoUrl } from '../data/photos'
-import { buildTimeline, legsBeforeStops, mainRide, mealOf, minutes, fmtLength } from '../data/timeline'
+import { buildTimeline, legsBeforeStops, mainRide, mealOf, minutes, fmtClock, fmtLength } from '../data/timeline'
 import { KIND_LABEL, MODE_COLOR } from '../data/style'
 import { MODE_ICON } from '../shared/modeIcon'
 import Icon from '../shared/Icon'
@@ -13,7 +13,7 @@ import type { Day, Leg, Place, Stop } from '../data/types'
 import { getPhone, setPhone, showDay, usePhone } from './store'
 
 /** A place card, with the travel from the place before it ("4-1,4-2" for the sheet) */
-type Card = { place: Place; stop: Stop; n: number; legs: Leg[]; legKeys: string; stay: string }
+type Card = { place: Place; stop: Stop; n: number; legs: Leg[]; legKeys: string; stay: string; arrive: string }
 
 /** Room taken by the glass controls on top of the map: the day bar above, the cards below */
 function frame(): Pad {
@@ -31,16 +31,23 @@ function frame(): Pad {
 function cardsOf(day: Day): Card[] {
   const out: Card[] = []
   const seen = new Set<string>()
+  const order = stopOrder(day)
   const { before } = legsBeforeStops(day)
   // How long you stay: from the arrival until the travel to the next place starts
   const stays = new Map<number, string>()
-  for (const seg of buildTimeline(day)) if (seg.kind === 'stop') stays.set(seg.index, seg.open ? 'evening' : fmtLength(seg.t1 - seg.t0))
+  const arrive = new Map<number, string>()
+  for (const seg of buildTimeline(day))
+    if (seg.kind === 'stop') {
+      stays.set(seg.index, seg.open ? 'evening' : fmtLength(seg.t1 - seg.t0))
+      arrive.set(seg.index, fmtClock(seg.t0))
+    }
   day.stops.forEach((st, k) => {
-    if (seen.has(st.place) || !places[st.place]) return
+    // Each place once, but tonight's hotel always closes the day (also when the day started there)
+    if ((seen.has(st.place) && st.end !== 'night') || !places[st.place]) return
     seen.add(st.place)
     // The first place of the day: the travel before it leaves last night's hotel; leave it out
     const legs = k === 0 ? [] : before[k]
-    out.push({ place: places[st.place], stop: st, n: seen.size, legs, legKeys: legs.map((l) => `${day.n}-${day.legs.indexOf(l)}`).join(','), stay: stays.get(k) ?? '' })
+    out.push({ place: places[st.place], stop: st, n: order.get(st.place)!, legs, legKeys: legs.map((l) => `${day.n}-${day.legs.indexOf(l)}`).join(','), stay: stays.get(k) ?? '', arrive: arrive.get(k) ?? '' })
   })
   return out
 }
@@ -195,7 +202,7 @@ export default function MapPage({ f7router }: { f7router: Router.Router }) {
         {cards.map((c) => {
           const time = c.stop.time && /\d/.test(c.stop.time) ? c.stop.time : null
           return (
-            <div key={c.place.id} className="deck-item">
+            <div key={`${c.place.id}-${c.stop.end ?? ''}`} className="deck-item">
               <Travel legs={c.legs} onOpen={() => setPhone({ leg: c.legKeys })} />
               <button className="deck-card" onClick={() => open(c)}>
                 <span className="deck-img">
@@ -204,9 +211,16 @@ export default function MapPage({ f7router }: { f7router: Router.Router }) {
                 <span className="deck-n num">{c.n}</span>
                 <span className="deck-text">
                   <small className="num">
-                    {time && `${time} · `}
-                    {c.stay && <span className="deck-stay">{c.stay} · </span>}
-                    {mealOf(c.stop) ?? KIND_LABEL[c.place.kind] ?? ''}
+                    {c.stop.end === 'night' ? (
+                      `Night${time ? ` from ${time}` : c.arrive ? ` from ${c.arrive}` : ''}`
+                    ) : (
+                      <>
+                        {c.stop.end === 'start' && 'Start · '}
+                        {time && `${time} · `}
+                        {c.stay && <span className="deck-stay">{c.stay} · </span>}
+                        {mealOf(c.stop) ?? KIND_LABEL[c.place.kind] ?? ''}
+                      </>
+                    )}
                   </small>
                   <b>{c.place.en}</b>
                   <span lang="ja">{c.place.ja}</span>

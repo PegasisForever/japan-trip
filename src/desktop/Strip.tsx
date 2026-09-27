@@ -141,9 +141,12 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
   const end = segs.length ? Math.max(...segs.map((s) => s.t1)) : 0
   const at = (t: number) => (t - start) * PX
   const laid = segs.map((seg) => ({ seg, x: at(seg.t0), w: Math.max(3, (seg.t1 - seg.t0) * PX - GAP) }))
+  // Tonight's hotel is the last stop: it is drawn as the night card, from the time you get there
+  const nightAt = laid.findIndex((l) => l.seg.kind === 'stop' && l.seg.stop.end === 'night')
+  const dayEnd = nightAt >= 0 ? laid[nightAt].seg.t0 : end
   const ticks: { x: number; label: string }[] = []
-  for (let h = Math.ceil(start / 60); h * 60 <= end; h++) ticks.push({ x: at(h * 60), label: fmtClock(h * 60) })
-  const x = at(end) + 8
+  for (let h = Math.ceil(start / 60); h * 60 <= dayEnd; h++) ticks.push({ x: at(h * 60), label: fmtClock(h * 60) })
+  const x = at(dayEnd) + (nightAt >= 0 ? 0 : 8)
 
   // The night and the next morning close the day
   const sleep = day.sleep ? places[day.sleep] : null
@@ -226,6 +229,7 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
               )
             }
             const st = seg.stop
+            if (st.end === 'night') return null
             const p = places[st.place]
             const meal = mealOf(st)
             const first = day.stops.findIndex((o) => o.place === st.place) === seg.index
@@ -285,7 +289,7 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
                   <Icon name="moon" size={14} />
                   Night
                 </span>
-                <span className="card-time">from {fmtClock(end)}</span>
+                <span className="card-time">from {fmtClock(dayEnd)}</span>
               </span>
               <span className="card-body">
                 <span className="card-kind">

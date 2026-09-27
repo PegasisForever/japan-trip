@@ -6,6 +6,7 @@ import plannedExp from './plannedExperience.json'
 import { firstPhoto } from './gallery'
 import planJson from './plan.json'
 import planRoutes from './planRoutes.json'
+import { fmtClock, minutes } from './timeline'
 
 type Meta = Record<string, Credit>
 const OLD = oldPhotos as Meta
@@ -46,6 +47,30 @@ function coverOf(day: Day, places: Record<string, Place>): string {
   return (withPic.find((p) => !plain.includes(p.kind)) ?? withPic[0] ?? places[day.stops[0].place]).id
 }
 
+/**
+ * Every day starts at the place you slept and ends at the place you sleep.
+ * The plan's travel already goes from last night's hotel to tonight's; the list of places sometimes leaves them out.
+ */
+function withEnds(day: Day): Day {
+  const stops = [...day.stops]
+  const first = stops[0]
+  const from = day.legs[0]?.from
+  if (from && first && first.place !== from) {
+    // Leave the hotel 10 min before the travel to the first place starts
+    const t = /^(\d{1,2}):(\d{2})$/.exec(first.time ?? '')
+    let i = 0
+    let travel = 0
+    while (i < day.legs.length && day.legs[i].to !== first.place) travel += minutes(day.legs[i++].duration)
+    if (i < day.legs.length) travel += minutes(day.legs[i].duration)
+    const time = t ? fmtClock(Number(t[1]) * 60 + Number(t[2]) - travel - 10) : undefined
+    stops.unshift({ place: from, time, end: 'start' })
+  } else if (first && first.place === from) stops[0] = { ...first, end: 'start' }
+  const last = stops[stops.length - 1]
+  if (day.sleep && last.place !== day.sleep) stops.push({ place: day.sleep, end: 'night' })
+  else if (day.sleep && last.place === day.sleep) stops[stops.length - 1] = { ...last, end: 'night' }
+  return { ...day, stops }
+}
+
 const raw = planJson as unknown as Plan
 const refCount: Record<string, number> = {}
 for (const p of raw.places) if (p.ref) refCount[p.ref] = (refCount[p.ref] ?? 0) + 1
@@ -53,7 +78,7 @@ const places = Object.fromEntries(raw.places.map((p) => [p.id, withPhoto(p, !!p.
 
 export const plan: LoadedPlan = {
   ...raw,
-  days: raw.days.map((d) => ({ ...d, cover: coverOf(d, places) })),
+  days: raw.days.map((d) => withEnds({ ...d, cover: coverOf(d, places) })),
   places,
   routes: planRoutes as unknown as Record<string, [number, number][]>,
 }

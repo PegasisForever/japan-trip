@@ -48,6 +48,8 @@ export interface Stop {
   note?: string
   /** Only one of the two travellers does this stop */
   who?: 'Pegasis' | 'Aoki'
+  /** The day starts here (the hotel of last night) or ends here (tonight's hotel), added when the plan loads */
+  end?: 'start' | 'night'
 }
 
 export interface Leg {

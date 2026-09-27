@@ -65,7 +65,8 @@ export function buildTimeline(day: Day): Segment[] {
   let cursor: number | null = null
 
   day.stops.forEach((stop, k) => {
-    const a = arrive[k] ?? cursor ?? 8 * 60
+    // No clock time: you get there when the travel from the stop before ends
+    const a = arrive[k] ?? (cursor != null ? cursor + travel[k] : 8 * 60)
     let t = a - travel[k]
     for (const leg of before[k]) {
       const d = minutes(leg.duration)
@@ -77,6 +78,7 @@ export function buildTimeline(day: Day): Segment[] {
     let open = false
     const nextArrive = k + 1 < day.stops.length ? arrive[k + 1] : null
     if (nextArrive != null) leave = nextArrive - travel[k + 1]
+    // The next stop has no time (tonight's hotel): leave after an hour
     else if (k + 1 < day.stops.length) leave = a + 60
     else {
       leave = a + LAST_STAY

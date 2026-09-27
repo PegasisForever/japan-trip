@@ -58,7 +58,6 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
 
   // The first travel row has no place before it (it leaves the hotel of the night before): leave it out
   const segs = buildTimeline(day).filter((s, i) => !(i === 0 && s.kind === 'leg'))
-  const sleep = day.sleep ? places[day.sleep] : null
   const prev = days.find((d) => d.n === n - 1)
   const next = days.find((d) => d.n === n + 1)
   const morning = next ? dayStart(next) : null
@@ -71,7 +70,9 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
   let last = segs.length ? segs[0].t0 : 0
   for (const seg of segs) {
     y += Math.max(0, seg.t0 - last) * PX
-    const h = Math.max(seg.kind === 'stop' ? MIN_STOP : MIN_LEG, (seg.t1 - seg.t0) * PX - GAP)
+    // Tonight's hotel closes the day: one short block, not the whole night
+    const night = seg.kind === 'stop' && seg.stop.end === 'night'
+    const h = night ? 64 : Math.max(seg.kind === 'stop' ? MIN_STOP : MIN_LEG, (seg.t1 - seg.t0) * PX - GAP)
     laid.push({ seg, top: y, h })
     y += h + GAP
     last = seg.t1
@@ -121,7 +122,7 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
           </div>
         ))}
         {laid.map(({ seg, top, h }, i) => {
-          const size = h < 30 ? ' is-tiny' : h < 58 ? ' is-short' : h >= 150 && seg.kind === 'stop' ? ' is-tall' : ''
+          const size = h < 30 ? ' is-tiny' : h < 58 ? ' is-short' : h >= 200 && seg.kind === 'stop' ? ' is-tall' : ''
           if (seg.kind === 'leg') {
             const l = seg.leg
             const ride = l.mode === 'walk' ? null : mainRide(l.label, l.mode)
@@ -149,6 +150,26 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
           const p = places[st.place]
           const meal = mealOf(st)
           const from = st.time && /\d/.test(st.time) ? st.time : fmtClock(seg.t0)
+          if (st.end === 'night')
+            return (
+              <button
+                key={i}
+                className="ts-stop is-night"
+                style={{ top, height: h }}
+                onClick={() => f7router.navigate(`/place/${p.id}/?day=${day.n}&stop=${seg.index}`)}
+              >
+                <span className="ts-moon">
+                  <i className="f7-icons">moon_fill</i>
+                </span>
+                <span className="ts-stop-text">
+                  <b>{p.en}</b>
+                  <small className="num">
+                    Night from {from}
+                    {morning && ` · tomorrow from ${morning.time ?? 'morning'}`}
+                  </small>
+                </span>
+              </button>
+            )
           return (
             <button
               key={i}
@@ -156,10 +177,11 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
               style={{ top, height: h }}
               onClick={() => f7router.navigate(`/place/${p.id}/?day=${day.n}&stop=${seg.index}`)}
             >
-              {p.photo && <img src={photoUrl(p.photo, h >= 150 ? 480 : 160)} alt="" loading="lazy" />}
+              {p.photo && <img src={photoUrl(p.photo, h >= 200 ? 480 : 160)} alt="" loading="lazy" />}
               <span className="ts-stop-text">
                 <b>{p.en}</b>
                 <small className="num">
+                  {st.end === 'start' && 'Start · '}
                   {from}
                   {seg.open ? '' : `–${fmtClock(seg.t1)}`} · {seg.open ? 'evening' : fmtLength(seg.t1 - seg.t0)}
                   {meal && <em> · {meal}</em>}
@@ -174,22 +196,6 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
           )
         })}
       </div>
-
-      {sleep && (
-        <List mediaList inset strong className="plan-list">
-          <ListItem link={`/place/${sleep.id}/?day=${day.n}`} className="stop-row night-row" title={sleep.en}>
-            <div slot="media" className="thumb night">
-              <i className="f7-icons">moon_fill</i>
-            </div>
-            <span slot="header">Night</span>
-            {morning && (
-              <span slot="footer" className="num">
-                Tomorrow from {morning.time ?? 'morning'}
-              </span>
-            )}
-          </ListItem>
-        </List>
-      )}
 
       {day.notes && day.notes.length > 0 && (
         <List inset strong accordionList className="notes-acc">
