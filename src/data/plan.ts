@@ -18,8 +18,11 @@ const EXP: Record<string, Exp> = {
 }
 
 /** Photo of a place: reuse the photo of the place or idea it refers to */
-function withPhoto(raw: Plan['places'][number]): Place {
+function withPhoto(raw: Plan['places'][number], sharedRef: boolean): Place {
   const p = { ...raw, experience: raw.experience ?? (raw.ref ? EXP[raw.ref] ?? EXP[raw.ref.replace(/^plan-/, '')] : undefined) }
+  // Several places made from one idea (Meiji Jingu, Takeshita, PARCO): each shows its own photos, not the idea's one photo
+  const own = sharedRef ? firstPhoto(p.id) : undefined
+  if (own) return { ...p, photo: own.src, credit: own.credit, galleryKey: p.id } as Place
   for (const key of [p.ref, p.id].filter(Boolean) as string[]) {
     const k = key.replace(/^plan-/, '')
     if (OLD[k]) return { ...p, photo: `${k}.jpg`, credit: OLD[k], id: p.id, galleryKey: k } as Place
@@ -44,7 +47,9 @@ function coverOf(day: Day, places: Record<string, Place>): string {
 }
 
 const raw = planJson as unknown as Plan
-const places = Object.fromEntries(raw.places.map((p) => [p.id, withPhoto(p)]))
+const refCount: Record<string, number> = {}
+for (const p of raw.places) if (p.ref) refCount[p.ref] = (refCount[p.ref] ?? 0) + 1
+const places = Object.fromEntries(raw.places.map((p) => [p.id, withPhoto(p, !!p.ref && refCount[p.ref] > 1)]))
 
 export const plan: LoadedPlan = {
   ...raw,
