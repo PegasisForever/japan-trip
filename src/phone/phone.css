@@ -1084,3 +1084,11 @@
 .ts-moon .f7-icons {
   font-size: 20px;
 }
+
+/* Place page: no dark bar over the photo; the bar fades in once the page is scrolled */
+.ios .navbar-transparent .navbar-bg {
+  transition: opacity 0.2s;
+}
+.ios .navbar-transparent:not(.navbar-transparent-visible) .navbar-bg {
+  opacity: 0;
+}
