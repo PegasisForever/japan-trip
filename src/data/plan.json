@@ -3075,7 +3075,7 @@
       "title": "Anime day: Your Name stairs, Akihabara, Ikebukuro, Shibuya Sky at sunset, a live show in Shimokitazawa, Omoide Yokocho",
       "titleJa": "須賀神社 → 秋葉原 → 池袋 → 中野 → 下北沢SHELTER",
       "romaji": "Suga Jinja → Akihabara → Ikebukuro → Nakano → Shimokitazawa",
-      "summary": "The Your Name stairs, a maid café lunch in Akihabara and the anime shops of Ikebukuro. Hachiko and Shibuya Sky at sunset, a cheap Chinese diner dinner and a real live show in Shimokitazawa, then late yakitori in Omoide Yokocho.",
+      "summary": "A maid café lunch in Akihabara first, close to the hotel, then the Your Name stairs and one subway line to the anime shops of Ikebukuro. Hachiko and Shibuya Sky at sunset, a cheap Chinese diner dinner and a real live show in Shimokitazawa, then late yakitori in Omoide Yokocho.",
       "temp": "2 – 10 °C",
       "alerts": [
         "Buy the SHELTER ticket online when the January list is out (loft-prj.co.jp, in December); note the OPEN time.",
@@ -3085,28 +3085,28 @@
       "stops": [
         {
           "place": "mystays-kiyosumi",
-          "time": "10:15",
+          "time": "10:00",
           "note": "Breakfast: konbini or a café (the hotel has no breakfast)."
         },
         {
-          "place": "suga",
-          "time": "11:20",
-          "note": "Your Name stairs, 15 min (Aoki's pick)."
-        },
-        {
           "place": "radio-kaikan",
-          "time": "12:05",
-          "note": "10 floors of figures and cards, 45 min; ZEST (Oshi no Ko) 3 min north."
+          "time": "10:50",
+          "note": "10 floors of figures and cards, 40 min; ZEST (Oshi no Ko) 3 min north."
         },
         {
           "place": "maidreamin-akiba",
-          "time": "12:55",
-          "note": "Lunch with the stage show, 55 min (Pegasis's pick)."
+          "time": "11:35",
+          "note": "Lunch with the stage show, 55 min, from the 11:30 opening (Pegasis's pick)."
+        },
+        {
+          "place": "suga",
+          "time": "13:05",
+          "note": "Your Name stairs, 15 min (Aoki's pick)."
         },
         {
           "place": "ikebukuro",
-          "time": "14:20",
-          "note": "Animate main store, Surugaya, K-BOOKS, Lashinbang (used goods), 1 h."
+          "time": "14:00",
+          "note": "Animate main store, Surugaya, K-BOOKS, Lashinbang (used goods), 1 h 15."
         },
         {
           "place": "hachiko",
@@ -3142,16 +3142,9 @@
       "legs": [
         {
           "from": "mystays-kiyosumi",
-          "to": "suga",
-          "mode": "train",
-          "label": "Walk to Kiyosumi-shirakawa (5 min); Hanzomon Line → Otemachi; Marunouchi Line, Otemachi about 10:55 → Yotsuya-sanchome 11:05; walk 8 min",
-          "duration": "35 min"
-        },
-        {
-          "from": "suga",
           "to": "radio-kaikan",
           "mode": "train",
-          "label": "Walk to Yotsuya-sanchome (8 min); Marunouchi Line, Yotsuya-sanchome about 11:45 → Awajicho 11:55; walk 8 min to Akihabara",
+          "label": "Walk to Kiyosumi-shirakawa (5 min); Toei Oedo Line, Kiyosumi-shirakawa about 10:25 → Shin-okachimachi 10:34; walk 10 min to Akihabara",
           "duration": "30 min"
         },
         {
@@ -3163,10 +3156,17 @@
         },
         {
           "from": "maidreamin-akiba",
+          "to": "suga",
+          "mode": "train",
+          "label": "JR Chuo-Sobu Line (local), Akihabara about 12:40 → Yotsuya 12:53; walk 10 min",
+          "duration": "25 min"
+        },
+        {
+          "from": "suga",
           "to": "ikebukuro",
           "mode": "train",
-          "label": "JR Yamanote Line, Akihabara about 13:55 → Ikebukuro 14:15 (east exit)",
-          "duration": "25 min"
+          "label": "Walk to Yotsuya-sanchome (8 min); Tokyo Metro Marunouchi Line, Yotsuya-sanchome about 13:30 → Ikebukuro 13:50 (direct); east exit",
+          "duration": "30 min"
         },
         {
           "from": "ikebukuro",
