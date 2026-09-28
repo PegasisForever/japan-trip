@@ -5,7 +5,7 @@ import { minutes, fmtLength, stepsOf } from '../data/timeline'
 import { legByKey, places } from '../data/trip'
 import { MODE_ICON } from '../shared/modeIcon'
 import Icon from '../shared/Icon'
-import { setPhone, usePhone } from './store'
+import { getPhone, setPhone, usePhone } from './store'
 
 /**
  * The travel steps from one place to the next, from the bottom. Swipe down to close.
@@ -32,8 +32,13 @@ export default function LegSheet() {
       opened={found.length > 0}
       // Open: the map shows and highlights the route (above the sheet). Closed: the highlight goes.
       onSheetOpen={() => key && setPhone({ hot: key })}
-      // Move the map once the sheet has its full height, so the route lands above it
-      onSheetOpened={() => key && first && setPhone({ mapDay: first.day.n, mapPlace: null, focusLeg: { key, t: Date.now() } })}
+      // Move the map once the sheet has its full height, so the route lands above it.
+      // Keep the picked place on the same day: clearing it moves the cards back to the first one.
+      onSheetOpened={() => {
+        if (!key || !first) return
+        if (first.day.n !== getPhone().mapDay) setPhone({ mapDay: first.day.n, mapPlace: null })
+        setPhone({ focusLeg: { key, t: Date.now() } })
+      }}
       onSheetClosed={() => setPhone({ leg: null, hot: null, focusLeg: null })}
       // Swipe down anywhere on the sheet to close it
       swipeToClose
