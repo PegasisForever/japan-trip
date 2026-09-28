@@ -1,17 +1,17 @@
 {
   "id": "trip",
   "name": "Tokyo → Osaka → Hokkaido",
-  "tagline": "Always together: 4 nights in Tokyo, one short Hakone–Fuji car trip, an Osaka apartment with a night in Nagoya and a last ryokan night in Nara Park, and 4 nights in Hokkaido.",
-  "summary": "4 nights in Shinjuku with a slow Harajuku and Shibuya day, a full anime day and a Girls Band Cry day in Yako and Kawasaki, where Pegasis picks up a car for Yokohama Chinatown, Daikoku, the Turnpike and Fuji. One Fuji-view villa night, then the car goes back at Mishima and a direct Kodama takes you to Osaka for the Nara hill fire. Suzuka, then one night in Nagoya and a full day at Ghibli Park; back in Osaka for Kyoto, Den Den Town and a Matsusaka beef dinner, and a last ryokan night inside Nara Park. A JAL flight from Itami to Hokkaido: 3 nights in a container house in Niseko town for skiing (Pegasis teaches Aoki) and the Rusutsu drift course, 1 night in Sapporo, and a Peach flight to Narita for both flights home. You do everything together, every meal has a named place, and every train and bus has its departure time.",
+  "tagline": "Always together: 4 nights in east Tokyo, one short Hakone–Fuji car trip, an Osaka apartment with a night in Nagoya and a last ryokan night in Nara Park, and 4 nights in Hokkaido.",
+  "summary": "4 nights in Kiyosumi-shirakawa (east Tokyo) with a slow day around the hotel and Akihabara, a full anime day and a Girls Band Cry day in Yako and Kawasaki, where Pegasis picks up a car for Yokohama Chinatown, Daikoku, the Turnpike and Fuji. One Fuji-view villa night, then the car goes back at Mishima and a direct Kodama takes you to Osaka for the Nara hill fire. Suzuka, then one night in Nagoya and a full day at Ghibli Park; back in Osaka for Kyoto, Den Den Town and a Matsusaka beef dinner, and a last ryokan night inside Nara Park. A JAL flight from Itami to Hokkaido: 3 nights in a container house in Niseko town for skiing (Pegasis teaches Aoki) and the Rusutsu drift course, 1 night in Sapporo, and a Peach flight to Narita for both flights home. You do everything together, every meal has a named place, and every train and bus has its departure time.",
   "who": {
     "pegasis": "In: 23 of 25 WANTs. Daikoku (you drive, no guide) + Tatsumi, Turnpike, Taikanzan, Otome Pass, Gotemba outlets (plain shopping, 45 min), TMG view, airport bus instead of N'EX, Omoide/Golden Gai, Isetan half-price food, Radio Kaikan, Maidreamin, Ikebukuro goods route, Nakano, SHELTER with a live show, Nara hill fire, Suzuka EV kart and the Tokaido car road (as Hakone–Fuji by car + Suzuka + Nagoya), Niseko Grand Hirafu, Rusutsu drift (30-min self-drive course at 15:00), GARAKU, Moiwa, Daruma. Out: Asahiyama penguins (5 h of travel), Onuma (2 h south of Niseko, a whole extra day). Your maybes in: Lake Kawaguchi, Shibuya Sky, the Kawasaki GBC walk. Because you travel together, you now also join some short stops you marked not interested: Suga stairs (15 min), Nissan Crossing (20 min), Enoshima (1 h), Fuji Motorsports Museum (1 h), Toyota museum (1 h 20), Fushimi Inari and Kinkakuji (a calm morning, not at dawn). Nijo Market is out (no split on the last day).",
     "aoki": "In: about 43 of 49 WANTs. Omoide/Golden Gai, Suga stairs, Tokyo Station dome and Hachiko (GBC Tokyo), Nissan Crossing, TMG, Radio Kaikan, ZEST, Nakano and used goods, Ikebukuro, Shimokita and a SHELTER live show, Shibuya Sky at sunset + Nintendo/Pokémon + Harajuku, the Kawasaki GBC stamp walk, Daikoku + Tatsumi, Enoshima + Slam Dunk crossing, Hakone as Tokyo-3, Fuji Motorsports Museum, Lake Kawaguchi, Hanz villa, Yuru Camp Motosu, Nara fire, Suzuka, Toyota museum, Fushimi Inari + Kinkakuji (not at dawn, so Pegasis can join), no Sabbat places (they are only for looking, so they are out), Namba food, Den Den Town, Liberty Walk, Donki coupon, one and a half ski days at Niseko on the beginner area (Pegasis teaches you, no paid lesson), Rusutsu drift (back seat), Moiwa, Daruma. You also join Pegasis's Taikanzan and Gotemba outlets (short stops you marked not interested). Yokohama Chinatown (dinner before Daikoku). Out: Cup Noodles Museum (it closes at 18:00, too early for the Kawasaki day), Fujiten ski (Niseko instead), the paid maid-café tour (the Akihabara maid café instead), Cape Kamui (path closed in winter), Aokana/Goto (off route), Toyota Kaikan (closed Sundays). Uji is skipped because you marked it not interested."
   },
   "cost": {
     "transport": "≈ ¥124,000 per person (Tokyo car 2 days: Toyota ≈ ¥19,000 + studless ¥4,400 + one-way ¥8,800 + tolls, fuel, parking ≈ ¥16,000, split; Kodama Mishima → Shin-Osaka ¥12,300; Kansai, Suzuka and Nagoya trains ≈ ¥20,000 + Suzuka taxis ≈ ¥2,000; JAL ¥13,030; Hokkaido 4WD 3 days + fuel ≈ ¥60,000 split (not checked); Nara and Kyoto trains for the ryokan night ≈ ¥1,500; Peach New Chitose → Narita ≈ ¥13,500 with bag; airport buses and trains (TYO-NRT ¥1,500, Nara–Itami bus ¥1,750); suitcase courier ≈ ¥4,500 (Tokyo → Osaka, Osaka → Nara))",
-    "hotels": "≈ ¥158,000 per person (Super Hotel Shinjuku 4 nights ¥66,100 per room = ≈ ¥33,000; Hanz Villa C with BBQ dinner + breakfast ¥50,800 = ≈ ¥25,400; 11 Kuromon apartment 4 nights ¥40,185 = ≈ ¥20,100; Super Hotel Nagoya 1 night ≈ ¥6,300; Edosan hot-pot plan ¥30,800 (¥25,040 on Trip.com with a one-time promo); Niseko container house (Airbnb) 3 nights ¥70,000 = ≈ ¥35,000; Route-Inn Sapporo ¥14,156 = ≈ ¥7,100)",
+    "hotels": "≈ ¥168,000 per person (HOTEL MYSTAYS Kiyosumi Shirakawa 4 nights ¥86,960 per room = ≈ ¥43,500; Hanz Villa C with BBQ dinner + breakfast ¥50,800 = ≈ ¥25,400; 11 Kuromon apartment 4 nights ¥40,185 = ≈ ¥20,100; Super Hotel Nagoya 1 night ≈ ¥6,300; Edosan hot-pot plan ¥30,800 (¥25,040 on Trip.com with a one-time promo); Niseko container house (Airbnb) 3 nights ¥70,000 = ≈ ¥35,000; Route-Inn Sapporo ¥14,156 = ≈ ¥7,100)",
     "activities": "≈ ¥97,000 Pegasis / ¥77,000 Aoki (Ghibli Park Premium ¥7,300 each; Hirafu rental 2 days ¥33,210 each with the 10% early code; own gloves and goggles ≈ ¥6,000–10,000 each; lift tickets peak season 1 day ¥11,800 × 2 each; no ski lesson; Rusutsu: Pegasis Introduction Course ¥31,000, Aoki back seat ¥10,000; Shibuya Sky, SHELTER, maid cafés, Suzuka, Fuji Motorsports Museum ¥1,800, Toyota museum ¥1,000, Kinkakuji ¥500, Moiwa — the museums and temples now for both)",
-    "total": "≈ ¥396,000 Pegasis / ¥376,000 Aoki, plus meals about ¥4,000–6,000 a day (≈ ¥75,000, plus the Matsusaka beef dinner ≈ ¥12,000; every meal is in the day plans), excl. international flights. Pegasis also buys a suitcase for the way home (≈ ¥5,000–15,000) and pays a return bag fee if the fare has none. If Aoki takes a pro ride-along instead of the back seat: +¥7,000. Aoki: Air China change fee about 500–1,000 yuan."
+    "total": "≈ ¥406,000 Pegasis / ¥386,000 Aoki, plus meals about ¥4,000–6,000 a day (≈ ¥75,000, plus the Matsusaka beef dinner ≈ ¥12,000; every meal is in the day plans), excl. international flights. Pegasis also buys a suitcase for the way home (≈ ¥5,000–15,000) and pays a return bag fee if the fare has none. If Aoki takes a pro ride-along instead of the back seat: +¥7,000. Aoki: Air China change fee about 500–1,000 yuan."
   },
   "flights": [
     "Pegasis: WestJet round trip, Toronto 09:35 Sun Jan 17 → Calgary → Narita T1 16:30 Mon Jan 18; home WS81 Narita T1 18:30 Mon Feb 1 → Calgary → Toronto 22:10 (CA$1,039 with a checked bag on an Econo fare, Google Flights, Sep 26, 2026).",
@@ -2573,6 +2573,247 @@
         "No bathtub: for a hot bath, Niseko town has public onsen (for example Kiranoyu by Niseko Station).",
         "Location on the map is approximate (Airbnb shows the exact address after booking)."
       ]
+    },
+    {
+      "ref": null,
+      "tips": [
+        "Phone early to reserve the parking space for the night of Jan 21.",
+        "No breakfast in the hotel: Blue Bottle opens at 8:00, 12 min on foot; konbini are closer."
+      ],
+      "info": [
+        {
+          "label": "Nights",
+          "value": "Jan 18, 19, 20, 21"
+        },
+        {
+          "label": "Price",
+          "value": "Standard twin, room only, 4 nights: ¥86,960 (best rate) or ¥78,320 (early-bird, no refund from 27 days before) (Rakuten, Sep 28, 2026)"
+        },
+        {
+          "label": "Room",
+          "value": "Standard Twin 24 m², two 120 cm beds, own bath and toilet, non-smoking"
+        },
+        {
+          "label": "Front desk",
+          "value": "08:00–22:00: tell the hotel if you arrive after 22:00"
+        },
+        {
+          "label": "Parking",
+          "value": "2 spaces only, ¥1,800 a night, reserve by phone (03-5624-2641); else Mitsui Repark, 120 m"
+        },
+        {
+          "label": "Has",
+          "value": "Courier service at the front desk (Yamato), free luggage storage, coin laundry"
+        }
+      ],
+      "id": "mystays-kiyosumi",
+      "en": "HOTEL MYSTAYS Kiyosumi Shirakawa",
+      "ja": "ホテルマイステイズ清澄白河",
+      "romaji": "Hoteru Maisuteizu Kiyosumi-shirakawa",
+      "lat": 35.68442,
+      "lon": 139.79594,
+      "kind": "hotel",
+      "blurb": "Your Tokyo base for 4 nights in quiet east Tokyo, 5 min from Kiyosumi-shirakawa Station (Hanzomon and Oedo lines: Shinjuku in 30 min, Otemachi in 7). A standard twin with its own bath; no breakfast."
+    },
+    {
+      "ref": null,
+      "tips": [],
+      "info": [
+        {
+          "label": "Hours",
+          "value": "17:00–23:30 (food last order 23:00), open every day"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥2,500 each"
+        }
+      ],
+      "id": "yakitori-dojo-kiyosumi",
+      "en": "Yakitori Dojo, Kiyosumi-shirakawa",
+      "ja": "やきとり道場 清澄白河店",
+      "romaji": "Yakitori Dōjō Kiyosumi-shirakawa-ten",
+      "lat": 35.68188,
+      "lon": 139.799,
+      "kind": "food",
+      "blurb": "A plain yakitori izakaya 5 min from the hotel, open late every day."
+    },
+    {
+      "ref": null,
+      "tips": [],
+      "info": [
+        {
+          "label": "Hours",
+          "value": "8:00–19:00, every day"
+        }
+      ],
+      "id": "blue-bottle-kiyosumi",
+      "en": "Blue Bottle Coffee Kiyosumi-shirakawa",
+      "ja": "ブルーボトルコーヒー 清澄白河フラッグシップカフェ",
+      "romaji": "Burū Botoru Kōhī Kiyosumi-shirakawa",
+      "lat": 35.68045,
+      "lon": 139.80205,
+      "kind": "food",
+      "blurb": "The first Blue Bottle in Japan, in an old warehouse with the roastery inside. Coffee and pastries for a slow breakfast."
+    },
+    {
+      "ref": null,
+      "tips": [],
+      "info": [
+        {
+          "label": "Hours",
+          "value": "9:00–17:00 (last entry 16:30), closed only Dec 29 – Jan 1"
+        },
+        {
+          "label": "Entry",
+          "value": "¥150"
+        }
+      ],
+      "id": "kiyosumi-garden",
+      "en": "Kiyosumi Garden",
+      "ja": "清澄庭園",
+      "romaji": "Kiyosumi Teien",
+      "lat": 35.68,
+      "lon": 139.7975,
+      "kind": "sight",
+      "blurb": "A Meiji-era stroll garden around a big pond, with stepping stones across the water and a teahouse on the shore."
+    },
+    {
+      "ref": null,
+      "tips": [],
+      "info": [
+        {
+          "label": "Hours",
+          "value": "9:30–17:00; closed 2nd and 4th Monday (open Tue Jan 19)"
+        },
+        {
+          "label": "Entry",
+          "value": "¥400"
+        }
+      ],
+      "id": "fukagawa-edo",
+      "en": "Fukagawa Edo Museum",
+      "ja": "深川江戸資料館",
+      "romaji": "Fukagawa Edo Shiryōkan",
+      "lat": 35.6813,
+      "lon": 139.7996,
+      "kind": "sight",
+      "blurb": "A full-size Edo-period street indoors: you walk into the houses, the rice shop and the boat inn, with light changing from day to night."
+    },
+    {
+      "ref": null,
+      "tips": [],
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Tue–Sun 11:00–15:00 (closed Mon)"
+        }
+      ],
+      "id": "fukagawa-kamasho",
+      "en": "Fukagawa Kamasho (fukagawa-meshi)",
+      "ja": "深川釜匠",
+      "romaji": "Fukagawa Kamashō",
+      "lat": 35.68105,
+      "lon": 139.80146,
+      "kind": "food",
+      "blurb": "The local dish: fukagawa-meshi, clams cooked in miso broth over rice. All cooked, fine for Aoki."
+    },
+    {
+      "ref": null,
+      "tips": [],
+      "info": [
+        {
+          "label": "Open",
+          "value": "Always open, free"
+        }
+      ],
+      "id": "kinshi-park",
+      "en": "Kinshi Park (Bocchi the Rock!)",
+      "ja": "錦糸公園",
+      "romaji": "Kinshi Kōen",
+      "lat": 35.6966,
+      "lon": 139.8133,
+      "kind": "anime",
+      "blurb": "The park by Kinshicho Station from Bocchi the Rock!: the bench and the lawn where Kikuri drinks and Bocchi first plays on the street."
+    },
+    {
+      "ref": "deal-donki-coupon-stack",
+      "tips": [
+        "Buy a 60–70 L suitcase with 4 wheels: it must hold everything Pegasis buys until Feb 1."
+      ],
+      "info": [
+        {
+          "label": "Hours",
+          "value": "9:00–4:00"
+        }
+      ],
+      "id": "donki-kinshicho",
+      "en": "Don Quijote Kinshicho North Exit",
+      "ja": "ドン・キホーテ 錦糸町北口店",
+      "romaji": "Don Kihōte Kinshichō Kitaguchi-ten",
+      "lat": 35.6979,
+      "lon": 139.8122,
+      "kind": "shop",
+      "blurb": "A big Don Quijote next to Kinshi Park. Pegasis buys the suitcase for the way home here; Aoki can use the tourist coupon."
+    },
+    {
+      "ref": "super-potato-retro-arcade",
+      "tips": [],
+      "info": [
+        {
+          "label": "Hours",
+          "value": "11:00–20:00 every day"
+        }
+      ],
+      "id": "super-potato",
+      "en": "Super Potato, Akihabara",
+      "ja": "スーパーポテト 秋葉原店",
+      "romaji": "Sūpā Poteto Akihabara-ten",
+      "lat": 35.69937,
+      "lon": 139.77074,
+      "kind": "shop",
+      "blurb": "Three floors of retro games, consoles and figures, with a small retro arcade on the top floor."
+    },
+    {
+      "ref": "athome-cafe-akihabara",
+      "tips": [
+        "Evenings can have a queue: take a queue ticket on the site."
+      ],
+      "info": [
+        {
+          "label": "Hours",
+          "value": "About 11:00–22:00"
+        },
+        {
+          "label": "Cost",
+          "value": "Entry fee + a drink, about ¥2,000–3,000 each"
+        }
+      ],
+      "id": "athome-cafe",
+      "en": "@home café, Akihabara",
+      "ja": "あっとほぉーむカフェ",
+      "romaji": "Atto Hōmu Kafe",
+      "lat": 35.69951,
+      "lon": 139.7704,
+      "kind": "anime",
+      "blurb": "The classic Akihabara maid café, next door to Super Potato: a drink or a dessert, a photo with a maid, a small game."
+    },
+    {
+      "ref": null,
+      "tips": [],
+      "info": [
+        {
+          "label": "Hours",
+          "value": "Food hall closes about 19:00–19:30 (not checked: see the store site)"
+        }
+      ],
+      "id": "mitsukoshi-nihonbashi",
+      "en": "Nihonbashi Mitsukoshi food hall",
+      "ja": "日本橋三越本店 デパ地下",
+      "romaji": "Nihonbashi Mitsukoshi Honten",
+      "lat": 35.68555,
+      "lon": 139.7734,
+      "kind": "food",
+      "blurb": "Japan's oldest department store. Near closing, the food hall marks down sushi rolls, bento and cooked dishes."
     }
   ],
   "days": [
@@ -2583,13 +2824,14 @@
       "region": "tokyo",
       "short": "Arrive",
       "cover": "omoide",
-      "title": "Land in Tokyo, airport bus to Tokyo Station, late yakitori in Shinjuku",
-      "titleJa": "成田 → 東京駅 → 新宿（伊勢丹・思い出横丁）",
-      "romaji": "Narita → Tōkyō-eki → Shinjuku",
-      "summary": "Pegasis lands first and waits at Narita Terminal 1 with an early udon; Aoki lands at 18:10 and you travel together from there. The airport bus drops you at Tokyo Station for the Girls Band Cry dome, then a late yakitori dinner in Omoide Yokocho and the suitcase for the way home at Don Quijote.",
+      "title": "Land in Tokyo, airport bus to Tokyo Station, late yakitori by the hotel",
+      "titleJa": "成田空港 → 東京駅 → 清澄白河",
+      "romaji": "Narita → Tōkyō-eki → Kiyosumi-shirakawa",
+      "summary": "Pegasis lands first and waits at Narita Terminal 1 with an early udon; Aoki lands at 18:10 and you travel together from there. The airport bus drops you at Tokyo Station for the Girls Band Cry dome, a taxi to the hotel in Kiyosumi-shirakawa, then a late yakitori dinner 5 minutes away.",
       "temp": "2 – 10 °C",
       "alerts": [
-        "Pegasis: at immigration ask for a paper landing stamp, not the face-scan gate (the car shop checks it on Jan 21)."
+        "Pegasis: at immigration ask for a paper landing stamp, not the face-scan gate (the car shop checks it on Jan 21).",
+        "Hotel front desk closes at 22:00: take the taxi at about 20:50. If you are late, phone the hotel (03-5624-2641)."
       ],
       "stops": [
         {
@@ -2613,14 +2855,14 @@
           "note": "Girls Band Cry ep 1: Nina arrives under this dome, 10 min (Aoki's pick)."
         },
         {
-          "place": "kappetei-omoide",
-          "time": "21:25",
-          "note": "Dinner: yakitori and a beer, 1 h, last order before 23:00 (Aoki's pick)."
+          "place": "mystays-kiyosumi",
+          "time": "21:05",
+          "note": "Check in before 22:00; drop the suitcases."
         },
         {
-          "place": "donki-kabukicho",
-          "time": "22:35",
-          "note": "Pegasis: the suitcase for the way home (empty for now), heat packs, shoe spikes. Aoki: tourist coupon."
+          "place": "yakitori-dojo-kiyosumi",
+          "time": "21:20",
+          "note": "Dinner: yakitori and a beer, 1 h (last order 23:00)."
         }
       ],
       "legs": [
@@ -2647,184 +2889,181 @@
         },
         {
           "from": "tokyo-st-dome",
-          "to": "kappetei-omoide",
-          "mode": "train",
-          "label": "Tokyo Metro Marunouchi Line, Tokyo about 20:55 → Shinjuku 21:12 (¥209); walk west under the JR tracks 5 min",
-          "duration": "25 min"
+          "to": "mystays-kiyosumi",
+          "mode": "drive",
+          "label": "Taxi from the Marunouchi South taxi stand, 4 km (≈ ¥2,000); easier than the subway with suitcases",
+          "duration": "15 min"
         },
         {
-          "from": "kappetei-omoide",
-          "to": "donki-kabukicho",
+          "from": "mystays-kiyosumi",
+          "to": "yakitori-dojo-kiyosumi",
           "mode": "walk",
-          "label": "Walk north-east into Kabukicho (Golden Gai is on the way)",
-          "duration": "10 min"
+          "label": "Walk south-east",
+          "duration": "5 min"
         },
         {
-          "from": "donki-kabukicho",
-          "to": "hotel-super-shinjuku",
+          "from": "yakitori-dojo-kiyosumi",
+          "to": "mystays-kiyosumi",
           "mode": "walk",
           "label": "Walk",
-          "duration": "4 min"
+          "duration": "5 min"
         }
       ],
-      "sleep": "hotel-super-shinjuku",
+      "sleep": "mystays-kiyosumi",
       "sleepNote": "Night 1 of 3. Economy twin with breakfast.",
       "notes": [
-        "One plan for both: Pegasis waits at Narita (about 2.5 h) instead of going ahead alone; the station dome and Omoide are Aoki's wants, the airport bus is Pegasis's.",
-        "The Isetan half-price food is tomorrow evening (it closes at 20:00).",
-        "If the Air China flight is late, skip the dome and take the TYO-NRT bus straight to Shinjuku (Busta Shinjuku).",
+        "One plan for both: Pegasis waits at Narita (about 2.5 h) instead of going ahead alone; the station dome is Aoki's want, the airport bus is Pegasis's. Omoide Yokocho yakitori moves to day 3, after the live show.",
+        "The half-price food hall is tomorrow evening (Nihonbashi Mitsukoshi).",
+        "If the Air China flight is late, skip the dome and take the taxi from Tokyo Station straight away.",
         "Pegasis brings his own thick winter clothes: nothing to buy for the cold.",
         "Phone data: set up a Japan data eSIM before you fly (about CA$15–25 for 10–20 GB), or buy a tourist SIM at Narita.",
         "Buy a Welcome Suica at the airport (or use a phone Suica) for all trains and buses."
       ],
-      "cost": "≈ ¥7,000 per person (bus ¥1,500, udon or onigiri, dinner) + Pegasis's suitcase ≈ ¥5,000–15,000"
+      "cost": "≈ ¥8,000 per person (bus ¥1,500, taxi share ¥1,000, udon or onigiri, dinner)"
     },
     {
       "n": 2,
       "date": "2027-01-19",
       "weekday": "火",
       "region": "tokyo",
-      "short": "Harajuku + Shibuya",
-      "cover": "shibuya-sky",
-      "title": "Meiji Jingu, Harajuku, Nintendo and Pokémon, Shibuya Sky at sunset, Golden Gai",
-      "titleJa": "明治神宮 → 竹下通り → 渋谷PARCO → ハチ公 → 渋谷スカイ → 都庁 → ゴールデン街",
-      "romaji": "Meiji Jingū → Takeshita-dōri → Shibuya Paruko → Hachikō → Shibuya Sukai → Tochō → Gōruden-gai",
-      "summary": "A late start: the forest shrine Meiji Jingu, crêpes on Takeshita Street, lunch and the Nintendo and Pokémon shops in Shibuya, Hachiko, and Shibuya Sky at sunset. Half-price food at Isetan, the free City Hall night view and one drink in Golden Gai.",
+      "short": "Kiyosumi + Akiba",
+      "cover": "kiyosumi-garden",
+      "title": "Kiyosumi Garden, Edo museum, fukagawa-meshi, Kinshi Park, Don Quijote, Akihabara retro games and a maid café",
+      "titleJa": "清澄庭園 → 深川江戸資料館 → 錦糸公園 → 秋葉原 → 日本橋三越",
+      "romaji": "Kiyosumi Teien → Fukagawa Edo Shiryōkan → Kinshi Kōen → Akihabara → Nihonbashi",
+      "summary": "A slow jet-lag day around the hotel: coffee at Blue Bottle, the pond garden and the indoor Edo street, and clam rice for lunch. Kinshi Park from Bocchi the Rock! and Don Quijote for the suitcase, then retro games and a maid café in Akihabara, and half-price food from the Mitsukoshi food hall.",
       "temp": "2 – 10 °C",
       "alerts": [
-        "Shibuya Sky: buy the web ticket for about 16:00 (sunset about 16:55); sales open 4 weeks ahead."
+        "Food hall closing time is not checked (about 19:00–19:30): see the Nihonbashi Mitsukoshi site before the day."
       ],
       "stops": [
         {
-          "place": "hotel-super-shinjuku",
-          "time": "10:15",
-          "note": "Breakfast: coffee and onigiri from the konbini, or a café (the hotel buffet ends at 09:00; eat it by 09:00 if you are up)."
+          "place": "blue-bottle-kiyosumi",
+          "time": "10:30",
+          "note": "Breakfast: coffee and a pastry, 35 min."
         },
         {
-          "place": "meiji-jingu",
+          "place": "kiyosumi-garden",
           "time": "11:15",
-          "note": "The forest path to the main hall and back, 40 min."
+          "note": "The pond, the stepping stones and the teahouse, 40 min."
         },
         {
-          "place": "takeshita",
-          "time": "12:05",
-          "note": "Crêpes, snacks and fun shops, 40 min."
+          "place": "fukagawa-edo",
+          "time": "12:00",
+          "note": "The Edo street indoors, 50 min."
         },
         {
-          "place": "uobei-shibuya",
+          "place": "fukagawa-kamasho",
           "time": "13:00",
-          "note": "Lunch: touch-screen sushi (cooked plates for Aoki), 40 min."
+          "note": "Lunch: fukagawa-meshi (clams cooked in miso broth on rice), 45 min."
         },
         {
-          "place": "shibuya-parco",
-          "time": "13:50",
-          "note": "Nintendo TOKYO and Pokémon Center on 6F, 1 h (Aoki's pick)."
+          "place": "kinshi-park",
+          "time": "14:10",
+          "note": "Bocchi the Rock! bench and lawn, 20 min (from your ideas list)."
         },
         {
-          "place": "hachiko",
-          "time": "15:00",
-          "note": "Girls Band Cry ep 3 meeting place, the Scramble crossing, 20 min (Aoki's pick)."
+          "place": "donki-kinshicho",
+          "time": "14:35",
+          "note": "Pegasis: the suitcase for the way home (empty for now), heat packs, shoe spikes. Aoki: tourist coupon. 45 min."
         },
         {
-          "place": "shibuya-sky",
-          "time": "15:55",
-          "note": "Rooftop at sunset (about 16:55) and the city lights, 1 h 20 (Aoki's pick)."
+          "place": "super-potato",
+          "time": "15:45",
+          "note": "Retro games and the top-floor arcade, 50 min (from your ideas list)."
         },
         {
-          "place": "isetan",
-          "time": "19:10",
-          "note": "Dinner: half-price sushi and bento in the food hall before the 20:00 close (Pegasis's pick)."
+          "place": "athome-cafe",
+          "time": "16:45",
+          "note": "Maid café: a drink and a dessert, 1 h (from your ideas list)."
         },
         {
-          "place": "tmg",
-          "time": "20:05",
-          "note": "Free night view from the 45th-floor North Deck (open to 21:30; the South Deck is closed on this 3rd Tuesday), 30 min (both of you wanted it)."
-        },
-        {
-          "place": "golden-gai",
-          "time": "21:00",
-          "note": "One drink in a tiny bar, 45 min (both of you wanted it)."
+          "place": "mitsukoshi-nihonbashi",
+          "time": "18:15",
+          "note": "Dinner: half-price sushi rolls and bento before the food hall closes (Pegasis's pick); eat at the hotel."
         }
       ],
       "legs": [
         {
-          "from": "hotel-super-shinjuku",
-          "to": "meiji-jingu",
+          "from": "mystays-kiyosumi",
+          "to": "blue-bottle-kiyosumi",
+          "mode": "walk",
+          "label": "Walk east past Kiyosumi Garden",
+          "duration": "12 min"
+        },
+        {
+          "from": "blue-bottle-kiyosumi",
+          "to": "kiyosumi-garden",
+          "mode": "walk",
+          "label": "Walk west to the garden gate",
+          "duration": "8 min"
+        },
+        {
+          "from": "kiyosumi-garden",
+          "to": "fukagawa-edo",
+          "mode": "walk",
+          "label": "Walk east",
+          "duration": "5 min"
+        },
+        {
+          "from": "fukagawa-edo",
+          "to": "fukagawa-kamasho",
+          "mode": "walk",
+          "label": "Walk east",
+          "duration": "5 min"
+        },
+        {
+          "from": "fukagawa-kamasho",
+          "to": "kinshi-park",
           "mode": "train",
-          "label": "Walk to JR Shinjuku (12 min); JR Yamanote Line, Shinjuku about 11:05 → Harajuku 11:09; walk 2 min",
+          "label": "Walk to Kiyosumi-shirakawa (5 min); Hanzomon Line, Kiyosumi-shirakawa about 13:52 → Kinshicho 13:57; walk 5 min",
           "duration": "20 min"
         },
         {
-          "from": "meiji-jingu",
-          "to": "takeshita",
+          "from": "kinshi-park",
+          "to": "donki-kinshicho",
           "mode": "walk",
-          "label": "Walk back past Harajuku Station",
-          "duration": "10 min"
+          "label": "Walk to the north exit side",
+          "duration": "3 min"
         },
         {
-          "from": "takeshita",
-          "to": "uobei-shibuya",
+          "from": "donki-kinshicho",
+          "to": "super-potato",
           "mode": "train",
-          "label": "JR Yamanote Line, Harajuku about 12:48 → Shibuya 12:50; walk to Dogenzaka 6 min",
-          "duration": "15 min"
-        },
-        {
-          "from": "uobei-shibuya",
-          "to": "shibuya-parco",
-          "mode": "walk",
-          "label": "Walk up Koen-dori",
-          "duration": "10 min"
-        },
-        {
-          "from": "shibuya-parco",
-          "to": "hachiko",
-          "mode": "walk",
-          "label": "Walk down to the station square",
-          "duration": "10 min"
-        },
-        {
-          "from": "hachiko",
-          "to": "shibuya-sky",
-          "mode": "walk",
-          "label": "Walk to Shibuya Scramble Square; a café break before the ticket time",
-          "duration": "10 min"
-        },
-        {
-          "from": "shibuya-sky",
-          "to": "isetan",
-          "mode": "train",
-          "label": "JR Shonan-Shinjuku Line or Yamanote Line, Shibuya about 18:40 → Shinjuku 18:47; walk to Isetan (Shinjuku-sanchome) 12 min",
+          "label": "JR Sobu Line (local), Kinshicho about 15:25 → Akihabara 15:32; walk 8 min",
           "duration": "25 min"
         },
         {
-          "from": "isetan",
-          "to": "tmg",
-          "mode": "train",
-          "label": "Marunouchi Line, Shinjuku-sanchome about 19:52 → Nishi-Shinjuku 19:56 (eat the food at the hotel later); walk 8 min",
-          "duration": "15 min"
+          "from": "super-potato",
+          "to": "athome-cafe",
+          "mode": "walk",
+          "label": "Next door",
+          "duration": "2 min"
         },
         {
-          "from": "tmg",
-          "to": "golden-gai",
+          "from": "athome-cafe",
+          "to": "mitsukoshi-nihonbashi",
           "mode": "train",
-          "label": "Walk to Tochomae; Toei Oedo Line, Tochomae about 20:40 → Higashi-Shinjuku 20:45; walk 8 min",
+          "label": "Walk to Suehirocho (5 min); Ginza Line, Suehirocho about 17:55 → Mitsukoshimae 18:00",
           "duration": "20 min"
         },
         {
-          "from": "golden-gai",
-          "to": "hotel-super-shinjuku",
-          "mode": "walk",
-          "label": "Walk",
-          "duration": "6 min"
+          "from": "mitsukoshi-nihonbashi",
+          "to": "mystays-kiyosumi",
+          "mode": "train",
+          "label": "Hanzomon Line, Mitsukoshimae about 19:15 → Kiyosumi-shirakawa 19:22; walk 5 min",
+          "duration": "15 min"
         }
       ],
-      "sleep": "hotel-super-shinjuku",
-      "sleepNote": "Night 2 of 4.",
+      "sleep": "mystays-kiyosumi",
+      "sleepNote": "Night 2 of 4 in Kiyosumi-shirakawa.",
       "notes": [
-        "A light day for jet lag: short walks, lots of indoor places.",
+        "A light day for jet lag: short walks and short train rides, all within 25 min of the hotel.",
+        "Near the hotel you had marked Asakusa, Skytree, sumo, teamLab and Tsukiji \"not interested\", so they are not in this day.",
+        "Harajuku, the Shibuya Nintendo and Pokémon shops, the City Hall view and Golden Gai are out; Shibuya Sky and Hachiko move to day 3.",
         "Tax-free: from Nov 2026 you pay the tax in the shop and get it back at the airport customs desk."
       ],
-      "cost": "≈ ¥9,000 per person (trains ¥600, lunch, Shibuya Sky sunset ticket ≈ ¥3,000, Isetan dinner, one drink + cover)"
+      "cost": "≈ ¥9,000 per person (trains ¥600, garden ¥150, museum ¥400, lunch, maid café ≈ ¥2,500, food hall dinner); suitcase ≈ ¥5,000–15,000"
     },
     {
       "n": 3,
@@ -2833,20 +3072,21 @@
       "region": "tokyo",
       "short": "Anime day",
       "cover": "nakano",
-      "title": "Anime day: Your Name stairs, Akihabara, Ikebukuro, Nakano, a live show in Shimokitazawa",
+      "title": "Anime day: Your Name stairs, Akihabara, Ikebukuro, Shibuya Sky at sunset, a live show in Shimokitazawa, Omoide Yokocho",
       "titleJa": "須賀神社 → 秋葉原 → 池袋 → 中野 → 下北沢SHELTER",
       "romaji": "Suga Jinja → Akihabara → Ikebukuro → Nakano → Shimokitazawa",
-      "summary": "The Your Name stairs, then a full anime-goods day with a maid café lunch in Akihabara, Ikebukuro and Nakano. You end at a real live show in Shimokitazawa after a cheap Chinese diner dinner.",
+      "summary": "The Your Name stairs, a maid café lunch in Akihabara and the anime shops of Ikebukuro. Hachiko and Shibuya Sky at sunset, a cheap Chinese diner dinner and a real live show in Shimokitazawa, then late yakitori in Omoide Yokocho.",
       "temp": "2 – 10 °C",
       "alerts": [
         "Buy the SHELTER ticket online when the January list is out (loft-prj.co.jp, in December); note the OPEN time.",
-        "Book the Maidreamin table on the official site."
+        "Book the Maidreamin table on the official site.",
+        "Shibuya Sky: buy the web ticket for about 16:00 (sunset about 16:55); sales open 4 weeks ahead."
       ],
       "stops": [
         {
-          "place": "hotel-super-shinjuku",
+          "place": "mystays-kiyosumi",
           "time": "10:15",
-          "note": "Breakfast: coffee and onigiri from the konbini, or a café (the hotel buffet ends at 09:00; eat it by 09:00 if you are up)."
+          "note": "Breakfast: konbini or a café (the hotel has no breakfast)."
         },
         {
           "place": "suga",
@@ -2866,36 +3106,46 @@
         {
           "place": "ikebukuro",
           "time": "14:20",
-          "note": "Animate main store, Surugaya, K-BOOKS, Lashinbang (used goods), 55 min."
+          "note": "Animate main store, Surugaya, K-BOOKS, Lashinbang (used goods), 1 h."
         },
         {
-          "place": "nakano",
-          "time": "15:40",
-          "note": "Mandarake and used goods, 1 h 10."
+          "place": "hachiko",
+          "time": "15:45",
+          "note": "Girls Band Cry ep 3 meeting place, the Scramble crossing, 15 min (Aoki's pick)."
+        },
+        {
+          "place": "shibuya-sky",
+          "time": "16:05",
+          "note": "Rooftop at sunset (about 16:55) and the city lights, 1 h 10 (Aoki's pick)."
         },
         {
           "place": "shimokita",
-          "time": "17:20",
+          "time": "17:35",
           "note": "Bocchi places in the dark streets, 15 min."
         },
         {
           "place": "mintei-shimokita",
-          "time": "17:35",
-          "note": "Dinner: pink fried rice or ramen + fried rice set, 40 min."
+          "time": "17:50",
+          "note": "Dinner: pink fried rice or ramen + fried rice set, 35 min."
         },
         {
           "place": "shelter",
           "time": "18:30",
           "note": "Real live show, standing. Recent shows: OPEN 18:15–19:00, START 18:45–19:30."
+        },
+        {
+          "place": "kappetei-omoide",
+          "time": "21:50",
+          "note": "Late yakitori and a beer, 45 min, last order before 23:00 (Aoki's pick)."
         }
       ],
       "legs": [
         {
-          "from": "hotel-super-shinjuku",
+          "from": "mystays-kiyosumi",
           "to": "suga",
           "mode": "train",
-          "label": "Walk to Shinjuku-sanchome (10 min); Tokyo Metro Marunouchi Line, Shinjuku-sanchome about 11:06 → Yotsuya-sanchome 11:09; walk 8 min",
-          "duration": "25 min"
+          "label": "Walk to Kiyosumi-shirakawa (5 min); Hanzomon Line → Otemachi; Marunouchi Line, Otemachi about 10:55 → Yotsuya-sanchome 11:05; walk 8 min",
+          "duration": "35 min"
         },
         {
           "from": "suga",
@@ -2920,17 +3170,24 @@
         },
         {
           "from": "ikebukuro",
-          "to": "nakano",
+          "to": "hachiko",
           "mode": "train",
-          "label": "JR Saikyo Line, Ikebukuro about 15:20 → Shinjuku 15:26; JR Chuo Line Special Rapid, Shinjuku 15:30 → Nakano 15:35 (north exit)",
+          "label": "JR Saikyo Line, Ikebukuro about 15:25 → Shibuya 15:36; walk to Hachiko 3 min",
           "duration": "20 min"
         },
         {
-          "from": "nakano",
+          "from": "hachiko",
+          "to": "shibuya-sky",
+          "mode": "walk",
+          "label": "Walk to Shibuya Scramble Square",
+          "duration": "5 min"
+        },
+        {
+          "from": "shibuya-sky",
           "to": "shimokita",
           "mode": "train",
-          "label": "JR Chuo Line Rapid, Nakano about 17:00 → Shinjuku 17:05; Odakyu Line Rapid Express, Shinjuku 17:10 → Shimokitazawa 17:18",
-          "duration": "20 min"
+          "label": "Keio Inokashira Line, Shibuya about 17:20 → Shimokitazawa 17:27",
+          "duration": "15 min"
         },
         {
           "from": "shimokita",
@@ -2948,20 +3205,28 @@
         },
         {
           "from": "shelter",
-          "to": "hotel-super-shinjuku",
+          "to": "kappetei-omoide",
           "mode": "train",
-          "label": "Odakyu Line Rapid Express, Shimokitazawa 21:30 → Shinjuku 21:38 (every 10 min); walk 12 min",
-          "duration": "25 min"
+          "label": "Odakyu Line Rapid Express, Shimokitazawa about 21:30 → Shinjuku 21:38 (every 10 min); walk west under the JR tracks 8 min",
+          "duration": "20 min"
+        },
+        {
+          "from": "kappetei-omoide",
+          "to": "mystays-kiyosumi",
+          "mode": "train",
+          "label": "Walk to Shinjuku-nishiguchi (5 min); Toei Oedo Line, Shinjuku-nishiguchi about 22:45 → Kiyosumi-shirakawa 23:15 (direct); walk 5 min",
+          "duration": "40 min"
         }
       ],
-      "sleep": "hotel-super-shinjuku",
+      "sleep": "mystays-kiyosumi",
       "sleepNote": "Night 3 of 4.",
       "notes": [
-        "Nakano small shops open at about 12:00 and close early: go before 17:30.",
         "Tax-free: Animate from ¥5,000 before tax; keep the passport with you. From Nov 2026 you pay the tax in the shop and get it back at the airport customs desk.",
-        "Pegasis puts the goods in the new suitcase tonight: tomorrow morning it goes to Osaka."
+        "Pegasis puts the goods in the new suitcase tonight: tomorrow morning it goes to Osaka.",
+        "Nakano Broadway is out: it is the shop furthest from the hotel.",
+        "Golden Gai is 5 min from Omoide Yokocho, if you still want one drink."
       ],
-      "cost": "≈ ¥11,000 per person (trains, maid café lunch, SHELTER ticket + drink, dinner ¥1,500); goods extra"
+      "cost": "≈ ¥15,000 per person (trains, maid café lunch, Shibuya Sky ≈ ¥3,000, SHELTER ticket + drink, dinner ¥1,500, yakitori); goods extra"
     },
     {
       "n": 4,
@@ -2978,13 +3243,14 @@
       "alerts": [
         "Pegasis: licence + IDP + passport with the landing stamp for the car at 17:45 (studless tyres confirmed in writing when you booked).",
         "Daikoku: police now close it on some weekdays too. At 19:00 check X and the Shutoko closure site; if closed, drive straight to Tatsumi PA.",
-        "Before you leave: hand both suitcases to the hotel front for Yamato TA-Q-BIN to a Yamato office near Nippombashi, \"営業所止め\" (hold for pickup), for pickup on Sat Jan 23. The Osaka apartment has no front desk."
+        "Before you leave: hand both suitcases to the hotel front for Yamato TA-Q-BIN to a Yamato office near Nippombashi, \"営業所止め\" (hold for pickup), for pickup on Sat Jan 23. The Osaka apartment has no front desk.",
+        "Parking tonight: the hotel has 2 spaces (¥1,800), reserve by phone in advance (03-5624-2641)."
       ],
       "stops": [
         {
-          "place": "hotel-super-shinjuku",
+          "place": "mystays-kiyosumi",
           "time": "10:00",
-          "note": "Breakfast: coffee and onigiri from the konbini, or a café (the hotel buffet ends at 09:00; eat it by 09:00 if you are up). Hand both suitcases to the front for Yamato to the Nippombashi office (hold for pickup)."
+          "note": "Breakfast: konbini or a café (the hotel has no breakfast). Hand both suitcases to the front for Yamato to the Nippombashi office (hold for pickup)."
         },
         {
           "place": "nissan-crossing",
@@ -3039,10 +3305,10 @@
       ],
       "legs": [
         {
-          "from": "hotel-super-shinjuku",
+          "from": "mystays-kiyosumi",
           "to": "nissan-crossing",
           "mode": "train",
-          "label": "Walk to Shinjuku-sanchome (10 min); Tokyo Metro Marunouchi Line, Shinjuku-sanchome about 11:05 → Ginza 11:22 (exit A4)",
+          "label": "Walk to Kiyosumi-shirakawa (5 min); Hanzomon Line → Otemachi; Marunouchi Line, Otemachi about 11:12 → Ginza 11:17 (exit A4)",
           "duration": "25 min"
         },
         {
@@ -3110,13 +3376,13 @@
         },
         {
           "from": "tatsumi",
-          "to": "hotel-super-shinjuku",
+          "to": "mystays-kiyosumi",
           "mode": "drive",
-          "label": "Drive, C1 → Route 4 to Shinjuku; coin car park near the hotel",
-          "duration": "30 min"
+          "label": "Drive, Shuto Route 9 → Kiba exit → Kiyosumi-dori north; hotel parking (reserved by phone) or Mitsui Repark 120 m away",
+          "duration": "15 min"
         }
       ],
-      "sleep": "hotel-super-shinjuku",
+      "sleep": "mystays-kiyosumi",
       "sleepNote": "Night 4 of 4.",
       "notes": [
         "Pegasis drives Daikoku himself, as he wanted: no guided tour.",
@@ -3139,15 +3405,15 @@
       "summary": "A late start and a coast-to-Fuji drive: Enoshima for Aoki, the Turnpike and the passes for Pegasis, the outlets and the race-car museum. A BBQ dinner at the Fuji-view villa.",
       "temp": "−4 – 8 °C",
       "alerts": [
-        "Leave Shinjuku at 09:30.",
+        "Leave the hotel at 09:15 (morning traffic).",
         "Studless tyres: Turnpike, Otome and Kagosaka Pass can be icy.",
         "Phone Hanz (0555-72-8282) when you book: tell them you arrive about 17:45 (some sites say last check-in 17:00)."
       ],
       "stops": [
         {
-          "place": "hotel-super-shinjuku",
+          "place": "mystays-kiyosumi",
           "time": "08:30",
-          "note": "Breakfast: hotel buffet, 30 min."
+          "note": "Breakfast: Blue Bottle (opens 8:00) or a konbini, 30 min."
         },
         {
           "place": "enoshima",
@@ -3192,11 +3458,11 @@
       ],
       "legs": [
         {
-          "from": "hotel-super-shinjuku",
+          "from": "mystays-kiyosumi",
           "to": "enoshima",
           "mode": "drive",
-          "label": "Drive, Shuto Route 3 → Tomei → Route 467 to a coin car park near Enoden Enoshima Station (leave 09:30)",
-          "duration": "1 h 30"
+          "label": "Drive, Shuto Bayshore Route (Wangan) → Yokohama → Route 467 to a coin car park near Enoden Enoshima Station (leave 09:15)",
+          "duration": "1 h 45"
         },
         {
           "from": "enoshima",

@@ -58,7 +58,7 @@ export default function DayBoard({ day, onPick, onSelect }: Props) {
           <i slot="media" className="f7-icons">thermometer_snowflake</i>
         </ListItem>
         {sleep ? (
-          <ListItem link="#" onClick={() => onSelect(sleep.id)} title={sleep.en} header="Sleep" footer={morning ? `Day ${next!.n} starts ${morning.time ?? 'n/a'}${morningMeal ? `, ${morningMeal.toLowerCase()}` : ''}${morningPlace && morningPlace.id !== day.sleep ? ` · ${morningPlace.en}` : ' at the hotel'}` : undefined}>
+          <ListItem link="#" onClick={() => onSelect(sleep.id)} title={sleep.en} header="Sleep" footer={morning ? `Day ${next!.n} starts ${morning.time ?? 'n/a'}${morningPlace && morningPlace.id !== day.sleep ? ` · ${morningPlace.en}` : ' at the hotel'}${morningMeal ? ` (${morningMeal.toLowerCase()})` : ''}` : undefined}>
             <i slot="media" className="f7-icons">moon_fill</i>
           </ListItem>
         ) : (

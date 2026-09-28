@@ -15,8 +15,8 @@ The desktop site shows this list (read only). Change it here.
   book by mid-October 2026: ¥12,540–13,200 per room on Rakuten on Sep 27, 2026 (4 left).
 - [ ] **Hanz Outdoor Resort Kawaguchiko, Fri Jan 22, Villa C (twin), half board (BBQ dinner + breakfast)**  
   ¥50,800 on Trip.com on Sep 28, 2026, free cancel until Jan 6 (the ¥43,159 option is a tent with one double bed). Only 2 villas were left on Sep 25. When you book, tell them you arrive about 17:45 (some sites say last check-in 17:00).
-- [ ] **Super Hotel Shinjuku Kabukicho, twin, Jan 18–22 (4 nights, breakfast included)**  
-  book by mid-October 2026 on the official site (member price): about ¥66,100 for 4 nights on Sep 26.
+- [ ] **HOTEL MYSTAYS Kiyosumi Shirakawa, Standard Twin, Jan 18–22 (4 nights, room only)**  
+  ¥86,960 (best rate) or ¥78,320 (early-bird, no refund from 27 days before) on Rakuten on Sep 28, 2026. Then phone 03-5624-2641: reserve the parking space for the night of Jan 21 (2 spaces, ¥1,800), and say you arrive about 21:05 on Jan 18 (front desk closes 22:00).
 - [ ] **Hotel Route-Inn Sapporo Chuo, twin, Sun Jan 31 (1 night, breakfast included)**  
   book by mid-October 2026 on Trip.com: ¥14,156 per room on Sep 28, 2026 (Rakuten ¥16,500).
 - [ ] **Flights: Aoki changes CA919/CA920 to Jan 18 and Feb 1 (read 退改规则 in the app first); Pegasis books WestJet Toronto ⇄ Narita (in Jan 18 16:30, out WS81 Feb 1 18:30, Econo fare with 1 bag); both: Peach MM576 New Chitose → Narita, Feb 1 12:00, with checked bags**  
@@ -31,8 +31,8 @@ The desktop site shows this list (read only). Change it here.
   buy on Dec 1, 2026 at 00:00 JST, when the January times come out: the kart runs only about 12:00–13:15.
 - [ ] **Pegasis: International Driving Permit (1949 Geneva type) from CAA**  
   get it by Dec 15, 2026, because both car rentals and the drift course need it.
-- [ ] **SHELTER live ticket for Wed Jan 20; Shibuya Sky web ticket for Tue Jan 19 about 16:00 (sunset)**  
-  SHELTER: buy when the January list comes out (December 2026). Shibuya Sky: sales open 4 weeks ahead (about Dec 22, 2026); sunset slots sell out first.
+- [ ] **SHELTER live ticket for Wed Jan 20; Shibuya Sky web ticket for Wed Jan 20 about 16:00 (sunset)**  
+  SHELTER: buy when the January list comes out (December 2026). Shibuya Sky: sales open 4 weeks ahead (about Dec 23, 2026); sunset slots sell out first.
 - [ ] **Matsusaka beef yakiniku "M" Hozenji Yokocho, Tue Jan 26, 18:30, 2 people**  
   book on TableCheck when January opens (usually 1–2 months ahead). Check that it is open on Tuesdays.
 - [ ] **Ghibli Park, Mon Jan 25, 2 people, O-sanpo Day Pass Premium (¥7,300 each)**  
@@ -40,4 +40,4 @@ The desktop site shows this list (read only). Change it here.
 - [ ] **Shinkansen seats: Kodama Mishima → Shin-Osaka (Sat Jan 23, about 11:54), Nozomi Nagoya → Shin-Osaka (Mon Jan 25, about 16:50)**  
   reserve on smartEX from 1 month ahead (Dec 23 and 25, 2026); unreserved seats are also possible.
 - [ ] **Suitcases by Yamato: Tokyo → Osaka on Jan 21, Osaka → Nara on Jan 26**  
-  Jan 21: the Super Hotel Shinjuku front sends both to a Yamato office near Nippombashi, "営業所止め" (hold for pickup), for Sat Jan 23; pick the office on the Yamato site before the trip and check its hours (you collect about 15:15 with your passport). Jan 26 evening: send both from a 7-Eleven or FamilyMart to Edosan for Jan 27, only after Edosan says yes.
+  Jan 21: the MYSTAYS Kiyosumi Shirakawa front desk sends both to a Yamato office near Nippombashi, "営業所止め" (hold for pickup), for Sat Jan 23; pick the office on the Yamato site before the trip and check its hours (you collect about 15:15 with your passport). Jan 26 evening: send both from a 7-Eleven or FamilyMart to Edosan for Jan 27, only after Edosan says yes.
