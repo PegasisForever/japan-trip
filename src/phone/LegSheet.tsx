@@ -39,7 +39,11 @@ export default function LegSheet() {
         if (first.day.n !== getPhone().mapDay) setPhone({ mapDay: first.day.n, mapPlace: null })
         setPhone({ focusLeg: { key, t: Date.now() } })
       }}
-      onSheetClosed={() => setPhone({ leg: null, hot: null, focusLeg: null })}
+      // Closed: the map goes back to the picked place, or to the whole day
+      onSheetClosed={() => {
+        const s = getPhone()
+        setPhone({ leg: null, hot: null, focusLeg: null, ...(s.mapPlace ? { reselect: s.reselect + 1 } : { refit: s.refit + 1 }) })
+      }}
       // Swipe down anywhere on the sheet to close it
       swipeToClose
       // No dark layer: the highlighted route must stay visible. A tap on the map closes the sheet.

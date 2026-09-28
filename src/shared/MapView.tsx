@@ -36,6 +36,8 @@ interface Props {
   placeOffset: () => [number, number]
   /** Change it to frame the whole day (or trip) again */
   refit?: number
+  /** Changed to fly to the selected place again */
+  reselect?: number
   /** Desktop: a preview card over a pin under the mouse, and the zoom buttons */
   hoverTips?: boolean
 }
@@ -135,7 +137,7 @@ export default function MapView(props: Props) {
 }
 
 function MapInner(props: Props) {
-  const { days, places, routes, day, hovered, selected, hotLeg, focusLeg, lit, refit = 0, hoverTips = false } = props
+  const { days, places, routes, day, hovered, selected, hotLeg, focusLeg, lit, refit = 0, reselect = 0, hoverTips = false } = props
   const box = useRef<HTMLDivElement>(null)
   const map = useRef<maplibregl.Map | null>(null)
   const markers = useRef<Map<string, { m: maplibregl.Marker; el: HTMLElement }>>(new Map())
@@ -442,7 +444,7 @@ function MapInner(props: Props) {
       duration: flyTime(m, [p.lon, p.lat]),
       essential: true,
     })
-  }, [selected, places])
+  }, [selected, places, reselect])
 
   return <div ref={box} className="map" />
 }

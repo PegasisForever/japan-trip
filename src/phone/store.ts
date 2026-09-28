@@ -16,9 +16,11 @@ export interface PhoneState {
   picker: boolean
   /** Changed to frame the whole day again */
   refit: number
+  /** Changed to fly to the picked place again */
+  reselect: number
 }
 
-let state: PhoneState = { mapDay: 1, mapPlace: null, focusLeg: null, hot: null, leg: null, picker: false, refit: 0 }
+let state: PhoneState = { mapDay: 1, mapPlace: null, focusLeg: null, hot: null, leg: null, picker: false, refit: 0, reselect: 0 }
 const subs = new Set<() => void>()
 
 export function getPhone() {

@@ -91,7 +91,7 @@ function middleIndex(el: HTMLElement) {
  * Swipe the day title to change the day; swipe the cards at the bottom to go from place to place.
  */
 export default function MapPage({ f7router }: { f7router: Router.Router }) {
-  const { mapDay, mapPlace, focusLeg, refit, hot } = usePhone()
+  const { mapDay, mapPlace, focusLeg, refit, reselect, hot } = usePhone()
   const day = days.find((d) => d.n === mapDay) ?? days[0]
   const cards = useMemo(() => cardsOf(day), [day])
   const deck = useRef<HTMLDivElement>(null)
@@ -186,6 +186,7 @@ export default function MapPage({ f7router }: { f7router: Router.Router }) {
         focusLeg={focusLeg}
         lit={null}
         refit={refit}
+        reselect={reselect}
         onSelect={(id) => setPhone({ mapPlace: id, focusLeg: null })}
         onPickDay={(n) => showDay(n)}
         onLeg={(key) => setPhone({ leg: key })}
