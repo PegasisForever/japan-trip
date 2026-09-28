@@ -1,6 +1,6 @@
 """Builds src/data/planRoutes.json for src/data/plan.json:
 roads (OSRM) for drive/bus/walk, OpenStreetMap tracks for train and Shinkansen. Flights and ropeways stay straight/curved."""
-import json, glob, os, sys, hashlib, time, urllib.request
+import json, glob, os, sys, hashlib, time, urllib.request, math
 from anyrail import route as rail_route
 HERE=os.path.dirname(os.path.abspath(__file__))
 UA={'User-Agent':'YukimichiTripPlanner/1.0 (https://de75-173-32-75-236.ngrok-free.app; personal trip planner) python-urllib'}
@@ -31,7 +31,19 @@ for path in [f'{HERE}/../src/data/plan.json']:
             m=leg['mode']; line=None
             if m in ('drive','bus','walk'): line=osrm(pts,'foot' if m=='walk' else 'car')
             elif m=='shinkansen':
-                try: line=rail_route(pts,shinkansen=True)
+                # "stations": [board, alight] as [lon, lat]. The Shinkansen runs between them; the local trains or
+                # subway cover the rest, so the line reaches the place instead of jumping straight from the station.
+                st=leg.get('stations')
+                try:
+                    if st:
+                        a0,b0=tuple(st[0]),tuple(st[1])
+                        mid=rail_route([a0]+[tuple(v) for v in leg.get('via',[])]+[b0],shinkansen=True)
+                        near=lambda p,q: math.hypot((p[0]-q[0])*math.cos(math.radians(p[1])),p[1]-q[1])<0.008
+                        head=[pts[0]] if near(pts[0],a0) else (rail_route([pts[0],a0],pad=0.03) or [pts[0]])
+                        tail=[pts[-1]] if near(pts[-1],b0) else (rail_route([b0,pts[-1]],pad=0.03) or [pts[-1]])
+                        line=list(head)+list(mid or [a0,b0])+list(tail) if mid else None
+                    else:
+                        line=rail_route(pts,shinkansen=True)
                 except Exception as e: print('  rail error',e)
             elif m=='train':
                 try: line=rail_route(pts)

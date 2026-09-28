@@ -61,6 +61,8 @@ export interface Leg {
   who?: 'Pegasis' | 'Aoki'
   /** Points the line must pass through, [lon, lat] (for example a transfer station) */
   via?: [number, number][]
+  /** Shinkansen: the stations where you board and get off; local trains cover the rest */
+  stations?: [[number, number], [number, number]]
 }
 
 export type Region = 'tokyo' | 'fuji' | 'chubu' | 'kansai' | 'tohoku' | 'hokkaido'

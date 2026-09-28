@@ -3339,7 +3339,17 @@
           "to": "kuromon-apt",
           "mode": "shinkansen",
           "label": "Tokaido Shinkansen Kodama, Mishima about 11:54 → Shin-Osaka about 14:51 (direct, reserved seats); Midosuji Line, Shin-Osaka about 14:57 → Namba 15:12; Sennichimae Line, Namba → Nippombashi (2 min); walk to the Yamato office for the suitcases, then to the apartment (about 15 min)",
-          "duration": "3 h 30"
+          "duration": "3 h 30",
+          "stations": [
+            [
+              138.91165,
+              35.12637
+            ],
+            [
+              135.50034,
+              34.73349
+            ]
+          ]
         },
         {
           "from": "kuromon-apt",
@@ -3548,7 +3558,17 @@
           "to": "kuromon-apt",
           "mode": "shinkansen",
           "label": "Linimo to Fujigaoka and Higashiyama Line to Nagoya (about 50 min, leave the park 15:45); Tokaido Shinkansen Nozomi, Nagoya about 16:50 → Shin-Osaka 17:40 (reserved seats); Midosuji Line, Shin-Osaka → Namba (15 min); Sennichimae Line, Namba → Nippombashi (2 min); walk 8 min",
-          "duration": "2 h 20"
+          "duration": "2 h 20",
+          "stations": [
+            [
+              136.88154,
+              35.17088
+            ],
+            [
+              135.50034,
+              34.73349
+            ]
+          ]
         },
         {
           "from": "kuromon-apt",
