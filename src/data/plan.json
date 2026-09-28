@@ -3394,13 +3394,13 @@
       "title": "Suzuka F1 track kart, Toyota museum, Osu and miso katsu, a night in Nagoya",
       "titleJa": "鈴鹿サーキット → トヨタ産業技術記念館 → 大須 → 矢場とん",
       "romaji": "Suzuka Sākitto → Toyota Sangyō Gijutsu Kinenkan → Ōsu → Yabaton",
-      "summary": "The EV kart on the Suzuka F1 track at midday and the Toyota museum in the afternoon. No train back to Osaka tonight: a small Nagoya hotel with a hot-spring bath, the Osu shopping streets and miso katsu at the main shop.",
+      "summary": "Most of the day at Suzuka Circuit park: the EV kart on the F1 track, the motorbike coasters, the Honda F1 gallery and the ferris wheel over the track. A short hour at the Toyota museum before it closes, then a small Nagoya hotel with a hot-spring bath, the Osu shopping streets and miso katsu at the main shop.",
       "temp": "1 – 9 °C",
       "alerts": [
         "Leave the hotel at 09:15: the kart runs only about 12:00–13:15.",
         "Leave both suitcases in the apartment (it is yours until Jan 27); take one small bag each.",
         "Buy Suzuka entry and the EV kart slot on Asoview on Dec 1, 2026 (kart runs only about 12:00–13:15).",
-        "Toyota museum last entry 16:30."
+        "Leave Suzuka by 14:15 (taxi): the Toyota museum has its last entry at 16:30 and closes at 17:00."
       ],
       "stops": [
         {
@@ -3416,26 +3416,26 @@
         {
           "place": "suzuka",
           "time": "12:20",
-          "note": "EV kart on the East Course at about 12:30 (Pegasis's pick), then the grandstand and pit side; leave 13:30."
+          "note": "EV kart on the East Course at about 12:30 (Pegasis's pick). Then GP Racers (motorbike coaster) and Duel GP (¥1,000 each), the Honda RACING Gallery (free) and the Circuit Wheel over the track (¥800). Taxi at 14:15 from the information desk."
         },
         {
           "place": "toyota-museum",
-          "time": "14:55",
-          "note": "Looms to cars, robot demos, 1 h 45 (Aoki's pick). Last entry 16:30."
+          "time": "15:55",
+          "note": "Looms to cars, robot demos, 1 h: go straight to the car hall (Aoki's pick). Last entry 16:30, closes 17:00."
         },
         {
           "place": "super-hotel-nagoya",
-          "time": "17:10",
+          "time": "17:30",
           "note": "Check in and drop the small bags, 15 min."
         },
         {
           "place": "osu",
-          "time": "17:50",
-          "note": "Anime goods, figures and retro games in the covered streets, 1 h 15 (from your ideas list)."
+          "time": "18:10",
+          "note": "Anime goods, figures and retro games in the covered streets, 1 h (from your ideas list); shops close about 19:00–20:00."
         },
         {
           "place": "yabaton-yabacho",
-          "time": "19:15",
+          "time": "19:25",
           "note": "Dinner: miso katsu at the main shop, 45 min."
         }
       ],
@@ -3465,14 +3465,14 @@
           "from": "suzuka",
           "to": "toyota-museum",
           "mode": "train",
-          "label": "Taxi to Shiroko Station (ask the park information desk to call one, 13:30); Kintetsu Limited Express Ise-Shima Liner, Shiroko 13:56 → Kintetsu-Nagoya 14:37; Meitetsu Nagoya Line, Meitetsu-Nagoya 14:48 → Sako 14:50; walk 3 min",
-          "duration": "1 h 25"
+          "label": "Taxi to Shiroko Station (ask the park information desk to call one, 14:15); Kintetsu Limited Express, Shiroko about 14:55 → Kintetsu-Nagoya about 15:35; Meitetsu Nagoya Line, Meitetsu-Nagoya about 15:45 → Sako 15:47; walk 3 min (check the times on Jorudan)",
+          "duration": "1 h 40"
         },
         {
           "from": "toyota-museum",
           "to": "super-hotel-nagoya",
           "mode": "train",
-          "label": "Meitetsu Nagoya Line, Sako about 16:45 → Meitetsu-Nagoya 16:47; walk through the station to the Taiko-dori (Shinkansen) side and on to the hotel, 15 min",
+          "label": "Meitetsu Nagoya Line, Sako about 17:05 → Meitetsu-Nagoya 17:07; walk through the station to the Taiko-dori (Shinkansen) side and on to the hotel, 15 min",
           "duration": "25 min"
         },
         {
@@ -3503,9 +3503,10 @@
         "Suzuka on Jan 24: 10:00–17:00, entry ¥2,200 (official calendar, checked Sep 26, 2026). The park is closed Jan 26–29.",
         "A Mie Kotsu bus also runs Shiroko → circuit, but its timetable could not be read online: the taxi is sure.",
         "Kart times for January 2027 are published on Dec 1, 2026: confirm then that a slot near 12:30 exists.",
-        "After dinner, tebasaki chicken wings in Sakae (Yamachan or Furaibo) if you are still hungry."
+        "After dinner, tebasaki chicken wings in Sakae (Yamachan or Furaibo) if you are still hungry.",
+        "Suzuka park rides for adults: GP Racers and Duel GP ¥1,000 each, Circuit Wheel ¥800; the ride pass (¥4,800) pays off only at 3+ rides each. Kart Attacker (petrol kart, ¥1,000) needs a time slot booked 2 weeks before."
       ],
-      "cost": "≈ ¥24,000 per person (Kintetsu about ¥3,700, taxis about ¥2,000, Suzuka ¥2,200 + kart share, museum ¥1,000, subway, hotel ≈ ¥6,500, meals)"
+      "cost": "≈ ¥24,000 per person (Kintetsu about ¥3,700, taxis about ¥2,000, Suzuka ¥2,200 + kart share, rides ≈ ¥2,800, museum ¥1,000, subway, hotel ≈ ¥6,500, meals)"
     },
     {
       "n": 8,
