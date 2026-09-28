@@ -7,8 +7,8 @@ The desktop site shows this list (read only). Change it here.
   Rakuten cannot change dates: book Jan 27 first (a room was free on Sep 27, 2026, same price), then cancel Jan 25 (free until 8 days before, Jan 17). Write "no raw fish, cooked food only" in the note. Email them first: may 2 suitcases arrive by Yamato on Jan 27 before check-in? (Trip.com had Edosan at ¥50,080 with a one-time new-user promo; the room has its own toilet, the bath is shared.)
 - [ ] **Toyota Rent a Car, both cars: Kawasaki Shinkawabashi → Mishima Shinkansen-guchi, Jan 21 17:45 – Jan 23 11:40, compact, STUDLESS TYRES + ETC; and New Chitose Poplar → Sapporo-ekimae, 4WD (studless standard), Jan 28 14:10 – Jan 31 14:15**  
   book now (by Sep 30, 2026): Toyota takes bookings 6 months ahead, and Kanagawa has only a few studless-tyre cars. Phone Kawasaki Shinkawabashi (044-211-0100) to get the studless car confirmed in writing; if they have none, ask another Toyota Rent-Lease Yokohama shop near Kawasaki Station.
-- [ ] **STAY RESORT NISEKO (Kutchan): move the booking to Jan 28–31 (3 nights)**  
-  Rakuten cannot change dates: book Jan 28–31 first (a twin was free on Sep 26, same price ¥81,360), then cancel the Jan 29 – Feb 1 booking (free until Jan 14, 2027).
+- [ ] **Niseko container house (Airbnb), Jan 28–31 (3 nights), 2 people**  
+  ¥70,000 on Airbnb on Sep 28, 2026 (airbnb.ca/rooms/992928243334744895). Ask the host first: what heating the unit has, and whether the parking is cleared of snow when you arrive after dark. Your earlier STAY RESORT NISEKO booking (Jan 29 – Feb 1): cancel it (free until Jan 14, 2027).
 - [ ] **11 Kuromon apartment (Airbnb), Osaka, Jan 23–27 (4 nights, one booking), 2 people**  
   book now: ¥40,185 on Airbnb on Sep 28, 2026 (airbnb.ca/rooms/851126866230415015). Read the cancel rules first. No front desk: the suitcases go to a Yamato office and you collect them (see the Yamato item).
 - [ ] **Super Hotel Nagoya Tennen Onsen Shinkansen-guchi, twin with breakfast, Sun Jan 24 (1 night)**  
