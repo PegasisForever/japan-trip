@@ -4,21 +4,21 @@ The checklist of things to book before the trip. Tick a box (`[x]`) when it is b
 The desktop site shows this list (read only). Change it here.
 
 - [ ] **Edosan ryokan, Nara Park: move the booking from Mon Jan 25 to Wed Jan 27, 2 people, "Wakakusa nabe" hot-pot plan (¥61,600 with dinner and breakfast)**  
-  Rakuten cannot change dates: book Jan 27 first (a room was free on Sep 27, 2026, same price), then cancel Jan 25 (free until 8 days before, Jan 17). Write "no raw fish, cooked food only" in the note, and say that you arrive with suitcases at about 14:00.
+  Rakuten cannot change dates: book Jan 27 first (a room was free on Sep 27, 2026, same price), then cancel Jan 25 (free until 8 days before, Jan 17). Write "no raw fish, cooked food only" in the note. Email them first: may 2 suitcases arrive by Yamato on Jan 27 before check-in? (Trip.com had Edosan at ¥50,080 with a one-time new-user promo; the room has its own toilet, the bath is shared.)
 - [ ] **Toyota Rent a Car, both cars: Kawasaki Shinkawabashi → Mishima Shinkansen-guchi, Jan 21 17:45 – Jan 23 11:40, compact, STUDLESS TYRES + ETC; and New Chitose Poplar → Sapporo-ekimae, 4WD (studless standard), Jan 28 14:10 – Jan 31 14:15**  
   book now (by Sep 30, 2026): Toyota takes bookings 6 months ahead, and Kanagawa has only a few studless-tyre cars. Phone Kawasaki Shinkawabashi (044-211-0100) to get the studless car confirmed in writing; if they have none, ask another Toyota Rent-Lease Yokohama shop near Kawasaki Station.
 - [ ] **STAY RESORT NISEKO (Kutchan): move the booking to Jan 28–31 (3 nights)**  
   Rakuten cannot change dates: book Jan 28–31 first (a twin was free on Sep 26, same price ¥81,360), then cancel the Jan 29 – Feb 1 booking (free until Jan 14, 2027).
-- [ ] **Dormy Inn PREMIUM Namba, twin: Sat Jan 23 (1 night) and Jan 25–27 (2 nights)**  
-  book now (by early October 2026) on the official site: the hotel has only 12 twins + 7 compact twins, and Sat Jan 23 is the Nara festival night (¥29,340 for the twin on Sep 27, 2026). Ask them to keep both suitcases on Jan 24 while you sleep in Nagoya.
+- [ ] **11 Kuromon apartment (Airbnb), Osaka, Jan 23–27 (4 nights, one booking), 2 people**  
+  book now: ¥40,185 on Airbnb on Sep 28, 2026 (airbnb.ca/rooms/851126866230415015). Read the cancel rules first. No front desk: the suitcases go to a Yamato office and you collect them (see the Yamato item).
 - [ ] **Super Hotel Nagoya Tennen Onsen Shinkansen-guchi, twin with breakfast, Sun Jan 24 (1 night)**  
   book by mid-October 2026: ¥12,540–13,200 per room on Rakuten on Sep 27, 2026 (4 left).
-- [ ] **Hanz Outdoor Resort villa, Fri Jan 22, half board**  
-  book by Oct 5, 2026, because only 2 villas were left on Sep 25 and it is refundable. When you book, tell them you arrive about 17:45 (some sites say last check-in 17:00).
+- [ ] **Hotel Route-Inn Kawaguchiko, Fri Jan 22, twin Mt Fuji & lake side, dinner + breakfast**  
+  book on Trip.com: ¥27,300 on Sep 28, 2026, free cancel until Jan 20. Tell them you arrive about 17:45.
 - [ ] **Super Hotel Shinjuku Kabukicho, twin, Jan 18–22 (4 nights, breakfast included)**  
   book by mid-October 2026 on the official site (member price): about ¥66,100 for 4 nights on Sep 26.
 - [ ] **Hotel Route-Inn Sapporo Chuo, twin, Sun Jan 31 (1 night, breakfast included)**  
-  book by mid-October 2026: ¥16,500 per room on Rakuten on Sep 26, 2026.
+  book by mid-October 2026 on Trip.com: ¥14,156 per room on Sep 28, 2026 (Rakuten ¥16,500).
 - [ ] **Flights: Aoki changes CA919/CA920 to Jan 18 and Feb 1 (read 退改规则 in the app first); Pegasis books WestJet Toronto ⇄ Narita (in Jan 18 16:30, out WS81 Feb 1 18:30, Econo fare with 1 bag); both: Peach MM576 New Chitose → Narita, Feb 1 12:00, with checked bags**  
   do it now: the cheap seats on the new dates can sell out; fares rise before Chinese New Year.
 - [ ] **JAL Itami 11:45 → New Chitose 13:30, Thu Jan 28, 2 people (20 kg bag each included)**  
@@ -39,3 +39,5 @@ The desktop site shows this list (read only). Change it here.
   buy on Nov 10, 2026 at 14:00 Japan time (Lawson Ticket or Klook, passport names, no refunds); weekday Premium tickets for late January can sell out fast.
 - [ ] **Shinkansen seats: Kodama Mishima → Shin-Osaka (Sat Jan 23, about 11:54), Nozomi Nagoya → Shin-Osaka (Mon Jan 25, about 16:50)**  
   reserve on smartEX from 1 month ahead (Dec 23 and 25, 2026); unreserved seats are also possible.
+- [ ] **Suitcases by Yamato: Tokyo → Osaka on Jan 21, Osaka → Nara on Jan 26**  
+  Jan 21: the Super Hotel Shinjuku front sends both to a Yamato office near Nippombashi, "営業所止め" (hold for pickup), for Sat Jan 23; pick the office on the Yamato site before the trip and check its hours (you collect about 15:15 with your passport). Jan 26 evening: send both from a 7-Eleven or FamilyMart to Edosan for Jan 27, only after Edosan says yes.
