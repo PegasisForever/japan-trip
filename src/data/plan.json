@@ -528,7 +528,7 @@
         },
         {
           "label": "Rent",
-          "value": "Thu Jan 21 17:45 → Sat Jan 23 11:40 at Mishima"
+          "value": "Thu Jan 21 16:45 → Sat Jan 23 11:40 at Mishima"
         },
         {
           "label": "Price (C1 compact, e.g. Yaris/Passo)",
@@ -3238,10 +3238,10 @@
       "title": "Nissan Crossing, Girls Band Cry in Yako and Kawasaki, Yokohama Chinatown, then Daikoku by your own car",
       "titleJa": "銀座 → 矢向 → 川崎 → 横浜中華街 → 大黒PA → 辰巳PA",
       "romaji": "Ginza → Yakō → Kawasaki → Yokohama Chūkagai → Daikoku PA → Tatsumi PA",
-      "summary": "Nissan Crossing in Ginza, then Nina's home streets in Yako and the Girls Band Cry walk in Kawasaki. Pegasis picks up the car at 17:45 and drives you to Yokohama Chinatown for dinner, then Daikoku and Tatsumi at night.",
+      "summary": "Nissan Crossing in Ginza, then Nina's home streets in Yako and the Girls Band Cry walk in Kawasaki in one line: the river steps, Lazona, then coffee at the east exit. Pegasis picks up the car at 16:45 and drives you to Yokohama Chinatown for an early dinner, then Daikoku and Tatsumi at night, back by about 21:30.",
       "temp": "2 – 10 °C",
       "alerts": [
-        "Pegasis: licence + IDP + passport with the landing stamp for the car at 17:45 (studless tyres confirmed in writing when you booked).",
+        "Pegasis: licence + IDP + passport with the landing stamp for the car at 16:45 (studless tyres confirmed in writing when you booked).",
         "Daikoku: police now close it on some weekdays too. At 19:00 check X and the Shutoko closure site; if closed, drive straight to Tatsumi PA.",
         "Before you leave: hand both suitcases to the hotel front for Yamato TA-Q-BIN to a Yamato office near Nippombashi, \"営業所止め\" (hold for pickup), for pickup on Sat Jan 23. The Osaka apartment has no front desk.",
         "Parking tonight: the hotel has 2 spaces (¥1,800), reserve by phone in advance (03-5624-2641)."
@@ -3268,38 +3268,38 @@
           "note": "Lunch: local ramen by Yako Station, 35 min (it closes about 14:00: be there by 13:25)."
         },
         {
-          "place": "gbc-lazona",
-          "time": "14:20",
-          "note": "Buy the GBC stamp book; Rufa Square stage."
+          "place": "gbc-miharashi",
+          "time": "14:15",
+          "note": "The river steps from ep 2, in afternoon sun, 25 min."
         },
         {
-          "place": "gbc-miharashi",
-          "time": "15:05",
-          "note": "The river steps from ep 2, in afternoon sun."
+          "place": "gbc-lazona",
+          "time": "14:55",
+          "note": "Buy the GBC stamp book; Rufa Square stage, 30 min."
         },
         {
           "place": "gbc-marufuku",
-          "time": "16:00",
+          "time": "15:35",
           "note": "Hotcake and coffee (afternoon snack), 45 min; East Exit plaza stamp above."
         },
         {
           "place": "toyota-shinkawabashi",
-          "time": "17:45",
+          "time": "16:45",
           "note": "Pick up the car (studless tyres, ETC). Walk past CLUB CITTA' on the way."
         },
         {
           "place": "hotenkaku",
-          "time": "18:25",
-          "note": "Dinner: pan-fried xiaolongbao, then a short walk through the gates and past Kanteibyo, 1 h (Aoki's pick)."
+          "time": "17:30",
+          "note": "Early dinner: pan-fried xiaolongbao, then a short walk through the gates and past Kanteibyo, 1 h 10 (Aoki's pick)."
         },
         {
           "place": "daikoku",
-          "time": "19:50",
-          "note": "JDM meet; Pegasis drives in (his pick)."
+          "time": "19:05",
+          "note": "JDM meet; Pegasis drives in (his pick), about 1 h 15."
         },
         {
           "place": "tatsumi",
-          "time": "21:30",
+          "time": "20:55",
           "note": "Smaller car meet, Tokyo skyline, 15 min."
         }
       ],
@@ -3327,24 +3327,24 @@
         },
         {
           "from": "fukuwarai-yako",
-          "to": "gbc-lazona",
-          "mode": "train",
-          "label": "JR Nambu Line, Yako about 14:00 → Kawasaki 14:06; walk to Lazona (west exit)",
-          "duration": "15 min"
-        },
-        {
-          "from": "gbc-lazona",
           "to": "gbc-miharashi",
           "mode": "walk",
-          "label": "Walk west to the Tama River",
-          "duration": "15 min"
+          "label": "Walk south-east to the Tama River bank",
+          "duration": "20 min"
         },
         {
           "from": "gbc-miharashi",
+          "to": "gbc-lazona",
+          "mode": "walk",
+          "label": "Walk back east to Lazona (west exit)",
+          "duration": "12 min"
+        },
+        {
+          "from": "gbc-lazona",
           "to": "gbc-marufuku",
           "mode": "walk",
-          "label": "Walk back through the station to the East Exit, Azalea B1F",
-          "duration": "20 min"
+          "label": "Walk through the station to the East Exit, Azalea B1F",
+          "duration": "8 min"
         },
         {
           "from": "gbc-marufuku",
@@ -3364,14 +3364,14 @@
           "from": "hotenkaku",
           "to": "daikoku",
           "mode": "drive",
-          "label": "Drive, Shuto Bayshore Route (Wangan-sen) to Daikoku PA; leave by 19:30",
+          "label": "Drive, Shuto Bayshore Route (Wangan-sen) to Daikoku PA; leave at 18:45",
           "duration": "20 min"
         },
         {
           "from": "daikoku",
           "to": "tatsumi",
           "mode": "drive",
-          "label": "Drive, Bayshore Route north → Route 9 (inbound) to Tatsumi 1st PA",
+          "label": "Drive, Bayshore Route north → Route 9 (inbound) to Tatsumi 1st PA; leave Daikoku about 20:20",
           "duration": "35–40 min"
         },
         {
