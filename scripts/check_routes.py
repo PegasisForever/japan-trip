@@ -84,3 +84,13 @@ for d in plan['days']:
             out(f'{l["mode"]} {l["from"]}→{l["to"]}: plan says {l["duration"]}, map {dist/1000:.1f} km ≈ {real:.0f} min' + (f' via {", ".join(names[:5])}' if l['mode'] == 'drive' else ''))
     prev = d.get('sleep')
 print('\n'.join(issues) or 'no issues')
+
+# Every photo the plan shows must come from our own host (run scripts/local_photos.py to copy new ones)
+gal = json.load(open(f'{HERE}/../src/data/gallery.json'))
+used = set(s['place'] for d in plan['days'] for s in d['stops']) | set(d['sleep'] for d in plan['days'] if d.get('sleep'))
+remote = []
+for pid in sorted(used):
+    p = P[pid]
+    for k in {pid, p.get('ref') or '', (p.get('ref') or '').replace('plan-', '', 1)} - {''}:
+        remote += [f'{pid}: {ph["big"][:60]}' for ph in gal.get(k, []) if ph['big'].startswith('http')]
+print(f'{len(remote)} photos not on our host' + (':\n' + '\n'.join(remote[:10]) if remote else ''))

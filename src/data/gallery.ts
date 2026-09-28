@@ -20,7 +20,8 @@ export function photosFor(id: string, main?: string, credit?: Credit): Photo[] {
   const key = extra[id] ? id : id.replace(/^plan-/, '')
   for (const p of extra[key] ?? []) {
     if (main && (p.mid === main || p.big === main)) continue
-    list.push({ mid: p.mid, big: p.big, credit: { author: p.author, license: p.license, url: p.url } })
+    // Gallery photos are copies on our own host ("g/<file>.jpg"), in the same sizes as the main photos
+    list.push({ mid: photoUrl(p.mid, 1280), big: photoUrl(p.big, 1280), credit: { author: p.author, license: p.license, url: p.url } })
   }
   return list
 }
