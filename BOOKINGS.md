@@ -13,8 +13,8 @@ The desktop site shows this list (read only). Change it here.
   book now: ¥40,185 on Airbnb on Sep 28, 2026 (airbnb.ca/rooms/851126866230415015). Read the cancel rules first. No front desk: the suitcases go to a Yamato office and you collect them (see the Yamato item).
 - [ ] **Super Hotel Nagoya Tennen Onsen Shinkansen-guchi, twin with breakfast, Sun Jan 24 (1 night)**  
   book by mid-October 2026: ¥12,540–13,200 per room on Rakuten on Sep 27, 2026 (4 left).
-- [ ] **Hotel Route-Inn Kawaguchiko, Fri Jan 22, twin Mt Fuji & lake side, dinner + breakfast**  
-  book on Trip.com: ¥27,300 on Sep 28, 2026, free cancel until Jan 20. Tell them you arrive about 17:45.
+- [ ] **Hanz Outdoor Resort Kawaguchiko, Fri Jan 22, Villa C (twin), half board (BBQ dinner + breakfast)**  
+  ¥50,800 on Trip.com on Sep 28, 2026, free cancel until Jan 6 (the ¥43,159 option is a tent with one double bed). Only 2 villas were left on Sep 25. When you book, tell them you arrive about 17:45 (some sites say last check-in 17:00).
 - [ ] **Super Hotel Shinjuku Kabukicho, twin, Jan 18–22 (4 nights, breakfast included)**  
   book by mid-October 2026 on the official site (member price): about ¥66,100 for 4 nights on Sep 26.
 - [ ] **Hotel Route-Inn Sapporo Chuo, twin, Sun Jan 31 (1 night, breakfast included)**  
