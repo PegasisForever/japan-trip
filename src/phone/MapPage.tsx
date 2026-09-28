@@ -11,6 +11,7 @@ import { MODE_ICON } from '../shared/modeIcon'
 import Icon from '../shared/Icon'
 import type { Day, Leg, Place, Stop } from '../data/types'
 import { getPhone, setPhone, showDay, usePhone } from './store'
+import { openSearch } from './SearchSheet'
 
 /** A place card, with the travel from the place before it ("4-1,4-2" for the sheet) */
 type Card = { place: Place; stop: Stop; n: number; legs: Leg[]; legKeys: string; stay: string; arrive: string }
@@ -91,7 +92,7 @@ function middleIndex(el: HTMLElement) {
  * Swipe the day title to change the day; swipe the cards at the bottom to go from place to place.
  */
 export default function MapPage({ f7router }: { f7router: Router.Router }) {
-  const { mapDay, mapPlace, focusLeg, refit, reselect, hot } = usePhone()
+  const { mapDay, mapPlace, focusLeg, refit, reselect, hot, found } = usePhone()
   const day = days.find((d) => d.n === mapDay) ?? days[0]
   const cards = useMemo(() => cardsOf(day), [day])
   const deck = useRef<HTMLDivElement>(null)
@@ -191,7 +192,9 @@ export default function MapPage({ f7router }: { f7router: Router.Router }) {
         onPickDay={(n) => showDay(n)}
         onLeg={(key) => setPhone({ leg: key })}
         frame={frame}
-        placeOffset={() => [0, -50]}
+        // A searched place goes higher: its details sheet covers the lower half
+        placeOffset={() => (getPhone().found ? [0, -Math.round(window.innerHeight * 0.27)] : [0, -50])}
+        found={found}
       />
 
       <div className="map-top">
@@ -214,6 +217,7 @@ export default function MapPage({ f7router }: { f7router: Router.Router }) {
         </div>
         <Link className="map-round" iconF7="list_bullet" href={`/day/${day.n}/`} aria-label="Schedule of the day" />
       </div>
+      <Link className="map-round map-search" iconF7="search" onClick={openSearch} aria-label="Search any place" />
 
       <div className="deck" ref={deck} onScroll={onDeckScroll} key={day.n}>
         <div className="deck-item">

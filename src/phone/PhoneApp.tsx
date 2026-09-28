@@ -4,6 +4,8 @@ import PlacePage from './PlacePage'
 import MapPage from './MapPage'
 import LegSheet from './LegSheet'
 import DayPicker from './DayPicker'
+import SearchSheet from './SearchSheet'
+import FoundSheet from './FoundSheet'
 import { today } from '../data/trip'
 import { setPhone } from './store'
 import './phone.css'
@@ -44,6 +46,8 @@ export default function PhoneApp() {
       />
       <LegSheet />
       <DayPicker />
+      <SearchSheet />
+      <FoundSheet />
     </App>
   )
 }

@@ -1092,3 +1092,43 @@
 .ios .navbar-transparent:not(.navbar-transparent-visible) .navbar-bg {
   opacity: 0;
 }
+
+/* ---------- Search: a round button under the schedule button, a sheet with the field ---------- */
+.map-round.map-search.link {
+  position: absolute;
+  z-index: 5;
+  top: calc(var(--f7-safe-area-top) + 72px);
+  right: 12px;
+  width: 48px;
+  height: 48px;
+}
+.search-sheet {
+  height: 85vh;
+  height: 85dvh;
+  border-radius: 28px 28px 0 0;
+}
+.search-sheet .sheet-modal-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.search-sheet .picker-head {
+  padding-bottom: 4px;
+}
+.search-sheet .page-content {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  height: auto;
+  padding: 8px 16px calc(var(--f7-safe-area-bottom) + 20px);
+}
+.found-sheet .page-content {
+  padding-top: 8px;
+}
+/* The searched place's sheet stays low, so its pin shows above it */
+.found-sheet .page-content {
+  max-height: 60vh;
+}
+.found-sheet .found-img {
+  max-height: 150px;
+}

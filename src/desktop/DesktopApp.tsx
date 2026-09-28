@@ -7,6 +7,10 @@ import TripBoard from './TripBoard'
 import Strip from './Strip'
 import PlaceDetail from './PlaceDetail'
 import MapKey from './MapKey'
+import DesktopSearch from './DesktopSearch'
+import FoundView from '../shared/FoundView'
+import type { Found } from '../shared/search'
+import { Link } from 'framework7-react'
 import { plan } from '../data/plan'
 import './strip.css'
 import './desktop.css'
@@ -45,8 +49,11 @@ export default function DesktopApp() {
   // A place under the mouse in the timeline: its map pin lights up, without the pin's popup card
   const [lit, setLit] = useState<string | null>(null)
   const [focusLeg, setFocusLeg] = useState<{ key: string; t: number } | null>(null)
+  // A searched place, not in the plan
+  const [found, setFound] = useState<Found | null>(null)
   const showLeg = useCallback((key: string) => {
     setSelected(null)
+    setFound(null)
     setFocusLeg({ key, t: Date.now() })
   }, [])
 
@@ -79,7 +86,10 @@ export default function DesktopApp() {
       if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return
       // The full-screen photo view uses the arrow keys itself
       if (document.querySelector('.photo-browser')) return
-      if (e.key === 'Escape') setSelected(null)
+      if (e.key === 'Escape') {
+        setSelected(null)
+        setFound(null)
+      }
       if (e.key === 'ArrowRight') pickDay(Math.min(days.length, (curN ?? 0) + 1))
       if (e.key === 'ArrowLeft') pickDay(curN && curN > 1 ? curN - 1 : null)
     }
@@ -101,14 +111,29 @@ export default function DesktopApp() {
           focusLeg={focusLeg}
           lit={lit}
           onHover={setHovered}
-          onSelect={setSelected}
+          onSelect={(id) => {
+            setFound(null)
+            setSelected(id)
+          }}
           onPickDay={pickDay}
           onLeg={showLeg}
+          found={found}
           frame={frame}
           placeOffset={() => [(440 - 460) / 2, (80 - 220) / 2]}
           hoverTips
         />
         <DayTabs days={days} current={curN} onPick={pickDay} />
+        <DesktopSearch
+          day={day}
+          onFound={(f) => {
+            setSelected(null)
+            setFound(f)
+          }}
+          onPlace={(id) => {
+            setFound(null)
+            setSelected(id)
+          }}
+        />
         <aside className="d-side glass-panel" key={curN ?? 0}>
           {day ? <DayBoard day={day} onPick={pickDay} onSelect={setSelected} /> : <TripBoard onSelect={setSelected} />}
         </aside>
@@ -125,6 +150,14 @@ export default function DesktopApp() {
           onHotLeg={setHotLeg}
           onFocusLeg={showLeg}
         />
+        {found && !selected && (
+          <article className="d-detail glass-panel d-found" aria-label={found.name}>
+            <Link className="d-close" iconF7="xmark" onClick={() => setFound(null)} aria-label="Close details" />
+            <div className="d-detail-scroll">
+              <FoundView key={found.key} found={found} />
+            </div>
+          </article>
+        )}
         {selected && places[selected] && (
           <PlaceDetail key={selected} place={places[selected]} day={day} onClose={() => setSelected(null)} />
         )}

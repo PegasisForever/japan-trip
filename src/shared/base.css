@@ -367,3 +367,185 @@
 .dark .maplibregl-ctrl button .maplibregl-ctrl-icon {
   filter: invert(1);
 }
+
+/* ---------- A searched place (not in the plan) ---------- */
+.pin-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: none;
+}
+.pin-found-name {
+  order: -1;
+  margin-bottom: 4px;
+  max-width: 180px;
+  padding: 3px 8px;
+  border-radius: 8px;
+  background: rgba(20, 22, 26, 0.82);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pin-found-dot {
+  width: 22px;
+  height: 22px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  background: #e5484d;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+  margin-bottom: 4px;
+}
+
+/* ---------- Search field and results (phone sheet and desktop panel) ---------- */
+.search-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 44px;
+  padding: 0 12px;
+  border-radius: 14px;
+  background: rgba(120, 120, 128, 0.16);
+}
+.search-field > .f7-icons {
+  font-size: 18px;
+  opacity: 0.6;
+}
+.search-field input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  font-size: 17px;
+}
+.search-field input::-webkit-search-cancel-button {
+  display: none;
+}
+.search-clear {
+  width: auto;
+  border: 0;
+  background: none;
+  color: inherit;
+  opacity: 0.45;
+  padding: 4px;
+}
+.search-clear .f7-icons {
+  font-size: 18px;
+}
+.search-results {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+}
+.search-results li button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 10px 4px;
+  border: 0;
+  border-bottom: 1px solid rgba(120, 120, 128, 0.2);
+  background: none;
+  color: inherit;
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+}
+.search-results li button:active {
+  opacity: 0.6;
+}
+.search-results b {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+}
+.search-results small {
+  display: block;
+  font-size: 13px;
+  opacity: 0.65;
+}
+.search-ico {
+  flex: none;
+  font-size: 20px;
+  color: #e5484d;
+}
+.search-ico.is-plan {
+  color: var(--f7-theme-color);
+}
+.search-msg {
+  padding: 12px 4px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+.search-credit {
+  margin: 10px 4px 0;
+  font-size: 11px;
+  opacity: 0.5;
+}
+
+/* ---------- A searched place: details ---------- */
+.found-img {
+  display: block;
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+}
+.found .block {
+  margin: 12px 0;
+}
+.found-head h2 {
+  margin: 2px 0 2px;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.found-kind {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0.65;
+}
+.found-alt {
+  margin: 0;
+  font-size: 15px;
+  opacity: 0.8;
+}
+.found-note {
+  font-size: 13px;
+  opacity: 0.6;
+}
+.found-head .found-note {
+  margin: 6px 0 0;
+}
+.found-actions {
+  display: flex;
+  gap: 10px;
+}
+.found-actions .button {
+  flex: 1;
+}
+.found-loading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+.found-hours {
+  display: flex;
+  flex-direction: column;
+  white-space: normal;
+}
+.found-info .item-title {
+  white-space: normal;
+}
+.found-wiki p {
+  margin: 0 0 8px;
+  line-height: 1.5;
+}

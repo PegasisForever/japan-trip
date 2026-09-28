@@ -1,4 +1,5 @@
 import { useSyncExternalStore } from 'react'
+import type { Found } from '../shared/search'
 
 /** What the map shows, and the sheets on top. All pages read and change it. */
 export interface PhoneState {
@@ -18,9 +19,13 @@ export interface PhoneState {
   refit: number
   /** Changed to fly to the picked place again */
   reselect: number
+  /** The search sheet is open */
+  search: boolean
+  /** A searched place (not in the plan) shown on the map, with its details sheet */
+  found: Found | null
 }
 
-let state: PhoneState = { mapDay: 1, mapPlace: null, focusLeg: null, hot: null, leg: null, picker: false, refit: 0, reselect: 0 }
+let state: PhoneState = { mapDay: 1, mapPlace: null, focusLeg: null, hot: null, leg: null, picker: false, refit: 0, reselect: 0, search: false, found: null }
 const subs = new Set<() => void>()
 
 export function getPhone() {

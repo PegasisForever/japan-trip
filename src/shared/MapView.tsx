@@ -40,6 +40,8 @@ interface Props {
   reselect?: number
   /** Desktop: a preview card over a pin under the mouse, and the zoom buttons */
   hoverTips?: boolean
+  /** A searched place, not in the plan: its own pin, and the map flies there */
+  found?: { key: string; name: string; lat: number; lon: number } | null
 }
 
 export type Pad = { top: number; bottom: number; left: number; right: number }
@@ -137,7 +139,7 @@ export default function MapView(props: Props) {
 }
 
 function MapInner(props: Props) {
-  const { days, places, routes, day, hovered, selected, hotLeg, focusLeg, lit, refit = 0, reselect = 0, hoverTips = false } = props
+  const { days, places, routes, day, hovered, selected, hotLeg, focusLeg, lit, refit = 0, reselect = 0, hoverTips = false, found = null } = props
   const box = useRef<HTMLDivElement>(null)
   const map = useRef<maplibregl.Map | null>(null)
   const markers = useRef<Map<string, { m: maplibregl.Marker; el: HTMLElement }>>(new Map())
@@ -445,6 +447,30 @@ function MapInner(props: Props) {
       essential: true,
     })
   }, [selected, places, reselect])
+
+  // A searched place: a red pin, and the map flies to it
+  const foundPin = useRef<maplibregl.Marker | null>(null)
+  useEffect(() => {
+    const m = map.current
+    foundPin.current?.remove()
+    foundPin.current = null
+    if (!m || !found || !ready.current) return
+    const el = document.createElement('div')
+    el.className = 'pin-found'
+    el.setAttribute('aria-label', found.name)
+    el.innerHTML = `<span class="pin-found-dot"></span><span class="pin-found-name"></span>`
+    el.querySelector('.pin-found-name')!.textContent = found.name
+    foundPin.current = new maplibregl.Marker({ element: el, anchor: 'bottom' }).setLngLat([found.lon, found.lat]).addTo(m)
+    m.flyTo({
+      center: [found.lon, found.lat],
+      zoom: Math.min(16, Math.max(m.getZoom(), 15)),
+      pitch: 0,
+      offset: cb.current.placeOffset(),
+      curve: 1.6,
+      duration: flyTime(m, [found.lon, found.lat]),
+      essential: true,
+    })
+  }, [found])
 
   return <div ref={box} className="map" />
 }
