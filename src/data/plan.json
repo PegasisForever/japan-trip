@@ -3053,11 +3053,10 @@
       "title": "A late start: Kinshi Park, a maid café lunch, Radio Kaikan, retro games, Don Quijote, half-price food hall",
       "titleJa": "錦糸公園 → 秋葉原（めいどりーみん・ラジオ会館・スーパーポテト・ドン・キホーテ）→ 日本橋三越",
       "romaji": "Kinshi Kōen → Akihabara → Nihonbashi Mitsukoshi",
-      "summary": "Sleep in after the flight. The Bocchi the Rock! park, then Akihabara: lunch with the stage show at Maidreamin, ten floors of figures at Radio Kaikan, retro games at Super Potato and the suitcase at Don Quijote. A rest at the hotel, then half-price food from the Mitsukoshi food hall.",
+      "summary": "Sleep in after the flight. The Bocchi the Rock! park, then Akihabara: lunch with the stage show at Maidreamin, ten floors of figures at Radio Kaikan, retro games at Super Potato and the suitcase at Don Quijote. Take-away dinner from the Mitsukoshi food hall and an early evening at the hotel.",
       "temp": "2 – 10 °C",
       "alerts": [
-        "Book the Maidreamin table on the official site (about 12:00).",
-        "Food hall closing time is not checked (about 19:00–19:30): see the Nihonbashi Mitsukoshi site before the day."
+        "Book the Maidreamin table on the official site (about 12:00)."
       ],
       "stops": [
         {
@@ -3091,14 +3090,9 @@
           "note": "Pegasis: the suitcase for the way home (empty for now), heat packs, shoe spikes. Aoki: tourist coupon. 40 min."
         },
         {
-          "place": "mystays-kiyosumi",
-          "time": "16:25",
-          "note": "Drop the suitcase and the bags; rest for jet lag."
-        },
-        {
           "place": "mitsukoshi-nihonbashi",
-          "time": "18:15",
-          "note": "Dinner: half-price sushi rolls and bento before the food hall closes (Pegasis's pick); eat at the hotel."
+          "time": "16:15",
+          "note": "Dinner to take away: sushi rolls, bento and cooked dishes from the food hall, 45 min (Pegasis's pick). Early, so fewer half-price labels; eat at the hotel."
         }
       ],
       "legs": [
@@ -3139,30 +3133,23 @@
         },
         {
           "from": "donki-akihabara",
-          "to": "mystays-kiyosumi",
-          "mode": "train",
-          "label": "Walk to Suehirocho (5 min); Ginza Line → Mitsukoshimae; Hanzomon Line → Kiyosumi-shirakawa; walk 5 min (or a taxi with the suitcase, about ¥2,000)",
-          "duration": "30 min"
-        },
-        {
-          "from": "mystays-kiyosumi",
           "to": "mitsukoshi-nihonbashi",
           "mode": "train",
-          "label": "Walk to Kiyosumi-shirakawa (5 min); Hanzomon Line, Kiyosumi-shirakawa about 18:00 → Mitsukoshimae 18:07",
+          "label": "Walk to Suehirocho with the suitcase (5 min); Ginza Line, Suehirocho about 15:57 → Mitsukoshimae 16:02; walk 3 min",
           "duration": "15 min"
         },
         {
           "from": "mitsukoshi-nihonbashi",
           "to": "mystays-kiyosumi",
           "mode": "train",
-          "label": "Hanzomon Line, Mitsukoshimae about 19:15 → Kiyosumi-shirakawa 19:22; walk 5 min",
+          "label": "Hanzomon Line, Mitsukoshimae about 17:00 → Kiyosumi-shirakawa 17:07; walk 5 min",
           "duration": "15 min"
         }
       ],
       "sleep": "mystays-kiyosumi",
       "sleepNote": "Night 2 of 4 in Kiyosumi-shirakawa.",
       "notes": [
-        "A light day for jet lag: a late start and a rest at the hotel in the afternoon.",
+        "A light day for jet lag: a late start and back at the hotel by about 17:15.",
         "Tax-free: from Nov 2026 you pay the tax in the shop and get it back at the airport customs desk."
       ],
       "cost": "≈ ¥7,000 per person (trains ¥600, maid café lunch ≈ ¥2,500, food hall dinner); suitcase ≈ ¥5,000–15,000; goods extra"
