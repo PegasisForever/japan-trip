@@ -1,5 +1,5 @@
 import { Searchbar, f7 } from 'framework7-react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { SearchResults } from '../shared/SearchBox'
 import { days, places } from '../data/trip'
 import { getPhone, setPhone, usePhone } from './store'
@@ -20,6 +20,26 @@ const close = () => f7.searchbar.disable('.map-searchbar')
 export default function MapSearch() {
   const { search } = usePhone()
   const [q, setQ] = useState('')
+
+  // While searching, keep the page still under the keyboard: iOS scrolls the whole page to show the field,
+  // and then the page and the result list both scroll. Follow the visible height and put the page back.
+  useEffect(() => {
+    const vv = window.visualViewport
+    if (!search || !vv) return
+    const fit = () => {
+      document.documentElement.style.setProperty('--vv-height', `${vv.height}px`)
+      if (window.scrollY || document.scrollingElement?.scrollTop) window.scrollTo(0, 0)
+    }
+    fit()
+    vv.addEventListener('resize', fit)
+    vv.addEventListener('scroll', fit)
+    return () => {
+      vv.removeEventListener('resize', fit)
+      vv.removeEventListener('scroll', fit)
+      document.documentElement.style.removeProperty('--vv-height')
+    }
+  }, [search])
+
   return (
     <>
       <div className="map-search-bar">
@@ -44,7 +64,8 @@ export default function MapSearch() {
       {/* Dims the map while searching; a tap closes the search */}
       <div className={`map-search-backdrop${search ? ' is-in' : ''}`} onClick={close} />
       {search && (
-        <div className="map-search-results">
+        // Scrolling the results hides the keyboard, as in Apple Maps: then there is only one thing to scroll
+        <div className="map-search-results" onTouchMove={() => (document.activeElement as HTMLElement | null)?.blur()}>
           <SearchResults
             q={q}
             near={nearOf()}

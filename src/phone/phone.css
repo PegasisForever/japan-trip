@@ -1104,7 +1104,7 @@
 }
 .map-search-bar {
   position: absolute;
-  z-index: 7;
+  z-index: 22;
   top: calc(var(--f7-safe-area-top) + 8px);
   left: 0;
   right: 0;
@@ -1114,7 +1114,19 @@
 .map-search-bar .searchbar {
   --f7-searchbar-expandable-size: 56px;
   --f7-searchbar-height: 56px;
+  /* The field and the close button have the height of the round buttons in the top row */
+  --f7-searchbar-input-height: 56px;
+  --f7-searchbar-input-border-radius: 28px;
   background: none;
+}
+.map-search-bar .searchbar-disable-button {
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  border-radius: 50%;
+}
+.ios .map-search-bar .searchbar-enabled .searchbar-disable-button {
+  margin-left: 8px;
 }
 .map-search-bar .searchbar-inner {
   left: 12px;
@@ -1125,7 +1137,8 @@
 }
 .map-search-backdrop {
   position: absolute;
-  z-index: 6;
+  /* Over the cards at the bottom too */
+  z-index: 20;
   inset: 0;
   background: rgba(0, 0, 0, 0.25);
   opacity: 0;
@@ -1138,17 +1151,20 @@
 }
 .map-search-results {
   position: absolute;
-  z-index: 7;
+  z-index: 21;
   top: calc(var(--f7-safe-area-top) + 76px);
   left: 12px;
   right: 12px;
-  max-height: calc(100% - var(--f7-safe-area-top) - 96px);
+  /* Only as tall as the screen above the keyboard (--vv-height follows the visual viewport), so only this list scrolls */
+  max-height: calc(var(--vv-height, 100dvh) - var(--f7-safe-area-top) - 92px);
   overflow-y: auto;
+  overscroll-behavior: contain;
   border-radius: 24px;
   padding: 4px 14px;
-  backdrop-filter: saturate(180%) blur(20px);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  background-color: var(--f7-glass-bg-color);
+  backdrop-filter: saturate(180%) blur(24px);
+  -webkit-backdrop-filter: saturate(180%) blur(24px);
+  /* Thicker glass than the buttons: the list must stay readable over the map and the cards */
+  background-color: rgba(246, 246, 248, 0.9);
   box-shadow: var(--f7-glass-shadow);
   animation: search-in 0.25s ease-out;
 }
@@ -1156,7 +1172,7 @@
   display: none;
 }
 .dark .map-search-results {
-  background-color: rgba(28, 30, 34, 0.72);
+  background-color: rgba(28, 30, 34, 0.9);
 }
 .map-search-results .search-results li:last-child button {
   border-bottom: 0;

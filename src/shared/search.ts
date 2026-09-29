@@ -74,6 +74,8 @@ export async function searchPlaces(q: string, near: [number, number] | null, sig
     const p = f.properties
     // Signboards, traffic lights, crossings and bus stops carry place names too, but are not places to go to
     if (!p.name || p.osm_key === 'information' || p.osm_key === 'highway') continue
+    // A station has many parts (stop positions, platforms): keep only the station itself
+    if (['stop', 'stop_position', 'platform', 'subway_entrance'].includes(p.osm_value ?? '')) continue
     const key = `${p.osm_type}${p.osm_id}`
     if (seen.has(key)) continue
     seen.add(key)
