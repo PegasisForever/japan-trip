@@ -1093,32 +1093,79 @@
   opacity: 0;
 }
 
-/* ---------- Search: a round button under the schedule button, a sheet with the field ---------- */
-.map-round.map-search.link {
+/* ---------- Search: Framework7's expandable searchbar over the top row ---------- */
+.map-top {
+  transition: opacity 0.25s, transform 0.25s;
+}
+.map-top.is-hidden {
+  opacity: 0;
+  transform: translateY(-12px);
+  pointer-events: none;
+}
+.map-search-bar {
   position: absolute;
-  z-index: 5;
-  top: calc(var(--f7-safe-area-top) + 72px);
+  z-index: 7;
+  top: calc(var(--f7-safe-area-top) + 8px);
+  left: 0;
+  right: 0;
+  height: 56px;
+  pointer-events: none;
+}
+.map-search-bar .searchbar {
+  --f7-searchbar-expandable-size: 56px;
+  --f7-searchbar-height: 56px;
+  background: none;
+}
+.map-search-bar .searchbar-inner {
+  left: 12px;
   right: 12px;
 }
-.search-sheet {
-  height: 85vh;
-  height: 85dvh;
-  border-radius: 28px 28px 0 0;
+.map-search-bar .searchbar-enabled {
+  pointer-events: auto;
 }
-.search-sheet .sheet-modal-inner {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+.map-search-backdrop {
+  position: absolute;
+  z-index: 6;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
 }
-.search-sheet .picker-head {
-  padding-bottom: 4px;
+.map-search-backdrop.is-in {
+  opacity: 1;
+  pointer-events: auto;
 }
-.search-sheet .page-content {
-  flex: 1;
-  min-height: 0;
-  position: relative;
-  height: auto;
-  padding: 8px 16px calc(var(--f7-safe-area-bottom) + 20px);
+.map-search-results {
+  position: absolute;
+  z-index: 7;
+  top: calc(var(--f7-safe-area-top) + 76px);
+  left: 12px;
+  right: 12px;
+  max-height: calc(100% - var(--f7-safe-area-top) - 96px);
+  overflow-y: auto;
+  border-radius: 24px;
+  padding: 4px 14px;
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  background-color: var(--f7-glass-bg-color);
+  box-shadow: var(--f7-glass-shadow);
+  animation: search-in 0.25s ease-out;
+}
+.map-search-results:empty {
+  display: none;
+}
+.dark .map-search-results {
+  background-color: rgba(28, 30, 34, 0.72);
+}
+.map-search-results .search-results li:last-child button {
+  border-bottom: 0;
+}
+@keyframes search-in {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
 }
 .found-sheet .page-content {
   padding-top: 8px;
@@ -1131,15 +1178,3 @@
   max-height: 150px;
 }
 
-.search-head {
-  position: relative;
-  height: 22px;
-}
-.search-sheet .searchbar {
-  --f7-searchbar-height: 48px;
-  background: none;
-  margin: 0 0 4px;
-}
-.search-sheet .searchbar .searchbar-inner {
-  padding: 0;
-}

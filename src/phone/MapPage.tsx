@@ -11,7 +11,7 @@ import { MODE_ICON } from '../shared/modeIcon'
 import Icon from '../shared/Icon'
 import type { Day, Leg, Place, Stop } from '../data/types'
 import { getPhone, setPhone, showDay, usePhone } from './store'
-import { openSearch } from './SearchSheet'
+import MapSearch from './MapSearch'
 
 /** A place card, with the travel from the place before it ("4-1,4-2" for the sheet) */
 type Card = { place: Place; stop: Stop; n: number; legs: Leg[]; legKeys: string; stay: string; arrive: string }
@@ -92,7 +92,7 @@ function middleIndex(el: HTMLElement) {
  * Swipe the day title to change the day; swipe the cards at the bottom to go from place to place.
  */
 export default function MapPage({ f7router }: { f7router: Router.Router }) {
-  const { mapDay, mapPlace, focusLeg, refit, reselect, hot, found } = usePhone()
+  const { mapDay, mapPlace, focusLeg, refit, reselect, hot, found, search } = usePhone()
   const day = days.find((d) => d.n === mapDay) ?? days[0]
   const cards = useMemo(() => cardsOf(day), [day])
   const deck = useRef<HTMLDivElement>(null)
@@ -197,7 +197,7 @@ export default function MapPage({ f7router }: { f7router: Router.Router }) {
         found={found}
       />
 
-      <div className="map-top">
+      <div className={`map-top${search ? ' is-hidden' : ''}`}>
         <Link className="map-round" iconF7="square_grid_2x2" onClick={() => setPhone({ picker: true })} aria-label="All days" />
         {/* Swipe left or right for the next or previous day; tap to see the whole day again */}
         <div className="day-pager" ref={pager} onScroll={onPagerScroll}>
@@ -216,8 +216,10 @@ export default function MapPage({ f7router }: { f7router: Router.Router }) {
           ))}
         </div>
         <Link className="map-round" iconF7="list_bullet" href={`/day/${day.n}/`} aria-label="Schedule of the day" />
+        {/* Opens the expandable searchbar over this row */}
+        <Link className="map-round" iconF7="search" searchbarEnable=".map-searchbar" aria-label="Search any place" />
       </div>
-      <Link className="map-round map-search" iconF7="search" onClick={openSearch} aria-label="Search any place" />
+      <MapSearch />
 
       <div className="deck" ref={deck} onScroll={onDeckScroll} key={day.n}>
         <div className="deck-item">

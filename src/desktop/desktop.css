@@ -524,7 +524,7 @@
   padding: 0;
 }
 /* The results: one glass card under the glass field */
-.d-search .search-results {
+.d-search .search-results-box {
   max-height: min(60vh, 520px);
   overflow-y: auto;
   margin-top: 8px;
@@ -534,7 +534,7 @@
   background-color: var(--f7-glass-bg-color);
   box-shadow: var(--f7-glass-shadow);
 }
-.dark .d-search .search-results {
+.dark .d-search .search-results-box {
   background-color: rgba(28, 30, 34, 0.72);
 }
 .d-search .search-credit {
