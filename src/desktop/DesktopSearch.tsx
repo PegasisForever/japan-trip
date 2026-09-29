@@ -10,7 +10,7 @@ export default function DesktopSearch({ day, onFound, onPlace }: { day: Day | nu
   const [n, setN] = useState(0)
   const p = day ? plan.places[day.sleep ?? day.stops[0]?.place] : null
   return (
-    <div className="d-search glass-panel">
+    <div className="d-search">
       <SearchBox
         key={n}
         near={p ? [p.lon, p.lat] : [139.767, 35.681]}

@@ -1099,8 +1099,6 @@
   z-index: 5;
   top: calc(var(--f7-safe-area-top) + 72px);
   right: 12px;
-  width: 48px;
-  height: 48px;
 }
 .search-sheet {
   height: 85vh;
@@ -1131,4 +1129,17 @@
 }
 .found-sheet .found-img {
   max-height: 150px;
+}
+
+.search-head {
+  position: relative;
+  height: 22px;
+}
+.search-sheet .searchbar {
+  --f7-searchbar-height: 48px;
+  background: none;
+  margin: 0 0 4px;
+}
+.search-sheet .searchbar .searchbar-inner {
+  padding: 0;
 }

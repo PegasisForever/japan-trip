@@ -1,4 +1,5 @@
-import { forwardRef, useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
+import { Searchbar } from 'framework7-react'
 import { plan } from '../data/plan'
 import { searchPlaces, type Found } from './search'
 
@@ -9,6 +10,8 @@ interface Props {
   /** A place from the plan was picked */
   onPlace: (id: string) => void
   className?: string
+  /** Phone: a glass Cancel button next to the field closes the search */
+  onCancel?: () => void
 }
 
 /** Plan places whose English, Japanese or romaji name contains the text */
@@ -25,7 +28,7 @@ function planMatches(q: string) {
  * A search field and its results: places from your plan first, then any place in Japan from OpenStreetMap.
  * The search starts after a short pause in the typing.
  */
-const SearchBox = forwardRef<HTMLInputElement, Props>(function SearchBox({ near, onFound, onPlace, className = '' }, ref) {
+export default function SearchBox({ near, onFound, onPlace, className = '', onCancel }: Props) {
   const [q, setQ] = useState('')
   const [results, setResults] = useState<Found[]>([])
   const [state, setState] = useState<'idle' | 'busy' | 'error'>('idle')
@@ -60,25 +63,19 @@ const SearchBox = forwardRef<HTMLInputElement, Props>(function SearchBox({ near,
 
   return (
     <div className={`search-box ${className}`}>
-      <label className="search-field">
-        <i className="f7-icons" aria-hidden>
-          search
-        </i>
-        <input
-          ref={ref}
-          type="search"
-          enterKeyHint="search"
-          placeholder="Search any place in Japan"
-          aria-label="Search any place in Japan"
-          value={q}
-          onChange={(e) => setQ(e.target.value)}
-        />
-        {q && (
-          <button type="button" className="search-clear" onClick={() => setQ('')} aria-label="Clear the search">
-            <i className="f7-icons">xmark_circle_fill</i>
-          </button>
-        )}
-      </label>
+      {/* Framework7's iOS 26 searchbar: a liquid-glass field, and a glass Cancel button when it is active */}
+      <Searchbar
+        inline
+        customSearch
+        form={false}
+        clearButton
+        disableButton={!!onCancel}
+        disableButtonText="Cancel"
+        placeholder="Search any place in Japan"
+        onSearchbarSearch={(_sb, query) => setQ(String(query ?? ''))}
+        onSearchbarClear={() => setQ('')}
+        onClickDisable={() => onCancel?.()}
+      />
 
       {(mine.length > 0 || results.length > 0 || state !== 'idle' || empty) && (
         <ul className="search-results" role="listbox">
@@ -119,6 +116,4 @@ const SearchBox = forwardRef<HTMLInputElement, Props>(function SearchBox({ near,
       {results.length > 0 && <p className="search-credit">Search data © OpenStreetMap contributors</p>}
     </div>
   )
-})
-
-export default SearchBox
+}
