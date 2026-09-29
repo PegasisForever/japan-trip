@@ -2894,6 +2894,48 @@
       "lon": 141.35433,
       "kind": "food",
       "blurb": "A narrow lane in Susukino with about 15 small ramen shops: Sapporo miso ramen, butter corn, crab ramen. Pick the shortest queue."
+    },
+    {
+      "id": "donki-akihabara",
+      "ref": null,
+      "en": "Don Quijote Akihabara",
+      "ja": "ドン・キホーテ 秋葉原店",
+      "romaji": "Don Kihōte Akihabara-ten",
+      "lat": 35.70072,
+      "lon": 139.77189,
+      "kind": "shop",
+      "blurb": "The Akihabara Don Quijote, open 24 h, with the @home maid café on 5F. Pegasis buys the suitcase for the way home here; Aoki can use the tourist coupon.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "24 hours"
+        }
+      ],
+      "tips": [
+        "Buy a 60–70 L suitcase with 4 wheels: it must hold everything Pegasis buys until Feb 1."
+      ]
+    },
+    {
+      "id": "mutekiya",
+      "ref": null,
+      "en": "Mutekiya ramen, Ikebukuro",
+      "ja": "麺処 無敵家",
+      "romaji": "Mensho Mutekiya",
+      "lat": 35.72692,
+      "lon": 139.71163,
+      "kind": "food",
+      "blurb": "A famous rich tonkotsu ramen shop by Ikebukuro Station east exit. There is usually a queue, but it moves fast.",
+      "info": [
+        {
+          "label": "Hours",
+          "value": "About 10:30–04:00, every day"
+        },
+        {
+          "label": "Cost",
+          "value": "About ¥1,000–1,500"
+        }
+      ],
+      "tips": []
     }
   ],
   "days": [
@@ -3006,56 +3048,52 @@
       "date": "2027-01-19",
       "weekday": "火",
       "region": "tokyo",
-      "short": "Kiyosumi + Akiba",
-      "cover": "kiyosumi-garden",
-      "title": "Kiyosumi Garden, Edo museum, fukagawa-meshi, Kinshi Park, Don Quijote, Akihabara retro games and a maid café",
-      "titleJa": "清澄庭園 → 深川江戸資料館 → 錦糸公園 → 秋葉原 → 日本橋三越",
-      "romaji": "Kiyosumi Teien → Fukagawa Edo Shiryōkan → Kinshi Kōen → Akihabara → Nihonbashi",
-      "summary": "A slow jet-lag day around the hotel: coffee at Blue Bottle, the pond garden and the indoor Edo street, and clam rice for lunch. Kinshi Park from Bocchi the Rock! and Don Quijote for the suitcase, then retro games and a maid café in Akihabara, and half-price food from the Mitsukoshi food hall.",
+      "short": "Akihabara",
+      "cover": "radio-kaikan",
+      "title": "A late start: Kinshi Park, a maid café lunch, Radio Kaikan, retro games, Don Quijote, half-price food hall",
+      "titleJa": "錦糸公園 → 秋葉原（めいどりーみん・ラジオ会館・スーパーポテト・ドン・キホーテ）→ 日本橋三越",
+      "romaji": "Kinshi Kōen → Akihabara → Nihonbashi Mitsukoshi",
+      "summary": "Sleep in after the flight. The Bocchi the Rock! park, then Akihabara: lunch with the stage show at Maidreamin, ten floors of figures at Radio Kaikan, retro games at Super Potato and the suitcase at Don Quijote. A rest at the hotel, then half-price food from the Mitsukoshi food hall.",
       "temp": "2 – 10 °C",
       "alerts": [
+        "Book the Maidreamin table on the official site (about 12:00).",
         "Food hall closing time is not checked (about 19:00–19:30): see the Nihonbashi Mitsukoshi site before the day."
       ],
       "stops": [
         {
-          "place": "blue-bottle-kiyosumi",
+          "place": "mystays-kiyosumi",
           "time": "10:30",
-          "note": "Breakfast: coffee and a pastry, 35 min."
-        },
-        {
-          "place": "kiyosumi-garden",
-          "time": "11:15",
-          "note": "The pond, the stepping stones and the teahouse, 40 min."
-        },
-        {
-          "place": "fukagawa-edo",
-          "time": "12:00",
-          "note": "The Edo street indoors, 50 min."
-        },
-        {
-          "place": "fukagawa-kamasho",
-          "time": "13:00",
-          "note": "Lunch: fukagawa-meshi (clams cooked in miso broth on rice), 45 min."
+          "note": "Sleep in. Breakfast: konbini or a café (the hotel has no breakfast)."
         },
         {
           "place": "kinshi-park",
-          "time": "14:10",
+          "time": "11:20",
           "note": "Bocchi the Rock! bench and lawn, 20 min (from your ideas list)."
         },
         {
-          "place": "donki-kinshicho",
-          "time": "14:35",
-          "note": "Pegasis: the suitcase for the way home (empty for now), heat packs, shoe spikes. Aoki: tourist coupon. 45 min."
+          "place": "maidreamin-akiba",
+          "time": "12:00",
+          "note": "Lunch with the stage show, 1 h (Pegasis's pick)."
+        },
+        {
+          "place": "radio-kaikan",
+          "time": "13:10",
+          "note": "10 floors of figures and cards, 1 h; ZEST (Oshi no Ko) 3 min north."
         },
         {
           "place": "super-potato",
-          "time": "15:45",
-          "note": "Retro games and the top-floor arcade, 50 min (from your ideas list)."
+          "time": "14:20",
+          "note": "Retro games and the top-floor arcade, 45 min (from your ideas list)."
         },
         {
-          "place": "athome-cafe",
-          "time": "16:45",
-          "note": "Maid café: a drink and a dessert, 1 h (from your ideas list)."
+          "place": "donki-akihabara",
+          "time": "15:15",
+          "note": "Pegasis: the suitcase for the way home (empty for now), heat packs, shoe spikes. Aoki: tourist coupon. 40 min."
+        },
+        {
+          "place": "mystays-kiyosumi",
+          "time": "16:25",
+          "note": "Drop the suitcase and the bags; rest for jet lag."
         },
         {
           "place": "mitsukoshi-nihonbashi",
@@ -3066,66 +3104,52 @@
       "legs": [
         {
           "from": "mystays-kiyosumi",
-          "to": "blue-bottle-kiyosumi",
-          "mode": "walk",
-          "label": "Walk east past Kiyosumi Garden",
-          "duration": "12 min"
-        },
-        {
-          "from": "blue-bottle-kiyosumi",
-          "to": "kiyosumi-garden",
-          "mode": "walk",
-          "label": "Walk west to the garden gate",
-          "duration": "8 min"
-        },
-        {
-          "from": "kiyosumi-garden",
-          "to": "fukagawa-edo",
-          "mode": "walk",
-          "label": "Walk east",
-          "duration": "5 min"
-        },
-        {
-          "from": "fukagawa-edo",
-          "to": "fukagawa-kamasho",
-          "mode": "walk",
-          "label": "Walk east",
-          "duration": "5 min"
-        },
-        {
-          "from": "fukagawa-kamasho",
           "to": "kinshi-park",
           "mode": "train",
-          "label": "Walk to Kiyosumi-shirakawa (5 min); Hanzomon Line, Kiyosumi-shirakawa about 13:52 → Kinshicho 13:57; walk 5 min",
+          "label": "Walk to Kiyosumi-shirakawa (5 min); Hanzomon Line, Kiyosumi-shirakawa about 11:05 → Kinshicho 11:10; walk 5 min",
           "duration": "20 min"
         },
         {
           "from": "kinshi-park",
-          "to": "donki-kinshicho",
-          "mode": "walk",
-          "label": "Walk to the north exit side",
-          "duration": "3 min"
+          "to": "maidreamin-akiba",
+          "mode": "train",
+          "label": "Walk to Kinshicho (5 min); JR Sobu Line (local), Kinshicho about 11:45 → Akihabara 11:52; walk 5 min",
+          "duration": "20 min"
         },
         {
-          "from": "donki-kinshicho",
+          "from": "maidreamin-akiba",
+          "to": "radio-kaikan",
+          "mode": "walk",
+          "label": "Walk along Chuo-dori",
+          "duration": "5 min"
+        },
+        {
+          "from": "radio-kaikan",
           "to": "super-potato",
-          "mode": "train",
-          "label": "JR Sobu Line (local), Kinshicho about 15:25 → Akihabara 15:32; walk 8 min",
-          "duration": "25 min"
+          "mode": "walk",
+          "label": "Walk south-east",
+          "duration": "5 min"
         },
         {
           "from": "super-potato",
-          "to": "athome-cafe",
+          "to": "donki-akihabara",
           "mode": "walk",
-          "label": "Next door",
-          "duration": "2 min"
+          "label": "Walk north",
+          "duration": "5 min"
         },
         {
-          "from": "athome-cafe",
+          "from": "donki-akihabara",
+          "to": "mystays-kiyosumi",
+          "mode": "train",
+          "label": "Walk to Suehirocho (5 min); Ginza Line → Mitsukoshimae; Hanzomon Line → Kiyosumi-shirakawa; walk 5 min (or a taxi with the suitcase, about ¥2,000)",
+          "duration": "30 min"
+        },
+        {
+          "from": "mystays-kiyosumi",
           "to": "mitsukoshi-nihonbashi",
           "mode": "train",
-          "label": "Walk to Suehirocho (5 min); Ginza Line, Suehirocho about 17:55 → Mitsukoshimae 18:00",
-          "duration": "20 min"
+          "label": "Walk to Kiyosumi-shirakawa (5 min); Hanzomon Line, Kiyosumi-shirakawa about 18:00 → Mitsukoshimae 18:07",
+          "duration": "15 min"
         },
         {
           "from": "mitsukoshi-nihonbashi",
@@ -3138,12 +3162,10 @@
       "sleep": "mystays-kiyosumi",
       "sleepNote": "Night 2 of 4 in Kiyosumi-shirakawa.",
       "notes": [
-        "A light day for jet lag: short walks and short train rides, all within 25 min of the hotel.",
-        "Near the hotel you had marked Asakusa, Skytree, sumo, teamLab and Tsukiji \"not interested\", so they are not in this day.",
-        "Harajuku, the Shibuya Nintendo and Pokémon shops, the City Hall view and Golden Gai are out; Shibuya Sky and Hachiko move to day 3.",
+        "A light day for jet lag: a late start and a rest at the hotel in the afternoon.",
         "Tax-free: from Nov 2026 you pay the tax in the shop and get it back at the airport customs desk."
       ],
-      "cost": "≈ ¥9,000 per person (trains ¥600, garden ¥150, museum ¥400, lunch, maid café ≈ ¥2,500, food hall dinner); suitcase ≈ ¥5,000–15,000"
+      "cost": "≈ ¥7,000 per person (trains ¥600, maid café lunch ≈ ¥2,500, food hall dinner); suitcase ≈ ¥5,000–15,000; goods extra"
     },
     {
       "n": 3,
@@ -3152,41 +3174,35 @@
       "region": "tokyo",
       "short": "Anime day",
       "cover": "nakano",
-      "title": "Anime day: Your Name stairs, Akihabara, Ikebukuro, Shibuya Sky at sunset, a live show in Shimokitazawa, Omoide Yokocho",
+      "title": "A calmer anime day: Your Name stairs, Ikebukuro, Shibuya Sky at sunset, a live show in Shimokitazawa, Omoide Yokocho",
       "titleJa": "須賀神社 → 秋葉原 → 池袋 → 中野 → 下北沢SHELTER",
       "romaji": "Suga Jinja → Akihabara → Ikebukuro → Nakano → Shimokitazawa",
-      "summary": "A maid café lunch in Akihabara first, close to the hotel, then the Your Name stairs and one subway line to the anime shops of Ikebukuro. Hachiko and Shibuya Sky at sunset, a cheap Chinese diner dinner and a real live show in Shimokitazawa, then late yakitori in Omoide Yokocho.",
+      "summary": "A later start: the Your Name stairs, then one subway line to Ikebukuro for ramen and two relaxed hours in the anime shops. Hachiko and Shibuya Sky at sunset, a cheap Chinese diner dinner and a real live show in Shimokitazawa, then late yakitori in Omoide Yokocho.",
       "temp": "2 – 10 °C",
       "alerts": [
         "Buy the SHELTER ticket online when the January list is out (loft-prj.co.jp, in December); note the OPEN time.",
-        "Book the Maidreamin table on the official site.",
         "Shibuya Sky: buy the web ticket for about 16:00 (sunset about 16:55); sales open 4 weeks ahead."
       ],
       "stops": [
         {
           "place": "mystays-kiyosumi",
-          "time": "10:00",
+          "time": "10:30",
           "note": "Breakfast: konbini or a café (the hotel has no breakfast)."
         },
         {
-          "place": "radio-kaikan",
-          "time": "10:50",
-          "note": "10 floors of figures and cards, 40 min; ZEST (Oshi no Ko) 3 min north."
-        },
-        {
-          "place": "maidreamin-akiba",
-          "time": "11:35",
-          "note": "Lunch with the stage show, 55 min, from the 11:30 opening (Pegasis's pick)."
-        },
-        {
           "place": "suga",
-          "time": "13:05",
+          "time": "11:35",
           "note": "Your Name stairs, 15 min (Aoki's pick)."
         },
         {
+          "place": "mutekiya",
+          "time": "12:30",
+          "note": "Lunch: rich tonkotsu ramen, 45 min (the queue moves fast)."
+        },
+        {
           "place": "ikebukuro",
-          "time": "14:00",
-          "note": "Animate main store, Surugaya, K-BOOKS, Lashinbang (used goods), 1 h 15."
+          "time": "13:20",
+          "note": "Animate main store, Surugaya, K-BOOKS, Lashinbang (used goods), 2 h, no rush."
         },
         {
           "place": "hachiko",
@@ -3222,31 +3238,24 @@
       "legs": [
         {
           "from": "mystays-kiyosumi",
-          "to": "radio-kaikan",
-          "mode": "train",
-          "label": "Walk to Kiyosumi-shirakawa (5 min); Toei Oedo Line, Kiyosumi-shirakawa about 10:25 → Shin-okachimachi 10:34; walk 10 min to Akihabara",
-          "duration": "30 min"
-        },
-        {
-          "from": "radio-kaikan",
-          "to": "maidreamin-akiba",
-          "mode": "walk",
-          "label": "Walk along Chuo-dori",
-          "duration": "5 min"
-        },
-        {
-          "from": "maidreamin-akiba",
           "to": "suga",
           "mode": "train",
-          "label": "JR Chuo-Sobu Line (local), Akihabara about 12:40 → Yotsuya 12:53; walk 10 min",
-          "duration": "25 min"
+          "label": "Walk to Kiyosumi-shirakawa (5 min); Hanzomon Line → Otemachi; Marunouchi Line, Otemachi about 11:08 → Yotsuya-sanchome 11:18; walk 8 min",
+          "duration": "35 min"
         },
         {
           "from": "suga",
-          "to": "ikebukuro",
+          "to": "mutekiya",
           "mode": "train",
-          "label": "Walk to Yotsuya-sanchome (8 min); Tokyo Metro Marunouchi Line, Yotsuya-sanchome about 13:30 → Ikebukuro 13:50 (direct); east exit",
-          "duration": "30 min"
+          "label": "Walk to Yotsuya-sanchome (8 min); Tokyo Metro Marunouchi Line, Yotsuya-sanchome about 11:58 → Ikebukuro 12:18 (direct); east exit, walk 5 min",
+          "duration": "35 min"
+        },
+        {
+          "from": "mutekiya",
+          "to": "ikebukuro",
+          "mode": "walk",
+          "label": "Walk east to Sunshine-dori",
+          "duration": "5 min"
         },
         {
           "from": "ikebukuro",
