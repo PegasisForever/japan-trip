@@ -5,10 +5,10 @@ The desktop site shows this list (read only). Change it here.
 
 - [ ] **Edosan ryokan, Nara Park: move the booking from Mon Jan 25 to Wed Jan 27, 2 people, "Wakakusa nabe" hot-pot plan (¥61,600 with dinner and breakfast)**  
   Rakuten cannot change dates: book Jan 27 first (a room was free on Sep 27, 2026, same price), then cancel Jan 25 (free until 8 days before, Jan 17). Write "no raw fish, cooked food only" in the note. Email them first: may 2 suitcases arrive by Yamato on Jan 27 before check-in? (Trip.com had Edosan at ¥50,080 with a one-time new-user promo; the room has its own toilet, the bath is shared.)
-- [ ] **Toyota Rent a Car, both cars: Kawasaki Shinkawabashi → Mishima Shinkansen-guchi, Jan 21 16:45 – Jan 23 11:40, compact, STUDLESS TYRES + ETC; and New Chitose Poplar → Sapporo-ekimae, 4WD (studless standard), Jan 28 14:10 – Jan 31 14:15**  
+- [ ] **Toyota Rent a Car, both cars: Kawasaki Shinkawabashi → Mishima Shinkansen-guchi, Jan 21 16:45 – Jan 23 11:40, compact, STUDLESS TYRES + ETC; and New Chitose Poplar → Sapporo-ekimae, 4WD (studless standard), Jan 28 14:10 – Jan 30 17:45**  
   book now (by Sep 30, 2026): Toyota takes bookings 6 months ahead, and Kanagawa has only a few studless-tyre cars. Phone Kawasaki Shinkawabashi (044-211-0100) to get the studless car confirmed in writing; if they have none, ask another Toyota Rent-Lease Yokohama shop near Kawasaki Station.
-- [ ] **Niseko container house (Airbnb), Jan 28–31 (3 nights), 2 people**  
-  ¥70,000 on Airbnb on Sep 28, 2026 (airbnb.ca/rooms/992928243334744895). Ask the host first: what heating the unit has, and whether the parking is cleared of snow when you arrive after dark. Your earlier STAY RESORT NISEKO booking (Jan 29 – Feb 1): cancel it (free until Jan 14, 2027).
+- [x] **Niseko container house (Airbnb), Jan 28–30 (2 nights), 2 people**  
+  Booked. Ask the host whether the parking is cleared of snow when you arrive after dark on Jan 28. Your earlier STAY RESORT NISEKO booking (Jan 29 – Feb 1): cancel it (free until Jan 14, 2027).
 - [ ] **11 Kuromon apartment (Airbnb), Osaka, Jan 23–27 (4 nights, one booking), 2 people**  
   book now: ¥40,185 on Airbnb on Sep 28, 2026 (airbnb.ca/rooms/851126866230415015). Read the cancel rules first. No front desk: the suitcases go to a Yamato office and you collect them (see the Yamato item).
 - [ ] **Super Hotel Nagoya Tennen Onsen Shinkansen-guchi, twin with breakfast, Sun Jan 24 (1 night)**  
@@ -17,8 +17,8 @@ The desktop site shows this list (read only). Change it here.
   ¥50,800 on Trip.com on Sep 28, 2026, free cancel until Jan 6 (the ¥43,159 option is a tent with one double bed). Only 2 villas were left on Sep 25. When you book, tell them you arrive about 17:45 (some sites say last check-in 17:00).
 - [ ] **HOTEL MYSTAYS Kiyosumi Shirakawa, Standard Twin, Jan 18–22 (4 nights, room only)**  
   ¥86,960 (best rate) or ¥78,320 (early-bird, no refund from 27 days before) on Rakuten on Sep 28, 2026. Then phone 03-5624-2641: reserve the parking space for the night of Jan 21 (2 spaces, ¥1,800), and say you arrive about 21:05 on Jan 18 (front desk closes 22:00).
-- [ ] **Hotel Route-Inn Sapporo Chuo, twin, Sun Jan 31 (1 night, breakfast included)**  
-  book by mid-October 2026 on Trip.com: ¥14,156 per room on Sep 28, 2026 (Rakuten ¥16,500).
+- [ ] **Sapporo Excel Hotel Tokyu, Jan 30 – Feb 1 (2 nights), 2 people**  
+  Tick this when it is booked, and tell Claude the price for the plan.
 - [ ] **Flights: Aoki changes CA919/CA920 to Jan 18 and Feb 1 (read 退改规则 in the app first); Pegasis books WestJet Toronto ⇄ Narita (in Jan 18 16:30, out WS81 Feb 1 18:30, Econo fare with 1 bag); both: Peach MM576 New Chitose → Narita, Feb 1 12:00, with checked bags**  
   do it now: the cheap seats on the new dates can sell out; fares rise before Chinese New Year.
 - [ ] **JAL Itami 11:45 → New Chitose 13:30, Thu Jan 28, 2 people (20 kg bag each included)**  
