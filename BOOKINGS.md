@@ -5,7 +5,7 @@ The desktop site shows this list (read only). Change it here.
 
 - [ ] **Edosan ryokan, Nara Park: move the booking from Mon Jan 25 to Wed Jan 27, 2 people, "Wakakusa nabe" hot-pot plan (¥61,600 with dinner and breakfast)**  
   Rakuten cannot change dates: book Jan 27 first (a room was free on Sep 27, 2026, same price), then cancel Jan 25 (free until 8 days before, Jan 17). Write "no raw fish, cooked food only" in the note. Email them first: may 2 suitcases arrive by Yamato on Jan 27 before check-in? (Trip.com had Edosan at ¥50,080 with a one-time new-user promo; the room has its own toilet, the bath is shared.)
-- [ ] **Toyota Rent a Car, both cars: Kawasaki Shinkawabashi → Mishima Shinkansen-guchi, Jan 21 16:45 – Jan 23 11:40, compact, STUDLESS TYRES + ETC; and New Chitose Poplar → Sapporo-ekimae, 4WD (studless standard), Jan 28 14:10 – Jan 30 17:45**  
+- [ ] **Toyota Rent a Car, both cars: Kawasaki Shinkawabashi → Mishima Shinkansen-guchi, Jan 21 16:45 – Jan 23 11:40, compact, STUDLESS TYRES + ETC; and New Chitose Poplar → Sapporo-ekimae, 4WD (studless standard), Jan 28 14:10 – Jan 31 10:00**  
   book now (by Sep 30, 2026): Toyota takes bookings 6 months ahead, and Kanagawa has only a few studless-tyre cars. Phone Kawasaki Shinkawabashi (044-211-0100) to get the studless car confirmed in writing; if they have none, ask another Toyota Rent-Lease Yokohama shop near Kawasaki Station.
 - [x] **Niseko container house (Airbnb), Jan 28–30 (2 nights), 2 people**  
   Booked. Ask the host whether the parking is cleared of snow when you arrive after dark on Jan 28. Your earlier STAY RESORT NISEKO booking (Jan 29 – Feb 1): cancel it (free until Jan 14, 2027).

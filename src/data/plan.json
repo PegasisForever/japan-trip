@@ -1212,7 +1212,7 @@
         },
         {
           "label": "Rent",
-          "value": "Thu Jan 28 14:10 → Sat Jan 30 about 17:45, one way to Sapporo-ekimae"
+          "value": "Thu Jan 28 14:10 → Sun Jan 31 about 10:00, one way to Sapporo-ekimae"
         },
         {
           "label": "Car",
@@ -2832,6 +2832,10 @@
         {
           "label": "Access",
           "value": "Nakajima-koen Station (Namboku Line) 5 min; Susukino 10 min on foot"
+        },
+        {
+          "label": "Parking",
+          "value": "Hotel car park for the night of Jan 30 (price not checked)"
         }
       ],
       "id": "excel-tokyu-sapporo",
@@ -4391,12 +4395,12 @@
       "title": "Morning ski at Hirafu, Rusutsu snow drift course at 15:00, Nakayama Pass to Sapporo, Jingisukan",
       "titleJa": "ニセコ グラン・ヒラフ → ルスツ 雪上ドリフト → 中山峠 → 札幌",
       "romaji": "Niseko Gran Hirafu → Rusutsu → Nakayama-tōge → Sapporo",
-      "summary": "Check out with all the bags in the car, a last morning of skiing and lunch at Hirafu, then the snow drift course at Rusutsu. Over Nakayama Pass to Sapporo, the car back at Sapporo Station, and Jingisukan at Daruma for dinner.",
+      "summary": "Check out with all the bags in the car, a last morning of skiing and lunch at Hirafu, then the snow drift course at Rusutsu. Over Nakayama Pass to Sapporo, the car in the hotel car park, and Jingisukan at Daruma for dinner.",
       "temp": "−10 – −3 °C",
       "alerts": [
         "Breath test before the drift course: no alcohol the night before.",
         "Pegasis: licence + IDP + passport. Leave Rusutsu by 15:50.",
-        "Nakayama Pass after dark (sunset about 16:40): drive slowly. If the pass is closed or it snows hard, take Route 5 via Otaru (about 2 h 30). The car shop is open to 20:00.",
+        "Nakayama Pass after dark (sunset about 16:40): drive slowly. If the pass is closed or it snows hard, take Route 5 via Otaru (about 2 h 30).",
         "Check out at 10:00 with all the bags in the car (Saturday: park at Hirafu lot 1)."
       ],
       "stops": [
@@ -4431,18 +4435,13 @@
           "note": "Check in at the Rusutsu Resort activity desk (open to 16:00). 15:00 Introduction Course: Pegasis drives 30 min with the instructor; Aoki in the back seat."
         },
         {
-          "place": "toyota-sapporo",
-          "time": "17:45",
-          "note": "Return the car with a full tank (shop open to 20:00)."
-        },
-        {
           "place": "excel-tokyu-sapporo",
-          "time": "18:20",
-          "note": "Check in; drop the bags."
+          "time": "17:45",
+          "note": "Check in; park in the hotel car park; drop the bags."
         },
         {
           "place": "daruma",
-          "time": "19:00",
+          "time": "18:45",
           "note": "Dinner: Jingisukan at the counter (both of you wanted it)."
         }
       ],
@@ -4484,17 +4483,10 @@
         },
         {
           "from": "rusutsu-drift",
-          "to": "toyota-sapporo",
-          "mode": "drive",
-          "label": "Drive, Route 230 over Nakayama Pass → Jozankei → Sapporo (about 90 km), after dark from about 16:40; fill the tank near Sapporo Station",
-          "duration": "1 h 50"
-        },
-        {
-          "from": "toyota-sapporo",
           "to": "excel-tokyu-sapporo",
-          "mode": "train",
-          "label": "Walk to Sapporo Station with the bags (6 min); Namboku Line, Sapporo about 18:05 → Nakajima-koen 18:11; walk 5 min (or a taxi, about ¥1,200)",
-          "duration": "25 min"
+          "mode": "drive",
+          "label": "Drive, Route 230 over Nakayama Pass → Jozankei → Sapporo (about 85 km), after dark from about 16:40; into the hotel car park",
+          "duration": "1 h 50"
         },
         {
           "from": "excel-tokyu-sapporo",
@@ -4517,8 +4509,7 @@
         "The 30-min self-drive (Introduction Course) runs only at 15:00. The 10:00 slot has only the 4-min ride-along or the 75-min Driving Course (¥61,000).",
         "Aoki option: a 4-min ride-along with the pro in the same 15:00 slot costs ¥17,000 per person instead of the ¥10,000 back seat.",
         "Leave Hirafu at 13:30 at the latest; Saturday ski traffic.",
-        "Nikuson and the Kutchan Seicomart are out: after the drift you drive straight to Sapporo.",
-        "The car goes back on Jan 30 instead of Jan 31: one day less of rental."
+        "Nikuson and the Kutchan Seicomart are out: after the drift you drive straight to Sapporo."
       ],
       "cost": "≈ ¥64,000 Pegasis (Introduction Course ¥31,000, lift ¥11,800, half of the rental ≈ ¥16,600, fuel, meals), ≈ ¥43,000 Aoki (back seat ¥10,000, lift, rental, fuel, meals)"
     },
@@ -4532,7 +4523,7 @@
       "title": "A slow Sapporo day: tax-free shopping, soup curry, a maid café, Mt Moiwa at sunset, miso ramen",
       "titleJa": "狸小路 → スープカレー GARAKU → めいどりーみん → もいわ山 → ラーメン横丁",
       "romaji": "Tanukikōji → GARAKU → Meidorīmin → Moiwa-yama → Rāmen Yokochō",
-      "summary": "No car and no early start. Last tax-free shopping in the covered Tanukikoji arcade, soup curry at GARAKU, a maid café, then the streetcar and ropeway up Mt Moiwa for the sunset and the night view. Miso ramen in the ramen alley, then pack for the flights.",
+      "summary": "The car back at Sapporo Station in the morning, then no car and no rush. Last tax-free shopping in the covered Tanukikoji arcade, soup curry at GARAKU, a maid café, then the streetcar and ropeway up Mt Moiwa for the sunset and the night view. Miso ramen in the ramen alley, then pack for the flights.",
       "temp": "−7 – −1 °C",
       "alerts": [
         "GARAKU: lunch time queue; a table often frees in 20–30 min.",
@@ -4541,8 +4532,13 @@
       "stops": [
         {
           "place": "excel-tokyu-sapporo",
-          "time": "09:30",
-          "note": "Breakfast: hotel buffet (paid) or a konbini; a slow morning."
+          "time": "09:00",
+          "note": "Breakfast: hotel buffet (paid) or a konbini."
+        },
+        {
+          "place": "toyota-sapporo",
+          "time": "10:00",
+          "note": "Return the car with a full tank."
         },
         {
           "place": "mega-donki-sapporo",
@@ -4573,10 +4569,17 @@
       "legs": [
         {
           "from": "excel-tokyu-sapporo",
-          "to": "mega-donki-sapporo",
-          "mode": "walk",
-          "label": "Walk north through Susukino to Tanukikoji (covered arcade)",
+          "to": "toyota-sapporo",
+          "mode": "drive",
+          "label": "Drive north to Sapporo Station east side; fill the tank on the way",
           "duration": "15 min"
+        },
+        {
+          "from": "toyota-sapporo",
+          "to": "mega-donki-sapporo",
+          "mode": "train",
+          "label": "Walk to Sapporo Station (6 min); Namboku Line, Sapporo about 10:20 → Odori 10:22; walk 6 min to Tanukikoji",
+          "duration": "25 min"
         },
         {
           "from": "mega-donki-sapporo",
@@ -4617,11 +4620,11 @@
       "sleep": "excel-tokyu-sapporo",
       "sleepNote": "Night 2 of 2 in Sapporo. Pack and weigh the bags tonight.",
       "notes": [
-        "No car today: everything is on foot or by streetcar.",
+        "After 10:00 no car: everything is on foot or by streetcar.",
         "Other choice for lunch or dinner: SHO-RIN soup curry (from your ideas list).",
         "Sapporo Snow Festival starts Feb 4, after you leave."
       ],
-      "cost": "≈ ¥10,000 per person (soup curry, maid café ≈ ¥2,500, Moiwa ¥2,100 + streetcar, ramen); goods extra"
+      "cost": "≈ ¥11,000 per person (fuel, soup curry, maid café ≈ ¥2,500, Moiwa ¥2,100 + streetcar, ramen); goods extra"
     },
     {
       "n": 15,
