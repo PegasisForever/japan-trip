@@ -5,8 +5,10 @@ The desktop site shows this list (read only). Change it here.
 
 - [ ] **Edosan ryokan, Nara Park: move the booking from Mon Jan 25 to Wed Jan 27, 2 people, "Wakakusa nabe" hot-pot plan (¥61,600 with dinner and breakfast)**  
   Rakuten cannot change dates: book Jan 27 first (a room was free on Sep 27, 2026, same price), then cancel Jan 25 (free until 8 days before, Jan 17). Write "no raw fish, cooked food only" in the note. Email them first: may 2 suitcases arrive by Yamato on Jan 27 before check-in? (Trip.com had Edosan at ¥50,080 with a one-time new-user promo; the room has its own toilet, the bath is shared.)
-- [ ] **Toyota Rent a Car: Kawasaki Shinkawabashi → Mishima Shinkansen-guchi, Jan 21 16:45 – Jan 23 11:40, compact, STUDLESS TYRES + ETC**  
-  book now (by Sep 30, 2026): Toyota takes bookings 6 months ahead, and Kanagawa has only a few studless-tyre cars. Phone Kawasaki Shinkawabashi (044-211-0100) to get the studless car confirmed in writing; if they have none, ask another Toyota Rent-Lease Yokohama shop near Kawasaki Station.
+- [ ] **Katsuta Rent-a-car Matsudo: Honda Civic Type R (FK8, 6-speed manual), Thu Jan 21 about 11:00 → Fri Jan 22 about 09:00**  
+  They said yes (no age limit; 1-year licence + IDP OK) and that the cars have no winter tyres. Book by phone (047-701-8148) or the contact form on katsutaauto.com, and ask for an answer in writing: the Type R is yours for these times, the damage-waiver price (¥1,100–3,300 per 24 h), ETC. ¥38,800 for 24 h; free cancel until 3 days before.
+- [ ] **Toyota Rent a Car: Matsudo Station West Exit → Mishima Shinkansen-guchi, Fri Jan 22 about 09:15 – Sat Jan 23 11:40, compact, STUDLESS TYRES + ETC**  
+  book now: Toyota takes bookings 6 months ahead. Phone Matsudo Station West Exit (047-330-1200) to get the studless car confirmed in writing, check the opening time (they close 20:00), and ask the one-way price to Mishima. If you booked Kawasaki Shinkawabashi for Jan 21 already, cancel it.
 - [ ] **HAYAKU RENT A CAR, Subaru WRX STI (VAB), 4WD manual: New Chitose Airport, Thu Jan 28 about 14:00 → Mon Feb 1 about 10:30**  
   They said yes by message. Confirm by email (info@hayakurentacar.com): the price, the meeting point at the airport on both days, studless winter tyres, an ETC card reader and the insurance. Then ask Sapporo Excel Hotel Tokyu for parking on Jan 30 and 31.
 - [x] **Niseko container house (Airbnb), Jan 28–30 (2 nights), 2 people**  

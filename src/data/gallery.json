@@ -9171,40 +9171,6 @@
    "title": "File:Shinjuku-sanchome-STA Entrance-A1.jpg"
   }
  ],
- "toyota-shinkawabashi": [
-  {
-   "big": "g/toyota-shinkawabashi-79689b05.jpg",
-   "mid": "g/toyota-shinkawabashi-79689b05.jpg",
-   "url": "https://commons.wikimedia.org/wiki/File:TOYOTA_RENT-A-CAR_Shin-Osaka_eki-mae_shop.jpg",
-   "author": "Tokumeigakarinoaoshima",
-   "license": "CC BY-SA 4.0",
-   "title": "File:TOYOTA RENT-A-CAR Shin-Osaka eki-mae shop.jpg"
-  },
-  {
-   "big": "g/toyota-shinkawabashi-4acb2344.jpg",
-   "mid": "g/toyota-shinkawabashi-4acb2344.jpg",
-   "url": "https://commons.wikimedia.org/wiki/File:Toyota_Rent-A-Lease_under_Tokaido_Shinkansen_viaduct_in_Shizuoka.jpg",
-   "author": "Dr.yellow",
-   "license": "CC BY-SA 4.0",
-   "title": "File:Toyota Rent-A-Lease under Tokaido Shinkansen viaduct in Shizuoka.jpg"
-  },
-  {
-   "big": "g/toyota-shinkawabashi-b3a41c51.jpg",
-   "mid": "g/toyota-shinkawabashi-b3a41c51.jpg",
-   "url": "https://commons.wikimedia.org/wiki/File:Toyota-rent-a-car-Mikawa-Anjo-shinkansen-guchi.jpg",
-   "author": "HQA02330",
-   "license": "CC BY-SA 4.0",
-   "title": "File:Toyota-rent-a-car-Mikawa-Anjo-shinkansen-guchi.jpg"
-  },
-  {
-   "big": "g/toyota-shinkawabashi-c627d456.jpg",
-   "mid": "g/toyota-shinkawabashi-c627d456.jpg",
-   "url": "https://commons.wikimedia.org/wiki/File:Tanegashima_toyota_rent_cars_DSCN0108.JPG",
-   "author": "Bokanmania",
-   "license": "CC BY-SA 4.0",
-   "title": "File:Tanegashima toyota rent cars DSCN0108.JPG"
-  }
- ],
  "tsukiji-breakfast-tsukishima-monja": [
   {
    "big": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Tsukiji_Outer_Market_-04.jpg/1920px-Tsukiji_Outer_Market_-04.jpg",
@@ -11084,5 +11050,48 @@
    "license": "CC BY-SA 3.0",
    "title": "File:Tokyo Station Marunouchi Building, south side dome, 21 July 2013.jpg"
   }
+ ],
+ "toyota-matsudo": [
+  {
+   "big": "g/toyota-shinkawabashi-79689b05.jpg",
+   "mid": "g/toyota-shinkawabashi-79689b05.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:TOYOTA_RENT-A-CAR_Shin-Osaka_eki-mae_shop.jpg",
+   "author": "Tokumeigakarinoaoshima",
+   "license": "CC BY-SA 4.0",
+   "title": "File:TOYOTA RENT-A-CAR Shin-Osaka eki-mae shop.jpg"
+  },
+  {
+   "big": "g/toyota-shinkawabashi-4acb2344.jpg",
+   "mid": "g/toyota-shinkawabashi-4acb2344.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Toyota_Rent-A-Lease_under_Tokaido_Shinkansen_viaduct_in_Shizuoka.jpg",
+   "author": "Dr.yellow",
+   "license": "CC BY-SA 4.0",
+   "title": "File:Toyota Rent-A-Lease under Tokaido Shinkansen viaduct in Shizuoka.jpg"
+  },
+  {
+   "big": "g/toyota-shinkawabashi-b3a41c51.jpg",
+   "mid": "g/toyota-shinkawabashi-b3a41c51.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Toyota-rent-a-car-Mikawa-Anjo-shinkansen-guchi.jpg",
+   "author": "HQA02330",
+   "license": "CC BY-SA 4.0",
+   "title": "File:Toyota-rent-a-car-Mikawa-Anjo-shinkansen-guchi.jpg"
+  },
+  {
+   "big": "g/toyota-shinkawabashi-c627d456.jpg",
+   "mid": "g/toyota-shinkawabashi-c627d456.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Tanegashima_toyota_rent_cars_DSCN0108.JPG",
+   "author": "Bokanmania",
+   "license": "CC BY-SA 4.0",
+   "title": "File:Tanegashima toyota rent cars DSCN0108.JPG"
+  }
+ ],
+ "katsuta-matsudo": [
+  {
+   "big": "g/katsuta-matsudo-typer.jpg",
+   "mid": "g/katsuta-matsudo-typer.jpg",
+   "url": "https://katsutaauto.com/rental/",
+   "author": "Katsuta Rent-a-car",
+   "license": "Shop photo (price list)",
+   "title": "Honda Civic Type R at Katsuta Rent-a-car Matsudo"
+  }
  ]
-}
