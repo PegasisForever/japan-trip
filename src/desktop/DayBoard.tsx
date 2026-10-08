@@ -3,6 +3,7 @@ import type { Day } from '../data/types'
 import { REGION } from '../data/style'
 import { dayStart, mealOf } from '../data/timeline'
 import { days, placesOf, dateLong } from '../data/trip'
+import { bookingsOfDay, dayPage } from '../data/bookings'
 
 interface Props {
   day: Day
@@ -21,6 +22,8 @@ export default function DayBoard({ day, onPick, onSelect }: Props) {
   const morning = next ? dayStart(next) : null
   const morningPlace = next && morning ? placesOf(next)[morning.stop.place] : null
   const morningMeal = morning ? mealOf(morning.stop) : null
+  const notes = dayPage(day.n)
+  const toBook = bookingsOfDay(day.n)
 
   return (
     <>
@@ -68,6 +71,20 @@ export default function DayBoard({ day, onPick, onSelect }: Props) {
         )}
       </List>
 
+      {/* The day's page in Notion (notes, money spent) and what to book for the day */}
+      {notes && (
+        <List inset strong dividers className="side-notion">
+          <ListItem link={notes} external target="_blank" title="Notes and spending" footer="Notion">
+            <i slot="media" className="f7-icons">square_pencil</i>
+          </ListItem>
+          {toBook.map((b) => (
+            <ListItem key={b.id} link={b.notion} external target="_blank" title={b.name} footer="Booking">
+              <i slot="media" className="f7-icons">ticket</i>
+            </ListItem>
+          ))}
+        </List>
+      )}
+
       {day.split && (
         <Block strong inset className="side-split">
           <b>Split day.</b> {day.split}
@@ -87,12 +104,6 @@ export default function DayBoard({ day, onPick, onSelect }: Props) {
                 </ul>
               )}
               {day.sleepNote && <p className="side-fine">Sleep: {day.sleepNote}</p>}
-              {day.cost && (
-                <p className="side-cost">
-                  <span>Cost for the day, per person</span>
-                  <b>{day.cost}</b>
-                </p>
-              )}
             </Block>
           </div>
         </ListItem>

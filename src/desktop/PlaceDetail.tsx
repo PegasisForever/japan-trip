@@ -7,6 +7,7 @@ import { pickOf } from '../data/picks'
 import { photosFor } from '../data/gallery'
 import { mealOf } from '../data/timeline'
 import { mapLinks } from '../data/trip'
+import { bookingsOfPlace } from '../data/bookings'
 
 interface Props {
   place: Place
@@ -23,6 +24,7 @@ export default function PlaceDetail({ place, day, stopIndex, onClose }: Props) {
   const meal = stop ? mealOf(stop) : null
   const photos = photosFor(place.galleryKey ?? place.id, place.photo, place.credit)
   const links = mapLinks(place)
+  const toBook = bookingsOfPlace(place.id, day?.n ?? null)
 
   return (
     <article className="d-detail glass-panel" aria-label={place.en}>
@@ -39,6 +41,13 @@ export default function PlaceDetail({ place, day, stopIndex, onClose }: Props) {
           {place.romaji && place.romaji.toLowerCase() !== place.en.toLowerCase() && <p className="d-romaji">{place.romaji}</p>}
           <p className="d-en">{place.en}</p>
           <PickTag pick={pickOf(place.id)} />
+          {/* What to book for this place: its page in Notion */}
+          {toBook.map((b) => (
+            <Button key={b.id} fill round external target="_blank" href={b.notion} className="d-book-btn">
+              <i className="f7-icons">ticket_fill</i>
+              <span>Booking: {b.name}</span>
+            </Button>
+          ))}
         </Block>
 
         {stop?.note && (

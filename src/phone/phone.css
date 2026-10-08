@@ -218,6 +218,13 @@
 .dir-btn .f7-icons {
   font-size: 20px;
 }
+.book-btn {
+  margin-top: 10px;
+}
+.book-btn span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .place-plan,
 .place-do {
   font-size: 15.5px;
@@ -1194,3 +1201,12 @@
   max-height: 150px;
 }
 
+
+/* Links to Notion: the day's notes, the bookings */
+.notion-list .item-title {
+  white-space: normal;
+}
+.notion-list .f7-icons {
+  font-size: 22px;
+  color: var(--f7-theme-color);
+}

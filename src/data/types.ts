@@ -101,7 +101,6 @@ export interface Day {
   sleep?: string
   sleepNote?: string
   notes?: string[]
-  cost?: string
   /** Place whose photo is the day card. Plans without it get one when they load (plans.ts). */
   cover: string
 }
@@ -112,9 +111,6 @@ export interface Plan {
   name: string
   tagline: string
   summary: string
-  who: { pegasis: string; aoki: string }
-  cost: { transport: string; hotels: string; activities: string; total: string }
-  flights: string[]
   /** Where each place comes from, to reuse its photos */
   places: (Place & { ref?: string | null })[]
   days: Day[]

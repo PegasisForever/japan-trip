@@ -256,35 +256,10 @@
   font-size: 13px;
   color: var(--g-mute);
 }
-.side-cost {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  font-size: 13.5px;
-}
-.side-cost span {
-  color: var(--g-mute);
-}
-.side-count {
-  float: right;
-  font-weight: 500;
-  opacity: 0.7;
-}
-.side-money .item-after {
-  color: var(--g-ink);
-  font-variant-numeric: tabular-nums;
-}
-.side-book .item-title {
+.side-book .item-title,
+.side-notion .item-title {
   white-space: normal;
   font-size: 14.5px;
-  font-weight: 600;
-}
-.side-book .item-text {
-  font-size: 13px;
-}
-.side-book .is-done .item-title {
-  opacity: 0.45;
-  text-decoration: line-through;
 }
 .region-bar {
   display: flex;
@@ -545,4 +520,17 @@
 }
 .d-found .found-head {
   padding-right: 56px;
+}
+
+/* A place's booking: a blue button to its Notion page */
+.d-book-btn {
+  margin-top: 12px;
+  gap: 6px;
+}
+.d-book-btn .f7-icons {
+  font-size: 18px;
+}
+.d-book-btn span {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

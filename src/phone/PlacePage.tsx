@@ -6,6 +6,7 @@ import { mealOf } from '../data/timeline'
 import { days, places, placesOf } from '../data/trip'
 import { openDirections } from './directions'
 import { pickOf } from '../data/picks'
+import { bookingsOfPlace } from '../data/bookings'
 import Gallery from '../shared/Gallery'
 import PickTag from '../shared/PickTag'
 
@@ -23,6 +24,7 @@ export default function PlacePage({ f7route }: { f7route: Router.Route }) {
   const meal = stop ? mealOf(stop) : null
   const photos = photosFor(place.galleryKey ?? place.id, place.photo, place.credit)
   const time = stop?.time && /\d/.test(stop.time) ? stop.time : null
+  const toBook = bookingsOfPlace(place.id, day?.n ?? null)
 
   const directions = () => openDirections(place)
 
@@ -49,6 +51,13 @@ export default function PlacePage({ f7route }: { f7route: Router.Route }) {
           <i className="f7-icons">arrow_up_right_diamond_fill</i>
           Directions
         </Button>
+        {/* What to book for this place: its page in Notion */}
+        {toBook.map((b) => (
+          <Button key={b.id} fill large round external target="_blank" href={b.notion} className="dir-btn book-btn">
+            <i className="f7-icons">ticket_fill</i>
+            <span>Booking: {b.name}</span>
+          </Button>
+        ))}
       </Block>
 
       {stop?.note && (

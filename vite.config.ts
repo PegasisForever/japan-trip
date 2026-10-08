@@ -30,6 +30,11 @@ export default defineConfig({
         orientation: 'portrait',
         start_url: base,
         scope: base,
+        // Links into the site (from the Notion pages) open in the installed app where the system allows it
+        // (Android, Chrome and Edge on a computer; an iPhone always opens links in Safari),
+        // in the app window that is already open
+        handle_links: 'preferred',
+        launch_handler: { client_mode: ['navigate-existing', 'auto'] },
         icons: [
           { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png' },

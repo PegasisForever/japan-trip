@@ -13,15 +13,15 @@ import type { Found } from '../shared/search'
 import { Link } from 'framework7-react'
 import { plan } from '../data/plan'
 import { placesOf } from '../data/trip'
+import { readLink } from '../data/bookings'
 import './strip.css'
 import './desktop.css'
 
 const { days } = plan
 
-/** "#day-4" → day 4; no hash → the whole trip */
-function readHash(): number | null {
-  const m = /^#day-(\d+)$/.exec(window.location.hash)
-  return m ? Number(m[1]) : null
+/** "#day-4" → day 4, "#day-4/edosan" → day 4 with Edosan open; no hash → the whole trip */
+function readHash() {
+  return readLink(window.location.hash)
 }
 
 /** Keep what the map shows clear of the side panel, the day tabs and the timeline */
@@ -43,9 +43,10 @@ function frame(): Pad {
  * a place on the right, and the day's timeline at the bottom. Hover shows, click opens.
  */
 export default function DesktopApp() {
-  const [dayN, setDayN] = useState<number | null>(readHash)
+  const [dayN, setDayN] = useState<number | null>(() => readHash()?.day ?? null)
   const [hovered, setHovered] = useState<string | null>(null)
-  const [selected, setSelected] = useState<string | null>(null)
+  // A link from Notion can open a place
+  const [selected, setSelected] = useState<string | null>(() => readHash()?.place ?? null)
   // The visit picked in the timeline, when a place comes twice in the day (the airport)
   const [pickedStop, setPickedStop] = useState<number | null>(null)
   const [hotLeg, setHotLeg] = useState<string | null>(null)
@@ -76,9 +77,14 @@ export default function DesktopApp() {
   }, [])
 
   useEffect(() => {
+    // The place in a link from Notion opens once: drop it from the address, so a reload shows the day only
+    const link = readHash()
+    if (link?.place) history.replaceState(null, '', `#day-${link.day}`)
     const onHash = () => {
-      setDayN(readHash())
-      setSelected(null)
+      const link = readHash()
+      setDayN(link?.day ?? null)
+      setSelected(link?.place ?? null)
+      setFound(null)
     }
     window.addEventListener('hashchange', onHash)
     return () => window.removeEventListener('hashchange', onHash)

@@ -6,6 +6,7 @@ import { photoUrl } from '../data/photos'
 import { buildTimeline, dayStart, fmtClock, fmtLength, mainRide, mealOf } from '../data/timeline'
 import { days, placesOf, dateLong, legKey } from '../data/trip'
 import { pickOf, type Pick } from '../data/picks'
+import { bookingsOfDay, dayPage } from '../data/bookings'
 import { MODE_ICON } from '../shared/modeIcon'
 import Icon from '../shared/Icon'
 import { setPhone, showDay } from './store'
@@ -62,6 +63,8 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
   const morning = next ? dayStart(next) : null
   const repeated = new Set(day.stops.map((s) => s.place).filter((p, i, a) => a.indexOf(p) !== i))
   const alerts = allAlerts ? day.alerts : day.alerts.slice(0, 1)
+  const notes = dayPage(day.n)
+  const toBook = bookingsOfDay(day.n)
   // Lay the blocks out in time order. Each is as tall as it is long, but never shorter than it needs to be
   // readable; the hour marks move with the blocks, so a mark is always at the right point of the block it falls in.
   const laid: { seg: (typeof segs)[number]; top: number; h: number }[] = []
@@ -112,6 +115,15 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
       )}
 
       {day.split && <Block className="split-note">{day.split}</Block>}
+
+      {/* The day's page in Notion: notes before the day, money spent on it */}
+      {notes && (
+        <List inset strong className="notion-list">
+          <ListItem link={notes} external target="_blank" title="Notes and spending" footer="Notion">
+            <i slot="media" className="f7-icons">square_pencil</i>
+          </ListItem>
+        </List>
+      )}
 
       {/* The day on one time scale: each place and each travel is as tall as it is long */}
       <div className="tscale" style={{ height: height + 8 }}>
@@ -212,6 +224,15 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
         </List>
       )}
 
+      {toBook.length > 0 && (
+        <List inset strong dividers className="notion-list">
+          {toBook.map((b) => (
+            <ListItem key={b.id} link={b.notion} external target="_blank" title={b.name} footer="Booking in Notion">
+              <i slot="media" className="f7-icons">ticket</i>
+            </ListItem>
+          ))}
+        </List>
+      )}
     </Page>
   )
 }

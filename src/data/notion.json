@@ -1,0 +1,236 @@
+{
+ "trip": "https://app.notion.com/p/3f371da548b3807d9a2ad44d9ee0b3cc",
+ "days": {
+  "1": "https://app.notion.com/p/3f371da548b3811a8b39efd78e5488f1",
+  "2": "https://app.notion.com/p/3f371da548b381809c49d477a538ed48",
+  "3": "https://app.notion.com/p/3f371da548b38149b11df3a33a695f81",
+  "4": "https://app.notion.com/p/3f371da548b381f4be4afcefa8962ec9",
+  "5": "https://app.notion.com/p/3f371da548b38154ba71f35f9ac33db4",
+  "6": "https://app.notion.com/p/3f371da548b3816e91bffca4fd11645d",
+  "7": "https://app.notion.com/p/3f371da548b38198abeaffdbf44648e3",
+  "8": "https://app.notion.com/p/3f371da548b38139bc2dcd7f6beeb612",
+  "9": "https://app.notion.com/p/3f371da548b38190b7e4d96b33eb2de1",
+  "10": "https://app.notion.com/p/3f371da548b3812d998fdd62a8bb03fc",
+  "11": "https://app.notion.com/p/3f371da548b38145866ded95a23a776a",
+  "12": "https://app.notion.com/p/3f371da548b38107a8bcf2e46beac749",
+  "13": "https://app.notion.com/p/3f371da548b381569895cbf00aba73ed",
+  "14": "https://app.notion.com/p/3f371da548b381f2a1f5c43aa5f07b6d",
+  "15": "https://app.notion.com/p/3f371da548b3814695cfeecec5fac0b9"
+ },
+ "bookings": [
+  {
+   "id": "edosan",
+   "name": "Edosan ryokan",
+   "notion": "https://app.notion.com/p/3f371da548b38130ba63d2586df45087",
+   "at": [
+    [10, "edosan"]
+   ]
+  },
+  {
+   "id": "katsuta",
+   "name": "Katsuta Type R",
+   "notion": "https://app.notion.com/p/3f371da548b3818fb99dfe24b928e594",
+   "at": [
+    [4, "katsuta-matsudo"],
+    [5, "katsuta-matsudo"]
+   ]
+  },
+  {
+   "id": "toyota-matsudo",
+   "name": "Toyota car, Matsudo → Mishima",
+   "notion": "https://app.notion.com/p/3f371da548b381f28695f29902d2d8ce",
+   "at": [
+    [5, "toyota-matsudo"],
+    [6, "toyota-mishima"]
+   ]
+  },
+  {
+   "id": "hayaku",
+   "name": "HAYAKU WRX STI",
+   "notion": "https://app.notion.com/p/3f371da548b38155a9bdfa639ed1c44c",
+   "at": [
+    [11, "hayaku-cts"],
+    [15, "hayaku-cts"]
+   ]
+  },
+  {
+   "id": "niseko-container",
+   "name": "Niseko container house",
+   "notion": "https://app.notion.com/p/3f371da548b381bab1cbeb6d58cccd25",
+   "at": [
+    [11, "niseko-container"],
+    [12, "niseko-container"]
+   ]
+  },
+  {
+   "id": "kuromon-apt",
+   "name": "11 Kuromon apartment",
+   "notion": "https://app.notion.com/p/3f371da548b3814c9a8ef5ef043fb164",
+   "at": [
+    [6, "kuromon-apt"],
+    [8, "kuromon-apt"],
+    [9, "kuromon-apt"]
+   ],
+   "days": [7]
+  },
+  {
+   "id": "super-hotel-nagoya",
+   "name": "Super Hotel Nagoya",
+   "notion": "https://app.notion.com/p/3f371da548b38138a411e08ee2598684",
+   "at": [
+    [7, "super-hotel-nagoya"],
+    [8, "super-hotel-nagoya"]
+   ]
+  },
+  {
+   "id": "hanz",
+   "name": "Hanz villa",
+   "notion": "https://app.notion.com/p/3f371da548b3819d860ce0599dea24bb",
+   "at": [
+    [5, "hanz"],
+    [6, "hanz"]
+   ]
+  },
+  {
+   "id": "washington",
+   "name": "Washington Hotel",
+   "notion": "https://app.notion.com/p/3f371da548b3818a8b10ee9386466fbd",
+   "at": [
+    [1, "washington-shinjuku"],
+    [2, "washington-shinjuku"],
+    [3, "washington-shinjuku"],
+    [4, "washington-shinjuku"],
+    [5, "washington-shinjuku"]
+   ]
+  },
+  {
+   "id": "excel-tokyu",
+   "name": "Sapporo Excel Hotel Tokyu",
+   "notion": "https://app.notion.com/p/3f371da548b381acb8e5fc6b0831e54e",
+   "at": [
+    [13, "excel-tokyu-sapporo"],
+    [14, "excel-tokyu-sapporo"],
+    [15, "excel-tokyu-sapporo"]
+   ]
+  },
+  {
+   "id": "flights",
+   "name": "Flights (CA, WestJet, Peach)",
+   "notion": "https://app.notion.com/p/3f371da548b381869502c548979feed6",
+   "at": [
+    [1, "narita"],
+    [15, "cts"],
+    [15, "narita"]
+   ]
+  },
+  {
+   "id": "jal",
+   "name": "JAL Itami → New Chitose",
+   "notion": "https://app.notion.com/p/3f371da548b381748165cb33a5f8660b",
+   "at": [
+    [11, "itami"],
+    [11, "cts"]
+   ]
+  },
+  {
+   "id": "ski-rental",
+   "name": "Ski rental at .Base",
+   "notion": "https://app.notion.com/p/3f371da548b381e6a243ee46b7e22331",
+   "at": [
+    [12, "hirafu-base"],
+    [13, "hirafu-base"]
+   ]
+  },
+  {
+   "id": "rusutsu",
+   "name": "Rusutsu snow drift",
+   "notion": "https://app.notion.com/p/3f371da548b38164a6c9d3c1dc23cbda",
+   "at": [
+    [13, "rusutsu-drift"]
+   ]
+  },
+  {
+   "id": "suzuka",
+   "name": "Suzuka kart",
+   "notion": "https://app.notion.com/p/3f371da548b381839211e54c0f287fd5",
+   "at": [
+    [7, "suzuka"]
+   ]
+  },
+  {
+   "id": "idp",
+   "name": "International Driving Permit",
+   "notion": "https://app.notion.com/p/3f371da548b381ee8434eddfe100e0ca",
+   "at": []
+  },
+  {
+   "id": "shelter-sky",
+   "name": "SHELTER and Shibuya Sky tickets",
+   "notion": "https://app.notion.com/p/3f371da548b3817cbff1fe10f3248a4e",
+   "at": [
+    [3, "shelter"],
+    [3, "shibuya-sky"]
+   ]
+  },
+  {
+   "id": "matsusaka",
+   "name": "Matsusaka beef \"M\"",
+   "notion": "https://app.notion.com/p/3f371da548b381c0afe3fa375c6afc70",
+   "at": [
+    [9, "matsusaka-m"]
+   ]
+  },
+  {
+   "id": "ghibli",
+   "name": "Ghibli Park tickets",
+   "notion": "https://app.notion.com/p/3f371da548b3815cb727c2592876b94f",
+   "at": [
+    [8, "ghibli-park"]
+   ]
+  },
+  {
+   "id": "shinkansen",
+   "name": "Shinkansen seats",
+   "notion": "https://app.notion.com/p/3f371da548b38159b91fc863b5c90bfd",
+   "at": [
+    [6, "toyota-mishima"]
+   ],
+   "days": [8]
+  },
+  {
+   "id": "yamato",
+   "name": "Suitcases by Yamato",
+   "notion": "https://app.notion.com/p/3f371da548b381149837df75e84fb6d2",
+   "at": [
+    [4, "washington-shinjuku"],
+    [6, "kuromon-apt"],
+    [9, "kuromon-apt"],
+    [10, "edosan"]
+   ]
+  },
+  {
+   "id": "maidreamin",
+   "name": "Maidreamin table",
+   "notion": "https://app.notion.com/p/3f371da548b381d88cd2c0ffcf4d1636",
+   "at": [
+    [2, "maidreamin-akiba"]
+   ]
+  },
+  {
+   "id": "lift-tickets",
+   "name": "Hirafu lift tickets",
+   "notion": "https://app.notion.com/p/3f371da548b38116b3ffccea6bfa250a",
+   "at": [
+    [12, "niseko"],
+    [13, "niseko"]
+   ]
+  },
+  {
+   "id": "esim",
+   "name": "Japan data eSIM",
+   "notion": "https://app.notion.com/p/3f371da548b381f5b4a7cd19b3a05923",
+   "at": [],
+   "days": [1]
+  }
+ ]
+}

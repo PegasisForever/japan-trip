@@ -55,14 +55,6 @@ export function stays() {
   return out
 }
 
-/** The amount at the start of a cost text, without the breakdown: "≈ ¥126,000 per person (...)" → "≈ ¥126,000" */
-export function headline(text: string) {
-  return text
-    .split(' · ')
-    .map((part) => part.split(/ \(|\. |, plus | \+ |; /)[0].replace(/ per person$/, '').trim())
-    .join(' · ')
-}
-
 /** Numbered places of a day, in the order they are first visited */
 export function stopOrder(day: Day) {
   const order = new Map<string, number>()
