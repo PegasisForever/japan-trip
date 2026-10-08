@@ -94,3 +94,34 @@ for pid in sorted(used):
     for k in {pid, p.get('ref') or '', (p.get('ref') or '').replace('plan-', '', 1)} - {''}:
         remote += [f'{pid}: {ph["big"][:60]}' for ph in gal.get(k, []) if ph['big'].startswith('http')]
 print(f'{len(remote)} photos not on our host' + (':\n' + '\n'.join(remote[:10]) if remote else ''))
+
+# Every place the plan shows has a photo, found the same way as src/data/plan.ts does
+OLD = json.load(open(f'{HERE}/../src/data/photos.json'))
+IDEA = json.load(open(f'{HERE}/../src/data/ideaPhotos.json'))
+refs = {}
+for p in plan['places']:
+    if p.get('ref'): refs[p['ref']] = refs.get(p['ref'], 0) + 1
+def has_photo(p):
+    if refs.get(p.get('ref'), 0) > 1 and gal.get(p['id']): return True
+    for key in [k for k in (p.get('ref'), p['id']) if k]:
+        if key.replace('plan-', '', 1) in OLD or key in IDEA: return True
+    return bool(gal.get(p.get('ref') or p['id']) or gal.get(p['id']))
+problems = [f'{pid}: no photo' for pid in sorted(used) if not has_photo(P[pid])]
+# Several places made from one idea: each needs its own photos and its own "what to do", or it shows the idea's (another place's)
+problems += [f'{pid}: shares {P[pid]["ref"]} with other places but has no photos of its own' for pid in sorted(used)
+             if refs.get(P[pid].get('ref'), 0) > 1 and not gal.get(pid)]
+ref_exp = {i['id'] for i in json.load(open(f'{HERE}/../src/data/ideas.json')) if i.get('experience')}
+ref_exp |= {k.replace('plan-', '', 1) for k in json.load(open(f'{HERE}/../src/data/plannedExperience.json'))}
+problems += [f'{pid}: shares {P[pid]["ref"]} with other places but has no "experience" of its own' for pid in sorted(used)
+             if refs.get(P[pid].get('ref'), 0) > 1 and not P[pid].get('experience') and P[pid]['ref'].replace('plan-', '', 1) in ref_exp | {P[pid]['ref']} & ref_exp]
+# A visit is for a day that goes there, and its photos exist
+days_at = {}
+for d in plan['days']:
+    for pid in [s['place'] for s in d['stops']] + ([d['sleep']] if d.get('sleep') else []): days_at.setdefault(pid, set()).add(str(d['n']))
+for p in plan['places']:
+    for n, v in p.get('visits', {}).items():
+        if n not in days_at.get(p['id'], set()): problems.append(f'{p["id"]}: visit for day {n}, but the plan does not go there that day')
+        if v.get('gallery') and not gal.get(v['gallery']): problems.append(f'{p["id"]}: day {n} gallery {v["gallery"]} is empty')
+        if v.get('gallery'): remote += [f'{p["id"]} day {n}: {ph["big"][:60]}' for ph in gal.get(v['gallery'], []) if ph['big'].startswith('http')]
+print(f'{len(problems)} photo/text problems' + (':\n' + '\n'.join(problems) if problems else ''))
+if remote: print(f'{len(remote)} photos not on our host (with day photos):\n' + '\n'.join(remote[:10]))

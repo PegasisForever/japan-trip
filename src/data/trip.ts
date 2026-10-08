@@ -3,6 +3,11 @@ import { plan } from './plan'
 
 export const { days, places } = plan
 
+/** The places as they are on this day (each visit with its own text and photos); the whole trip uses the places as they are */
+export function placesOf(day: Day | null): Record<string, Place> {
+  return (day && plan.dayPlaces[day.n]) || places
+}
+
 const at = (iso: string) => new Date(iso + 'T12:00:00')
 
 /** "Thu, Jan 21" */

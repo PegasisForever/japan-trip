@@ -12,10 +12,11 @@ import FoundView from '../shared/FoundView'
 import type { Found } from '../shared/search'
 import { Link } from 'framework7-react'
 import { plan } from '../data/plan'
+import { placesOf } from '../data/trip'
 import './strip.css'
 import './desktop.css'
 
-const { days, places } = plan
+const { days } = plan
 
 /** "#day-4" → day 4; no hash → the whole trip */
 function readHash(): number | null {
@@ -45,6 +46,8 @@ export default function DesktopApp() {
   const [dayN, setDayN] = useState<number | null>(readHash)
   const [hovered, setHovered] = useState<string | null>(null)
   const [selected, setSelected] = useState<string | null>(null)
+  // The visit picked in the timeline, when a place comes twice in the day (the airport)
+  const [pickedStop, setPickedStop] = useState<number | null>(null)
   const [hotLeg, setHotLeg] = useState<string | null>(null)
   // A place under the mouse in the timeline: its map pin lights up, without the pin's popup card
   const [lit, setLit] = useState<string | null>(null)
@@ -60,6 +63,8 @@ export default function DesktopApp() {
   const day = days.find((d) => d.n === dayN) ?? null
   // A link to a day that does not exist (#day-99) shows the whole trip, with its tab selected
   const curN = day?.n ?? null
+  // Each place as it is on this day (the airport on the way in or on the way home)
+  const places = placesOf(day)
 
   const pickDay = useCallback((n: number | null) => {
     setDayN(n)
@@ -145,7 +150,10 @@ export default function DesktopApp() {
           hovered={hovered}
           selected={selected}
           onHover={setLit}
-          onSelect={setSelected}
+          onSelect={(id, stop) => {
+            setSelected(id)
+            setPickedStop(stop ?? null)
+          }}
           onPickDay={pickDay}
           onHotLeg={setHotLeg}
           onFocusLeg={showLeg}
@@ -159,7 +167,7 @@ export default function DesktopApp() {
           </article>
         )}
         {selected && places[selected] && (
-          <PlaceDetail key={selected} place={places[selected]} day={day} onClose={() => setSelected(null)} />
+          <PlaceDetail key={selected} place={places[selected]} day={day} stopIndex={pickedStop} onClose={() => setSelected(null)} />
         )}
       </div>
     </App>

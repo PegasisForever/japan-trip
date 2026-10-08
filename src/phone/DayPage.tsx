@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { MODE_COLOR, MODE_LABEL } from '../data/style'
 import { photoUrl } from '../data/photos'
 import { buildTimeline, dayStart, fmtClock, fmtLength, mainRide, mealOf } from '../data/timeline'
-import { days, places, dateLong, legKey } from '../data/trip'
+import { days, placesOf, dateLong, legKey } from '../data/trip'
 import { pickOf, type Pick } from '../data/picks'
 import { MODE_ICON } from '../shared/modeIcon'
 import Icon from '../shared/Icon'
@@ -146,7 +146,7 @@ export default function DayPage({ f7route, f7router }: { f7route: Router.Route; 
             )
           }
           const st = seg.stop
-          const p = places[st.place]
+          const p = placesOf(day)[st.place]
           const meal = mealOf(st)
           const from = st.time && /\d/.test(st.time) ? st.time : fmtClock(seg.t0)
           if (st.end === 'night')

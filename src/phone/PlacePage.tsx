@@ -3,7 +3,7 @@ import type { Router } from 'framework7/types'
 import { KIND_LABEL } from '../data/style'
 import { photosFor } from '../data/gallery'
 import { mealOf } from '../data/timeline'
-import { days, places } from '../data/trip'
+import { days, places, placesOf } from '../data/trip'
 import { openDirections } from './directions'
 import { pickOf } from '../data/picks'
 import Gallery from '../shared/Gallery'
@@ -14,9 +14,10 @@ import PickTag from '../shared/PickTag'
  * The long background text, tips and links are folded away.
  */
 export default function PlacePage({ f7route }: { f7route: Router.Route }) {
-  const place = places[f7route.params.id ?? '']
-  if (!place) return <Page><Navbar title="Place" backLink /></Page>
   const day = days.find((d) => d.n === Number(f7route.query.day)) ?? null
+  // The place as it is on that day: the airport on the way in and on the way home tell different things
+  const place = placesOf(day)[f7route.params.id ?? ''] ?? places[f7route.params.id ?? '']
+  if (!place) return <Page><Navbar title="Place" backLink /></Page>
   // A place visited twice in a day (an airport) shows the plan of the visit that was tapped
   const stop = day?.stops[Number(f7route.query.stop)]?.place === place.id ? day.stops[Number(f7route.query.stop)] : day?.stops.find((s) => s.place === place.id)
   const meal = stop ? mealOf(stop) : null

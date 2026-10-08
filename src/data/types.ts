@@ -40,6 +40,18 @@ export interface Place {
   experience?: { hook: string; moments: string[]; tip?: string }
   /** Key of the extra photo gallery (defaults to id) */
   galleryKey?: string
+  /** What is different on one day of the plan (the airport on the way in and on the way home), by day number */
+  visits?: Record<string, Visit>
+}
+
+/** Text and photos of a place for one day; the rest comes from the place */
+export interface Visit {
+  blurb?: string
+  info?: { label: string; value: string }[]
+  tips?: string[]
+  experience?: Place['experience']
+  /** Key of the photo gallery for this day */
+  gallery?: string
 }
 
 export interface Stop {

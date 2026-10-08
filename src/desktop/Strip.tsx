@@ -7,6 +7,7 @@ import { buildTimeline, dayStart, fmtClock, fmtLength, mainRide, mealOf, stepsOf
 import Icon from '../shared/Icon'
 import PickTag from '../shared/PickTag'
 import { pickOf } from '../data/picks'
+import { placesOf } from '../data/trip'
 
 interface Props {
   day: Day | null
@@ -15,7 +16,8 @@ interface Props {
   hovered: string | null
   selected: string | null
   onHover: (id: string | null) => void
-  onSelect: (id: string) => void
+  /** A place card was clicked; stop is its index in the day's stops (a place can be visited twice in a day) */
+  onSelect: (id: string, stop?: number) => void
   onPickDay: (n: number) => void
   /** The travel block under the mouse, as "day-leg" ("4-2"), so the map can show its route */
   onHotLeg: (key: string | null) => void
@@ -86,9 +88,9 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
     ownHover.current = id
     onHover(id)
   }
-  const selectHere = (id: string) => {
+  const selectHere = (id: string, stop?: number) => {
     ownSelect.current = id
-    onSelect(id)
+    onSelect(id, stop)
   }
 
   useEffect(() => {
@@ -103,7 +105,7 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
     return (
       <nav className="strip" ref={rail} aria-label="Days">
         {days.map((d) => {
-          const p = places[d.cover]
+          const p = placesOf(d)[d.cover]
           return (
             <button
               key={d.n}
@@ -152,7 +154,7 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
   const sleep = day.sleep ? places[day.sleep] : null
   const next = days.find((d) => d.n === day.n + 1)
   const morning = next ? dayStart(next) : null
-  const morningPlace = morning ? places[morning.stop.place] : null
+  const morningPlace = next && morning ? placesOf(next)[morning.stop.place] : null
   const morningMeal = morning ? mealOf(morning.stop) : null
   const NIGHT_W = 210
 
@@ -244,7 +246,7 @@ export default function Strip({ day, days, places, hovered, selected, onHover, o
                 onMouseLeave={() => hoverHere(null)}
                 onFocus={() => hoverHere(st.place)}
                 onBlur={() => hoverHere(null)}
-                onClick={() => selectHere(st.place)}
+                onClick={() => selectHere(st.place, seg.index)}
               >
                 <Cover place={p} size={480} />
                 <span className="card-shade" />

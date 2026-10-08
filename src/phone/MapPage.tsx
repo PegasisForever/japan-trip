@@ -3,7 +3,7 @@ import type { Router } from 'framework7/types'
 import { useEffect, useMemo, useRef } from 'react'
 import MapView, { type Pad } from '../shared/MapView'
 import { plan } from '../data/plan'
-import { days, places, dateShort, dateLong, stopOrder } from '../data/trip'
+import { days, placesOf, dateShort, dateLong, stopOrder } from '../data/trip'
 import { photoUrl } from '../data/photos'
 import { buildTimeline, legsBeforeStops, mainRide, mealOf, minutes, fmtClock, fmtLength } from '../data/timeline'
 import { KIND_LABEL, MODE_COLOR } from '../data/style'
@@ -32,6 +32,7 @@ function frame(): Pad {
 /** Each place of the day once, in visiting order, numbered like its pin */
 function cardsOf(day: Day): Card[] {
   const out: Card[] = []
+  const places = placesOf(day)
   const seen = new Set<string>()
   const order = stopOrder(day)
   const { before } = legsBeforeStops(day)
@@ -94,6 +95,7 @@ function middleIndex(el: HTMLElement) {
 export default function MapPage({ f7router }: { f7router: Router.Router }) {
   const { mapDay, mapPlace, focusLeg, refit, reselect, hot, found, search } = usePhone()
   const day = days.find((d) => d.n === mapDay) ?? days[0]
+  const places = placesOf(day)
   const cards = useMemo(() => cardsOf(day), [day])
   const deck = useRef<HTMLDivElement>(null)
   const pager = useRef<HTMLDivElement>(null)

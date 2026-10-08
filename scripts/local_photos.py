@@ -15,6 +15,8 @@ for p in plan['places']:
     if p['id'] not in used: continue
     keys.add(p['id'])
     if p.get('ref'): keys |= {p['ref'], p['ref'].replace('plan-', '', 1)}
+    # A day can show its own photos (the airport on the way home)
+    keys |= {v['gallery'] for v in p.get('visits', {}).values() if v.get('gallery')}
 
 for d in ('g', 'm/g', 't/g'): os.makedirs(f'{ROOT}/public/photos/{d}', exist_ok=True)
 

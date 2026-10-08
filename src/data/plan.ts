@@ -24,9 +24,15 @@ function withPhoto(raw: Plan['places'][number], sharedRef: boolean): Place {
   // Several places made from one idea (Meiji Jingu, Takeshita, PARCO): each shows its own photos, not the idea's one photo
   const own = sharedRef ? firstPhoto(p.id) : undefined
   if (own) return { ...p, photo: own.src, credit: own.credit, galleryKey: p.id } as Place
-  for (const key of [p.ref, p.id].filter(Boolean) as string[]) {
+  const keys = [p.ref, p.id].filter(Boolean) as string[]
+  for (const key of keys) {
     const k = key.replace(/^plan-/, '')
     if (OLD[k]) return { ...p, photo: `${k}.jpg`, credit: OLD[k], id: p.id, galleryKey: k } as Place
+  }
+  // The place's own photos before the idea's one photo: an idea is often a whole route (Hanz shows the villa, not a lake)
+  const mine = firstPhoto(p.id)
+  if (mine) return { ...p, photo: mine.src, credit: mine.credit, galleryKey: p.id } as Place
+  for (const key of keys) {
     if (IDEA[key]) return { ...p, photo: `ideas/${key}.jpg`, credit: IDEA[key], id: p.id, galleryKey: key } as Place
   }
   const key = p.ref ?? p.id
@@ -36,7 +42,18 @@ function withPhoto(raw: Plan['places'][number], sharedRef: boolean): Place {
 
 export interface LoadedPlan extends Omit<Plan, 'places'> {
   places: Record<string, Place>
+  /** The places as they are on each day: a place with a visit on that day shows the text and photos of that visit */
+  dayPlaces: Record<number, Record<string, Place>>
   routes: Record<string, [number, number][]>
+}
+
+/** The place on day n: the visit's text and photos over the place's own */
+function onDay(p: Place, n: number): Place {
+  const v = p.visits?.[n]
+  if (!v) return p
+  const { gallery, ...text } = v
+  const first = gallery ? firstPhoto(gallery) : null
+  return { ...p, ...text, ...(first ? { photo: first.src, credit: first.credit, galleryKey: gallery } : {}) }
 }
 
 /** Photo for the day card: the given cover, else the first real sight of the day that has a photo */
@@ -75,10 +92,14 @@ const raw = planJson as unknown as Plan
 const refCount: Record<string, number> = {}
 for (const p of raw.places) if (p.ref) refCount[p.ref] = (refCount[p.ref] ?? 0) + 1
 const places = Object.fromEntries(raw.places.map((p) => [p.id, withPhoto(p, !!p.ref && refCount[p.ref] > 1)]))
+const dayPlaces = Object.fromEntries(
+  raw.days.map((d) => [d.n, Object.fromEntries(Object.entries(places).map(([id, p]) => [id, onDay(p, d.n)]))]),
+)
 
 export const plan: LoadedPlan = {
   ...raw,
-  days: raw.days.map((d) => withEnds({ ...d, cover: coverOf(d, places) })),
+  days: raw.days.map((d) => withEnds({ ...d, cover: coverOf(d, dayPlaces[d.n]) })),
   places,
+  dayPlaces,
   routes: planRoutes as unknown as Record<string, [number, number][]>,
 }

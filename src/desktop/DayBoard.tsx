@@ -2,7 +2,7 @@ import { List, ListItem, Block, Link } from 'framework7-react'
 import type { Day } from '../data/types'
 import { REGION } from '../data/style'
 import { dayStart, mealOf } from '../data/timeline'
-import { days, places, dateLong } from '../data/trip'
+import { days, placesOf, dateLong } from '../data/trip'
 
 interface Props {
   day: Day
@@ -15,11 +15,11 @@ export default function DayBoard({ day, onPick, onSelect }: Props) {
   const prev = days.find((d) => d.n === day.n - 1)
   const next = days.find((d) => d.n === day.n + 1)
   const region = REGION[day.region]
-  const sleep = day.sleep ? places[day.sleep] : null
+  const sleep = day.sleep ? placesOf(day)[day.sleep] : null
   const start = dayStart(day).time
   // The next morning, so the alarm time is visible the evening before
   const morning = next ? dayStart(next) : null
-  const morningPlace = morning ? places[morning.stop.place] : null
+  const morningPlace = next && morning ? placesOf(next)[morning.stop.place] : null
   const morningMeal = morning ? mealOf(morning.stop) : null
 
   return (

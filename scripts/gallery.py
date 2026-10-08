@@ -4,7 +4,8 @@
   python3 gallery.py search ID "query" ["query"...]  # collect up to 15 candidates, prints a contact sheet path
         a query may be "Category:Nakano Broadway" to list that Commons category
   python3 gallery.py pick ID 3 7 1 ...             # save chosen candidates (in this order) for ID
-  python3 gallery.py build                         # merge all picks into src/data/gallery.json
+  python3 gallery.py merge ID [ID+ ...]           # put the picks of these ids into src/data/gallery.json (ID+ keeps the old ones after)
+  python3 gallery.py build                         # rebuild src/data/gallery.json from all picks (loses local copies and listing photos)
 Photos are linked from Wikimedia's servers (not downloaded), in two sizes.
 """
 import json, os, re, sys, time, subprocess, urllib.request, urllib.parse, hashlib
@@ -97,6 +98,18 @@ elif cmd=='pick':
     chosen=[cands[int(i)] for i in sys.argv[3:]]
     json.dump(chosen,open(f'{P}/{pid}.json','w'),ensure_ascii=False,indent=1)
     print('saved',len(chosen),'photos for',pid)
+elif cmd=='merge':
+    # Put the picks of these ids into src/data/gallery.json without touching the other galleries
+    # ("build" rewrites the whole file and loses the local copies); "ID+" keeps the old photos after the new ones
+    gf=os.path.join(HERE,'../src/data/gallery.json'); gal=json.load(open(gf))
+    for arg in sys.argv[2:]:
+        pid=arg.rstrip('+')
+        new=[{'big':thumb(c['title'],1920,c['w']),'mid':thumb(c['title'],960,c['w']),**{k:c[k] for k in ('url','author','license','title')}} for c in json.load(open(f'{P}/{pid}.json'))]
+        old=[o for o in gal.get(pid,[]) if o.get('title') not in {n['title'] for n in new}] if arg.endswith('+') else []
+        gal[pid]=new+old
+        print(pid,len(gal[pid]),'photos')
+    json.dump(gal,open(gf,'w'),ensure_ascii=False,indent=1)
+    print('now run local_photos.py to copy them to our host')
 elif cmd=='build':
     out={}
     for f in sorted(os.listdir(P)):

@@ -55,9 +55,11 @@ let workerDone = false
 const workerReady: Promise<void> = fetch(workerUrl, { headers: { 'ngrok-skip-browser-warning': '1' } })
   .then((r) => {
     if (!r.ok || (r.headers.get('content-type') ?? '').includes('html')) throw new Error('worker script not loaded')
-    return r.blob()
+    return r.text()
   })
-  .then((b) => maplibregl.setWorkerUrl(URL.createObjectURL(new Blob([b], { type: 'text/javascript' }))))
+  // In dev the worker imports other files by path ("/node_modules/…"); a blob cannot find them, so make the paths full addresses
+  .then((code) => code.replace(/((?:\bfrom|\bimport)\s*["'])(\.{0,2}\/)/g, (_, head: string, path: string) => head + new URL(path, new URL(workerUrl, location.href)).href))
+  .then((code) => maplibregl.setWorkerUrl(URL.createObjectURL(new Blob([code], { type: 'text/javascript' }))))
   .catch(() => maplibregl.setWorkerUrl(workerUrl))
   .then(() => {
     workerDone = true

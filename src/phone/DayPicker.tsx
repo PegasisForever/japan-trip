@@ -1,6 +1,6 @@
 import { Sheet, PageContent } from 'framework7-react'
 import { useRef } from 'react'
-import { days, places, dateLong, today, tripRange } from '../data/trip'
+import { days, placesOf, dateLong, today, tripRange } from '../data/trip'
 import { photoUrl } from '../data/photos'
 import { REGION } from '../data/style'
 import type { Day } from '../data/types'
@@ -56,8 +56,8 @@ export default function DayPicker() {
               <h3 style={{ '--rc': REGION[run[0].region].color } as React.CSSProperties}>{REGION[run[0].region].en}</h3>
               <div className="picker-grid">
                 {run.map((d) => {
-                  const c = places[d.cover]
-                  const sleep = d.sleep ? places[d.sleep] : null
+                  const c = placesOf(d)[d.cover]
+                  const sleep = d.sleep ? placesOf(d)[d.sleep] : null
                   return (
                     <button
                       key={d.n}

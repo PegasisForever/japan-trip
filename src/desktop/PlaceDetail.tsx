@@ -11,12 +11,15 @@ import { mapLinks } from '../data/trip'
 interface Props {
   place: Place
   day: Day | null
+  /** The visit picked in the timeline; else the first visit of the day */
+  stopIndex?: number | null
   onClose: () => void
 }
 
 /** Right panel for one place */
-export default function PlaceDetail({ place, day, onClose }: Props) {
-  const stop = day?.stops.find((s) => s.place === place.id)
+export default function PlaceDetail({ place, day, stopIndex, onClose }: Props) {
+  const picked = stopIndex != null ? day?.stops[stopIndex] : undefined
+  const stop = picked?.place === place.id ? picked : day?.stops.find((s) => s.place === place.id)
   const meal = stop ? mealOf(stop) : null
   const photos = photosFor(place.galleryKey ?? place.id, place.photo, place.credit)
   const links = mapLinks(place)
