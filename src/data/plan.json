@@ -2401,6 +2401,10 @@
       "blurb": "Top Matsusaka beef grilled at your table, in the old stone lane of Hozenji Yokocho next to Dotonbori. The special dinner of the trip.",
       "info": [
         {
+          "label": "Booked",
+          "value": "Tue Jan 26, 19:00, 2 people (TableCheck). Pay at the table; 2 hours per table; be there within 15 min of 19:00"
+        },
+        {
           "label": "Price",
           "value": "6-cut platter ¥11,880 per person (official menu)"
         },
@@ -2410,7 +2414,8 @@
         }
       ],
       "tips": [
-        "Everything is cooked on the grill: fine for Aoki."
+        "Everything is cooked on the grill: fine for Aoki.",
+        "Both of you must be there to sit down. To change the time, phone the restaurant."
       ]
     },
     {
@@ -4776,13 +4781,13 @@
         },
         {
           "place": "ebisubashi",
-          "time": "18:10",
+          "time": "18:40",
           "note": "Glico sign and the canal at night."
         },
         {
           "place": "matsusaka-m",
-          "time": "18:30",
-          "note": "Dinner: top Matsusaka beef grilled at your table, the special meal of the trip (booked on TableCheck)."
+          "time": "19:00",
+          "note": "Dinner: top Matsusaka beef grilled at your table, the special meal of the trip (booked for 19:00; be on time, the table is given away after 15 min)."
         }
       ],
       "legs": [
