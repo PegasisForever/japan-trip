@@ -2,7 +2,7 @@
   "id": "trip",
   "name": "Tokyo → Osaka → Hokkaido",
   "tagline": "Always together: 4 nights in Shinjuku, one short Hakone–Fuji car trip, an Osaka apartment with a night in Nagoya and a last ryokan night in Nara Park, and 4 nights in Hokkaido.",
-  "summary": "4 nights in Nishi-Shinjuku with a slow Akihabara day, a full anime day and a Type R day: Pegasis drives a Civic Type R to Yako, Kawasaki, Yokohama Chinatown and Daikoku, then swaps it for a Toyota with winter tyres for the Turnpike and Fuji. One Fuji-view villa night, then the car goes back at Mishima and a direct Kodama takes you to Osaka for the Nara hill fire. Suzuka, then one night in Nagoya and a full day at Ghibli Park; back in Osaka for Nintendo, Pokémon and the game floors of Umeda and Shinsaibashi, Den Den Town and a Matsusaka beef dinner, and a last ryokan night inside Nara Park. An ANA flight from Itami to Hokkaido: 2 nights in a container house in Niseko town and 2 full days of skiing (Pegasis teaches Aoki), then 2 nights in Sapporo, and an ANA flight to Narita for both flights home. You do everything together, every meal has a named place, and every train and bus has its departure time.",
+  "summary": "4 nights in Nishi-Shinjuku with a slow Akihabara day, a full anime day and a Type R day: Pegasis drives a Civic Type R to Yako, Kawasaki, Yokohama Chinatown and Daikoku, then swaps it for a Toyota with winter tyres for the Turnpike and Fuji. One Fuji-view villa night, then the car goes back at Mishima and a direct Kodama takes you to Osaka for the Nara hill fire. Suzuka, then one night in Nagoya and a full day at Ghibli Park; back in Osaka for Nintendo, Pokémon and the game floors of Umeda and Shinsaibashi, Den Den Town and a Matsusaka beef dinner, and a last ryokan night inside Nara Park. An ANA flight from Itami to Hokkaido: 2 nights in a container house in Niseko town and 2 full days on the snow (Pegasis skis, Aoki learns to snowboard), then 2 nights in Sapporo, and an ANA flight to Narita for both flights home. You do everything together, every meal has a named place, and every train and bus has its departure time.",
   "places": [
     {
       "id": "narita",
@@ -1545,27 +1545,23 @@
       "lat": 42.86197,
       "lon": 140.69839,
       "kind": "ski",
-      "blurb": "The official rental shop at the Ace Gondola base. Rent skis, boots, poles, helmet and the ski jacket and pants here, and leave them in the daily storage overnight. Gloves and goggles you buy in Kutchan.",
+      "blurb": "The official rental shop at the Ace Gondola base. Your gear is booked and paid: skis, poles, boots and helmet for Pegasis; a snowboard, boots and helmet for Aoki. Leave it in the daily storage overnight. Bring your own jacket, pants, gloves and goggles.",
       "info": [
         {
           "label": "Hours",
           "value": "08:00 until lifts close (Nov 28 – May 5)"
         },
         {
-          "label": "Skis + boots + poles",
-          "value": "Standard ¥8,500 for 1 day, ¥15,300 for 2 days"
+          "label": "Booked",
+          "value": "Fri Jan 29 – Sat Jan 30, 2 days: Pegasis skis + poles + boots (L) and helmet; Aoki snowboard + boots (L) and helmet, regular stance"
         },
         {
-          "label": "Ski wear",
-          "value": "Jacket + pants ¥16,200 for 2 days (without goggles, gloves, beanie)"
+          "label": "Price",
+          "value": "¥37,260 for both, paid online (¥41,400 less the 10% early code)"
         },
         {
-          "label": "Helmet",
-          "value": "¥5,400 for 2 days"
-        },
-        {
-          "label": "Your set, 2 days",
-          "value": "¥36,900 per person, ¥33,210 with the 10% early code (2026-27 price list)"
+          "label": "At the counter",
+          "value": "Show the QR code from the booking email (from @tokyu-rs.co.jp) and a photo ID"
         }
       ],
       "tips": [
@@ -1574,7 +1570,7 @@
       "visits": {
         "12": {
           "tips": [
-            "Pick up the reserved set: skis, boots, poles, helmet, jacket + pants. Wear your own gloves and goggles.",
+            "Pick up the reserved gear: skis for Pegasis, a snowboard for Aoki, boots and helmets. Show the QR code from the booking email and a photo ID. Wear your own jacket, pants, gloves and goggles.",
             "Buy lift tickets at the counter or online the day before.",
             "Leave all the gear in the daily storage at 15:50 for tomorrow."
           ]
@@ -1596,7 +1592,7 @@
       "lat": 42.85835,
       "lon": 140.70201,
       "kind": "ski",
-      "blurb": "The biggest Niseko slope, with light powder and Mt Yotei across the valley. Pegasis teaches Aoki on the beginner area on both days.",
+      "blurb": "The biggest Niseko slope, with light powder and Mt Yotei across the valley. Aoki learns to snowboard on the beginner area on both days, with Pegasis on skis next to Aoki.",
       "info": [
         {
           "label": "Lift ticket 2026–27 (Peak season, Dec 24 – Feb 28)",
@@ -1608,12 +1604,12 @@
         },
         {
           "label": "Lesson",
-          "value": "None: Pegasis teaches Aoki (a paid group lesson is in Japanese only)"
+          "value": "None booked: Pegasis helps Aoki (a paid group lesson is in Japanese only)"
         }
       ],
       "tips": [
         "Pegasis: stay on marked runs; the gates to the backcountry need avalanche gear.",
-        "Start Aoki on the flat part at the bottom of the Ace Family area: walking with skis, snowplough, stopping; ride the lift only after that."
+        "Start Aoki on the flat part at the bottom of the Ace Family area: one foot in the binding to push and glide, then side-slip on the heel edge to slow down and stop; ride the lift only after that."
       ],
       "experience": {
         "hook": "Light powder snow with Mt Yotei standing across the valley.",
@@ -1627,23 +1623,23 @@
       "visits": {
         "12": {
           "experience": {
-            "hook": "Aoki's first ski day: Pegasis teaches on the beginner area.",
+            "hook": "Aoki's first snowboard day on the beginner area, with Pegasis on skis.",
             "moments": [
-              "Start on the flat part at the bottom of the Ace Family area: walking with skis on.",
-              "Practise the snowplough: skis in a V to slow down and stop.",
-              "Ride the Ace Family lift and come down slowly in long turns.",
+              "Start on the flat part at the bottom of the Ace Family area: one foot in the binding, push and glide.",
+              "Practise the side-slip on the heel edge to slow down and stop.",
+              "Ride the Ace Family lift and come down slowly from edge to edge.",
               "Afternoon runs together until 15:50."
             ],
-            "tip": "Short breaks often: the first day on skis is tiring, and cold hands make it harder."
+            "tip": "Short breaks often: the first day on a snowboard means many falls, and cold hands make it harder."
           }
         },
         "13": {
           "experience": {
-            "hook": "Aoki's second day on skis, all day, before the road to Sapporo.",
+            "hook": "Aoki's second day on the snowboard, all day, before the road to Sapporo.",
             "moments": [
               "Take the gear out of storage and buy a 1-day ticket.",
               "Morning on the Ace Family area: Aoki practises turns and stopping.",
-              "After lunch, ski longer easy runs together if Aoki feels ready.",
+              "After lunch, take longer easy runs together if Aoki feels ready.",
               "Look back at Mt Yotei from the top of the lift."
             ],
             "tip": "Stop at 15:00: you return the gear and drive to Sapporo while it is still light."
@@ -5084,10 +5080,10 @@
       "region": "hokkaido",
       "short": "Ski Hirafu",
       "cover": "niseko",
-      "title": "Grand Hirafu: rent everything, Pegasis teaches Aoki to ski",
+      "title": "Grand Hirafu: rented gear, Aoki's first snowboard day",
       "titleJa": "ニセコ東急 グラン・ヒラフ（レンタル・初心者エリア）",
       "romaji": "Niseko Tōkyū Guran Hirafu",
-      "summary": "Rent all the gear at .Base and ski together all day on the Ace Family beginner area: Pegasis teaches Aoki. Lunch in an old lodge on the slope, back in Kutchan before dark.",
+      "summary": "Pick up the booked gear at .Base and spend all day together on the Ace Family beginner area: Aoki learns to snowboard, Pegasis skis. Lunch in an old lodge on the slope, back in Kutchan before dark.",
       "temp": "−10 – −4 °C",
       "alerts": [
         "Leave the container house at 10:30; take your gloves and goggles."
@@ -5101,12 +5097,12 @@
         {
           "place": "hirafu-base",
           "time": "11:00",
-          "note": "Pick up the reserved rental: skis, boots, poles, helmet, jacket + pants. Buy lift tickets. Wear your own gloves and goggles."
+          "note": "Pick up the booked rental (QR code in the email): skis for Pegasis, a snowboard for Aoki, boots, helmets. Buy lift tickets. Wear your own jacket, pants, gloves and goggles."
         },
         {
           "place": "niseko",
           "time": "11:45",
-          "note": "Pegasis teaches Aoki on the Ace Family area: walking on skis, snowplough, stopping, then the Ace Family lift."
+          "note": "Aoki's first snowboard lessons on the Ace Family area with Pegasis: push and glide, side-slip, stopping, then the Ace Family lift."
         },
         {
           "place": "boyoso-hirafu",
@@ -5189,7 +5185,7 @@
       "title": "A full ski day at Hirafu, Nakayama Pass to Sapporo, Jingisukan",
       "titleJa": "ニセコ グラン・ヒラフ → 中山峠 → 札幌",
       "romaji": "Niseko Gran Hirafu → Nakayama-tōge → Sapporo",
-      "summary": "Check out with all the bags in the car and ski together all day at Hirafu: Aoki's second day on skis, with lunch at the gondola base. Return the gear at 15:15, then drive over Nakayama Pass to Sapporo, put the car in the hotel car park, and eat Jingisukan at Daruma.",
+      "summary": "Check out with all the bags in the car and ride together all day at Hirafu: Aoki's second day on the snowboard, with lunch at the gondola base. Return the gear at 15:15, then drive over Nakayama Pass to Sapporo, put the car in the hotel car park, and eat Jingisukan at Daruma.",
       "temp": "−10 – −3 °C",
       "alerts": [
         "Check out at 09:30 with all the bags in the car (Saturday: park at Hirafu lot 1).",
@@ -5210,7 +5206,7 @@
         {
           "place": "niseko",
           "time": "10:15",
-          "note": "Ski together until 12:15 on the Ace Family area."
+          "note": "Ride together until 12:15 on the Ace Family area."
         },
         {
           "place": "powderhood-hirafu",
