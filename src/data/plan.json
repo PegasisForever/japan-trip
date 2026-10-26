@@ -830,7 +830,7 @@
         },
         {
           "label": "Your visit",
-          "value": "About 09:15, in the morning light"
+          "value": "About 09:00, in the morning light"
         }
       ],
       "tips": [
@@ -933,8 +933,8 @@
           "value": "1-10-25 Bunkyo-cho, Mishima"
         },
         {
-          "label": "One-way",
-          "value": "Accepted from other prefectures; Matsudo (Chiba) → here: check the price (from Kawasaki it was ¥8,800)"
+          "label": "Return",
+          "value": "By 11:30 Sat Jan 23 (booked); pay the ETC tolls here"
         },
         {
           "label": "Train",
@@ -3673,11 +3673,11 @@
       "lat": 35.78334,
       "lon": 139.89995,
       "kind": "car",
-      "blurb": "The car for the mountains: a compact Toyota with studless winter tyres, from Jan 22 morning to Mishima on Jan 23. 4 km from the Katsuta shop.",
+      "blurb": "The car for the mountains: a compact Toyota (C1 class) with studless winter tyres and an ETC card, from Jan 22 at 09:00 to Mishima on Jan 23 at 11:30. Booked and paid. 4 km from the Katsuta shop.",
       "info": [
         {
           "label": "Hours",
-          "value": "Closes 20:00 (Google Maps); check the opening time (most Toyota shops open 08:00)"
+          "value": "08:00–20:00"
         },
         {
           "label": "Address",
@@ -3689,11 +3689,11 @@
         },
         {
           "label": "Rent",
-          "value": "Fri Jan 22 about 09:15 → Sat Jan 23 11:40 at Mishima"
+          "value": "Booked: Fri Jan 22 09:00 → Sat Jan 23 11:30 at Mishima"
         },
         {
-          "label": "Price (C1 compact)",
-          "value": "24 h ¥10,340 + extra hours · studless tyres ¥2,200 per 24 h · one-way Chiba → Mishima: check the Toyota one-way price · damage waiver extra"
+          "label": "Price",
+          "value": "¥35,310, paid online (car, one-way, studless tyres, damage cover, ETC card); tolls on the ETC card are paid at Mishima"
         },
         {
           "label": "Licence",
@@ -3701,7 +3701,7 @@
         }
       ],
       "tips": [
-        "Ask: one-way return to Mishima Shinkansen-guchi is OK."
+        "Bring the licence, the IDP, the passport with the landing stamp and the MasterCard you paid with."
       ]
     }
   ],
@@ -4279,7 +4279,7 @@
         {
           "place": "toyota-matsudo",
           "time": "09:15",
-          "note": "Pick up the Toyota (studless tyres, ETC), 15 min."
+          "note": "Pick up the Toyota (booked from 09:00; studless tyres, ETC), 15 min."
         },
         {
           "place": "taikanzan",
@@ -4402,29 +4402,29 @@
       "summary": "Fuji across Lake Kawaguchi and at the Yuru Camp lake in the clear morning, the car back at Mishima, then one Kodama to Osaka with a sukiyaki bento. The suitcases from the Yamato office, a short rest at the apartment, then the Nara hill fire in the evening.",
       "temp": "−6 – 9 °C",
       "alerts": [
-        "Leave the villa at 09:00; car back at Mishima by 11:40.",
+        "Leave the villa at 08:45; the car must be back at Mishima by 11:30 (booked).",
         "Wakakusa Yamayaki: fireworks 18:15, fire 18:30 (cancelled only in bad weather)."
       ],
       "stops": [
         {
           "place": "hanz",
           "time": "08:00",
-          "note": "Breakfast: the skillet set, cooked at the villa."
+          "note": "Breakfast: the skillet set, cooked at the villa. Leave at 08:45."
         },
         {
           "place": "lake-kawaguchi",
-          "time": "09:15",
-          "note": "Fuji across the lake in the clear morning, 25 min (Aoki's pick)."
+          "time": "09:00",
+          "note": "Fuji across the lake in the clear morning, 15 min (Aoki's pick)."
         },
         {
           "place": "koan",
-          "time": "10:00",
+          "time": "09:50",
           "note": "Yuru Camp ep 1 view of Fuji (the ¥1,000 note), 15 min (Aoki's pick)."
         },
         {
           "place": "toyota-mishima",
-          "time": "11:35",
-          "note": "Return the car with a full tank."
+          "time": "11:25",
+          "note": "Return the car with a full tank, by 11:30."
         },
         {
           "place": "tochuken-mishima",
@@ -4452,7 +4452,7 @@
           "from": "hanz",
           "to": "lake-kawaguchi",
           "mode": "drive",
-          "label": "Drive, Route 139 → lake shore road to the north shore (Oishi Park), leave 09:00",
+          "label": "Drive, Route 139 → lake shore road to the north shore (Oishi Park), leave 08:45",
           "duration": "15 min"
         },
         {
