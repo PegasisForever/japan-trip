@@ -2,7 +2,7 @@
   "id": "trip",
   "name": "Tokyo → Osaka → Hokkaido",
   "tagline": "Always together: 4 nights in Shinjuku, one short Hakone–Fuji car trip, an Osaka apartment with a night in Nagoya and a last ryokan night in Nara Park, and 4 nights in Hokkaido.",
-  "summary": "4 nights in Nishi-Shinjuku with a slow Akihabara day, a full anime day and a Type R day: Pegasis drives a Civic Type R to Yako, Kawasaki, Yokohama Chinatown and Daikoku, then swaps it for a Toyota with winter tyres for the Turnpike and Fuji. One Fuji-view villa night, then the car goes back at Mishima and a direct Kodama takes you to Osaka for the Nara hill fire. Suzuka, then one night in Nagoya and a full day at Ghibli Park; back in Osaka for Nintendo, Pokémon and the game floors of Umeda and Shinsaibashi, Den Den Town and a Matsusaka beef dinner, and a last ryokan night inside Nara Park. A JAL flight from Itami to Hokkaido: 2 nights in a container house in Niseko town for skiing (Pegasis teaches Aoki), the Rusutsu drift course, then 2 nights in Sapporo, and a Peach flight to Narita for both flights home. You do everything together, every meal has a named place, and every train and bus has its departure time.",
+  "summary": "4 nights in Nishi-Shinjuku with a slow Akihabara day, a full anime day and a Type R day: Pegasis drives a Civic Type R to Yako, Kawasaki, Yokohama Chinatown and Daikoku, then swaps it for a Toyota with winter tyres for the Turnpike and Fuji. One Fuji-view villa night, then the car goes back at Mishima and a direct Kodama takes you to Osaka for the Nara hill fire. Suzuka, then one night in Nagoya and a full day at Ghibli Park; back in Osaka for Nintendo, Pokémon and the game floors of Umeda and Shinsaibashi, Den Den Town and a Matsusaka beef dinner, and a last ryokan night inside Nara Park. An ANA flight from Itami to Hokkaido: 2 nights in a container house in Niseko town and 2 full days of skiing (Pegasis teaches Aoki), then 2 nights in Sapporo, and an ANA flight to Narita for both flights home. You do everything together, every meal has a named place, and every train and bus has its departure time.",
   "places": [
     {
       "id": "narita",
@@ -17,7 +17,7 @@
       "info": [
         {
           "label": "Terminal",
-          "value": "Terminal 1 for all your flights (WestJet, Air China, Peach)"
+          "value": "Terminal 1 for all your flights (WestJet, Air China, ANA from Sapporo)"
         },
         {
           "label": "To Tokyo",
@@ -64,11 +64,11 @@
           }
         },
         "15": {
-          "blurb": "The way home. You land from Sapporo at 13:50 (Peach, Terminal 1), shop and eat together, then check in for your flights home from the same terminal: Pegasis WestJet WS81 at 18:30, Aoki Air China CA920 at 19:30.",
+          "blurb": "The way home. You land from Sapporo at 14:30 (ANA, Terminal 1), shop and eat together, then check in for your flights home from the same terminal: Pegasis WestJet WS81 at 18:30, Aoki Air China CA920 at 19:30.",
           "info": [
             {
               "label": "Arrive",
-              "value": "Peach MM576 from New Chitose, 13:50, Terminal 1 (domestic)"
+              "value": "ANA NH2152 from New Chitose, 14:30, Terminal 1 (domestic)"
             },
             {
               "label": "Pegasis",
@@ -94,7 +94,7 @@
           "experience": {
             "hook": "The last afternoon in Japan: shop, eat together, then fly home.",
             "moments": [
-              "Land from Sapporo at 13:50 and leave the suitcases in a locker or the baggage room.",
+              "Land from Sapporo at 14:30 and leave the suitcases in a locker or the baggage room.",
               "Shop for souvenirs, snacks and Japan-only goods in Terminal 1.",
               "Eat a last dinner together on the restaurant floor (Central Building 4F–5F).",
               "Pegasis checks in at 15:15, Aoki at 16:30; say goodbye at about 17:00."
@@ -1303,29 +1303,29 @@
       "lat": 34.78556,
       "lon": 135.43806,
       "kind": "airport",
-      "blurb": "The city airport for domestic flights. Small and fast; JAL includes a 20 kg bag. The airport bus from Nara stops at the JAL North Terminal.",
+      "blurb": "The city airport for domestic flights. Small and fast; ANA includes 1 checked bag. ANA uses the South Terminal: get off the airport bus there.",
       "info": [
         {
           "label": "Flight",
-          "value": "JAL 11:45 → New Chitose 13:30, Thu Jan 28 (20 kg bag each included)"
+          "value": "ANA NH1089 11:55 → New Chitose 13:45, Thu Jan 28 (1 checked bag included)"
         },
         {
           "label": "Bus",
-          "value": "Nara Kotsu airport bus, JR Nara (East exit, stop 4) 09:15 → Itami North Terminal (JAL) 10:46, ¥1,750 (narakotsu.co.jp, Sep 27, 2026)"
+          "value": "Nara Kotsu airport bus, JR Nara (East exit, stop 4) 09:15 → Itami Airport about 10:46 (get off at the South Terminal, ANA), ¥1,750 (narakotsu.co.jp, Sep 27, 2026)"
         }
       ],
       "tips": [
         "Bag drop closes 20 min before departure."
       ],
       "experience": {
-        "hook": "The easy airport: one JAL flight to Hokkaido.",
+        "hook": "The easy airport: one ANA flight to Hokkaido.",
         "moments": [
-          "Get off the airport bus at the North Terminal (JAL).",
-          "Drop the bags at the JAL counter (20 kg each included).",
+          "Get off the airport bus at the South Terminal (ANA).",
+          "Drop the bags at the ANA counter (1 checked bag included).",
           "Buy a bento, onigiri or 551 pork buns for lunch at the gate.",
           "Fly north and watch the snow start below."
         ],
-        "tip": "JAL closes bag drop 20 min before departure: you have about 40 min spare."
+        "tip": "ANA closes bag drop 20 min before departure: you have about 50 min spare."
       }
     },
     {
@@ -1353,19 +1353,19 @@
       ],
       "visits": {
         "11": {
-          "blurb": "You land from Itami at 13:30 (JAL, domestic terminal), take the bags and meet HAYAKU RENT A CAR for the WRX STI.",
+          "blurb": "You land from Itami at 13:45 (ANA, domestic terminal), take the bags and meet HAYAKU RENT A CAR for the WRX STI.",
           "info": [
             {
               "label": "Arrive",
-              "value": "JAL from Itami, 13:30, domestic terminal"
+              "value": "ANA NH1089 from Itami, 13:45, domestic terminal"
             },
             {
               "label": "Bags",
-              "value": "20 kg per person included (JAL)"
+              "value": "1 checked bag included (ANA)"
             },
             {
               "label": "Car",
-              "value": "HAYAKU RENT A CAR meets you at about 14:00 (place agreed by email)"
+              "value": "HAYAKU RENT A CAR meets you at about 14:15 (place agreed by email)"
             }
           ],
           "tips": [
@@ -1373,15 +1373,15 @@
           ]
         },
         "15": {
-          "blurb": "The flight to Narita: Peach MM576 at 12:00 from the domestic terminal. Drop the bags at the Peach counter, then buy a Hokkaido ekiben (boxed lunch) for the plane.",
+          "blurb": "The flight to Narita: ANA NH2152 at 12:40 from the domestic terminal. Drop the bags at the ANA counter, then buy a Hokkaido ekiben (boxed lunch) for the plane.",
           "info": [
             {
               "label": "Flight",
-              "value": "Peach MM576, New Chitose 12:00 → Narita Terminal 1 13:50"
+              "value": "ANA NH2152, New Chitose 12:40 → Narita Terminal 1 14:30"
             },
             {
               "label": "Bags",
-              "value": "Checked bags booked with the ticket; be at the Peach counter by about 11:15"
+              "value": "1 checked bag included (ANA); bag drop closes 12:20"
             },
             {
               "label": "Lunch",
@@ -1393,7 +1393,7 @@
             }
           ],
           "tips": [
-            "Peach is strict about bag weight and size: weigh the bags at the hotel or at the airport scales first."
+            "If snow delays the flight, ask ANA for the next ANA flight and say you fly home from Narita at 18:30."
           ],
           "gallery": "cts-depart"
         }
@@ -1581,8 +1581,8 @@
         },
         "13": {
           "tips": [
-            "Take the gear out of the daily storage at 10:45.",
-            "Return everything by about 12:25, then walk to lunch."
+            "Take the gear out of the daily storage at 10:00.",
+            "Return everything by about 15:15, then drive to Sapporo."
           ]
         }
       }
@@ -1639,13 +1639,14 @@
         },
         "13": {
           "experience": {
-            "hook": "A last morning on the snow before the drift course.",
+            "hook": "Aoki's second day on skis, all day, before the road to Sapporo.",
             "moments": [
-              "Take the gear out of storage and buy a short ticket.",
-              "Ski together on the Ace Family area until 12:15.",
+              "Take the gear out of storage and buy a 1-day ticket.",
+              "Morning on the Ace Family area: Aoki practises turns and stopping.",
+              "After lunch, ski longer easy runs together if Aoki feels ready.",
               "Look back at Mt Yotei from the top of the lift."
             ],
-            "tip": "Stop at 12:15: you return the gear and drive to Rusutsu after lunch."
+            "tip": "Stop at 15:00: you return the gear and drive to Sapporo while it is still light."
           }
         }
       }
@@ -3256,7 +3257,7 @@
         },
         {
           "label": "Rent",
-          "value": "Thu Jan 28 about 14:00 → Mon Feb 1 about 10:30, at New Chitose Airport"
+          "value": "Thu Jan 28 about 14:15 → Mon Feb 1 about 10:30, at New Chitose Airport"
         },
         {
           "label": "Price",
@@ -3290,7 +3291,7 @@
           ]
         },
         "15": {
-          "blurb": "Return the Subaru WRX STI at the airport at about 10:30, with a full tank, then walk to the Peach counter.",
+          "blurb": "Return the Subaru WRX STI at the airport at about 10:30, with a full tank, then walk to the ANA counter.",
           "tips": [
             "Fill the tank at a stand near the airport and keep the receipt.",
             "Take photos of the car when you return it.",
@@ -4959,11 +4960,11 @@
       "title": "Ryokan breakfast, airport bus from Nara, fly Itami → New Chitose, drive to Kutchan and Niseko",
       "titleJa": "江戸三 → 伊丹空港 → 新千歳空港 → 倶知安 → ニセコ",
       "romaji": "Edosan → Itami → Shin-Chitose → Kutchan → Niseko",
-      "summary": "Breakfast at the ryokan, one airport bus from JR Nara to Itami and a JAL flight north. The Subaru WRX STI at about 14:00 and the drive to Kutchan, the last part after dark: ski gloves, goggles and a ramen dinner in Kutchan, then 20 minutes to the container house in Niseko town.",
+      "summary": "Breakfast at the ryokan, one airport bus from JR Nara to Itami and an ANA flight north. The Subaru WRX STI at about 14:15 and the drive to Kutchan, the last part after dark: ski gloves, goggles and a ramen dinner in Kutchan, then 20 minutes to the container house in Niseko town.",
       "temp": "−9 – −2 °C",
       "alerts": [
         "Taxi from Edosan at about 08:55 for the 09:15 airport bus at JR Nara (East exit, stop 4).",
-        "You reach Kutchan at about 16:45, after dark: drive slowly on snow. Leave the airport by 14:30 for the Lake Shikotsu road; later, or if it snows, take Route 5 via Otaru."
+        "You reach Kutchan at about 17:00, after dark: drive slowly on snow. Leave the airport by 14:45 for the Lake Shikotsu road; later, or if it snows, take Route 5 via Otaru."
       ],
       "stops": [
         {
@@ -4974,36 +4975,36 @@
         {
           "place": "itami",
           "time": "10:46",
-          "note": "JAL 11:45 → New Chitose 13:30 (North Terminal). Buy a bento or onigiri for lunch at the gate."
+          "note": "ANA NH1089 11:55 → New Chitose 13:45 (South Terminal). Buy a bento or onigiri for lunch at the gate."
         },
         {
           "place": "cts",
-          "time": "13:30",
+          "time": "13:45",
           "note": "Land; take the bags."
         },
         {
           "place": "hayaku-cts",
-          "time": "14:00",
+          "time": "14:15",
           "note": "Meet HAYAKU RENT A CAR (place agreed by email); check the car, tyres and ETC, 20 min."
         },
         {
           "place": "sports-takiguchi",
-          "time": "16:45",
+          "time": "17:00",
           "note": "Buy ski gloves and goggles for both (≈ ¥6,000–10,000 each), 30 min. Open to 19:00 on weekdays (Thursday)."
         },
         {
           "place": "nakama-ramen-kutchan",
-          "time": "17:25",
+          "time": "17:40",
           "note": "Dinner: local ramen, 40 min."
         },
         {
           "place": "seicomart",
-          "time": "18:15",
+          "time": "18:30",
           "note": "Buy tomorrow's breakfast, 15 min."
         },
         {
           "place": "niseko-container",
-          "time": "18:50",
+          "time": "19:05",
           "note": "Check in (check-in until 21:00)."
         }
       ],
@@ -5012,15 +5013,15 @@
           "from": "edosan",
           "to": "itami",
           "mode": "bus",
-          "label": "Taxi to JR Nara East exit (ask the ryokan to call one, about 10 min, ≈ ¥1,000); Nara Kotsu airport bus, JR Nara 09:15 → Itami North Terminal (JAL) 10:46 (¥1,750)",
+          "label": "Taxi to JR Nara East exit (ask the ryokan to call one, about 10 min, ≈ ¥1,000); Nara Kotsu airport bus, JR Nara 09:15 → Itami South Terminal (ANA) about 10:46 (¥1,750)",
           "duration": "1 h 50"
         },
         {
           "from": "itami",
           "to": "cts",
           "mode": "flight",
-          "label": "JAL, Itami 11:45 → New Chitose 13:30",
-          "duration": "1 h 45"
+          "label": "ANA NH1089, Itami 11:55 → New Chitose 13:45",
+          "duration": "1 h 50"
         },
         {
           "from": "cts",
@@ -5062,7 +5063,7 @@
       "sleepNote": "Night 1 of 2 in the Niseko container house (2 double beds, own shower and toilet).",
       "notes": [
         "Take a 10-min break at Lake Shikotsu or Kimobetsu.",
-        "If you leave the car shop after 14:30 or it snows hard, drive via Sapporo and Otaru (Route 5), about 2 h 45.",
+        "If you leave the car shop after 14:45 or it snows hard, drive via Sapporo and Otaru (Route 5), about 2 h 45.",
         "Sunset in Kutchan is about 16:40.",
         "The container house is in Niseko town, 20 min south of Kutchan: you eat and shop in Kutchan on the way."
       ]
@@ -5174,49 +5175,48 @@
       "date": "2027-01-30",
       "weekday": "土",
       "region": "hokkaido",
-      "short": "Ski, drift → Sapporo",
-      "cover": "rusutsu-drift",
-      "title": "Morning ski at Hirafu, Rusutsu snow drift course at 15:00, Nakayama Pass to Sapporo, Jingisukan",
-      "titleJa": "ニセコ グラン・ヒラフ → ルスツ 雪上ドリフト → 中山峠 → 札幌",
-      "romaji": "Niseko Gran Hirafu → Rusutsu → Nakayama-tōge → Sapporo",
-      "summary": "Check out with all the bags in the car, a last morning of skiing and lunch at Hirafu, then the snow drift course at Rusutsu. Over Nakayama Pass to Sapporo, the car in the hotel car park, and Jingisukan at Daruma for dinner.",
+      "short": "Ski all day → Sapporo",
+      "cover": "daruma",
+      "title": "A full ski day at Hirafu, Nakayama Pass to Sapporo, Jingisukan",
+      "titleJa": "ニセコ グラン・ヒラフ → 中山峠 → 札幌",
+      "romaji": "Niseko Gran Hirafu → Nakayama-tōge → Sapporo",
+      "summary": "Check out with all the bags in the car and ski together all day at Hirafu: Aoki's second day on skis, with lunch at the gondola base. Return the gear at 15:15, then drive over Nakayama Pass to Sapporo, put the car in the hotel car park, and eat Jingisukan at Daruma.",
       "temp": "−10 – −3 °C",
       "alerts": [
-        "Breath test before the drift course: no alcohol the night before.",
-        "Pegasis: licence + IDP + passport. Leave Rusutsu by 15:50.",
-        "Nakayama Pass after dark (sunset about 16:40): drive slowly. If the pass is closed or it snows hard, take Route 5 via Otaru (about 2 h 30).",
-        "Check out at 10:00 with all the bags in the car (Saturday: park at Hirafu lot 1)."
+        "Check out at 09:30 with all the bags in the car (Saturday: park at Hirafu lot 1).",
+        "Return the gear at .Base by 15:15 and leave Hirafu by 15:30.",
+        "Nakayama Pass at sunset (about 16:40): drive slowly. If the pass is closed or it snows hard, take Route 5 via Otaru (about 2 h 30)."
       ],
       "stops": [
         {
           "place": "niseko-container",
-          "time": "09:00",
-          "note": "Breakfast in the unit (Seicomart food); check out at 10:00."
+          "time": "08:30",
+          "note": "Breakfast in the unit (Seicomart food); check out at 09:30."
         },
         {
           "place": "hirafu-base",
-          "time": "10:45",
-          "note": "Take the gear out of storage; buy lift tickets."
+          "time": "10:00",
+          "note": "Take the gear out of storage; buy 1-day lift tickets."
         },
         {
           "place": "niseko",
-          "time": "11:00",
+          "time": "10:15",
           "note": "Ski together until 12:15 on the Ace Family area."
         },
         {
-          "place": "hirafu-base",
-          "time": "12:25",
-          "note": "Return all the rental gear."
-        },
-        {
           "place": "powderhood-hirafu",
-          "time": "12:40",
-          "note": "Lunch: burgers at the gondola base, 35 min; leave at 13:20."
+          "time": "12:20",
+          "note": "Lunch: burgers at the gondola base, 40 min."
         },
         {
-          "place": "rusutsu-drift",
-          "time": "14:25",
-          "note": "Check in at the Rusutsu Resort activity desk (open to 16:00). 15:00 Introduction Course: Pegasis drives 30 min with the instructor; Aoki in the back seat."
+          "place": "niseko",
+          "time": "13:05",
+          "note": "Afternoon runs together until 15:00; longer easy runs if Aoki feels ready."
+        },
+        {
+          "place": "hirafu-base",
+          "time": "15:05",
+          "note": "Return all the rental gear and change shoes; leave at 15:30."
         },
         {
           "place": "excel-tokyu-sapporo",
@@ -5234,7 +5234,7 @@
           "from": "niseko-container",
           "to": "hirafu-base",
           "mode": "drive",
-          "label": "Drive, Route 5 north, then Route 343 up to the Hirafu base car park (leave 10:00)",
+          "label": "Drive, Route 5 north, then Route 343 up to the Hirafu base car park (leave 09:30)",
           "duration": "25 min"
         },
         {
@@ -5246,6 +5246,20 @@
         },
         {
           "from": "niseko",
+          "to": "powderhood-hirafu",
+          "mode": "walk",
+          "label": "Ski down to ALPEN NODE at the gondola base",
+          "duration": "5 min"
+        },
+        {
+          "from": "powderhood-hirafu",
+          "to": "niseko",
+          "mode": "walk",
+          "label": "Walk back to the lifts",
+          "duration": "5 min"
+        },
+        {
+          "from": "niseko",
           "to": "hirafu-base",
           "mode": "walk",
           "label": "Walk down to .Base",
@@ -5253,24 +5267,10 @@
         },
         {
           "from": "hirafu-base",
-          "to": "powderhood-hirafu",
-          "mode": "walk",
-          "label": "Walk to ALPEN NODE at the gondola base",
-          "duration": "5 min"
-        },
-        {
-          "from": "powderhood-hirafu",
-          "to": "rusutsu-drift",
-          "mode": "drive",
-          "label": "Drive, Hirafu → Kutchan → Route 276 via Kyogoku and Kimobetsu → Route 230 to Rusutsu (41 km); leave by 13:30",
-          "duration": "50 min"
-        },
-        {
-          "from": "rusutsu-drift",
           "to": "excel-tokyu-sapporo",
           "mode": "drive",
-          "label": "Drive, Route 230 over Nakayama Pass → Jozankei → Sapporo (about 85 km), after dark from about 16:40; into the hotel car park",
-          "duration": "1 h 50"
+          "label": "Drive, Kutchan → Route 276 via Kyogoku and Kimobetsu → Route 230 over Nakayama Pass → Jozankei → Sapporo (about 100 km), into the hotel car park. 10-min break at Michi-no-eki Bōyō Nakayama at the top of the pass (about 16:30): hot age-imo (fried potato), shop open to 17:30.",
+          "duration": "2 h 15"
         },
         {
           "from": "excel-tokyu-sapporo",
@@ -5290,7 +5290,7 @@
       "sleep": "excel-tokyu-sapporo",
       "sleepNote": "Night 1 of 2 in Sapporo (Sapporo Excel Hotel Tokyu).",
       "notes": [
-        "Leave Hirafu at 13:30 at the latest; Saturday ski traffic."
+        "Leave Hirafu by 15:30: Saturday ski traffic, and most of the pass is still in daylight."
       ]
     },
     {
@@ -5402,7 +5402,7 @@
       "title": "Fly Sapporo → Narita together, last lunch, fly home from Narita",
       "titleJa": "札幌 → 新千歳空港 → 成田空港",
       "romaji": "Sapporo → Shin-Chitose Kūkō → Narita Kūkō",
-      "summary": "Breakfast, then the last drive: the expressway to New Chitose, the car back at the airport, and one Peach flight to Narita Terminal 1, the terminal of both flights home. Last shopping and an early dinner together at Narita, then Pegasis flies at 18:30 and Aoki at 19:30.",
+      "summary": "Breakfast, then the last drive: the expressway to New Chitose, the car back at the airport, and one ANA flight to Narita Terminal 1, the terminal of both flights home. Last shopping and an early dinner together at Narita, then Pegasis flies at 18:30 and Aoki at 19:30.",
       "temp": "−7 – −1 °C",
       "alerts": [
         "Fill the tank near the airport before you return the car.",
@@ -5423,16 +5423,16 @@
         {
           "place": "cts",
           "time": "11:15",
-          "note": "Peach counter (domestic terminal): bag drop. Lunch: buy a Hokkaido ekiben (boxed lunch) to eat on the plane."
+          "note": "ANA counter (domestic terminal): bag drop (closes 12:20). Lunch: buy a Hokkaido ekiben (boxed lunch) to eat on the plane."
         },
         {
           "place": "narita",
-          "time": "13:50",
-          "note": "Land at Terminal 1 (Peach MM576). Bag storage for the suitcases."
+          "time": "14:30",
+          "note": "Land at Terminal 1 (ANA NH2152). Bag storage for the suitcases."
         },
         {
           "place": "narita",
-          "time": "14:10",
+          "time": "14:50",
           "note": "Last shopping in T1: souvenirs, snacks, Japan-only goods; Pegasis weighs the suitcase."
         },
         {
@@ -5463,21 +5463,21 @@
           "from": "hayaku-cts",
           "to": "cts",
           "mode": "walk",
-          "label": "Walk to the Peach counter (domestic terminal)",
+          "label": "Walk to the ANA counter (domestic terminal)",
           "duration": "15 min"
         },
         {
           "from": "cts",
           "to": "narita",
           "mode": "flight",
-          "label": "Peach MM576, New Chitose 12:00 → Narita Terminal 1 13:50",
+          "label": "ANA NH2152, New Chitose 12:40 → Narita Terminal 1 14:30",
           "duration": "1 h 50"
         }
       ],
       "sleepNote": "No hotel: flights home.",
       "notes": [
         "You stay together until about 16:45: both flights home leave from Narita Terminal 1.",
-        "Backup: Peach MM574 11:10 → 13:00 (leave 09:15), or Jetstar GK110 12:45 → 14:30 (Terminal 3; free bus to T1, 14 min).",
+        "Snow at New Chitose: you are at the airport about 1 h 30 before the flight. If ANA cancels, ask for an earlier or the next ANA flight to Narita (or Haneda).",
         "Chinese New Year is Feb 6: Narita will be busy on Feb 1; keep 3 h for Aoki's check-in."
       ]
     }

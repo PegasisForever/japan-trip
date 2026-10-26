@@ -114,18 +114,35 @@
    ]
   },
   {
-   "id": "flights",
-   "name": "Flights (CA, WestJet, Peach)",
-   "notion": "https://app.notion.com/p/3f371da548b381869502c548979feed6",
+   "id": "flights-aoki",
+   "name": "Aoki: Air China",
+   "notion": "https://app.notion.com/p/3f371da548b381c59707d9f633691ceb",
    "at": [
     [1, "narita"],
+    [15, "narita"]
+   ]
+  },
+  {
+   "id": "flights-pegasis",
+   "name": "Pegasis: WestJet",
+   "notion": "https://app.notion.com/p/3f371da548b3816cb387d5180113a234",
+   "at": [
+    [1, "narita"],
+    [15, "narita"]
+   ]
+  },
+  {
+   "id": "flights-peach",
+   "name": "ANA to Narita (both)",
+   "notion": "https://app.notion.com/p/3f371da548b381869502c548979feed6",
+   "at": [
     [15, "cts"],
     [15, "narita"]
    ]
   },
   {
    "id": "jal",
-   "name": "JAL Itami → New Chitose",
+   "name": "ANA Itami → New Chitose",
    "notion": "https://app.notion.com/p/3f371da548b381748165cb33a5f8660b",
    "at": [
     [11, "itami"],
@@ -139,14 +156,6 @@
    "at": [
     [12, "hirafu-base"],
     [13, "hirafu-base"]
-   ]
-  },
-  {
-   "id": "rusutsu",
-   "name": "Rusutsu snow drift",
-   "notion": "https://app.notion.com/p/3f371da548b38164a6c9d3c1dc23cbda",
-   "at": [
-    [13, "rusutsu-drift"]
    ]
   },
   {
