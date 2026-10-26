@@ -2665,15 +2665,15 @@
       ]
     },
     {
-      "id": "super-hotel-nagoya",
+      "id": "the-b-nagoya",
       "ref": null,
-      "en": "Super Hotel Nagoya Tennen Onsen Shinkansen-guchi",
-      "ja": "天然温泉 名城金鯱の湯 スーパーホテル名古屋天然温泉 新幹線口",
-      "romaji": "Sūpā Hoteru Nagoya Tennen Onsen Shinkansen-guchi",
-      "lat": 35.17414,
-      "lon": 136.87904,
+      "en": "the b nagoya (Sakae)",
+      "ja": "the b 名古屋（ザビー なごや）",
+      "romaji": "Za Bī Nagoya",
+      "lat": 35.16681,
+      "lon": 136.90987,
       "kind": "hotel",
-      "blurb": "One night in Nagoya between Suzuka and Ghibli Park: a small twin with a hot-spring bath and a fresh-bread breakfast buffet, 7 min from Nagoya Station.",
+      "blurb": "One night in Nagoya between Suzuka and Ghibli Park: a superior twin (18–21 m², two 120 cm beds) in Sakae, 3 min from Sakae Station exit 13. Osu and Yabacho are close, and the Higashiyama Line goes straight to Fujigaoka for Ghibli Park.",
       "info": [
         {
           "label": "Night",
@@ -2681,19 +2681,28 @@
         },
         {
           "label": "Room",
-          "value": "Small twin, 12 m²: fine for one night with small bags"
+          "value": "Superior twin, 18–21 m², bath in the room; no breakfast in the price"
         },
         {
-          "label": "Breakfast",
-          "value": "Buffet 6:30–9:00"
+          "label": "Pay",
+          "value": "At check-in: ¥10,200 for the room"
+        },
+        {
+          "label": "Free",
+          "value": "Snacks in the 2F lobby 15:00–19:00 and coffee; a convenience store on the 1F"
         },
         {
           "label": "Access",
-          "value": "7 min on foot from Nagoya Station, Taiko-dori (Shinkansen) side"
+          "value": "Sakae Station (Higashiyama and Meijo lines) exit 13, 3 min on foot"
+        },
+        {
+          "label": "Phone",
+          "value": "052-241-1500"
         }
       ],
       "tips": [
-        "Your suitcases stay in the Osaka apartment tonight: bring one small bag each."
+        "Your suitcases stay in the Osaka apartment tonight: bring one small bag each.",
+        "Check-in time on the booking is 17:30: if you will be late, phone the hotel."
       ]
     },
     {
@@ -4524,7 +4533,7 @@
       "title": "Suzuka F1 track kart, Toyota museum, Osu and miso katsu, a night in Nagoya",
       "titleJa": "鈴鹿サーキット → トヨタ産業技術記念館 → 大須 → 矢場とん",
       "romaji": "Suzuka Sākitto → Toyota Sangyō Gijutsu Kinenkan → Ōsu → Yabaton",
-      "summary": "Most of the day at Suzuka Circuit park: the EV kart on the F1 track, the motorbike coasters, the Honda F1 gallery and the ferris wheel over the track. A short hour at the Toyota museum before it closes, then a small Nagoya hotel with a hot-spring bath, the Osu shopping streets and miso katsu at the main shop.",
+      "summary": "Most of the day at Suzuka Circuit park: the EV kart on the F1 track, the motorbike coasters, the Honda F1 gallery and the ferris wheel over the track. A short hour at the Toyota museum before it closes, then a twin room in Sakae, the Osu shopping streets and miso katsu at the main shop.",
       "temp": "1 – 9 °C",
       "alerts": [
         "Leave the hotel at 09:15: the kart runs only about 12:00–13:15.",
@@ -4553,9 +4562,9 @@
           "note": "Looms to cars, robot demos, 1 h: go straight to the car hall (Aoki's pick). Last entry 16:30, closes 17:00."
         },
         {
-          "place": "super-hotel-nagoya",
-          "time": "17:30",
-          "note": "Check in and drop the small bags, 15 min."
+          "place": "the-b-nagoya",
+          "time": "17:35",
+          "note": "Check in, pay ¥10,200 and drop the small bags, 15 min."
         },
         {
           "place": "osu",
@@ -4599,17 +4608,17 @@
         },
         {
           "from": "toyota-museum",
-          "to": "super-hotel-nagoya",
+          "to": "the-b-nagoya",
           "mode": "train",
-          "label": "Meitetsu Nagoya Line, Sako about 17:05 → Meitetsu-Nagoya 17:07; walk through the station to the Taiko-dori (Shinkansen) side and on to the hotel, 15 min",
-          "duration": "25 min"
+          "label": "Meitetsu Nagoya Line, Sako about 17:05 → Meitetsu-Nagoya 17:07; walk to the subway; Higashiyama Line, Nagoya → Sakae (5 min); exit 13, walk 3 min",
+          "duration": "30 min"
         },
         {
-          "from": "super-hotel-nagoya",
+          "from": "the-b-nagoya",
           "to": "osu",
           "mode": "train",
-          "label": "Walk to Nagoya Station (7 min); Higashiyama Line, Nagoya → Fushimi (2 min); Tsurumai Line, Fushimi → Osu Kannon (3 min); walk 3 min",
-          "duration": "25 min"
+          "label": "Walk to Sakae Station (3 min); Meijo Line, Sakae → Kamimaezu (3 min); walk 5 min into the Osu streets",
+          "duration": "15 min"
         },
         {
           "from": "osu",
@@ -4620,14 +4629,14 @@
         },
         {
           "from": "yabaton-yabacho",
-          "to": "super-hotel-nagoya",
-          "mode": "train",
-          "label": "Meijo Line, Yabacho → Sakae (2 min); Higashiyama Line, Sakae → Nagoya (5 min); walk 7 min",
-          "duration": "25 min"
+          "to": "the-b-nagoya",
+          "mode": "walk",
+          "label": "Walk north along Otsu-dori to Sakae",
+          "duration": "10 min"
         }
       ],
-      "sleep": "super-hotel-nagoya",
-      "sleepNote": "One night in Nagoya: hot-spring bath, breakfast buffet from 6:30.",
+      "sleep": "the-b-nagoya",
+      "sleepNote": "One night in Nagoya: the b nagoya in Sakae, a superior twin.",
       "notes": [
         "Suzuka on Jan 24: 10:00–17:00, entry ¥2,200 (official calendar, checked Sep 26, 2026). The park is closed Jan 26–29.",
         "After dinner, tebasaki chicken wings in Sakae (Yamachan or Furaibo) if you are still hungry.",
@@ -4644,16 +4653,16 @@
       "title": "Ghibli Park all day, then the Nozomi back to Osaka and kushikatsu",
       "titleJa": "ジブリパーク → 名古屋駅 → 新大阪 → 道頓堀",
       "romaji": "Jiburi Pāku → Nagoya-eki → Shin-Ōsaka → Dōtonbori",
-      "summary": "A hotel breakfast, then the subway and the Linimo to Ghibli Park: Totoro's house, the Grand Warehouse and Kiki's town. A Nozomi back to Osaka in the evening, back to the apartment, and kushikatsu in Dotonbori.",
+      "summary": "Breakfast in Sakae, then the subway and the Linimo to Ghibli Park: Totoro's house, the Grand Warehouse and Kiki's town. A Nozomi back to Osaka in the evening, back to the apartment, and kushikatsu in Dotonbori.",
       "temp": "0 – 9 °C",
       "alerts": [
         "The Grand Warehouse has a set entry time on your ticket: keep to it."
       ],
       "stops": [
         {
-          "place": "super-hotel-nagoya",
-          "time": "07:45",
-          "note": "Breakfast buffet, 30 min; check out."
+          "place": "the-b-nagoya",
+          "time": "08:00",
+          "note": "Breakfast: the hotel buffet (¥1,540 each) or the 1F convenience store, 30 min; check out."
         },
         {
           "place": "ghibli-park",
@@ -4673,10 +4682,10 @@
       ],
       "legs": [
         {
-          "from": "super-hotel-nagoya",
+          "from": "the-b-nagoya",
           "to": "ghibli-park",
           "mode": "train",
-          "label": "Walk to Nagoya Station (7 min); Higashiyama Line, Nagoya about 08:50 → Fujigaoka 09:18; Linimo, Fujigaoka → Ai-Chikyuhaku-Kinen-Koen (13 min); walk 5 min",
+          "label": "Walk to Sakae Station (3 min); Higashiyama Line, Sakae about 08:55 → Fujigaoka 09:18 (no change); Linimo, Fujigaoka → Ai-Chikyuhaku-Kinen-Koen (13 min); walk 5 min",
           "duration": "1 h"
         },
         {
