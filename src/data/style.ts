@@ -38,7 +38,7 @@ export const REGION: Record<Region, { en: string; ja: string; color: string }> =
   tokyo: { en: 'Tokyo & Kawasaki', ja: '東京・川崎', color: '#e8538f' },
   fuji: { en: 'Hakone & Mt Fuji', ja: '箱根・富士山', color: '#4f8df5' },
   chubu: { en: 'Central Japan', ja: '中部', color: '#e0913a' },
-  kansai: { en: 'Kyoto, Nara & Osaka', ja: '関西', color: '#a86ee0' },
+  kansai: { en: 'Nara & Osaka', ja: '関西', color: '#a86ee0' },
   tohoku: { en: 'Tohoku', ja: '東北', color: '#2fbf7a' },
   hokkaido: { en: 'Hokkaido', ja: '北海道', color: '#27b5d6' },
 }
