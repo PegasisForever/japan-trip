@@ -23,7 +23,7 @@ export default defineConfig({
       manifest: {
         name: 'Yukimichi 雪道',
         short_name: 'Yukimichi',
-        description: 'Pegasis and Aoki: 15 days in Japan, January 2027',
+        description: 'Pegasis and Aoki: 15 days in Japan, 18 Jan – 1 Feb 2027',
         theme_color: '#12263a',
         background_color: '#12263a',
         display: 'standalone',

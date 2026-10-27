@@ -7,6 +7,8 @@ import './shared/base.css'
 import Root from './Root'
 import './pwa'
 
+// Framework7.use registers a plugin. It is not a React hook.
+// oxlint-disable-next-line react/rules-of-hooks
 Framework7.use(Framework7React)
 
 createRoot(document.getElementById('root')!).render(

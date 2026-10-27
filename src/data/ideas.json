@@ -3991,42 +3991,6 @@
   "area": "deals-transport"
  },
  {
-  "id": "deal-sapporo-narita-lcc",
-  "kind": "addon",
-  "category": "deal",
-  "title": "Sapporo to Narita on LCC",
-  "titleJa": "新千歳→成田（ジェットスター／Peach）",
-  "summary": "For Pegasis on Feb 1, Jetstar and Peach fly New Chitose→Narita from about ¥5,000. The JAL Japan Explorer Pass is the backup if you want a bag included.",
-  "why": "LCC fares are about ¥10,000+ less than a normal full-service fare; note ANA's visitor fare no longer exists.",
-  "days": [
-   14
-  ],
-  "duration": "1 h 40 min",
-  "cost": "Jetstar from ¥5,490 / low fares ~¥5,640 (plus bag fee) vs JAL Japan Explorer Pass (visitors only, price shown only in search) vs normal ANA/JAL fares ¥15,000+",
-  "winter": "check",
-  "winterNote": "ANA's visitor fare (Experience/Discover JAPAN) ended May 18, 2026. JAL Explorer Pass: you must live outside Japan and hold an international ticket; no changes, no refunds. LCC base fares have no checked bag; ski bags cost extra. Snow delays are common at New Chitose in late January.",
-  "lat": 42.78679,
-  "lon": 141.68296,
-  "photoQuery": "New Chitose Airport Jetstar Japan",
-  "sources": [
-   "https://www.jetstar.com/jp/ja/help/flight-schedules",
-   "https://www.airtrip.jp/flight/CTS/NRT/",
-   "https://watabi.org/en/articles/japan-domestic-flight-fares-guide",
-   "https://www.jal.co.jp/egl/en/world/japan_explorer_pass/lp/"
-  ],
-  "experience": {
-   "hook": "Last hop to Narita for the price of a lunch set.",
-   "moments": [
-    "Sign up for Jetstar and Peach sale emails; both run domestic sales several times a year.",
-    "Book CTS→NRT for Feb 1 with one checked bag added (compare total with JAL Explorer Pass).",
-    "Take JR from Sapporo to New Chitose (~40 min).",
-    "Land at Narita T3/T1 and walk or bus to Toyoko Inn Narita Airport."
-   ],
-   "tip": "Jetstar and Peach use Narita Terminal 3; allow time to reach the hotel shuttle."
-  },
-  "area": "deals-transport"
- },
- {
   "id": "xhs-hokkaido-winter-driving-rules",
   "area": "deals-xhs-1",
   "kind": "addon",

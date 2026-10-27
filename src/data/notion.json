@@ -132,7 +132,7 @@
    ]
   },
   {
-   "id": "flights-peach",
+   "id": "flights-ana-narita",
    "name": "ANA to Narita (both)",
    "notion": "https://app.notion.com/p/3f371da548b381869502c548979feed6",
    "at": [
@@ -141,7 +141,7 @@
    ]
   },
   {
-   "id": "jal",
+   "id": "flights-ana-itami",
    "name": "ANA Itami → New Chitose",
    "notion": "https://app.notion.com/p/3f371da548b381748165cb33a5f8660b",
    "at": [

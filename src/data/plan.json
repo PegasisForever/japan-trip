@@ -963,7 +963,7 @@
         },
         {
           "label": "Price",
-          "value": "Twin on the official site: Sat Jan 23 ¥29,340 (Sep 27, 2026); Jan 25–26 not checked (about ¥20,000 a night). Only 12 twins + 7 compact twins: book early"
+          "value": "Twin on the official site: Sat Jan 23 ¥29,340 (Sep 27, 2026); Jan 25–26 not checked (about ¥20,000 a night). Only 12 twins + 7 compact twins"
         },
         {
           "label": "Free",
@@ -1420,16 +1420,14 @@
         },
         {
           "label": "Car",
-          "value": "Ask for 4WD (e.g. Corolla Cross / Yaris Cross 4WD)"
+          "value": "4WD (for example Corolla Cross / Yaris Cross 4WD)"
         },
         {
           "label": "One-way",
-          "value": "Allowed inside Hokkaido; fee not checked (small, check when you book)"
+          "value": "Allowed inside Hokkaido; fee not checked"
         }
       ],
       "tips": [
-        "Book now (6 months ahead): late-January 4WD cars sell out.",
-        "Give your flight number when you book: the shuttle needs it.",
         "Skis fit inside a small SUV; the ski gear is rented at Hirafu anyway."
       ]
     },
@@ -1727,7 +1725,7 @@
       "lat": 43.06815,
       "lon": 141.35737,
       "kind": "car",
-      "blurb": "Return the Hokkaido car here, 6 min on foot from JR Sapporo Station (east side, across Soseigawa-dori).",
+      "blurb": "A Toyota Rent a Car shop 6 min on foot from JR Sapporo Station (east side, across Soseigawa-dori).",
       "info": [
         {
           "label": "Hours",
@@ -1737,9 +1735,6 @@
           "label": "Address",
           "value": "Kita 5-jo Higashi 1-chome 2-4, Chuo-ku"
         }
-      ],
-      "tips": [
-        "Fill the tank before you return the car."
       ]
     },
     {
@@ -1765,9 +1760,6 @@
           "label": "Laundry",
           "value": "Coin laundry in the hotel (Route Inn standard)"
         }
-      ],
-      "tips": [
-        "Book the early-bird plan by about Jan 4."
       ]
     },
     {
@@ -2828,8 +2820,7 @@
         }
       ],
       "tips": [
-        "Tell the hotel you arrive about 17:45 and want dinner at 18:30.",
-        "A no-view twin with breakfast only was ¥14,200, if you want to save more."
+        "Tell the hotel you arrive about 17:45 and want dinner at 18:30."
       ]
     },
     {
@@ -2895,7 +2886,6 @@
     {
       "ref": null,
       "tips": [
-        "Phone early to reserve the parking space for the night of Jan 21.",
         "No breakfast in the hotel: Blue Bottle opens at 8:00, 12 min on foot; konbini are closer."
       ],
       "info": [
@@ -2905,7 +2895,7 @@
         },
         {
           "label": "Price",
-          "value": "Standard twin, room only, 4 nights: ¥86,960 (best rate) or ¥78,320 (early-bird, no refund from 27 days before) (Rakuten, Sep 28, 2026)"
+          "value": "Standard twin, room only, 4 nights: ¥86,960 (Rakuten, Sep 28, 2026)"
         },
         {
           "label": "Room",

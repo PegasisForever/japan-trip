@@ -1,6 +1,6 @@
 # Yukimichi 雪道
 
-An interactive map of a 15-day winter trip, Tokyo → Sapporo, 19 Jan – 2 Feb 2027.
+An interactive map of a 15-day winter trip, Tokyo → Osaka → Hokkaido, 18 Jan – 1 Feb 2027.
 Satellite map, real driving routes, real Shinkansen track lines, photos and details for every stop.
 
 ## Run it
@@ -15,12 +15,12 @@ npm run build      # static site in dist/
 
 | What | File |
 |---|---|
-| Day-by-day plan | `src/data/days.ts` |
-| Places (names in Japanese as on signs, coordinates, tips) | `src/data/trip.ts`, `src/data/anime.ts` |
-| Trip summary, budget | `trip` in `src/data/trip.ts` |
+| Day-by-day plan, places, and the trip summary | `src/data/plan.json` |
+| Loading the plan (places, photos, routes) | `src/data/plan.ts` |
+| Dates, stays, and place helpers | `src/data/trip.ts` |
 | Links to the Notion trip page: day pages and the booking list (what to book, and for which day and place) | `src/data/notion.json` |
-| Route lines (generated) | `src/data/routes.json` |
-| Photo credits (generated) | `src/data/photos.json`, photos in `public/photos/` |
+| Route lines (generated) | `src/data/planRoutes.json` |
+| Photo credits (generated) | `src/data/photos.json`, `src/data/gallery.json`, photos in `public/photos/` |
 
 ## Notion
 
@@ -35,7 +35,7 @@ the planned budget, the flights, who wanted what, and why places were left out.
 
 ```sh
 cd scripts
-python3 routes.py            # after you change legs in days.ts (uses OSRM + OpenStreetMap)
+python3 plan_routes.py       # after you change legs in src/data/plan.json (uses OSRM + OpenStreetMap)
 python3 cands.py <place-id>  # find photo candidates on Wikimedia Commons
 python3 sheet.py out.jpg <place-id>...   # contact sheet to choose from
 # set the chosen index in picks.json, then:
