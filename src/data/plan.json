@@ -2782,12 +2782,20 @@
           "value": "Weekdays 10:00–17:00"
         },
         {
+          "label": "Booked",
+          "value": "O-Sanpo Day Pass Standard, 2 adults, Mon Jan 25, entry 11:00 (enter within 1 hour; no early entry). Premium was sold out. Non-refundable, no changes."
+        },
+        {
+          "label": "Price",
+          "value": "¥6,820 for both (¥3,300 + ¥110 system fee each)"
+        },
+        {
           "label": "Access",
           "value": "Higashiyama Line to Fujigaoka, Linimo to Ai-Chikyuhaku-Kinen-Koen, about 1 h from Nagoya Station"
         }
       ],
       "tips": [
-        "The Grand Warehouse has a set entry time on the ticket: plan the day around it.",
+        "Entry slot is 11:00: enter within 1 hour; no early entry. Bring the passport of the person who booked; everyone enters together.",
         "Hot food at the Valley of Witches stalls for lunch."
       ]
     },
@@ -4647,7 +4655,7 @@
       "summary": "Breakfast in Sakae, then the subway and the Linimo to Ghibli Park: Totoro's house, the Grand Warehouse and Kiki's town. A Nozomi back to Osaka in the evening, back to the apartment, and kushikatsu in Dotonbori.",
       "temp": "0 – 9 °C",
       "alerts": [
-        "The Grand Warehouse has a set entry time on your ticket: keep to it."
+        "Ghibli Park entry is 11:00: enter within 1 hour of the slot; no early entry."
       ],
       "stops": [
         {
@@ -4657,8 +4665,8 @@
         },
         {
           "place": "ghibli-park",
-          "time": "10:00",
-          "note": "Premium pass: the Grand Warehouse, Satsuki and Mei's house, the Valley of Witches, Mononoke Village and the Hill of Youth; lunch at the park (Aoki's pick)."
+          "time": "11:00",
+          "note": "Booked: O-Sanpo Day Pass Standard, entry 11:00 (Premium was sold out). Lunch at the park (Aoki's pick)."
         },
         {
           "place": "kuromon-apt",
@@ -4676,7 +4684,7 @@
           "from": "the-b-nagoya",
           "to": "ghibli-park",
           "mode": "train",
-          "label": "Walk to Sakae Station (3 min); Higashiyama Line, Sakae about 08:55 → Fujigaoka 09:18 (no change); Linimo, Fujigaoka → Ai-Chikyuhaku-Kinen-Koen (13 min); walk 5 min",
+          "label": "Walk to Sakae Station (3 min); Higashiyama Line, Sakae about 09:55 → Fujigaoka 10:18 (no change); Linimo, Fujigaoka → Ai-Chikyuhaku-Kinen-Koen (13 min); walk 5 min",
           "duration": "1 h"
         },
         {
